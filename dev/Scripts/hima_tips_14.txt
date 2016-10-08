@@ -259,6 +259,7 @@
 
 
 //「古手さんのカレーは大変、見事です＠先生、花マルをあげちゃいます！＠
+	PlaySE(4, "S20/22/441400003", 128, 64);
 	OutputLine(NULL, "「古手さんのカレーは大変、見事です。",
 		   NULL, "\"Furude-san's curry is absolutely splendid.", Line_WaitForInput);
 	OutputLine(NULL, "先生、花マルをあげちゃいます！」",
@@ -267,12 +268,14 @@
 
 
 //「……にぱ～☆＠
+	PlaySE(4, "S20/05/440500035", 128, 64);
 	OutputLine(NULL, "「……にぱ〜☆」",
 		   NULL, "\"......Nipah~☆.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「古手さんはお料理を誰に習いましたか＠　やっぱりお家で？＠
+	PlaySE(4, "S20/22/441400004", 128, 64);
 	OutputLine(NULL, "「古手さんはお料理を誰に習いましたか？",
 		   NULL, "\"Where did you learn to cook, Furude-san?", Line_WaitForInput);
 	OutputLine(NULL, "　やっぱりお家で？」",
@@ -281,6 +284,7 @@
 
 
 //「……はい＠お家なのですよ。￥
+	PlaySE(4, "S20/10/VTK1_irie1010", 128, 64);
 	OutputLine(NULL, "「……はい。",
 		   NULL, "\"......Yes.", Line_WaitForInput);
 	OutputLine(NULL, "お家なのですよ。」",

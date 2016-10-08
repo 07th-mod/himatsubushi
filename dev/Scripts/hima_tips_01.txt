@@ -15,10 +15,13 @@
 		   NULL, "\"...Oh really?", Line_WaitForInput);
 	OutputLine(NULL, "急な出張は大変ですね…。",
 		   NULL, " It's tough when it's such a sudden assignment...", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44002", 128, 64);
 	OutputLine(NULL, "どうぞお気をつけて。",
 		   NULL, " Please be careful.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44003", 128, 64);
 	OutputLine(NULL, "出張はどちらへですか？",
 		   NULL, " Where are you headed?", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44004", 128, 64);
 	OutputLine(NULL, "　もう出張先なんですか？」",
 		   NULL, " You're already there?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -68,16 +71,19 @@
 
 
 //「…ごめんなさい＠言ってはいけない規則でしたね…＠どうかお気をつけて。￥
+	PlaySE(4, "S20/00/yukie44005", 128, 64);
 	OutputLine(NULL, "「…ごめんなさい。",
 		   NULL, "\"...Sorry.", Line_WaitForInput);
 	OutputLine(NULL, "言ってはいけない規則でしたね…。",
 		   NULL, " It's something that you can't talk about, isn't it...", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44006", 128, 64);
 	OutputLine(NULL, "どうかお気をつけて。」",
 		   NULL, " Please be careful.\"", Line_Normal);
 	ClearMessage();
 
 
 //「………すまん、雪絵。＠
+	PlaySE(4, "S20/13/441300002", 128, 64);
 	OutputLine(NULL, "「………すまん、雪絵。」",
 		   NULL, "\"...Sorry, Yukie.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -86,6 +92,7 @@
 	PlayBGM( 1, "msysRe", 128, 0 );
 
 //「…あなたはいつの頃から、すぐに謝られるようになったんでしょう＠今のお仕事に就かれた最初は、あれだけ溌剌と充実しておられたのに＠…くすくす。＠
+	PlaySE(4, "S20/00/yukie44007", 128, 64);
 	OutputLine(NULL, "「…あなたはいつの頃から、すぐに謝られるようになったんでしょう。",
 		   NULL, "\"...At some point, you started apologizing right away.", Line_WaitForInput);
 	OutputLine(NULL, "今のお仕事に就かれた最初は、あれだけ溌剌と充実しておられたのに。",
@@ -110,6 +117,7 @@
 
 
 //「…私が入院してもうずいぶんになりますものね＠あなたもそろそろ寂しくなってきましたか…？＠
+	PlaySE(4, "S20/00/yukie44009", 128, 64);
 	OutputLine(NULL, "「…私が入院してもうずいぶんになりますものね。",
 		   NULL, "\"...It's already been quite a while since I was admitted to the hospital.", Line_WaitForInput);
 	OutputLine(NULL, "あなたもそろそろ寂しくなってきましたか…？」",
@@ -119,6 +127,7 @@
 
 
 //「か、からかうなよ＠寂しがるような歳じゃないさ…。￥
+	PlaySE(4, "S20/13/441300003", 128, 64);
 	OutputLine(NULL, "「か、からかうなよ。",
 		   NULL, "\"D-Don't tease me.", Line_WaitForInput);
 	OutputLine(NULL, "寂しがるような歳じゃないさ…。」",
@@ -127,10 +136,12 @@
 
 
 //「…くすくす、さてさていかがでしょう＠　あなたは本当に甘えん坊さんですからね…＠私と一緒でないと、だんだん弱気になってきてしまうのでしょう…＠　くすくすくす。＠
+	PlaySE(4, "S20/00/yukie44010", 128, 64);
 	OutputLine(NULL, "「…くすくす、さてさていかがでしょう？",
 		   NULL, "\"...Hee hee. Oh really?", Line_WaitForInput);
 	OutputLine(NULL, "　あなたは本当に甘えん坊さんですからね…。",
 		   NULL, " You actually like to be doted on, don't you...?", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44011", 128, 64);
 	OutputLine(NULL, "私と一緒でないと、だんだん弱気になってきてしまうのでしょう…？",
 		   NULL, " Don't you start getting a little faint of heart when I'm not around?", Line_WaitForInput);
 	OutputLine(NULL, "　くすくすくす。」",
@@ -140,22 +151,27 @@
 
 
 //「……あぁ、もぅ…＠今、雪絵の頭に小悪魔の角がにょっきりと生えているのが目に浮かぶよ…＠君は昔から、￥
+	PlaySE(4, "S20/13/441300004", 128, 64);
 	OutputLine(NULL, "「……あぁ、もぅ…。",
 		   NULL, "\"...Aww, geez...", Line_WaitForInput);
 	OutputLine(NULL, "今、雪絵の頭に小悪魔の角がにょっきりと生えているのが目に浮かぶよ…。",
 		   NULL, " I can see the little devil horns sprouting from your head right now...", Line_WaitForInput);
+	PlaySE(4, "S20/13/441300005", 128, 64);
 	OutputLine(NULL, "君は昔から、」",
 		   NULL, " You've always been like this.\"", Line_Normal);
 	ClearMessage();
 
 
 //「…はぐらかさない、はぐらかさない＠私にかまってもらえなくて、寂しい寂しい～って＠あなたがシッポを振っている音が、受話器を通しても聞こえてきますよ＠くすくすくす……。￥
+	PlaySE(4, "S20/00/yukie44013", 128, 64);
 	OutputLine(NULL, "「…はぐらかさない、はぐらかさない。",
 		   NULL, "\"...You can't hide it, you can't hide it.", Line_WaitForInput);
 	OutputLine(NULL, "私にかまってもらえなくて、寂しい寂しい〜って。",
 		   NULL, " If I don't play with you, you get aaaallll lonely.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44014", 128, 64);
 	OutputLine(NULL, "あなたがシッポを振っている音が、受話器を通しても聞こえてきますよ。",
 		   NULL, " I can hear your tail wagging over the phone.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44015", 128, 64);
 	OutputLine(NULL, "くすくすくす……。」",
 		   NULL, " Hee hee hee...\"", Line_Normal);
 	ClearMessage();
@@ -184,6 +200,7 @@
 
 
 //「…くすくすくす＠あなたを困らせるのが、こんなに楽しいと気付いたのはいつからだったでしょうねぇ…。＠
+	PlaySE(4, "S20/00/yukie44016", 128, 64);
 	OutputLine(NULL, "「…くすくすくす。",
 		   NULL, "\"...Hee hee hee.", Line_WaitForInput);
 	OutputLine(NULL, "あなたを困らせるのが、こんなに楽しいと気付いたのはいつからだったでしょうねぇ…。」",
@@ -193,6 +210,7 @@
 
 
 //「そろそろ許してくれよ…＠…とにかく、君の元気な声が聞けてよかった。＠
+	PlaySE(4, "S20/13/441300006", 128, 64);
 	OutputLine(NULL, "「そろそろ許してくれよ…。",
 		   NULL, "\"Give me a break...", Line_WaitForInput);
 	OutputLine(NULL, "…とにかく、君の元気な声が聞けてよかった。」",
@@ -201,6 +219,7 @@
 
 
 //「…そうでしょう＠　…元気になれましたか？￥
+	PlaySE(4, "S20/00/yukie44017", 128, 64);
 	OutputLine(NULL, "「…そうでしょう？",
 		   NULL, "\"...I know, right?", Line_WaitForInput);
 	OutputLine(NULL, "　…元気になれましたか？」",
@@ -223,18 +242,22 @@
 	ClearMessage();
 
 //「……………うん。￥
+	PlaySE(4, "S20/13/441300007", 128, 64);
 	OutputLine(NULL, "「……………うん。」",
 		   NULL, "\"...Yeah.\"", Line_Normal);
 	ClearMessage();
 
 
 //「また、電話をしてくださいな…＠私がだめな時はお父さんが相手をしてくれるでしょう＠…もっとも、お父さんが相手では、あなたのことだから、電話先でも直立不動でしゃべっていそう＠くすくすくす…。￥
+	PlaySE(4, "S20/00/yukie44018", 128, 64);
 	OutputLine(NULL, "「また、電話をしてくださいな…。",
 		   NULL, "\"Please phone again...", Line_WaitForInput);
 	OutputLine(NULL, "私がだめな時はお父さんが相手をしてくれるでしょう。",
 		   NULL, " When I'm not feeling up to it, I'll get my father to talk with you.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44019", 128, 64);
 	OutputLine(NULL, "…もっとも、お父さんが相手では、あなたのことだから、電話先でも直立不動でしゃべっていそう。",
 		   NULL, " ...Although, if you're talking with my father, I get the feeling that you'd be standing at attention on the other side of the line.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44020", 128, 64);
 	OutputLine(NULL, "くすくすくす…。」",
 		   NULL, " Hee hee hee.\"", Line_Normal);
 	ClearMessage();

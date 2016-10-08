@@ -184,6 +184,7 @@
 //　…大丈夫、どっちも損なものは入っていないから＠…ほら￥
 	OutputLine(NULL, "　…大丈夫、どっちも損なものは入っていないから。",
 		   NULL, "...It's all right, you won't lose anything by picking either one.", Line_WaitForInput);
+	PlaySE(4, "S02/02/130200208", 128, 64);
 	OutputLine(NULL, "…ほら。",
 		   NULL, " ...Come on now.", Line_Normal);
 	ClearMessage();
@@ -361,6 +362,7 @@ void hima_tips_09_c()
 
 
 //　そりゃそうよね＠
+	PlaySE(4, "S15/05/DS42050227", 128, 64);
 	OutputLine(NULL, "　そりゃそうよね。",
 		   NULL, "Well that's only natural.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
