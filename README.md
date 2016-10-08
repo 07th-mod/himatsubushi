@@ -10,30 +10,17 @@ Old collaborators welcome to join the repository, however it's still preferred t
 
 >Bold lines mean "in progress"
 
-- [ ] omake_03.txt
 - [ ] hima_001.txt
 - [ ] hima_002.txt
+- [ ] hima_002_02.txt
+- [ ] hima_002_03.txt
 - [ ] hima_003.txt
+- [ ] hima_003_02.txt
+- [ ] hima_003_03.txt
+- [ ] hima_003_04.txt
+- [ ] hima_003_05.txt
 - [ ] hima_004.txt
-- [ ] hima_005.txt
-- [ ] hima_008.txt
-- [ ] hima_008_02.txt
-- [ ] hima_009.txt
-- [ ] hima_009_02.txt
-- [ ] hima_010.txt   
-- [ ] hima_010_02.txt
-- [ ] hima_010_03.txt
-- [ ] hima_010_04.txt
-- [ ] hima_011.txt   
-- [ ] hima_011_02.txt
-- [ ] hima_011_03.txt
-- [ ] hima_012.txt   
-- [ ] hima_013.txt   
-- [ ] hima_013_02.txt
-- [ ] hima_014.txt    
-- [ ] hima_ep01.txt   
-- [ ] hima_ep02.txt   
-- [ ] hima_tips_01.txt
+- [ ] **hima_tips_01.txt**
 - [ ] hima_tips_02.txt
 - [ ] hima_tips_03.txt
 - [ ] hima_tips_04.txt
@@ -47,8 +34,4 @@ Old collaborators welcome to join the repository, however it's still preferred t
 - [ ] hima_tips_12.txt
 - [ ] hima_tips_13.txt
 - [ ] hima_tips_14.txt
-- [ ] hima_tips_15.txt
-- [ ] hima_tips_16.txt
-- [ ] hima_tips_17.txt
-- [ ] hima_tips_18.txt
-- [ ] hima_tips_19.txt
+- [ ] **omake_04.txt**
