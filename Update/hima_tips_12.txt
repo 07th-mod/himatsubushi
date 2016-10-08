@@ -250,6 +250,7 @@
 	PlayBGM( 1, "msys12", 128, 0 );
 
 //「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。＠
+	PlaySE(4, "S20/00/huruM44001", 128, 64);
 	OutputLine(NULL, "「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。」",
 		   NULL, "\"These past few days have been nice and sunny. The air feels nice, doesn't it?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -276,6 +277,7 @@
 
 
 //「何を作ってるの＠　お人形さん？＠
+	PlaySE(4, "S20/00/huruM44002", 128, 64);
 	OutputLine(NULL, "「何を作ってるの？",
 		   NULL, "\"What are you making?", Line_WaitForInput);
 	OutputLine(NULL, "　お人形さん？」",
@@ -284,6 +286,7 @@
 
 
 //「………てるてる坊主。＠
+	PlaySE(4, "S20/05/440500031", 128, 64);
 	OutputLine(NULL, "「………てるてる坊主。」",
 		   NULL, "\"......A weather charm.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -320,14 +323,18 @@
 
 
 //「あははは…＠駄目よ梨花＠頭が重すぎるから、ほら＠逆さてるてる坊主になっちゃったわ＠これじゃあ晴れじゃなくて雨になっちゃうわよ。＠
+	PlaySE(4, "S20/02/440200337", 128, 64);
 	OutputLine(NULL, "「あははは…。",
 		   NULL, "\"Ahahaha...", Line_WaitForInput);
 	OutputLine(NULL, "駄目よ梨花。",
 		   NULL, " It's no good, Rika.", Line_WaitForInput);
+	PlaySE(4, "S20/00/huruM44004", 128, 64);
 	OutputLine(NULL, "頭が重すぎるから、ほら。",
 		   NULL, " The heads are too heavy, see?", Line_WaitForInput);
+	PlaySE(4, "S20/00/huruM44005", 128, 64);
 	OutputLine(NULL, "逆さてるてる坊主になっちゃったわ。",
 		   NULL, " They've become reverse weather charms now.", Line_WaitForInput);
+	PlaySE(4, "S20/00/huruM44006", 128, 64);
 	OutputLine(NULL, "これじゃあ晴れじゃなくて雨になっちゃうわよ。」",
 		   NULL, " If they're like this, they'll call the rain instead of the sun.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -340,12 +347,14 @@
 
 
 //「………逆さになるように作ったのだから、それでいいの。＠
+	PlaySE(4, "S20/05/440500032", 128, 64);
 	OutputLine(NULL, "「………逆さになるように作ったのだから、それでいいの。」",
 		   NULL, "\"......That's because I made them to be upside-down. They're fine.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「……………でも梨花＠てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？＠
+	PlaySE(4, "S20/00/huruM44007", 128, 64);
 	OutputLine(NULL, "「……………でも梨花。",
 		   NULL, "\"...But, Rika.", Line_WaitForInput);
 	OutputLine(NULL, "てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？」",
@@ -354,6 +363,7 @@
 
 
 //「雨が降るようにおまじないをしているから、それでいいの。＠
+	PlaySE(4, "S20/05/440500033", 128, 64);
 	OutputLine(NULL, "「雨が降るようにおまじないをしているから、それでいいの。」",
 		   NULL, "\"I was making a charm for it to rain, so they're fine.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -366,6 +376,7 @@
 
 
 //「…あ、……そっか＠お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？＠
+	PlaySE(4, "S20/00/huruM44008", 128, 64);
 	OutputLine(NULL, "「…あ、……そっか。",
 		   NULL, "\"Oh... I see...", Line_WaitForInput);
 	OutputLine(NULL, "お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？」",
@@ -382,6 +393,7 @@
 	FadeOutBGM( 1, 1000, TRUE );
 
 //「晴れにね、…飽きたの。￥
+	PlaySE(4, "S20/05/440500034", 128, 64);
 	OutputLine(NULL, "「晴れにね、…飽きたの。」",
 		   NULL, "\"I got bored... of the clear weather.\"", Line_Normal);
 	ClearMessage();
