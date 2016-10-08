@@ -257,6 +257,7 @@
 
 
 //「…………………。＠
+	PlaySE(4, "S20/05/440500030", 128, 64);
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"......\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -323,7 +324,7 @@
 
 
 //「あははは…＠駄目よ梨花＠頭が重すぎるから、ほら＠逆さてるてる坊主になっちゃったわ＠これじゃあ晴れじゃなくて雨になっちゃうわよ。＠
-	PlaySE(4, "S20/02/440200337", 128, 64);
+	PlaySE(4, "S20/00/huruM44003", 128, 64);
 	OutputLine(NULL, "「あははは…。",
 		   NULL, "\"Ahahaha...", Line_WaitForInput);
 	OutputLine(NULL, "駄目よ梨花。",

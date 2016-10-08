@@ -284,7 +284,7 @@
 
 
 //「……はい＠お家なのですよ。￥
-	PlaySE(4, "S20/10/VTK1_irie1010", 128, 64);
+	PlaySE(4, "S20/05/440500036", 128, 64);
 	OutputLine(NULL, "「……はい。",
 		   NULL, "\"......Yes.", Line_WaitForInput);
 	OutputLine(NULL, "お家なのですよ。」",

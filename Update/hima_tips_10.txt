@@ -24,6 +24,7 @@
 		   NULL, "\"...Uh-huh, yes.", Line_WaitForInput);
 	OutputLine(NULL, "…それでお通夜が明日の午後６時からになりまして、告別式が明後日のお昼、１２時から１３時までになりまして。",
 		   NULL, " ...So the wake will be from six PM tomorrow, and the service will be the day after from noon until one.", Line_WaitForInput);
+	PlaySE(4, "S20/00/kanryoC44002", 128, 64);
 	OutputLine(NULL, "会場は興宮セレモニホールになります…。」",
 		   NULL, " The venue will be Okinomiya Ceremony Hall...\"", Line_Normal);
 	ClearMessage();
@@ -45,7 +46,7 @@
 	DrawBustshotWithFiltering( 1, "me_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「うん、了解＠喪服で行く＠　香典はいくらくらい？＠
-	PlaySE(4, "S09/02/170200056", 128, 64);
+	PlaySE(4, "S20/26/440300114", 128, 64);
 	OutputLine(NULL, "「うん、了解。",
 		   NULL, "\"Okay, got it.", Line_WaitForInput);
 	OutputLine(NULL, "喪服で行く？",
@@ -159,6 +160,7 @@
 	DrawBustshotWithFiltering( 3, "me_si_wa_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「あははははは＠婆っちゃも他人にゃやさしいね＠私や詩音が死んだら、同じ様に悲しんでくれる？￥
+	PlaySE(4, "S20/26/440300116", 128, 64);
 	OutputLine(NULL, "「あははははは。",
 		   NULL, "\"Ahahaha.", Line_WaitForInput);
 	OutputLine(NULL, "婆っちゃも他人にゃやさしいね。",
@@ -269,7 +271,7 @@
 	DrawSceneWithMask( "bg_204", "up", 0, 0, 300 );
 
 //「どしたの＠　もうろくした＠　あははははは！＠
-	PlaySE(4, "S13/06/DS41060017", 128, 64);
+	PlaySE(4, "S20/26/440300121", 128, 64);
 	OutputLine(NULL, "「どしたの？",
 		   NULL, "\"What's the matter?", Line_WaitForInput);
 	OutputLine(NULL, "　もうろくした？",
@@ -303,9 +305,9 @@
 	DrawScene( "bg_197", 400 );
 
 //「魅音＠……ほれ、……例の大臣の孫＠さらわれてからどのくらいになるん？＠
+	PlaySE(4, "S20/17/442300038", 128, 64);
 	OutputLine(NULL, "「魅音。",
 		   NULL, "\"Mion.", Line_WaitForInput);
-	PlaySE(4, "S20/17/442300038", 128, 64);
 	OutputLine(NULL, "……ほれ、……例の大臣の孫。",
 		   NULL, " ...You know... that Minister's grandson.", Line_WaitForInput);
 	PlaySE(4, "S20/17/442300039", 128, 64);
@@ -318,9 +320,9 @@
 	DrawBustshotWithFiltering( 2, "me_si_de_a1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「ん＠……………４日、…かな？￥
+	PlaySE(4, "S20/26/440300123", 128, 64);
 	OutputLine(NULL, "「ん。",
 		   NULL, "\"Hmm.", Line_WaitForInput);
-	PlaySE(4, "S20/26/440300123", 128, 64);
 	OutputLine(NULL, "……………４日、…かな？」",
 		   NULL, " ...Four days, maybe?\"", Line_Normal);
 	ClearMessage();
@@ -362,6 +364,7 @@
 	DrawBustshot( 2, "me_si_ma_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…………………………。＠
+	PlaySE(4, "S20/26/440300125", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -433,6 +436,7 @@
 		   NULL, "\"....Ah, hello?", Line_WaitForInput);
 	OutputLine(NULL, "魅音だけど。",
 		   NULL, " This is Mion.", Line_WaitForInput);
+	PlaySE(4, "S20/26/440300128", 128, 64);
 	OutputLine(NULL, "…うん。",
 		   NULL, " ...Yeah.", Line_WaitForInput);
 	PlaySE(4, "S20/26/440300129", 128, 64);

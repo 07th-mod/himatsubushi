@@ -20,18 +20,18 @@ Old collaborators welcome to join the repository, however it's still preferred t
 - [ ] hima_003_04.txt
 - [ ] hima_003_05.txt
 - [ ] hima_004.txt
-- [ ] **hima_tips_01.txt**
-- [ ] hima_tips_02.txt
-- [ ] hima_tips_03.txt
-- [ ] hima_tips_04.txt
-- [ ] hima_tips_05.txt
-- [ ] hima_tips_06.txt
-- [ ] hima_tips_07.txt
-- [ ] hima_tips_08.txt
-- [ ] hima_tips_09.txt
-- [ ] hima_tips_10.txt
-- [ ] hima_tips_11.txt
-- [ ] hima_tips_12.txt
-- [ ] hima_tips_13.txt
-- [ ] hima_tips_14.txt
+- [x] hima_tips_01.txt
+- [x] hima_tips_02.txt
+- [x] hima_tips_03.txt
+- [x] hima_tips_04.txt
+- [x] hima_tips_05.txt
+- [x] hima_tips_06.txt
+- [x] hima_tips_07.txt
+- [x] hima_tips_08.txt
+- [x] hima_tips_09.txt
+- [x] hima_tips_10.txt
+- [x] hima_tips_11.txt
+- [x] hima_tips_12.txt
+- [x] hima_tips_13.txt
+- [x] hima_tips_14.txt
 - [ ] **omake_04.txt**

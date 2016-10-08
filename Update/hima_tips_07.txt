@@ -100,13 +100,14 @@
 
 
 //「魅音、入江の先生に麦茶を入れたってんな。￥
+	PlaySE(4, "S20/17/442300004", 128, 64);
 	OutputLine(NULL, "「魅音、入江の先生に麦茶を入れたってんな。」",
 		   NULL, "\"Mion, make some barley tea for Dr. Irie.\"", Line_Normal);
 	ClearMessage();
 
 
 //「うん、了解＠婆っちゃも飲む＠　紅茶の方がいい＠　砂糖もミルクもたっぷり？＠
-	PlaySE(4, "S09/02/170200056", 128, 64);
+	PlaySE(4, "S20/26/440300106", 128, 64);
 	OutputLine(NULL, "「うん、了解。",
 		   NULL, "\"Okay, got it.", Line_WaitForInput);
 	OutputLine(NULL, "婆っちゃも飲む？",
@@ -133,7 +134,7 @@
 	DrawBustshot( 1, "me_si_wi_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「はいはい。＠
-	PlaySE(4, "S20/11/440700051", 128, 64);
+	PlaySE(4, "S20/26/440300109", 128, 64);
 	OutputLine(NULL, "「はいはい。」",
 		   NULL, "\"Kay kay.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -149,6 +150,7 @@
 
 
 //「先生の麦茶は来客用のガラス茶碗に入れるんよー！＠　ちゃんとお座布団も付けてぇなぁ＠　水滴もちゃんと拭き取っとくんねー？！＠
+	PlaySE(4, "S20/17/442300006", 128, 64);
 	OutputLine(NULL, "「先生の麦茶は来客用のガラス茶碗に入れるんよー！！",
 		   NULL, "\"Pour the doctor's tea in the cups for the guests!!", Line_WaitForInput);
 	OutputLine(NULL, "　ちゃんとお座布団も付けてぇなぁ！",
@@ -217,10 +219,9 @@
 	DrawBustshot( 3, "ir_hk_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あっはっはっはっは＠で、その母親の母親もまた、そっくりなんじゃあないですか？＠
-	PlaySE(4, "S12/01/180101262", 128, 64);
+	PlaySE(4, "S20/10/441000051", 128, 64);
 	OutputLine(NULL, "「あっはっはっはっは。",
 		   NULL, "\"Aha ha ha ha.", Line_WaitForInput);
-	PlaySE(4, "S20/10/441000051", 128, 64);
 	OutputLine(NULL, "で、その母親の母親もまた、そっくりなんじゃあないですか？」",
 		   NULL, " So her mother's mother must be exactly the same, no?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -235,10 +236,9 @@
 
 
 //「入江先生＠申し訳ない、障子を開っけてもらえんけんね＠風が涼しそうだわ。＠
-	PlaySE(4, "S13/17/DS41150007", 128, 64);
+	PlaySE(4, "S20/17/442300010", 128, 64);
 	OutputLine(NULL, "「入江先生。",
 		   NULL, "\"Dr. Irie.", Line_WaitForInput);
-	PlaySE(4, "S20/17/442300010", 128, 64);
 	OutputLine(NULL, "申し訳ない、障子を開っけてもらえんけんね。",
 		   NULL, " I'm sorry, but could you open the doors for me?", Line_WaitForInput);
 	PlaySE(4, "S20/17/442300011", 128, 64);
@@ -280,9 +280,9 @@
 
 
 //「ん＠……そんな朝夕もまた、雛見沢のいいところんな。＠
+	PlaySE(4, "S20/17/442300012", 128, 64);
 	OutputLine(NULL, "「ん。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
-	PlaySE(4, "S20/17/442300012", 128, 64);
 	OutputLine(NULL, "……そんな朝夕もまた、雛見沢のいいところんな。」",
 		   NULL, " ...Those types of mornings and evenings are another one of Hinamizawa's fine points.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -488,12 +488,16 @@
 
 
 //「……………………………。＠
+	PlaySE(4, "S20/17/442300024", 128, 64);
+	PlaySE(5, "S20/26/440300112", 128, 64);
 	OutputLine(NULL, "「……………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「………………………。＠
+	PlaySE(4, "S20/17/442300025", 128, 64);
+	PlaySE(5, "S20/26/440300113", 128, 64);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);

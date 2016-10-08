@@ -42,7 +42,6 @@
 //　お天気の専門家が、過去のデータをいくつも並べ、それらを充分に吟味した上でそうだと発表するのだから、その予報は簡単に外れるものじゃない＠そんなのはわかってる￥
 	OutputLine(NULL, "　お天気の専門家が、過去のデータをいくつも並べ、それらを充分に吟味した上でそうだと発表するのだから、その予報は簡単に外れるものじゃない。",
 		   NULL, "The weather specialist said that they had carefully scrutinized a large quantity of past data, so it wouldn't be so likely for the forecast to be wrong.", Line_WaitForInput);
-	PlaySE(4, "S06/06/150601986", 128, 64);
 	OutputLine(NULL, "そんなのはわかってる。",
 		   NULL, " I knew as much.", Line_Normal);
 	ClearMessage();

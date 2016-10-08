@@ -28,6 +28,7 @@
 
 
 //「………………………。＠
+	PlaySE(4, "S20/13/441300001", 128, 64);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 
@@ -97,6 +98,7 @@
 		   NULL, "\"...At some point, you started apologizing right away.", Line_WaitForInput);
 	OutputLine(NULL, "今のお仕事に就かれた最初は、あれだけ溌剌と充実しておられたのに。",
 		   NULL, " Even though when you first started your job you were all gung-ho about it.", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44008", 128, 64);
 	OutputLine(NULL, "…くすくす。」",
 		   NULL, " ...Hee hee.\"", Line_WaitForInput);
 
@@ -144,6 +146,7 @@
 	PlaySE(4, "S20/00/yukie44011", 128, 64);
 	OutputLine(NULL, "私と一緒でないと、だんだん弱気になってきてしまうのでしょう…？",
 		   NULL, " Don't you start getting a little faint of heart when I'm not around?", Line_WaitForInput);
+	PlaySE(4, "S20/00/yukie44012", 128, 64);
 	OutputLine(NULL, "　くすくすくす。」",
 		   NULL, " Hee hee hee.\"", Line_WaitForInput);
 

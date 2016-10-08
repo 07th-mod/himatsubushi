@@ -114,9 +114,9 @@
 
 
 //「ん＠　ずっと寝てる＠手が掛からなくて助かるよ＠ウンコ垂れる時は騒ぐけどな。＠
+	PlaySE(4, "S20/00/yamaB44002", 128, 64);
 	OutputLine(NULL, "「ん？",
 		   NULL, "\"Hm?", Line_WaitForInput);
-	PlaySE(4, "S20/00/yamaB44002", 128, 64);
 	OutputLine(NULL, "　ずっと寝てる。",
 		   NULL, " He's been sleeping the entire time.", Line_WaitForInput);
 	PlaySE(4, "S20/00/yamaB44003", 128, 64);
@@ -175,6 +175,7 @@
 
 
 //「…かーー…、マジかよ、付いてくれよ…＠くそくそ！！￥
+	PlaySE(4, "S20/00/yamaB44008", 128, 64);
 	OutputLine(NULL, "「…かーー…、マジかよ、付いてくれよ…。",
 		   NULL, "\"...Gaah... seriously? Come on, work....", Line_WaitForInput);
 	OutputLine(NULL, "くそくそ！！」",

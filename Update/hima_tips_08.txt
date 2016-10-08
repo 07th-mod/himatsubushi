@@ -20,9 +20,9 @@
 //■調査は暗礁
 
 //「……うん＠昨日、銀座の料亭でお会いしてね＠そういう話が出たんだよ。￥
+	PlaySE(4, "S20/00/kataoka44001", 128, 64);
 	OutputLine(NULL, "「……うん。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44001", 128, 64);
 	OutputLine(NULL, "昨日、銀座の料亭でお会いしてね。",
 		   NULL, " Yesterday, when we met at the restaurant in Ginza,", Line_WaitForInput);
 	PlaySE(4, "S20/00/kataoka44002", 128, 64);
@@ -136,6 +136,7 @@
 
 
 //「僕は連中には、今回の事件は起こせないと踏んでます＠ですが、疑わしいところのほとんどが真っ白な以上、疑いの枠から外すわけにはいかないかもですね…＠赤坂くんからは、その可能性は否定できないとの軽い報告は受けてます。￥
+	PlaySE(4, "S20/00/442600008", 128, 64);
 	OutputLine(NULL, "「僕は連中には、今回の事件は起こせないと踏んでます。",
 		   NULL, "\"I think those guys could possibly be behind what's happening now.", Line_WaitForInput);
 	OutputLine(NULL, "ですが、疑わしいところのほとんどが真っ白な以上、疑いの枠から外すわけにはいかないかもですね…。",
