@@ -10,15 +10,15 @@ Old collaborators welcome to join the repository, however it's still preferred t
 
 >Bold lines mean "in progress"
 
-- [ ] hima_001.txt
+- [ ] **hima_001.txt**
 - [ ] hima_002.txt
 - [ ] hima_002_02.txt
 - [ ] hima_002_03.txt
 - [ ] hima_003.txt
-- [ ] hima_003_02.txt
+- [x] hima_003_02.txt
 - [ ] hima_003_03.txt
 - [ ] hima_003_04.txt
-- [ ] hima_003_05.txt
+- [x] hima_003_05.txt
 - [ ] hima_004.txt
 - [x] hima_tips_01.txt
 - [x] hima_tips_02.txt
@@ -34,4 +34,8 @@ Old collaborators welcome to join the repository, however it's still preferred t
 - [x] hima_tips_12.txt
 - [x] hima_tips_13.txt
 - [x] hima_tips_14.txt
-- [ ] **omake_04.txt**
+- [x] omake_04.txt
+
+# Known issues
+
+> in omake_04.txt, the last few minutes of text are lacking many voices. In the PS3 version, they have been changed to a completely different text and new content has been added.

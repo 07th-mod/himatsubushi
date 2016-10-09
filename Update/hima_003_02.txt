@@ -32,6 +32,7 @@
 	PlaySE(4, "S05/00/104600050", 128, 64);
 	OutputLine(NULL, "「ご協力、感謝しますよ大石さん。",
 		   NULL, "\"Thank you for your cooperation, Ooishi-san.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104600051", 128, 64);
 	OutputLine(NULL, "……どうぞ。」",
 		   NULL, " ...Please.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -106,6 +107,7 @@
 
 
 //「なっはっはっは＠そりゃあまぁそうでしょうなぁ。＠
+	PlaySE(4, "S05/11/100700397", 128, 64);
 	OutputLine(NULL, "「なっはっはっは。",
 		   NULL, "\"Na ha ha ha.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700398", 128, 64);
@@ -285,6 +287,7 @@
 	DrawSceneWithMask( "bg_102", "left", 0, 0, 300 );
 
 //「………………………。＠
+	PlaySE(4, "S05/13/101300449", 128, 64);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -294,6 +297,7 @@
 	PlaySE(4, "S05/11/100700399", 128, 64);
 	OutputLine(NULL, "「赤坂さん、緊張してます？",
 		   NULL, "\"Akasaka-san, are you nervous?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700400", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -311,7 +315,7 @@
 	ClearMessage();
 
 //「……もちろんです＠敵の本拠地にたった二人で乗り込んでいるんですよ＠　この人数では万一の時が不安です。＠
-	PlaySE(4, "S18/06/160600149", 128, 64);
+	PlaySE(4, "S05/13/101300450", 128, 64);
 	OutputLine(NULL, "「……もちろんです。",
 		   NULL, "\"...Of course I am.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300451", 128, 64);
@@ -390,6 +394,7 @@
 
 
 //「…………………。￥
+	PlaySE(4, "S05/13/101300456", 128, 64);
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -472,6 +477,7 @@
 	PlaySE(4, "S05/11/100700414", 128, 64);
 	OutputLine(NULL, "「赤坂さんは持ってるんですか？",
 		   NULL, "\"Akasaka-san, are you carrying one?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700415", 128, 64);
 	OutputLine(NULL, "　おハジキ。」",
 		   NULL, " A piece.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -505,6 +511,7 @@
 	PlaySE(4, "S05/11/100700417", 128, 64);
 	OutputLine(NULL, "「そりゃあそうでしょうなぁ。",
 		   NULL, "\"Well I guess that'd be true.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700418", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_Normal);
 	ClearMessage();
@@ -585,6 +592,7 @@
 
 
 //「……どうしたんです？＠
+	PlaySE(4, "S05/13/101300462", 128, 64);
 	OutputLine(NULL, "「……どうしたんです？」",
 		   NULL, "\"...What's the matter?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -701,6 +709,7 @@
 
 
 //「お、……今日は少ないですね＠ツイてます。＠
+	PlaySE(4, "S05/11/100700431", 128, 64);
 	OutputLine(NULL, "「お、……今日は少ないですね。",
 		   NULL, "\"Oh... there's not too many of them today.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700432", 128, 64);
@@ -894,8 +903,10 @@
 	DrawSceneWithMask( "bg_101", "right", 0, 0, 300 );
 
 //「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ＠覚えてます？＠
+	PlaySE(4, "S05/11/100700443", 128, 64);
 	OutputLine(NULL, "「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ。",
 		   NULL, "\"...Hey, the bald guy that was playing mahjong with us last night?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700444", 128, 64);
 	OutputLine(NULL, "覚えてます？」",
 		   NULL, " Remember him?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -941,6 +952,7 @@
 
 
 //「えぇ＠耐えかねてやめちゃう人が後を絶ちません＠まぁその度にお給金がアップしてるんで、何とも言えませんが＠んっふっふっふ…！＠
+	PlaySE(4, "S05/11/100700448", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700449", 128, 64);
@@ -949,6 +961,7 @@
 	PlaySE(4, "S05/11/100700450", 128, 64);
 	OutputLine(NULL, "まぁその度にお給金がアップしてるんで、何とも言えませんが。",
 		   NULL, " But every time that happens, their wages go up, so I won't say it's in vain.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700451", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -1026,6 +1039,7 @@
 
 
 //「………！！！　…………！＠
+	PlaySE(4, "S05/11/100700456", 128, 64);
 	OutputLine(NULL, "「………！！！　…………！」",
 		   NULL, "\"...!!! ...!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1128,6 +1142,7 @@
 	DrawSceneWithMask( "bg_002", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
+	PlaySE(4, "S05/13/101300467", 128, 64);
 	OutputLine(NULL, "「……………………………ぇ。」",
 		   NULL, "\"...huh.\"", Line_Normal);
 	ClearMessage();
@@ -1213,6 +1228,7 @@
 	PlaySE(4, "S05/11/100700458", 128, 64);
 	OutputLine(NULL, "行きましょうか。",
 		   NULL, " Shall we go?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700459", 128, 64);
 	OutputLine(NULL, "……ん？」",
 		   NULL, " ...Hm?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1283,6 +1299,7 @@
 	PlaySE(4, "S05/11/100700465", 128, 64);
 	OutputLine(NULL, "　安全装置外すの、土壇場でトチらないでくださいよ？",
 		   NULL, " Don't be fumbling with the safety at the last moment, you hear?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700466", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1308,6 +1325,7 @@
 
 
 //「…………………………。＠
+	PlaySE(4, "S05/13/101300468", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1345,6 +1363,7 @@
 //!s250
 	SetSpeedOfMessage( TRUE, 0, );
 
+	PlaySE(4, "S05/27/100500105", 128, 64);
 	OutputLine(NULL, "『……警告したのに。",
 		   NULL, "\"...Even though I warned you.", Line_ContinueAfterTyping);
 
