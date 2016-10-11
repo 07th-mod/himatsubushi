@@ -10,9 +10,9 @@ Old collaborators welcome to join the repository, however it's still preferred t
 
 >Bold lines mean "in progress"
 
-- [ ] **hima_001.txt**
-- [ ] hima_002.txt
-- [ ] hima_002_02.txt
+- [x] hima_001.txt
+- [x] hima_002.txt
+- [ ] **hima_002_02.txt**
 - [ ] hima_002_03.txt
 - [ ] hima_003.txt
 - [x] hima_003_02.txt

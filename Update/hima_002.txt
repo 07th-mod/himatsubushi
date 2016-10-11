@@ -111,6 +111,7 @@
 	DrawSceneWithMask( "bg_056", "left", 0, 0, 300 );
 
 //「……そうですか＠次回の募集はありませんか＠…残念です。＠
+	PlaySE(4, "S05/13/101300140", 128, 64);
 	OutputLine(NULL, "「……そうですか。",
 		   NULL, "\"...I see.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300141", 128, 64);
@@ -274,6 +275,7 @@
 
 
 //「ありがとうございます＠探してみることにします。￥
+	PlaySE(4, "S05/13/101300150", 128, 64);
 	OutputLine(NULL, "「ありがとうございます。",
 		   NULL, "\"Thank you very much.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300151", 128, 64);
@@ -286,6 +288,7 @@
 	PlaySE(4, "S05/00/104100016", 128, 64);
 	OutputLine(NULL, "「あんた、いつ来ます？",
 		   NULL, "\"When will you be coming?", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100017", 128, 64);
 	OutputLine(NULL, "　雛見沢は初めて？",
 		   NULL, " Is it your first time in Hinamizawa?", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100018", 128, 64);
@@ -308,9 +311,10 @@
 	PlaySE(4, "S05/00/104100020", 128, 64);
 	OutputLine(NULL, "「わはははは！",
 		   NULL, "\"Wahahahaha!", Line_WaitForInput);
-	PlaySE(4, "S01/01/120100399", 128, 64);
+	PlaySE(4, "S05/00/104100021", 128, 64);
 	OutputLine(NULL, "　気にしないで下さい。",
 		   NULL, " Don't worry about it.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100022", 128, 64);
 	OutputLine(NULL, "これも、村の自然を守るためのＰＲなんですから〜。」",
 		   NULL, " That's just a bit of PR we do, to protect nature around the village~.\"", Line_Normal);
 	ClearMessage();
@@ -547,6 +551,7 @@
 
 
 //『宇喜田水道前～＠宇喜田水道前～、!w1000お降りの方はいらっしゃいませんか～。￥
+	PlaySE(4, "S05/00/bus1000001", 128, 64);
 	OutputLine(NULL, "『宇喜田水道前〜。",
 		   NULL, "\"Now arriving at Ukita Waterworks~.", Line_WaitForInput);
 	OutputLine(NULL, "宇喜田水道前〜、",
@@ -615,7 +620,6 @@
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	PlaySE(4, "S05/13/101300715", 128, 64);
 	OutputLine(NULL, "…………。",
 		   NULL, "...", Line_Normal);
 
@@ -764,6 +768,7 @@
 
 
 //「……………………………………………い、……いえ、…私は…、＠
+	PlaySE(4, "S05/13/101300155", 128, 64);
 	OutputLine(NULL, "「……………………………………………い、……いえ、…私は…、」",
 		   NULL, "\"....N-no... I'm...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -854,6 +859,7 @@
 
 
 //「………………………………ふぅ…。＠
+	PlaySE(4, "S05/13/101300156", 128, 64);
 	OutputLine(NULL, "「………………………………ふぅ…。」",
 		   NULL, "\".....Phew.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -1042,6 +1048,7 @@
 	FadeOutBGM( 1, 1000, TRUE );
 
 //「く……わあぁあぁぁぁぁぁ…………………。￥
+	PlaySE(4, "S05/27/100500001", 128, 64);
 	OutputLine(NULL, "「く……わあぁあぁぁぁぁぁ…………………。」",
 		   NULL, "\"Hngh... waaaa.....\"", Line_Normal);
 	ClearMessage();
@@ -1080,13 +1087,13 @@
 	PlayBGM( 1, "msysRi", 128, 0 );
 
 //「……みぃ。￥
+	PlaySE(4, "S05/27/100500002", 128, 64);
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_Normal);
 	ClearMessage();
 
 
 //　……………みい＠
-	PlaySE(4, "S12/05/180500155", 128, 64);
 	OutputLine(NULL, "　……………みい？",
 		   NULL, "...Meep?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1113,6 +1120,7 @@
 
 
 //「………みー。＠
+	PlaySE(4, "S05/13/101300157", 128, 64);
 	OutputLine(NULL, "「………みー。」",
 		   NULL, "\"...Meep.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1122,12 +1130,14 @@
 	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……みぃ？＠
+	PlaySE(4, "S05/27/100500003", 128, 64);
 	OutputLine(NULL, "「……みぃ？」",
 		   NULL, "\"...Meep?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「……み、……みー…。￥
+	PlaySE(4, "S05/13/101300158", 128, 64);
 	OutputLine(NULL, "「……み、……みー…。」",
 		   NULL, "\"...Mee ...meep...\"", Line_Normal);
 	ClearMessage();
@@ -1162,12 +1172,14 @@
 	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……みぃ。＠
+	PlaySE(4, "S05/27/100500004", 128, 64);
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「………み、……………みー………。＠
+	PlaySE(4, "S05/13/101300159", 128, 64);
 	OutputLine(NULL, "「………み、……………みー………。」",
 		   NULL, "\"...Mee... .....Meep...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1177,13 +1189,14 @@
 	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……………………。＠
+	PlaySE(4, "S05/27/100500005", 128, 64);
 	OutputLine(NULL, "「……………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「………………………………。￥
-	PlaySE(4, "S12/05/180500490", 128, 64);
+	PlaySE(4, "S05/13/101300160", 128, 64);
 	OutputLine(NULL, "「………………………………。」",
 		   NULL, "\"......\"", Line_Normal);
 	ClearMessage();
@@ -1220,8 +1233,10 @@
 
 
 //「あ、…………怪しいものじゃないんだ…＠……私は…………、＠
+	PlaySE(4, "S05/13/101300161", 128, 64);
 	OutputLine(NULL, "「あ、…………怪しいものじゃないんだ…。",
 		   NULL, "\"I--I'm not anybody suspicious...", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300162", 128, 64);
 	OutputLine(NULL, "……私は…………、」",
 		   NULL, " ...I'm....\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1231,12 +1246,14 @@
 	DrawBustshot( 2, "ri_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……にぱ～～☆＠
+	PlaySE(4, "S05/27/100500006", 128, 64);
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「に、……にぱ……？？＠
+	PlaySE(4, "S05/13/101300163", 128, 64);
 	OutputLine(NULL, "「に、……にぱ……？？」",
 		   NULL, "\"Ni.... Nipah...??\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1280,12 +1297,14 @@
 
 
 //「に、…………にぱぁぁ……☆＠
+	PlaySE(4, "S05/13/101300164", 128, 64);
 	OutputLine(NULL, "「に、…………にぱぁぁ……☆」",
 		   NULL, "\"Ni... Nipaaah...☆\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「……にぱ～～☆＠
+	PlaySE(4, "S05/27/100500008", 128, 64);
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~.☆\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -1304,6 +1323,7 @@
 
 
 //「……にぱ～～☆＠
+	PlaySE(4, "S05/27/100500009", 128, 64);
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1357,6 +1377,7 @@
 	PlayBGM( 1, "msys01", 128, 0 );
 
 //「どぅもごんにちわ～＠　遅れて申し訳ないこってす＠　昨日、お電話を下さった観光の方ですかねぇ？＠
+	PlaySE(4, "S05/00/104100023", 128, 64);
 	OutputLine(NULL, "「どぅもごんにちわ〜！",
 		   NULL, "\"Hi there, good afternoon~!", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100024", 128, 64);
@@ -1369,17 +1390,20 @@
 
 
 //「え、……あ、…はい！＠
+	PlaySE(4, "S05/13/101300166", 128, 64);
 	OutputLine(NULL, "「え、……あ、…はい！」",
 		   NULL, "\"Huh? Ah... yes!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「お待たせして申し訳ないぃ＠野良でちょいと遅れましてねぇ＠　すったらんと、お乗り下さいな＠天気もまんた崩れそうだから、ちゃきちゃきご案内しますよ。￥
+	PlaySE(4, "S05/00/104100026", 128, 64);
 	OutputLine(NULL, "「お待たせして申し訳ないぃ。",
 		   NULL, "\"Sorry to keep you waiting.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100027", 128, 64);
 	OutputLine(NULL, "野良でちょいと遅れましてねぇ！",
 		   NULL, " I'm running a little behind because of the farm!", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100028", 128, 64);
 	OutputLine(NULL, "　すったらんと、お乗り下さいな。",
 		   NULL, " Hop right on in.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100029", 128, 64);
@@ -1399,8 +1423,10 @@
 	PlaySE(4, "S05/00/104100030", 128, 64);
 	OutputLine(NULL, "「ここいらは崩れると早いんよ〜。",
 		   NULL, "\"It changes fast around here~.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100031", 128, 64);
 	OutputLine(NULL, "今日も夕立になるんかもなぁ。",
 		   NULL, " There'll probably be evening showers again today.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100032", 128, 64);
 	OutputLine(NULL, "そうなったら、あんた写真撮るとこじゃなくなるでしょ。",
 		   NULL, " If that happens, you won't be able to take any pictures.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100033", 128, 64);
@@ -1413,6 +1439,7 @@
 	DrawBustshotWithFiltering( 1, "ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……みぃ。￥
+	PlaySE(4, "S05/27/100500010", 128, 64);
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_Normal);
 	ClearMessage();
@@ -1430,6 +1457,7 @@
 
 
 //「あんれ、……梨花ちゃまでねぇですか！＠　ありがたや…ありがたや～…。＠
+	PlaySE(4, "S05/00/104100034", 128, 64);
 	OutputLine(NULL, "「あんれ、……梨花ちゃまでねぇですか！！",
 		   NULL, "\"Hmm... well if it isn't Rika-chama!!", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100035", 128, 64);
@@ -1442,6 +1470,7 @@
 	DrawBustshot( 1, "ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……にぱ～～☆＠
+	PlaySE(4, "S05/27/100500011", 128, 64);
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1489,8 +1518,10 @@
 
 
 //「ま、……まぁね＠この村の自然がとても貴重だと聞いたんで、…ぜひ、カメラに納めたいと思ったんだよ＠…私はこう見えてもとっても写真撮影が好きでね…。＠
+	PlaySE(4, "S05/13/101300169", 128, 64);
 	OutputLine(NULL, "「ま、……まぁね。",
 		   NULL, "\"Well... yeah.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300170", 128, 64);
 	OutputLine(NULL, "この村の自然がとても貴重だと聞いたんで、…ぜひ、カメラに納めたいと思ったんだよ。",
 		   NULL, " I heard that this village is surrounded by a precious nature reserve, so I very much wanted to record that with my camera.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300171", 128, 64);
@@ -1507,6 +1538,7 @@
 
 
 //「え＠　とみたけ？＠　え？？￥
+	PlaySE(4, "S05/13/101300172", 128, 64);
 	OutputLine(NULL, "「え？",
 		   NULL, "\"Huh?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300173", 128, 64);
@@ -1521,6 +1553,7 @@
 	DrawBustshot( 1, "ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……牧野＠ボクも一緒に行ってはいけませんですか？＠
+	PlaySE(4, "S05/27/100500014", 128, 64);
 	OutputLine(NULL, "「……牧野。",
 		   NULL, "\"...Makino.", Line_WaitForInput);
 	PlaySE(4, "S05/27/100500015", 128, 64);
@@ -1543,7 +1576,7 @@
 	DrawBustshot( 1, "ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…………みー。＠
-	PlaySE(4, "S05/27/100500094", 128, 64);
+	PlaySE(4, "S05/27/100500016", 128, 64);
 	OutputLine(NULL, "「…………みー。」",
 		   NULL, "\"...Meep.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1562,6 +1595,7 @@
 
 
 //「もしお差し支えなければ……、この子も連れて行ってあげて下さい。＠
+	PlaySE(4, "S05/13/101300175", 128, 64);
 	OutputLine(NULL, "「もしお差し支えなければ……、この子も連れて行ってあげて下さい。」",
 		   NULL, "\"If it's not too much of a problem, could you bring this child along with us?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1595,7 +1629,6 @@
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 
-	PlaySE(4, "S13/48/550100044", 128, 64);
 	OutputLine(NULL, "…お父さん、",
 		   NULL, " ...Father,", Line_ContinueAfterTyping);
 
@@ -1640,8 +1673,10 @@
 	PlaySE(4, "S05/00/104100040", 128, 64);
 	OutputLine(NULL, "「すっかたなかんとー…。",
 		   NULL, "\"Nothing I can do, I guess.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100041", 128, 64);
 	OutputLine(NULL, "梨花ちゃまは、駄目だ言っても聞かんしなぁ。",
 		   NULL, " Rika-chama never listens even if you say no.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100042", 128, 64);
 	OutputLine(NULL, "……すったらんと、お乗り下さい。",
 		   NULL, " ...Come on, hop on in.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104100043", 128, 64);
@@ -1719,6 +1754,7 @@
 
 
 //「に、……にぱ～～…☆＠
+	PlaySE(4, "S05/13/101300176", 128, 64);
 	OutputLine(NULL, "「に、……にぱ〜〜…☆」",
 		   NULL, "\"Ni... Nipah~~...☆\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1743,6 +1779,7 @@
 
 
 //「えぇ＠ホテルで軽食を。＠
+	PlaySE(4, "S05/13/101300177", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300178", 128, 64);
@@ -1775,6 +1812,7 @@
 
 
 //「えっと、……君は、…梨花ちゃんでいいのかい？＠
+	PlaySE(4, "S05/13/101300179", 128, 64);
 	OutputLine(NULL, "「えっと、……君は、…梨花ちゃんでいいのかい？」",
 		   NULL, "\"Ummm, is it all right if I call you Rika-chan?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2014,6 +2052,7 @@
 	PlaySE(4, "S05/13/101300183", 128, 64);
 	OutputLine(NULL, "「いや、…こういう円筒状の郵便ポストなんて、今はとても貴重だよ。",
 		   NULL, "\"No, these cylindrical mailboxes are rare nowadays.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300184", 128, 64);
 	OutputLine(NULL, "どことなく漂うノスタルジックな雰囲気は……渋いと思わないかな。",
 		   NULL, " They have a certain nostalgic air about them... you wouldn't happen to think they're elegant, would you?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300185", 128, 64);
@@ -2051,6 +2090,7 @@
 	DrawBustshot( 3, "ri_si_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……………………………………。￥
+	PlaySE(4, "S05/27/100500028", 128, 64);
 	OutputLine(NULL, "「……………………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -2083,6 +2123,7 @@
 
 
 //「…………………………。＠
+	PlaySE(4, "S05/13/101300193", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2109,6 +2150,7 @@
 
 
 //「あ、……………あぁ、…まぁ＠　雛見沢への旅行は前々からの予定だったんで…＠……妻の家族が付き添ってくれているから…大丈夫だし……。＠
+	PlaySE(4, "S05/13/101300194", 128, 64);
 	OutputLine(NULL, "「あ、……………あぁ、…まぁ！",
 		   NULL, "\"Ah... ahhhh... well!", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300195", 128, 64);
@@ -2164,6 +2206,7 @@
 
 
 //「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！＠
+	PlaySE(4, "S05/00/104100059", 128, 64);
 	OutputLine(NULL, "「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！」",
 		   NULL, "\"Well then, for our last stop, I'll take you to the place with the best view!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2191,6 +2234,7 @@
 
 
 //「そんりゃ梨花ちゃま、境内からの景色を置いて、他にゃありませんやね～！＠
+	PlaySE(4, "S05/00/104100060", 128, 64);
 	OutputLine(NULL, "「そんりゃ梨花ちゃま、境内からの景色を置いて、他にゃありませんやね〜！」",
 		   NULL, "\"Well Rika-chama, where else could it be but the view from around the shrine?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2213,6 +2257,7 @@
 
 
 //「え＠　梨花ちゃんのお家って、………え？＠
+	PlaySE(4, "S05/13/101300197", 128, 64);
 	OutputLine(NULL, "「え？",
 		   NULL, "\"Huh?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300198", 128, 64);
@@ -2231,6 +2276,7 @@
 	PlaySE(4, "S05/00/104100063", 128, 64);
 	OutputLine(NULL, "…高台にありましてねぇ。",
 		   NULL, " There's an observation platform.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104100064", 128, 64);
 	OutputLine(NULL, "いい〜景色が見れるんですよ！」",
 		   NULL, " You can see some real pretty scenery!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2257,7 +2303,6 @@
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	PlaySE(4, "S20/04/VTK2_satoko2011", 128, 64);
 	OutputLine(NULL, "梨花。",
 		   NULL, " Furude.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);

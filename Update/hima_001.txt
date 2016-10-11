@@ -264,7 +264,10 @@
 //!sd
 
 //「「「先生ぇ～、さよ～～ならッ！！」」￥
-	PlaySE(4, "S05/00/boyall00001|S05/00/boyall00001b|S05/00/boyall00001c|S05/00/boyall00001d", 128, 64);
+	PlaySE(4, "S05/00/boyall00001", 128, 64);
+	PlaySE(5, "S05/00/boyall00001b", 128, 64);
+	PlaySE(6, "S05/00/boyall00001c", 128, 64);
+	PlaySE(7, "S05/00/boyall00001d", 128, 64);
 	OutputLine(NULL, "「「「先生ぇ〜、さよ〜〜ならッ！！」」」",
 		   NULL, "\"\"\"Goodbye, teacher!!\"\"\"", Line_Normal);
 	ClearMessage();
@@ -472,6 +475,7 @@
 	DrawScene( "black", 400 );
 
 //「………キミ、!w1000…犬飼寿樹くん？＠
+	PlaySE(4, "S05/00/ugu00002", 128, 64);
 	OutputLine(NULL, "「………キミ、",
 		   NULL, "\"...You.", Line_ContinueAfterTyping);
 
@@ -559,9 +563,10 @@
 	FadeOutBGM( 2, 1000, TRUE );
 
 //「…………はい＠…………もしもし……？＠
-	PlaySE(4, "S05/13/101300610", 128, 64);
+	PlaySE(4, "S05/00/inuk00001", 128, 64);
 	OutputLine(NULL, "「…………はい。",
 		   NULL, "\"...Yes.", Line_WaitForInput);
+	PlaySE(4, "S05/00/inuk00002", 128, 64);
 	OutputLine(NULL, "…………もしもし……？」",
 		   NULL, " ...Hello...?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -574,7 +579,7 @@
 
 
 //「………………もしもし……？＠
-	PlaySE(4, "S05/00/inuk00006", 128, 64);
+	PlaySE(4, "S05/00/inuk00004", 128, 64);
 	OutputLine(NULL, "「………………もしもし……？」",
 		   NULL, "\"......Hello?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -605,6 +610,7 @@
 	ClearMessage();
 
 //「………………………もしもし…？＠
+	PlaySE(4, "S05/00/inuk00006", 128, 64);
 	OutputLine(NULL, "「………………………もしもし…？」",
 		   NULL, "\"......Hello...?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -772,6 +778,7 @@
 
 
 //「……そうです＠犬飼です＠………名乗りましたよ、だからあんたも名乗ってくださいよ。＠
+	PlaySE(4, "S05/00/inuk00011", 128, 64);
 	OutputLine(NULL, "「……そうです。",
 		   NULL, "\"...That's right.", Line_WaitForInput);
 	PlaySE(4, "S05/00/inuk00012", 128, 64);
@@ -897,6 +904,7 @@
 
 
 //「!s200…………………!sdこれは!w1000…………どういうことだ？＠　おいッ！！￥
+	PlaySE(4, "S05/00/inuk00016", 128, 64);
 	OutputLine(NULL, "「",
 		   NULL, "\"", Line_ContinueAfterTyping);
 
@@ -932,6 +940,7 @@
 	PlaySE(4, "S05/14/104700016", 128, 64);
 	OutputLine(NULL, "マタ後ホド、コチラカラ連絡イタシマス。",
 		   NULL, " I'll contact you again later.", Line_WaitForInput);
+	PlaySE(4, "S05/14/104700017", 128, 64);
 	OutputLine(NULL, "ソレデハ失礼………。」",
 		   NULL, " Now then, pardon me...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1064,7 +1073,6 @@
 
 	OutputLine(NULL, "…永遠とも思える時間だったか、",
 		   NULL, " it seemed like", Line_WaitForInput);
-	PlaySE(4, "S12/13/181300013", 128, 64);
 	OutputLine(NULL, "君にはわからないだろうね。",
 		   NULL, " an eternity to me.", Line_Normal);
 	ClearMessage();
@@ -1085,7 +1093,6 @@
 
 
 //　はははははは…￥
-	PlaySE(4, "S12/18/183300091", 128, 64);
 	OutputLine(NULL, "　はははははは…。",
 		   NULL, "Hahahahahaha...", Line_Normal);
 	ClearMessage();
@@ -1240,7 +1247,6 @@
 
 
 //　ありがとう＠……そして、!w800…すまない＠
-	PlaySE(4, "S02/01/130100642", 128, 64);
 	OutputLine(NULL, "　ありがとう。",
 		   NULL, "Thank you.", Line_WaitForInput);
 	OutputLine(NULL, "……そして、",
@@ -1323,6 +1329,7 @@
 
 
 //「…………………………。￥
+	PlaySE(4, "S05/13/101300003", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -1332,6 +1339,7 @@
 	PlaySE(4, "S05/00/Lfar00003", 128, 64);
 	OutputLine(NULL, "「聞き耳を立てるつもりはなかったが、聞こえてしまった。",
 		   NULL, "\"I didn't mean to eavesdrop, but I heard.", Line_WaitForInput);
+	PlaySE(4, "S05/00/Lfar00004", 128, 64);
 	OutputLine(NULL, "……行き給え。",
 		   NULL, " ...Go.", Line_WaitForInput);
 	PlaySE(4, "S05/00/Lfar00005", 128, 64);
@@ -1424,6 +1432,7 @@
 
 
 //「…いえいえ＠では参りますよ。￥
+	PlaySE(4, "S05/00/dri00001", 128, 64);
 	OutputLine(NULL, "「…いえいえ。",
 		   NULL, "\"...No worries.", Line_WaitForInput);
 	PlaySE(4, "S05/00/dri00002", 128, 64);
@@ -1544,6 +1553,7 @@
 	PlaySE(4, "S05/00/VV_kano_10000", 128, 64);
 	OutputLine(NULL, "「室長、全員揃いました。",
 		   NULL, "\"Chief, everyone's here.", Line_WaitForInput);
+	PlaySE(4, "S05/00/VV_kano_10000a", 128, 64);
 	OutputLine(NULL, "赤坂くん、ブラインド降ろしてくれる？」",
 		   NULL, " Akasaka-kun, could you close the blinds?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -1785,6 +1795,7 @@
 	PlaySE(4, "S05/00/104200017", 128, 64);
 	OutputLine(NULL, "残る各職員は担当団体ごとに本件との関連を調査。",
 		   NULL, " The remaining members, investigate whatever is related to the case as assigned to your units.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104200018", 128, 64);
 	OutputLine(NULL, "日共、赤軍、連合のラインは集中的にやれ！",
 		   NULL, " Focus your line of investigation on the Commies, Reds, and Confeds.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104200019", 128, 64);
@@ -1816,6 +1827,7 @@
 	DrawScene( "bg_089_mo", 200 );
 
 //「……に行ってくれ＠で、赤坂くんは、＠
+	PlaySE(4, "S05/00/VV_kano_10001", 128, 64);
 	OutputLine(NULL, "「……に行ってくれ。",
 		   NULL, "\"--and cover that.", Line_WaitForInput);
 	PlaySE(4, "S05/00/VV_kano_10002", 128, 64);
@@ -1851,6 +1863,7 @@
 
 
 //「わかりました＠雛見沢ダム反対、…か。＠
+	PlaySE(4, "S05/13/101300011", 128, 64);
 	OutputLine(NULL, "「わかりました。",
 		   NULL, "\"Understood.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300012", 128, 64);
@@ -1873,6 +1886,7 @@
 
 
 //「わかりました＠現地へ出向します。￥
+	PlaySE(4, "S05/13/101300013", 128, 64);
 	OutputLine(NULL, "「わかりました。",
 		   NULL, "\"Understood.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300014", 128, 64);
@@ -2113,7 +2127,6 @@
 //　仕事さ＠…仕方ない￥
 	OutputLine(NULL, "　仕事さ。",
 		   NULL, "This was work.", Line_WaitForInput);
-	PlaySE(4, "S16/45/DS43070289", 128, 64);
 	OutputLine(NULL, "…仕方ない。",
 		   NULL, " ...There was really nothing that I could do.", Line_Normal);
 	ClearMessage();
@@ -2261,6 +2274,7 @@
 	PlaySE(4, "S05/00/104300009", 128, 64);
 	OutputLine(NULL, "「ご存知の通り、先週あった犬飼建設大臣への直訴事件では逮捕者も出ています。",
 		   NULL, "\"As you know, there were arrests after last week's confrontation with Minister Inugai.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300010", 128, 64);
 	OutputLine(NULL, "違法行為を以て主張を通そうとする危険性は、十分にありますね。」",
 		   NULL, " There's enough reason to believe they could use illegal means to assert their demands.\"", Line_Normal);
 	ClearMessage();
@@ -2281,6 +2295,7 @@
 	ClearMessage();
 
 //「具体的に、鬼ヶ淵死守同盟が行った違法行為を教えていただけますか？＠
+	PlaySE(4, "S05/13/101300019", 128, 64);
 	OutputLine(NULL, "「具体的に、鬼ヶ淵死守同盟が行った違法行為を教えていただけますか？」",
 		   NULL, "\"Could you give me a basic rundown of the types of illegal activities the Onigafuchi Defense Alliance are engaging in?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2366,6 +2381,7 @@
 	PlaySE( 3, "wa_021", 128, 64 );
 
 //「…………事務所の放火＠…建設重機の破壊工作＠…破壊＠　まさか爆弾でも？＠
+	PlaySE(4, "S05/13/101300021", 128, 64);
 	OutputLine(NULL, "「…………事務所の放火。",
 		   NULL, "\"...An office set on fire.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300022", 128, 64);
@@ -2414,6 +2430,7 @@
 	PlaySE(4, "S05/00/104300021", 128, 64);
 	OutputLine(NULL, "「放火はさすがにですね。",
 		   NULL, "\"The arson was a bit much.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300022", 128, 64);
 	OutputLine(NULL, "それで地元警察が２４時間体制の人員を大幅に増員しまして。",
 		   NULL, " After that, the local police drastically increased the number of personnel they had stationed there around the clock.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300023", 128, 64);
@@ -2485,6 +2502,7 @@
 
 
 //「……＠　それはどういうことですか？￥
+	PlaySE(4, "S05/13/101300027", 128, 64);
 	OutputLine(NULL, "「……？",
 		   NULL, "\"...?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300028", 128, 64);
@@ -2499,6 +2517,7 @@
 	PlaySE(4, "S05/00/104300030", 128, 64);
 	OutputLine(NULL, "「うー…ん。",
 		   NULL, "\"Hmmm.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300031", 128, 64);
 	OutputLine(NULL, "…例えばですね、",
 		   NULL, " ...Take for example,", Line_ContinueAfterTyping);
 
@@ -2593,6 +2612,7 @@
 
 
 //「それはですね、審査員たちが皆、……厄介事に巻き込まれたくないと思っているからですよ＠雛見沢関係のトラブルには、首を突っ込みたがらないんです。￥
+	PlaySE(4, "S05/00/104300041", 128, 64);
 	OutputLine(NULL, "「それはですね、審査員たちが皆、……厄介事に巻き込まれたくないと思っているからですよ。",
 		   NULL, "\"Well you see, about that, everybody on the Inquest Committee didn't want to get involved with something so troublesome.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300042", 128, 64);
@@ -2636,6 +2656,7 @@
 
 
 //「…………ぅ～ん…＠何て説明すればいいんでしょう…＠恐れられている、って言えばいいのかな…＠……あそこはね、少し特殊なんです。￥
+	PlaySE(4, "S05/00/104300043", 128, 64);
 	OutputLine(NULL, "「…………ぅ〜ん…。",
 		   NULL, "\"...Hmmm..", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300044", 128, 64);
@@ -2651,8 +2672,10 @@
 
 
 //「……特殊＠　被差別部落のことですか？＠
+	PlaySE(4, "S05/13/101300033", 128, 64);
 	OutputLine(NULL, "「……特殊？",
 		   NULL, "\"...Special?", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300034", 128, 64);
 	OutputLine(NULL, "　被差別部落のことですか？」",
 		   NULL, " Is it an outcaste community?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2738,13 +2761,16 @@
 	PlaySE(4, "S05/00/104300057", 128, 64);
 	OutputLine(NULL, "「……一応、非公開でプライバシーは守られてますがね。",
 		   NULL, "\"...Well, it is undisclosed, so their privacy is assured, but...", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300058", 128, 64);
 	OutputLine(NULL, "それを管理してるのは興宮市役所の人間。",
 		   NULL, " The person in charge of that is from the Okinomiya Municipal Office.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300059", 128, 64);
 	OutputLine(NULL, "…つまり地元の人間なんです。",
 		   NULL, " ...In other words, a local.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300060", 128, 64);
 	OutputLine(NULL, "守秘義務があるとは言え、…やはり人間のつながりはわかりませんからね。",
 		   NULL, " While you might expect some professional confidentiality... you can't know how everybody is connected.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300061", 128, 64);
 	OutputLine(NULL, "雛見沢の人間はその辺りのつながりが事のほか強固ですから。」",
 		   NULL, " The people from Hinamizawa have a lot of tight bonds in that regard.\"", Line_Normal);
 	ClearMessage();
@@ -2771,6 +2797,7 @@
 	PlaySE(4, "S05/00/104300062", 128, 64);
 	OutputLine(NULL, "「……それにほら、…雛見沢と地縁の深い暴力団組織がありましてね。",
 		   NULL, "\"...You see, there's a yakuza organization here with strong ties to Hinamizawa and the surrounding area.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104300063", 128, 64);
 	OutputLine(NULL, "これが今回の騒動に全面バックアップしてるらしいんです。",
 		   NULL, " It would seem that they're providing full support in these recent incidents.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300064", 128, 64);
@@ -2867,8 +2894,10 @@
 	DrawSceneWithMask( "bg_193", "up", 0, 0, 300 );
 
 //「……………室長＠…これは例えば、仮の話ですが。＠
+	PlaySE(4, "S05/13/101300040", 128, 64);
 	OutputLine(NULL, "「……………室長。",
 		   NULL, "\"...Chief.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300041", 128, 64);
 	OutputLine(NULL, "…これは例えば、仮の話ですが。」",
 		   NULL, " ...This is just a hypothetical situation, but...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2882,6 +2911,7 @@
 
 
 //「………例えば、その鬼ヶ淵死守同盟が＠…ダム計画を頓挫させるため＠…………例えば、要人を脅迫するようなことは考えられますか？￥
+	PlaySE(4, "S05/13/101300042", 128, 64);
 	OutputLine(NULL, "「………例えば、その鬼ヶ淵死守同盟が、",
 		   NULL, "\"This... Onigafuchi Defense Alliance.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300043", 128, 64);
@@ -2994,6 +3024,7 @@
 	DrawScene( "bg_193", 400 );
 
 //「………例えば、政府要人の関係者を誘拐して脅迫、!w1000……なんてことがありえると思いますか？￥
+	PlaySE(4, "S05/13/101300045", 128, 64);
 	OutputLine(NULL, "「………例えば、政府要人の関係者を誘拐して脅迫、",
 		   NULL, "\"...Again, hypothetically, do you think...", Line_ContinueAfterTyping);
 
@@ -3136,6 +3167,7 @@
 
 
 //「赤坂さん＠今、お貸しできる車が戻ってきました＠ご案内しますのでこちらへどうぞ。＠
+	PlaySE(4, "S05/00/104300074", 128, 64);
 	OutputLine(NULL, "「赤坂さん。",
 		   NULL, "\"Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104300075", 128, 64);
@@ -3283,6 +3315,7 @@
 
 
 //「あ、!w1000…しし、失礼しました、少々お待ち下さい…。＠
+	PlaySE(4, "S05/00/jimu00003", 128, 64);
 	OutputLine(NULL, "「あ、",
 		   NULL, "\"Ah...", Line_ContinueAfterTyping);
 
@@ -3290,7 +3323,6 @@
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	PlaySE(4, "S05/00/jimu00003", 128, 64);
 	OutputLine(NULL, "…しし、失礼しました、少々お待ち下さい…。」",
 		   NULL, " m-my apologies. Please wait a minute...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3308,6 +3340,7 @@
 	PlaySE(4, "S05/00/104000001", 128, 64);
 	OutputLine(NULL, "「どうもどうも！",
 		   NULL, "\"Welcome, welcome!", Line_WaitForInput);
+	PlaySE(4, "S05/00/104000002", 128, 64);
 	OutputLine(NULL, "　赤坂さんでいらっしゃいますか、遠路遥々お疲れさまでした！",
 		   NULL, " Akasaka-san, was it? It must have been tiring travelling out all this way!", Line_WaitForInput);
 	PlaySE(4, "S05/00/104000003", 128, 64);
@@ -3353,6 +3386,7 @@
 	PlaySE(4, "S05/13/101300053", 128, 64);
 	OutputLine(NULL, "警視庁から参りました赤坂と申します。",
 		   NULL, " I'm Akasaka from the Metropolitan Police Department.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300054", 128, 64);
 	OutputLine(NULL, "よろしくお願いします。」",
 		   NULL, " Pleased to make your acquaintance.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3368,6 +3402,7 @@
 	PlaySE(4, "S05/00/104000008", 128, 64);
 	OutputLine(NULL, "県警暴対の山海部長から協力を惜しむなと脅されとりますので。",
 		   NULL, " I was threatened by Sankai from the Prefectural Gangbusters to be generous with my cooperation.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104000009", 128, 64);
 	OutputLine(NULL, "わははははは！」",
 		   NULL, " Wahahaha!\"", Line_Normal);
 	ClearMessage();
@@ -3414,6 +3449,7 @@
 	PlaySE(4, "S05/00/104000014", 128, 64);
 	OutputLine(NULL, "逆、逆。",
 		   NULL, " Completely the other way around.", Line_WaitForInput);
+	PlaySE(4, "S05/00/104000015", 128, 64);
 	OutputLine(NULL, "わははははは！」",
 		   NULL, " Wahahaha!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3491,6 +3527,7 @@
 	PlaySE(4, "S05/11/100700004", 128, 64);
 	OutputLine(NULL, "採用は今年ですか？",
 		   NULL, " Did they hire you this year?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700005", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3523,6 +3560,7 @@
 
 
 //「……Ｓ号？￥
+	PlaySE(4, "S05/13/101300060", 128, 64);
 	OutputLine(NULL, "「……Ｓ号？」",
 		   NULL, "\"...S File?\"", Line_Normal);
 	ClearMessage();
@@ -3582,6 +3620,7 @@
 	PlaySE(4, "S05/11/100700008", 128, 64);
 	OutputLine(NULL, "「赤坂さんでしたっけ？",
 		   NULL, "\"Akasaka-san was it?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700009", 128, 64);
 	OutputLine(NULL, "　なっはっはっは！",
 		   NULL, " Na ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700010", 128, 64);
@@ -3604,6 +3643,7 @@
 
 
 //「んっふっふ＠　じゃあ、会長と副会長は？＠
+	PlaySE(4, "S05/11/100700013", 128, 64);
 	OutputLine(NULL, "「んっふっふ！",
 		   NULL, "\"Nfu fu!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700014", 128, 64);
@@ -3613,13 +3653,16 @@
 
 
 //「会長は現雛見沢村村長の公由（喜）氏＠副会長は町会神社部長の古手氏＠会計が園崎（魎）氏で、会計監査は牧野氏＠共闘部長が公由（義）氏、広報部長が園崎（禎）氏…、￥
+	PlaySE(4, "S05/13/101300064", 128, 64);
 	OutputLine(NULL, "「会長は現雛見沢村村長の公由（喜）氏。",
 		   NULL, "\"The president is the mayor of Hinamizawa, K. Kimiyoshi.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300065", 128, 64);
 	OutputLine(NULL, "副会長は町会神社部長の古手氏。",
 		   NULL, " The vice-president is the priest of the local shrine, Furude.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300066", 128, 64);
 	OutputLine(NULL, "会計が園崎（魎）氏で、会計監査は牧野氏。",
 		   NULL, " The treasurer is O. Sonozaki, the auditor is Makino.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300067", 128, 64);
 	OutputLine(NULL, "共闘部長が公由（義）氏、広報部長が園崎（禎）氏…、」",
 		   NULL, " The liason is Y. Kimiyoshi, the PR Head is Y. Sonozaki...\"", Line_Normal);
 	ClearMessage();
@@ -3638,6 +3681,7 @@
 	PlaySE(4, "S05/11/100700018", 128, 64);
 	OutputLine(NULL, "　ウチに一番必要で、一番いないタイプですよ。",
 		   NULL, " You're just the type we're looking for.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700019", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！",
 		   NULL, " Nfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700020", 128, 64);
@@ -3667,6 +3711,7 @@
 
 
 //「なっはっはっは＠　馬鹿にしたつもりはないんです＠……お詫びと言っちゃあなんですが、何でしたら村を実際にご案内しましょう。＠
+	PlaySE(4, "S05/11/100700022", 128, 64);
 	OutputLine(NULL, "「なっはっはっは！",
 		   NULL, "\"Na ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700023", 128, 64);
@@ -3860,6 +3905,7 @@
 
 
 //「……………………。＠
+	PlaySE(4, "S05/13/101300070", 128, 64);
 	OutputLine(NULL, "「……………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3946,6 +3992,7 @@
 
 
 //「まぁ、その辺りはこれからご説明します＠…んっふっふっふ！￥
+	PlaySE(4, "S05/11/100700038", 128, 64);
 	OutputLine(NULL, "「まぁ、その辺りはこれからご説明します。",
 		   NULL, "\"Well, I'll explain that part right now.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700039", 128, 64);
@@ -4118,6 +4165,7 @@
 	PlaySE(4, "S05/11/100700044", 128, 64);
 	OutputLine(NULL, "それじゃ通れないでしょ。",
 		   NULL, " We can't get by like this.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700045", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4226,6 +4274,7 @@
 	DrawBustshot( 3, "oi_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「なっはっはっは＠　あんたの家、鏡、歪んでるのと違います＠　あんたのその面の方が、よーっぽど不審ですよ＠　なっはっはっはっはっは！￥
+	PlaySE(4, "S05/11/100700050", 128, 64);
 	OutputLine(NULL, "「なっはっはっは！",
 		   NULL, "\"Na ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700051", 128, 64);
@@ -4313,6 +4362,7 @@
 	PlaySE(4, "S05/11/100700057", 128, 64);
 	OutputLine(NULL, "目くじら立てても始まりませんがね。",
 		   NULL, " Still, if you get worked up over that, it'll never end.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700058", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！",
 		   NULL, " Nfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700059", 128, 64);
@@ -4366,6 +4416,7 @@
 	PlaySE(4, "S05/11/100700066", 128, 64);
 	OutputLine(NULL, "それで、工事車両をいちいち足止めして、チクチクと妨害してる、ってわけなんです。",
 		   NULL, " There, they stop every construction vehicle coming through and interfere with them as much as possible.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700067", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4398,6 +4449,7 @@
 
 
 //「……………………………。￥
+	PlaySE(4, "S05/13/101300084", 128, 64);
 	OutputLine(NULL, "「……………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -4416,6 +4468,7 @@
 	PlaySE(4, "S05/11/100700075", 128, 64);
 	OutputLine(NULL, "　公安なんてバレたら、どんな目に遭うやら…。",
 		   NULL, " If they find out you're from Public Safety, who knows what you'll suffer through...", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700076", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4428,6 +4481,7 @@
 
 
 //「…まるで、中東辺りの内戦の国に迷い込んだような錯覚です。＠
+	PlaySE(4, "S05/13/101300085", 128, 64);
 	OutputLine(NULL, "「…まるで、中東辺りの内戦の国に迷い込んだような錯覚です。」",
 		   NULL, "\"...It almost feels like we've wandered into a civil war in the Middle East.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4569,6 +4623,7 @@
 
 
 //「…………………………………。￥
+	PlaySE(4, "S05/13/101300089", 128, 64);
 	OutputLine(NULL, "「…………………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -4604,6 +4659,7 @@
 	PlaySE(4, "S05/11/100700101", 128, 64);
 	OutputLine(NULL, "さぁすが高学歴。",
 		   NULL, " That's what I expect from an academic.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700102", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4690,6 +4746,7 @@
 	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
 
 //「えぇ＠…この先にあるのが御三家のひとつ、園崎家＠……雛見沢村を影から支配する連中です。＠
+	PlaySE(4, "S05/11/100700106", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700107", 128, 64);
@@ -4727,6 +4784,7 @@
 	PlaySE(4, "S05/11/100700109", 128, 64);
 	OutputLine(NULL, "「園崎家の頂点は、現頭首の園崎お魎っていう婆さんです。",
 		   NULL, "\"The current head of the Sonozaki family is an old lady named Oryou.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700110", 128, 64);
 	OutputLine(NULL, "……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです。",
 		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki'.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700111", 128, 64);
@@ -4738,6 +4796,7 @@
 	PlaySE(4, "S05/11/100700113", 128, 64);
 	OutputLine(NULL, "……まぁ雛見沢と周辺の町に住む村の親族の数千の票田を固めてるわけですから、政治家は頭、上がらないんでしょうが。",
 		   NULL, " ...Well, in Hinamizawa and the surrounding area their relatives amount to a block of several thousand votes. No politician could show disrespect for that.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700114", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
@@ -4779,12 +4838,14 @@
 	DrawSceneWithMask( "bg_100", "left", 0, 0, 400 );
 
 //「………あなた、東京から遥々、調べにいらしたんですよねぇ？＠
+	PlaySE(4, "S05/11/100700116", 128, 64);
 	OutputLine(NULL, "「………あなた、東京から遥々、調べにいらしたんですよねぇ？」",
 		   NULL, "\"...You came all the way from Tokyo to investigate this, didn't you?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…え＠　ぇ、えぇ＠　そうですが＠……何か？＠
+	PlaySE(4, "S05/13/101300093", 128, 64);
 	OutputLine(NULL, "「…え？",
 		   NULL, "\"...Huh?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300094", 128, 64);
@@ -4793,6 +4854,7 @@
 	PlaySE(4, "S05/13/101300095", 128, 64);
 	OutputLine(NULL, "　そうですが。",
 		   NULL, " That's right.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300096", 128, 64);
 	OutputLine(NULL, "……何か？」",
 		   NULL, " ...Something the matter?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4845,6 +4907,7 @@
 	ClearMessage();
 
 //「……………え、＠
+	PlaySE(4, "S05/13/101300098", 128, 64);
 	OutputLine(NULL, "「……………え、」",
 		   NULL, "\"...Huh?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4863,6 +4926,7 @@
 
 
 //「…………。＠
+	PlaySE(4, "S05/13/101300099", 128, 64);
 	OutputLine(NULL, "「…………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4921,6 +4985,7 @@
 	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「………んっふっふっふ＠　あなたって人は、本当に隠し事が下手な人ですねぇ＠そういう素直で初々しいの、悪くないなぁ。＠
+	PlaySE(4, "S05/11/100700125", 128, 64);
 	OutputLine(NULL, "「………んっふっふっふ！",
 		   NULL, "\"Nfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700126", 128, 64);
@@ -5011,6 +5076,7 @@
 	PlaySE(4, "S05/13/101300102", 128, 64);
 	OutputLine(NULL, "「……どうして私の任務に興味を？",
 		   NULL, "\"...Why are you interested in my case,", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300103", 128, 64);
 	OutputLine(NULL, "　大石さん。」",
 		   NULL, " Ooishi-san?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5084,11 +5150,13 @@
 	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「なっはっはっは＠　あんたも公安の人間ならわかるでしょ＠　そんなの、私の口から、例えあなたにだって話せる訳ないじゃありませんか。￥
+	PlaySE(4, "S05/11/100700134", 128, 64);
 	OutputLine(NULL, "「なっはっはっは！",
 		   NULL, "\"Na ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700135", 128, 64);
 	OutputLine(NULL, "　あんたも公安の人間ならわかるでしょ？",
 		   NULL, " If you're from Public Safety, you'd know, wouldn't you?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700136", 128, 64);
 	OutputLine(NULL, "　そんなの、私の口から、例えあなたにだって話せる訳ないじゃありませんか。」",
 		   NULL, " Something like that is something I can't just tell you.\"", Line_Normal);
 	ClearMessage();
@@ -5255,16 +5323,20 @@
 	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「こういう時はですね、ケチケチしない方がいいんです＠大丈夫大丈夫、損はさせませんから。＠
+	PlaySE(4, "S05/11/100700151", 128, 64);
 	OutputLine(NULL, "「こういう時はですね、ケチケチしない方がいいんです。",
 		   NULL, "\"At times like this, it's best you not be so stingy.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700152", 128, 64);
 	OutputLine(NULL, "大丈夫大丈夫、損はさせませんから。」",
 		   NULL, " It's all right, it's all right, it won't go to waste.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…………………わかりました＠ケチケチしないことにします。＠
+	PlaySE(4, "S05/13/101300109", 128, 64);
 	OutputLine(NULL, "「…………………わかりました。",
 		   NULL, "\"....I understand.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300110", 128, 64);
 	OutputLine(NULL, "ケチケチしないことにします。」",
 		   NULL, " I won't be stingy.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5273,34 +5345,43 @@
 	DrawBustshot( 2, "oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「で＠　調べたい情報は何です＠　内容によって多少、アプローチが変わることもありますので…。￥
+	PlaySE(4, "S05/11/100700153", 128, 64);
 	OutputLine(NULL, "「で？",
 		   NULL, "\"And?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700154", 128, 64);
 	OutputLine(NULL, "　調べたい情報は何です？",
 		   NULL, " What kind of information are you looking for?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700155", 128, 64);
 	OutputLine(NULL, "　内容によって多少、アプローチが変わることもありますので…。」",
 		   NULL, " Depending on what you what, how we approach this will probably change...\"", Line_Normal);
 	ClearMessage();
 
 
 //「……………他言無用を誓ってもらえますか＠　大石さん。＠
+	PlaySE(4, "S05/13/101300111", 128, 64);
 	OutputLine(NULL, "「……………他言無用を誓ってもらえますか？",
 		   NULL, "\"...You swear you won't spread this information to anybody else,", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300112", 128, 64);
 	OutputLine(NULL, "　大石さん。」",
 		   NULL, " Ooishi-san?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「誓うまでもありませんよ＠私もあなたたちと同じ＠職務上知り得たことは他言できませんからね。＠
+	PlaySE(4, "S05/11/100700156", 128, 64);
 	OutputLine(NULL, "「誓うまでもありませんよ。",
 		   NULL, "\"I can't swear as much.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700157", 128, 64);
 	OutputLine(NULL, "私もあなたたちと同じ。",
 		   NULL, " I'm the same as you.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700158", 128, 64);
 	OutputLine(NULL, "職務上知り得たことは他言できませんからね。」",
 		   NULL, " I can't withhold information obtained during the course of my duties.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「………………………………。￥
+	PlaySE(4, "S05/13/101300113", 128, 64);
 	OutputLine(NULL, "「………………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -5309,16 +5390,22 @@
 	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「なっはっはっはっは＠　わかりましたよ、誓います＠ここで聞くことは他言無用です＠それに、あなたのお陰で雀荘のツケを全部返せるんですからねぇ＠私は少なくとも金の絡んだ約束は絶対に違えませんよ＠　んっふっふっふ…！￥
+	PlaySE(4, "S05/11/100700159", 128, 64);
 	OutputLine(NULL, "「なっはっはっはっは！",
 		   NULL, "\"Na ha ha ha ha!", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700160", 128, 64);
 	OutputLine(NULL, "　わかりましたよ、誓います。",
 		   NULL, " I got it, I swear.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700161", 128, 64);
 	OutputLine(NULL, "ここで聞くことは他言無用です。",
 		   NULL, " Nothing here gets said anywhere else.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700162", 128, 64);
 	OutputLine(NULL, "それに、あなたのお陰で雀荘のツケを全部返せるんですからねぇ。",
 		   NULL, " On top of that, thanks to you, I can pay back what I owe from my mahjong debts.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700163", 128, 64);
 	OutputLine(NULL, "私は少なくとも金の絡んだ約束は絶対に違えませんよ？",
 		   NULL, " In any case, I won't break a promise that involves money.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700164", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ…！」",
 		   NULL, " Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
@@ -5402,6 +5489,7 @@
 	PlaySE(4, "S05/11/100700169", 128, 64);
 	OutputLine(NULL, "………だとすると妙ですねぇ？",
 		   NULL, " ...In that case, isn't it a little strange?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700170", 128, 64);
 	OutputLine(NULL, "　大臣が誰にも通報しないなら、どうしてあんたらは事件を知ったんです？」",
 		   NULL, " If the minister didn't report this to anybody, how did you guys know about this incident?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -5455,6 +5543,7 @@
 	PlaySE(4, "S05/11/100700174", 128, 64);
 	OutputLine(NULL, "「…………政府の列島改造は、まぁいろいろ方々との衝突も多いらしいですからねぇ。",
 		   NULL, "\"...Well, with the government having development projects all over the country, they've butted heads with quite a few people.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700175", 128, 64);
 	OutputLine(NULL, "どんなささやかなケチでもひとつ付けば、…左派政党がどっと票を伸ばす可能性もある、と。」",
 		   NULL, " It wouldn't take much wrongdoing for the left wing parties to suddenly garner more support.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5508,6 +5597,7 @@
 
 
 //「で、それの犯人グループとの可能性として、鬼ヶ淵死守同盟がリストに上ったわけですね。＠
+	PlaySE(4, "S05/11/100700179", 128, 64);
 	OutputLine(NULL, "「で、それの犯人グループとの可能性として、鬼ヶ淵死守同盟がリストに上ったわけですね。」",
 		   NULL, "\"So then, the Onigafuchi Defense Alliance was listed as one of the possible perpetrators.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5527,6 +5617,7 @@
 	PlaySE(4, "S05/11/100700180", 128, 64);
 	OutputLine(NULL, "「………………………大臣の孫を誘拐して、ダム計画の撤回を求める、か……。",
 		   NULL, "\"...Kidnap the minister's grandson, and demand the cancellation of the dam project...", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700181", 128, 64);
 	OutputLine(NULL, "…んんん………。」",
 		   NULL, " Hmm...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5579,6 +5670,7 @@
 //「……………………明治前まではですね＠この辺りは雛見沢村って名前じゃなくて、鬼ヶ淵村って呼ばれてたそうで..\n\n<
 //_@
 
+	PlaySE(4, "S05/11/100700182", 128, 64);
 	OutputLine(NULL, "「……………………明治前まではですね。",
 		   NULL, "\"...This was before the Meiji Era, you see.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700183", 128, 64);
@@ -5622,6 +5714,7 @@
 	ClearMessage();
 
 //「ひ、……人食い鬼…？＠　大石さん、…それ、…何の話ですか？＠
+	PlaySE(4, "S05/13/101300133", 128, 64);
 	OutputLine(NULL, "「ひ、……人食い鬼…？？",
 		   NULL, "\"...D-Demons that devour humans??", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300134", 128, 64);
@@ -5656,6 +5749,7 @@
 
 
 //「…………………………先を続けてください。＠
+	PlaySE(4, "S05/13/101300135", 128, 64);
 	OutputLine(NULL, "「…………………………先を続けてください。」",
 		   NULL, "\"...Please continue.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -5723,6 +5817,7 @@
 
 
 //「……いえいえ＠直接的には何の関係もない、ただのおしゃべりですがね＠…ただ。￥
+	PlaySE(4, "S05/11/100700198", 128, 64);
 	OutputLine(NULL, "「……いえいえ。",
 		   NULL, "\"...Oh no.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700199", 128, 64);
@@ -5827,6 +5922,7 @@
 	PlaySE(4, "S05/11/100700207", 128, 64);
 	OutputLine(NULL, "…………今時の若者はこんな迷信、信じませんがね。",
 		   NULL, " ...Kids these days wouldn't have these superstitions, would they?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700208", 128, 64);
 	OutputLine(NULL, "興宮の明治生まれの年寄り連中には、今でも盲進してるのが多いですよ。」",
 		   NULL, " Even amongst the older folk in Okinomiya born in the Meiji Era, there's quite a few who wouldn't heed these warnings.\"", Line_Normal);
 	ClearMessage();
@@ -5851,6 +5947,7 @@
 
 
 //なっはっはっはっは＠　東京から来られた赤坂さんには、ちょっと想像も付かないでしょうがねぇ。＠
+	PlaySE(4, "S05/11/100700211", 128, 64);
 	OutputLine(NULL, "なっはっはっはっは！",
 		   NULL, " Na ha ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700212", 128, 64);
