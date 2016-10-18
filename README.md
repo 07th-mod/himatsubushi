@@ -12,12 +12,12 @@ Old collaborators welcome to join the repository, however it's still preferred t
 
 - [x] hima_001.txt
 - [x] hima_002.txt
-- [ ] **hima_002_02.txt**
-- [ ] hima_002_03.txt
-- [ ] hima_003.txt
+- [x] hima_002_02.txt
+- [ ] **hima_002_03.txt**
+- [x] hima_003.txt
 - [x] hima_003_02.txt
 - [ ] hima_003_03.txt
-- [ ] hima_003_04.txt
+- [x] hima_003_04.txt
 - [x] hima_003_05.txt
 - [ ] hima_004.txt
 - [x] hima_tips_01.txt
