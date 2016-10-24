@@ -32,11 +32,11 @@ This repository is in constant change. Sometimes new releases might get on hold 
 
 > Use the previous detailed tutorial to install the patch. See [here](https://github.com/07th-mod/onikakushi#installation).
 
-In this patch we will only use the voice folders S03 (HigurashiPS3-Voices02.zip), S19 and S20 (HigurashiPS3-Voices01.zip). If you already have the first game (Onikakushi) with the patch installed, you don't need to download or copy the s19 and s20 folders. You can save your time creating a symbolic link.
+In this patch we will only use the voice folders S05 (HigurashiPS3-Voices02.zip) and S20 (HigurashiPS3-Voices01.zip). If you already have the first game (Onikakushi) with the patch installed, you don't need to download or copy the s19 and s20 folders. You can save your time creating a symbolic link.
 
 ### Creating a symlink
 
-> Reminder: you must have the folders S19, S20 and S03 before following these steps!
+> Reminder: you must have the folders S20 and S05 before following these steps!
 
 ###### On Windows:
 1. find your SteamLibrary common folder (usually \SteamLibrary\steamapps\common)
