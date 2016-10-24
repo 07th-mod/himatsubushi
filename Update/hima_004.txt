@@ -243,6 +243,7 @@
 	DrawBustshot( 2, "oi_yk_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「中国製の軍用拳銃でした＠関西系の暴力団組織が大量に密輸した内の一丁でしょうなぁ＠線状痕を調べましたが、他の事件とのつながりは何も出ませんでした＠…そっちでは？￥
+	PlaySE(4, "S05/11/100700682", 128, 64);
 	OutputLine(NULL, "「中国製の軍用拳銃でした。",
 		   NULL, "\"It was a Chinese-made military pistol.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700683", 128, 64);
@@ -295,6 +296,7 @@
 
 
 //「えぇ＠先日、七回忌の法要がありました＠義父とも最近は疎遠でして、準備でいろいろ苦労しました。＠
+	PlaySE(4, "S05/13/101300681", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300682", 128, 64);
@@ -311,8 +313,10 @@
 	DrawBustshot( 2, "oi_yk_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…なっはっはっは＠それはそれはお疲れ様でした…。￥
+	PlaySE(4, "S05/11/100700689", 128, 64);
 	OutputLine(NULL, "「…なっはっはっは。",
 		   NULL, "\"...Na ha ha ha.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700690", 128, 64);
 	OutputLine(NULL, "それはそれはお疲れ様でした…。」",
 		   NULL, " That must have been a lot of work...\"", Line_Normal);
 	ClearMessage();
@@ -639,10 +643,8 @@
 
 
 //　あなたはさっさと東京に帰った方がいい＠…でないと、ひどく後悔することになる￥
-	PlaySE(4, "S05/27/100500061", 128, 64);
 	OutputLine(NULL, "　あなたはさっさと東京に帰った方がいい。",
 		   NULL, "That it was best that I go back to Tokyo right away...", Line_WaitForInput);
-	PlaySE(4, "S05/27/100500062", 128, 64);
 	OutputLine(NULL, "…でないと、ひどく後悔することになる。",
 		   NULL, " otherwise there would be something I'd regret horribly.", Line_Normal);
 	ClearMessage();
@@ -682,7 +684,6 @@
 
 
 //　そう＠…私がどういうわけか、無性に雪絵の声が聞きたくなって、電話を探して村を奔走する直前のことだった￥
-	PlaySE(4, "S19/03/990300629", 128, 64);
 	OutputLine(NULL, "　そう。",
 		   NULL, "Yes.", Line_WaitForInput);
 	OutputLine(NULL, "…私がどういうわけか、無性に雪絵の声が聞きたくなって、電話を探して村を奔走する直前のことだった。",
@@ -738,6 +739,7 @@
 
 
 //「…えぇ＠…私も初めて話します。＠
+	PlaySE(4, "S05/13/101300684", 128, 64);
 	OutputLine(NULL, "「…えぇ。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300685", 128, 64);
@@ -958,6 +960,7 @@
 
 
 //「……………………。＠
+	PlaySE(4, "S05/11/100700705", 128, 64);
 	OutputLine(NULL, "「……………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -983,6 +986,7 @@
 
 
 //「…………奥さんは、!w800……連中に、!w1200…殺された？＠
+	PlaySE(4, "S05/11/100700706", 128, 64);
 	OutputLine(NULL, "「…………奥さんは、",
 		   NULL, "\"They...", Line_ContinueAfterTyping);
 
@@ -1037,6 +1041,7 @@
 	DrawBustshot( 2, "oi_yk_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「………………………なっはっはっは。＠
+	PlaySE(4, "S05/11/100700707", 128, 64);
 	OutputLine(NULL, "「………………………なっはっはっは。」",
 		   NULL, "\"....Na ha ha ha.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1112,12 +1117,12 @@
 	DrawSceneWithMask( "bg_068", "right", 0, 0, 300 );
 
 //「……………………それは、!d1500……………ん。＠
+	PlaySE(4, "S05/13/101300700", 128, 64);
 	OutputLine(NULL, "「……………………それは、",
 		   NULL, "\"...That's...", Line_ContinueAfterTyping);
 
 	Wait( 1500 );
 
-	PlaySE(4, "S05/13/101300346", 128, 64);
 	OutputLine(NULL, "……………ん。」",
 		   NULL, " hm.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1161,9 +1166,10 @@
 	DrawBustshot( 2, "oi_yk_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「え＠　…………あ、……ん＠……まぁ、赤坂さんになら話しても問題ないか…。￥
+	PlaySE(4, "S05/11/100700717", 128, 64);
 	OutputLine(NULL, "「え？",
 		   NULL, "\"Huh?", Line_WaitForInput);
-	PlaySE(4, "S09/01/170100719", 128, 64);
+	PlaySE(4, "S05/11/100700718", 128, 64);
 	OutputLine(NULL, "　…………あ、……ん。",
 		   NULL, " ....Ah, yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700719", 128, 64);
@@ -1209,7 +1215,6 @@
 	DrawScene( "black", 400 );
 
 //　そう＠
-	PlaySE(4, "S19/03/990300629", 128, 64);
 	OutputLine(NULL, "　そう。",
 		   NULL, "That's right.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1244,6 +1249,7 @@
 	DrawSceneWithMask( "bg_069", "up", 0, 0, 300 );
 
 //「………最後の年の「祟り」について、聞かせてもらってもいいですか？＠
+	PlaySE(4, "S05/13/101300703", 128, 64);
 	OutputLine(NULL, "「………最後の年の「祟り」について、聞かせてもらってもいいですか？」",
 		   NULL, "\"...Can I ask you about the last year of the curse?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1257,6 +1263,7 @@
 	PlaySE(4, "S05/11/100700720", 128, 64);
 	OutputLine(NULL, "「ん〜〜〜…、私、退職したとは言え、守秘義務がありますよぅ？",
 		   NULL, "\"Hmmm... I may be retired, but I still have to keep things confidential, ya know?", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700721", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
@@ -1304,6 +1311,7 @@
 	PlaySE(4, "S05/13/101300707", 128, 64);
 	OutputLine(NULL, "「私も、週刊誌で報道されている通りのところまでは知っています。",
 		   NULL, "\"I know as much as was written in those magazines.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300708", 128, 64);
 	OutputLine(NULL, "でも、大災害の年の「祟り」はまったく知りません。」",
 		   NULL, " But I don't know anything about the curse that happened the year of the disaster.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1317,6 +1325,7 @@
 
 
 //　あの最後の年の「祟り」については、ほとんど捜査が出来てないんですよ＠何年か後に封鎖が解けたとしても、村人のほとんどが死んでますし、数少ない生存者も親戚の元なんかに散って、所在がほとんどわからないですからねぇ＠……完全に迷宮入りです。￥
+	PlaySE(4, "S05/11/100700725", 128, 64);
 	OutputLine(NULL, "　あの最後の年の「祟り」については、ほとんど捜査が出来てないんですよ。",
 		   NULL, "There wasn't much of an investigation that could be done on the last year of the curse.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700726", 128, 64);
@@ -1367,6 +1376,7 @@
 	DrawSceneWithMask( "bg_142", "right", 0, 0, 300 );
 
 //「で、その富竹氏の恋仲の女性が岐阜の山中で焼死体に＠岐阜県警さんがあんまり協力的じゃなかったもんで、こっちはあまりよく状況を知らないんですがね。＠
+	PlaySE(4, "S05/11/100700732", 128, 64);
 	OutputLine(NULL, "「で、その富竹氏の恋仲の女性が岐阜の山中で焼死体に。",
 		   NULL, "\"And the burnt corpse of the woman Tomitake was in a relationship with was found in the mountains in Gifu.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700733", 128, 64);
@@ -1423,8 +1433,10 @@
 
 
 //…私と一緒だったなら無事だったかもしれないと思うと……今でも悔しいですよ＠あの日、どういうわけは私、お腹をひどく壊しましてね＠…外回りは遠慮しちゃってたんですよ。￥
+	PlaySE(4, "S05/11/100700740", 128, 64);
 	OutputLine(NULL, "…私と一緒だったなら無事だったかもしれないと思うと……今でも悔しいですよ。",
 		   NULL, "...If he was with me, he might have been safe... even now it still stings.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700741", 128, 64);
 	OutputLine(NULL, "あの日、どういうわけは私、お腹をひどく壊しましてね。",
 		   NULL, " That day, for some reason, I did a real number on my stomach.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700742", 128, 64);
@@ -1467,6 +1479,7 @@
 	PlaySE(4, "S05/11/100700746", 128, 64);
 	OutputLine(NULL, "「で、さらに翌日ですね。",
 		   NULL, "\"And then, the next day, see.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700747", 128, 64);
 	OutputLine(NULL, "……あ、彼のことは赤坂さんもご存知ですよね。",
 		   NULL, " ...Ah, you know him as well, Akasaka-san.", Line_WaitForInput);
 
@@ -1480,6 +1493,7 @@
 	PlaySE(4, "S05/11/100700748", 128, 64);
 	OutputLine(NULL, "ほら、入江先生ですよ。",
 		   NULL, " You know, Dr. Irie.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700749", 128, 64);
 	OutputLine(NULL, "覚えてます？」",
 		   NULL, " You remember him?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1548,6 +1562,7 @@
 	DrawScene( "bg_026", 400 );
 
 //「…………………＠それで、古手梨花の死は？＠
+	PlaySE(4, "S05/13/101300715", 128, 64);
 	OutputLine(NULL, "「…………………。",
 		   NULL, "\"...", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300716", 128, 64);
@@ -1570,6 +1585,7 @@
 
 
 //「……他殺？＠
+	PlaySE(4, "S05/13/101300717", 128, 64);
 	OutputLine(NULL, "「……他殺？」",
 		   NULL, "\"...Murder?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1606,6 +1622,7 @@
 	PlaySE(4, "S05/11/100700765", 128, 64);
 	OutputLine(NULL, "……もっとも、シメたのは他の場所でしょうねぇ。",
 		   NULL, " ...Although she was probably killed somewhere else.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700766", 128, 64);
 	OutputLine(NULL, "全裸で裸足。",
 		   NULL, " That's because while she was completely naked,", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700767", 128, 64);
@@ -1615,6 +1632,7 @@
 
 
 //「……………性的な変質者の犯行？￥
+	PlaySE(4, "S05/13/101300719", 128, 64);
 	OutputLine(NULL, "「……………性的な変質者の犯行？」",
 		   NULL, "\"...Any sign it was some sort of sexual assault?\"", Line_Normal);
 	ClearMessage();
@@ -1623,12 +1641,14 @@
 	DrawScene( "aka2", 400 );
 
 //「司法解剖の結果、性的暴行の痕跡は認められませんでした＠/
+	PlaySE(4, "S05/11/100700768", 128, 64);
 	OutputLine(NULL, "「司法解剖の結果、性的暴行の痕跡は認められませんでした。",
 		   NULL, "\"According to the autopsy, there wasn't any indication of that.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_025", 128, 64 );
 
 //……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹＠意図的に臓器を引きずり出して、四方に散らして見せました。＠
+	PlaySE(4, "S05/11/100700769", 128, 64);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
 		   NULL, " ...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
@@ -1637,6 +1657,7 @@
 
 
 //「…………昏睡＠　…では、開腹は死後ではなく？＠
+	PlaySE(4, "S05/13/101300720", 128, 64);
 	OutputLine(NULL, "「…………昏睡？",
 		   NULL, "\"...Unconscious?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300721", 128, 64);
@@ -1646,6 +1667,7 @@
 
 
 //「………………。￥
+	PlaySE(4, "S05/11/100700771", 128, 64);
 	OutputLine(NULL, "「………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -1655,7 +1677,7 @@
 	FadeOutBGM( 3, 1000, TRUE );
 
 //「……なんて、!w1000…………惨い。＠
-	PlaySE(4, "S20/28/VTP_tomoe1060", 128, 64);
+	PlaySE(4, "S05/13/101300722", 128, 64);
 	OutputLine(NULL, "「……なんて、",
 		   NULL, "\"...That's...", Line_ContinueAfterTyping);
 
@@ -1738,6 +1760,7 @@
 	PlaySE(4, "S05/11/100700772", 128, 64);
 	OutputLine(NULL, "「……この死に方ですが、…どうも単なる猟奇趣味ってわけじゃないみたいなんです。",
 		   NULL, "\"...About the way she died... it seems like it wasn't just somebody's sick tastes.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700773", 128, 64);
 	OutputLine(NULL, "……と言いますのはですねぇ、…雛見沢村はかつて鬼が住んでたって話は、以前もしましたよね？」",
 		   NULL, " ...What I'm saying is... I've told you before about how Hinamizawa used to be home to demons, didn't I?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1751,6 +1774,7 @@
 
 
 //「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです＠……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。＠
+	PlaySE(4, "S05/11/100700774", 128, 64);
 	OutputLine(NULL, "「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
 		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drift',  seems to stem from the drifting of entrails.", Line_WaitForInput);
 	OutputLine(NULL, "……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。」",
@@ -1759,14 +1783,17 @@
 
 
 //「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？￥
+	PlaySE(4, "S05/13/101300724", 128, 64);
 	OutputLine(NULL, "「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？」",
 		   NULL, "\"...In other words... in Hinamizawa, pulling out entrails had some sort of religious meaning?\"", Line_Normal);
 	ClearMessage();
 
 
 //「…………。で、……雛見沢村の昔話によるとですね＠…人食い鬼と人間が仲良くくらすための調停者として「オヤシロさま」という神さまが降臨している…ってことになってるらしい。＠
+	PlaySE(4, "S05/11/100700776", 128, 64);
 	OutputLine(NULL, "「…………。で、……雛見沢村の昔話によるとですね。",
 		   NULL, "\".... Well... this is according to the old tales in Hinamizawa, you see.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700777", 128, 64);
 	OutputLine(NULL, "…人食い鬼と人間が仲良くくらすための調停者として「オヤシロさま」という神さまが降臨している…ってことになってるらしい。」",
 		   NULL, " ...To act as an arbitrator so that the humans and the man-eating demons could live together peacefully, a god known as 'Oyashiro-sama' descended from the heavens.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1780,6 +1807,7 @@
 
 
 //「えぇ＠ですから、…その現人神である古手梨花を、開腹して殺すのは、村の信仰に対するこれ以上ない冒涜行為と言えるわけです。￥
+	PlaySE(4, "S05/11/100700778", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700779", 128, 64);
@@ -1802,12 +1830,14 @@
 	PlaySE(4, "S05/11/100700780", 128, 64);
 	OutputLine(NULL, "「……後は、赤坂さんも知っての通りです。",
 		   NULL, "\"...The rest you should know, Akasaka-san.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700781", 128, 64);
 	OutputLine(NULL, "「オヤシロさまの祟り」が起こるのはその晩のことです。」",
 		   NULL, " 'The Wrath of Oyashiro-sama' would occur that same night.\"", Line_Normal);
 	ClearMessage();
 
 
 //「雛見沢、……大災害。＠
+	PlaySE(4, "S05/13/101300728", 128, 64);
 	OutputLine(NULL, "「雛見沢、……大災害。」",
 		   NULL, "\"The Great Hinamizawa Disaster.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -1865,6 +1895,7 @@
 	DrawScene( "bg_075", 400 );
 
 //「そう＠つまり、古手梨花ことオヤシロさまの生まれ変わりが、冒涜される殺され方をしたので、オヤシロさまがお怒りになって、祟りとしてあの大災害を起こしたと＠……そういう話がまかり通っちゃってるんですよ。＠
+	PlaySE(4, "S05/11/100700787", 128, 64);
 	OutputLine(NULL, "「そう。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700788", 128, 64);
@@ -1908,6 +1939,7 @@
 	PlaySE(4, "S05/13/101300733", 128, 64);
 	OutputLine(NULL, "「…村の信仰を巡って、狂信的な一派があったと仮定し、",
 		   NULL, "\"...In regards to the religious beliefs of the villagers... suppose there was a more fanatical following among them...", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300734", 128, 64);
 	OutputLine(NULL, "…彼らが「オヤシロさまのお怒り」があるような状況を作り出し、大災害を実行して見せた…。」",
 		   NULL, " ...and that group created a situation that would incur 'Oyashiro-sama's wrath', and enacted the Disaster to make it seem like the truth...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2012,6 +2044,7 @@
 	DrawBustshot( 3, "oi_yk_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…なっはっはっは＠…つまり、赤坂さんが言いたいのは、鬼ヶ淵沼と繋がった別の沼か泉があって＠それに何だかの仕掛けをすると、鬼ヶ淵沼の圧力とか水圧とか、そーゆうものがいろいろ変わって、毒ガスが噴出する仕掛けを、大昔の村人がこさえていたと＠…そういう話ですよね？￥
+	PlaySE(4, "S05/11/100700800", 128, 64);
 	OutputLine(NULL, "「…なっはっはっは。",
 		   NULL, "\"...Na ha ha ha.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700801", 128, 64);
@@ -2044,6 +2077,7 @@
 	PlaySE(4, "S05/11/100700804", 128, 64);
 	OutputLine(NULL, "「………面白い話です。",
 		   NULL, "\"...That's an interesting theory.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700805", 128, 64);
 	OutputLine(NULL, "…それが立証できたら、………日本の犯罪史、始まって以来の空前規模の大量殺人ってことになりますよ。」",
 		   NULL, " ...If that proves to be true, then it would be, unprecedentedly, the largest mass murder in the history of Japan.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2053,6 +2087,7 @@
 	PlaySE(4, "S05/13/101300742", 128, 64);
 	OutputLine(NULL, "「雛見沢村の封鎖が解除されたら、ぜひ調べるべきだと思います。",
 		   NULL, "\"Once the quarantine on Hinamizawa Village is lifted, I think it should definitely be investigated.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300743", 128, 64);
 	OutputLine(NULL, "…大石さんは、××県警にはまだ影響力は？」",
 		   NULL, " ...Ooishi-san, do you still have any connections with the XX Prefectural Police?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2082,6 +2117,7 @@
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…………………わかりました。￥
+	PlaySE(4, "S05/11/100700808", 128, 64);
 	OutputLine(NULL, "「…………………わかりました。」",
 		   NULL, "\"...Got it.\"", Line_Normal);
 	ClearMessage();
@@ -2108,7 +2144,7 @@
 
 
 //「……………馬鹿な＠村の信仰に基づいた連続事件であることは明白なのに？＠
-	PlaySE(4, "S03/01/KEI040110", 128, 64);
+	PlaySE(4, "S05/13/101300746", 128, 64);
 	OutputLine(NULL, "「……………馬鹿な。",
 		   NULL, "\"...That couldn't be.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300747", 128, 64);
@@ -2171,6 +2207,7 @@
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…………………赤坂さん、!w1000……そりゃあ、本当ですか…！￥
+	PlaySE(4, "S05/11/100700816", 128, 64);
 	OutputLine(NULL, "「…………………赤坂さん、",
 		   NULL, "\"...Akasaka-san,", Line_ContinueAfterTyping);
 
@@ -2184,6 +2221,7 @@
 
 
 //「はい＠…あの子は言ったんです＠翌年、ダムの現場監督が殺され、死体をバラバラにされると＠のみに留まらず、その後に続く連続事件を全て私に予告して見せました。＠
+	PlaySE(4, "S05/13/101300752", 128, 64);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"Yes.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300753", 128, 64);
@@ -2234,13 +2272,14 @@
 	PlaySE(4, "S05/11/100700819", 128, 64);
 	OutputLine(NULL, "「…赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700820", 128, 64);
 	OutputLine(NULL, "古手梨花が神通力で未来がわかった、…なんて話がナシだとするなら、………こりゃあとんでもない話ですよ…？」",
 		   NULL, " If you're wrong about Rika Furude knowing the future through some divine medium... This is getting ridiculous.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「………はい。＠
-	PlaySE(4, "S13/10/DS41100190", 128, 64);
+	PlaySE(4, "S05/13/101300757", 128, 64);
 	OutputLine(NULL, "「………はい。」",
 		   NULL, "\"...Yup.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2257,6 +2296,7 @@
 
 
 //「私は、……真実を話しています。￥
+	PlaySE(4, "S05/13/101300758", 128, 64);
 	OutputLine(NULL, "「私は、……真実を話しています。」",
 		   NULL, "\"I'm... speaking the truth.\"", Line_Normal);
 	ClearMessage();
@@ -2287,6 +2327,7 @@
 	PlaySE(4, "S05/13/101300763", 128, 64);
 	OutputLine(NULL, "…………彼女は、殺される、と言った。",
 		   NULL, " ...She said she would be killed.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300764", 128, 64);
 	OutputLine(NULL, "…彼女は、自分の死を、……具体的にあの時点で、知っていたんです。」",
 		   NULL, " ...At that point in time, she knew more or less how her own death would occur.\"", Line_Normal);
 	ClearMessage();
@@ -2302,6 +2343,7 @@
 
 
 //「…………………………。￥
+	PlaySE(4, "S05/13/101300765", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -2328,7 +2370,7 @@
 
 
 //「………………わかりません。￥
-	PlaySE(4, "S03/01/140100227", 128, 64);
+	PlaySE(4, "S05/13/101300766", 128, 64);
 	OutputLine(NULL, "「………………わかりません。」",
 		   NULL, "\"...I don't know.\"", Line_Normal);
 	ClearMessage();
@@ -2365,6 +2407,7 @@
 
 
 //「………………………………。￥
+	PlaySE(4, "S05/13/101300768", 128, 64);
 	OutputLine(NULL, "「………………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -2443,6 +2486,7 @@
 
 
 //「………い、………………いえ。＠
+	PlaySE(4, "S05/13/101300770", 128, 64);
 	OutputLine(NULL, "「………い、………………いえ。」",
 		   NULL, "\"...No... It's nothing.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2938,8 +2982,10 @@
 	DrawSceneWithMask( "bg_068", "left", 0, 0, 300 );
 
 //「…………………赤坂さん＠…大丈夫ですか…………？＠
+	PlaySE(4, "S05/11/100700836", 128, 64);
 	OutputLine(NULL, "「…………………赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700837", 128, 64);
 	OutputLine(NULL, "…大丈夫ですか…………？」",
 		   NULL, " ...Are you okay?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2962,12 +3008,14 @@
 	PlaySE(4, "S05/13/101300772", 128, 64);
 	OutputLine(NULL, "「…私は、気付けなかった…！！",
 		   NULL, "\"...I... never realized!!", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300773", 128, 64);
 	OutputLine(NULL, "　少女の助けに……気付けなかった！！」",
 		   NULL, " I never realized... she wanted help!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…………………赤坂さん＠……落ち着いて下さい。￥
+	PlaySE(4, "S05/11/100700838", 128, 64);
 	OutputLine(NULL, "「…………………赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700839", 128, 64);
@@ -2986,6 +3034,7 @@
 	PlaySE(4, "S05/13/101300776", 128, 64);
 	OutputLine(NULL, "　こんなにも無惨な殺され方で！！",
 		   NULL, " In such an atrocious manner!!", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300777", 128, 64);
 	OutputLine(NULL, "　私は頼られたのに、……救えなかった！",
 		   NULL, " She was counting on me... but I couldn't save her!", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300778", 128, 64);
@@ -3021,7 +3070,6 @@
 
 
 //　そう＠少女は私を信頼してくれた＠信じてくれた＠
-	PlaySE(4, "S19/03/990300629", 128, 64);
 	OutputLine(NULL, "　そう。",
 		   NULL, "Yes.", Line_WaitForInput);
 	OutputLine(NULL, "少女は私を信頼してくれた。",
@@ -3054,6 +3102,7 @@
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「赤坂さん＠………悔しいですか？＠
+	PlaySE(4, "S05/11/100700844", 128, 64);
 	OutputLine(NULL, "「赤坂さん。",
 		   NULL, "\"Akasaka-san..", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700845", 128, 64);
@@ -3103,6 +3152,7 @@
 
 
 //「……………真相……。￥
+	PlaySE(4, "S05/13/101300782", 128, 64);
 	OutputLine(NULL, "「……………真相……。」",
 		   NULL, "\"....The truth...\"", Line_Normal);
 	ClearMessage();
@@ -3153,6 +3203,7 @@
 
 
 //「…………私たちに、……真相が……。＠
+	PlaySE(4, "S05/13/101300783", 128, 64);
 	OutputLine(NULL, "「…………私たちに、……真相が……。」",
 		   NULL, "\"...We find... the truth...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3173,6 +3224,7 @@
 
 
 //「…でも、……もう、死んでしまったんですよ………、うぅ…！！＠
+	PlaySE(4, "S05/13/101300784", 128, 64);
 	OutputLine(NULL, "「…でも、……もう、死んでしまったんですよ………、うぅ…！！」",
 		   NULL, "\"...But ...they're already dead... ooh...!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3233,6 +3285,7 @@
 	PlaySE(4, "S05/13/101300786", 128, 64);
 	OutputLine(NULL, "「…暴く。",
 		   NULL, "\"...Crack it open.", Line_WaitForInput);
+	PlaySE(4, "S05/13/101300787", 128, 64);
 	OutputLine(NULL, "……暴く！！」",
 		   NULL, " ...Crack it open!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3240,6 +3293,7 @@
 
 
 //「えぇ＠あれから数年が経過しましたが、時効ではない＠捜査は中断であっても終了ではない＠まだ続いてるんです＠続けさせるんです、私たちがです！！￥
+	PlaySE(4, "S05/11/100700872", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"We will.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700873", 128, 64);
@@ -3387,7 +3441,6 @@
 	ClearMessage();
 
 //　この惨劇が、どうして起こされたのか＠
-	PlaySE(4, "S05/11/100700877|S05/13/101300788", 128, 64);
 	OutputLine(NULL, "　この惨劇が、どうして起こされたのか。",
 		   NULL, "Why did this tragedy happen?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -3400,21 +3453,18 @@
 
 
 //　どうかこれを読んだあなた＠
-	PlaySE(4, "S05/11/100700879|S05/13/101300790", 128, 64);
 	OutputLine(NULL, "　どうかこれを読んだあなた。",
 		   NULL, "If you're reading this.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　真相を解き明かしてください＠
-	PlaySE(4, "S05/11/100700880|S05/13/101300791", 128, 64);
 	OutputLine(NULL, "　真相を解き明かしてください。",
 		   NULL, "Please discover the truth.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　それだけが私たちの願いです＠
-	PlaySE(4, "S05/11/100700881|S05/13/101300792", 128, 64);
 	OutputLine(NULL, "　それだけが私たちの願いです。",
 		   NULL, "That is our only wish.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);

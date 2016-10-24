@@ -1,41 +1,75 @@
-# PS3 Voice and Graphics Patch (in progress)
+# PS3 Voice and Graphics Patch
 
-Currently hosting only the automated placed lines. All files need manual fixing, avoid placing them on your game.
+For Higurashi No Naku Koro Ni - Chapter 4 Himatsubushi
 
-README's going to be updated as the patch is developed. Refer to [Onikakushi](https://github.com/higurashi-mod/onikakushi) for more details about the patch.
+This patch aims to combine the efforts of the PS3 voice patch and the PS3 sprites/background patch, and fill in missing voice files not covered by the original voice patch.
 
-Old collaborators welcome to join the repository, however it's still preferred to fork the repository and update through pull requests.
+1. Installation
+  1. [Prerequisites](https://github.com/07th-mod/himatsubushi#prerequisites)
+  2. [Releases](https://github.com/07th-mod/himatsubushi#releases)
+  3. [Installing the patch](https://github.com/07th-mod/himatsubushi#installing-the-patch)
+  4. [Building a symlink (optional)](https://github.com/07th-mod/himatsubushi#creating-a-symlink)
+2. Development
+    * [Known issues](https://github.com/07th-mod/himatsubushi#known-issues)
+    * [Developing with us](https://github.com/07th-mod/himatsubushi#developing-with-us)
+3. [Credits](https://github.com/07th-mod/himatsubushi#credits)
 
-# Scripts progress
 
->Bold lines mean "in progress"
+# Prerequisites
 
-- [x] hima_001.txt
-- [x] hima_002.txt
-- [x] hima_002_02.txt
-- [ ] **hima_002_03.txt**
-- [x] hima_003.txt
-- [x] hima_003_02.txt
-- [ ] hima_003_03.txt
-- [x] hima_003_04.txt
-- [x] hima_003_05.txt
-- [ ] hima_004.txt
-- [x] hima_tips_01.txt
-- [x] hima_tips_02.txt
-- [x] hima_tips_03.txt
-- [x] hima_tips_04.txt
-- [x] hima_tips_05.txt
-- [x] hima_tips_06.txt
-- [x] hima_tips_07.txt
-- [x] hima_tips_08.txt
-- [x] hima_tips_09.txt
-- [x] hima_tips_10.txt
-- [x] hima_tips_11.txt
-- [x] hima_tips_12.txt
-- [x] hima_tips_13.txt
-- [x] hima_tips_14.txt
-- [x] omake_04.txt
+* Higurashi When They Cry Hou - Ch.4 himatsubushi ([Steam](http://store.steampowered.com/app/526490/) or [MangaGamer](http://www.mangagamer.com/detail.php?goods_type=1&product_code=189))
+* [HigurashiPS3-Voices01.zip (uses S20 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices01.zip) + [HigurashiPS3-Voices02.zip (uses S05 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices02.zip) [(or create a symlink using your EP1 files)](https://github.com/07th-mod/himatsubushi#creating-a-symlink)
+* [Graphics mod](http://www.mediafire.com/file/cxn386i9kc4ee95/Higurashi+Ch.4+-+PS3+Graphics+Mod+1.0.rar)
+* [Voice patch](https://github.com/07th-mod/himatsubushi/releases)
+
+# Releases
+
+https://github.com/07th-mod/himatsubushi/releases/
+
+This repository is in constant change. Sometimes new releases might get on hold until there is enough content to push a new patch. If the latest patch have a bug that seems to be already fixed in the repository, try downloading the master file. The master file will always have the latest files, regardless of the current release being outdated or not.
+
+# Installing the patch
+
+> Use the previous detailed tutorial to install the patch. See [here](https://github.com/07th-mod/onikakushi#installation).
+
+In this patch we will only use the voice folders S03 (HigurashiPS3-Voices02.zip), S19 and S20 (HigurashiPS3-Voices01.zip). If you already have the first game (Onikakushi) with the patch installed, you don't need to download or copy the s19 and s20 folders. You can save your time creating a symbolic link.
+
+### Creating a symlink
+
+> Reminder: you must have the folders S19, S20 and S03 before following these steps!
+
+###### On Windows:
+1. find your SteamLibrary common folder (usually \SteamLibrary\steamapps\common)
+2. hold shift and right click on an empty space
+3. click on "Open a command line window here" (or similar)
+4. run the following commands on the cmd:
+```
+mklink /J ".\Higurashi 04 - himatsubushi\HigurashiEp04_Data\StreamingAssets\SE\s20" ".\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\SE\S20"
+```
+
+* Do not forget to put the folder S05 inside \Higurashi 04 - himatsubushi\HigurashiEp04_Data\StreamingAssets\SE\
+
+
+###### On Linux/OSX:
+Use the ln -s command on terminal
+```
+ln -s /path/to/original /path/to/symlink
+```
+>Where /path/to/original is ./Higurashi When They Cry/HigurashiEp01_Data/StreamingAssets/SE/S19 and /path/to/symlink should be ./Higurashi 03 - himatsubushi/HigurashiEp03_Data/StreamingAssets/SE/s19
+
+Repeat the command for the s20 folder.
 
 # Known issues
 
 > in omake_04.txt, the last few minutes of text are lacking many voices. In the PS3 version, they have been changed to a completely different text and new content has been added.
+
+# Developing with us
+
+Usually, older contributors are welcome to join the repository and push their own changes without supervision. However, you can also aid the development just by forking the repository and working on your own changes. After you are done, commit the changes, make a pull request and if it's good enough, the changes will be merged. Both approaches are more than welcome!
+
+# Credits
+
+- @DoctorDiablo - For making the graphics mod
+- @enumag - For coding the new automation script
+- @Grelo - For expanding the graphics mod
+- Anon - For giving us the PS3 files and scripts
