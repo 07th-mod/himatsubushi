@@ -17,8 +17,8 @@ This patch aims to combine the efforts of the PS3 voice patch and the PS3 sprite
 # Prerequisites
 
 * Higurashi When They Cry Hou - Ch.4 himatsubushi ([Steam](http://store.steampowered.com/app/526490/) or [MangaGamer](http://www.mangagamer.com/detail.php?goods_type=1&product_code=189))
-* [HigurashiPS3-Voices01.zip (uses S20 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices01.zip) + [HigurashiPS3-Voices02.zip (uses S05 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices02.zip) [(or create a symlink using your EP1 files)](https://github.com/07th-mod/himatsubushi#creating-a-symlink)
-* [Graphics mod](http://www.mediafire.com/file/cxn386i9kc4ee95/Higurashi+Ch.4+-+PS3+Graphics+Mod+1.0.rar)
+* [HigurashiPS3-Voices01.zip (uses S20 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices01.zip) + [HigurashiPS3-Voices02.zip (uses S05 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices02.zip)
+* [Graphics mod](https://mega.nz/#!dNUgwRIJ!GJGTsiv3G1FMu0MnKT4Jcv01b_nJIUtyR48309Y0aW0)
 * [Voice patch](https://github.com/07th-mod/himatsubushi/releases)
 
 # Releases
