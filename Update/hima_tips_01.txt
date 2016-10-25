@@ -11,6 +11,7 @@
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //「…そうですか＠急な出張は大変ですね…＠どうぞお気をつけて＠出張はどちらへですか＠　もう出張先なんですか？＠
+	PlaySE(4, "S20/00/yukie44001", 128, 64);
 	OutputLine(NULL, "「…そうですか。",
 		   NULL, "\"...Oh really?", Line_WaitForInput);
 	OutputLine(NULL, "急な出張は大変ですね…。",
