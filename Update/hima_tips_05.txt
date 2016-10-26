@@ -15,7 +15,7 @@
 
 	PlayBGM( 1, "msys12", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_206", 400 );
+	DrawScene( "Sunset/bg_206", 400 );
 
 //　車の音が近付き、緩いブレーキと音と共にエンジン音を止める￥
 	OutputLine(NULL, "　車の音が近付き、緩いブレーキと音と共にエンジン音を止める。",
@@ -195,7 +195,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_194", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_206", "left", 0, 0, 300 );
 
 //　そして、その様子を尻目に、……部屋の隅へ歩み寄る￥
 	OutputLine(NULL, "　そして、その様子を尻目に、……部屋の隅へ歩み寄る。",
@@ -312,8 +312,6 @@
 		   NULL, " You'll be let go real soon, heh heh heh...\"", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask( "black", "up", 0, 0, 300 );
 
 //　そんな男たちの声が、少年の耳に届いているかはわからない＠
 	OutputLine(NULL, "　そんな男たちの声が、少年の耳に届いているかはわからない。",

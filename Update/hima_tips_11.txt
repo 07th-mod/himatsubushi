@@ -7,7 +7,7 @@
 //*Sub_Tips_074
 //gosub *tip_s
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene( "bg_207a", 400 );
 
 	PlayBGM( 1, "msys12", 128, 0 );
 
@@ -163,6 +163,8 @@
 	OutputLine(NULL, "　…その時、雪絵はなぜかふと気になり、窓を見た。",
 		   NULL, "...At that moment, Yukie suddenly became concerned about something, and looked out the window.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "Sunset/bg_204", 400 );
 
 
 //　刻限は夕方＠

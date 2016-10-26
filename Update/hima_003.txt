@@ -1178,6 +1178,8 @@
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 2, "oisi1_2_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //　大石氏がにやっと笑って、私の背中をドンと叩く＠
@@ -1205,6 +1207,9 @@
 	OutputLine(NULL, "「ではさっそく出してもらえますか。」",
 		   NULL, "\"Well then, shall we hurry up and get going?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
 
 
 //　……敵が、財布が警察に取得されたことを知るならば＠
@@ -2502,7 +2507,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 2, "ir_hk_de_a1", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	DrawBustshotWithFiltering( 2, "iri2_Def1_0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「…………大丈夫ですか＠　私は医者です＠この手術跡はいつ頃のものですか？＠
 	PlaySE(4, "S05/10/101000007", 128, 64);
@@ -2542,7 +2547,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "ir_hk_ma_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "iri2_Majime2_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「事故＠……そうですか……＠…参ったな……。＠
 	PlaySE(4, "S05/10/101000010", 128, 64);
@@ -2570,7 +2575,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ir_hk_ma_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "iri2_Majime_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「患部を少し触りますよ＠　痛むところがあったら言って下さいね？￥
 	PlaySE(4, "S05/10/101000013", 128, 64);

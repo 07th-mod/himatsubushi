@@ -28,6 +28,8 @@
 	OutputLine(NULL, "会場は興宮セレモニホールになります…。」",
 		   NULL, " The venue will be Okinomiya Ceremony Hall...\"", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 3, "oryou_Def_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //「…すっかぁ＠池澤助役のお孫さんの葬式じゃあ、何にも挨拶なしってわけにもいかんね＠魅音、代わりに出てぇな。＠
@@ -87,8 +89,6 @@
 		   NULL, "Mion quietly whistled in awe at the exorbitant amount of money her grandmother was offering.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask( "bg_035", "left", 0, 0, 300 );
 
 //「…池澤さんはなぁ、興宮の事務所長だった頃からしっかりした人だったんね＠…役人は挨拶って言っても、絶対に玄関までしか来ん＠でもな、池澤さんはワシがお茶を勧めると、いっつも上がってくれて、ちゃあんと話を聞いてくれたん＠…人の話を最後まで聞く、本当に鑑みたいな人だったんね。￥
 	PlaySE(4, "S20/17/442300031", 128, 64);
@@ -136,6 +136,9 @@
 	OutputLine(NULL, "……１１歳だそうで…。」",
 		   NULL, " 11 years old, apparently...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	DrawBustshot( 3, "oryou_Shinken_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //　お魎は目を伏せると、小さく首を横に振りながら、若い命が没したことを悔やむ￥
@@ -157,7 +160,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "me_si_wa_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshot( 1, "me_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「あははははは＠婆っちゃも他人にゃやさしいね＠私や詩音が死んだら、同じ様に悲しんでくれる？￥
 	PlaySE(4, "S20/26/440300116", 128, 64);
@@ -268,7 +271,7 @@
 
 	DisableWindow();
 	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_204", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_203a", "up", 0, 0, 300 );
 
 //「どしたの＠　もうろくした＠　あははははは！＠
 	PlaySE(4, "S20/26/440300121", 128, 64);
@@ -428,7 +431,10 @@
 	OutputLine(NULL, "　魅音は、自分の声が届いたことを確認すると、受話器を取りダイヤルする。",
 		   NULL, "Mion, after confirming she'd been heard, picked up the phone and began dialing.", Line_Normal);
 	ClearMessage();
-
+	DisableWindow();
+	DrawSceneWithMask( "bg_195", "up", 0, 0, 300 );
+	DrawBustshot( 2, "me_si_ma_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	
 
 //「……………………あ、もしもし＠魅音だけど＠…うん＠…うちのお父さん、います？￥
 	PlaySE(4, "S20/26/440300127", 128, 64);

@@ -24,6 +24,8 @@
 	OutputLine(NULL, "　こうして文字に書き出してみて、初めて自覚する。",
 		   NULL, "I first realized it when I started writing these things down.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "note", 1000 );
 
 
 	PlayBGM( 1, "msys21", 128, 0 );

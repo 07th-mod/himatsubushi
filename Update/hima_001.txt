@@ -1043,7 +1043,7 @@
 
 	DisableWindow();
 	PlayBGM( 1, "msys26", 128, 0 );
-	DrawScene( "bg_207", 1000 );
+	DrawScene( "bg_207a", 1000 );
 
 //　………覚えてるかい、雪絵＠この写真￥
 	OutputLine(NULL, "　………覚えてるかい、雪絵。",
@@ -4140,7 +4140,7 @@
 	DrawSceneWithMask( "black", "left", 0, 0, 300 );
 	PlayBGM( 2, "lsys12", 128, 0 );
 	DrawBustshot( 3, "oi_si_aw_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_046", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_046a", "left", 0, 0, 300 );
 
 
 //「…おいおいおい、あんたら、ダメだよこんなとこで道を塞いじゃあ。＠
@@ -4248,7 +4248,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_si_de_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_046", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_046a", "left", 0, 0, 300 );
 
 //「彼の顔は勘弁してあげてください＠まだまだ新米でシャイなんですからね、んっふっふ！＠
 	PlaySE(4, "S05/11/100700048", 128, 64);
@@ -4523,7 +4523,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_049", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_049a", "right", 0, 0, 300 );
 
 //「あそこの森の中に家があるのが見えます＠　古い感じの。＠
 	PlaySE(4, "S05/11/100700081", 128, 64);
@@ -4974,7 +4974,14 @@
 	OutputLine(NULL, "　…ここで私が口を開かないことで、何も不利益を被ることはない。",
 		   NULL, "...If I didn't open my mouth, I wouldn't have to lose anything.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
+	
+	ClearMessage();
+	DisableWindow();
+	DrawScene( "bg_100", 400 );
+	SetValidityOfInput( FALSE );
+	Wait( 2000 );
+	SetValidityOfInput( TRUE );
+	DrawScene( "Sunset/bg_100", 400 );
 
 //　……大石氏が根負けするまで、外ののどかな景色を満喫していればいいだけなのだから￥
 	OutputLine(NULL, "　……大石氏が根負けするまで、外ののどかな景色を満喫していればいいだけなのだから。",
@@ -4982,7 +4989,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「………んっふっふっふ＠　あなたって人は、本当に隠し事が下手な人ですねぇ＠そういう素直で初々しいの、悪くないなぁ。＠
 	PlaySE(4, "S05/11/100700125", 128, 64);
@@ -5025,7 +5032,7 @@
 
 	DisableWindow();
 	PlayBGM( 2, "lsys20", 128, 0 );
-	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_101", "left", 0, 0, 300 );
 
 //「…素直なところを教えてくれりゃあ、もっとお力になれると思ったんですがね。＠
 	PlaySE(4, "S05/11/100700128", 128, 64);
@@ -5137,7 +5144,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_100", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_100", "left", 0, 0, 300 );
 
 //「……その情報協力員は、どの程度、鬼ヶ淵死守同盟に精通を？＠
 	PlaySE(4, "S05/13/101300104", 128, 64);
@@ -5147,7 +5154,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「なっはっはっは＠　あんたも公安の人間ならわかるでしょ＠　そんなの、私の口から、例えあなたにだって話せる訳ないじゃありませんか。￥
 	PlaySE(4, "S05/11/100700134", 128, 64);
@@ -5186,7 +5193,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「あなたは国、私は県に雇われてますがね＠私たちの職務はそう大きくは違わないと思っています＠……力になれると思うんですがねぇ。＠
 	PlaySE(4, "S05/11/100700137", 128, 64);
@@ -5218,7 +5225,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「なっはっはっはっは…＠そりゃ、下心がないわけじゃないです＠あんたらは確か、協力員に支払える謝礼用の予算を持ってますよねぇ＠　領収書不要な予算を＠……そいつでですね、情報屋との接触にかかるコストを、ちょいと、￥
 	PlaySE(4, "S05/11/100700140", 128, 64);
@@ -5263,7 +5270,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「誤解しないで下さいよ＠　お金が必要なのは、私にじゃなくて、情報屋になんですからね＠　まぁ、支払いの関係上、お金は私が預かりますがねぇ＠んっふっふ！＠
 	PlaySE(4, "S05/11/100700145", 128, 64);
@@ -5320,7 +5327,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「こういう時はですね、ケチケチしない方がいいんです＠大丈夫大丈夫、損はさせませんから。＠
 	PlaySE(4, "S05/11/100700151", 128, 64);
@@ -5342,7 +5349,7 @@
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「で＠　調べたい情報は何です＠　内容によって多少、アプローチが変わることもありますので…。￥
 	PlaySE(4, "S05/11/100700153", 128, 64);
@@ -5387,7 +5394,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「なっはっはっはっは＠　わかりましたよ、誓います＠ここで聞くことは他言無用です＠それに、あなたのお陰で雀荘のツケを全部返せるんですからねぇ＠私は少なくとも金の絡んだ約束は絶対に違えませんよ＠　んっふっふっふ…！￥
 	PlaySE(4, "S05/11/100700159", 128, 64);
@@ -5443,7 +5450,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「ある事件？＠
 	PlaySE(4, "S05/11/100700165", 128, 64);
@@ -5514,7 +5521,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_203", "up", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_204", "up", 0, 0, 300 );
 
 //「なるほど＠…大臣の近辺にスパイがいるらしいから、公安だけの極秘調査ということになったわけですか＠………そりゃあ確かに穏便な話じゃないですねぇ。＠
 	PlaySE(4, "S05/11/100700171", 128, 64);
@@ -5610,8 +5617,8 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_100", 400 );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene( "Sunset/bg_100", 400 );
 
 //「………………………大臣の孫を誘拐して、ダム計画の撤回を求める、か……＠…んんん………。＠
 	PlaySE(4, "S05/11/100700180", 128, 64);
@@ -5665,7 +5672,7 @@
 
 	DisableWindow();
 	PlayBGM( 1, "msys21", 128, 0 );
-	DrawBustshot( 2, "oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……………………明治前まではですね＠この辺りは雛見沢村って名前じゃなくて、鬼ヶ淵村って呼ばれてたそうで..\n\n<
 //_@
@@ -5678,7 +5685,7 @@
 		   NULL, " This area wasn't named Hinamizawa Village back then--it was called Onigafuchi.", Line_WaitForInput);
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //……なははは、うちの婆さまの受け売りですがね。＠
@@ -5724,7 +5731,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「情報ですよ、情報＠さっきあなたからたくさんもらっちゃいましたからね＠少しもらい過ぎました＠その分、サービスしてあげてるんですよ。＠
 	PlaySE(4, "S05/11/100700187", 128, 64);
@@ -5756,7 +5763,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「人食い鬼たちはですね＠普段は仙人と崇められて、ひっそりと暮らしているんですがね＠……やっぱり人食いですから、定期的に麓の村に下りてきては、獲物をさらっていったんだそうです＠……それをですね、『鬼隠し』と言いまして。￥
 	PlaySE(4, "S05/11/100700191", 128, 64);
@@ -5794,7 +5801,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_101", 400 );
+	DrawScene( "Sunset/bg_101", 400 );
 
 //「……ほら、よく世間一般に『神隠し』っていうのがあるじゃないですか＠人が、ある日突然、失踪してしまうとそう言うでしょう＠……この辺りでは同じことがあると『鬼隠し』って呼ぶんです。＠
 	PlaySE(4, "S05/11/100700195", 128, 64);
@@ -5847,7 +5854,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_100", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_100", "left", 0, 0, 300 );
 
 //「ただ？　何です？＠
 	PlaySE(4, "S05/13/101300137", 128, 64);
@@ -5857,7 +5864,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「…この土地に『鬼隠し』という名の、失踪・誘拐を暗示するキーワードがある、ということだけは、お話しておこうと思いまして＠今回の大臣の孫の誘拐と関係あるかはわかりませんが..\n\n<
 //_@
@@ -5870,7 +5877,7 @@
 		   NULL, " I don't know if this has anything to do with the kidnapping of the minister's grandson.", Line_WaitForInput);
 
 	DisableWindow();
-	DrawBustshot( 2, "oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/oi_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //………まぁ、深い話ではないんです＠そんな謂れの話がある、ということだけでもね、んっふっふっふっふ…！￥
@@ -5992,6 +5999,9 @@
 	OutputLine(NULL, "　………思えば、私はもうこの時に、この怪しげな村の呪縛に囚われていたのかもしれない。",
 		   NULL, "...Come to think of it, by then, I may have already been seized by the curse of that dubious village.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+	ClearMessage();
+	DisableWindow();
+	DrawScene( "Sunset/bg_101", 400 );
 
 
 //　…それに気付くのには、……もう少しの時間が必要だった…￥

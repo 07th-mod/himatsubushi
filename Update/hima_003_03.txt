@@ -10,7 +10,7 @@
 //■高津戸地区
 	PlayBGM( 1, "msys24", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_218", 400 );
+	DrawScene( "bg_200", 400 );
 
 //　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった＠
 	OutputLine(NULL, "　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった。",
@@ -97,7 +97,7 @@
 
 
 //「まさか＠行けるところまでは車で行くでしょうなぁ。＠
-	PlaySE(4, "S05/11/1007004765", 128, 64);
+	PlaySE(4, "S05/11/100700475", 128, 64);
 	OutputLine(NULL, "「まさか。",
 		   NULL, "\"No way.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700476", 128, 64);
@@ -335,6 +335,8 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
+	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	
 //＞＞＞＞＞この部分は職場で打った分を見ながら修正だ☆
 
 //「……赤坂。＠
@@ -355,6 +357,9 @@
 	OutputLine(NULL, "「…………何だい？」",
 		   NULL, "\"...What is it?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	DrawBustshot( 2, "ri_si_fu_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「……………………東京へ帰れ。￥
@@ -428,6 +433,8 @@
 	OutputLine(NULL, "　…始めから最後まで、全てを知っている少女が、……私にした一番最初の警告。東京へ帰れ。",
 		   NULL, "..The girl, who knew everything from start to finish, had warned me in the beginning. Go back to Tokyo.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 2, "ri_si_ny_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「………赤坂の怖がり＠……くすくすくすくすくす！￥
@@ -691,7 +698,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_039", 400 );
+	DrawScene( "bg_200", 400 );
 
 //　対向車だった￥
 	OutputLine(NULL, "　対向車だった。",
@@ -729,7 +736,7 @@
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
 	DrawBustshot( 3, "oi_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_102", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_046a", "left", 0, 0, 300 );
 	PlayBGM( 1, "msys12", 128, 0 );
 
 //「入江の先生～～～～～！！＠　こんにちは。＠
@@ -1050,7 +1057,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "up", 0, 0, 300 );
+	DrawSceneWithMask( "Rain/bg_101", "up", 0, 0, 300 );
 
 //　やがて、大石氏は車を停める￥
 	OutputLine(NULL, "　やがて、大石氏は車を停める。",
@@ -1079,7 +1086,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "bg_097", 400 );
+	DrawScene( "black", 400 );
 
 //　大石氏は屈み込むと、茂みの向こうをそっと指差す＠
 	OutputLine(NULL, "　大石氏は屈み込むと、茂みの向こうをそっと指差す。",
@@ -1106,9 +1113,6 @@
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-	DisableWindow();
-	DrawBustshotWithFiltering( 3, "oi_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
-
 //「営林署の器材小屋です＠夏場以外は利用されてないと聞きました。＠
 	PlaySE(4, "S05/11/100700553", 128, 64);
 	OutputLine(NULL, "「営林署の器材小屋です。",
@@ -1126,9 +1130,6 @@
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-	DisableWindow();
-	DrawBustshot( 3, "oi_si_de_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
-
 //「さぁねぇ＠公用車にゃ見えないですね。＠
 	PlaySE(4, "S05/11/100700555", 128, 64);
 	OutputLine(NULL, "「さぁねぇ。",
@@ -1144,8 +1145,6 @@
 		   NULL, "Ooishi was playing it cool, but my nervousness was gradually increasing.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
 
 //「一応は念のため。＠
 	PlaySE(4, "S05/11/100700557", 128, 64);
@@ -1166,7 +1165,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "right", 0, 0, 300 );
+	DrawSceneWithMask( "Rain/bg_101", "right", 0, 0, 300 );
 
 //「もしもし、大石です＠聞こえてるかな＠　こんにちは、こんにちは、んっふっふ。＠
 	PlaySE(4, "S05/11/100700558", 128, 64);
@@ -1232,7 +1231,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_097", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Rain/bg_097", "left", 0, 0, 300 );
 
 //「じゃ、……行ってみましょうかねぇ＠んっふっふっふ！￥
 	PlaySE(4, "S05/11/100700567", 128, 64);
@@ -1641,7 +1640,7 @@
 
 
 	PlaySE( 3, "wa_015", 128, 64 );
-	ChangeScene( "bg_143", 8, 200, );
+	ChangeScene( "Rain/bg_143", 8, 200, );
 	PlaySE( 3, "wa_004", 128, 64 );
 	ShakeScreen( 1, 50, 20, 5, 0, );
 	PlayBGM( 2, "lsys23", 128, 0 );
@@ -1893,7 +1892,7 @@
 
 	DisableWindow();
 	DrawScene( "white", 10 );
-	DrawScene( "bg_143", 50 );
+	DrawScene( "Rain/bg_143", 50 );
 	PlaySE( 3, "wa_005", 128, 64 );
 	ShakeScreen( 0, 50, 20, 3, 0, );
 
@@ -1950,7 +1949,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_143_re1", 1000 );
+	DrawScene( "Rain/bg_143_re1", 1000 );
 
 //　大石は直感的に、殺されると思った＠
 	OutputLine(NULL, "　大石は直感的に、殺されると思った。",
@@ -1964,7 +1963,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_143_re2", 1000 );
+	DrawScene( "Rain/bg_143_re2", 1000 );
 
 //　だが相手はそれをせずに、締め付けて意識を失わせることを選んできた＠
 	OutputLine(NULL, "　だが相手はそれをせずに、締め付けて意識を失わせることを選んできた。",
@@ -1993,7 +1992,7 @@
 
 
 	DisableWindow();
-	DrawScene( "bg_143_re3", 1000 );
+	DrawScene( "Rain/bg_143_re3", 1000 );
 
 //　でも、だからといって、男の首締めが緩いことはない＠
 	OutputLine(NULL, "　でも、だからといって、男の首締めが緩いことはない。",
@@ -2018,7 +2017,7 @@
 	SetValidityOfInput( FALSE );
 	Wait( 4000 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "bg_096", "right", 0, 0, 300 );
+	DrawSceneWithMask( "Rain/bg_097", "right", 0, 0, 300 );
 
 //　赤坂はようやく急所蹴りの激痛から解放されたところだった￥
 	OutputLine(NULL, "　赤坂はようやく急所蹴りの激痛から解放されたところだった。",
@@ -2106,7 +2105,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_141", "right", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_141", "right", 0, 0, 200 );
 
 //　低い茂みを駆け抜け、小枝や落ち葉をバリバリと踏み分けていく￥
 	OutputLine(NULL, "　低い茂みを駆け抜け、小枝や落ち葉をバリバリと踏み分けていく。",
@@ -2164,7 +2163,7 @@
 
 	DisableWindow();
 	DrawSceneWithMask( "black", "right", 0, 0, 200 );
-	DrawSceneWithMask( "bg_142", "right", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_142", "right", 0, 0, 200 );
 
 //　距離は縮まずとも離されてはいない＠
 	OutputLine(NULL, "　距離は縮まずとも離されてはいない。",
@@ -2207,7 +2206,7 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
-	DrawScene( "bg_143", 400 );
+	DrawScene( "Rain/bg_143", 400 );
 
 //　そして、その願いは成就する￥
 	OutputLine(NULL, "　そして、その願いは成就する。",
@@ -2347,7 +2346,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_144", 400 );
+	DrawScene( "Rain/bg_144", 400 );
 
 //　二人はごろごろと転がりながら、より相手よりも優位な体勢を取ろうと足掻く＠
 	OutputLine(NULL, "　二人はごろごろと転がりながら、より相手よりも優位な体勢を取ろうと足掻く。",
@@ -2602,7 +2601,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_142", 400 );
+	DrawScene( "Rain/bg_142", 400 );
 
 //　力を緩めたつもりは微塵もなかった＠…だが、わずかの弛みが、男の足を解放してしまう＠
 	OutputLine(NULL, "　力を緩めたつもりは微塵もなかった。",
@@ -2723,7 +2722,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_143", "right", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_143", "right", 0, 0, 200 );
 
 //「犬飼寿樹くんだね？＠　君を助けに来た！！＠
 	PlaySE(4, "S05/13/101300512", 128, 64);
@@ -2765,7 +2764,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_142", "left", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_142", "left", 0, 0, 200 );
 
 //「これ以上、抵抗するな！＠　大人しく降参しろ！！＠
 	PlaySE(4, "S05/13/101300514", 128, 64);
@@ -2987,7 +2986,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_144", 400 );
+	DrawScene( "Rain/bg_144", 400 );
 
 //「…くそったれがぁ…！＠　弾かれなきゃコイツの怖さがわからねぇかよ！！＠
 	PlaySE(4, "S05/49/VT2_13hibari1069", 128, 64);
@@ -3052,7 +3051,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_142", "right", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_142", "right", 0, 0, 200 );
 
 //　現れた男は、ひと目見て犯人のひとりだとわかる￥
 	OutputLine(NULL, "　現れた男は、ひと目見て犯人のひとりだとわかる。",
@@ -3191,7 +3190,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_144", "left", 0, 0, 200 );
+	DrawSceneWithMask( "Rain/bg_144", "left", 0, 0, 200 );
 
 //「……ッツ……く………ぐ………！！！＠
 	PlaySE(4, "S05/13/101300534", 128, 64);
@@ -3344,6 +3343,8 @@
 	OutputLine(NULL, "　誰も責められやしないさ！！！",
 		   NULL, " Nobody would blame me!!!", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "aka1", 400 );
 
 
 //　あぁくそ……痛ぇ…痛え…！！＠
@@ -3376,7 +3377,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_144", 200 );
+	DrawScene( "Rain/bg_144", 200 );
 
 //「くそ！＠　待てよ、待ってくれよ！＠　死にたくないよッ！！！＠
 	PlaySE(4, "S05/13/101300539", 128, 64);
@@ -3503,6 +3504,7 @@
 	ClearMessage();
 
 	DisableWindow();
+	DrawSceneWithMask( "Rain/bg_142", "right", 0, 0, 200 );
 	DrawBustshotWithFiltering( 3, "oi_si_aw_a1", "left", 7, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「えぇ、極めて文句ないですよッ！！！￥
@@ -3539,9 +3541,9 @@
 	PlaySE( 3, "wa_006", 128, 64 );
 	ShakeScreen( 0, 50, 20, 4, 0, );
 	DrawScene( "white", 50 );
-
-	DrawBustshot( 3, "oi_si_aw_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawScene( "bg_144", 200 );
+	
+	DrawBustshot( 1, "oi_si_aw_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawScene( "Rain/bg_142", 200 );
 
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
@@ -3587,8 +3589,6 @@
 		   NULL, "Seeing the look on Ooishi's face indicating that he wanted me to create an opening, I took on that role completely.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask( "bg_142", "left", 0, 0, 300 );
 	PlaySE( 3, "wa_015", 128, 64 );
 
 //　大石氏は背後から銃を持った腕を掴み上げ、瞬時に間接を極めてしまう＠
@@ -3833,7 +3833,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_144", 400 );
+	DrawScene( "Rain/bg_143", 400 );
 
 //　後を振り返る＠
 	OutputLine(NULL, "　後を振り返る。",
@@ -3861,7 +3861,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_144_mo1", "down", 0, 0, 1300 );
+	DrawSceneWithMask( "Rain/bg_143_mo1", "down", 0, 0, 1300 );
 
 //　それを自身が認めた途端、頭の中が次々停電していくように、暗くなっていくのを感じた￥
 	OutputLine(NULL, "　それを自身が認めた途端、頭の中が次々停電していくように、暗くなっていくのを感じた。",
@@ -3869,7 +3869,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_144_mo2", "down", 0, 0, 1300 );
+	DrawSceneWithMask( "Rain/bg_143_mo2", "down", 0, 0, 1300 );
 
 //　自分の膝がぐにゃりと曲がり、地面が羽根布団のように柔らかに感じた＠
 	OutputLine(NULL, "　自分の膝がぐにゃりと曲がり、地面が羽根布団のように柔らかに感じた。",

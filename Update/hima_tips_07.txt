@@ -14,9 +14,9 @@
 
 	DisableWindow();
 	DrawScene( "black", 1000 );
-	DrawScene( "bg_034", 400 );
+	DrawScene( "Sunset/bg_034", 400 );
 	PlayBGM( 1, "msys06", 128, 0 );
-	DrawBustshot( 3, "ir_hk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	DrawBustshot( 3, "Sunset/ir_hk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「だいぶ血圧もよくなってきましたよ＠そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです＠
 	PlaySE(4, "S20/10/441000048", 128, 64);
@@ -32,12 +32,15 @@
 	OutputLine(NULL, "　お魎さんなら、百でも二百でも元気にお過ごしになれますね。」",
 		   NULL, "At this rate, you'll still be kicking after a couple hundred more years, Oryou-san.\"", Line_Normal);
 	ClearMessage();
-
+	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
 
 //　若い白衣の医者は、そう微笑みかけながら、布団に入った老婆の腕に付けていた血圧測定器具のマジックテープをベリリと剥がした￥
 	OutputLine(NULL, "　若い白衣の医者は、そう微笑みかけながら、布団に入った老婆の腕に付けていた血圧測定器具のマジックテープをベリリと剥がした。",
 		   NULL, "The young doctor in his medical coat said that as he undid the blood pressure cuff from the arm of the old woman tucked away in her futon.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 3, "Sunset/oryou_Def_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 
 //「入江の先生はほんにお上手でぇ…＠ワシんたいな死に損ないは早ぅ死なんと、若者の邪魔んなっていけんね…＠…ほっほっほっほ…。＠
@@ -72,6 +75,8 @@
 	OutputLine(NULL, "　入江先生に麦茶でも入れてやりゃあなぁ！」",
 		   NULL, " Bring some tea for Dr. Irie!\"", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
 
 
 //　廊下をぱたぱたと足音が近付き、ふすまがソロリを開く＠
@@ -88,7 +93,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "me_si_de_a2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DrawBustshotWithFiltering( 1, "Sunset/me_si_de_a2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「沁子さんは今日はもうあがっちゃったよ＠…何か用？＠
 	PlaySE(4, "S20/26/440300105", 128, 64);
@@ -131,7 +136,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "me_si_wi_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/me_si_wi_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「はいはい。＠
 	PlaySE(4, "S20/26/440300109", 128, 64);
@@ -195,7 +200,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 3, "ir_hk_de_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/ir_hk_de_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「お魎さん、お魎さん、ままままま…、そこまでは言わなくても＠魅音ちゃんも若いなりに頑張ってますから。￥
 	PlaySE(4, "S20/10/441000050", 128, 64);
@@ -216,7 +221,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 3, "ir_hk_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/ir_hk_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あっはっはっはっは＠で、その母親の母親もまた、そっくりなんじゃあないですか？＠
 	PlaySE(4, "S20/10/441000051", 128, 64);
@@ -251,6 +256,8 @@
 	OutputLine(NULL, "　気付けば、障子の隙間からは涼しそうなひぐらしの声が漏れ入っていた。",
 		   NULL, "The cool chirping of the higurashi had at some point started leaking through the gap in the doorway.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
 
 
 //　入江は腰を上げ、障子を少し開けた￥
@@ -259,7 +266,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_035", "right", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_034a", "right", 0, 0, 300 );
 	PlayBGM( 2, "lsys11", 128, 0 );
 
 //　…清々した風が、室内のしけった空気を追い出していく￥
@@ -268,7 +275,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "ir_hk_de_a2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DrawBustshotWithFiltering( 1, "Sunset/ir_hk_de_a2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「日中はだいぶ暑くなったように思うんですが、…まだ、朝夕は涼しいですね＠昨夜は少し肌寒いくらいでした。＠
 	PlaySE(4, "S20/10/441000052", 128, 64);
@@ -313,7 +320,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ir_hk_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ir_hk_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「………国が一度決めたことを撤回するのは、なかなか難しいでしょうねぇ…。＠
 	PlaySE(4, "S20/10/441000053", 128, 64);
@@ -331,7 +338,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 1, "ir_hk_ma_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ir_hk_ma_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…石臼、ですか？＠
 	PlaySE(4, "S20/10/441000054", 128, 64);
@@ -350,7 +357,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ir_hk_de_a2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ir_hk_de_a2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //　いえいえいえ、もちろん知ってますよと入江は取繕った＠
 	OutputLine(NULL, "　いえいえいえ、もちろん知ってますよと入江は取繕った。",
@@ -385,7 +392,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "me_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "Sunset/me_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //　やがて魅音がお茶を乗せたお盆を持って帰ってきた＠
 	OutputLine(NULL, "　やがて魅音がお茶を乗せたお盆を持って帰ってきた。",
@@ -412,7 +419,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 3, "me_si_wa_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/me_si_wa_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「摩擦係数の話でしょ＠確かに婆っちゃの話、理屈はあるね。＠
 	PlaySE(4, "S20/26/440300111", 128, 64);
@@ -431,8 +438,6 @@
 		   NULL, " If there's some sort of mistake, and the millstone suddenly stops turning... to get it turning again takes a great deal of power, more'r less.\"", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawScene( "bg_036", 400 );
 
 //「…………確かに、一度中断した計画をもう一度動かすのに必要なエネルギーは、かなりのものでしょうね。＠
 	PlaySE(4, "S20/10/441000055", 128, 64);
@@ -484,6 +489,10 @@
 	OutputLine(NULL, "　……なぜなら、老婆と魅音の表情に浮かんでいたのは、冷笑だったから。",
 		   NULL, "...For what crept across the Mion and the old lady's faces were contemptuous smiles.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawSceneWithMask( "Sunset/bg_034a", "right", 0, 0, 300 );
+	DrawBustshot( 1, "Sunset/chibimion_Warai_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 3, "Sunset/oryou_Warai_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 
@@ -514,8 +523,6 @@
 		   NULL, "...Thinking that the scornful smiles creeping across both of their faces was the result of some mistake of his, he could only grow afraid.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawScene( "bg_036", 400 );
 
 //「……………………。＠
 	OutputLine(NULL, "「……………………。」",
@@ -527,6 +534,9 @@
 	OutputLine(NULL, "「…………………………………。」",
 		   NULL, "\"......\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	DrawScene( "black", 400 );
 
 
 //「……………………はは、ははははははは、＠

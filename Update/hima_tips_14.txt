@@ -159,7 +159,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_203", 400 );
+	DrawScene( "bg_203a", 400 );
 
 //　年寄り連中は、あの子に神通力があると信じている＠
 	OutputLine(NULL, "　年寄り連中は、あの子に神通力があると信じている。",
@@ -188,7 +188,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "down", 0, 0, 300 );
+	DrawSceneWithMask( "bg_093a", "down", 0, 0, 300 );
 
 //　でも……確かに、誰もが一日晴れると信じる日に、あの子は頑なに傘を手放そうとしなかったことはある＠
 	OutputLine(NULL, "　でも……確かに、誰もが一日晴れると信じる日に、あの子は頑なに傘を手放そうとしなかったことはある。",
@@ -265,6 +265,10 @@
 	OutputLine(NULL, "先生、花マルをあげちゃいます！」",
 		   NULL, " I'll give it a gold star!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「……にぱ～☆＠

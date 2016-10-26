@@ -10,7 +10,7 @@
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "bg_101", 400 );
+	DrawScene( "bg_102", 400 );
 
 //「えぇえぇ、皆さんもご苦労さんなことです＠お暑いでしょうが、せいぜい頑張って下さいよ＠不法投棄のダンプが現れたらすぐにご連絡下さい＠急行いたしますのでね。￥
 	PlaySE(4, "S05/11/100700391", 128, 64);
@@ -50,7 +50,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_102", 400 );
+	DrawScene( "bg_101", 400 );
 
 //　今回の自分の姿も不審者そのものだった＠
 	OutputLine(NULL, "　今回の自分の姿も不審者そのものだった。",
@@ -84,7 +84,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_100", "left", 0, 0, 300 );
 
 //「…ありゃ＠いいんですか？＠
 	PlaySE(4, "S05/11/100700395", 128, 64);
@@ -284,7 +284,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_102", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
 
 //「………………………。＠
 	PlaySE(4, "S05/13/101300449", 128, 64);
@@ -612,7 +612,7 @@
 
 	DisableWindow();
 	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_205", "c", 0, 0, 300 );
+	DrawSceneWithMask( "bg_203a", "c", 0, 0, 300 );
 
 //　窓を開けると、ぶわっとした熱気の風が吹き込んでくる＠
 	OutputLine(NULL, "　窓を開けると、ぶわっとした熱気の風が吹き込んでくる。",
@@ -818,7 +818,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_102", 400 );
+	DrawScene( "bg_100", 400 );
 
 //　実際のところ、どんなにびったり窓ガラスを締めても爆音のようなお経が車内を満たす＠
 	OutputLine(NULL, "　実際のところ、どんなにびったり窓ガラスを締めても爆音のようなお経が車内を満たす。",

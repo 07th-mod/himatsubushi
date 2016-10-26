@@ -582,7 +582,7 @@
 	DisableWindow();
 	DrawScene( "white", 400 );
 	PlayBGM( 1, "msys12", 128, 0 );
-	DrawSceneWithMask( "bg_203", "m1", 0, 0, 300 );
+	DrawSceneWithMask( "bg_203c", "m1", 0, 0, 300 );
 
 //　実際、停車した場所は非常に寂れていて、普段はほとんど使われていないのが見て取れた＠
 	OutputLine(NULL, "　実際、停車した場所は非常に寂れていて、普段はほとんど使われていないのが見て取れた。",
@@ -632,7 +632,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_203", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_203c", "up", 0, 0, 300 );
 
 //　…自分に不審な様子はないだろうか…＠
 	OutputLine(NULL, "　…自分に不審な様子はないだろうか…？",
@@ -692,6 +692,9 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	PlaySE( 3, "wa_024", 128, 64 );
+	DisableWindow();
+	DrawScene( "cg_eye", 1000 );
+	
 
 //………窓際の乗客たちが、みんな私を見下ろしているのに気付き、唖然とする￥
 	OutputLine(NULL, "………窓際の乗客たちが、みんな私を見下ろしているのに気付き、唖然とする。",
@@ -792,7 +795,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_205", 400 );
+	DrawScene( "bg_203c", 400 );
 
 //　……全身に、じっとりとした薄い汗が浮く＠
 	OutputLine(NULL, "　……全身に、じっとりとした薄い汗が浮く。",
@@ -914,6 +917,8 @@
 	OutputLine(NULL, "　そして………そんな、……張り詰めた場所に、…少女はいた。",
 		   NULL, "And... inside that uneasy space... was a girl.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "cg_201a", 1000 );
 
 
 	PlayBGM( 1, "msys26", 128, 0 );
@@ -1044,7 +1049,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene( "cg_201c", 400 );
 	FadeOutBGM( 1, 1000, TRUE );
 
 //「く……わあぁあぁぁぁぁぁ…………………。￥
@@ -1052,7 +1057,8 @@
 	OutputLine(NULL, "「く……わあぁあぁぁぁぁぁ…………………。」",
 		   NULL, "\"Hngh... waaaa.....\"", Line_Normal);
 	ClearMessage();
-
+	DisableWindow();
+	DrawScene( "cg_201b", 400 );
 
 //　…そんな天使のような笑顔は、……大臼歯が覗きこめるくらいの大あくびをして、唐突に目を覚ます＠
 	OutputLine(NULL, "　…そんな天使のような笑顔は、……大臼歯が覗きこめるくらいの大あくびをして、唐突に目を覚ます。",
@@ -1509,6 +1515,9 @@
 	OutputLine(NULL, "「……村を観光したい若者なのです。」",
 		   NULL, "\"...A young'un who came to the village for sightseeing.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	DrawBustshot( 1, "rim_Warai_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 //　少女は、…梨花ちゃんは、そういって微笑みながら、私の腕を取った￥
@@ -1550,7 +1559,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "rim_Def_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……牧野＠ボクも一緒に行ってはいけませんですか？＠
 	PlaySE(4, "S05/27/100500014", 128, 64);
@@ -1573,7 +1582,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "rim_Komaru_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…………みー。＠
 	PlaySE(4, "S05/27/100500016", 128, 64);
@@ -1602,7 +1611,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "rim_Warai_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //　私がそう助け舟を出すと、梨花ちゃんは、にぱ～～っというあの満面の笑顔を浮かべて、しがみ付いてきた＠
 	OutputLine(NULL, "　私がそう助け舟を出すと、梨花ちゃんは、にぱ〜〜っというあの満面の笑顔を浮かべて、しがみ付いてきた。",
@@ -1948,37 +1957,18 @@
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "white", 400 );
-//lsp 1,":c;bmp\haikei\mura\mura_long.jpg",0,0
-//print 42
-
-	DrawBustshot( 5, "white", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 400, TRUE );
-	DrawSprite( 4, "bg_146", NULL, -320, -240, 0, 0, 0, 0, FALSE, FALSE, 0, 0, 32, 100, TRUE );
-	//ScrollBG( "bg_146", 0, 0, 0, 0, 0, 0, 0, TRUE, 0, FALSE );
-	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 1000, TRUE );
-	Wait( 1000 );
-	MoveSprite( 4, -320, -720, 0, 0, 0, 0, 0, 4500, TRUE );
-	//ScrollBG( "bg_146", 0, 0, 0, 0, 0, 0, 0, TRUE, 1000, TRUE );
-	//ScrollBG( "bg_146", 0, 0, 0, 0, 480, 0, 0, TRUE, 4500,TRUE );
-
+	DrawScene( "white", 400 );	
+	DrawSceneWithMask( "bg_146a", "right", 0, 0, 1300 );
+	
 	SetValidityOfUserEffectSpeed( TRUE );
 	SetValidityOfInput( TRUE );
 	SetValidityOfSkipping( TRUE );
 	SetValidityOfLoading( TRUE );
 	SetValidityOfSaving( TRUE, );
-
-//for %Staff_a = 1 to 240
-//msp 1,0,-2,0
-//print 1
-//next
-
+	
 	SetValidityOfInput( FALSE );
 	Wait( 1500 );
-	FadeSprite( 4, 1000, FALSE );
 	SetValidityOfInput( TRUE );
-
-
-//csp -1
 
 	DisableWindow();
 	DrawScene( "bg_088", 5000 );
@@ -2035,7 +2025,7 @@
 	DisableWindow();
 	DrawSceneWithMask( "white", "right", 0, 0, 300 );
 	DrawBustshot( 3, "ri_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_050", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_050a", "right", 0, 0, 300 );
 
 
 //「……こんなのが面白いのですか＠　赤坂は変な人なのです。＠
@@ -2202,7 +2192,7 @@
 	Wait( 2000 );
 	SetValidityOfInput( TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
-	DrawSceneWithMask( "bg_040", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_203a", "up", 0, 0, 300 );
 
 
 //「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！＠
@@ -2224,6 +2214,7 @@
 	ClearMessage();
 
 	DisableWindow();
+	DrawSceneWithMask( "bg_050a", "right", 0, 0, 300 );
 	DrawBustshotWithFiltering( 1, "ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……一番、景色のいいところですか？＠
@@ -2382,7 +2373,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_204", 400 );
+	DrawScene( "bg_203", 400 );
 
 //　いつの間にか空は曇天＠
 	OutputLine(NULL, "　いつの間にか空は曇天。",

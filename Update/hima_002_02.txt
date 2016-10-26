@@ -11,7 +11,7 @@
 
 	PlayBGM( 1, "msys11", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_151", 1000 );
+	DrawScene( "Sunset/bg_074", 1000 );
 
 //　車は神社の駐車場に停まる＠
 	OutputLine(NULL, "　車は神社の駐車場に停まる。",
@@ -67,7 +67,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "ri_si_wa_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshotWithFiltering( 3, "Sunset/rim_Warai_0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……着きましたのですよ＠ただいまなのです。＠
 	PlaySE(4, "S05/27/100500031", 128, 64);
@@ -178,7 +178,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_ko_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/rim_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……………………赤坂が何を言っているのか、全然わからないのですよ。＠
 	PlaySE(4, "S05/27/100500033", 128, 64);
@@ -227,7 +227,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_fu_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/rim_majime_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……では赤坂＠……ボクたちの村は、どうやったらダムに沈まなくなるのですか？＠
 	PlaySE(4, "S05/27/100500034", 128, 64);
@@ -319,7 +319,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_ko_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/rim_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……ボクたちはここでしか生きていけないのです＠……都会では生きていけないのです。＠
 	PlaySE(4, "S05/27/100500036", 128, 64);
@@ -497,7 +497,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/ri_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……行きましょうですよ、赤坂。＠
 	PlaySE(4, "S05/27/100500038", 128, 64);
@@ -523,7 +523,7 @@
 //■古手神社
 	DisableWindow();
 	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_076", "up", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_076", "up", 0, 0, 300 );
 
 //　神社の境内には町会のテントがいくつも出ていた￥
 	OutputLine(NULL, "　神社の境内には町会のテントがいくつも出ていた。",
@@ -545,7 +545,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_213", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_213", "left", 0, 0, 300 );
 	PlayBGM( 1, "msys21", 128, 0 );
 
 //　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、『鬼ヶ淵死守同盟本部』と、大層立派な筆文字が描かれていた￥
@@ -590,7 +590,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_076", "right", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_076", "right", 0, 0, 300 );
 
 //「梨花ちゃまじゃないの＠もう子どもはお家に帰る時間だよー！＠
 	PlaySE(4, "S05/00/oldB00001", 128, 64);
@@ -603,7 +603,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DrawBustshotWithFiltering( 1, "Sunset/ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……ここはボクのお家なのですよ。＠
 	PlaySE(4, "S05/27/100500039", 128, 64);
@@ -624,7 +624,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_074", "left", 0, 0, 300 );
+	DrawBustshot( 3, "Sunset/ki_Warai_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「牧野さん、その人＠　電話をくれた観光の人は。＠
 	PlaySE(4, "S05/18/103300001", 128, 64);
@@ -650,6 +650,8 @@
 	OutputLine(NULL, "　朗らかに笑うが、…きっと怒ると怖いに違いない、そんな風貌の老人は……何と、鬼ヶ淵死守同盟の会長、…公由喜一郎氏本人だった…。",
 		   NULL, "He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Defense Alliance, none other than Kiichirou Kimiyoshi himself...", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 3, "Sunset/ki_Def_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //「ようこそ雛見沢へ＠いかがでしたか＠…静かでゆっくりしたところでしょ。＠
@@ -690,8 +692,6 @@
 		   NULL, " Mmmhmm.\"", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawBustshotWithFiltering( 3, "ri_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……喜一郎＠赤坂に見晴らしのいいところを案内したいのですよ。＠
 	PlaySE(4, "S05/27/100500040", 128, 64);
@@ -731,7 +731,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_ni_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 1, "Sunset/rim_Warai_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……赤坂、こっちなのですよ。＠
 	PlaySE(4, "S05/27/100500042", 128, 64);
@@ -758,7 +758,7 @@
 	DisableWindow();
 	DrawScene( "white", 400 );
 	PlayBGM( 1, "msys11", 128, 0 );
-	DrawScene( "bg_216", 3000 );
+	DrawScene( "Sunset/bg_216", 3000 );
 
 //「…………………これは、…………………すごい……。＠
 	PlaySE(4, "S05/13/101300223", 128, 64);
@@ -823,7 +823,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "ri_si_wa_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshotWithFiltering( 3, "Sunset/rim_Warai_0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……ボクの一番のお気に入りの場所なのですよ。＠
 	PlaySE(4, "S05/27/100500043", 128, 64);
@@ -882,7 +882,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/rim_Warai_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……沈みませんよ＠ダム計画なんて、必ずなくなっちゃいますのです。＠
 	PlaySE(4, "S05/27/100500044", 128, 64);
@@ -906,6 +906,8 @@
 	OutputLine(NULL, "…願いが込められていた。",
 		   NULL, " It was just her wish.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 3, "Sunset/rim_Def_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //「……………赤坂は、……この村が沈んでしまうと、…思っていますか？＠
@@ -968,8 +970,8 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_216", 400 );
+	DrawBustshot( 2, "Sunset/rim_Def_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene( "Sunset/bg_217", 400 );
 
 //「……沈みませんよ＠ダムの計画はもうすぐなくなりますですから。＠
 	PlaySE(4, "S05/27/100500047", 128, 64);
@@ -1012,7 +1014,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_Warai_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……はい＠…なくなりますのですよ。＠
 	PlaySE(4, "S05/27/100500049", 128, 64);
@@ -1032,7 +1034,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ko_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_Komaru_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……それはなのです＠……………………。＠
 	PlaySE(4, "S05/27/100500051", 128, 64);
@@ -1050,7 +1052,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_Def_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……………赤坂が何をしてもしなくても＠…ダム計画は今年で終わりになってしまうのです＠もう決まっていることなのですよ。￥
 	PlaySE(4, "S05/27/100500053", 128, 64);
@@ -1135,7 +1137,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ko_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_Komaru_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……だって。＠
 	PlaySE(4, "S05/27/100500056", 128, 64);
@@ -1198,7 +1200,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_205", 400 );
+	DrawScene( "Sunset/bg_204", 400 );
 
 //　…………脳裏に、…今日の楽しい一日で忘れかけていた本当の任務＠…………大臣の孫の誘拐事件が過ぎる…￥
 	OutputLine(NULL, "　…………脳裏に、…今日の楽しい一日で忘れかけていた本当の任務。",
@@ -1228,8 +1230,8 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
-	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_217", 400 );
+	DrawBustshot( 2, "Sunset/rim_Def_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene( "Sunset/bg_217", 400 );
 
 
 //「……赤坂。＠
@@ -1255,7 +1257,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_fu_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_majime_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 	PlayBGM( 1, "msys15", 128, 0 );
 
 //「……………………東京へ帰れ。＠
@@ -1390,6 +1392,9 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
+	
+	DisableWindow();
+	DrawScene( "cg_202", 1000 );
 
 //「……………いちいちうるさいな。￥
 	PlaySE(4, "S05/27/100500065", 128, 64);
@@ -1460,6 +1465,9 @@
 	OutputLine(NULL, "　………こんな、…斜な言い方は…絶対にしない…。",
 		   NULL, "...She definitely wouldn't speak with such pointed words.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "Sunset/bg_217", 400 );
+	DrawBustshot( 2, "Sunset/rim_majime_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //「…………………警告はした＠…勘違いしないでほしいのは、…私があなたを嫌いだからこういうことを言ってるわけじゃないってこと＠………死んでもいい人に、危険なんかを教える必要はないのだし。＠
@@ -1486,7 +1494,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ny_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "Sunset/rim_Niyari_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……ん＠　………くすくすくすくすくすくす…！＠
 	PlaySE(4, "S05/27/100500073", 128, 64);
@@ -1504,7 +1512,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ny_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawBustshot( 2, "rim_Niyari_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask( "black", "down", 0, 0, 300 );
 
 //　……その笑い方がすでに、…歳相応でない＠
@@ -1560,6 +1568,9 @@
 	OutputLine(NULL, "　この少女の身に、…恐ろしい何かが起こっていることに、…気付いていない。",
 		   NULL, "He didn't notice that there was something terrifying happening to her.", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	DrawScene( "Sunset/bg_217", 400 );
+	DrawBustshot( 2, "Sunset/rim_Niyari_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //「………赤坂の怖がり＠……くすくすくすくすくす！＠
@@ -1619,8 +1630,8 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_ko_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_217", "up", 0, 0, 300 );
+	DrawBustshot( 3, "Sunset/ri_si_ko_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "Sunset/bg_217", "up", 0, 0, 300 );
 
 //「……みぃ。＠
 	PlaySE(4, "S05/27/100500077", 128, 64);
@@ -1719,7 +1730,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/ri_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……わ～～～～～～い、なのです。＠
 	PlaySE(4, "S05/27/100500079", 128, 64);
@@ -1787,7 +1798,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "ri_si_ni_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshotWithFiltering( 3, "Sunset/ri_si_ni_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……早く来ないから、ボクは赤坂の分までお饅頭が食べられて、ほくほくなのです。＠
 	PlaySE(4, "S05/27/100500082", 128, 64);
@@ -1804,7 +1815,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 3, "ri_si_ni_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "Sunset/ri_si_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……おててを洗わない人は、お饅頭が食べられないのですよ？￥
 	PlaySE(4, "S05/27/100500083", 128, 64);
@@ -1826,7 +1837,7 @@
 
 	DisableWindow();
 	DrawSceneWithMask( "black", "left", 0, 0, 300 );
-	DrawSceneWithMask( "bg_079", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Sunset/bg_213", "left", 0, 0, 300 );
 
 //「ほんれ、お客人～～～＠　大人なんだから、お手本を示してやって下さいな～～！！＠
 	PlaySE(4, "S05/00/oldC00008", 128, 64);
@@ -1846,7 +1857,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DrawBustshotWithFiltering( 1, "Sunset/ri_si_de_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //　……逆らわず、…梨花ちゃんと一緒に手洗い場に並んだ￥
 	OutputLine(NULL, "　……逆らわず、…梨花ちゃんと一緒に手洗い場に並んだ。",
@@ -1866,7 +1877,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……みぃ……＠　……間違っていますか……？＠
 	PlaySE(4, "S05/27/100500084", 128, 64);
@@ -1908,7 +1919,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……それだけでは駄目なのですよ赤坂＠ちゃんとタワシを使って、爪の間の垢も落とさないと金シールはもらえないのです。＠
 	PlaySE(4, "S05/27/100500089", 128, 64);
@@ -1931,7 +1942,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……にぱ～～～☆　赤坂に褒められましたのです。￥
 	PlaySE(4, "S05/27/100500091", 128, 64);
@@ -1962,7 +1973,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「………………。＠
 	PlaySE(4, "S05/27/100500092", 128, 64);
@@ -1979,7 +1990,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……………言いましたのですか？＠
 	PlaySE(4, "S05/27/100500093", 128, 64);
@@ -2027,7 +2038,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "Sunset/ri_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…………………みー……。＠
 	PlaySE(4, "S05/27/100500094", 128, 64);
@@ -2069,7 +2080,7 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
-	DrawScene( "bg_223", 400 );
+	DrawScene( "Sunset/bg_223", 400 );
 
 //　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた￥
 	OutputLine(NULL, "　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた。",
@@ -2121,7 +2132,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_074", 400 );
+	DrawScene( "Night/bg_074a", 400 );
 
 //「そうですか＠…ではまた明日もぜひいらっしゃい＠　お電話をくれればすぐに迎えを出しますのでね。＠
 	PlaySE(4, "S05/00/104100082", 128, 64);
@@ -2156,7 +2167,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "ri_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshotWithFiltering( 3, "Night/ri_si_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……赤坂は明日も来ますですか＠　明日は５時限で終わりですから、３時くらいに来てくれるとうれしいのですよ。＠
 	PlaySE(4, "S05/27/100500095", 128, 64);
@@ -2166,6 +2177,9 @@
 	OutputLine(NULL, "　明日は５時限で終わりですから、３時くらいに来てくれるとうれしいのですよ。」",
 		   NULL, " I finish after fifth period, so if you could come at around three o'clock, that would make me happy.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	
+	DisableWindow();
+	DrawBustshot( 3, "Night/ri_si_ni_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //　…ぜひまた来てほしいのです＠無垢な笑顔がそう訴えかける＠
@@ -2220,9 +2234,7 @@
 	OutputLine(NULL, "　でも、……心は晴れなかった。",
 		   NULL, "However... I still felt uneasy.", Line_Normal);
 	ClearMessage();
-
-	DisableWindow();
-	DrawScene( "black", 400 );
+	
 
 //　…ホテルに帰り、……痛いくらい冷えたビールで無理やり胸中を清めるまで＠……理解できないあの奇怪な出来事のショックに、苛まされる続けるのだった………￥
 	OutputLine(NULL, "　…ホテルに帰り、……痛いくらい冷えたビールで無理やり胸中を清めるまで。",

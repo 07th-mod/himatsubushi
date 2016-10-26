@@ -67,6 +67,7 @@
 	PlaySE(4, "S05/11/100700668", 128, 64);
 	OutputLine(NULL, "「赤坂さあん！！",
 		   NULL, "\"Akasaka-saaaan!!", Line_WaitForInput);
+	PlaySE(4, "S05/11/100700669", 128, 64);
 	OutputLine(NULL, "　なっはっはっは！",
 		   NULL, " Na ha ha ha!", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700670", 128, 64);
@@ -194,8 +195,6 @@
 		   NULL, " but unable to find a suitable candidate, we had to give up on putting together a table.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask( "bg_026", "up", 0, 0, 300 );
 
 //　そして酒を酌み交わし、あの最後の大捕物の互いの武勇伝に沸いた…￥
 	OutputLine(NULL, "　そして酒を酌み交わし、あの最後の大捕物の互いの武勇伝に沸いた…。",
@@ -203,7 +202,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_068", 400 );
+	DrawScene( "bg_027", 400 );
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //「……結局、あの犯人の二人は捕まったんですか？＠
@@ -578,7 +577,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_134", 400 );
+	DrawScene( "bg_207a", 400 );
 
 //　私の主人は、…よく出張で家を空けてしまうことがあるんです＠
 	OutputLine(NULL, "　私の主人は、…よく出張で家を空けてしまうことがあるんです。",
@@ -729,7 +728,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_069", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "up", 0, 0, 300 );
 
 //「……………………そんな話は初めて聞きました。＠
 	PlaySE(4, "S05/11/100700691", 128, 64);
@@ -950,7 +949,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_yk_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_068", 400 );
+	DrawScene( "bg_027", 400 );
 
 //「……結局、独自の検証の結果でも、雪絵が単独で事故を起こしたとしか、考えられませんでした。＠
 	PlaySE(4, "S05/13/101300693", 128, 64);
@@ -1082,7 +1081,7 @@
 
 	PlayBGM( 1, "msys28", 128, 0 );
 	DisableWindow();
-	DrawScene( "Tatari_List", 1000 );
+	DrawScene( "tatari_list", 1000 );
 
 //　そう。昭和５８年６月末＠
 	OutputLine(NULL, "　そう。昭和５８年６月末。",
@@ -1114,7 +1113,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_068", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "right", 0, 0, 300 );
 
 //「……………………それは、!d1500……………ん。＠
 	PlaySE(4, "S05/13/101300700", 128, 64);
@@ -1246,7 +1245,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_069", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "up", 0, 0, 300 );
 
 //「………最後の年の「祟り」について、聞かせてもらってもいいですか？＠
 	PlaySE(4, "S05/13/101300703", 128, 64);
@@ -1304,7 +1303,7 @@
 	DrawScene( "black", 400 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
-	DrawScene( "bg_026", 400 );
+	DrawScene( "bg_027", 400 );
 	PlayBGM( 2, "lsys18", 128, 0 );
 
 //「私も、週刊誌で報道されている通りのところまでは知っています＠でも、大災害の年の「祟り」はまったく知りません。＠
@@ -1394,7 +1393,7 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
-	DrawSceneWithMask( "bg_026", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "left", 0, 0, 300 );
 
 //「…ん～～、実はねぇ＠二人どころじゃ済まないんですよ＠…その翌日になんですがね＠……私の後輩の熊谷くんが、捜査中に車両ごと蒸発しましてね。＠
 	PlaySE(4, "S05/11/100700734", 128, 64);
@@ -1559,7 +1558,7 @@
 	DisableWindow();
 	DrawScene( "black", 400 );
 	FadeFilm( 1000, TRUE );
-	DrawScene( "bg_026", 400 );
+	DrawScene( "bg_027", 400 );
 
 //「…………………＠それで、古手梨花の死は？＠
 	PlaySE(4, "S05/13/101300715", 128, 64);
@@ -1754,7 +1753,7 @@
 
 	DisableWindow();
 	DrawBustshot( 2, "oi_yk_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_068", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "up", 0, 0, 300 );
 
 //「……この死に方ですが、…どうも単なる猟奇趣味ってわけじゃないみたいなんです＠……と言いますのはですねぇ、…雛見沢村はかつて鬼が住んでたって話は、以前もしましたよね？＠
 	PlaySE(4, "S05/11/100700772", 128, 64);
@@ -1850,7 +1849,7 @@
 
 	DisableWindow();
 	DrawScene( "black", 400 );
-	DrawScene( "bg_160", 400 );
+	DrawScene( "Night/bg_160", 400 );
 
 //「発生した沼は、鬼ヶ淵沼と言いまして＠雛見沢村の旧名、鬼ヶ淵村の名前の源となった沼です＠村の言い伝えでは、この沼の奥底は地獄に繋がってるそうで、かつて村にやってきた人食い鬼たちはこの沼から訪れたのだとか。＠
 	PlaySE(4, "S05/11/100700782", 128, 64);
@@ -1982,7 +1981,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_069", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "up", 0, 0, 300 );
 
 //「……ガスの発生した沼もまた宗教的な意味がありましたよね＠　…だとしたら、…沼に何か仕掛けがあって、神の裁きをいつでも再現できるような何かがあったとか…。＠
 	PlaySE(4, "S05/13/101300735", 128, 64);
@@ -2472,7 +2471,7 @@
 
 	DisableWindow();
 	DrawBustshot( 1, "oi_yk_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawSceneWithMask( "bg_068", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "up", 0, 0, 300 );
 
 
 //「……どうしました＠　赤坂さん？＠
@@ -2648,7 +2647,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_203", 400 );
+	DrawScene( "bg_122", 400 );
 
 //　……もし＠昭和５８年の６月に私がいたなら＠
 	OutputLine(NULL, "　……もし。",
@@ -2979,7 +2978,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "oi_yk_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_068", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_027", "left", 0, 0, 300 );
 
 //「…………………赤坂さん＠…大丈夫ですか…………？＠
 	PlaySE(4, "S05/11/100700836", 128, 64);
@@ -3248,13 +3247,16 @@
 	OutputLine(NULL, "「うわああああぁああぁあああッ！！！！」",
 		   NULL, "\"Wahhhhhhhhh!!!!\"", Line_Normal);
 	ClearMessage();
+	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
+	DrawBustshot( 2, "oisi2_8_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //　取り乱す私を大石氏はぐい！っと胸倉を掴み上げた￥
 	OutputLine(NULL, "　取り乱す私を大石氏はぐい！っと胸倉を掴み上げた。",
 		   NULL, "Ooishi grabbed me, who was a wreck, and lifted me firmly by the lapels.", Line_Normal);
 	ClearMessage();
-
+	
 
 //「だから！！＠　その償いとして、真相を究明するんです、私たちで！！＠　あなたの話が事実なら、全ての事件は計画ということになる＠　そうならば調べ方は全然変わってくるんですからね！＠　……私は今夜をかけて、あなたと私の持つ全ての情報をノートにまとめ、明日の朝一番で元の部下たちと連絡を取るつもりです＠…あの事件を終わらせるものか！＠　絶対に暴いてやるんです！！￥
 	PlaySE(4, "S05/11/100700865", 128, 64);
@@ -3311,7 +3313,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene( "file", 400 );
 
 //　私と大石氏はともに事件の真相究明を誓い合って、立ち上がる＠
 	OutputLine(NULL, "　私と大石氏はともに事件の真相究明を誓い合って、立ち上がる。",

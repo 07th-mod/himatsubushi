@@ -2589,6 +2589,7 @@
 	PlaySE(4, "S20/04/440400272", 128, 64);
 	OutputLine(NULL, "……ま、まさかそんな！！",
 		   NULL, " ...Th-They couldn't be!!", Line_WaitForInput);
+	PlaySE(4, "S20/04/440400273", 128, 64);
 	OutputLine(NULL, "　黒…むが…！！！」",
 		   NULL, " The Blac---hrmph!!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2821,7 +2822,7 @@
 
 //『目明し編（仮称）』となります＠
 	OutputLine(NULL, "『目明し編（仮称）』となります。",
-		   NULL, "We've tenatively called it 'Meakashi'.", Line_WaitForInput);
+		   NULL, "We've tentatively called it 'Meakashi'.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
