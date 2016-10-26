@@ -1377,7 +1377,7 @@
 	PlaySE(4, "S05/27/100500197", 128, 64);
 	OutputLine(NULL, "………最後の死もまた予定の内なのでしょうか。",
 		   NULL, " ...Then the last one would also be all according to plan.", Line_WaitForInput);
-	PlaySE(4, "S14/27/100500198", 128, 64);
+	PlaySE(4, "S05/27/100500198", 128, 64);
 	OutputLine(NULL, "……でも、ならばこれは一体、誰の予定なの…？」",
 		   NULL, " ...But then whose plan would it be...?\"", Line_Normal);
 	ClearMessage();
@@ -1529,7 +1529,7 @@
 
 
 //「……死にたくない。＠
-	PlaySE(4, "S14/27/100500218", 128, 64);
+	PlaySE(4, "S05/27/100500218", 128, 64);
 	OutputLine(NULL, "「……死にたくない。」",
 		   NULL, "\"...I don't want to die.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
