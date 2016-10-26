@@ -459,6 +459,7 @@
 
 
 //「そんないかがわしいところに通った試しなどありません…！￥
+	PlaySE(4, "S05/13/101300271", 128, 64);
 	OutputLine(NULL, "「そんないかがわしいところに通った試しなどありません…！」",
 		   NULL, "\"I would never even try something seedy like that...!\"", Line_Normal);
 	ClearMessage();
