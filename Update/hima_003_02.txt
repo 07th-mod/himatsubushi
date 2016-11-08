@@ -102,7 +102,7 @@
 		   NULL, "\"With a cheap little disguise like this,", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300448", 128, 64);
 	OutputLine(NULL, "どうせ割れているでしょうから。」",
-		   NULL, " they probably figured it out anways.\"", Line_WaitForInput);
+		   NULL, " they probably figured it out anyways.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -118,7 +118,7 @@
 
 //　大石氏は、自分のそういう態度が意外で面白かったらしく、しばらく笑い続けていた￥
 	OutputLine(NULL, "　大石氏は、自分のそういう態度が意外で面白かったらしく、しばらく笑い続けていた。",
-		   NULL, "Ooishi, probably thinking that my unexpected behaviour was funny, continued to laugh.", Line_Normal);
+		   NULL, "Ooishi, probably thinking that my unexpected behavior was funny, continued to laugh.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -601,7 +601,7 @@
 //「冷房がうるさいから聞こえないかな＠　切りますよ＠窓を開けてみて下さい。￥
 	PlaySE(4, "S05/11/100700428", 128, 64);
 	OutputLine(NULL, "「冷房がうるさいから聞こえないかな？",
-		   NULL, "\"Can you you not hear it because the air conditioning is too loud?", Line_WaitForInput);
+		   NULL, "\"Can you not hear it because the air conditioning is too loud?", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700429", 128, 64);
 	OutputLine(NULL, "　切りますよ。",
 		   NULL, " I'll turn it off.", Line_WaitForInput);
@@ -1112,7 +1112,7 @@
 
 //　人影が助手席の窓のすぐ外に立ち、日の光を遮ったからだ￥
 	OutputLine(NULL, "　人影が助手席の窓のすぐ外に立ち、日の光を遮ったからだ。",
-		   NULL, "Somebody was standing right outside the the passenger-side window, blocking the sunlight.", Line_Normal);
+		   NULL, "Somebody was standing right outside the passenger-side window, blocking the sunlight.", Line_Normal);
 	ClearMessage();
 
 

@@ -54,7 +54,7 @@
 
 //　そんな私は天邪鬼だろうか￥
 	OutputLine(NULL, "　そんな私は天邪鬼だろうか？",
-		   NULL, "Was I being mischievious in hoping so?", Line_Normal);
+		   NULL, "Was I being mischievous in hoping so?", Line_Normal);
 	ClearMessage();
 
 

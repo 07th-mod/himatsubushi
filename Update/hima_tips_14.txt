@@ -137,7 +137,7 @@
 
 //　…あの子が可愛がられているならそれでいいじゃないか、と日和見なのだ￥
 	OutputLine(NULL, "　…あの子が可愛がられているならそれでいいじゃないか、と日和見なのだ。",
-		   NULL, "...He took the rather uncomitted stance of saying that as long as she was being doted upon, wasn't it fine?", Line_Normal);
+		   NULL, "...He took the rather uncommitted stance of saying that as long as she was being doted upon, wasn't it fine?", Line_Normal);
 	ClearMessage();
 
 

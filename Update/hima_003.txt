@@ -735,7 +735,7 @@
 	OutputLine(NULL, "　診察カードに書かれた氏名も一致するし、",
 		   NULL, "The name on the examination card was also a match,", Line_WaitForInput);
 	OutputLine(NULL, "財布がその場に残されたと推定される期間は、誘拐事件発生からの期間とも一致する。",
-		   NULL, " the time we deduced that the wallet had been left behind also matched up with the the timeline of the kidnapping.", Line_Normal);
+		   NULL, " the time we deduced that the wallet had been left behind also matched up with the timeline of the kidnapping.", Line_Normal);
 	ClearMessage();
 
 
@@ -1337,7 +1337,7 @@
 
 //　彼は一度、クラス委員長を引き受けた時、それを身に染みて理解した￥
 	OutputLine(NULL, "　彼は一度、クラス委員長を引き受けた時、それを身に染みて理解した。",
-		   NULL, "He knew that all too well from the time he'd spent as class representitive.", Line_Normal);
+		   NULL, "He knew that all too well from the time he'd spent as class representative.", Line_Normal);
 	ClearMessage();
 
 
@@ -2164,7 +2164,7 @@
 
 //　もうひとりの男はおろおろとしながら、ハンカチで彼の額の汗を拭っていた￥
 	OutputLine(NULL, "　もうひとりの男はおろおろとしながら、ハンカチで彼の額の汗を拭っていた。",
-		   NULL, "Another of the men, completely shaken up at this point, wiped the sweat from his forehad with a handkerchief.", Line_Normal);
+		   NULL, "Another of the men, completely shaken up at this point, wiped the sweat from his forehead with a handkerchief.", Line_Normal);
 	ClearMessage();
 
 
@@ -2314,7 +2314,7 @@
 
 //　仮に訪れる医者とのアプローチに失敗しても何も損はないのだ＠
 	OutputLine(NULL, "　仮に訪れる医者とのアプローチに失敗しても何も損はないのだ。",
-		   NULL, "If if he failed with his approach to the doctor, there was nothing to lose.", Line_WaitForInput);
+		   NULL, "If he failed with his approach to the doctor, there was nothing to lose.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 

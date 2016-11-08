@@ -603,7 +603,7 @@
 
 //　何と言葉を返していいかわからずにいると、少女は私などお構いなしに、境内の向こうへ歩いて行く￥
 	OutputLine(NULL, "　何と言葉を返していいかわからずにいると、少女は私などお構いなしに、境内の向こうへ歩いて行く。",
-		   NULL, "While I strugged to find the words to reply to her, she wandered over to the other side of the grounds, not minding me at all.", Line_Normal);
+		   NULL, "While I struggled to find the words to reply to her, she wandered over to the other side of the grounds, not minding me at all.", Line_Normal);
 	ClearMessage();
 
 
@@ -813,7 +813,7 @@
 	OutputLine(NULL, "　だから大臣は不当な要求には屈していない。",
 		   NULL, "So the Minister didn't give in to any unreasonable demands.", Line_WaitForInput);
 	OutputLine(NULL, "……そういう演出が必要になったということだ。",
-		   NULL, " ...That type of perfomance was necessary.", Line_Normal);
+		   NULL, " ...That type of performance was necessary.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1165,7 +1165,7 @@
 		   NULL, " ...Even if I tell you this, it might not change anything, though.", Line_WaitForInput);
 	PlaySE(4, "S05/27/100500180", 128, 64);
 	OutputLine(NULL, "でも、…死という月を映す水面を掻き消すためなら、小石を投じることもあるかもしれない。」",
-		   NULL, " But... if you want to erase the spectre of death, sometimes, like with the reflection of the moon on the water, all you have to do is throw a small stone.\"", Line_WaitForInput);
+		   NULL, " But... if you want to erase the specter of death, sometimes, like with the reflection of the moon on the water, all you have to do is throw a small stone.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -1315,7 +1315,7 @@
 //「……あるいは、事故というべきかもしれない＠……不幸な事故。＠
 	PlaySE(4, "S05/27/100500187", 128, 64);
 	OutputLine(NULL, "「……あるいは、事故というべきかもしれない。",
-		   NULL, "\"...It might be be an accident.", Line_WaitForInput);
+		   NULL, "\"...It might be an accident.", Line_WaitForInput);
 	PlaySE(4, "S05/27/100500188", 128, 64);
 	OutputLine(NULL, "……不幸な事故。」",
 		   NULL, " ...An unfortunate accident.\"", Line_WaitForInput);

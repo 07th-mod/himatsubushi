@@ -117,7 +117,7 @@
 
 //　もちろん目隠しをされているから、頭を触れた手が、自分を撫でているのか、頭の皮を剥ぐ為に品定めをしているものなのか＠区別することができず、彼は最悪の可能性を想像して身を硬くするほかなかった…￥
 	OutputLine(NULL, "　もちろん目隠しをされているから、頭を触れた手が、自分を撫でているのか、頭の皮を剥ぐ為に品定めをしているものなのか、",
-		   NULL, "Of course, since he was blindfolded, he couldn't tell if the hand was petting him or simply evaulating how easy it would be to remove his scalp.", Line_WaitForInput);
+		   NULL, "Of course, since he was blindfolded, he couldn't tell if the hand was petting him or simply evaluating how easy it would be to remove his scalp.", Line_WaitForInput);
 	OutputLine(NULL, "区別することができず、彼は最悪の可能性を想像して身を硬くするほかなかった…。",
 		   NULL, " Unable to tell the difference, he could only freeze as he imagined the worst-case scenario...", Line_Normal);
 	ClearMessage();

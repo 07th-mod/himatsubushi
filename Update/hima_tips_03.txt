@@ -34,7 +34,7 @@
 
 //　だけれども、ご近所という極めて限定された小さなコミュニティに限ってなら、なるほどと頷けないこともない￥
 	OutputLine(NULL, "　だけれども、ご近所という極めて限定された小さなコミュニティに限ってなら、なるほどと頷けないこともない。",
-		   NULL, "However, in the extremely limited community of the neighbourhood, that sort of connection is just a matter of fact.", Line_Normal);
+		   NULL, "However, in the extremely limited community of the neighborhood, that sort of connection is just a matter of fact.", Line_Normal);
 	ClearMessage();
 
 
@@ -225,7 +225,7 @@
 
 //　ご近所のＡとＢ＠
 	OutputLine(NULL, "　ご近所のＡとＢ。",
-		   NULL, "Neighbours A and B.", Line_WaitForInput);
+		   NULL, "Neighbors A and B.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -267,7 +267,7 @@
 
 //　例えば、お隣で火事があったら、もちろん消火作業を手伝うでしょう＠　延焼して自分の家にまで火が付いたら困るものね＠
 	OutputLine(NULL, "　例えば、お隣で火事があったら、もちろん消火作業を手伝うでしょう？",
-		   NULL, "For example, if your neighbour's house was on fire, you'd probably try and help to put it out, wouldn't you?", Line_WaitForInput);
+		   NULL, "For example, if your neighbor's house was on fire, you'd probably try and help to put it out, wouldn't you?", Line_WaitForInput);
 	OutputLine(NULL, "　延焼して自分の家にまで火が付いたら困るものね。",
 		   NULL, " It'd be awful if the fire spread and burned down your own house, after all.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);

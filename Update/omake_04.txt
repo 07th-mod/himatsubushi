@@ -526,7 +526,7 @@
 //「そうだそうだ、それよりもさ！＠　今回、梨花ちゃんが見せたあの表情＠　何だかコワかったなぁー！＠
 	PlaySE(4, "S20/03/440300416", 128, 64);
 	OutputLine(NULL, "「そうだそうだ、それよりもさ！！",
-		   NULL, "\"Oh thats right, more importantly...!!", Line_WaitForInput);
+		   NULL, "\"Oh that's right, more importantly...!!", Line_WaitForInput);
 	PlaySE(4, "S20/03/440300417", 128, 64);
 	OutputLine(NULL, "　今回、梨花ちゃんが見せたあの表情！",
 		   NULL, " That expression that Rika-chan was wearing this time!", Line_WaitForInput);
@@ -557,7 +557,7 @@
 		   NULL, "\"Yeah, I was surprised, too...", Line_WaitForInput);
 	PlaySE(4, "S20/02/440200308", 128, 64);
 	OutputLine(NULL, "可愛らしい梨花ちゃんが、あんな笑い方をするとは思わなかったよ…。」",
-		   NULL, " I never thought that cute li'll Rika-chan would laugh like that...\"", Line_Normal);
+		   NULL, " I never thought that cute li'l Rika-chan would laugh like that...\"", Line_Normal);
 	ClearMessage();
 
 //＜レナ
@@ -922,7 +922,7 @@
 		   NULL, "\"I thought it was you, Shion!!", Line_WaitForInput);
 	PlaySE(4, "S20/03/440300430", 128, 64);
 	OutputLine(NULL, "　次のシナリオで主役が内定してる上にこの狼藉！",
-		   NULL, " Even though you're pencilled in to be the main character in the next scenario! This is an outrage!", Line_WaitForInput);
+		   NULL, " Even though you're penciled in to be the main character in the next scenario! This is an outrage!", Line_WaitForInput);
 	PlaySE(4, "S20/03/440300431", 128, 64);
 	OutputLine(NULL, "　あんた、やってくれるじゃないのぉおおぉ！！」",
 		   NULL, " Now you've gone and done it!!\"", Line_Normal);
@@ -1008,7 +1008,7 @@
 		   NULL, " Satoko also earned a good reputation during the Tatarigoroshi arc.", Line_WaitForInput);
 	PlaySE(4, "S20/03/440300437", 128, 64);
 	OutputLine(NULL, "レナや梨花ちゃんには根強い固定票があるし。",
-		   NULL, " Rena and Rika-chan have a stronge baseline of support.", Line_WaitForInput);
+		   NULL, " Rena and Rika-chan have a strong baseline of support.", Line_WaitForInput);
 	PlaySE(4, "S20/03/440300438", 128, 64);
 	OutputLine(NULL, "あんたの人気もとっくに陰ってるってことだねぇ！」",
 		   NULL, " Your popularity has long since faded away!\"", Line_Normal);

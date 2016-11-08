@@ -32,7 +32,7 @@
 	OutputLine(NULL, "オヤシロさまの怒りを知れ！、",
 		   NULL, " 'Know Oyashiro-sama's Anger!',", Line_WaitForInput);
 	OutputLine(NULL, "などの筆文字が書かれ、スピーカーを使わずとも、見る者を威圧する雰囲気を漂わせていた。",
-		   NULL, " or a slogan of a similar kind. They gave the feeling that even without using the loudspeakers, there was enough to ovewhelm any onlookers.", Line_Normal);
+		   NULL, " or a slogan of a similar kind. They gave the feeling that even without using the loudspeakers, there was enough to overwhelm any onlookers.", Line_Normal);
 	ClearMessage();
 
 //　あちこちに登り旗が立てられている＠
@@ -570,7 +570,7 @@
 	OutputLine(NULL, "　どんなのを想像していたのか、と言われれば…。",
 		   NULL, "If you asked what I had been imagining...", Line_WaitForInput);
 	OutputLine(NULL, "恥ずかしい話だが、もっと物騒な様子を思い描いていた。",
-		   NULL, " This is a bit embarassing, but I'd have thought it would be something much more dramatic.", Line_WaitForInput);
+		   NULL, " This is a bit embarrassing, but I'd have thought it would be something much more dramatic.", Line_WaitForInput);
 	OutputLine(NULL, "……鉄条網とか、有刺鉄線のバリケードとか…。",
 		   NULL, " With barbed wire fences and barricades...", Line_Normal);
 	ClearMessage();
@@ -614,7 +614,7 @@
 
 //　そうに違いないと老人たちが大笑いする＠
 	OutputLine(NULL, "　そうに違いないと老人たちが大笑いする。",
-		   NULL, "The old foks guffawed, since she wasn't wrong.", Line_WaitForInput);
+		   NULL, "The old folks guffawed, since she wasn't wrong.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -1331,7 +1331,7 @@
 
 //　…私が気付かないうちに、…容姿がまったく同じな別人が摩り替われたはずがないのだ￥
 	OutputLine(NULL, "　…私が気付かないうちに、…容姿がまったく同じな別人が摩り替われたはずがないのだ。",
-		   NULL, "There was no way she could have been replaced with a doppleganger when I wasn't looking.", Line_Normal);
+		   NULL, "There was no way she could have been replaced with a doppelganger when I wasn't looking.", Line_Normal);
 	ClearMessage();
 
 
@@ -1419,7 +1419,7 @@
 
 //　……誰かが彼女のふりをして…腹話術みたいに話しているのではないか…￥
 	OutputLine(NULL, "　……誰かが彼女のふりをして…腹話術みたいに話しているのではないか…？",
-		   NULL, "...Was somebody impersonating her, using ventroliquism or something?", Line_Normal);
+		   NULL, "...Was somebody impersonating her, using ventriloquism or something?", Line_Normal);
 	ClearMessage();
 
 
@@ -2084,13 +2084,13 @@
 
 //　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた￥
 	OutputLine(NULL, "　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた。",
-		   NULL, "While partaking of tea and snacks, I was shown a propoganda film shot by the Defense Alliance that highlighted their resistance efforts.", Line_Normal);
+		   NULL, "While partaking of tea and snacks, I was shown a propaganda film shot by the Defense Alliance that highlighted their resistance efforts.", Line_Normal);
 	ClearMessage();
 
 
 //　ダム戦争がいかに辛く長い戦いであるか、老人たちが熱弁を振るったが…それは私の耳には届かなかった＠
 	OutputLine(NULL, "　ダム戦争がいかに辛く長い戦いであるか、老人たちが熱弁を振るったが…それは私の耳には届かなかった。",
-		   NULL, "Older folks talked passionately on how long and gruelling the fight against the dam was, but they fell on deaf ears.", Line_WaitForInput);
+		   NULL, "Older folks talked passionately on how long and grueling the fight against the dam was, but they fell on deaf ears.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2122,7 +2122,7 @@
 
 //　やがて暗くなり、村長たちは夕食を用意しようと言ってくれたが、明日も来るといって辞退することにした＠
 	OutputLine(NULL, "　やがて暗くなり、村長たちは夕食を用意しようと言ってくれたが、明日も来るといって辞退することにした。",
-		   NULL, "It evenutally grew dark. The mayor said that they had prepared dinner, but I said I would come again tomorrow and took my leave.", Line_WaitForInput);
+		   NULL, "It eventually grew dark. The mayor said that they had prepared dinner, but I said I would come again tomorrow and took my leave.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2210,7 +2210,7 @@
 
 //　…御三家のひとつである古手家の娘の梨花ちゃんに気に入られるというのは…、今後の調査を考えると大きな足掛かりだった＠雛見沢村に訪れるための、割符を手に入れたようなものだ￥
 	OutputLine(NULL, "　…御三家のひとつである古手家の娘の梨花ちゃんに気に入られるというのは…、今後の調査を考えると大きな足掛かりだった。",
-		   NULL, "...If the daughter of the Furude houshold, one of the Three Families, had taken a liking to me... then this was a strong foothold for my investigation from here on out.", Line_WaitForInput);
+		   NULL, "...If the daughter of the Furude household, one of the Three Families, had taken a liking to me... then this was a strong foothold for my investigation from here on out.", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢村に訪れるための、割符を手に入れたようなものだ。",
 		   NULL, " It was like a free ticket for a reason to visit Hinamizawa.", Line_Normal);
 	ClearMessage();

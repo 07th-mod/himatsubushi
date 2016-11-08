@@ -56,7 +56,7 @@
 
 //　例え愛着がない村であっても、廃れた景色にはわずかの感傷を感じさせられた＠
 	OutputLine(NULL, "　例え愛着がない村であっても、廃れた景色にはわずかの感傷を感じさせられた。",
-		   NULL, "Even if I had no personal attatchment to the village, seeing the disused buildings made me feel a little sentimental.", Line_WaitForInput);
+		   NULL, "Even if I had no personal attachment to the village, seeing the disused buildings made me feel a little sentimental.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1539,7 +1539,7 @@
 
 //　……大石も、そして男も。自分から先に名乗ろうとは決してしなかった＠
 	OutputLine(NULL, "　……大石も、そして男も。自分から先に名乗ろうとは決してしなかった。",
-		   NULL, "...Both Ooishi and the man steadfastily refused to reveal their identity before the other did.", Line_WaitForInput);
+		   NULL, "...Both Ooishi and the man steadfastly refused to reveal their identity before the other did.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2045,7 +2045,7 @@
 
 //　その一瞬の隙を、もちろん犯人の男も見逃さなかった￥
 	OutputLine(NULL, "　その一瞬の隙を、もちろん犯人の男も見逃さなかった。",
-		   NULL, "Of course, the pepetrator didn't overlook this momentary lapse.", Line_Normal);
+		   NULL, "Of course, the perpetrator didn't overlook this momentary lapse.", Line_Normal);
 	ClearMessage();
 
 
@@ -3230,7 +3230,7 @@
 		   NULL, "\"I-I'm all right!!", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300536", 128, 64);
 	OutputLine(NULL, "　すでに応援は要請してあるんだ。",
-		   NULL, " I've already called for back up.", Line_WaitForInput);
+		   NULL, " I've already called for backup.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300537", 128, 64);
 	OutputLine(NULL, "すぐに警官隊が駆けつけてくれる…！",
 		   NULL, " There'll be a full squad here soon!", Line_WaitForInput);

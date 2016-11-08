@@ -1520,7 +1520,7 @@
 
 //　その時、おやっさんが赤坂くんの川と牌を見比べ始め、怪訝な顔をする￥
 	OutputLine(NULL, "　その時、おやっさんが赤坂くんの川と牌を見比べ始め、怪訝な顔をする。",
-		   NULL, "Right then, as the ol' man compared the the tiles from Akasaka-kun's hand to the discard pool, a puzzled expression crossed his face.", Line_Normal);
+		   NULL, "Right then, as the ol' man compared the tiles from Akasaka-kun's hand to the discard pool, a puzzled expression crossed his face.", Line_Normal);
 	ClearMessage();
 
 
@@ -3559,7 +3559,7 @@
 
 //　その脇に座するのが、…次期頭首の、園崎魅音＠
 	OutputLine(NULL, "　その脇に座するのが、…次期頭首の、園崎魅音。",
-		   NULL, "Sitting next to her was her heir, Mion Sonoazaki.", Line_WaitForInput);
+		   NULL, "Sitting next to her was her heir, Mion Sonozaki.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3992,7 +3992,7 @@
 
 //　周辺の町でも、同盟と事を荒立てない為、泣く泣く購読している会社も多いらしい￥
 	OutputLine(NULL, "　周辺の町でも、同盟と事を荒立てない為、泣く泣く購読している会社も多いらしい。",
-		   NULL, "In the neighbouring towns as well, it seemed that many businesses were buying copies just to avoid butting heads with the Alliance.", Line_Normal);
+		   NULL, "In the neighboring towns as well, it seemed that many businesses were buying copies just to avoid butting heads with the Alliance.", Line_Normal);
 	ClearMessage();
 
 
@@ -4040,7 +4040,7 @@
 
 //　お魎が魅音に目で合図をすると、魅音が耳をお魎に近付ける＠
 	OutputLine(NULL, "　お魎が魅音に目で合図をすると、魅音が耳をお魎に近付ける。",
-		   NULL, "Signalled by a look from Oryou, Mion brought her ear closer to her grandmother.", Line_WaitForInput);
+		   NULL, "Signaled by a look from Oryou, Mion brought her ear closer to her grandmother.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -4268,7 +4268,7 @@
 
 //　裁判官なら槌を叩き、決着の印とするように＠
 	OutputLine(NULL, "　裁判官なら槌を叩き、決着の印とするように。",
-		   NULL, "If she was a judge, she would have banged her gavel, signalling that the matter was settled.", Line_WaitForInput);
+		   NULL, "If she was a judge, she would have banged her gavel, signaling that the matter was settled.", Line_WaitForInput);
 
 //　……魅音が懐から大き目の鈴を取り出すと、それを揺すり鳴らした。/
 	OutputLine(NULL, "　……魅音が懐から大き目の鈴を取り出すと、それを揺すり鳴らした。",
@@ -4402,7 +4402,7 @@
 	OutputLine(NULL, "　…もちろん、日の当たる世界の話ではないので、誰もが知っているわけではないが…、",
 		   NULL, "...Of course, this was talking about the criminal underworld, so it's not like just anybody would know...", Line_WaitForInput);
 	OutputLine(NULL, "その代紋のバッヂを見せるだけで、この界隈では揉め事に決着が着いてしまうことすらある…。",
-		   NULL, " But just showing a patch with the gang symbol on it was enough to resolve any disputes in the neighbourhood...", Line_WaitForInput);
+		   NULL, " But just showing a patch with the gang symbol on it was enough to resolve any disputes in the neighborhood...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -4491,7 +4491,7 @@
 
 //　お魎がさも愉快そうに笑い出したので、…公由は恐る恐る尋ねる￥
 	OutputLine(NULL, "　お魎がさも愉快そうに笑い出したので、…公由は恐る恐る尋ねる。",
-		   NULL, "Oryou was laughing so happily that Kimiyoshi had to hesistantly ask.", Line_Normal);
+		   NULL, "Oryou was laughing so happily that Kimiyoshi had to hesitantly ask.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawBustshot( 3, "ki_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -4795,7 +4795,7 @@
 //「では……、親族会議に出席していた誰かが犯人ということですか？＠
 	PlaySE(4, "S05/13/101300397", 128, 64);
 	OutputLine(NULL, "「では……、親族会議に出席していた誰かが犯人ということですか？」",
-		   NULL, "\"Then... that means that somebody who was at the the family council was the culprit?\"", Line_WaitForInput);
+		   NULL, "\"Then... that means that somebody who was at the family council was the culprit?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 

@@ -375,7 +375,7 @@
 
 //　…適当にこちらの気に入りそうなスポットに案内した後、反ダム資料館みたいなところへ連れて行くに違いない＠
 	OutputLine(NULL, "　…適当にこちらの気に入りそうなスポットに案内した後、反ダム資料館みたいなところへ連れて行くに違いない。",
-		   NULL, "...After showing me around a spot I'd take an interest in, there was no doubt they'd bring me to somewhere like an anti-dam information centre.", Line_WaitForInput);
+		   NULL, "...After showing me around a spot I'd take an interest in, there was no doubt they'd bring me to somewhere like an anti-dam information center.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1007,7 +1007,7 @@
 
 //　その、いくつも想像した姿の中で、………もっとも理想的だと思っていた姿が、…目の前の少女に、具現されていたのだ￥
 	OutputLine(NULL, "　その、いくつも想像した姿の中で、………もっとも理想的だと思っていた姿が、…目の前の少女に、具現されていたのだ。",
-		   NULL, "Amongst those those numerous imagined forms... the one that I thought to be the most ideal had materialized right in front of me.", Line_Normal);
+		   NULL, "Amongst those numerous imagined forms... the one that I thought to be the most ideal had materialized right in front of me.", Line_Normal);
 	ClearMessage();
 
 
@@ -1743,7 +1743,7 @@
 	OutputLine(NULL, "　いけないいけない…！",
 		   NULL, "No no no no!", Line_WaitForInput);
 	OutputLine(NULL, "　自分の子を愛玩化してはいけないって教育書にも書いてあったじゃないか…。",
-		   NULL, " It was was written in that guide to raising a child that you shouldn't dote on them...", Line_WaitForInput);
+		   NULL, " It was written in that guide to raising a child that you shouldn't dote on them...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2321,7 +2321,7 @@
 
 //　確か…大石氏が言っていたじゃないか＠
 	OutputLine(NULL, "　確か…大石氏が言っていたじゃないか。",
-		   NULL, "If I remembered correcly, Ooishi had told me.", Line_WaitForInput);
+		   NULL, "If I remembered correctly, Ooishi had told me.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2389,7 +2389,7 @@
 
 //　セミたちも、夕立前に今日の分を全て鳴き終えてしまおうとでも思ってるのか、一層、激しく鳴いていた￥
 	OutputLine(NULL, "　セミたちも、夕立前に今日の分を全て鳴き終えてしまおうとでも思ってるのか、一層、激しく鳴いていた。",
-		   NULL, "The cicadas, as if if trying to finish their daily allotment of chirps before the evening, cried out even more fervently.", Line_Normal);
+		   NULL, "The cicadas, as if trying to finish their daily allotment of chirps before the evening, cried out even more fervently.", Line_Normal);
 	ClearMessage();
 
 

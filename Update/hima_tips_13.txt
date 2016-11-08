@@ -199,7 +199,7 @@
 
 //　あの子の教育に良くないから、変なことを吹き込まないでくださいと回りに言っているのだが、……年寄り連中に根付いた迷信は払拭しようがない＠
 	OutputLine(NULL, "　あの子の教育に良くないから、変なことを吹き込まないでくださいと回りに言っているのだが、……年寄り連中に根付いた迷信は払拭しようがない。",
-		   NULL, "I went around and told everybody that it wasn't good for her upbringing, so to stop tell her all these strange things... but there was no unrooting the elderly people's deep-seated superstitions.", Line_WaitForInput);
+		   NULL, "I went around and told everybody that it wasn't good for her upbringing, so to stop tell her all these strange things... but there was no uprooting the elderly people's deep-seated superstitions.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 

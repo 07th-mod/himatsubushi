@@ -897,7 +897,7 @@
 
 //　後ろめたい話をするつもりもないが、こんな静かなところで、雪絵との会話を誰かに聞かれるのは、すこし恥ずかしいものだった￥
 	OutputLine(NULL, "　後ろめたい話をするつもりもないが、こんな静かなところで、雪絵との会話を誰かに聞かれるのは、すこし恥ずかしいものだった。",
-		   NULL, "I wasn't planning to have a conversation to feel guilty about, but it would still be embarassing to have someone listen to the conversation between me and Yukie.", Line_Normal);
+		   NULL, "I wasn't planning to have a conversation to feel guilty about, but it would still be embarrassing to have someone listen to the conversation between me and Yukie.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1153,7 +1153,7 @@
 	OutputLine(NULL, "　誰が見ても、表に出掛けるような格好ではない。",
 		   NULL, "No matter how you looked at it, I was not dressed to be wandering outside.", Line_WaitForInput);
 	OutputLine(NULL, "だが、そこはそれ、若気のなせるワザだ。",
-		   NULL, " But that's where the impetuosness of youth came in.", Line_Normal);
+		   NULL, " But that's where the impetuousness of youth came in.", Line_Normal);
 	ClearMessage();
 
 
@@ -1459,7 +1459,7 @@
 
 //　増してや、これから向かうのは、距離もよくわからない離れた電話ボックス＠
 	OutputLine(NULL, "　増してや、これから向かうのは、距離もよくわからない離れた電話ボックス。",
-		   NULL, "On top of that, my destination was a remote payphone which I didn't know know the exact distance too.", Line_WaitForInput);
+		   NULL, "On top of that, my destination was a remote payphone which I didn't know the exact distance to.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1599,7 +1599,7 @@
 
 //　それを考えれば考えるほど…不快な気分になっていったので、私は無理にそれを考えないようにしていた…￥
 	OutputLine(NULL, "　それを考えれば考えるほど…不快な気分になっていったので、私は無理にそれを考えないようにしていた…。",
-		   NULL, "The more I thought about it, the uneasier I felt, so I tried to push the thought aside...", Line_Normal);
+		   NULL, "The more I thought about it, the more uneasy I felt, so I tried to push the thought aside...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2023,7 +2023,7 @@
 
 //　少女が言った、もうどうにもならないという言葉を、私は、病院への電話の時間に間に合わないと、そういう意味で言ったと解釈した￥
 	OutputLine(NULL, "　少女が言った、もうどうにもならないという言葉を、私は、病院への電話の時間に間に合わないと、そういう意味で言ったと解釈した。",
-		   NULL, "I interpereted her words as meaning that I wasn't going to be in time for calling hours at the hospital.", Line_Normal);
+		   NULL, "I interpreted her words as meaning that I wasn't going to be in time for calling hours at the hospital.", Line_Normal);
 	ClearMessage();
 
 
@@ -2246,7 +2246,7 @@
 	OutputLine(NULL, "　こんな格好のまま、雪絵の声が一言聞きたいという、甘えた動機で夕暮れの町を駆け回っていたのだから、",
 		   NULL, "With wanting to hear Yukie's voice as my motive, I had traipsed around the town the entire evening.", Line_WaitForInput);
 	OutputLine(NULL, "……若さのなせるワザというか、恥ずかしいヤツというか。",
-		   NULL, " ...I didn't know whether to call it the follies of youth, or simply plain embarassing.", Line_WaitForInput);
+		   NULL, " ...I didn't know whether to call it the follies of youth, or simply plain embarrassing.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 

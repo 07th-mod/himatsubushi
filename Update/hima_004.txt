@@ -103,7 +103,7 @@
 		   NULL, "\"Akasaka-san, you're looking pretty good.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700673", 128, 64);
 	OutputLine(NULL, "最前線の捜査官らしい、いい顔つきですよ。」",
-		   NULL, " You look like like a bonafide front-line investigator now.\"", Line_WaitForInput);
+		   NULL, " You look like a bonafide front-line investigator now.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -686,7 +686,7 @@
 	OutputLine(NULL, "　そう。",
 		   NULL, "Yes.", Line_WaitForInput);
 	OutputLine(NULL, "…私がどういうわけか、無性に雪絵の声が聞きたくなって、電話を探して村を奔走する直前のことだった。",
-		   NULL, " It was right before the the time I had the sudden urge to hear Yukie's voice, and ran around the village trying to find a phone.", Line_Normal);
+		   NULL, " It was right before the time I had the sudden urge to hear Yukie's voice, and ran around the village trying to find a phone.", Line_Normal);
 	ClearMessage();
 
 
@@ -1606,7 +1606,7 @@
 
 //　大石氏はこくりと頷く…￥
 	OutputLine(NULL, "　大石氏はこくりと頷く…。",
-		   NULL, "Ooshi nodded firmly...", Line_Normal);
+		   NULL, "Ooishi nodded firmly...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1725,7 +1725,7 @@
 
 //　でも、…自分の予言通りに人が死に、…年を経るごとに予言は真実味を増していった＠
 	OutputLine(NULL, "　でも、…自分の予言通りに人が死に、…年を経るごとに予言は真実味を増していった。",
-		   NULL, "But... as people died exactly as prophecized... as the years passed, that prophecy would only come closer to fruition.", Line_WaitForInput);
+		   NULL, "But... as people died exactly as prophesized... as the years passed, that prophecy would only come closer to fruition.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2391,7 +2391,7 @@
 //「……………………彼女は、自分の死に対して、誰かにＳＯＳを発しはしなかったんでしょうか。￥
 	PlaySE(4, "S05/13/101300767", 128, 64);
 	OutputLine(NULL, "「……………………彼女は、自分の死に対して、誰かにＳＯＳを発しはしなかったんでしょうか。」",
-		   NULL, "\"...She must have tried signalling somebody for help in regards to her own death, though?\"", Line_Normal);
+		   NULL, "\"...She must have tried signaling somebody for help in regards to her own death, though?\"", Line_Normal);
 	ClearMessage();
 
 

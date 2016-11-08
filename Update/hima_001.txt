@@ -432,7 +432,7 @@
 
 //　車の扉を開けるときの仕草が、前後から人や車が来てないか、確かめるための仕草とは少し異なった＠
 	OutputLine(NULL, "　車の扉を開けるときの仕草が、前後から人や車が来てないか、確かめるための仕草とは少し異なった。",
-		   NULL, "His behaviour was a little different than that of a man looking around to see if there was any incoming traffic before he opened the door of his vehicle.", Line_WaitForInput);
+		   NULL, "His behavior was a little different than that of a man looking around to see if there was any incoming traffic before he opened the door of his vehicle.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -606,7 +606,7 @@
 	OutputLine(NULL, "　……そう思い、受話器を置こうとした時。",
 		   NULL, "...Thinking that, the moment he began to hang up the phone...", Line_WaitForInput);
 	OutputLine(NULL, "……彼はこの電話が確かに繋がっていて、受話器の向こうには、声を潜めた何者かが確かに存在する気配を感じ取る…。",
-		   NULL, " ...He sensed that he was definitely connected after all. He felt the prescence of the person on the other end of the line, keeping silent...", Line_Normal);
+		   NULL, " ...He sensed that he was definitely connected after all. He felt the presence of the person on the other end of the line, keeping silent...", Line_Normal);
 	ClearMessage();
 
 //「………………………もしもし…？＠
@@ -632,7 +632,7 @@
 
 //　無言電話というものを、彼が知らなかったわけはない＠
 	OutputLine(NULL, "　無言電話というものを、彼が知らなかったわけはない。",
-		   NULL, "It wasn't like he didn't know that people could use silent calls to harrass others.", Line_WaitForInput);
+		   NULL, "It wasn't like he didn't know that people could use silent calls to harass others.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -814,7 +814,7 @@
 
 //　…それは鍵の掛かった引き出しで、金庫にしまうほどでないにしても、それなりに重要なものをしまう位置付けの引き出しだった＠
 	OutputLine(NULL, "　…それは鍵の掛かった引き出しで、金庫にしまうほどでないにしても、それなりに重要なものをしまう位置付けの引き出しだった。",
-		   NULL, "...There was a lock on on it. Not enough to function as a safe, but nevertheless it was a drawer that contained some valuable things.", Line_WaitForInput);
+		   NULL, "...There was a lock on it. Not enough to function as a safe, but nevertheless it was a drawer that contained some valuable things.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -1629,7 +1629,7 @@
 		   NULL, "The abducted child is said to be under treatment for some illness, but there's no trace of any hospital records or witnesses to such effect.", Line_WaitForInput);
 	PlaySE(4, "S05/00/104200006", 128, 64);
 	OutputLine(NULL, "その他いくつかの理由から、事件発生は間違いないものと断定しました。」",
-		   NULL, " Due to that and various other reasons, we believe without a doubt that a kidnapping has occured.\"", Line_Normal);
+		   NULL, " Due to that and various other reasons, we believe without a doubt that a kidnapping has occurred.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2048,7 +2048,7 @@
 
 //　新聞で見る限りでも、機動隊との激突による流血事件、ダム工事に対する威力妨害など、枚挙に暇がない＠
 	OutputLine(NULL, "　新聞で見る限りでも、機動隊との激突による流血事件、ダム工事に対する威力妨害など、枚挙に暇がない。",
-		   NULL, "Even limited to what was written in the newspapers, there was bloodshed that occured during a clash with riot police, interference with the dam construction... too many to count.", Line_WaitForInput);
+		   NULL, "Even limited to what was written in the newspapers, there was bloodshed that occurred during a clash with riot police, interference with the dam construction... too many to count.", Line_WaitForInput);
 
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
@@ -2246,7 +2246,7 @@
 
 //　…私は、この鬼ヶ淵死守同盟という団体についての認識を少し改める必要があるようだった￥
 	OutputLine(NULL, "　…私は、この鬼ヶ淵死守同盟という団体についての認識を少し改める必要があるようだった。",
-		   NULL, "...It seemed that I would have to reconsider exactly what this Ongafuchi Defense Alliance was.", Line_Normal);
+		   NULL, "...It seemed that I would have to reconsider exactly what this Onigafuchi Defense Alliance was.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2331,7 +2331,7 @@
 
 //　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…￥
 	OutputLine(NULL, "　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…。",
-		   NULL, "However, then the demonstrators and police clashed, which started a riot, leading to numerous injuries and arrests. It was from then on that the Onigafuchi Defense Alliance, like their name implies, began to take a more demonish form of resistance...", Line_Normal);
+		   NULL, "However, then the demonstrators and police clashed, which started a riot, leading to numerous injuries and arrests. It was from then on that the Onigafuchi Defense Alliance, like their name implies, began to take a more demonic form of resistance...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2751,7 +2751,7 @@
 //「検察審査員のリストは非公開でしょう＠　報復がされないように何らかの措置が取られているはずでは？￥
 	PlaySE(4, "S05/13/101300035", 128, 64);
 	OutputLine(NULL, "「検察審査員のリストは非公開でしょう？",
-		   NULL, "\"The list of Inquistion Committee members is undisclosed, isn't it?", Line_WaitForInput);
+		   NULL, "\"The list of Inquisition Committee members is undisclosed, isn't it?", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300036", 128, 64);
 	OutputLine(NULL, "　報復がされないように何らかの措置が取られているはずでは？」",
 		   NULL, " There has to be some measures in place to make sure they'd avoid retribution, no?\"", Line_Normal);
@@ -2789,7 +2789,7 @@
 
 //　近所の主婦連が、どこのお宅のどこの子が、何年何組で得意教科は何で嫌いな野菜が何かなどに熟知しているなんてことは、よくあることだ￥
 	OutputLine(NULL, "　近所の主婦連が、どこのお宅のどこの子が、何年何組で得意教科は何で嫌いな野菜が何かなどに熟知しているなんてことは、よくあることだ。",
-		   NULL, "It's not uncommon for housewives in a neighbourhood to know which kid from which house is what grade in which school, what subjects they're good at and what vegetables they hate, among other things.", Line_Normal);
+		   NULL, "It's not uncommon for housewives in a neighborhood to know which kid from which house is what grade in which school, what subjects they're good at and what vegetables they hate, among other things.", Line_Normal);
 	ClearMessage();
 
 
@@ -2854,7 +2854,7 @@
 
 //　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち＠自分たちの村を守るためなら、どんな暴力的手段も問わない＠
 	OutputLine(NULL, "　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち。",
-		   NULL, "However, for some reason they exterted a strong influence on the surrounding areas, and had a strong sense of unity.", Line_WaitForInput);
+		   NULL, "However, for some reason they exerted a strong influence on the surrounding areas, and had a strong sense of unity.", Line_WaitForInput);
 	OutputLine(NULL, "自分たちの村を守るためなら、どんな暴力的手段も問わない。",
 		   NULL, " They would protect their village by any means necessary, even if that meant resorting to violence.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -3664,7 +3664,7 @@
 		   NULL, " The treasurer is O. Sonozaki, the auditor is Makino.", Line_WaitForInput);
 	PlaySE(4, "S05/13/101300067", 128, 64);
 	OutputLine(NULL, "共闘部長が公由（義）氏、広報部長が園崎（禎）氏…、」",
-		   NULL, " The liason is Y. Kimiyoshi, the PR Head is Y. Sonozaki...\"", Line_Normal);
+		   NULL, " The liaison is Y. Kimiyoshi, the PR Head is Y. Sonozaki...\"", Line_Normal);
 	ClearMessage();
 
 
@@ -3773,7 +3773,7 @@
 
 //　間髪入れずに頷き返すと、大石氏は満足げに笑って立ち上がった…￥
 	OutputLine(NULL, "　間髪入れずに頷き返すと、大石氏は満足げに笑って立ち上がった…。",
-		   NULL, "Nodding back without skipping a beat, Ooshi laughed in satisfaction and stood up.", Line_Normal);
+		   NULL, "Nodding back without skipping a beat, Ooishi laughed in satisfaction and stood up.", Line_Normal);
 	ClearMessage();
 
 
@@ -3835,7 +3835,7 @@
 
 //　大石氏は、野球帽とサングラスとマスクという、あからさまに不審な小道具を用意してくれた＠
 	OutputLine(NULL, "　大石氏は、野球帽とサングラスとマスクという、あからさまに不審な小道具を用意してくれた。",
-		   NULL, "Ooshi handed me an incredibly suspicious disguise comprised of a baseball cap, sunglasses, and a mask.", Line_WaitForInput);
+		   NULL, "Ooishi handed me an incredibly suspicious disguise comprised of a baseball cap, sunglasses, and a mask.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -5058,7 +5058,7 @@
 //「内容によりけりですがね、雛見沢界隈に詳しい情報屋に引き合わせてあげてもいいですよ。＠
 	PlaySE(4, "S05/11/100700129", 128, 64);
 	OutputLine(NULL, "「内容によりけりですがね、雛見沢界隈に詳しい情報屋に引き合わせてあげてもいいですよ。」",
-		   NULL, "\"Well, this depends on what we're talking about, but I might be able to set you up with someone who's knowledgable about the goings-on in Hinamizawa.\"", Line_WaitForInput);
+		   NULL, "\"Well, this depends on what we're talking about, but I might be able to set you up with someone who's knowledgeable about the goings-on in Hinamizawa.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -5492,7 +5492,7 @@
 		   NULL, "\"...I see.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700168", 128, 64);
 	OutputLine(NULL, "だから脅迫を受けている可能性、という言い方になると。",
-		   NULL, " So that's why you're saying there's only a possibilty he's being coerced.", Line_WaitForInput);
+		   NULL, " So that's why you're saying there's only a possibility he's being coerced.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700169", 128, 64);
 	OutputLine(NULL, "………だとすると妙ですねぇ？",
 		   NULL, " ...In that case, isn't it a little strange?", Line_WaitForInput);
@@ -5771,7 +5771,7 @@
 		   NULL, "\"You see,  these human-devouring demons...", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700192", 128, 64);
 	OutputLine(NULL, "普段は仙人と崇められて、ひっそりと暮らしているんですがね。",
-		   NULL, " Normally they were were revered as Taoist 'transcendants', and lived tucked away from the rest of the world.", Line_WaitForInput);
+		   NULL, " Normally they were revered as Taoist 'transcendants', and lived tucked away from the rest of the world.", Line_WaitForInput);
 	PlaySE(4, "S05/11/100700193", 128, 64);
 	OutputLine(NULL, "……やっぱり人食いですから、定期的に麓の村に下りてきては、獲物をさらっていったんだそうです。",
 		   NULL, " ...But they ate people, after all, so apparently they'd go to villages in the foothills regularly and abduct their prey.", Line_Normal);
