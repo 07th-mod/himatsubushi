@@ -20,12 +20,12 @@
 //■調査は暗礁
 
 //「……うん＠昨日、銀座の料亭でお会いしてね＠そういう話が出たんだよ。￥
-	PlaySE(4, "S20/00/kataoka44001", 128, 64);
+	PlaySE(4, "s20/00/kataoka44001", 128, 64);
 	OutputLine(NULL, "「……うん。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);
 	OutputLine(NULL, "昨日、銀座の料亭でお会いしてね。",
 		   NULL, " Yesterday, when we met at the restaurant in Ginza,", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44002", 128, 64);
+	PlaySE(4, "s20/00/kataoka44002", 128, 64);
 	OutputLine(NULL, "そういう話が出たんだよ。」",
 		   NULL, " that topic popped up.\"", Line_Normal);
 	ClearMessage();
@@ -34,31 +34,31 @@
 	DrawScene( "bg_193", 1000 );
 
 //「別室の越権でしょ＠連中、公安に干渉し過ぎですよ＠あまり迎合すると悪い先例を残しますね。＠
-	PlaySE(4, "S20/00/442600001", 128, 64);
+	PlaySE(4, "s20/00/442600001", 128, 64);
 	OutputLine(NULL, "「別室の越権でしょ。",
 		   NULL, "\"That's overstepping their boundaries, isn't it?", Line_WaitForInput);
 	OutputLine(NULL, "連中、公安に干渉し過ぎですよ。",
 		   NULL, " They're meddling too much with Public Safety.", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600002", 128, 64);
+	PlaySE(4, "s20/00/442600002", 128, 64);
 	OutputLine(NULL, "あまり迎合すると悪い先例を残しますね。」",
 		   NULL, " If they keep doing that, they're going to set a bad precedent.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「犬飼大臣は公安の動きに不快感を顕わにしているらしい＠多分、月曜の庁議で次官からその旨の話が出るんじゃないかと思う＠…まいったなぁ…。＠
-	PlaySE(4, "S20/00/kataoka44003", 128, 64);
+	PlaySE(4, "s20/00/kataoka44003", 128, 64);
 	OutputLine(NULL, "「犬飼大臣は公安の動きに不快感を顕わにしているらしい。",
 		   NULL, "\"It seems that Minister Inugai is openly uncomfortable about the way Public Safety is doing things.", Line_WaitForInput);
 	OutputLine(NULL, "多分、月曜の庁議で次官からその旨の話が出るんじゃないかと思う。",
 		   NULL, " The Vice-Minister is probably going to say something to that effect during Monday's debate session.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44004", 128, 64);
+	PlaySE(4, "s20/00/kataoka44004", 128, 64);
 	OutputLine(NULL, "…まいったなぁ…。」",
 		   NULL, " ...But what can you do?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「次官へは局長級に話し付けてもらうしかないですよ＠給料を多くもらってる人の当然の仕事ってことで。￥
-	PlaySE(4, "S20/00/442600003", 128, 64);
+	PlaySE(4, "s20/00/442600003", 128, 64);
 	OutputLine(NULL, "「次官へは局長級に話し付けてもらうしかないですよ。",
 		   NULL, "\"We can only have the Director address the Vice-Minister.", Line_WaitForInput);
 	OutputLine(NULL, "給料を多くもらってる人の当然の仕事ってことで。」",
@@ -67,14 +67,14 @@
 
 
 //「まぁ、そうなると局長からは絶対に、大臣脅迫の物証を求められるよな。＠
-	PlaySE(4, "S20/00/kataoka44005", 128, 64);
+	PlaySE(4, "s20/00/kataoka44005", 128, 64);
 	OutputLine(NULL, "「まぁ、そうなると局長からは絶対に、大臣脅迫の物証を求められるよな。」",
 		   NULL, "\"Well, if it comes to that, they're going to ask him for proof that the Minister's being threatened.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「あの人、たまにどっちの味方かわかんなくなりますね＠うちらの味方しなくてどうすんの、っての！￥
-	PlaySE(4, "S20/00/442600004", 128, 64);
+	PlaySE(4, "s20/00/442600004", 128, 64);
 	OutputLine(NULL, "「あの人、たまにどっちの味方かわかんなくなりますね。",
 		   NULL, "\"Sometimes I don't know what side he's on.", Line_WaitForInput);
 	OutputLine(NULL, "うちらの味方しなくてどうすんの、っての！」",
@@ -83,65 +83,65 @@
 
 
 //「ま、多分、大臣を経由しての圧力だと思ってるけどね＠俺が次官室で脂汗かいて時間稼ぐ間に調査進めてもらうしかないよな＠…全身の汗、搾られて絞りカスになっちゃうかもしれないけどなぁ＠…で、どうなの？　調査の進行は。＠
-	PlaySE(4, "S20/00/kataoka44006", 128, 64);
+	PlaySE(4, "s20/00/kataoka44006", 128, 64);
 	OutputLine(NULL, "「ま、多分、大臣を経由しての圧力だと思ってるけどね。",
 		   NULL, "\"Well, he's probably getting some pressure from the Minister.", Line_WaitForInput);
 	OutputLine(NULL, "俺が次官室で脂汗かいて時間稼ぐ間に調査進めてもらうしかないよな。",
 		   NULL, " We'll probably just have to proceed with the investigation while he sweats it out in the Vice-Minister's office and buys us some time.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44007", 128, 64);
+	PlaySE(4, "s20/00/kataoka44007", 128, 64);
 	OutputLine(NULL, "…全身の汗、搾られて絞りカスになっちゃうかもしれないけどなぁ。",
 		   NULL, " ...He might get so wrung out to dry that all that'll be left are dregs, though.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44008", 128, 64);
+	PlaySE(4, "s20/00/kataoka44008", 128, 64);
 	OutputLine(NULL, "…で、どうなの？　調査の進行は。」",
 		   NULL, " ...So, how's the investigation going?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「期待してた濃厚なラインがことごとく外れて、正直、途方に暮れてます。￥
-	PlaySE(4, "S20/00/442600005", 128, 64);
+	PlaySE(4, "s20/00/442600005", 128, 64);
 	OutputLine(NULL, "「期待してた濃厚なラインがことごとく外れて、正直、途方に暮れてます。」",
 		   NULL, "\"All the juicy leads I was pinning my hopes on turned out to be duds. Honestly, I'm at a loss.\"", Line_Normal);
 	ClearMessage();
 
 
 //「最近の大臣発言をまとめると、雛見沢ダムの計画の話が目立つっていう報告を聞いたけど、それはどうなの？＠
-	PlaySE(4, "S20/00/kataoka44009", 128, 64);
+	PlaySE(4, "s20/00/kataoka44009", 128, 64);
 	OutputLine(NULL, "「最近の大臣発言をまとめると、雛見沢ダムの計画の話が目立つっていう報告を聞いたけど、それはどうなの？」",
 		   NULL, "\"There are reports that the Hinamizawa Dam Project has been showing up a lot lately in the Minister's press releases, so what about that?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…………ん～～～～…＠目立つって言うか、…本当に微細な程度の違和感ですね＠たまたま××県の県議連でのスピーチだったから、時事ネタを話しただけかもしれないし。￥
-	PlaySE(4, "S20/00/442600006", 128, 64);
+	PlaySE(4, "s20/00/442600006", 128, 64);
 	OutputLine(NULL, "「…………ん〜〜〜〜…。",
 		   NULL, "\"....Hmmm...", Line_WaitForInput);
 	OutputLine(NULL, "目立つって言うか、…本当に微細な程度の違和感ですね。",
 		   NULL, " Well you say 'showing up', but it's really more of a very slight feeling that something's strange.", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600007", 128, 64);
+	PlaySE(4, "s20/00/442600007", 128, 64);
 	OutputLine(NULL, "たまたま××県の県議連でのスピーチだったから、時事ネタを話しただけかもしれないし。」",
 		   NULL, " He just happened to mention it during his speech at the XX Prefectural Forum, so it just might have been something that he was mentioning because it was relevant at the time.\"", Line_Normal);
 	ClearMessage();
 
 
 //「確か地元団体が過激に抵抗してるってヤツだっけ＠　鬼ヶ淵死守同盟＠確か、赤坂くんに調べてもらってたよね。＠
-	PlaySE(4, "S20/00/kataoka44010", 128, 64);
+	PlaySE(4, "s20/00/kataoka44010", 128, 64);
 	OutputLine(NULL, "「確か地元団体が過激に抵抗してるってヤツだっけ？",
 		   NULL, "\"If I remember correctly, a local organization there was protesting quite violently, no?", Line_WaitForInput);
 	OutputLine(NULL, "　鬼ヶ淵死守同盟。",
 		   NULL, " The Onigafuchi Defense Alliance.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44011", 128, 64);
+	PlaySE(4, "s20/00/kataoka44011", 128, 64);
 	OutputLine(NULL, "確か、赤坂くんに調べてもらってたよね。」",
 		   NULL, " I think Akasaka-kun was investigating that.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「僕は連中には、今回の事件は起こせないと踏んでます＠ですが、疑わしいところのほとんどが真っ白な以上、疑いの枠から外すわけにはいかないかもですね…＠赤坂くんからは、その可能性は否定できないとの軽い報告は受けてます。￥
-	PlaySE(4, "S20/00/442600008", 128, 64);
+	PlaySE(4, "s20/00/442600008", 128, 64);
 	OutputLine(NULL, "「僕は連中には、今回の事件は起こせないと踏んでます。",
 		   NULL, "\"I think those guys could possibly be behind what's happening now.", Line_WaitForInput);
 	OutputLine(NULL, "ですが、疑わしいところのほとんどが真っ白な以上、疑いの枠から外すわけにはいかないかもですね…。",
 		   NULL, " Even if we can't say there's anything overtly suspicious about them, it might not be prudent to remove them from the picture...", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600009", 128, 64);
+	PlaySE(4, "s20/00/442600009", 128, 64);
 	OutputLine(NULL, "赤坂くんからは、その可能性は否定できないとの軽い報告は受けてます。」",
 		   NULL, " Akasaka-kun reported in passing that he couldn't deny that possibility.\"", Line_Normal);
 	ClearMessage();
@@ -149,7 +149,7 @@
 
 
 //「…なら、調べて見る価値はあるんじゃないの＠　しらみ潰しなんだから、残る疑わしい団体がそこひとつなら、やるしかないでしょ。＠
-	PlaySE(4, "S20/00/kataoka44012", 128, 64);
+	PlaySE(4, "s20/00/kataoka44012", 128, 64);
 	OutputLine(NULL, "「…なら、調べて見る価値はあるんじゃないの？",
 		   NULL, "\"...Then, isn't there merit in investigating them?", Line_WaitForInput);
 	OutputLine(NULL, "　しらみ潰しなんだから、残る疑わしい団体がそこひとつなら、やるしかないでしょ。」",
@@ -158,22 +158,22 @@
 
 
 //「まぁ、調べる団体はそこだけじゃないんですがね＠　あははは＠　鬼ヶ淵と同じ程度のレベルで疑わしい団体になると、もう相当の数になりますよ＠人手も時間も残業代も全然足りません。￥
-	PlaySE(4, "S20/00/442600010", 128, 64);
+	PlaySE(4, "s20/00/442600010", 128, 64);
 	OutputLine(NULL, "「まぁ、調べる団体はそこだけじゃないんですがね？",
 		   NULL, "\"Well, they're not the only group we should investigate, right?", Line_WaitForInput);
 	OutputLine(NULL, "　あははは！",
 		   NULL, " Ahahaha!", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600011", 128, 64);
+	PlaySE(4, "s20/00/442600011", 128, 64);
 	OutputLine(NULL, "　鬼ヶ淵と同じ程度のレベルで疑わしい団体になると、もう相当の数になりますよ。",
 		   NULL, " If we're just talking about groups that are as suspicious as Onigafuchi, there's quite a few of them.", Line_Normal);
 	ClearMessage();
 
 
 //「赤坂くんからさ、もうちょっと詳しく聞いてみてよ＠…俺はちょっと要注意に感じるけどなぁ、その死守同盟。＠
-	PlaySE(4, "S20/00/442600012", 128, 64);
+	PlaySE(4, "s20/00/442600012", 128, 64);
 	OutputLine(NULL, "人手も時間も残業代も全然足りません。」",
 		   NULL, "We don't have the men, the time, or the money for it all.\"", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44013", 128, 64);
+	PlaySE(4, "s20/00/kataoka44013", 128, 64);
 	OutputLine(NULL, "「赤坂くんからさ、もうちょっと詳しく聞いてみてよ。",
 		   NULL, " \"I'll try asking for more details from Akasaka-kun.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -182,7 +182,7 @@
 //「彼、村人とうまく接触できたって連絡してきました＠現地の警察とも連携できてるみたいですね。￥
 	OutputLine(NULL, "…俺はちょっと要注意に感じるけどなぁ、その死守同盟。」",
 		   NULL, "...I feel like we should pay some extra attention to this Defense Alliance.\"", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600013", 128, 64);
+	PlaySE(4, "s20/00/442600013", 128, 64);
 	OutputLine(NULL, "「彼、村人とうまく接触できたって連絡してきました。",
 		   NULL, " \"He's reported that he's established a rapport with the villagers.", Line_Normal);
 	ClearMessage();
@@ -191,7 +191,7 @@
 //「赤坂くんとの連絡、密にしてください＠それで、彼からの情報が引っ掛かるようであれば、増援を送ることもありということで。￥
 	OutputLine(NULL, "現地の警察とも連携できてるみたいですね。」",
 		   NULL, "It also seems that he's collaborating with the local police.\"", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44014", 128, 64);
+	PlaySE(4, "s20/00/kataoka44014", 128, 64);
 	OutputLine(NULL, "「赤坂くんとの連絡、密にしてください。",
 		   NULL, " \"Keep your contact with Akasaka-kun on the down-low.", Line_Normal);
 	ClearMessage();
@@ -202,10 +202,10 @@
 	ClearMessage();
 
 //「………あ、すみません、片岡室長～＠　局長からお電話です＠こっちに回しますか？＠
-	PlaySE(4, "S20/00/442600014", 128, 64);
+	PlaySE(4, "s20/00/442600014", 128, 64);
 	OutputLine(NULL, "「わっかりました。」",
 		   NULL, "\"Got it.\"", Line_WaitForInput);
-	PlaySE(4, "S20/00/442600015", 128, 64);
+	PlaySE(4, "s20/00/442600015", 128, 64);
 	OutputLine(NULL, "「………あ、すみません、片岡室長〜！",
 		   NULL, " \"...Ah, sorry... Chief Kataoka~!", Line_WaitForInput);
 	OutputLine(NULL, "　局長からお電話です。",
@@ -214,15 +214,15 @@
 
 
 //「あ、いい、いい＠　そっち行きます＠…もしもし＠　片岡です…………。￥
-	PlaySE(4, "S20/00/442600016", 128, 64);
+	PlaySE(4, "s20/00/442600016", 128, 64);
 	OutputLine(NULL, "こっちに回しますか？」",
 		   NULL, "Should I transfer it over here?\"", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44015", 128, 64);
+	PlaySE(4, "s20/00/kataoka44015", 128, 64);
 	OutputLine(NULL, "「あ、いい、いい！",
 		   NULL, " \"Ah, no, it's okay!", Line_WaitForInput);
 	OutputLine(NULL, "　そっち行きます。",
 		   NULL, " I'll head over there.", Line_WaitForInput);
-	PlaySE(4, "S20/00/kataoka44016", 128, 64);
+	PlaySE(4, "s20/00/kataoka44016", 128, 64);
 	OutputLine(NULL, "…もしもし！",
 		   NULL, " ...Yes hello?", Line_Normal);
 	ClearMessage();

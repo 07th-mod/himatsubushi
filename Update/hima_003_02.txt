@@ -13,26 +13,26 @@
 	DrawScene( "bg_102", 400 );
 
 //「えぇえぇ、皆さんもご苦労さんなことです＠お暑いでしょうが、せいぜい頑張って下さいよ＠不法投棄のダンプが現れたらすぐにご連絡下さい＠急行いたしますのでね。￥
-	PlaySE(4, "S05/11/100700391", 128, 64);
+	PlaySE(4, "s05/11/100700391", 128, 64);
 	OutputLine(NULL, "「えぇえぇ、皆さんもご苦労さんなことです。",
 		   NULL, "\"Ehhh, good work, everyone.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700392", 128, 64);
+	PlaySE(4, "s05/11/100700392", 128, 64);
 	OutputLine(NULL, "お暑いでしょうが、せいぜい頑張って下さいよ。",
 		   NULL, " I know it's hot, but please do your best.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700393", 128, 64);
+	PlaySE(4, "s05/11/100700393", 128, 64);
 	OutputLine(NULL, "不法投棄のダンプが現れたらすぐにご連絡下さい。",
 		   NULL, " If you catch anybody illegally dumping, please contact someone immediately.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700394", 128, 64);
+	PlaySE(4, "s05/11/100700394", 128, 64);
 	OutputLine(NULL, "急行いたしますのでね。」",
 		   NULL, " We'll act quickly.\"", Line_Normal);
 	ClearMessage();
 
 
 //「ご協力、感謝しますよ大石さん＠……どうぞ。＠
-	PlaySE(4, "S05/00/104600050", 128, 64);
+	PlaySE(4, "s05/00/104600050", 128, 64);
 	OutputLine(NULL, "「ご協力、感謝しますよ大石さん。",
 		   NULL, "\"Thank you for your cooperation, Ooishi-san.", Line_WaitForInput);
-	PlaySE(4, "S05/00/104600051", 128, 64);
+	PlaySE(4, "s05/00/104600051", 128, 64);
 	OutputLine(NULL, "……どうぞ。」",
 		   NULL, " ...Please.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -87,30 +87,30 @@
 	DrawSceneWithMask( "bg_100", "left", 0, 0, 300 );
 
 //「…ありゃ＠いいんですか？＠
-	PlaySE(4, "S05/11/100700395", 128, 64);
+	PlaySE(4, "s05/11/100700395", 128, 64);
 	OutputLine(NULL, "「…ありゃ。",
 		   NULL, "\"...Oh my.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700396", 128, 64);
+	PlaySE(4, "s05/11/100700396", 128, 64);
 	OutputLine(NULL, "いいんですか？」",
 		   NULL, " Is that okay?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「こんな小細工したところで＠どうせ割れているでしょうから。＠
-	PlaySE(4, "S05/13/101300447", 128, 64);
+	PlaySE(4, "s05/13/101300447", 128, 64);
 	OutputLine(NULL, "「こんな小細工したところで。",
 		   NULL, "\"With a cheap little disguise like this,", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300448", 128, 64);
+	PlaySE(4, "s05/13/101300448", 128, 64);
 	OutputLine(NULL, "どうせ割れているでしょうから。」",
 		   NULL, " they probably figured it out anyways.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「なっはっはっは＠そりゃあまぁそうでしょうなぁ。＠
-	PlaySE(4, "S05/11/100700397", 128, 64);
+	PlaySE(4, "s05/11/100700397", 128, 64);
 	OutputLine(NULL, "「なっはっはっは。",
 		   NULL, "\"Na ha ha ha.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700398", 128, 64);
+	PlaySE(4, "s05/11/100700398", 128, 64);
 	OutputLine(NULL, "そりゃあまぁそうでしょうなぁ。」",
 		   NULL, " That just might be the case.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -287,17 +287,17 @@
 	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
 
 //「………………………。＠
-	PlaySE(4, "S05/13/101300449", 128, 64);
+	PlaySE(4, "s05/13/101300449", 128, 64);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「赤坂さん、緊張してます＠　んっふっふっふ！＠
-	PlaySE(4, "S05/11/100700399", 128, 64);
+	PlaySE(4, "s05/11/100700399", 128, 64);
 	OutputLine(NULL, "「赤坂さん、緊張してます？",
 		   NULL, "\"Akasaka-san, are you nervous?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700400", 128, 64);
+	PlaySE(4, "s05/11/100700400", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -315,39 +315,39 @@
 	ClearMessage();
 
 //「……もちろんです＠敵の本拠地にたった二人で乗り込んでいるんですよ＠　この人数では万一の時が不安です。＠
-	PlaySE(4, "S05/13/101300450", 128, 64);
+	PlaySE(4, "s05/13/101300450", 128, 64);
 	OutputLine(NULL, "「……もちろんです。",
 		   NULL, "\"...Of course I am.", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300451", 128, 64);
+	PlaySE(4, "s05/13/101300451", 128, 64);
 	OutputLine(NULL, "敵の本拠地にたった二人で乗り込んでいるんですよ？",
 		   NULL, " We're headed into the heart of enemy territory alone, aren't we?", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300452", 128, 64);
+	PlaySE(4, "s05/13/101300452", 128, 64);
 	OutputLine(NULL, "　この人数では万一の時が不安です。」",
 		   NULL, " I'm worried about if something unlikely happens with just the two of us.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「万一の時＠　なっはっはっはっはっは＠　大丈夫ですよ。＠
-	PlaySE(4, "S05/11/100700401", 128, 64);
+	PlaySE(4, "s05/11/100700401", 128, 64);
 	OutputLine(NULL, "「万一の時？",
 		   NULL, "\"Something unlikely?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700402", 128, 64);
+	PlaySE(4, "s05/11/100700402", 128, 64);
 	OutputLine(NULL, "　なっはっはっはっはっは！",
 		   NULL, " Na ha ha ha ha ha!", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700403", 128, 64);
+	PlaySE(4, "s05/11/100700403", 128, 64);
 	OutputLine(NULL, "　大丈夫ですよ。」",
 		   NULL, " It'll be all right.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「この村の人間全てが敵ではありませんでしたか＠　全員が口裏を合わせれば、この村で白昼堂々殺人が起こっても証拠一つ残らない＠そういうところだと聞いていますよ。￥
-	PlaySE(4, "S05/13/101300453", 128, 64);
+	PlaySE(4, "s05/13/101300453", 128, 64);
 	OutputLine(NULL, "「この村の人間全てが敵ではありませんでしたか？",
 		   NULL, "\"Isn't everybody in this village our enemy?", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300454", 128, 64);
+	PlaySE(4, "s05/13/101300454", 128, 64);
 	OutputLine(NULL, "　全員が口裏を合わせれば、この村で白昼堂々殺人が起こっても証拠一つ残らない。",
 		   NULL, " If everybody gets their stories straight, they could murder someone in broad daylight and there wouldn't be a shred of evidence.", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300455", 128, 64);
+	PlaySE(4, "s05/13/101300455", 128, 64);
 	OutputLine(NULL, "そういうところだと聞いていますよ。」",
 		   NULL, " I'm asking about something like that.\"", Line_Normal);
 	ClearMessage();
@@ -378,23 +378,23 @@
 
 
 //「雛見沢地区へ向かうと同僚に言い残してますしね＠万一の時は無線機もありますし＠…赤坂さんが怖がってるほどね、そう簡単には完全犯罪はできませんよ＠……まぁ、もちろん油断をしないに越したことはありませんがねぇ。＠
-	PlaySE(4, "S05/11/100700404", 128, 64);
+	PlaySE(4, "s05/11/100700404", 128, 64);
 	OutputLine(NULL, "「雛見沢地区へ向かうと同僚に言い残してますしね。",
 		   NULL, "\"I've left word that we're headed towards the Hinamizawa area.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700405", 128, 64);
+	PlaySE(4, "s05/11/100700405", 128, 64);
 	OutputLine(NULL, "万一の時は無線機もありますし。",
 		   NULL, " And in the worst case, we've also got a radio.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700406", 128, 64);
+	PlaySE(4, "s05/11/100700406", 128, 64);
 	OutputLine(NULL, "…赤坂さんが怖がってるほどね、そう簡単には完全犯罪はできませんよ。",
 		   NULL, " I know you're scared, Akasaka-san, but it's not that easy to pull off the perfect crime.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700407", 128, 64);
+	PlaySE(4, "s05/11/100700407", 128, 64);
 	OutputLine(NULL, "……まぁ、もちろん油断をしないに越したことはありませんがねぇ。」",
 		   NULL, " ...Well, of course that doesn't mean we can let our guard down, either.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…………………。￥
-	PlaySE(4, "S05/13/101300456", 128, 64);
+	PlaySE(4, "s05/13/101300456", 128, 64);
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -403,13 +403,13 @@
 	DrawSceneWithMask( "bg_100", "right", 0, 0, 300 );
 
 //「赤坂さん、緊張しすぎですよ＠前にご一緒してた時の方がリラックスしてらしたじゃないですか＠なっはっはっはっは…。＠
-	PlaySE(4, "S05/11/100700408", 128, 64);
+	PlaySE(4, "s05/11/100700408", 128, 64);
 	OutputLine(NULL, "「赤坂さん、緊張しすぎですよ。",
 		   NULL, "\"Akasaka-san, you're too worked up over this.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700409", 128, 64);
+	PlaySE(4, "s05/11/100700409", 128, 64);
 	OutputLine(NULL, "前にご一緒してた時の方がリラックスしてらしたじゃないですか。",
 		   NULL, " You were more relaxed the last time we came up here together, weren't you?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700410", 128, 64);
+	PlaySE(4, "s05/11/100700410", 128, 64);
 	OutputLine(NULL, "なっはっはっはっは…。」",
 		   NULL, " Na ha ha ha ha...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -424,10 +424,10 @@
 
 //「まぁ、本当の本当にやばくなったら、なはははは＠　桜の代紋にはこいつがありますからねぇ。＠
 
-	PlaySE(4, "S05/11/100700411", 128, 64);
+	PlaySE(4, "s05/11/100700411", 128, 64);
 	OutputLine(NULL, "「まぁ、本当の本当にやばくなったら、なはははは！",
 		   NULL, "\"Well, if it gets really iffy, nahahaha!", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700412", 128, 64);
+	PlaySE(4, "s05/11/100700412", 128, 64);
 	OutputLine(NULL, "　桜の代紋にはこいつがありますからねぇ。」",
 		   NULL, " This comes with having the badge.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -442,14 +442,14 @@
 
 
 //「…役に立ちますか？＠
-	PlaySE(4, "S05/13/101300457", 128, 64);
+	PlaySE(4, "s05/13/101300457", 128, 64);
 	OutputLine(NULL, "「…役に立ちますか？」",
 		   NULL, "\"...Will it be of any use?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「撃った後の後始末云々が怖くなければ、実に心強いですよ。＠
-	PlaySE(4, "S05/11/100700413", 128, 64);
+	PlaySE(4, "s05/11/100700413", 128, 64);
 	OutputLine(NULL, "「撃った後の後始末云々が怖くなければ、実に心強いですよ。」",
 		   NULL, "\"If you're not afraid of dealing with the aftermath after you shoot, it's actually very reassuring.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -474,64 +474,64 @@
 
 
 //「赤坂さんは持ってるんですか＠　おハジキ。＠
-	PlaySE(4, "S05/11/100700414", 128, 64);
+	PlaySE(4, "s05/11/100700414", 128, 64);
 	OutputLine(NULL, "「赤坂さんは持ってるんですか？",
 		   NULL, "\"Akasaka-san, are you carrying one?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700415", 128, 64);
+	PlaySE(4, "s05/11/100700415", 128, 64);
 	OutputLine(NULL, "　おハジキ。」",
 		   NULL, " A piece.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「…まぁ、一応。￥
-	PlaySE(4, "S05/13/101300458", 128, 64);
+	PlaySE(4, "s05/13/101300458", 128, 64);
 	OutputLine(NULL, "「…まぁ、一応。」",
 		   NULL, "\"...Well, yeah.\"", Line_Normal);
 	ClearMessage();
 
 
 //「撃ったことは？＠
-	PlaySE(4, "S05/11/100700416", 128, 64);
+	PlaySE(4, "s05/11/100700416", 128, 64);
 	OutputLine(NULL, "「撃ったことは？」",
 		   NULL, "\"You ever fired it?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「ありますよ＠………訓練でですがね。＠
-	PlaySE(4, "S05/13/101300459", 128, 64);
+	PlaySE(4, "s05/13/101300459", 128, 64);
 	OutputLine(NULL, "「ありますよ。",
 		   NULL, "\"I have.", Line_WaitForInput);
-	PlaySE(4, "S05/13/101300460", 128, 64);
+	PlaySE(4, "s05/13/101300460", 128, 64);
 	OutputLine(NULL, "………訓練でですがね。」",
 		   NULL, " ...For training, though.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「そりゃあそうでしょうなぁ＠んっふっふっふ…！￥
-	PlaySE(4, "S05/11/100700417", 128, 64);
+	PlaySE(4, "s05/11/100700417", 128, 64);
 	OutputLine(NULL, "「そりゃあそうでしょうなぁ。",
 		   NULL, "\"Well I guess that'd be true.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700418", 128, 64);
+	PlaySE(4, "s05/11/100700418", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_Normal);
 	ClearMessage();
 
 
 //「なら大石さんにはあるんですか？＠
-	PlaySE(4, "S05/13/101300461", 128, 64);
+	PlaySE(4, "s05/13/101300461", 128, 64);
 	OutputLine(NULL, "「なら大石さんにはあるんですか？」",
 		   NULL, "\"Well then, have you, Ooishi-san?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「私ですか＠　なっはははは＠　まぁさかぁ、あるわけないじゃないですか。＠
-	PlaySE(4, "S05/11/100700419", 128, 64);
+	PlaySE(4, "s05/11/100700419", 128, 64);
 	OutputLine(NULL, "「私ですか？",
 		   NULL, "\"Me?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700420", 128, 64);
+	PlaySE(4, "s05/11/100700420", 128, 64);
 	OutputLine(NULL, "　なっはははは！",
 		   NULL, " Naahahahaha!", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700421", 128, 64);
+	PlaySE(4, "s05/11/100700421", 128, 64);
 	OutputLine(NULL, "　まぁさかぁ、あるわけないじゃないですか。」",
 		   NULL, " Nawww, there's no way.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -546,13 +546,13 @@
 
 
 //「銃口を向けたこともありませんがね＠銃口を向けられたことなら何度かありますよ＠……銃口を覗かされるだけで、寿命が３年は縮むなぁ。＠
-	PlaySE(4, "S05/11/100700422", 128, 64);
+	PlaySE(4, "s05/11/100700422", 128, 64);
 	OutputLine(NULL, "「銃口を向けたこともありませんがね。",
 		   NULL, "\"I've also never pointed the barrel at anybody.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700423", 128, 64);
+	PlaySE(4, "s05/11/100700423", 128, 64);
 	OutputLine(NULL, "銃口を向けられたことなら何度かありますよ。",
 		   NULL, " I've looked down the barrel of a gun a few times though.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700424", 128, 64);
+	PlaySE(4, "s05/11/100700424", 128, 64);
 	OutputLine(NULL, "……銃口を覗かされるだけで、寿命が３年は縮むなぁ。」",
 		   NULL, " ...Just being made to look down the barrel like that is enough to shorten your lifespan by about three years.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -579,33 +579,33 @@
 	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
 
 //「………そう言えば、日の高い内にこっちには来たくなかったなぁ＠でも車道はここ抜ける以外にないし＠……赤坂さん、念のため、もう一回マスクで顔を隠してください。＠
-	PlaySE(4, "S05/11/100700425", 128, 64);
+	PlaySE(4, "s05/11/100700425", 128, 64);
 	OutputLine(NULL, "「………そう言えば、日の高い内にこっちには来たくなかったなぁ。",
 		   NULL, "\"...Come to think of it, I didn't want to come this way in the middle of the day.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700426", 128, 64);
+	PlaySE(4, "s05/11/100700426", 128, 64);
 	OutputLine(NULL, "でも車道はここ抜ける以外にないし。",
 		   NULL, " But there's no way for a car to get through other than here.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700427", 128, 64);
+	PlaySE(4, "s05/11/100700427", 128, 64);
 	OutputLine(NULL, "……赤坂さん、念のため、もう一回マスクで顔を隠してください。」",
 		   NULL, " ...Akasaka-san, just in case, put on the mask again to hide your face, please.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「……どうしたんです？＠
-	PlaySE(4, "S05/13/101300462", 128, 64);
+	PlaySE(4, "s05/13/101300462", 128, 64);
 	OutputLine(NULL, "「……どうしたんです？」",
 		   NULL, "\"...What's the matter?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「冷房がうるさいから聞こえないかな＠　切りますよ＠窓を開けてみて下さい。￥
-	PlaySE(4, "S05/11/100700428", 128, 64);
+	PlaySE(4, "s05/11/100700428", 128, 64);
 	OutputLine(NULL, "「冷房がうるさいから聞こえないかな？",
 		   NULL, "\"Can you not hear it because the air conditioning is too loud?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700429", 128, 64);
+	PlaySE(4, "s05/11/100700429", 128, 64);
 	OutputLine(NULL, "　切りますよ。",
 		   NULL, " I'll turn it off.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700430", 128, 64);
+	PlaySE(4, "s05/11/100700430", 128, 64);
 	OutputLine(NULL, "窓を開けてみて下さい。」",
 		   NULL, " Try opening the window.\"", Line_Normal);
 	ClearMessage();
@@ -652,7 +652,7 @@
 
 	SetSpeedOfMessage( TRUE, 128, );
 
-	PlaySE(4, "S05/00/manall00001", 128, 64);
+	PlaySE(4, "s05/00/manall00001", 128, 64);
 	OutputLine(NULL, "「「「雛見沢ダム建設、絶対反対ッ！！」」」",
 		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_ContinueAfterTyping);
 
@@ -709,27 +709,27 @@
 
 
 //「お、……今日は少ないですね＠ツイてます。＠
-	PlaySE(4, "S05/11/100700431", 128, 64);
+	PlaySE(4, "s05/11/100700431", 128, 64);
 	OutputLine(NULL, "「お、……今日は少ないですね。",
 		   NULL, "\"Oh... there's not too many of them today.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700432", 128, 64);
+	PlaySE(4, "s05/11/100700432", 128, 64);
 	OutputLine(NULL, "ツイてます。」",
 		   NULL, " We're in luck.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「……少ないんですか。＠
-	PlaySE(4, "S05/13/101300463", 128, 64);
+	PlaySE(4, "s05/13/101300463", 128, 64);
 	OutputLine(NULL, "「……少ないんですか。」",
 		   NULL, "\"...That's not too many?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「えぇ、多い時だと、道路までいっぱいになりますよ＠おちおち車も通れません。￥
-	PlaySE(4, "S05/11/100700433", 128, 64);
+	PlaySE(4, "s05/11/100700433", 128, 64);
 	OutputLine(NULL, "「えぇ、多い時だと、道路までいっぱいになりますよ。",
 		   NULL, "\"Yeah, when there's a lot of them, the crowd reaches as far as the road.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700434", 128, 64);
+	PlaySE(4, "s05/11/100700434", 128, 64);
 	OutputLine(NULL, "おちおち車も通れません。」",
 		   NULL, " You wouldn't even be able to inch forward in a car.\"", Line_Normal);
 	ClearMessage();
@@ -774,39 +774,39 @@
 
 
 //「あれをガンガンやられるとたまんないんですよねぇ＠機動の連中、全員、耳栓してて、それでも耳がおかしくなるそうです＠気の毒な話です。＠
-	PlaySE(4, "S05/11/100700435", 128, 64);
+	PlaySE(4, "s05/11/100700435", 128, 64);
 	OutputLine(NULL, "「あれをガンガンやられるとたまんないんですよねぇ。",
 		   NULL, "\"They can't do anything there but take it.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700436", 128, 64);
+	PlaySE(4, "s05/11/100700436", 128, 64);
 	OutputLine(NULL, "機動の連中、全員、耳栓してて、それでも耳がおかしくなるそうです。",
 		   NULL, " Those riot squad guys, every one of them is wearing earplugs, but they're still having their hearing damaged.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700437", 128, 64);
+	PlaySE(4, "s05/11/100700437", 128, 64);
 	OutputLine(NULL, "気の毒な話です。」",
 		   NULL, " Poor sobs.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「騒音規制で何とかできないんですか？＠
-	PlaySE(4, "S05/13/101300464", 128, 64);
+	PlaySE(4, "s05/13/101300464", 128, 64);
 	OutputLine(NULL, "「騒音規制で何とかできないんですか？」",
 		   NULL, "\"Can't you do something about it with noise ordinance laws?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「ん～～～～、うちの県には騒音規制に関する規定ね、ないんですよ＠それにほら、お経でしょ＠　宗教活動規制できないし＠連中も頭いいんです＠なっはっはっは…。＠
-	PlaySE(4, "S05/11/100700438", 128, 64);
+	PlaySE(4, "s05/11/100700438", 128, 64);
 	OutputLine(NULL, "「ん〜〜〜〜、うちの県には騒音規制に関する規定ね、ないんですよ。",
 		   NULL, "\"Hmmm... our prefecture doesn't have any laws regarding noise ordinance.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700439", 128, 64);
+	PlaySE(4, "s05/11/100700439", 128, 64);
 	OutputLine(NULL, "それにほら、お経でしょ？",
 		   NULL, " Also, those are sutras, right?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700440", 128, 64);
+	PlaySE(4, "s05/11/100700440", 128, 64);
 	OutputLine(NULL, "　宗教活動規制できないし。",
 		   NULL, " We can't regulate religious activities.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700441", 128, 64);
+	PlaySE(4, "s05/11/100700441", 128, 64);
 	OutputLine(NULL, "連中も頭いいんです。",
 		   NULL, " Those guys are pretty smart.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700442", 128, 64);
+	PlaySE(4, "s05/11/100700442", 128, 64);
 	OutputLine(NULL, "なっはっはっは…。」",
 		   NULL, " Na ha ha ha...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -903,10 +903,10 @@
 	DrawSceneWithMask( "bg_101", "right", 0, 0, 300 );
 
 //「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ＠覚えてます？＠
-	PlaySE(4, "S05/11/100700443", 128, 64);
+	PlaySE(4, "s05/11/100700443", 128, 64);
 	OutputLine(NULL, "「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ。",
 		   NULL, "\"...Hey, the bald guy that was playing mahjong with us last night?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700444", 128, 64);
+	PlaySE(4, "s05/11/100700444", 128, 64);
 	OutputLine(NULL, "覚えてます？」",
 		   NULL, " Remember him?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -925,43 +925,43 @@
 
 
 //「いらっしゃいましたね。＠
-	PlaySE(4, "S05/13/101300465", 128, 64);
+	PlaySE(4, "s05/13/101300465", 128, 64);
 	OutputLine(NULL, "「いらっしゃいましたね。」",
 		   NULL, "\"There was someone like that.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「彼ね、第１工区の現場監督さんなんですよ＠あそこのプレハブの中で、いらいらしながら仕事をなさってるんでしょうねぇ＠…お気の毒なことです。￥
-	PlaySE(4, "S05/11/100700445", 128, 64);
+	PlaySE(4, "s05/11/100700445", 128, 64);
 	OutputLine(NULL, "「彼ね、第１工区の現場監督さんなんですよ。",
 		   NULL, "\"You see, he's the foreman of the main construction site.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700446", 128, 64);
+	PlaySE(4, "s05/11/100700446", 128, 64);
 	OutputLine(NULL, "あそこのプレハブの中で、いらいらしながら仕事をなさってるんでしょうねぇ。",
 		   NULL, " He's probably holed up in that prefab building, trying to work while irritated out of his mind.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700447", 128, 64);
+	PlaySE(4, "s05/11/100700447", 128, 64);
 	OutputLine(NULL, "…お気の毒なことです。」",
 		   NULL, " ...Poor fella.\"", Line_Normal);
 	ClearMessage();
 
 
 //「……あれが毎日では、たまったものではないでしょう。＠
-	PlaySE(4, "S05/13/101300466", 128, 64);
+	PlaySE(4, "s05/13/101300466", 128, 64);
 	OutputLine(NULL, "「……あれが毎日では、たまったものではないでしょう。」",
 		   NULL, "\"...You wouldn't be able to stand it if it's like that every day.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「えぇ＠耐えかねてやめちゃう人が後を絶ちません＠まぁその度にお給金がアップしてるんで、何とも言えませんが＠んっふっふっふ…！＠
-	PlaySE(4, "S05/11/100700448", 128, 64);
+	PlaySE(4, "s05/11/100700448", 128, 64);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700449", 128, 64);
+	PlaySE(4, "s05/11/100700449", 128, 64);
 	OutputLine(NULL, "耐えかねてやめちゃう人が後を絶ちません。",
 		   NULL, " There's no end to the number of people who can't handle it and quit.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700450", 128, 64);
+	PlaySE(4, "s05/11/100700450", 128, 64);
 	OutputLine(NULL, "まぁその度にお給金がアップしてるんで、何とも言えませんが。",
 		   NULL, " But every time that happens, their wages go up, so I won't say it's in vain.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700451", 128, 64);
+	PlaySE(4, "s05/11/100700451", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -977,10 +977,10 @@
 	DrawScene( "bg_100", 400 );
 
 //「ちっくしょう、こいつら…＠聞こえてるのか聞こえてないのか…。＠
-	PlaySE(4, "S05/11/100700452", 128, 64);
+	PlaySE(4, "s05/11/100700452", 128, 64);
 	OutputLine(NULL, "「ちっくしょう、こいつら…。",
 		   NULL, "\"Dammit, these guys...", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700453", 128, 64);
+	PlaySE(4, "s05/11/100700453", 128, 64);
 	OutputLine(NULL, "聞こえてるのか聞こえてないのか…。」",
 		   NULL, " Can they hear or can't they?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1017,10 +1017,10 @@
 
 
 //「………あ～～～、もぅ＠ちょいと待ってて下さい。＠
-	PlaySE(4, "S05/11/100700454", 128, 64);
+	PlaySE(4, "s05/11/100700454", 128, 64);
 	OutputLine(NULL, "「………あ〜〜〜、もぅ。",
 		   NULL, "\"....Ah~~~ geez.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700455", 128, 64);
+	PlaySE(4, "s05/11/100700455", 128, 64);
 	OutputLine(NULL, "ちょいと待ってて下さい。」",
 		   NULL, " Wait just a minute.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1039,7 +1039,7 @@
 
 
 //「………！！！　…………！＠
-	PlaySE(4, "S05/11/100700456", 128, 64);
+	PlaySE(4, "s05/11/100700456", 128, 64);
 	OutputLine(NULL, "「………！！！　…………！」",
 		   NULL, "\"...!!! ...!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1142,7 +1142,7 @@
 	DrawSceneWithMask( "bg_002", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
-	PlaySE(4, "S05/13/101300467", 128, 64);
+	PlaySE(4, "s05/13/101300467", 128, 64);
 	OutputLine(NULL, "「……………………………ぇ。」",
 		   NULL, "\"...huh.\"", Line_Normal);
 	ClearMessage();
@@ -1222,13 +1222,13 @@
 
 
 //「お待たせしました＠行きましょうか＠……ん？＠
-	PlaySE(4, "S05/11/100700457", 128, 64);
+	PlaySE(4, "s05/11/100700457", 128, 64);
 	OutputLine(NULL, "「お待たせしました。",
 		   NULL, "\"Sorry to keep you waiting.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700458", 128, 64);
+	PlaySE(4, "s05/11/100700458", 128, 64);
 	OutputLine(NULL, "行きましょうか。",
 		   NULL, " Shall we go?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700459", 128, 64);
+	PlaySE(4, "s05/11/100700459", 128, 64);
 	OutputLine(NULL, "……ん？」",
 		   NULL, " ...Hm?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1259,13 +1259,13 @@
 
 
 //「さぁて、行きましょうかね＠飛ばしますよぅ＠　もちろん法定速度遵守で。￥
-	PlaySE(4, "S05/11/100700460", 128, 64);
+	PlaySE(4, "s05/11/100700460", 128, 64);
 	OutputLine(NULL, "「さぁて、行きましょうかね。",
 		   NULL, "\"Well then, let's go.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700461", 128, 64);
+	PlaySE(4, "s05/11/100700461", 128, 64);
 	OutputLine(NULL, "飛ばしますよぅ？",
 		   NULL, " I'm going to gun it, okay?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700462", 128, 64);
+	PlaySE(4, "s05/11/100700462", 128, 64);
 	OutputLine(NULL, "　もちろん法定速度遵守で。」",
 		   NULL, " But of course, still within the speed limit.\"", Line_Normal);
 	ClearMessage();
@@ -1290,16 +1290,16 @@
 
 
 //「この先を抜けると高津戸地区です＠銃撃戦の覚悟は大丈夫ですか＠　安全装置外すの、土壇場でトチらないでくださいよ＠　んっふっふっふ！＠
-	PlaySE(4, "S05/11/100700463", 128, 64);
+	PlaySE(4, "s05/11/100700463", 128, 64);
 	OutputLine(NULL, "「この先を抜けると高津戸地区です。",
 		   NULL, "\"As soon as we're through here, we're in Takatsudo.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700464", 128, 64);
+	PlaySE(4, "s05/11/100700464", 128, 64);
 	OutputLine(NULL, "銃撃戦の覚悟は大丈夫ですか？",
 		   NULL, " Are you okay if we end up getting into a firefight?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700465", 128, 64);
+	PlaySE(4, "s05/11/100700465", 128, 64);
 	OutputLine(NULL, "　安全装置外すの、土壇場でトチらないでくださいよ？",
 		   NULL, " Don't be fumbling with the safety at the last moment, you hear?", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700466", 128, 64);
+	PlaySE(4, "s05/11/100700466", 128, 64);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1325,17 +1325,17 @@
 
 
 //「…………………………。＠
-	PlaySE(4, "S05/13/101300468", 128, 64);
+	PlaySE(4, "s05/13/101300468", 128, 64);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //「今から緊張したって仕方ないですよ＠むしろ、収穫がなくて勇み足って可能性だって充分にあるんですから。￥
-	PlaySE(4, "S05/11/100700467", 128, 64);
+	PlaySE(4, "s05/11/100700467", 128, 64);
 	OutputLine(NULL, "「今から緊張したって仕方ないですよ。",
 		   NULL, "\"Suppose it's normal if you're nervous from here on out.", Line_WaitForInput);
-	PlaySE(4, "S05/11/100700468", 128, 64);
+	PlaySE(4, "s05/11/100700468", 128, 64);
 	OutputLine(NULL, "むしろ、収穫がなくて勇み足って可能性だって充分にあるんですから。」",
 		   NULL, " But if you don't deal with it, there's a chance you might do something rash.\"", Line_Normal);
 	ClearMessage();
@@ -1363,7 +1363,7 @@
 //!s250
 	SetSpeedOfMessage( TRUE, 0, );
 
-	PlaySE(4, "S05/27/100500105", 128, 64);
+	PlaySE(4, "s05/27/100500105", 128, 64);
 	OutputLine(NULL, "『……警告したのに。",
 		   NULL, "\"...Even though I warned you.", Line_ContinueAfterTyping);
 

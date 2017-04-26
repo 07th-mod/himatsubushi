@@ -103,7 +103,7 @@
 
 
 //「でも、そんなことを不安に思って出産を嫌う母なんて、いないですものねぇ…。＠
-	PlaySE(4, "S20/00/yukie44021", 128, 64);
+	PlaySE(4, "s20/00/yukie44021", 128, 64);
 	OutputLine(NULL, "「でも、そんなことを不安に思って出産を嫌う母なんて、いないですものねぇ…。」",
 		   NULL, "\"There isn't a mother out there who would hate to give birth because of that worry, though...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -145,7 +145,7 @@
 	ClearMessage();
 
 //「あなたのお父さんはね、…とっても頑張り屋さんなのよ＠　こちょこちょこちょこちょ……☆＠
-	PlaySE(4, "S20/00/yukie44022", 128, 64);
+	PlaySE(4, "s20/00/yukie44022", 128, 64);
 	OutputLine(NULL, "「あなたのお父さんはね、…とっても頑張り屋さんなのよ？",
 		   NULL, "\"Your father, you see... is a very hard worker, you know?", Line_WaitForInput);
 	OutputLine(NULL, "　こちょこちょこちょこちょ……☆」",
