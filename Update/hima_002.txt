@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■二日目
@@ -750,7 +750,6 @@
 
 
 //　…でも、だからこそ＠
-	PlaySE(4, "S06/02/150200016", 128, 64);
 	OutputLine(NULL, "　…でも、だからこそ。",
 		   NULL, "...But, all the more...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
