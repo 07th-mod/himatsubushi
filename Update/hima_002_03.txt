@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■２日目夜
@@ -3553,7 +3553,7 @@
 		   NULL, "In the middle of a dignified Japanese-style room, still in a futon, only the upper half of her body sitting upright, a stern look on her face... that was Oryou Sonozaki...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 3, "chibimion_Shinken_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "me_si_ma_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 
@@ -4055,7 +4055,7 @@
 		   NULL, "After responding with a couple questions, with a nod from Oryou, Mion looked around the room and conveyed her grandmother's words...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 1, "chibimion_Shinken_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "me_si_ma_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 //「…機関紙の値上げも止むを得ません。＠
@@ -4180,7 +4180,7 @@
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_070", "right", 0, 0, 300 );
-	DrawBustshot( 1, "chibimion_Def_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "me_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 	DrawBustshot( 3, "ki_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
@@ -4213,7 +4213,7 @@
 		   NULL, "Kimiyoshi, while grumbling a little bit, made a gesture as if to say he had no objection.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 1, "chibimion_Shinken_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "me_si_ma_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 //「…マスコミ関係への出費は継続とします＠その出費がさらに圧迫となるようなら、機関紙の値上げも止むを得ない。￥
