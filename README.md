@@ -1,35 +1,19 @@
 # PS3 Voice and Graphics Patch
+#### For Higurashi No Naku Koro Ni - Chapter 4 Himatsubushi
 
-For Higurashi No Naku Koro Ni - Chapter 4 Himatsubushi
+> This repository **only** hosts the script files and a few voice files needed to fix bugs, check our [wiki](https://github.com/07th-mod/guide/wiki/Getting-started) for instructions on how to install the patch!
 
 This patch aims to combine the efforts of the PS3 voice patch and the PS3 sprites/background patch, and fill in missing voice files not covered by the original voice patch.
 
-1. Installation
-  1. [Prerequisites](https://github.com/07th-mod/himatsubushi#prerequisites)
-  2. [Releases](https://github.com/07th-mod/himatsubushi#releases)
-  3. [Installing the patch](https://github.com/07th-mod/himatsubushi#installing-the-patch)
-2. Development
-    * [Known issues](https://github.com/07th-mod/himatsubushi#known-issues)
-    * [Developing with us](https://github.com/07th-mod/himatsubushi#developing-with-us)
-3. [Credits](https://github.com/07th-mod/himatsubushi#credits)
+# Installing the patch
 
-
-# Prerequisites
-
-* Higurashi When They Cry Hou - Ch.4 himatsubushi ([Steam](http://store.steampowered.com/app/526490/) or [MangaGamer](http://www.mangagamer.com/detail.php?goods_type=1&product_code=189))
-* [HigurashiPS3-Voices01.zip (uses S20 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices01.zip) + [HigurashiPS3-Voices02.zip (uses S05 folder)](https://github.com/07th-mod/resources/releases/download/Nipah/HigurashiPS3-Voices02.zip)
-* [Graphics mod](https://gitlab.com/07th-mod/himatsubushi-graphics/repository/archive.zip?ref=master)
-* [Voice patch](https://github.com/07th-mod/himatsubushi/releases)
+> [Check our wiki](https://github.com/07th-mod/guide/wiki/Getting-started).
 
 # Releases
 
 https://github.com/07th-mod/himatsubushi/releases/
 
 This repository is in constant change. Sometimes new releases might get on hold until there is enough content to push a new patch. If the latest patch have a bug that seems to be already fixed in the repository, try downloading the master file. The master file will always have the latest files, regardless of the current release being outdated or not.
-
-# Installing the patch
-
-> The tutorial has been [moved to our wiki](https://github.com/07th-mod/guide/wiki/Getting-started).
 
 # Known issues
 
