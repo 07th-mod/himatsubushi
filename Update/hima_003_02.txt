@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -1138,7 +1138,7 @@
 
 	PlayBGM( 2, "lsys18", 128, 0 );
 	DisableWindow();
-	DrawBustshot( 2, "ri_se_fu_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawBustshot( 2, "ri_si_fu_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask( "bg_002", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
