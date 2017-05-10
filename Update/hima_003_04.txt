@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -1184,7 +1184,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_249", "left", 0, 0, 300 );
+	DrawSceneWithMask( "Night/bg_254a", "left", 0, 0, 300 );
 
 
 //　谷間にあるこの村は、日が傾くと暗くなるのが早い＠

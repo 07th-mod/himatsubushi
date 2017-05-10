@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -45,7 +45,7 @@
 
 
 	DisableWindow();
-	DrawScene( "bg_098", 400 );
+	DrawScene( "bg_099", 400 );
 
 //　バタバタバタタ…と、時間表がめくれて行く＠
 	OutputLine(NULL, "　バタバタバタタ…と、時間表がめくれて行く。",
@@ -359,7 +359,7 @@
 
 	DisableWindow();
 	DrawSceneWithMask( "white", "down", 0, 0, 300 );
-	DrawScene( "bg_138", 400 );
+	DrawScene( "bg_139", 400 );
 
 //「じゃあなー！＠　あばよー！＠
 	PlaySE(4, "s05/00/boya00002", 128, 64);

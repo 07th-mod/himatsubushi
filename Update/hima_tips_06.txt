@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //*Sub_Tips_069
@@ -169,7 +169,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_205", 400 );
+	DrawScene( "bg_203", 400 );
 
 //　今日から一週間、ずっと晴れであることは決まっている＠
 	OutputLine(NULL, "　今日から一週間、ずっと晴れであることは決まっている。",

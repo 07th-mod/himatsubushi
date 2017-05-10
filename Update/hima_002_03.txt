@@ -521,7 +521,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_135", 400 );
+	DrawScene( "bg_137", 400 );
 	DrawBustshot( 2, "Night/oi_si_de_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「赤坂さん、こっちこっち＠　ちょっと迷いましたか＠　北口からの方が、遠回りだけど道は分かりやすかったかもしれませんね。＠
@@ -1302,7 +1302,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 //　おぅおぅ、赤坂くんも悩んでますねぇ～＠
 	OutputLine(NULL, "　おぅおぅ、赤坂くんも悩んでますねぇ〜！",
@@ -1406,7 +1406,7 @@ void main()
 	Wait( 500 );
 	PlaySE( 3, "wa_015", 128, 64 );
 	DisableWindow();
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 //　その後も、赤坂くんはのらりくらりとうまく運良くかわし、何とか流局を迎えることができた＠
 	OutputLine(NULL, "　その後も、赤坂くんはのらりくらりとうまく運良くかわし、何とか流局を迎えることができた。",
@@ -1914,7 +1914,7 @@ void main()
 		   NULL, "\"...I hate to admit it, but that seems like the best option...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 
 //「出た！＠/
@@ -2017,7 +2017,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 1500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 //「……………私をカモって今晩はいいお酒を飲むおつもりだったんでしょうが＠どうやら皆さんのアテは外れそうです＠/
 	PlaySE(4, "s05/13/101300327", 128, 64);
@@ -2335,7 +2335,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 //「行くぞ坊主＠/
 	PlaySE(4, "s05/00/104800035", 128, 64);
@@ -2406,7 +2406,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_072", 400 );
+	DrawScene( "bg_071", 400 );
 
 //「…ほれ、坊主の番だぜ。＠
 	PlaySE(4, "s05/00/104400035", 128, 64);
@@ -2599,7 +2599,7 @@ void main()
 
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_072", "up", 0, 0, 300 );
+	DrawSceneWithMask( "bg_071", "up", 0, 0, 300 );
 //　自分のツモの時に……こっそりと赤坂さんの次のツモ牌を……￥
 	OutputLine(NULL, "　自分のツモの時に……こっそりと赤坂さんの次のツモ牌を……。",
 		   NULL, "When I drew my tile... I sneakily swapped Akasaka-san's---", Line_Normal);
@@ -3204,7 +3204,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_136", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_137", "left", 0, 0, 300 );
 
 //「じゃあ、坊主＠……いやぁ、雀士さまにもう坊主なんて言えないな＠赤坂くんでよかったっけ？＠
 	PlaySE(4, "s05/00/104400043", 128, 64);
@@ -3398,7 +3398,7 @@ void main()
 
 	DisableWindow();
 	DrawSceneWithMask( "black", "left", 0, 0, 300 );
-	DrawSceneWithMask( "bg_209", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_252", "left", 0, 0, 300 );
 
 //　やがてサトさんは、尾行してくる車両がないと判断すると、郊外へ向けて走り出した＠
 	OutputLine(NULL, "　やがてサトさんは、尾行してくる車両がないと判断すると、郊外へ向けて走り出した。",
@@ -3931,7 +3931,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_068", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_069", "left", 0, 0, 300 );
 
 //　…神主は曖昧な顔をして、即答を避けていた＠
 	OutputLine(NULL, "　…神主は曖昧な顔をして、即答を避けていた。",

@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 ////*Himatubusi_S60
@@ -398,7 +398,7 @@
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "bg_172", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_173", "left", 0, 0, 300 );
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );

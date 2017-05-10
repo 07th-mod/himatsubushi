@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -317,7 +317,7 @@
 
 //＜レナ
 	DisableWindow();
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 	DrawBustshotWithFiltering( 3, "me_se_th_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「しっかし……＠今回のシナリオはオマケ的なシナリオとは聞いてたけど…＠…実際どうよ＠　何だか、ずいぶん話がややこしくなったように思うんだけど。＠
@@ -463,7 +463,7 @@
 
 //＜レナ
 	DisableWindow();
-	DrawSceneWithMask( "bg_166", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "left", 0, 0, 300 );
 	DrawBustshot( 2, "me_se_wi_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「まぁ、人間派にとっては、最後の最後でとにかくこれはデカい情報だね＠/
@@ -793,7 +793,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "me_se_bi_b1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 
 
 
@@ -931,7 +931,7 @@
 //＜魅音
 	DisableWindow();
 	DrawBustshot( 3, "si_si_aw_b1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 
 
 //「くっくっく…＠解答編前の折り返しオマケシナリオとは言え、お姉だけに出番を許すほど、私も寛大じゃないってことです＠ま＠　そんなわけで、ちょっと沙都子を焚きつけさせてもらいました。￥
@@ -1018,7 +1018,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "si_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 
 
 //「そういうわけで＠/
@@ -1107,7 +1107,7 @@
 
 	DisableWindow();
 	DrawBustshot( 2, "si_si_to_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 400 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 400 );
 
 
 	PlayBGM( 1, "msys20", 128, 0 );
@@ -1268,7 +1268,7 @@
 
 	DisableWindow();
 	DrawBustshot( 2, "ir_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_166", 400 );
+	DrawScene( "bg_165", 400 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	ClearMessage();
@@ -1314,7 +1314,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "si_si_aw_b1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 
 //「ありゃ＠この後に収録予定の、!w1000!s0『生本番！！　沙都子メイド調教、着せ替え編』/
 	PlaySE(4, "s20/06/440600154", 128, 64);
@@ -1432,7 +1432,7 @@
 	DrawSceneWithMask( "black", "left", 0, 0, 200 );
 
 	DrawBustshot( 3, "ti_si_ik_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "left", 0, 0, 200 );
+	DrawSceneWithMask( "bg_165", "left", 0, 0, 200 );
 
 //「いた＠竜宮さん＠　さっき身動きしてはいけませんって言ったはずですよ！＠
 	PlaySE(4, "s20/22/441400042", 128, 64);
@@ -1561,7 +1561,7 @@
 //＜沙都子
 	DisableWindow();
 	DrawBustshot( 1, "si_si_aw_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
 
 
 //「……あっはっはっはっは！＠　レナさんは結構、笑わせるのがうまいですね＠なら試してみたらどうです＠　その逆転ってヤツを試しに見せて下さい。＠
@@ -1679,7 +1679,7 @@
 
 	DisableWindow();
 	DrawBustshot( 3, "si_si_fu_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_166", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_165", "left", 0, 0, 300 );
 
 //「なるほど＠で＠　その立ち絵のない圭ちゃんがどうやってここへ現れると＠　……まさか、圭ちゃんに立ち絵が実装されたわけでもあるまいに＠くっくっく…！！＠
 	PlaySE(4, "s20/06/440600170", 128, 64);
@@ -1751,7 +1751,7 @@
 
 	DisableWindow();
 	DrawBustshot( 2, "re_se_wa_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_166", 200 );
+	DrawScene( "bg_165", 200 );
 
 //「もう遅いよ！！！！￥
 	PlaySE(4, "s20/02/440200331", 128, 64);
@@ -2732,7 +2732,7 @@
 
 	DisableWindow();
 	DrawBustshot( 2, "re_se_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_166", 400 );
+	DrawScene( "bg_165", 400 );
 
 	PlayBGM( 1, "msys05", 128, 0 );
 

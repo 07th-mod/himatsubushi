@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -17,7 +17,7 @@
 
 	PlayBGM( 1, "msys13", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_068", 400 );
+	DrawScene( "bg_069", 400 );
 
 //　あの子が親類会議の時に、またお魎さんの布団に潜り込もうとする￥
 	OutputLine(NULL, "　あの子が親類会議の時に、またお魎さんの布団に潜り込もうとする。",
@@ -87,7 +87,7 @@
 	DisableWindow();
 	DrawScene( "black", 400 );
 	PlayBGM( 1, "msys11", 128, 0 );
-	DrawScene( "bg_215", 400 );
+	DrawScene( "bg_050a", 400 );
 
 //　ある日、私は驚いた＠
 	OutputLine(NULL, "　ある日、私は驚いた。",

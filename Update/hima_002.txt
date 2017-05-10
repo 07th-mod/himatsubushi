@@ -88,7 +88,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_181", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_182", "left", 0, 0, 300 );
 
 //　…この後者の一環として、雛見沢村は、著名な動植物学者や環境保護団体を招き、雛見沢の自然を宣伝していた＠
 	OutputLine(NULL, "　…この後者の一環として、雛見沢村は、著名な動植物学者や環境保護団体を招き、雛見沢の自然を宣伝していた。",
@@ -1943,7 +1943,7 @@ void main()
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
 	DrawSceneWithMask( "white", "mask1014", 0, 0, 1800 );
-	DrawSceneWithMask( "bg_140", "mask1014", 0, 0, 1800 );
+	DrawSceneWithMask( "bg_203", "mask1014", 0, 0, 1800 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
@@ -1975,7 +1975,7 @@ void main()
 	Wait( 3000 );
 	SetValidityOfInput( TRUE );
 	DrawScene( "black", 3000 );
-	DrawSceneWithMask( "bg_040", "right", 0, 0, 300 );
+	DrawSceneWithMask( "bg_039", "right", 0, 0, 300 );
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 //!sd
