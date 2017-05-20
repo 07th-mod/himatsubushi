@@ -907,14 +907,14 @@ void main()
 		   NULL, "\"...My name doesn't matter.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700006", 128, 64);
 	OutputLine(NULL, "マズ、アナタガドウイウ立場ニ置カレテイルカ、ソレヲ認識スルトコロカラ始メマショウ。",
-		   NULL, " First of all, let's begin by thinking about the situation you're in right now.", Line_WaitForInput);
+		   NULL, " First of all, let's begin by thinking about the situation you're in right now. ", Line_ModeSpecific);
 	PlaySE(4, "s05/14/104700007", 128, 64);
-	OutputLine(NULL, "…アナタハ今、自分ノ席デ電話ヲシテイマスネ？",
-		   NULL, " ...Right now, you're sitting in your chair talking on the phone, yes? ", Line_ModeSpecific);
-	PlaySE(4, "s05/14/104700008", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…アナタハ今、自分ノ席デ電話ヲシテイマスネ？",
+		   NULL, "...Right now, you're sitting in your chair talking on the phone, yes?", Line_WaitForInput);
+	PlaySE(4, "s05/14/104700008", 128, 64);
 	OutputLine(NULL, "　デハ、アナタノ席ノ右側ノ一番下ノ引キ出シヲ開ケテミテクダサイ。」",
-		   NULL, "Then, why don't you try opening the lower drawer to your right.\"", Line_Normal);
+		   NULL, " Then, why don't you try opening the lower drawer to your right.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2002,12 +2002,12 @@ void main()
 //　…その後のドミノ連鎖は割愛するが、最終的に内閣支持率低下＠解散総選挙＠共産勢力の拡大を許す結果となりかねない＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その後のドミノ連鎖は割愛するが、最終的に内閣支持率低下、",
-		   NULL, "...I'll spare you the explanation of how the rest of the dominoes would fall, but in the end, support in the Diet would decline,", Line_WaitForInput);
-	OutputLine(NULL, "解散総選挙、",
-		   NULL, " followed by a no-confidence vote and a snap election, ", Line_ModeSpecific);
+		   NULL, "...I'll spare you the explanation of how the rest of the dominoes would fall, but in the end, support in the Diet would decline,", Line_ModeSpecific);
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "解散総選挙、",
+		   NULL, "followed by a no-confidence vote and a snap election, ", Line_WaitForInput);
 	OutputLine(NULL, "共産勢力の拡大を許す結果となりかねない。",
-		   NULL, "and it might even expand communist influences.", Line_ModeSpecific);
+		   NULL, " and it might even expand communist influences.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
