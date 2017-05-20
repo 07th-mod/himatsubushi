@@ -6753,7 +6753,7 @@ void main()
 //　…それに気付くのには、……もう少しの時間が必要だった…￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに気付くのには、……もう少しの時間が必要だった…。",
-		   NULL, "...For me to realize that... would take a little more time..", Line_Normal);
+		   NULL, "...For me to realize that... would take a little more time...", Line_Normal);
 	ClearMessage();
 
 //■幕間
