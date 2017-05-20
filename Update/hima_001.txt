@@ -3238,9 +3238,10 @@ void main()
 //　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち＠自分たちの村を守るためなら、どんな暴力的手段も問わない＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち。",
-		   NULL, "However, for some reason they exerted a strong influence on the surrounding areas, and had a strong sense of unity.", Line_WaitForInput);
+		   NULL, "However, for some reason they exerted a strong influence on the surrounding areas, and had a strong sense of unity. ", Line_ModeSpecific);
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分たちの村を守るためなら、どんな暴力的手段も問わない。",
-		   NULL, " They would protect their village by any means necessary, even if that meant resorting to violence.", Line_ModeSpecific);
+		   NULL, "They would protect their village by any means necessary, even if that meant resorting to violence.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4159,14 +4160,14 @@ void main()
 		   NULL, " You're just the type we're looking for.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700019", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！",
-		   NULL, " Nfu fu fu!", Line_WaitForInput);
+		   NULL, " Nfu fu fu! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700020", 128, 64);
-	OutputLine(NULL, "　……で、ちなみに園崎禎夫は青年部長なんです。",
-		   NULL, " ...By the way, Sadao Sonozaki is head of the Youth Department. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700021", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……で、ちなみに園崎禎夫は青年部長なんです。",
+		   NULL, "...By the way, Sadao Sonozaki is head of the Youth Department.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700021", 128, 64);
 	OutputLine(NULL, "惜しいですね、広報部長は園崎忠敬。んっふっふっふ！」",
-		   NULL, "So close! The Head of Public Relations is actually Tadataka Sonozaki. Euheh heh heh!\"", Line_Normal);
+		   NULL, " So close! The Head of Public Relations is actually Tadataka Sonozaki. Euheh heh heh!\"", Line_Normal);
 	ClearMessage();
 
 //　褒められている気がせず、少し不愉快な気分になった＠
