@@ -2185,7 +2185,7 @@ void main()
 //　死守なんて古風な言い方が示す通り、相当の決意と覚悟を持った連中です＠そこら辺の温和な住民団体とは一線を画すと思って頂いた方がいいですね。＠
 	PlaySE(4, "s05/00/104300004", 128, 64);
 	OutputLine(NULL, "　死守なんて古風な言い方が示す通り、相当の決意と覚悟を持った連中です。",
-		   NULL, "Like the old saying \"fight to the last\", they're a determined and well-prepared lot.", Line_WaitForInput);
+		   NULL, "Like the old saying 'fight to the last', they're a determined and well-prepared lot.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300005", 128, 64);
 	OutputLine(NULL, "そこら辺の温和な住民団体とは一線を画すと思って頂いた方がいいですね。」",
 		   NULL, " It'd be nice if they drew the line at just being a moderate residential organization.\"", Line_WaitForInput);
