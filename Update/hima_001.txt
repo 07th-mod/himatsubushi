@@ -6088,11 +6088,10 @@ void main()
 		   NULL, " On top of that, thanks to you, I can pay back what I owe from my mahjong debts.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700163", 128, 64);
 	OutputLine(NULL, "私は少なくとも金の絡んだ約束は絶対に違えませんよ？",
-		   NULL, " In any case, I won't break a promise that involves money. ", Line_ModeSpecific);
+		   NULL, " In any case, I won't break a promise that involves money.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700164", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　んっふっふっふ…！」",
-		   NULL, "Nfu fu fu!\"", Line_Normal);
+		   NULL, " Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
 
 
