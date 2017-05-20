@@ -4922,14 +4922,14 @@ void main()
 		   NULL, " Still, if you get worked up over that, it'll never end.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700058", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！",
-		   NULL, " Nfu fu fu!", Line_WaitForInput);
+		   NULL, " Nfu fu fu! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700059", 128, 64);
-	OutputLine(NULL, "　連中の主張じゃですね、村内に不法投棄をするトラックが出没するって言うんです。",
-		   NULL, " Those guys, see, claim there's an infestation of trucks illegally dumping in the village. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700060", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　連中の主張じゃですね、村内に不法投棄をするトラックが出没するって言うんです。",
+		   NULL, "Those guys, see, claim there's an infestation of trucks illegally dumping in the village.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700060", 128, 64);
 	OutputLine(NULL, "それを封じ込めるために不審車両を検問してるって話だそうで。」",
-		   NULL, "Their story goes that in order to stop that, they're halting suspicious vehicles for inspection.\"", Line_Normal);
+		   NULL, " Their story goes that in order to stop that, they're halting suspicious vehicles for inspection.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
