@@ -6033,7 +6033,7 @@ void main()
 		   NULL, " What kind of information are you looking for?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700155", 128, 64);
 	OutputLine(NULL, "　内容によって多少、アプローチが変わることもありますので…。」",
-		   NULL, " Depending on what you what, how we approach this will probably change...\"", Line_Normal);
+		   NULL, " Depending on what you want, how we approach this will probably change...\"", Line_Normal);
 	ClearMessage();
 
 
