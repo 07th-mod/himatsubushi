@@ -256,14 +256,14 @@ void main()
 		   NULL, " 'It's been several days since the Minister's grandson has been kidnapped. Poor boy.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700488", 128, 64);
 	OutputLine(NULL, "そろそろ解放されるといいなぁ、と。",
-		   NULL, " It'd be nice if they let him go soon.' ", Line_ModeSpecific);
+		   NULL, " It'd be nice if they let him go soon.'", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700489", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうお魎の婆さんが、縁側でぼそりと呟いたってな話らしいんです。",
-		   NULL, "It seems that Old Oryou muttered something like that while on her veranda.", Line_WaitForInput);
+		   NULL, " It seems that Old Oryou muttered something like that while on her veranda. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700490", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "で、そのぼそりが園崎家の裏の裏のあちこちに伝えられてるようです。」",
-		   NULL, " And, that little musing was conveyed to the various people working deep behind the scenes at the Sonozaki family.\"", Line_Normal);
+		   NULL, "And, that little musing was conveyed to the various people working deep behind the scenes at the Sonozaki family.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -470,14 +470,14 @@ void main()
 		   NULL, "\"...When you tried crossing the road when the Don't Walk sign was up,", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500114", 128, 64);
 	OutputLine(NULL, "どうして危ないのかを全部説明し終えるまで、あなたの手を引っ張らないの？",
-		   NULL, " did your parents finish explaining why it was dangerous before pulling you back to the sidewalk? ", Line_ModeSpecific);
+		   NULL, " did your parents finish explaining why it was dangerous before pulling you back to the sidewalk?", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500115", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　引っ張るでしょう？",
-		   NULL, "They'd pull you back right away, wouldn't they?", Line_WaitForInput);
+		   NULL, " They'd pull you back right away, wouldn't they? ", Line_ModeSpecific);
 	PlaySE(4, "s05/27/100500116", 128, 64);
+	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まず歩道まで連れ戻してから、なぜ危険なのかを説くでしょう？",
-		   NULL, " They'd pull you back before explaining why it was dangerous, wouldn't they?", Line_WaitForInput);
+		   NULL, "They'd pull you back before explaining why it was dangerous, wouldn't they?", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500117", 128, 64);
 	OutputLine(NULL, "　………つまりはそういうこと。」",
 		   NULL, " ...In other words, it's something like that.\"", Line_Normal);
@@ -696,14 +696,14 @@ void main()
 		   NULL, "\"The grandson of the Minister who trifled with the village, as a result of Oyashiro-sama's anger, was... hmm... what did they call it again?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300496", 128, 64);
 	OutputLine(NULL, "そう、『鬼隠し』。",
-		   NULL, " Oh, right. 'Onikakushi'. ", Line_ModeSpecific);
+		   NULL, " Oh, right. 'Onikakushi'.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300497", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大臣の孫を鬼隠しにしたと。",
-		   NULL, "The Minister's grandson was demoned away.", Line_WaitForInput);
+		   NULL, " The Minister's grandson was demoned away. ", Line_ModeSpecific);
 	PlaySE(4, "s05/13/101300498", 128, 64);
+	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そういう筋書きになるわけでしょうか。」",
-		   NULL, " ...That would probably be how the script is being written.\"", Line_ModeSpecific);
+		   NULL, "...That would probably be how the script is being written.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1112,11 +1112,10 @@ void main()
 	PlaySE(4, "s05/11/100700548", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「山間の段々畑で農作業中に誰かが倒れたってのでない限りね。",
-		   NULL, "\"As long as somebody working in the fields between these mountains didn't collapse. ", Line_ModeSpecific);
+		   NULL, "\"As long as somebody working in the fields between these mountains didn't collapse.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700549", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人が倒れて医者が呼ばれたら、普通は連れ帰ってくわしく調べるもんです。」",
-		   NULL, "But if somebody collapses and you call a doctor, normally you'd bring them back with you for a more detailed examination.\"", Line_ModeSpecific);
+		   NULL, " But if somebody collapses and you call a doctor, normally you'd bring them back with you for a more detailed examination.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

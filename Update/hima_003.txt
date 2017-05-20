@@ -394,14 +394,9 @@ void main()
 
 
 //　私はこの財布にそんな重要性を感じなかったので、手袋をするほどの意味があるのか疑問だったが、大石氏の好意を無駄にすべきでないと思い、手袋を着用することにする￥
-	if (AdvMode) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　私はこの財布にそんな重要性を感じなかったので、手袋をするほどの意味があるのか疑問だったが、大石氏の好意を無駄にすべきでないと思い、手袋を着用することにする。",
-			   NULL, "<size=-2>I didn't feel that this wallet was such an important thing, so I had my doubts about whether there was any point in putting on gloves. However, I didn't want Ooishi's intentions to go to waste, so I put them on.</size>", Line_Normal);
-	} else {
-		OutputLine(NULL, "　私はこの財布にそんな重要性を感じなかったので、手袋をするほどの意味があるのか疑問だったが、大石氏の好意を無駄にすべきでないと思い、手袋を着用することにする。",
-			   NULL, "I didn't feel that this wallet was such an important thing, so I had my doubts about whether there was any point in putting on gloves. However, I didn't want Ooishi's intentions to go to waste, so I put them on.", Line_Normal);
-	}
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私はこの財布にそんな重要性を感じなかったので、手袋をするほどの意味があるのか疑問だったが、大石氏の好意を無駄にすべきでないと思い、手袋を着用することにする。",
+		   NULL, "I didn't feel that this wallet was such an important thing, so I had my doubts about whether there was any point in putting on gloves. However, I didn't want Ooishi's intentions to go to waste, so I put them on.", Line_Normal);
 	ClearMessage();
 
 
@@ -889,24 +884,23 @@ void main()
 		   NULL, " I have a misplaced wallet here, and am trying to get in contact with the owner.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300428", 128, 64);
 	OutputLine(NULL, "ご協力をいただいてもよろしいでしょうか？",
-		   NULL, " Would you be able to help me? ", Line_ModeSpecific);
+		   NULL, " Would you be able to help me?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300429", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お財布の中に、そちらさまの診察カードが入っておりまして。",
-		   NULL, "Inside the wallet, there was an examination card from your office.", Line_WaitForInput);
+		   NULL, " Inside the wallet, there was an examination card from your office. ", Line_ModeSpecific);
 	PlaySE(4, "s05/13/101300430", 128, 64);
+	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……えぇ。",
-		   NULL, " ...Yes.", Line_WaitForInput);
+		   NULL, "...Yes.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300431", 128, 64);
 	OutputLine(NULL, "氏名は犬飼寿樹くんです。",
 		   NULL, " The name is Toshiki Inugai.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300432", 128, 64);
 	OutputLine(NULL, "カードの番号を申し上げますので、電話番号をお調べいただいてもよろしいでしょうか。",
-		   NULL, " If I give you the number on the card, would you be able to look up the phone number? ", Line_ModeSpecific);
+		   NULL, " If I give you the number on the card, would you be able to look up the phone number?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300433", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……えぇ、ありがとうございます。",
-		   NULL, "...Yes, thank you.", Line_WaitForInput);
+		   NULL, " ...Yes, thank you.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300434", 128, 64);
 	OutputLine(NULL, "お願いできますか。」",
 		   NULL, " If you could.\"", Line_Normal);
@@ -2265,11 +2259,10 @@ void main()
 		   NULL, " Is it your stomach?", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1025", 128, 64);
 	OutputLine(NULL, "　痛むのか？",
-		   NULL, " Does it hurt? ", Line_ModeSpecific);
+		   NULL, " Does it hurt?", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1026", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おいおい、痛むんならあんまり押さえ込んじゃかえって悪いぞ…。」",
-		   NULL, "Hey hey, if it hurts you should shouldn't clutch at so tightly, it'll only make it worse...\"", Line_ModeSpecific);
+		   NULL, " Hey hey, if it hurts you should shouldn't clutch at so tightly, it'll only make it worse...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

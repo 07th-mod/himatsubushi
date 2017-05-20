@@ -1229,13 +1229,13 @@ void main()
 		   NULL, "\"Oh, that place where the girls dress up in gym clothes and maid uniforms?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700265", 128, 64);
 	OutputLine(NULL, "　おやっさんも好きだなぁ〜！！",
-		   NULL, " This ol' lech here likes that place too~!! ", Line_ModeSpecific);
+		   NULL, " This ol' lech here likes that place too~!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700266", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はもちろん花びら大回転なお店をハシゴしまくりですよ？",
-		   NULL, "Of course, we're going to hop between all the places where they keep the girls coming!", Line_WaitForInput);
+		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming! ", Line_ModeSpecific);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　べろべろべろ〜〜！！！",
-		   NULL, " Slurp slurp slurp~~!!!", Line_WaitForInput);
+		   NULL, "Slurp slurp slurp~~!!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700268", 128, 64);
 	OutputLine(NULL, "　むっはっはっはっは！！",
 		   NULL, " Mua ha ha ha !!", Line_WaitForInput);
@@ -1461,10 +1461,9 @@ void main()
 //　安全牌はあるけど、切ると聴牌が遠のくから切りたくない、ってのが見え見え＠う～～ん、初々しい子はいいなぁ＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　安全牌はあるけど、切ると聴牌が遠のくから切りたくない、ってのが見え見え。",
-		   NULL, "It was glaringly obvious that he had a safe tile to discard, but he didn't want to throw it away because it would move him farther from completing his hand. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "It was glaringly obvious that he had a safe tile to discard, but he didn't want to throw it away because it would move him farther from completing his hand.", Line_WaitForInput);
 	OutputLine(NULL, "う〜〜ん、初々しい子はいいなぁ☆",
-		   NULL, "Mmmm, they're so nice when they're young and innocent☆.", Line_ModeSpecific);
+		   NULL, " Mmmm, they're so nice when they're young and innocent☆.", Line_ModeSpecific);
 
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1641,10 +1640,9 @@ void main()
 	OutputLine(NULL, "　…普通の初心者だったら、聴牌してなくても手牌を公開して、ここは良かった悪かった、あとこの牌が来れば聴牌だった…と騒ぐのだが。",
 		   NULL, "...Your average beginner would normally show their hand even if they weren't in tenpai, and start a commotion about how if this tile or that tile came they would be in tenpai.", Line_WaitForInput);
 	OutputLine(NULL, "彼はそれをしない。",
-		   NULL, " But he didn't. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, " But he didn't.", Line_WaitForInput);
 	OutputLine(NULL, "…渋い？",
-		   NULL, "...Being stingy?", Line_Normal);
+		   NULL, " ...Being stingy?", Line_Normal);
 	ClearMessage();
 
 
@@ -1741,11 +1739,10 @@ void main()
 	PlaySE(4, "s05/13/101300296", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……相当高度な引っ掛けでなければ、私の放銃を期待したヌルめの手かと思って。",
-		   NULL, "\"...If it wasn't such a high-level trap, I would have thought that you were waiting for me to throw out the winning tile. ", Line_ModeSpecific);
+		   NULL, "\"...If it wasn't such a high-level trap, I would have thought that you were waiting for me to throw out the winning tile.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300297", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それよりも、ダマで張ったあなたの方がとりあえずは問題でした。」",
-		   NULL, "But, the more concerning thing is that you were in tenpai and didn't say anything.\"", Line_Normal);
+		   NULL, " But, the more concerning thing is that you were in tenpai and didn't say anything.\"", Line_Normal);
 	ClearMessage();
 
 //「いつ、聴牌したのに気付いた？＠
@@ -1763,11 +1760,10 @@ void main()
 		   NULL, "\"....Around here?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300299", 128, 64);
 	OutputLine(NULL, "　ノンタイムで４連続で切ってますよね。",
-		   NULL, " You threw out 4 tiles in a row immediately. ", Line_ModeSpecific);
+		   NULL, " You threw out 4 tiles in a row immediately.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300300", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "初めは食い替えかと思いましたが、私をちらちら見ていたので、期待しているんだと気付きました。」",
-		   NULL, "At first I thought you were just discarding redundant tiles, but I noticed you glancing over at me, and realized you were waiting for something.\"", Line_ModeSpecific);
+		   NULL, " At first I thought you were just discarding redundant tiles, but I noticed you glancing over at me, and realized you were waiting for something.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2202,11 +2198,10 @@ void main()
 		   NULL, " ...It's so interesting.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300325", 128, 64);
 	OutputLine(NULL, "あんたら連中は決まって、小僧だ坊主だって言うよ。",
-		   NULL, " The way you guys call people things like 'brat' and 'boy'. ", Line_ModeSpecific);
+		   NULL, " The way you guys call people things like 'brat' and 'boy'.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300326", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "くっくっく…！」",
-		   NULL, "Heh heh heh...!\"", Line_ModeSpecific);
+		   NULL, " Heh heh heh...!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3423,11 +3418,10 @@ void main()
 		   NULL, " There's times that just make my blood boil.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800071", 128, 64);
 	OutputLine(NULL, "　特に、園崎のあの小娘は我慢がならん！",
-		   NULL, " I especially can't stand dealing with that bratty daughter of Sonozaki's! ", Line_ModeSpecific);
+		   NULL, " I especially can't stand dealing with that bratty daughter of Sonozaki's!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800072", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あいつの顔面、いつか簡単にゃ治らんくらいに歪ませたろって思ってる。」",
-		   NULL, "I think one of these days I'm going to rearrange her face.\"", Line_Normal);
+		   NULL, " I think one of these days I'm going to rearrange her face.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4085,14 +4079,9 @@ void main()
 
 
 //　……村の全てを決める会議の席が、園崎家にこれだけ許されていることを見れば、…御三家の力関係は火を見るより明らかにわかる…＠
-	if (AdvMode) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　……村の全てを決める会議の席が、園崎家にこれだけ許されていることを見れば、…御三家の力関係は火を見るより明らかにわかる…。",
-			   NULL, "<size=-2>The fact that the Sonozaki family held so many seats at a meeting where everything pertaining to the village was decided made determining where the balance of power was held in the Three Families as clear as day.</size>", Line_ModeSpecific);
-	} else {
-		OutputLine(NULL, "　……村の全てを決める会議の席が、園崎家にこれだけ許されていることを見れば、…御三家の力関係は火を見るより明らかにわかる…。",
-			   NULL, "The fact that the Sonozaki family held so many seats at a meeting where everything pertaining to the village was decided made determining where the balance of power was held in the Three Families as clear as day.", Line_ModeSpecific);
-	}
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……村の全てを決める会議の席が、園崎家にこれだけ許されていることを見れば、…御三家の力関係は火を見るより明らかにわかる…。",
+		   NULL, "The fact that the Sonozaki family held so many seats at a meeting where everything pertaining to the village was decided made determining where the balance of power was held in the Three Families as clear as day.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4385,11 +4374,10 @@ void main()
 		   NULL, "\"That's right...", Line_WaitForInput);
 	PlaySE(4, "s05/00/vt2_rikam1002", 128, 64);
 	OutputLine(NULL, "機関紙代は、特に貧しい家には大きな負担になってます。",
-		   NULL, " The cost of the bulletins are a particularly harsh burden for the poorer families. ", Line_ModeSpecific);
+		   NULL, " The cost of the bulletins are a particularly harsh burden for the poorer families.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vt2_rikam1003", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "みんな自分たちの村のためだからと堪えてますが、これ以上の値上げはやめた方がいいでしょうね。」",
-		   NULL, "Everybody is dealing with it for the sake of the village, but it's best we don't increase the prices any more.\"", Line_Normal);
+		   NULL, " Everybody is dealing with it for the sake of the village, but it's best we don't increase the prices any more.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4722,11 +4710,10 @@ void main()
 		   NULL, "\"In the name of Mion Sonozaki, as acting head of the Sonozaki family.", Line_WaitForInput);
 	PlaySE(4, "s05/26/100300009", 128, 64);
 	OutputLine(NULL, "我が名において以上を決定し、決定の効力は即日発効されるものとします。",
-		   NULL, " I hereby declare that all this shall be effective immediately. ", Line_ModeSpecific);
+		   NULL, " I hereby declare that all this shall be effective immediately.", Line_WaitForInput);
 	PlaySE(4, "s05/26/100300010", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……異議はこれを認めず、抵抗ある場合は実力を以て排除します。」",
-		   NULL, "...There shall be no objections, and any opposition shall be removed by force.\"", Line_ModeSpecific);
+		   NULL, " ...There shall be no objections, and any opposition shall be removed by force.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4894,10 +4881,9 @@ void main()
 //　…もちろん、日の当たる世界の話ではないので、誰もが知っているわけではないが…＠その代紋のバッヂを見せるだけで、この界隈では揉め事に決着が着いてしまうことすらある…＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もちろん、日の当たる世界の話ではないので、誰もが知っているわけではないが…、",
-		   NULL, "...Of course, this was talking about the criminal underworld, so it's not like just anybody would know... ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "...Of course, this was talking about the criminal underworld, so it's not like just anybody would know...", Line_WaitForInput);
 	OutputLine(NULL, "その代紋のバッヂを見せるだけで、この界隈では揉め事に決着が着いてしまうことすらある…。",
-		   NULL, "But just showing a patch with the gang symbol on it was enough to resolve any disputes in the neighborhood...", Line_ModeSpecific);
+		   NULL, " But just showing a patch with the gang symbol on it was enough to resolve any disputes in the neighborhood...", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5195,11 +5181,10 @@ void main()
 		   NULL, " ...keh keh keh keh!", Line_WaitForInput);
 	PlaySE(4, "s05/17/102300010", 128, 64);
 	OutputLine(NULL, "　少しは堪えるいいんじゃがのぉ。",
-		   NULL, " He'll have to bear with that for a bit. ", Line_ModeSpecific);
+		   NULL, " He'll have to bear with that for a bit.", Line_WaitForInput);
 	PlaySE(4, "s05/17/102300011", 128, 64);
-	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "………なぁ？」",
-		   NULL, "...Don't you think?\"", Line_ModeSpecific);
+		   NULL, " ...Don't you think?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

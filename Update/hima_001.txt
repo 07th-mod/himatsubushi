@@ -688,10 +688,9 @@ void main()
 //　……そう思い、受話器を置こうとした時＠……彼はこの電話が確かに繋がっていて、受話器の向こうには、声を潜めた何者かが確かに存在する気配を感じ取る…￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう思い、受話器を置こうとした時。",
-		   NULL, "...Thinking that, the moment he began to hang up the phone... ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "...Thinking that, the moment he began to hang up the phone...", Line_WaitForInput);
 	OutputLine(NULL, "……彼はこの電話が確かに繋がっていて、受話器の向こうには、声を潜めた何者かが確かに存在する気配を感じ取る…。",
-		   NULL, "...He sensed that he was definitely connected after all. He felt the presence of the person on the other end of the line, keeping silent...", Line_Normal);
+		   NULL, " ...He sensed that he was definitely connected after all. He felt the presence of the person on the other end of the line, keeping silent...", Line_Normal);
 	ClearMessage();
 
 //「………………………もしもし…？＠
@@ -1943,11 +1942,10 @@ void main()
 	PlaySE(4, "s05/00/104200009", 128, 64);
 	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「犯人グループの目的が、要求にあるのか、事件そのものにあるのかは不明ですが、",
-		   NULL, "\"The goals of the perpetrators, their demands, as well as this entire incident are as of yet unclear, ", Line_ModeSpecific);
+		   NULL, "\"The goals of the perpetrators, their demands, as well as this entire incident are as of yet unclear,", Line_WaitForInput);
 	PlaySE(4, "s05/00/104200010", 128, 64);
-	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いずれにせよ、国益を脅かす事態に発展する可能性が極めて高い。」",
-		   NULL, "but in any case, the possibility that this may grow to threaten national interest is extremely high.\"", Line_ModeSpecific);
+		   NULL, " but in any case, the possibility that this may grow to threaten national interest is extremely high.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2100,11 +2098,10 @@ void main()
 	PlaySE(4, "s05/00/vv_kano_10003", 128, 64);
 	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂くんは大臣に陳情してきた環境保護団体関連を調査してくれ。",
-		   NULL, "\"You investigate the environmental groups that have petitioned the minister. ", Line_ModeSpecific);
+		   NULL, "\"You investigate the environmental groups that have petitioned the minister.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10004", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "中でも、新聞でも騒ぎになってる雛見沢ダム建設反対の団体をよく調査すること。",
-		   NULL, "Among them, there's that group protesting the Hinamizawa Dam Project that made the papers. Make sure you investigate them thoroughly. ", Line_ModeSpecific);
+		   NULL, " Among them, there's that group protesting the Hinamizawa Dam Project that made the papers. Make sure you investigate them thoroughly. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10005", 128, 64);
 	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "住民団体の仕業とは到底思えないが、全ての可能性を潰していかなくてはならない。」",
@@ -2471,11 +2468,10 @@ void main()
 	PlaySE(4, "s05/00/104300002", 128, 64);
 	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「早い話がダム反対の住民運動なんですが。",
-		   NULL, "\"The short of it is they're a group of residents opposed to the dam. ", Line_ModeSpecific);
+		   NULL, "\"The short of it is they're a group of residents opposed to the dam.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300003", 128, 64);
-	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "事実上、水没地域の住民全てが決起したと言っていいでしょうね。",
-		   NULL, "Really, it's probably better to say that every resident living on the land that's going to be submerged is rising to action, though.", Line_ModeSpecific);
+		   NULL, " Really, it's probably better to say that every resident living on the land that's going to be submerged is rising to action, though.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2629,11 +2625,10 @@ void main()
 	PlaySE(4, "s05/00/104300011", 128, 64);
 	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「建設現場への襲撃事件がもっとも多かったですね。",
-		   NULL, "\"It seems that raids on the construction site are the most common. ", Line_ModeSpecific);
+		   NULL, "\"It seems that raids on the construction site are the most common.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300012", 128, 64);
-	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "初期の頃、電源コードの切断や錠前の鍵穴に石を詰める、投石による事務所の窓ガラス割り等の軽犯罪が頻発していました。」",
-		   NULL, "At first, they were committing relatively petty crimes like cutting power cords, jamming locks, and breaking office windows by throwing rocks.\"", Line_ModeSpecific);
+		   NULL, " At first, they were committing relatively petty crimes like cutting power cords, jamming locks, and breaking office windows by throwing rocks.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2767,11 +2762,10 @@ void main()
 		   NULL, "\"The arson was a bit much.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300022", 128, 64);
 	OutputLine(NULL, "それで地元警察が２４時間体制の人員を大幅に増員しまして。",
-		   NULL, " After that, the local police drastically increased the number of personnel they had stationed there around the clock. ", Line_ModeSpecific);
+		   NULL, " After that, the local police drastically increased the number of personnel they had stationed there around the clock.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300023", 128, 64);
-	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それで建設現場への襲撃は一段落したようです。」",
-		   NULL, "The raids on the construction site quieted down a bit after that.\"", Line_ModeSpecific);
+		   NULL, " The raids on the construction site quieted down a bit after that.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3244,10 +3238,9 @@ void main()
 //　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち＠自分たちの村を守るためなら、どんな暴力的手段も問わない＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、どういうわけか周辺地域に強い影響力を有し、強い連帯感を持ち。",
-		   NULL, "However, for some reason they exerted a strong influence on the surrounding areas, and had a strong sense of unity. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "However, for some reason they exerted a strong influence on the surrounding areas, and had a strong sense of unity.", Line_WaitForInput);
 	OutputLine(NULL, "自分たちの村を守るためなら、どんな暴力的手段も問わない。",
-		   NULL, "They would protect their village by any means necessary, even if that meant resorting to violence.", Line_ModeSpecific);
+		   NULL, " They would protect their village by any means necessary, even if that meant resorting to violence.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3333,11 +3326,10 @@ void main()
 	PlaySE(4, "s05/00/104300069", 128, 64);
 	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ありえるでしょう。",
-		   NULL, "\"It's possible. ", Line_ModeSpecific);
+		   NULL, "\"It's possible.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300070", 128, 64);
-	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "事実、彼らは市役所や県庁、建設省の工事事務所にも押しかけ、恫喝紛いのことをしていますし、",
-		   NULL, "Truth be told, they've already gone to municipal and prefectural offices, as well as local offices of the Ministry of Construction and done things that could be construed as intimidation. ", Line_ModeSpecific);
+		   NULL, " Truth be told, they've already gone to municipal and prefectural offices, as well as local offices of the Ministry of Construction and done things that could be construed as intimidation. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104300071", 128, 64);
 	if (AdvMode) { OutputLine("室長", NULL, "Chief", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "工事関係者の家族が不審者に付け回されたという事件も起こっています。」",
@@ -3392,14 +3384,9 @@ void main()
 
 
 //　誘拐そのものの難易度に加え、大臣を交渉開始と同時に屈伏させる手腕など、到底素人とは思えない＠
-	if (AdvMode) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　誘拐そのものの難易度に加え、大臣を交渉開始と同時に屈伏させる手腕など、到底素人とは思えない。",
-			   NULL, "<size=-2>Not only was pulling off the kidnapping difficult in the first place, but so was maneuvering to have the minister surrender to their demands immediately. There was no way this was the work of amateurs.</size>", Line_ModeSpecific);
-	} else {
-		OutputLine(NULL, "　誘拐そのものの難易度に加え、大臣を交渉開始と同時に屈伏させる手腕など、到底素人とは思えない。",
-			   NULL, "Not only was pulling off the kidnapping difficult in the first place, but so was maneuvering to have the minister surrender to their demands immediately. There was no way this was the work of amateurs.", Line_ModeSpecific);
-	}
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　誘拐そのものの難易度に加え、大臣を交渉開始と同時に屈伏させる手腕など、到底素人とは思えない。",
+		   NULL, "Not only was pulling off the kidnapping difficult in the first place, but so was maneuvering to have the minister surrender to their demands immediately. There was no way this was the work of amateurs.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4172,14 +4159,14 @@ void main()
 		   NULL, " You're just the type we're looking for.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700019", 128, 64);
 	OutputLine(NULL, "んっふっふっふ！",
-		   NULL, " Nfu fu fu! ", Line_ModeSpecific);
+		   NULL, " Nfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700020", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……で、ちなみに園崎禎夫は青年部長なんです。",
-		   NULL, "...By the way, Sadao Sonozaki is head of the Youth Department.", Line_WaitForInput);
+		   NULL, " ...By the way, Sadao Sonozaki is head of the Youth Department. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700021", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "惜しいですね、広報部長は園崎忠敬。んっふっふっふ！」",
-		   NULL, " So close! The Head of Public Relations is actually Tadataka Sonozaki. Euheh heh heh!\"", Line_Normal);
+		   NULL, "So close! The Head of Public Relations is actually Tadataka Sonozaki. Euheh heh heh!\"", Line_Normal);
 	ClearMessage();
 
 //　褒められている気がせず、少し不愉快な気分になった＠
@@ -4233,11 +4220,10 @@ void main()
 		   NULL, "\"In the end, the Onigafuchi Defense Alliance is nothing more than an alias Hinamizawa is using to deal with the outside world.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700026", 128, 64);
 	OutputLine(NULL, "……村を知ることが、あなたのお仕事の近道だと思いますよ。",
-		   NULL, " ...I think getting to know the village would speed up your work. ", Line_ModeSpecific);
+		   NULL, " ...I think getting to know the village would speed up your work.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700027", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…いかがです？」",
-		   NULL, "...How about it?\"", Line_Normal);
+		   NULL, " ...How about it?\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4963,11 +4949,10 @@ void main()
 	PlaySE(4, "s05/11/100700061", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「警察が何の手も打たないから、自分たちで自衛するっていう論法でしてね。",
-		   NULL, "\"Their line of argument is that if the police aren't going to do anything about it, they'll take matters into their own hands. ", Line_ModeSpecific);
+		   NULL, "\"Their line of argument is that if the police aren't going to do anything about it, they'll take matters into their own hands.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700062", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……まぁ、産廃なんて話はどうせ自演だからどうでもいいんですがね。」",
-		   NULL, "...Well, the industrial waste is just something they're doing by themselves anyways.\"", Line_ModeSpecific);
+		   NULL, " ...Well, the industrial waste is just something they're doing by themselves anyways.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4993,11 +4978,10 @@ void main()
 		   NULL, "...Then, blaming it on corrupt contractors, they start instituting these inspections.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700066", 128, 64);
 	OutputLine(NULL, "それで、工事車両をいちいち足止めして、チクチクと妨害してる、ってわけなんです。",
-		   NULL, " There, they stop every construction vehicle coming through and interfere with them as much as possible. ", Line_ModeSpecific);
+		   NULL, " There, they stop every construction vehicle coming through and interfere with them as much as possible.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700067", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "んっふっふっふ！」",
-		   NULL, "Nfu fu fu!\"", Line_ModeSpecific);
+		   NULL, " Nfu fu fu!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5041,18 +5025,17 @@ void main()
 	PlaySE(4, "s05/11/100700072", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「この車が工事関係車両だと知れるとですね。",
-		   NULL, "\"See, rumor is that if they figure a car is related to the construction in some way, ", Line_ModeSpecific);
+		   NULL, "\"See, rumor is that if they figure a car is related to the construction in some way,", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700073", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さんざん検問で足止めを食らうばかりか、投石や鉄釘のばら撒きなんかも食らうって噂です。",
-		   NULL, "not only would there be checkpoints stopping it at every turn, but they'd be throwing rocks and planting road spikes as well.", Line_WaitForInput);
+		   NULL, " not only would there be checkpoints stopping it at every turn, but they'd be throwing rocks and planting road spikes as well. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700074", 128, 64);
-	OutputLine(NULL, "…あなたも、身元が割れないようにせいぜい気をつけた方がいいですよ？",
-		   NULL, " ...It's best you be careful so you're not identified. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700075", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…あなたも、身元が割れないようにせいぜい気をつけた方がいいですよ？",
+		   NULL, "...It's best you be careful so you're not identified.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700075", 128, 64);
 	OutputLine(NULL, "　公安なんてバレたら、どんな目に遭うやら…。",
-		   NULL, "If they find out you're from Public Safety, who knows what you'll suffer through...", Line_WaitForInput);
+		   NULL, " If they find out you're from Public Safety, who knows what you'll suffer through...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700076", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu!\"", Line_ModeSpecific);
@@ -5943,10 +5926,9 @@ void main()
 //　善意で協力を申し出られるより、対価も提示される方が取引はわかりやすい＠……そういう日の当たらない取引のうまい男だと直感した￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　善意で協力を申し出られるより、対価も提示される方が取引はわかりやすい。",
-		   NULL, "Rather than him doing this out of the kindness of his heart, everything was a lot clearer if he was being compensated for this deal. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Rather than him doing this out of the kindness of his heart, everything was a lot clearer if he was being compensated for this deal.", Line_WaitForInput);
 	OutputLine(NULL, "……そういう日の当たらない取引のうまい男だと直感した。",
-		   NULL, "...I felt that he was the type of man who was good at these backroom dealings.", Line_Normal);
+		   NULL, " ...I felt that he was the type of man who was good at these backroom dealings.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -6102,14 +6084,14 @@ void main()
 		   NULL, " Nothing here gets said anywhere else.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700162", 128, 64);
 	OutputLine(NULL, "それに、あなたのお陰で雀荘のツケを全部返せるんですからねぇ。",
-		   NULL, " On top of that, thanks to you, I can pay back what I owe from my mahjong debts. ", Line_ModeSpecific);
+		   NULL, " On top of that, thanks to you, I can pay back what I owe from my mahjong debts.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700163", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は少なくとも金の絡んだ約束は絶対に違えませんよ？",
-		   NULL, "In any case, I won't break a promise that involves money.", Line_WaitForInput);
+		   NULL, " In any case, I won't break a promise that involves money. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700164", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　んっふっふっふ…！」",
-		   NULL, " Nfu fu fu!\"", Line_Normal);
+		   NULL, "Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -6446,11 +6428,10 @@ void main()
 	PlaySE(4, "s05/11/100700185", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…鬼ヶ淵村ってのはですね、人食い鬼の住む村だと言われてたんだそうです。",
-		   NULL, "\"...You see, the village of Onigafuchi was said to be inhabited by demons that devoured humans. ", Line_ModeSpecific);
+		   NULL, "\"...You see, the village of Onigafuchi was said to be inhabited by demons that devoured humans.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700186", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今でも村人は、自分の体に鬼の血が半分流れてると信じてます。」",
-		   NULL, "Even now, it's believed that the blood of these demons partially courses through the veins of the villagers.\"", Line_Normal);
+		   NULL, " Even now, it's believed that the blood of these demons partially courses through the veins of the villagers.\"", Line_Normal);
 	ClearMessage();
 
 //「ひ、……人食い鬼…？＠　大石さん、…それ、…何の話ですか？＠
@@ -6552,11 +6533,10 @@ void main()
 		   NULL, "\"...Look, you know how there's the common phrase 'spirited away'?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700196", 128, 64);
 	OutputLine(NULL, "人が、ある日突然、失踪してしまうとそう言うでしょう。",
-		   NULL, " When people suddenly go missing one day, they call it that. ", Line_ModeSpecific);
+		   NULL, " When people suddenly go missing one day, they call it that.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700197", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……この辺りでは同じことがあると『鬼隠し』って呼ぶんです。」",
-		   NULL, "...When the same thing happens around here, they call it being 'demoned away'.\"", Line_ModeSpecific);
+		   NULL, " ...When the same thing happens around here, they call it being 'demoned away'.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -400,11 +400,10 @@ void main()
 		   NULL, "\"Isn't everybody in this village our enemy?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300454", 128, 64);
 	OutputLine(NULL, "　全員が口裏を合わせれば、この村で白昼堂々殺人が起こっても証拠一つ残らない。",
-		   NULL, " If everybody gets their stories straight, they could murder someone in broad daylight and there wouldn't be a shred of evidence. ", Line_ModeSpecific);
+		   NULL, " If everybody gets their stories straight, they could murder someone in broad daylight and there wouldn't be a shred of evidence.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300455", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そういうところだと聞いていますよ。」",
-		   NULL, "I'm asking about something like that.\"", Line_Normal);
+		   NULL, " I'm asking about something like that.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1011,10 +1010,9 @@ void main()
 //　座り込みの人たちをクラクションで追っ払おうにも＠彼ら自身も耳栓により外界の音を聞いていないので、なかなかどいてくれず、車は牛が歩くような速度でしか進めない￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　座り込みの人たちをクラクションで追っ払おうにも、",
-		   NULL, "Even if you tried to shoo the squatters with the car horn, ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Even if you tried to shoo the squatters with the car horn,", Line_WaitForInput);
 	OutputLine(NULL, "彼ら自身も耳栓により外界の音を聞いていないので、なかなかどいてくれず、車は牛が歩くような速度でしか進めない。",
-		   NULL, "they were also wearing earplugs, oblivious to noises from the outside world, and wouldn't easily move. The car could only inch forward at a snail's pace.", Line_Normal);
+		   NULL, " they were also wearing earplugs, oblivious to noises from the outside world, and wouldn't easily move. The car could only inch forward at a snail's pace.", Line_Normal);
 	ClearMessage();
 
 

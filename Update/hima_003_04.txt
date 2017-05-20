@@ -93,11 +93,10 @@ void main()
 		   NULL, "\"Don't try to get up. Just stay lying down, please.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000026", 128, 64);
 	OutputLine(NULL, "頭をだいぶ殴られたようですからね…。",
-		   NULL, " It seems that you took quite a few blows to the head... ", Line_ModeSpecific);
+		   NULL, " It seems that you took quite a few blows to the head...", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000027", 128, 64);
-	if (AdvMode) { OutputLine("若い医者", NULL, "Young Doctor", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２４時間は特に安静にして容態を見守りたいところです。」",
-		   NULL, "I want you to stay rested so we can monitor your condition for at least the next 24 hours.\"", Line_ModeSpecific);
+		   NULL, " I want you to stay rested so we can monitor your condition for at least the next 24 hours.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -464,14 +463,14 @@ void main()
 	PlaySE(4, "s05/11/100700618", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうすれば黒幕の園崎本家に少しは迫れるんですが。",
-		   NULL, "If that happened we would be able to have something to go at the Sonozaki family with, since they were behind it all. ", Line_ModeSpecific);
+		   NULL, "If that happened we would be able to have something to go at the Sonozaki family with, since they were behind it all.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700619", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まぁ、適当に迫ったところで圧力がかかるんでしょうがね。",
-		   NULL, "Well, if we just start poking around we'll get all sorts of pressure put on us, though.", Line_WaitForInput);
+		   NULL, " Well, if we just start poking around we'll get all sorts of pressure put on us, though. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700620", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…やれやれです。」",
-		   NULL, " ...What a mess.\"", Line_Normal);
+		   NULL, "...What a mess.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -708,11 +707,10 @@ void main()
 		   NULL, " I can introduce you to a few nice places.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700646", 128, 64);
 	OutputLine(NULL, "もちろん、オゴレなんて言いません。",
-		   NULL, " Of course, I won't make you pay for everything. ", Line_ModeSpecific);
+		   NULL, " Of course, I won't make you pay for everything.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700647", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なっはっはっは！」",
-		   NULL, "Na ha ha ha!\"", Line_ModeSpecific);
+		   NULL, " Na ha ha ha!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1740,10 +1738,9 @@ void main()
 //　今日だって、全身傷だらけで疲れていて、そして時間もほとんどない＠……たまにかけない日の内のひとつでもおかしくないはずだ＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日だって、全身傷だらけで疲れていて、そして時間もほとんどない。",
-		   NULL, "Even today, my entire body was covered with injuries, and I was dead tired. On top of that, there wasn't much time left. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Even today, my entire body was covered with injuries, and I was dead tired. On top of that, there wasn't much time left.", Line_WaitForInput);
 	OutputLine(NULL, "……たまにかけない日の内のひとつでもおかしくないはずだ。",
-		   NULL, "...It wouldn't be strange at all if today was one of those days I didn't call her.", Line_ModeSpecific);
+		   NULL, " ...It wouldn't be strange at all if today was one of those days I didn't call her.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

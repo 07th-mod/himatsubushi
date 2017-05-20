@@ -113,10 +113,9 @@ void main()
 	PlaySE(4, "s20/17/442300032", 128, 64);
 	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でもな、池澤さんはワシがお茶を勧めると、いっつも上がってくれて、ちゃあんと話を聞いてくれたん。",
-		   NULL, "But whenever I offered Ikezawa-san a cup of tea, he'd come inside and carefully listen to what I had to say. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "But whenever I offered Ikezawa-san a cup of tea, he'd come inside and carefully listen to what I had to say.", Line_WaitForInput);
 	OutputLine(NULL, "…人の話を最後まで聞く、本当に鑑みたいな人だったんね。」",
-		   NULL, "...He always lent a proper ear to what people had to say. Others should learn from a person like him.\"", Line_Normal);
+		   NULL, " ...He always lent a proper ear to what people had to say. Others should learn from a person like him.\"", Line_Normal);
 	ClearMessage();
 
 

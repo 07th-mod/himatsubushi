@@ -155,11 +155,10 @@ void main()
 		   NULL, "\"I'm not really an activist or anything.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300203", 128, 64);
 	OutputLine(NULL, "…普通に学び、普通に卒業しました。",
-		   NULL, " I studied without incident, and graduated without incident. ", Line_ModeSpecific);
+		   NULL, " I studied without incident, and graduated without incident.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300204", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "国の政策に、あのような暴力や立て篭もりで対抗しようというのには、私は同意できません。」",
-		   NULL, "I don't really agree with the violence or occupations they used to protest the government's policies.\"", Line_ModeSpecific);
+		   NULL, " I don't really agree with the violence or occupations they used to protest the government's policies.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -178,14 +177,14 @@ void main()
 	PlaySE(4, "s05/13/101300205", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……政策に意見したかったら、同じ意見の政治家に投票するか、自ら政治の世界に飛び込み、正当な手続きをもって意見を主張するべきであると思っています。",
-		   NULL, "\"...If you have an opinion on a policy, vote for the candidate who shares your view, or enter the political world yourself and assert your beliefs in a lawful manner. ", Line_ModeSpecific);
+		   NULL, "\"...If you have an opinion on a policy, vote for the candidate who shares your view, or enter the political world yourself and assert your beliefs in a lawful manner.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300206", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが民主政治の原点です。",
-		   NULL, "That is the foundation of democracy.", Line_WaitForInput);
+		   NULL, " That is the foundation of democracy. ", Line_ModeSpecific);
 	PlaySE(4, "s05/13/101300207", 128, 64);
+	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それに暴力で挑戦するなど、あってはならないと思います。」",
-		   NULL, " I don't think that's something you should challenge with violence.\"", Line_ModeSpecific);
+		   NULL, "I don't think that's something you should challenge with violence.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -223,10 +222,9 @@ void main()
 //　梨花ちゃんが、自分にだけ分からない話をされたと思い、不愉快そうな顔をした＠……その表情もチャーミングで、…口元が弛んでしまいそうになる＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花ちゃんが、自分にだけ分からない話をされたと思い、不愉快そうな顔をした。",
-		   NULL, "Rika-chan, feeling like she was the only one who didn't understand the conversation, had a look of displeasure on her face. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Rika-chan, feeling like she was the only one who didn't understand the conversation, had a look of displeasure on her face.", Line_WaitForInput);
 	OutputLine(NULL, "……その表情もチャーミングで、…口元が弛んでしまいそうになる。",
-		   NULL, "That expression was so charming, I had to keep myself from grinning like an idiot.", Line_ModeSpecific);
+		   NULL, " That expression was so charming, I had to keep myself from grinning like an idiot.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -247,11 +245,10 @@ void main()
 		   NULL, " ...It was a little bit hard for Rika-chan to understand, wasn't it?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300210", 128, 64);
 	OutputLine(NULL, "………日本は平和の国だから、自分の言いたいことは平和的に訴えなきゃいけない。",
-		   NULL, " ...Japan is a peaceful country, so you have to argue your point in a peaceful manner. ", Line_ModeSpecific);
+		   NULL, " ...Japan is a peaceful country, so you have to argue your point in a peaceful manner.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300211", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "暴力で訴えてはいけない、ということさ。」",
-		   NULL, "You shouldn't resort to violence, in other words.\"", Line_ModeSpecific);
+		   NULL, " You shouldn't resort to violence, in other words.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1638,14 +1635,14 @@ void main()
 	PlaySE(4, "s05/27/100500066", 128, 64);
 	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あなたの親は、あなたが赤信号の横断歩道の真ん中にいる時、どうして危ないのかを全部説明し終えるまで、あなたの手を引っ張らないの？",
-		   NULL, "\"...When you tried crossing the road when the Don't Walk sign was up, did your parents finish explaining why it was dangerous before pulling you back to the sidewalk? ", Line_ModeSpecific);
+		   NULL, "\"...When you tried crossing the road when the Don't Walk sign was up, did your parents finish explaining why it was dangerous before pulling you back to the sidewalk?", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500067", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　引っ張るでしょう？",
-		   NULL, "They'd pull you back right away, wouldn't they?", Line_WaitForInput);
+		   NULL, " They'd pull you back right away, wouldn't they? ", Line_ModeSpecific);
 	PlaySE(4, "s05/27/100500068", 128, 64);
+	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まず歩道まで連れ戻してから、なぜ危険なのかを説くでしょう？",
-		   NULL, " They'd pull you back before explaining why it was dangerous, wouldn't they?", Line_WaitForInput);
+		   NULL, "They'd pull you back before explaining why it was dangerous, wouldn't they?", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500069", 128, 64);
 	OutputLine(NULL, "　………つまりはそういうこと。」",
 		   NULL, " ...In other words, it's something like that.\"", Line_Normal);
@@ -2525,10 +2522,9 @@ void main()
 //　鬼ヶ淵死守同盟の懐にうまく入り込み、…村長を始め、鬼ヶ淵村の要人たちに好意的に歓迎してもらえた＠……………大戦果のはずだ＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟の懐にうまく入り込み、…村長を始め、鬼ヶ淵村の要人たちに好意的に歓迎してもらえた。",
-		   NULL, "I had successfully dove into the belly of the Onigafuchi Defense Alliance, and had the mayor as well as other important members of the Alliance welcome me with open arms. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "I had successfully dove into the belly of the Onigafuchi Defense Alliance, and had the mayor as well as other important members of the Alliance welcome me with open arms.", Line_WaitForInput);
 	OutputLine(NULL, "……………大戦果のはずだ。",
-		   NULL, "...This was a great turn of events.", Line_ModeSpecific);
+		   NULL, " ...This was a great turn of events.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

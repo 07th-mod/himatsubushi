@@ -464,11 +464,10 @@ void main()
 	OutputLine(NULL, "「だから一度回り始めたら、簡単には止められんね。",
 		   NULL, "\"That's why, when it gets going, it's not that easy to stop.", Line_WaitForInput);
 	OutputLine(NULL, "……回し始める一番初めが一番重い。",
-		   NULL, " ...It takes the most effort to move it right before it starts turning. ", Line_ModeSpecific);
+		   NULL, " ...It takes the most effort to move it right before it starts turning.", Line_WaitForInput);
 	PlaySE(4, "s20/17/442300020", 128, 64);
-	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが嫌だから、みんな手を休めんと、ごりごり回し続けるんね。」",
-		   NULL, "Everybody hates that, so everybody keeps pushing it along without rest.\"", Line_ModeSpecific);
+		   NULL, " Everybody hates that, so everybody keeps pushing it along without rest.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

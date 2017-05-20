@@ -200,10 +200,9 @@ void main()
 //　主人は幼い子の感性は大人と違うから、少しくらい理解できなくても気にしなくていいと楽観的だ＠……危機感に欠けていることを嘆く￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　主人は幼い子の感性は大人と違うから、少しくらい理解できなくても気にしなくていいと楽観的だ。",
-		   NULL, "My husband, always the optimist, once said that a young child's feelings are different from an adult's, so if there were some things we didn't understand, we shouldn't worry about it. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "My husband, always the optimist, once said that a young child's feelings are different from an adult's, so if there were some things we didn't understand, we shouldn't worry about it.", Line_WaitForInput);
 	OutputLine(NULL, "……危機感に欠けていることを嘆く。",
-		   NULL, "I lament his lack of urgency.", Line_Normal);
+		   NULL, " I lament his lack of urgency.", Line_Normal);
 	ClearMessage();
 
 //　私の機嫌が良かったある日＠

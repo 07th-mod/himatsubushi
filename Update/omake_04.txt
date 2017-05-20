@@ -68,11 +68,10 @@ void main()
 	OutputLine(NULL, "「いやいやぁ、何だかんだと言いましても、今回のシナリオは私の独壇場でしたからねぇ。",
 		   NULL, "\"My oh my, no matter what anybody else says, I was the star of the scenario this time.", Line_WaitForInput);
 	OutputLine(NULL, "しかも渋いジャズ調なテーマ曲まで追加！",
-		   NULL, " On top of that they added some nice jazzy theme music! ", Line_ModeSpecific);
+		   NULL, " On top of that they added some nice jazzy theme music!", Line_WaitForInput);
 	PlaySE(4, "s20/11/440700425", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これで笑えなきゃどこで笑えってんですかね、なっはっはっはっは！！」",
-		   NULL, "If you can't laugh here, where can you laugh? Na ha ha ha ha!!\"", Line_Normal);
+		   NULL, " If you can't laugh here, where can you laugh? Na ha ha ha ha!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -464,11 +463,10 @@ void main()
 		   NULL, " For someone who thinks it was the work of man, that kind of unfounded fantasy will not stand!", Line_WaitForInput);
 	PlaySE(4, "s20/03/440300411", 128, 64);
 	OutputLine(NULL, "　事件は全て人間の仕業！",
-		   NULL, " All the incidents were caused by people! ", Line_ModeSpecific);
+		   NULL, " All the incidents were caused by people!", Line_WaitForInput);
 	PlaySE(4, "s20/03/440300412", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祟りも魔法もＢＯＴもチートも一切なし！」",
-		   NULL, "There's no curse or magic or aimbots or cheatcodes!\"", Line_ModeSpecific);
+		   NULL, " There's no curse or magic or aimbots or cheatcodes!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1991,18 +1989,18 @@ void main()
 		   NULL, " You act like you're the main character in a tragedy, but from my point of view, it's more like a comedy!!!", Line_WaitForInput);
 	PlaySE(4, "s20/01/440100242", 128, 64);
 	OutputLine(NULL, "　少しいい気になり過ぎたみたいだなぁああぁ！！",
-		   NULL, " It seems like you've gotten a little carried awaaaay!! ", Line_ModeSpecific);
+		   NULL, " It seems like you've gotten a little carried awaaaay!!", Line_WaitForInput);
 
 	PlaySE( 3, "wa_029", 128, 64 );
 
 //　お疲れ様会の度に＠　立ち絵がなく、慰労の一杯にすらありつけなかった俺の!w800/
 	PlaySE(4, "s20/01/440100243", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お疲れ様会の度に！",
-		   NULL, "Every. Afterparty.", Line_WaitForInput);
+		   NULL, " Every. Afterparty. ", Line_ModeSpecific);
 	PlaySE(4, "s20/01/440100244", 128, 64);
+	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　立ち絵がなく、慰労の一杯にすらありつけなかった俺の",
-		   NULL, " Without any character art, without any sort of appreciation. Witness my", Line_ContinueAfterTyping);
+		   NULL, "Without any character art, without any sort of appreciation. Witness my", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -2062,14 +2060,14 @@ void main()
 	PlaySE(4, "s20/01/440100246", 128, 64);
 	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「化身じゃない、魔王と言ってもらいたいぜ！！",
-		   NULL, "\"This isn't some sort of transformation. I'll have you know I've always been a Demon Lord!! ", Line_ModeSpecific);
+		   NULL, "\"This isn't some sort of transformation. I'll have you know I've always been a Demon Lord!!", Line_WaitForInput);
 	PlaySE(4, "s20/01/440100247", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして今、真の闇に包まれたこの世界はまさに俺の手の平に等しい！！",
-		   NULL, "And as of right now, this world which is enveloped within true darkness shall dance upon the palm of my hand!!", Line_WaitForInput);
+		   NULL, " And as of right now, this world which is enveloped within true darkness shall dance upon the palm of my hand!! ", Line_ModeSpecific);
 	PlaySE(4, "s20/01/440100248", 128, 64);
+	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この闇の世界では俺に逆らうことは何人にもかなわぬのだー！！！！」",
-		   NULL, " Within this world of darkness, there are none who can oppose me!!!!\"", Line_Normal);
+		   NULL, "Within this world of darkness, there are none who can oppose me!!!!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2934,12 +2932,12 @@ void main()
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません。",
-		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true.", Line_WaitForInput);
 	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
-		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.", Line_WaitForInput);
+		   NULL, " ...That's why, as you know, there are a lot of mysteries referenced during the course of the experience. ", Line_ModeSpecific);
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。」",
-		   NULL, " When you challenge those... this work will become a proper game.\"", Line_Normal);
+		   NULL, "When you challenge those... this work will become a proper game.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

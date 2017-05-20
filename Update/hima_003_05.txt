@@ -1815,14 +1815,9 @@ void main()
 
 
 //　形骸化したとは言え、村の祭りに集まるくらいだから、ここで騒いでいる２０人前後の老人たちの中には幹部、村の重鎮も含まれるはずだ￥
-	if (AdvMode) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　形骸化したとは言え、村の祭りに集まるくらいだから、ここで騒いでいる２０人前後の老人たちの中には幹部、村の重鎮も含まれるはずだ。",
-			   NULL, "<size=-2>Even if it was a shell of its former self, it was a festival where people in the village gathered, so the twenty-some-odd folk here should have included some of the village executives and other important members.</size>", Line_Normal);
-	} else {
-		OutputLine(NULL, "　形骸化したとは言え、村の祭りに集まるくらいだから、ここで騒いでいる２０人前後の老人たちの中には幹部、村の重鎮も含まれるはずだ。",
-			   NULL, "Even if it was a shell of its former self, it was a festival where people in the village gathered, so the twenty-some-odd folk here should have included some of the village executives and other important members.", Line_Normal);
-	}
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　形骸化したとは言え、村の祭りに集まるくらいだから、ここで騒いでいる２０人前後の老人たちの中には幹部、村の重鎮も含まれるはずだ。",
+		   NULL, "Even if it was a shell of its former self, it was a festival where people in the village gathered, so the twenty-some-odd folk here should have included some of the village executives and other important members.", Line_Normal);
 	ClearMessage();
 
 

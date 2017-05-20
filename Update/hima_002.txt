@@ -191,11 +191,10 @@ void main()
 		   NULL, "\"...Something like that.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300145", 128, 64);
 	OutputLine(NULL, "美しい自然を写真に残すのが趣味なんで。",
-		   NULL, " It's my hobby to take pictures that display how beautiful nature can be. ", Line_ModeSpecific);
+		   NULL, " It's my hobby to take pictures that display how beautiful nature can be.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300146", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雑誌で、とても貴重な自然が残っていると読んだので、楽しみにしていたのですが…。」",
-		   NULL, "I read in a magazine that there were some precious nature reserves here, so I was looking forward to it...\"", Line_ModeSpecific);
+		   NULL, " I read in a magazine that there were some precious nature reserves here, so I was looking forward to it...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1747,11 +1746,10 @@ void main()
 		   NULL, "\"Well... yeah.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300170", 128, 64);
 	OutputLine(NULL, "この村の自然がとても貴重だと聞いたんで、…ぜひ、カメラに納めたいと思ったんだよ。",
-		   NULL, " I heard that this village is surrounded by a precious nature reserve, so I very much wanted to record that with my camera. ", Line_ModeSpecific);
+		   NULL, " I heard that this village is surrounded by a precious nature reserve, so I very much wanted to record that with my camera.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300171", 128, 64);
-	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…私はこう見えてもとっても写真撮影が好きでね…。」",
-		   NULL, "...Even though I look like this, I really like to take pictures...\"", Line_ModeSpecific);
+		   NULL, " ...Even though I look like this, I really like to take pictures...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2276,10 +2274,9 @@ void main()
 //　…ダムの騒動さえなければ、…雪絵を今度連れてきてやりたい＠この新鮮な空気を吸わせてやりたいし、…この、目を洗ってくれるような眩しい緑の景色を見せてやりたかった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ダムの騒動さえなければ、…雪絵を今度連れてきてやりたい。",
-		   NULL, "...If there wasn't that whole uproar over the dam, I would want to bring Yukie with me here some other time. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "...If there wasn't that whole uproar over the dam, I would want to bring Yukie with me here some other time.", Line_WaitForInput);
 	OutputLine(NULL, "この新鮮な空気を吸わせてやりたいし、…この、目を洗ってくれるような眩しい緑の景色を見せてやりたかった。",
-		   NULL, "I wanted her to breathe in this fresh air, as well as show her this rejuvenating verdant scenery.", Line_Normal);
+		   NULL, " I wanted her to breathe in this fresh air, as well as show her this rejuvenating verdant scenery.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2431,11 +2428,10 @@ void main()
 		   NULL, "\"If you had this planned so far in advance,", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100057", 128, 64);
 	OutputLine(NULL, "　申し込み、間に合わんとかぃね？",
-		   NULL, " then how come you didn't make the sign-up deadline for the Nature Watching? ", Line_ModeSpecific);
+		   NULL, " then how come you didn't make the sign-up deadline for the Nature Watching?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100058", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんだったら、こんな窮屈な思いさせんと、綺麗な観光バスで回れたのに。」",
-		   NULL, "If you did, you could have toured around on a nice bus instead of being cramped up in here.\"", Line_Normal);
+		   NULL, " If you did, you could have toured around on a nice bus instead of being cramped up in here.\"", Line_Normal);
 	ClearMessage();
 
 

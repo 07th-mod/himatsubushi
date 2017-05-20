@@ -65,10 +65,9 @@ void main()
 //　だから彼は、車が止まってエンジンが切られて不愉快な振動がなくなった時＠事態は何も解決していないにも関わらず、自分は解放されたのだ…と錯覚せずにはいられなかった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから彼は、車が止まってエンジンが切られて不愉快な振動がなくなった時、",
-		   NULL, "That's why, when the car stopped and the unpleasant vibration ceased as the engine was killed, ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "That's why, when the car stopped and the unpleasant vibration ceased as the engine was killed,", Line_WaitForInput);
 	OutputLine(NULL, "事態は何も解決していないにも関わらず、自分は解放されたのだ…と錯覚せずにはいられなかった。",
-		   NULL, "he couldn't help but delude himself that he was being set free, even though nothing had been resolved in reality.", Line_Normal);
+		   NULL, " he couldn't help but delude himself that he was being set free, even though nothing had been resolved in reality.", Line_Normal);
 	ClearMessage();
 
 
