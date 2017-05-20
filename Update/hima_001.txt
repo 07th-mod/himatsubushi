@@ -5391,14 +5391,14 @@ void main()
 		   NULL, "\"The current head of the Sonozaki family is an old lady named Oryou.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700110", 128, 64);
 	OutputLine(NULL, "……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです。",
-		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki'.", Line_WaitForInput);
+		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki'. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700111", 128, 64);
-	OutputLine(NULL, "気をつけて下さいよ、大物です。",
-		   NULL, " Be careful, she's no small fry. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700112", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "気をつけて下さいよ、大物です。",
+		   NULL, "Be careful, she's no small fry.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700112", 128, 64);
 	OutputLine(NULL, "市長だって最敬礼でお迎えするようなＶＩＰですからね。",
-		   NULL, "She's enough of a VIP that even the mayor of the city has to bow before her. ", Line_ModeSpecific);
+		   NULL, " She's enough of a VIP that even the mayor of the city has to bow before her. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700113", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……まぁ雛見沢と周辺の町に住む村の親族の数千の票田を固めてるわけですから、政治家は頭、上がらないんでしょうが。",
