@@ -1,5 +1,13 @@
-﻿void main()
+void main()
 {
+	int AdvMode;
+	AdvMode = 1;
+	int Line_ModeSpecific;
+	if (AdvMode) {
+		Line_ModeSpecific = Line_Normal;
+	} else {
+		Line_ModeSpecific = Line_WaitForInput;
+	}
 
 //*Sub_Tips_068
 //gosub *tip_s
@@ -18,30 +26,35 @@
 	DrawScene( "Sunset/bg_206", 400 );
 
 //　車の音が近付き、緩いブレーキと音と共にエンジン音を止める￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　車の音が近付き、緩いブレーキと音と共にエンジン音を止める。",
 		   NULL, "The sound of the car grew closer, followed by the sound of it braking as the engine cut out.", Line_Normal);
 	ClearMessage();
 
 
 //　その途端、それまでだらしなさそうに足を投げ出していた男は、ガバッと起き上がって窓の脇の壁に張り付き、用心深く表の様子を伺った…￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その途端、それまでだらしなさそうに足を投げ出していた男は、ガバッと起き上がって窓の脇の壁に張り付き、用心深く表の様子を伺った…。",
 		   NULL, "At that moment, his up-until-now lackadaisical footsteps grew decisive as the man in the room dashed up to the wall beside the window and carefully peered outside...", Line_Normal);
 	ClearMessage();
 
 
 //　……………仲間の車だ＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……………仲間の車だ。",
-		   NULL, "...It was his comrade's car.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, "...It was his comrade's car.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だが、警戒はまだ解かない＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、警戒はまだ解かない。",
-		   NULL, "Even so, he still didn't relax his guard.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "Even so, he still didn't relax his guard.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　やがて、足音は扉に近付き＠…ドン、!w1000ドドドン、!w1000と決められた合図のノックをした￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがて、足音は扉に近付き、",
 		   NULL, "Eventually, the sound of footsteps approached the door.", Line_WaitForInput);
 	OutputLine(NULL, "…ドン、",
@@ -65,15 +78,17 @@
 
 //「……帰ってきたんね＠開けちょくれな、俺だ。＠
 	PlaySE(4, "s20/14/443400010", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……帰ってきたんね。",
 		   NULL, "\"...I'm back.", Line_WaitForInput);
 	OutputLine(NULL, "開けちょくれな、俺だ。」",
-		   NULL, " Open tha door already.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " Open tha door already.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「あぁ、お疲れ＠今、開ける。￥
 	PlaySE(4, "s20/00/yamab44001", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぁ、お疲れ。",
 		   NULL, "\"Ahh, you must be tired.", Line_WaitForInput);
 	OutputLine(NULL, "今、開ける。」",
@@ -83,12 +98,14 @@
 	PlaySE( 3, "wa_020", 128, 64 );
 
 //　鍵を外し、扉を開けると、大きく膨らんだスーパーのビニール袋を両手いっぱいに持った男が姿を現す＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鍵を外し、扉を開けると、大きく膨らんだスーパーのビニール袋を両手いっぱいに持った男が姿を現す。",
-		   NULL, "After the locks were undone and the door opened, a man appeared, his arms laden with swollen plastic grocery bags.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "After the locks were undone and the door opened, a man appeared, his arms laden with swollen plastic grocery bags.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　両手のビニール袋には「セブンスマート」と書かれていて、菓子パンや牛乳パックなどが顔をのぞかせていた￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両手のビニール袋には「セブンスマート」と書かれていて、菓子パンや牛乳パックなどが顔をのぞかせていた。",
 		   NULL, "The bags in his hands had \"Sevens Mart\" written on them, with bread and milk cartons able to be glimpsed within.", Line_Normal);
 	ClearMessage();
@@ -99,6 +116,7 @@
 	PlaySE( 3, "wa_003", 128, 64 );
 
 //　それらの袋の中身を、床に敷かれた毛布の上に広げた￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらの袋の中身を、床に敷かれた毛布の上に広げた。",
 		   NULL, "The contents of those bags were then spread out over a sheet on the floor.", Line_Normal);
 	ClearMessage();
@@ -106,15 +124,17 @@
 
 //「カップラーメン買ってきちょん、お湯沸かせな＠…小僧はどうしてるん。＠
 	PlaySE(4, "s20/14/443400011", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「カップラーメン買ってきちょん、お湯沸かせな。",
 		   NULL, "\"I bough' some cup noodles, so go boil some water.", Line_WaitForInput);
 	OutputLine(NULL, "…小僧はどうしてるん。」",
-		   NULL, " ...Whas' the kid doin'?\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " ...Whas' the kid doin'?\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「ん＠　ずっと寝てる＠手が掛からなくて助かるよ＠ウンコ垂れる時は騒ぐけどな。＠
 	PlaySE(4, "s20/00/yamab44002", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん？",
 		   NULL, "\"Hm?", Line_WaitForInput);
 	OutputLine(NULL, "　ずっと寝てる。",
@@ -124,58 +144,64 @@
 		   NULL, " Thank god he's not causing any trouble.", Line_WaitForInput);
 	PlaySE(4, "s20/00/yamab44004", 128, 64);
 	OutputLine(NULL, "ウンコ垂れる時は騒ぐけどな。」",
-		   NULL, " He did struggle a bit when he was about to shit himself.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " He did struggle a bit when he was about to shit himself.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「漏らさせんなぁ＠便臭は万一の時、ヤぁバいって。＠
 	PlaySE(4, "s20/14/443400012", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「漏らさせんなぁ。",
 		   NULL, "\"Don' let 'im crap 'is pants.", Line_WaitForInput);
 	OutputLine(NULL, "便臭は万一の時、ヤぁバいって。」",
-		   NULL, " It'd suck if it started smellin' like an outhouse in 'ere.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " It'd suck if it started smellin' like an outhouse in 'ere.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「……わかってるよ。￥
 	PlaySE(4, "s20/00/yamab44005", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……わかってるよ。」",
 		   NULL, "\"...Yeah, I know.\"", Line_Normal);
 	ClearMessage();
 
 //「猿ぐつわは定期的にチェックんな＠外れてもまずいん、きつくも締め付けちゃあぁん＠窒息させたら意味がなん。＠
 	PlaySE(4, "s20/14/443400013", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「猿ぐつわは定期的にチェックんな。",
 		   NULL, "\"Check tha gag every now and then.", Line_WaitForInput);
 	OutputLine(NULL, "外れてもまずいん、きつくも締め付けちゃあぁん。",
 		   NULL, " We don' wan' it ta get loose, so keep it tigh'...", Line_WaitForInput);
 	PlaySE(4, "s20/14/443400014", 128, 64);
 	OutputLine(NULL, "窒息させたら意味がなん。」",
-		   NULL, " but not so tigh' that 'e stops breathin'.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " but not so tigh' that 'e stops breathin'.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「わかってるって…＠あれ、携帯コンロのガス缶頼まなかった＠　もうガスねえよ。＠
 	PlaySE(4, "s20/00/yamab44006", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わかってるって…。",
 		   NULL, "\"I said, I know...", Line_WaitForInput);
 	OutputLine(NULL, "あれ、携帯コンロのガス缶頼まなかった？",
 		   NULL, " Huh? Didn't I ask you to pick up another can of gas for the portable stove?", Line_WaitForInput);
 	PlaySE(4, "s20/00/yamab44007", 128, 64);
 	OutputLine(NULL, "　もうガスねえよ。」",
-		   NULL, " We're out.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " We're out.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「聞いてねん、だぁほ。＠
 	PlaySE(4, "s20/14/443400015", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「聞いてねん、だぁほ。」",
-		   NULL, "\"Ya never asked, ya ijit.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, "\"Ya never asked, ya ijit.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「…かーー…、マジかよ、付いてくれよ…＠くそくそ！！￥
 	PlaySE(4, "s20/00/yamab44008", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…かーー…、マジかよ、付いてくれよ…。",
 		   NULL, "\"...Gaah... seriously? Come on, work....", Line_WaitForInput);
 	OutputLine(NULL, "くそくそ！！」",
@@ -184,12 +210,14 @@
 
 
 //　携帯コンロを、ガチャガチャといじり、火が付かないかと悪戦苦闘している＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　携帯コンロを、ガチャガチャといじり、火が付かないかと悪戦苦闘している。",
-		   NULL, "He rattled the portable stove as he struggled to get it to light.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "He rattled the portable stove as he struggled to get it to light.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…それを見て、買出しに行っていた男は深くため息をつくのだった￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それを見て、買出しに行っていた男は深くため息をつくのだった。",
 		   NULL, "...Seeing that, the man who went to buy supplies let out a deep sigh.", Line_Normal);
 	ClearMessage();
@@ -198,12 +226,14 @@
 	DrawSceneWithMask( "Sunset/bg_206", "left", 0, 0, 300 );
 
 //　そして、その様子を尻目に、……部屋の隅へ歩み寄る￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、その様子を尻目に、……部屋の隅へ歩み寄る。",
 		   NULL, "And with a backwards glance at that sight, began to walk to the corner of the room.", Line_Normal);
 	ClearMessage();
 
 
 //　…誘拐された少年は、床に敷かれた毛布の上に転がされていた￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誘拐された少年は、床に敷かれた毛布の上に転がされていた。",
 		   NULL, "...The kidnapped boy was sprawled out on a sheet that was spread out on the floor.", Line_Normal);
 	ClearMessage();
@@ -211,6 +241,7 @@
 
 //「…………………小僧、!w1000……元気かいね？＠
 	PlaySE(4, "s20/14/443400016", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………小僧、",
 		   NULL, "\"....Boy,", Line_ContinueAfterTyping);
 
@@ -219,41 +250,47 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……元気かいね？」",
-		   NULL, " ya doin' okay?\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " ya doin' okay?\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　もちろん、その問い掛けが少年の耳に入るとは、男も思ってはいない￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん、その問い掛けが少年の耳に入るとは、男も思ってはいない。",
 		   NULL, "Of course, the man didn't assume the kid was able to hear that question.", Line_Normal);
 	ClearMessage();
 
 
 //　なぜなら、少年の両耳には栓が詰められ、目と耳を丸ごとぐるぐるにガムテープで塞がれていたからだ＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なぜなら、少年の両耳には栓が詰められ、目と耳を丸ごとぐるぐるにガムテープで塞がれていたからだ。",
-		   NULL, "That was because the boy's ears were plugged, with his eyes and ears thoroughly covered by packing tape.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "That was because the boy's ears were plugged, with his eyes and ears thoroughly covered by packing tape.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そして口には、ねじった薄手のタオルのようなもので猿ぐつわがされていた＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして口には、ねじった薄手のタオルのようなもので猿ぐつわがされていた。",
-		   NULL, "Also, his mouth was gagged with a thin, twisted-up towel.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "Also, his mouth was gagged with a thin, twisted-up towel.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　……そのせいで顎を閉じることができず、少年の頬はよだれでべとべとになっていた￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そのせいで顎を閉じることができず、少年の頬はよだれでべとべとになっていた。",
 		   NULL, "...Because of that, the boy was unable to close his mouth properly, his cheeks sticky with his own saliva.", Line_Normal);
 	ClearMessage();
 
 
 //　もちろん、それだけではない＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん、それだけではない。",
-		   NULL, "Of course, that wasn't the only reason.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, "Of course, that wasn't the only reason.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　両腕は後で組まされ、皮のベルトのようなもので厳重に締め付けられている￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両腕は後で組まされ、皮のベルトのようなもので厳重に締め付けられている。",
 		   NULL, "Both his arms were tied tightly behind his back with a leather belt.", Line_Normal);
 	ClearMessage();
@@ -261,27 +298,31 @@
 
 //「今ん所、順調らし＠命の心配はないん＠…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…＠本家はこうと決めたら…鬼やんね＠…どんな残酷なこと命令するかも想像つかん＠……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。￥
 	PlaySE(4, "s20/14/443400017", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「今ん所、順調らし。",
 		   NULL, "\"Ya seem ta be doin' okay.", Line_WaitForInput);
 	OutputLine(NULL, "命の心配はないん。",
 		   NULL, " At leas',  yer not gonna die.", Line_WaitForInput);
 	PlaySE(4, "s20/14/443400018", 128, 64);
 	OutputLine(NULL, "…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…。",
-		   NULL, " ..If yer grampa wanted to play tough, we migh' have had ta lop off an ear.. it'd be great if we don' have ta...", Line_WaitForInput);
+		   NULL, " ..If yer grampa wanted to play tough, we migh' have had ta lop off an ear.. it'd be great if we don' have ta... ", Line_ModeSpecific);
 	PlaySE(4, "s20/14/443400019", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本家はこうと決めたら…鬼やんね。",
-		   NULL, " If tha Main Family says we do, though... tough luck.", Line_WaitForInput);
+		   NULL, "If tha Main Family says we do, though... tough luck.", Line_WaitForInput);
 	OutputLine(NULL, "…どんな残酷なこと命令するかも想像つかん。",
-		   NULL, " ...I can' even imagine wha' kind of cruel things they'd have us do.", Line_WaitForInput);
+		   NULL, " ...I can' even imagine wha' kind of cruel things they'd have us do. ", Line_ModeSpecific);
 	PlaySE(4, "s20/14/443400020", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。」",
-		   NULL, " ...Tha Family says not one scratch on 'im though, so it seems to be going well for tha time bein'...\"", Line_Normal);
+		   NULL, "...Tha Family says not one scratch on 'im though, so it seems to be going well for tha time bein'...\"", Line_Normal);
 	ClearMessage();
 
 
 
 //「大臣はダム計画を撤回で水面下工作＠雛見沢ダム計画は無期凍結へ＠…小僧の解放はいつ頃になるんだろうな＠…早く一服したいもんだぜ。＠
 	PlaySE(4, "s20/00/yamab44009", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大臣はダム計画を撤回で水面下工作。",
 		   NULL, "\"The Minister is discretely withdrawing the dam project.", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢ダム計画は無期凍結へ。",
@@ -291,21 +332,23 @@
 		   NULL, " ...I wonder when we're letting the boy go.", Line_WaitForInput);
 	PlaySE(4, "s20/00/yamab44011", 128, 64);
 	OutputLine(NULL, "…早く一服したいもんだぜ。」",
-		   NULL, " ...I just want to be done with this already.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " ...I just want to be done with this already.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「本家が決着のタイミング、計ってるらし＠いつになるかわぁらんが、近い内やんなぁ…。＠
 	PlaySE(4, "s20/14/443400021", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「本家が決着のタイミング、計ってるらし。",
 		   NULL, "\"Tha Main Family seem ta be gaugin' tha timin'.", Line_WaitForInput);
 	OutputLine(NULL, "いつになるかわぁらんが、近い内やんなぁ…。」",
-		   NULL, " I don' know when it'll be, but prob'ly soon.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+		   NULL, " I don' know when it'll be, but prob'ly soon.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「良かったな小僧＠もうじき解放されるぞ、へへへ…。￥
 	PlaySE(4, "s20/00/yamab44012", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「良かったな小僧。",
 		   NULL, "\"Isn't that great, kid?", Line_WaitForInput);
 	OutputLine(NULL, "もうじき解放されるぞ、へへへ…。」",
@@ -314,12 +357,14 @@
 
 
 //　そんな男たちの声が、少年の耳に届いているかはわからない＠
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな男たちの声が、少年の耳に届いているかはわからない。",
-		   NULL, "The men didn't know if their voices were heard by the boy.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
+		   NULL, "The men didn't know if their voices were heard by the boy.", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…少年は、無惨な現実から、少しでも魂を守るために…こんこんと眠り続けるしか自衛の方法がなかった…￥
+	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…少年は、無惨な現実から、少しでも魂を守るために…こんこんと眠り続けるしか自衛の方法がなかった…。",
 		   NULL, "...For him, there was nothing he could do but continue to sleep to escape his harsh reality...", Line_Normal);
 	ClearMessage();
@@ -327,6 +372,7 @@
 
 //「それよん、ガスをどうするんね＠　ラーメン食えんよぅ！＠　ガス切れたなら言ぅてえなぁもう！！￥
 	PlaySE(4, "s20/14/443400022", 128, 64);
+	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それよん、ガスをどうするんね！",
 		   NULL, "\"More importan'ly, wha' are we gonna do about tha gas?", Line_WaitForInput);
 	OutputLine(NULL, "　ラーメン食えんよぅ！！",
