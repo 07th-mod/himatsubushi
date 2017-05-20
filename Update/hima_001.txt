@@ -4498,7 +4498,7 @@ void main()
 	PlaySE(4, "s05/13/101300074", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「つまり、……同盟も村も、本当の意味で支配している別の存在がいる…ということですね？",
-		   NULL, "\"In other words... there's something else in charge of both the Alliance and the village?", Line_WaitForInput);
+		   NULL, "\"In other words... there's someone else in charge of both the Alliance and the village?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300075", 128, 64);
 	OutputLine(NULL, "　それが先ほど仰られていた御三家…という存在ですか？」",
 		   NULL, " Would that be the three families we just talked about?\"", Line_ModeSpecific);
