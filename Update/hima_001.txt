@@ -5361,12 +5361,12 @@ void main()
 //　…資料の中の幹部リストでも、御三家の姓を持つ名前は多かった＠…もちろん、園崎も例外ではない＠だが、トップは常に公由家だった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…資料の中の幹部リストでも、御三家の姓を持つ名前は多かった。",
-		   NULL, "...Among the list of executives recorded in the documents, the number of people with last names from the three families was quite high.", Line_WaitForInput);
-	OutputLine(NULL, "…もちろん、園崎も例外ではない。",
-		   NULL, " ...Of course, Sonozaki was no exception. ", Line_ModeSpecific);
+		   NULL, "...Among the list of executives recorded in the documents, the number of people with last names from the three families was quite high. ", Line_ModeSpecific);
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…もちろん、園崎も例外ではない。",
+		   NULL, "...Of course, Sonozaki was no exception.", Line_WaitForInput);
 	OutputLine(NULL, "だが、トップは常に公由家だった。",
-		   NULL, "However, at the top was the Kimiyoshi family.", Line_Normal);
+		   NULL, " However, at the top was the Kimiyoshi family.", Line_Normal);
 	ClearMessage();
 
 
