@@ -2159,11 +2159,12 @@ void main()
 
 //「鬼ヶ淵死守同盟ですか＠えぇ、地元ではかなり賑わせているようです。＠
 	PlaySE(4, "s05/13/101300017", 128, 64);
-	OutputLine(NULL, "「鬼ヶ淵死守同盟ですか。",
-		   NULL, "\"The Onigafuchi Defense Alliance?", Line_WaitForInput);
+	OutputLine(NULL, "「鬼ヶ淵死守同盟ですか。」",
+		   NULL, "\"The Onigafuchi Defense Alliance?\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 	PlaySE(4, "s05/00/104300001", 128, 64);
-	OutputLine(NULL, "えぇ、地元ではかなり賑わせているようです。」",
-		   NULL, " Yeah, they've been quite active around here.\"", Line_WaitForInput);
+	OutputLine(NULL, "「えぇ、地元ではかなり賑わせているようです。」",
+		   NULL, "\"Yeah, they've been quite active around here.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
