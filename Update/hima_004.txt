@@ -465,7 +465,7 @@ void main()
 
 //「君の奥さんが事故に遭ったらしい。￥
 	PlaySE(4, "s05/00/syuni00001", 128, 64);
-	if (AdvMode) { OutputLine("主任", NULL, "Person in Charge", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>主任</color>", NULL, "<color=#f5e6d3>Person in Charge</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「君の奥さんが事故に遭ったらしい。」",
 		   NULL, "\"It seems your wife was involved in an accident.\"", Line_Normal);
 	ClearMessage();
@@ -498,7 +498,7 @@ void main()
 
 //「赤坂雪絵さまが、!w1500…事故でお亡くなりになりました。￥
 	PlaySE(4, "s05/00/mand00001", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂雪絵さまが、",
 		   NULL, "\"Yukie Akasaka was...", Line_ContinueAfterTyping);
 

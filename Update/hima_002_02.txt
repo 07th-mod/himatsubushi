@@ -113,7 +113,7 @@ void main()
 
 //「神社はダム反対運動の事務所も兼ねてましてね＠こんな風景も、あんたらには反安保闘争みたいで懐かしいでしょう！　へっへっへっへ！￥
 	PlaySE(4, "s05/00/104100067", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「神社はダム反対運動の事務所も兼ねてましてね。",
 		   NULL, "\"The shrine also has the offices of the Anti-Dam Movement.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100068", 128, 64);
@@ -164,7 +164,7 @@ void main()
 
 //「……ほぉ＠……あんた、それはそれで立派な意見をお持ちだねぇ…。￥
 	PlaySE(4, "s05/00/104100069", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……ほぉ。",
 		   NULL, "\"...Ooh?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100070", 128, 64);
@@ -431,7 +431,7 @@ void main()
 
 //「へ、…へへへ＠　お客人たちのような、他所に住んでいる方々には関係ねぇこってす＠雛見沢を気に入ってくださったんなら、…お客人のお友達みんなにも、雛見沢が素晴らしいところだって宣伝して下さい＠そういうのが何十人、何百人と広がっていけば、……この村をダム底に沈めるなんて、ふざけた計画も、やがては潰えるんですかんねぇ。＠
 	PlaySE(4, "s05/00/104100071", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「へ、…へへへ！",
 		   NULL, "\"Heh... heh heh heh!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100072", 128, 64);
@@ -441,7 +441,7 @@ void main()
 	OutputLine(NULL, "雛見沢を気に入ってくださったんなら、…お客人のお友達みんなにも、雛見沢が素晴らしいところだって宣伝して下さい。",
 		   NULL, " If you enjoy it here... please tell all your friends that Hinamizawa is a wonderful place, please. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104100074", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そういうのが何十人、何百人と広がっていけば、……この村をダム底に沈めるなんて、ふざけた計画も、やがては潰えるんですかんねぇ。」",
 		   NULL, "If word spreads to dozens, maybe even hundreds of people... then that ridiculous plan to submerge this place at the foot of a dam will eventually fall apart.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -519,7 +519,7 @@ void main()
 
 //「いんえぇ…＠…そんなにお気にされないで下さい…。＠
 	PlaySE(4, "s05/00/104100075", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いんえぇ…。",
 		   NULL, "\"No...", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100076", 128, 64);
@@ -559,7 +559,7 @@ void main()
 
 //「ささ＠　そんな話はこれくらいにしましょう＠本当にとても景色のいいところがあるんです！＠
 	PlaySE(4, "s05/00/104100077", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ささ！",
 		   NULL, "\"Now now!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100078", 128, 64);
@@ -681,7 +681,7 @@ void main()
 
 //「梨花ちゃまじゃないの＠もう子どもはお家に帰る時間だよー！＠
 	PlaySE(4, "s05/00/oldb00001", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「梨花ちゃまじゃないの。",
 		   NULL, "\"Well isn't it Rika-chama.", Line_WaitForInput);
 	PlaySE(4, "s05/00/oldb00002", 128, 64);
@@ -719,7 +719,7 @@ void main()
 
 //「牧野さん、その人＠　電話をくれた観光の人は。＠
 	PlaySE(4, "s05/18/103300001", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「牧野さん、その人？",
 		   NULL, "\"Makino-san, who's that?", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300002", 128, 64);
@@ -730,7 +730,7 @@ void main()
 
 //「そんですよ＠こちら、村長さんね。雛見沢の公由村長さん。＠
 	PlaySE(4, "s05/00/104100080", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そんですよ。",
 		   NULL, "\"That's right.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100081", 128, 64);
@@ -755,7 +755,7 @@ void main()
 
 //「ようこそ雛見沢へ＠いかがでしたか＠…静かでゆっくりしたところでしょ。＠
 	PlaySE(4, "s05/18/103300003", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ようこそ雛見沢へ。",
 		   NULL, "\"Welcome to Hinamizawa.", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300004", 128, 64);
@@ -783,7 +783,7 @@ void main()
 
 //「……へぇぇ…＠今時の若い方なのに、また…紳士な方だねぇ…＠うんうん。￥
 	PlaySE(4, "s05/18/103300006", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……へぇぇ…。",
 		   NULL, "\"...Hmmm...", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300007", 128, 64);
@@ -1936,7 +1936,7 @@ void main()
 
 //「お客人～＠　梨花ちゃまも～～＠　お茶が入りましたよ～～＠　塩大福もあるからに、ぜーひ食って行きんさいな～～！！＠
 	PlaySE(4, "s05/00/oldc00001", 128, 64);
-	if (AdvMode) { OutputLine("老婆", NULL, "Old Woman", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お客人〜！",
 		   NULL, "\"Hey, mister~!", Line_WaitForInput);
 	PlaySE(4, "s05/00/oldc00002", 128, 64);
@@ -1997,7 +1997,7 @@ void main()
 
 //「ほんら梨花ちゃま～＠　手を洗って来んさいね～～！＠　ばっちいおててにゃあ食わせる饅頭はありんせんね～～！＠
 	PlaySE(4, "s05/00/oldc00005", 128, 64);
-	if (AdvMode) { OutputLine("老婆", NULL, "Old Woman", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほんら梨花ちゃま〜！",
 		   NULL, "\"C'mon Rika-chama~!", Line_WaitForInput);
 	PlaySE(4, "s05/00/oldc00006", 128, 64);
@@ -2089,7 +2089,7 @@ void main()
 
 //「ほんれ、お客人～～～＠　大人なんだから、お手本を示してやって下さいな～～！！＠
 	PlaySE(4, "s05/00/oldc00008", 128, 64);
-	if (AdvMode) { OutputLine("老婆", NULL, "Old Woman", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほんれ、お客人〜〜〜！",
 		   NULL, "\"C'mon now, mister~~~!", Line_WaitForInput);
 	PlaySE(4, "s05/00/oldc00009", 128, 64);
@@ -2422,7 +2422,7 @@ void main()
 
 //「そうですか＠…ではまた明日もぜひいらっしゃい＠　お電話をくれればすぐに迎えを出しますのでね。＠
 	PlaySE(4, "s05/00/104100082", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうですか。",
 		   NULL, "\"I see.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100083", 128, 64);
@@ -2447,7 +2447,7 @@ void main()
 
 //「えぇえぇ、そうしてあげてくださいなぁ＠　あんた、梨花ちゃまに大層、気に入られたみたいだしぃねぇ！￥
 	PlaySE(4, "s05/00/104100085", 128, 64);
-	if (AdvMode) { OutputLine("牧野", NULL, "Makino", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇえぇ、そうしてあげてくださいなぁ！",
 		   NULL, "\"Yes, please do!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104100086", 128, 64);

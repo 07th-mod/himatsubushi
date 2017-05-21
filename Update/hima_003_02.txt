@@ -39,7 +39,7 @@ void main()
 
 //「ご協力、感謝しますよ大石さん＠……どうぞ。＠
 	PlaySE(4, "s05/00/104600050", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ご協力、感謝しますよ大石さん。",
 		   NULL, "\"Thank you for your cooperation, Ooishi-san.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104600051", 128, 64);
@@ -744,7 +744,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 128, );
 
 	PlaySE(4, "s05/00/manall00001", 128, 64);
-	if (AdvMode) { OutputLine("全員", NULL, "Everyone", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「雛見沢ダム建設、絶対反対ッ！！」」」",
 		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_ContinueAfterTyping);
 

@@ -69,7 +69,7 @@ void main()
 
 //「赤坂さま＠外線からお電話が入っておりますが、お繋ぎしてもよろしいでしょうか＠　ご同僚の嘉納さまと申されております。＠
 	PlaySE(4, "s05/00/front00001", 128, 64);
-	if (AdvMode) { OutputLine("フロント", NULL, "Front Desk", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>フロント</color>", NULL, "<color=#f5e6d3>Front Desk</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂さま。",
 		   NULL, "\"Akasaka-sama.", Line_WaitForInput);
 	PlaySE(4, "s05/00/front00002", 128, 64);
@@ -100,7 +100,7 @@ void main()
 
 //「かしこまりました＠お繋ぎしますので、一度受話器を置いてお待ち下さい。＠
 	PlaySE(4, "s05/00/front00004", 128, 64);
-	if (AdvMode) { OutputLine("フロント", NULL, "Front Desk", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>フロント</color>", NULL, "<color=#f5e6d3>Front Desk</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「かしこまりました。",
 		   NULL, "\"Understood.", Line_WaitForInput);
 	PlaySE(4, "s05/00/front00005", 128, 64);
@@ -142,7 +142,7 @@ void main()
 
 //「赤坂くん＠　嘉納です＠お疲れさま＠定時連絡がなかったので、こちらから掛けました＠そちらの状況はどう？＠
 	PlaySE(4, "s05/00/vv_kano_10014", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂くん？",
 		   NULL, "\"Akasaka-kun?", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10015", 128, 64);
@@ -184,7 +184,7 @@ void main()
 
 //「そう＠なかなか手際がいいね＠赤坂くんのどこか初々しい感じが、むしろ武器になったかもしれないね＠まずは上首尾ってところかな？￥
 	PlaySE(4, "s05/00/vv_kano_10019", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そう。",
 		   NULL, "\"I see.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10020", 128, 64);
@@ -212,7 +212,7 @@ void main()
 
 //「県警での情報や、地元警察の公安での情報と照らしてどう＠　鬼ヶ淵死守同盟はシロっぽい？￥
 	PlaySE(4, "s05/00/vv_kano_10023", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「県警での情報や、地元警察の公安での情報と照らしてどう？",
 		   NULL, "\"Did you find out anything from the prefectural or local offices?", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10024", 128, 64);
@@ -259,7 +259,7 @@ void main()
 
 //「そう＠なるべく早めにね＠わかってると思うけど、今夜が終われば、誘拐から丸４日が経過する＠……いつが時間切れという明白な区切りはないけれど、時間の経過は確実に我々の状況を不利にしていく＠…それはわかってるよね。＠
 	PlaySE(4, "s05/00/vv_kano_10025", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そう。",
 		   NULL, "\"I see.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10026", 128, 64);
@@ -269,7 +269,7 @@ void main()
 	OutputLine(NULL, "わかってると思うけど、今夜が終われば、誘拐から丸４日が経過する。",
 		   NULL, " I think you understand, but after tonight, it'll have been a full four days since the kidnapping happened. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10028", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……いつが時間切れという明白な区切りはないけれど、時間の経過は確実に我々の状況を不利にしていく。",
 		   NULL, "...They didn't set a time limit, but it's obvious that time is not on our side.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10029", 128, 64);
@@ -294,7 +294,7 @@ void main()
 
 //「うん＠くれぐれも気をつけてね＠相手は暴力主義団体なんだから＠…油断すれば危険もありえるからね＠危険が迫ったらすぐに連絡を＠その場合は地元公安に応援体制を入れられるようにするからね。＠
 	PlaySE(4, "s05/00/vv_kano_10030", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うん。",
 		   NULL, "\"Okay.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10031", 128, 64);
@@ -310,7 +310,7 @@ void main()
 	OutputLine(NULL, "危険が迫ったらすぐに連絡を。",
 		   NULL, " If you feel that you're in any danger, contact me immediately. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10035", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その場合は地元公安に応援体制を入れられるようにするからね。」",
 		   NULL, "In that case, I can get the local Public Safety Office prepared to help you.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -329,7 +329,7 @@ void main()
 
 //「…他に赤坂くんの方から連絡はある？＠
 	PlaySE(4, "s05/00/vv_kano_10047", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…他に赤坂くんの方から連絡はある？」",
 		   NULL, "\"...Anything else to report?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -352,7 +352,7 @@ void main()
 //「うん＠こっちもみんな頑張ってるけど、なかなかはかどらないよ＠何しろ、調べる団体が星の数だからね＠
 //　だから君の方の団体も、シロだとわかったらすぐに帰京して他の職員の応援に入ってもらいたいんだよ＠……室長は鬼ヶ淵も洗っとけって言ってるけど、俺は鬼ヶ淵なんかの反ダム住民団体なんかは、今回の件、まったく無縁だと思ってるからね＠…職員ひとりを、ひと団体調べさせるためだけに出張させるのは、すごく痛いよホント。＠
 	PlaySE(4, "s05/00/vv_kano_10048", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うん。",
 		   NULL, "\"Hm.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10049", 128, 64);
@@ -361,15 +361,15 @@ void main()
 	OutputLine(NULL, "何しろ、調べる団体が星の数だからね。",
 		   NULL, " After all, the number of organizations we're investigating is vast. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10051", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから君の方の団体も、シロだとわかったらすぐに帰京して他の職員の応援に入ってもらいたいんだよ。",
 		   NULL, "So, if you find out the one you're investigating is in the clear, we'll have you return to Tokyo to assist some of the other officers. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10052", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……室長は鬼ヶ淵も洗っとけって言ってるけど、俺は鬼ヶ淵なんかの反ダム住民団体なんかは、今回の件、まったく無縁だと思ってるからね。",
 		   NULL, "...The Chief is saying to dig up what you can on Onigafuchi, but I don't think a residential anti-dam protest group has any relation to the incident at hand. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10053", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…職員ひとりを、ひと団体調べさせるためだけに出張させるのは、すごく痛いよホント。」",
 		   NULL, "Sending somebody out just to investigate a single group makes me cringe, really.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -399,7 +399,7 @@ void main()
 
 //「うん。よろしくね＠　じゃ、他に何もなければ切るよ？＠
 	PlaySE(4, "s05/00/vv_kano_10054", 128, 64);
-	if (AdvMode) { OutputLine("嘉納", NULL, "Kanou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うん。よろしくね！",
 		   NULL, "\"Thanks. I'm counting on you!", Line_WaitForInput);
 	PlaySE(4, "s05/00/vv_kano_10055", 128, 64);
@@ -706,7 +706,7 @@ void main()
 
 //「おい坊主＠お前、旦那にいくら渡した＠　だいぶ途中でつまみ食いされてんぞぉ？＠
 	PlaySE(4, "s05/00/104400001", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「おい坊主。",
 		   NULL, "\"Hey boy.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400002", 128, 64);
@@ -778,7 +778,7 @@ void main()
 
 //「わっはははっはっはっは！！＠
 	PlaySE(4, "s05/00/104400004", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わっはははっはっはっは！！」",
 		   NULL, "\"Waa hahaha haaa ha ha!!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -957,7 +957,7 @@ void main()
 
 //「ハイいらっしゃい～＠あら、大石さんお久しぶりー＠　こっち入ります＠　すぐ空きますよー。＠
 	PlaySE(4, "s05/00/tenin00001", 128, 64);
-	if (AdvMode) { OutputLine("店員", NULL, "Salesperson", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>店員</color>", NULL, "<color=#f5e6d3>Salesperson</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ハイいらっしゃい〜。",
 		   NULL, "\"Welcome, welcome~.", Line_WaitForInput);
 	PlaySE(4, "s05/00/tenin00002", 128, 64);
@@ -996,7 +996,7 @@ void main()
 
 //「遅いぞ蔵人＠俺ぁもぅ帰ろうと思ってたんだからぁ！＠
 	PlaySE(4, "s05/00/104800001", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「遅いぞ蔵人。",
 		   NULL, "\"You're late, Kuraudo.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800002", 128, 64);
@@ -1034,7 +1034,7 @@ void main()
 
 //「……坊主＠お前、麻雀はできんのか？＠
 	PlaySE(4, "s05/00/104400005", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……坊主。",
 		   NULL, "\"...Boy.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400006", 128, 64);
@@ -1146,7 +1146,7 @@ void main()
 
 //「じゃあ坊主が勝てばいいじゃねぇかよ＠　お前が買ったらその金でこの雀荘の支払いをして、蔵人に仕事の話でも何でもすればいい。＠
 	PlaySE(4, "s05/00/104800004", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃあ坊主が勝てばいいじゃねぇかよ！",
 		   NULL, "\"Then all you have to do is win!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800005", 128, 64);
@@ -1216,7 +1216,7 @@ void main()
 
 //「俺が勝ったら、フラワーのブルー・マーメイドに直行だからなぁ！！＠
 	PlaySE(4, "s05/00/104800007", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「俺が勝ったら、フラワーのブルー・マーメイドに直行だからなぁ！！」",
 		   NULL, "\"If I win, we're headed straight to the Blue Mermaid on Flower Road!!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1247,7 +1247,7 @@ void main()
 
 //「…私は静か～に飲めるお店でいいですよ。＠
 	PlaySE(4, "s05/00/104400009", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…私は静か〜に飲めるお店でいいですよ。」",
 		   NULL, "\"I'd prefer a place where we can drink *quietly*.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1273,7 +1273,7 @@ void main()
 
 //「マスターに縫製代とか言われて、一本持ってかれたなぁ。＠
 	PlaySE(4, "s05/00/104400010", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「マスターに縫製代とか言われて、一本持ってかれたなぁ。」",
 		   NULL, "\"The owner ended up charging what he called a 'tailoring fee'.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1381,7 +1381,7 @@ void main()
 
 //「蔵人のリーチなんざ、どうせこの辺だろ＠　この辺なら通るだろ＠/
 	PlaySE(4, "s05/00/104800008", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「蔵人のリーチなんざ、どうせこの辺だろ？",
 		   NULL, "\"At any rate, Kuraudo's hand is probably holding something like that, huh?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800009", 128, 64);
@@ -1429,7 +1429,7 @@ void main()
 
 //「…どうした坊主＠　さくっと切らねぇかい＠よくわからなかったら、蔵人と同じモンを切ってりゃ安全だぞ？＠
 	PlaySE(4, "s05/00/104800011", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…どうした坊主？",
 		   NULL, "\"...What's wrong, boy?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800012", 128, 64);
@@ -1518,7 +1518,7 @@ void main()
 
 //「おいおい、危ない牌だぞ？＠　蔵人、通るのかぁ？！＠
 	PlaySE(4, "s05/00/104800014", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「おいおい、危ない牌だぞ？！",
 		   NULL, "\"Hey now, that's a dangerous tile, you know!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800015", 128, 64);
@@ -1648,7 +1648,7 @@ void main()
 
 //「どうだった坊主＠ちょっと見せてみぃ！＠
 	PlaySE(4, "s05/00/104400013", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうだった坊主。",
 		   NULL, "\"How'd you do, boy?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400014", 128, 64);
@@ -1668,7 +1668,7 @@ void main()
 
 //「んん～～～…？？＠　なんじゃあこりゃあ…？＠
 	PlaySE(4, "s05/00/104400015", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「んん〜〜〜…？？？",
 		   NULL, "\"Hmmm~~...??", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400016", 128, 64);
@@ -1697,7 +1697,7 @@ void main()
 
 //「……坊主＠お前、この辺りで張っとるだろ＠どうして切った？＠
 	PlaySE(4, "s05/00/104800017", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……坊主。",
 		   NULL, "\"...Boy.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800018", 128, 64);
@@ -1726,7 +1726,7 @@ void main()
 
 //「…………ほぅ＠…蔵人の聴牌など鼻から論外、というわけか。＠
 	PlaySE(4, "s05/00/104800020", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………ほぅ。",
 		   NULL, "\"...Oh?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800021", 128, 64);
@@ -1747,7 +1747,7 @@ void main()
 
 //「いつ、聴牌したのに気付いた？＠
 	PlaySE(4, "s05/00/104800022", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いつ、聴牌したのに気付いた？」",
 		   NULL, "\"When did you realize I was in tenpai?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1842,7 +1842,7 @@ void main()
 
 //「…ち＠………この坊主……＠　蔵人、降りるな！！＠
 	PlaySE(4, "s05/00/104800023", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ち。",
 		   NULL, "\"...Tch.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800024", 128, 64);
@@ -1874,7 +1874,7 @@ void main()
 
 //「くそ…＠　食いタンで引き摺り下ろすか＠/
 	PlaySE(4, "s05/00/104400017", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「くそ…！",
 		   NULL, "\"Dammit...!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400018", 128, 64);
@@ -1924,7 +1924,7 @@ void main()
 
 //「………坊主、お前、慣れしとるなぁ…！＠
 	PlaySE(4, "s05/00/104800026", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………坊主、お前、慣れしとるなぁ…！」",
 		   NULL, "\"...Boy, you're getting pretty used to this...!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1991,7 +1991,7 @@ void main()
 
 //「……く！￥
 	PlaySE(4, "s05/00/104800027", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……く！」",
 		   NULL, "\"...Gah!\"", Line_Normal);
 	ClearMessage();
@@ -2079,7 +2079,7 @@ void main()
 
 //「ち、畜生！＠　坊主、てめぇ…！！＠
 	PlaySE(4, "s05/00/104400020", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ち、畜生！！",
 		   NULL, "\"D-Dammit!!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400021", 128, 64);
@@ -2090,7 +2090,7 @@ void main()
 
 //「…………蔵人、おめぇ差し込め＠/
 	PlaySE(4, "s05/00/104800028", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………蔵人、おめぇ差し込め！",
 		   NULL, "\"...Kuraudo, finish it!", Line_WaitForInput);
 
@@ -2120,7 +2120,7 @@ void main()
 
 //「出た！＠/
 	PlaySE(4, "s05/00/104400022", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「出た！！",
 		   NULL, "\"There it is!", Line_WaitForInput);
 
@@ -2173,7 +2173,7 @@ void main()
 
 //「………頭ッパネだぁ？＠　小僧のくせに…！！＠
 	PlaySE(4, "s05/00/104400025", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………頭ッパネだぁ？！",
 		   NULL, "\"...A headbump!?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400026", 128, 64);
@@ -2252,7 +2252,7 @@ void main()
 
 //「……うおぉ！＠　張ってやがったかぁあぁああ！！＠
 	PlaySE(4, "s05/00/104400027", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……うおぉ！！",
 		   NULL, "\"...Whoa!!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400028", 128, 64);
@@ -2291,7 +2291,7 @@ void main()
 
 //「……おい、蔵人＠　話が違うぞ＠　初々しいカモがネギ背負ってきたって言ったのは誰だ！！＠
 	PlaySE(4, "s05/00/104800030", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……おい、蔵人！",
 		   NULL, "\"...Hey, Kuraudo!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800031", 128, 64);
@@ -2316,7 +2316,7 @@ void main()
 
 //「………大石さん、まずいよ＠このままじゃ負けるよマジで！＠
 	PlaySE(4, "s05/00/104400029", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………大石さん、まずいよ。",
 		   NULL, "\"...Ooishi-san, this is bad.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400030", 128, 64);
@@ -2396,7 +2396,7 @@ void main()
 
 //「…坊主、………正気か…＠　４つも晒したら…おめぇ、牌が１つだけじゃねぇかよ。＠
 	PlaySE(4, "s05/00/104400031", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…坊主、………正気か…？",
 		   NULL, "\"...Boy... are you right in the head...?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400032", 128, 64);
@@ -2424,7 +2424,7 @@ void main()
 
 //「バ、バカかてめぇ！＠/
 	PlaySE(4, "s05/00/104400033", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「バ、バカかてめぇ！！",
 		   NULL, "\"A-are you an idiot!?", Line_WaitForInput);
 
@@ -2536,7 +2536,7 @@ void main()
 
 //（…蔵人＠…やれ。叩き潰せ。＠
 	PlaySE(4, "s05/00/104800033", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（…蔵人。",
 		   NULL, "(...Kuraudo.", Line_WaitForInput);
 	OutputLine(NULL, "…やれ。叩き潰せ。）",
@@ -2554,7 +2554,7 @@ void main()
 
 //（あほぅ＠　ここまで舐められて今さら引けるか！＠
 	PlaySE(4, "s05/00/104800034", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（あほぅ！",
 		   NULL, "(Idiot!", Line_WaitForInput);
 	OutputLine(NULL, "　ここまで舐められて今さら引けるか！）",
@@ -2576,7 +2576,7 @@ void main()
 
 //「行くぞ坊主＠/
 	PlaySE(4, "s05/00/104800035", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「行くぞ坊主！",
 		   NULL, "\"Here we go, boy!", Line_WaitForInput);
 
@@ -2655,7 +2655,7 @@ void main()
 
 //「…ほれ、坊主の番だぜ。＠
 	PlaySE(4, "s05/00/104400035", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ほれ、坊主の番だぜ。」",
 		   NULL, "\"...Come on, it's your turn, boy.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2685,7 +2685,7 @@ void main()
 
 //「坊主＠わかってると思うが、…オープンリーチに振り込んだら役満払いだぜ？＠
 	PlaySE(4, "s05/00/104800039", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「坊主。",
 		   NULL, "\"Boy.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800040", 128, 64);
@@ -2741,7 +2741,7 @@ void main()
 
 //「……ふふん、小僧＠/
 	PlaySE(4, "s05/00/104800041", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……ふふん、小僧。",
 		   NULL, "\"....Heh heh, brat.", Line_WaitForInput);
 
@@ -2805,7 +2805,7 @@ void main()
 
 //（ばーろい！＠　ここまで来てやめられるかよ＠　次行け＠　掴ませちまえ！！￥
 	PlaySE(4, "s05/00/104800045_1", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（ばーろい！！",
 		   NULL, "(Fool!", Line_WaitForInput);
 	OutputLine(NULL, "　ここまで来てやめられるかよ！",
@@ -2907,7 +2907,7 @@ void main()
 
 //「お、……おいおい、何やってんだよ……。＠
 	PlaySE(4, "s05/00/104800046", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お、……おいおい、何やってんだよ……。」",
 		   NULL, "\"H-....Hey, what are you doing...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2964,7 +2964,7 @@ void main()
 
 //「…やるな坊主…！＠　役満払いをそういう手で防ぐとはな！＠　がっはっはっはっはっはっは！！！＠
 	PlaySE(4, "s05/00/104800047", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…やるな坊主…！！",
 		   NULL, "\"...You're good, boy...!!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800048", 128, 64);
@@ -3003,7 +3003,7 @@ void main()
 
 //「正直に話さんかい＠若い頃はだいぶ馴らしたんだろ？＠
 	PlaySE(4, "s05/00/104800050", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「正直に話さんかい。",
 		   NULL, "\"Answer me honestly.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800051", 128, 64);
@@ -3029,7 +3029,7 @@ void main()
 
 //「レートを上げすぎて＠　あんた、当時はどのくらいのレートで打ってたの？＠
 	PlaySE(4, "s05/00/104400036", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「レートを上げすぎて？",
 		   NULL, "\"Raised the stakes too high?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400037", 128, 64);
@@ -3080,7 +3080,7 @@ void main()
 
 //「…なんだなんだ！＠　蔵人！＠　このタコ！＠　お前、どこからこんなヤクザの代打ちみたいの引っ張ってきたんだ！＠　もうやめだやめ！＠　あーもぅ！＠　坊主、お前の勝ちだ＠　降参降参！！＠
 	PlaySE(4, "s05/00/104800052", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…なんだなんだ！！",
 		   NULL, "\"...What's this!?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800053", 128, 64);
@@ -3148,7 +3148,7 @@ void main()
 
 //「…ツキなんて、その時の運不運だろ＠あんたほどの腕があれば充分にいけると思うがなぁ。＠
 	PlaySE(4, "s05/00/104400038", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ツキなんて、その時の運不運だろ。",
 		   NULL, "\"...Luck is luck.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400039", 128, 64);
@@ -3238,7 +3238,7 @@ void main()
 
 //「負けた負けた＠　久しぶりに大負けだ～～！！￥
 	PlaySE(4, "s05/00/104800060", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「負けた負けた！",
 		   NULL, "\"I lost, I lost!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800061", 128, 64);
@@ -3249,7 +3249,7 @@ void main()
 
 //「しっかし…打ってる時の坊主、気合入ってたなぁ＠結構怖かったぜ…。＠
 	PlaySE(4, "s05/00/104400040", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「しっかし…打ってる時の坊主、気合入ってたなぁ。",
 		   NULL, "\"Still, when you were playing, boy, you were pretty into it.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400041", 128, 64);
@@ -3336,7 +3336,7 @@ void main()
 
 //「しゃーないな＠帰って寝るわ＠　体力付けんと体がもたん！＠
 	PlaySE(4, "s05/00/104800063", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「しゃーないな。",
 		   NULL, "\"Nothing you could do.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800064", 128, 64);
@@ -3379,7 +3379,7 @@ void main()
 
 //「…来年当たり、第２工区も任されちまうかもしれねぇなぁ＠黒田さん、血尿出ちゃってるって聞いたしよ＠身がもたねぇよ。＠
 	PlaySE(4, "s05/00/104800066", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…来年当たり、第２工区も任されちまうかもしれねぇなぁ。",
 		   NULL, "\"...Around next year, I might be in charge of the second site as well.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800067", 128, 64);
@@ -3410,7 +3410,7 @@ void main()
 
 //「俺だって仏じゃねぇからなあ＠　ハラワタ煮えくり返る時はあるぞー＠　特に、園崎のあの小娘は我慢がならん＠　あいつの顔面、いつか簡単にゃ治らんくらいに歪ませたろって思ってる。￥
 	PlaySE(4, "s05/00/104800069", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「俺だって仏じゃねぇからなあ！",
 		   NULL, "\"I'm not exactly a saint, you know!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800070", 128, 64);
@@ -3441,7 +3441,7 @@ void main()
 
 //「当り前だ＠　あんなに世知辛い職場で給料が安かったら誰も残らんよ＠　おい蔵人、警察はいつになったら村の人間、全部追っ払ってくれるんだ＠国から立ち退き命令とか出てるんだろ？！＠
 	PlaySE(4, "s05/00/104800073", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「当り前だ！",
 		   NULL, "\"Of course they are!", Line_WaitForInput);
 	PlaySE(4, "s05/00/104800074", 128, 64);
@@ -3451,7 +3451,7 @@ void main()
 	OutputLine(NULL, "　おい蔵人、警察はいつになったら村の人間、全部追っ払ってくれるんだ。",
 		   NULL, " Hey Kuraudo, exactly when are the police going to tell all the villagers to shove off? ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104800076", 128, 64);
-	if (AdvMode) { OutputLine("おやっさん", NULL, "Landlady", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "国から立ち退き命令とか出てるんだろ？！」",
 		   NULL, "There'll be a notice of eviction from the government, right!?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3530,7 +3530,7 @@ void main()
 
 //「じゃあ、坊主＠……いやぁ、雀士さまにもう坊主なんて言えないな＠赤坂くんでよかったっけ？＠
 	PlaySE(4, "s05/00/104400043", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃあ、坊主。",
 		   NULL, "\"Then, boy.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400044", 128, 64);
@@ -3553,7 +3553,7 @@ void main()
 
 //「じゃ赤坂くん＠行こうか。￥
 	PlaySE(4, "s05/00/104400046", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃ赤坂くん。",
 		   NULL, "\"Then, Akasaka-kun.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400047", 128, 64);
@@ -3657,7 +3657,7 @@ void main()
 
 //「ん、…くわしいな。＠
 	PlaySE(4, "s05/00/104400048", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん、…くわしいな。」",
 		   NULL, "\"Yeah... you know a lot about this.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3683,14 +3683,14 @@ void main()
 
 //「……赤坂くんが何者かは旦那から何も聞いてないんだが＠…やっぱり警察関係かい＠　尾行確認に詳しいなんて、あとは探偵社くらいしか思いつかねぇね。＠
 	PlaySE(4, "s05/00/104400049", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……赤坂くんが何者かは旦那から何も聞いてないんだが。",
 		   NULL, "\"...I didn't hear anything from the boss as to who you are, Akasaka-kun.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400050", 128, 64);
 	OutputLine(NULL, "…やっぱり警察関係かい？",
 		   NULL, " ...Related to the police? ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104400051", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　尾行確認に詳しいなんて、あとは探偵社くらいしか思いつかねぇね。」",
 		   NULL, "If you're familiar with checking for being tailed, the only other possibility I can think of is something like a private detective.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3706,7 +3706,7 @@ void main()
 
 //「やれやれ…＠麻雀やってからすっかり雰囲気が大人びちまったな＠　会った時のあのオドオドしたあんたはどこ行っちゃったんだよ。￥
 	PlaySE(4, "s05/00/104400052", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「やれやれ…。",
 		   NULL, "\"My my...", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400053", 128, 64);
@@ -3767,7 +3767,7 @@ void main()
 
 //「……旦那から、雛見沢村については多少のことは聞いてるんだろ？＠
 	PlaySE(4, "s05/00/104400055", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……旦那から、雛見沢村については多少のことは聞いてるんだろ？」",
 		   NULL, "\"...I heard from the boss that you want to hear a bit about Hinamizawa Village, yeah?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3783,7 +3783,7 @@ void main()
 
 //「……そこまで知ってるなら、下らない前置きは省略していいな。￥
 	PlaySE(4, "s05/00/104400056", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……そこまで知ってるなら、下らない前置きは省略していいな。」",
 		   NULL, "\"...If you know that much already, I'll cut out the introductions.\"", Line_Normal);
 	ClearMessage();
@@ -3812,7 +3812,7 @@ void main()
 
 //「……昨夜、園崎本家で親族会議が開かれたそうだ＠親族会議ってのは…旦那から聞いてるか？＠
 	PlaySE(4, "s05/00/104400057", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……昨夜、園崎本家で親族会議が開かれたそうだ。",
 		   NULL, "\"...Last night, the Sonozaki main house held a family council.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400058", 128, 64);
@@ -3831,7 +3831,7 @@ void main()
 
 //「普通に親族会議って言ったら、まぁ親戚が集まってお茶でも飲むようなもんだよな＠だが、園崎本家の親族会議ってのは、そんなのんびりしたものたぁ訳が違う。￥
 	PlaySE(4, "s05/00/104400059", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「普通に親族会議って言ったら、まぁ親戚が集まってお茶でも飲むようなもんだよな。",
 		   NULL, "\"If it was a normal meeting, then it would just be all the relatives coming together over a nice cup of tea or something.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400060", 128, 64);
@@ -4132,7 +4132,7 @@ void main()
 
 //「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。￥
 	PlaySE(4, "s05/18/103300009", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。」",
 		   NULL, "\"...Wasn't our monetary gift of appreciation to the media a little large?\"", Line_Normal);
 	ClearMessage();
@@ -4178,7 +4178,7 @@ void main()
 
 //「……石を投げるだけが全ての時代じゃないさ＠マスコミの力も侮れないのは重々承知しているし、今後もその力を借りたいのは同じさ。＠
 	PlaySE(4, "s05/00/104600009", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……石を投げるだけが全ての時代じゃないさ。",
 		   NULL, "\"...This isn't an era where you can get what you want just by throwing rocks.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104600010", 128, 64);
@@ -4302,7 +4302,7 @@ void main()
 
 //「……どう思う、お魎さん。＠
 	PlaySE(4, "s05/18/103300010", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……どう思う、お魎さん。」",
 		   NULL, "\"...What do you think, Oryou-san?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4331,11 +4331,11 @@ void main()
 
 //「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない＠……一度だけってことで理解を得て、…また今年もって訳には行かないよ…＠…ねぇ、古手さん。＠
 	PlaySE(4, "s05/18/103300011", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない。",
 		   NULL, "\"Last year, we went through a lot of trouble getting people to wrap their heads around the price hike on the bulletins we were putting out. ", Line_ModeSpecific);
 	PlaySE(4, "s05/18/103300012", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……一度だけってことで理解を得て、…また今年もって訳には行かないよ…。",
 		   NULL, "...We convinced them it was just the one time... it just wouldn't do if we had another one this year...", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300013", 128, 64);
@@ -4369,7 +4369,7 @@ void main()
 
 //「そうですね…＠機関紙代は、特に貧しい家には大きな負担になってます＠みんな自分たちの村のためだからと堪えてますが、これ以上の値上げはやめた方がいいでしょうね。￥
 	PlaySE(4, "s05/00/vt2_rikam1001", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうですね…。",
 		   NULL, "\"That's right...", Line_WaitForInput);
 	PlaySE(4, "s05/00/vt2_rikam1002", 128, 64);
@@ -4518,7 +4518,7 @@ void main()
 
 //「だ、…だけど魅音ちゃん＠…君だってわかってると思うけど、機関紙の負担は決して軽いものじゃない＠雛見沢の全ての人間にかかる重みなんだ＠あまり負荷をかけ過ぎれば、内部から崩れることだって…、￥
 	PlaySE(4, "s05/18/103300014", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だ、…だけど魅音ちゃん。",
 		   NULL, "\"B-But, Mion-chan.", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300015", 128, 64);
@@ -4528,7 +4528,7 @@ void main()
 	OutputLine(NULL, "雛見沢の全ての人間にかかる重みなんだ。",
 		   NULL, " It's a burden carried by everybody in Hinamizawa. ", Line_ModeSpecific);
 	PlaySE(4, "s05/18/103300017", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あまり負荷をかけ過ぎれば、内部から崩れることだって…、」",
 		   NULL, "If we make people carry too much of that burden, it's possible we'll collapse from the inside...\"", Line_Normal);
 	ClearMessage();
@@ -4546,7 +4546,7 @@ void main()
 
 //「誰って、…別にそういう意味じゃ、＠
 	PlaySE(4, "s05/18/103300018", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「誰って、…別にそういう意味じゃ、」",
 		   NULL, "\"Who? ...I didn't mean it like that--\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4653,7 +4653,7 @@ void main()
 
 //「………………………ん、!w800…………んん…。＠
 	PlaySE(4, "s05/18/103300019", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………ん、",
 		   NULL, "\"....Hmm...", Line_ContinueAfterTyping);
 
@@ -4782,7 +4782,7 @@ void main()
 
 //「あんたみたいな若い者にゃ、ちょっと信じられないだろうけどね＠…こういう古い土地には、こんなのが未だ根強く残ってるもんさ。＠
 	PlaySE(4, "s05/00/104400061", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あんたみたいな若い者にゃ、ちょっと信じられないだろうけどね。",
 		   NULL, "\"A young guy like you would probably find it hard to believe.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400062", 128, 64);
@@ -4822,7 +4822,7 @@ void main()
 
 //「いや、まだ続く＠…先を続けるよ。￥
 	PlaySE(4, "s05/00/104400063", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いや、まだ続く。",
 		   NULL, "\"No, there's more.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400064", 128, 64);
@@ -4993,7 +4993,7 @@ void main()
 
 //「…どうしたんだいお魎さん。＠
 	PlaySE(4, "s05/18/103300020", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…どうしたんだいお魎さん。」",
 		   NULL, "\"...What is it, Oryou-san?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5128,7 +5128,7 @@ void main()
 
 //「……あぁ。￥
 	PlaySE(4, "s05/00/104400065", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あぁ。」",
 		   NULL, "\"...Sure.\"", Line_Normal);
 	ClearMessage();
@@ -5145,7 +5145,7 @@ void main()
 
 //「犬飼建設大臣のお孫さんが、……さらわれた＠　…お魎さん、そりゃ本当かい？＠
 	PlaySE(4, "s05/18/103300021", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「犬飼建設大臣のお孫さんが、……さらわれた？",
 		   NULL, "\"The Minister of Construction's grandson... was kidnapped?", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300022", 128, 64);
@@ -5230,7 +5230,7 @@ void main()
 //＜赤坂くんね☆
 //「…ん、……必ずしもそうとは言えねぇな。￥
 	PlaySE(4, "s05/00/104400066", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ん、……必ずしもそうとは言えねぇな。」",
 		   NULL, "\"..Hrm... I can't say for certain.\"", Line_Normal);
 	ClearMessage();
@@ -5249,7 +5249,7 @@ void main()
 
 //「兄さん、こりゃね＠園崎家のいつものことなんだよ。＠
 	PlaySE(4, "s05/00/104400067", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「兄さん、こりゃね。",
 		   NULL, "\"Lad, you see.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400068", 128, 64);
@@ -5329,14 +5329,14 @@ void main()
 
 //「あるいは、そもそも犯人なんかいない可能性だってあるよな＠…お魎自身、その満座の一同の中に、誘拐犯がいるって確信を持ってるわけじゃない＠ただ、自分の「意見」を述べただけさ。￥
 	PlaySE(4, "s05/00/104400069", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あるいは、そもそも犯人なんかいない可能性だってあるよな。",
 		   NULL, "\"Or, there's the possibility that there was never a culprit in the first place.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400070", 128, 64);
 	OutputLine(NULL, "…お魎自身、その満座の一同の中に、誘拐犯がいるって確信を持ってるわけじゃない。",
 		   NULL, " ...Oryou herself, in that room full of people, didn't explicitly say that somebody pulled off the kidnapping. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104400071", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ただ、自分の「意見」を述べただけさ。」",
 		   NULL, "She was just giving her 'opinion'.\"", Line_Normal);
 	ClearMessage();
@@ -5424,7 +5424,7 @@ void main()
 
 //「…孫の誘拐についてお魎が述べたのはここまでだ＠……あんたの知りたかったことが含まれてりゃいいんだがな。＠
 	PlaySE(4, "s05/00/104400072", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…孫の誘拐についてお魎が述べたのはここまでだ。",
 		   NULL, "\"...That's as much as Oryou said in regards to the kidnapping.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400073", 128, 64);
@@ -5443,14 +5443,14 @@ void main()
 
 //「…………あとは兄ちゃんの仕事だな＠…何のお仕事やってるか知らんけど、園崎家を相手にするなら、相当の覚悟でやっとけよ＠…大石の旦那は怖いもの知らずだけどな、あれでも２～３回は襲われてる＠最近は着てないけど、一時は、オフの時も防刃ベストを着込んでたんだよな。＠
 	PlaySE(4, "s05/00/104400074", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………あとは兄ちゃんの仕事だな。",
 		   NULL, "\"...After this, it's up to you.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400075", 128, 64);
 	OutputLine(NULL, "…何のお仕事やってるか知らんけど、園崎家を相手にするなら、相当の覚悟でやっとけよ。",
 		   NULL, " ...I don't know what kind of work you're doing, but if you're going up against the Sonozaki family, you'd best prepare yourself. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104400076", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…大石の旦那は怖いもの知らずだけどな、あれでも２〜３回は襲われてる。",
 		   NULL, "...Ooishi might be fearless, but even he's been attacked two or three times.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400077", 128, 64);
@@ -5474,7 +5474,7 @@ void main()
 
 //「…標準語が流暢だよなぁ＠兄さんは東京とかの人？＠
 	PlaySE(4, "s05/00/104400078", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…標準語が流暢だよなぁ。",
 		   NULL, "\"...You speak pretty well.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400079", 128, 64);
@@ -5505,7 +5505,7 @@ void main()
 
 //「兄さんのお仕事だけどさ＠/
 	PlaySE(4, "s05/00/104400080", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「兄さんのお仕事だけどさ。",
 		   NULL, "\"Your job.", Line_ContinueAfterTyping);
 
@@ -5562,7 +5562,7 @@ void main()
 
 //「……こっから、旦那からもらった金の範囲には入らないんだが…＠兄さんとは今日、卓を囲んだ仲間だからな＠サービスってことで話してやるよ＠…お魎から誘拐の話が出た後、もうひとつ話題が出たんだ。￥
 	PlaySE(4, "s05/00/104400082", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……こっから、旦那からもらった金の範囲には入らないんだが…。",
 		   NULL, "\"...This wasn't accounted for in the money I got from the boss...", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400083", 128, 64);
@@ -5572,7 +5572,7 @@ void main()
 	OutputLine(NULL, "サービスってことで話してやるよ。",
 		   NULL, " I'll give you this one as a freebie. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104400085", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…お魎から誘拐の話が出た後、もうひとつ話題が出たんだ。」",
 		   NULL, "After Oryou talked about the kidnapping, there was one other topic that came up.\"", Line_Normal);
 	ClearMessage();
@@ -5608,7 +5608,7 @@ void main()
 
 //「…そんれでな＠……大臣の孫、さらったーのを調べるために＠東京からはるばる、公安の捜査官が派遣されてくるっちゅう話だ。＠
 	PlaySE(4, "s05/00/olde00001", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…そんれでな。",
 		   NULL, "\"...So you see...", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00002", 128, 64);
@@ -5622,7 +5622,7 @@ void main()
 
 //「…公安の捜査官？＠
 	PlaySE(4, "s05/18/103300023", 128, 64);
-	if (AdvMode) { OutputLine("喜一郎", NULL, "Kiichiro", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…公安の捜査官？」",
 		   NULL, "\"...An investigator from Public Safety?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5630,7 +5630,7 @@ void main()
 
 //「……大臣の孫の誘拐な、…迂闊にゃ大事にできゃんってことで＠警視庁の公安部が独自で調べとるっちゅう話だ＠…大仰なこったのぉ＠…………………ん＠　どうした？￥
 	PlaySE(4, "s05/00/olde00004", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……大臣の孫の誘拐な、…迂闊にゃ大事にできゃんってことで、",
 		   NULL, "\"...They can't be reckless and make a big deal over the kidnapping,", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00005", 128, 64);
@@ -5667,7 +5667,7 @@ void main()
 
 //「ぉぅぉぅ…梨花ちゃまは警視庁も知ってなさるんかい＠…偉いのぉ。￥
 	PlaySE(4, "s05/00/olde00009", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ぉぅぉぅ…梨花ちゃまは警視庁も知ってなさるんかい。",
 		   NULL, "\"Ohhh ...So Rika-chama knows about the Metropolitan Police Department?", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00010", 128, 64);
@@ -5686,7 +5686,7 @@ void main()
 
 //「……公安のどんなヤツが来よったんか、…誰ぞ、わかるやつはおらんかいな。＠
 	PlaySE(4, "s05/00/olde00011", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……公安のどんなヤツが来よったんか、…誰ぞ、わかるやつはおらんかいな。」",
 		   NULL, "\"...Is there anybody that knows what kind of guy from Public Safety came here?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5701,7 +5701,7 @@ void main()
 
 //「………新米の若造がひとり、と聞き及んでおります。＠
 	PlaySE(4, "s05/00/mionf00001", 128, 64);
-	if (AdvMode) { OutputLine("魅音の父", NULL, "Mion's dad", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………新米の若造がひとり、と聞き及んでおります。」",
 		   NULL, "\"...I hear that it's a nice young piece of fresh meat.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5721,7 +5721,7 @@ void main()
 
 //「…ん？…んふふふ＠　えぇ、はい＠…新米とか。＠
 	PlaySE(4, "s05/00/mionf00002", 128, 64);
-	if (AdvMode) { OutputLine("魅音の父", NULL, "Mion's dad", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ん？…んふふふ！",
 		   NULL, "\"Hm? Haha!", Line_WaitForInput);
 	PlaySE(4, "s05/00/mionf00003", 128, 64);
@@ -5750,7 +5750,7 @@ void main()
 
 //「…えぇ＠ほかほかのふっかふか。＠
 	PlaySE(4, "s05/00/mionf00005", 128, 64);
-	if (AdvMode) { OutputLine("魅音の父", NULL, "Mion's dad", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…えぇ。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);
 
@@ -5781,7 +5781,7 @@ void main()
 
 //「……梨花ちゃまは、その男のことを何か知っているのかの。＠
 	PlaySE(4, "s05/00/olde00012", 128, 64);
-	if (AdvMode) { OutputLine("老人", NULL, "Old guy", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……梨花ちゃまは、その男のことを何か知っているのかの。」",
 		   NULL, "\"...Does Rika-chama know something about this man?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5820,7 +5820,7 @@ void main()
 
 //「………どうしますか＠　御母さん。＠
 	PlaySE(4, "s05/00/mionf00006", 128, 64);
-	if (AdvMode) { OutputLine("魅音の父", NULL, "Mion's dad", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………どうしますか？",
 		   NULL, "\"...What shall we do about him?", Line_WaitForInput);
 	PlaySE(4, "s05/00/mionf00007", 128, 64);
@@ -5853,7 +5853,7 @@ void main()
 
 //「泳がせろ、ということでしょうか…？＠
 	PlaySE(4, "s05/00/mionf00008", 128, 64);
-	if (AdvMode) { OutputLine("魅音の父", NULL, "Mion's dad", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「泳がせろ、ということでしょうか…？」",
 		   NULL, "\"So you're saying to just let him go around as he pleases...?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5896,7 +5896,7 @@ void main()
 
 //「……………………………なんて話があったそうだ＠…まさかあんた、その警視庁の新米じゃないよな？＠
 	PlaySE(4, "s05/00/104400086", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………………なんて話があったそうだ。",
 		   NULL, "\"...Is what they talked about apparently.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400087", 128, 64);
@@ -6191,7 +6191,7 @@ void main()
 
 //「……もういいかい＠　よければ好きなところまで送るよ。＠
 	PlaySE(4, "s05/00/104400088", 128, 64);
-	if (AdvMode) { OutputLine("佐藤", NULL, "Satou", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……もういいかい？",
 		   NULL, "\"...Is that everything?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400089", 128, 64);

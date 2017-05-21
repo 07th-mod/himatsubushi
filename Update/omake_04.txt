@@ -1330,7 +1330,7 @@ void main()
 	Wait( 300 );
 //「それは許しませんよ！！！！/
 	PlaySE(4, "s20/10/441000101", 128, 64);
-	if (AdvMode) { OutputLine("？？？", NULL, "???", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>？？？</color>", NULL, "<color=#f5e6d3>???</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それは許しませんよ！！！！",
 		   NULL, "\"I won't allow that!!!", Line_ContinueAfterTyping);
 
@@ -2462,7 +2462,7 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 100, );
 	PlaySE(4, "s20/00/narra44001", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ついに。",
 		   NULL, "Finally.", Line_ContinueAfterTyping);
 
@@ -2491,7 +2491,7 @@ void main()
 
 //　暗黒を得て、ついに地上に降臨を果たした漆黒の魔王、前原圭一。/
 	PlaySE(4, "s20/00/narra44003", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　暗黒を得て、ついに地上に降臨を果たした漆黒の魔王、前原圭一。",
 		   NULL, "With the complete darkness, the Demon Lord of the Darkest Black, Keiichi Maebara, was finally able to reach the surface world.", Line_ContinueAfterTyping);
 
@@ -2508,7 +2508,7 @@ void main()
 
 //　その魔力は絶大にして無比！！/
 	PlaySE(4, "s20/00/narra44004", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その魔力は絶大にして無比！！",
 		   NULL, "His magical power was without equal!!", Line_ContinueAfterTyping);
 
@@ -2546,7 +2546,7 @@ void main()
 
 //　あぁ、ヒロインたちはこの闇を抜け出せず、魔王たちの思うがままに、恥ずかしい衣装を次々と強要され、/
 	PlaySE(4, "s20/00/narra44007", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁ、ヒロインたちはこの闇を抜け出せず、魔王たちの思うがままに、恥ずかしい衣装を次々と強要され、",
 		   NULL, "Ahh, will the heroines be unable to escape this darkness and be forced to submit to the will of the Demon Lord, forced to wear embarrassing outfit after embarrassing outfit,", Line_ContinueAfterTyping);
 
@@ -2578,7 +2578,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	PlaySE(4, "s20/00/narra44009", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最高だぞ、もっとやれッ！！",
 		   NULL, "That's great, more, more!!", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2589,7 +2589,7 @@ void main()
 
 //　っていうか、スク水はちゃんと旧タイプだろうな？＠
 	PlaySE(4, "s20/00/narra44010", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　っていうか、スク水はちゃんと旧タイプだろうな？！",
 		   NULL, "By the way, the school swimsuits are the classic type right!?", Line_ModeSpecific);
 
@@ -2599,7 +2599,7 @@ void main()
 
 //　競泳型だったら許さんぞおぉおおおぉお！！！/
 	PlaySE(4, "s20/00/narra44011", 128, 64);
-	if (AdvMode) { OutputLine("ナレーター", NULL, "Narrator", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　競泳型だったら許さんぞおぉおおおぉお！！！",
 		   NULL, "I won't forgive you if they're the competitive swimming style!!!", Line_ContinueAfterTyping);
 

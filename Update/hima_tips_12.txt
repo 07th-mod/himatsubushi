@@ -299,7 +299,7 @@ void main()
 
 //「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。＠
 	PlaySE(4, "s20/00/hurum44001", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。」",
 		   NULL, "\"These past few days have been nice and sunny. The air feels nice, doesn't it?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -331,7 +331,7 @@ void main()
 
 //「何を作ってるの＠　お人形さん？＠
 	PlaySE(4, "s20/00/hurum44002", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「何を作ってるの？",
 		   NULL, "\"What are you making?", Line_WaitForInput);
 	OutputLine(NULL, "　お人形さん？」",
@@ -384,7 +384,7 @@ void main()
 
 //「あははは…＠駄目よ梨花＠頭が重すぎるから、ほら＠逆さてるてる坊主になっちゃったわ＠これじゃあ晴れじゃなくて雨になっちゃうわよ。＠
 	PlaySE(4, "s20/00/hurum44003", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あははは…。",
 		   NULL, "\"Ahahaha...", Line_WaitForInput);
 	OutputLine(NULL, "駄目よ梨花。",
@@ -418,7 +418,7 @@ void main()
 
 //「……………でも梨花＠てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？＠
 	PlaySE(4, "s20/00/hurum44007", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………でも梨花。",
 		   NULL, "\"...But, Rika.", Line_WaitForInput);
 	OutputLine(NULL, "てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？」",
@@ -443,7 +443,7 @@ void main()
 
 //「…あ、……そっか＠お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？＠
 	PlaySE(4, "s20/00/hurum44008", 128, 64);
-	if (AdvMode) { OutputLine("梨花の母", NULL, "Rika's mom", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…あ、……そっか。",
 		   NULL, "\"Oh... I see...", Line_WaitForInput);
 	OutputLine(NULL, "お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？」",

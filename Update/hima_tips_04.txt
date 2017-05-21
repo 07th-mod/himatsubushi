@@ -87,7 +87,7 @@ void main()
 
 //「…………お疲れさんです＠雛はトランクに＠騒ぎすぎで多少衰弱してるようですが、ご命令通り傷一つ付けちゃいません。＠
 	PlaySE(4, "s20/00/yamaa44001", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………お疲れさんです。",
 		   NULL, "\"...Nice to see you.", Line_WaitForInput);
 	OutputLine(NULL, "雛はトランクに。",
@@ -100,7 +100,7 @@ void main()
 
 //「…おぅおぅ、手間ぁかけましたんの。￥
 	PlaySE(4, "s20/14/443400001", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…おぅおぅ、手間ぁかけましたんの。」",
 		   NULL, "\"...Ohh, musta been a handful.\"", Line_Normal);
 	ClearMessage();
@@ -149,7 +149,7 @@ void main()
 
 //「……すったらん、ぁあいそうにの…＠震えとんね…＠大人しくしばらく過すがよかろ…。＠
 	PlaySE(4, "s20/14/443400002", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……すったらん、ぁあいそうにの…。",
 		   NULL, "\"...Poor li'l bugger...", Line_WaitForInput);
 	OutputLine(NULL, "震えとんね…。",
@@ -169,7 +169,7 @@ void main()
 
 //「ほんに辛い思いしちゃろなぁ…＠だんがな、おんめのお祖父ちゃんは優しい人だんね＠すんぐに助けてくれるだろの…。＠
 	PlaySE(4, "s20/14/443400004", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほんに辛い思いしちゃろなぁ…。",
 		   NULL, "\"This mus' be real tough for ya...", Line_WaitForInput);
 	OutputLine(NULL, "だんがな、おんめのお祖父ちゃんは優しい人だんね。",
@@ -210,7 +210,7 @@ void main()
 
 //「……目隠しはまずいっすよ…＠面が割れると後々まずいです。＠
 	PlaySE(4, "s20/00/yamaa44003", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……目隠しはまずいっすよ…。",
 		   NULL, "\"...Can't keep his eyes covered...", Line_WaitForInput);
 	OutputLine(NULL, "面が割れると後々まずいです。」",
@@ -220,7 +220,7 @@ void main()
 
 //「ん、…そうかの＠なんら、せめて猿ぐつわくらい外したらんな＠これぎゃあ、息もできんね…。＠
 	PlaySE(4, "s20/14/443400006", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん、…そうかの。",
 		   NULL, "\"Hm... An' with tha'...", Line_WaitForInput);
 	OutputLine(NULL, "なんら、せめて猿ぐつわくらい外したらんな。",
@@ -233,7 +233,7 @@ void main()
 
 //「……叫ばれたらまずいです…＠こいつのことは俺たちに任せて下さい…。￥
 	PlaySE(4, "s20/00/yamaa44004", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……叫ばれたらまずいです…。",
 		   NULL, "\"...It'll be trouble if he yells...", Line_WaitForInput);
 	OutputLine(NULL, "こいつのことは俺たちに任せて下さい…。」",
@@ -243,7 +243,7 @@ void main()
 
 //「ったく、気の効かんやっちゃらな！＠　…本家に惨い仕打ちはせんぎゃあちゅわっとる＠そこんとこ、肝に刻むんよ…。＠
 	PlaySE(4, "s20/14/443400008", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ったく、気の効かんやっちゃらな！！",
 		   NULL, "\"...Geez, ya guys dunno how ta treat somebody!!", Line_WaitForInput);
 	OutputLine(NULL, "　…本家に惨い仕打ちはせんぎゃあちゅわっとる。",
@@ -256,7 +256,7 @@ void main()
 
 //「わかってます＠手荒な真似はしませんよ＠…小僧が大人しくしててくれる分にはね。＠
 	PlaySE(4, "s20/00/yamaa44005", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わかってます。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	OutputLine(NULL, "手荒な真似はしませんよ。",

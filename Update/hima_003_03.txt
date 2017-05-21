@@ -862,7 +862,7 @@ void main()
 
 //「大石さんじゃありませんか＠こんにちは＠…はっはは、珍しいところでお会いしますね。＠
 	PlaySE(4, "s05/10/101000015", 128, 64);
-	if (AdvMode) { OutputLine("若い医者", NULL, "Young Doctor", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大石さんじゃありませんか。",
 		   NULL, "\"Why, if it isn't Ooishi-san.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000016", 128, 64);
@@ -896,7 +896,7 @@ void main()
 
 //「いえね、ちょっとした往診です。￥
 	PlaySE(4, "s05/10/101000018", 128, 64);
-	if (AdvMode) { OutputLine("若い医者", NULL, "Young Doctor", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いえね、ちょっとした往診です。」",
 		   NULL, "\"Oh nothing, just a little house call.\"", Line_Normal);
 	ClearMessage();
@@ -917,7 +917,7 @@ void main()
 
 //「いえ、…そんなに大したことではありませんでした＠良かったですよ。＠
 	PlaySE(4, "s05/10/101000019", 128, 64);
-	if (AdvMode) { OutputLine("若い医者", NULL, "Young Doctor", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いえ、…そんなに大したことではありませんでした。",
 		   NULL, "\"No... nothing quite that serious.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000020", 128, 64);
@@ -940,7 +940,7 @@ void main()
 
 //「ではこれで＠…急いで戻らないとスタッフに怒られますんで。＠
 	PlaySE(4, "s05/10/101000021", 128, 64);
-	if (AdvMode) { OutputLine("若い医者", NULL, "Young Doctor", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ではこれで。",
 		   NULL, "\"I'll take my leave here.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000022", 128, 64);
@@ -1322,7 +1322,7 @@ void main()
 
 //「ハイ、興宮ＳＰ～＠大石さん、感度良好です、どぞ～。￥
 	PlaySE(4, "s05/00/vtp_okeijia_0001", 128, 64);
-	if (AdvMode) { OutputLine("興宮ＰＳ", NULL, "Okinomiya PS", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ハイ、興宮ＳＰ〜。",
 		   NULL, "\"Yes, this is the Okinomiya SP.", Line_WaitForInput);
 	PlaySE(4, "s05/00/vtp_okeijia_0002", 128, 64);
@@ -1344,7 +1344,7 @@ void main()
 
 //「………ハイ、確認しました～。￥
 	PlaySE(4, "s05/00/vtp_okeijia_0003", 128, 64);
-	if (AdvMode) { OutputLine("興宮ＰＳ", NULL, "Okinomiya PS", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………ハイ、確認しました〜。」",
 		   NULL, "\"...Affirmative, copy that.\"", Line_Normal);
 	ClearMessage();
@@ -1370,7 +1370,7 @@ void main()
 
 //「了解しました～。￥
 	PlaySE(4, "s05/00/vtp_okeijia_0004", 128, 64);
-	if (AdvMode) { OutputLine("興宮ＰＳ", NULL, "Okinomiya PS", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「了解しました〜。」",
 		   NULL, "\"Understood.\"", Line_Normal);
 	ClearMessage();
@@ -1431,7 +1431,7 @@ void main()
 
 //「……………停まったぁな。＠
 	PlaySE(4, "s05/14/104700040", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………停まったぁな。」",
 		   NULL, "\"...They stopped.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1439,7 +1439,7 @@ void main()
 
 //「……営林署の人間＠　まずいぜ。＠
 	PlaySE(4, "s05/49/vt2_13hibari1052", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……営林署の人間？",
 		   NULL, "\"...Somebody from the forestry service?", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1053", 128, 64);
@@ -1450,7 +1450,7 @@ void main()
 
 //「…いや、……サツやんな。＠
 	PlaySE(4, "s05/14/104700041", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…いや、……サツやんな。」",
 		   NULL, "\"...Nah... looks like a cop ta me.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1465,7 +1465,7 @@ void main()
 
 //「お兄ちゃん、ちょい静かにしててな＠わかってると思うけど、大声出したりすると、大変なことになるからな…。￥
 	PlaySE(4, "s05/49/vt2_13hibari1054", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お兄ちゃん、ちょい静かにしててな。",
 		   NULL, "\"Hey kid, keep quiet for a bit.", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1055", 128, 64);
@@ -1490,7 +1490,7 @@ void main()
 
 //「どうする？＠
 	PlaySE(4, "s05/49/vt2_13hibari1056", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうする？」",
 		   NULL, "\"What do we do?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1498,7 +1498,7 @@ void main()
 
 //「…時間稼いでるん＠小僧連れて、ちょい裏から抜けぇな＠ほとぼり冷めたら落ち合お。￥
 	PlaySE(4, "s05/14/104700042", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…時間稼いでるん。",
 		   NULL, "\"...Gotta buy time.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700043", 128, 64);
@@ -1596,7 +1596,7 @@ void main()
 
 //「はいはい～～、何かご用かぃね？＠
 	PlaySE(4, "s05/14/104700045", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「はいはい〜〜、何かご用かぃね？」",
 		   NULL, "\"Yello~~ d'ya need somethin'?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1621,7 +1621,7 @@ void main()
 
 //「えぇえぇ＠今、開けますん…。￥
 	PlaySE(4, "s05/14/104700046", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇえぇ。",
 		   NULL, "\"Uhhhh.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700047", 128, 64);
@@ -1686,7 +1686,7 @@ void main()
 
 //「……あぁん、ここはずいぶん前から空っぽさぁね＠器材がしまってあるところなんて、見たこともねんわ。＠
 	PlaySE(4, "s05/14/104700048", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あぁん、ここはずいぶん前から空っぽさぁね。",
 		   NULL, "\"...Aah, 's been empty fer some time now.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700049", 128, 64);
@@ -1708,7 +1708,7 @@ void main()
 
 //「……あんたこそ誰よ、警察？￥
 	PlaySE(4, "s05/14/104700050", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あんたこそ誰よ、警察？」",
 		   NULL, "\"...'Ow 'bout ya? Police?\"", Line_Normal);
 	ClearMessage();
@@ -2491,7 +2491,7 @@ void main()
 
 //「…っわッ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1057", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…っわッ！！」",
 		   NULL, "\"...Whoa!!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3030,7 +3030,7 @@ void main()
 
 //「ぅが、!w800……が…ッ！！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1058", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ぅが、",
 		   NULL, "\"...Ugh...", Line_ContinueAfterTyping);
 
@@ -3120,7 +3120,7 @@ void main()
 
 //「てめぇこそ小僧をこっちへ寄越んだ！＠　首の骨をへし折られてぇかッ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1059", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「てめぇこそ小僧をこっちへ寄越んだ！！",
 		   NULL, "\"You should just hand the boy over!!", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1060", 128, 64);
@@ -3166,7 +3166,7 @@ void main()
 
 //「なら手っ取り早く済ませるぜ！＠　こいつならどうだよ…！！￥
 	PlaySE(4, "s05/49/vt2_13hibari1061", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「なら手っ取り早く済ませるぜ！！",
 		   NULL, "\"Then let's finish this fast!!", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1062", 128, 64);
@@ -3229,7 +3229,7 @@ void main()
 
 //「大人しく両手を頭の上で組んで、そこにうつ伏せになるんだよ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1063", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大人しく両手を頭の上で組んで、そこにうつ伏せになるんだよ！！」",
 		   NULL, "\"Put both your hands behind your head and lay down quietly!!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3248,7 +3248,7 @@ void main()
 
 //「このクソ馬鹿が！＠　撃たれなきゃこいつの恐ろしさがわからねぇかよ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1064", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「このクソ馬鹿が！！",
 		   NULL, "\"You stupid idiot!!", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1065", 128, 64);
@@ -3270,7 +3270,7 @@ void main()
 
 //「馬鹿が＠　森の中で、しかもこの雨だぞ！＠　銃声など掻き消える！！￥
 	PlaySE(4, "s05/49/vt2_13hibari1066", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「馬鹿が！",
 		   NULL, "\"Are you stupid!?", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1067", 128, 64);
@@ -3360,7 +3360,7 @@ void main()
 
 //「…くそったれがぁ…！＠　弾かれなきゃコイツの怖さがわからねぇかよ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1069", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…くそったれがぁ…！！",
 		   NULL, "\"...Dammit...!!", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1070", 128, 64);
@@ -3439,7 +3439,7 @@ void main()
 
 //「何しよってんね…＠早ぅせんとな、警官来るんで＠　なぁん油売っとんしゃん！！＠
 	PlaySE(4, "s05/14/104700051", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「何しよってんね…。",
 		   NULL, "\"Whaddya doin'...", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700052", 128, 64);
@@ -3464,7 +3464,7 @@ void main()
 
 //「あぁん、あんの樽男かいね＠落したったら、泡吹いとんよ＠へっへっへっへ…！＠
 	PlaySE(4, "s05/14/104700054", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぁん、あんの樽男かいね。",
 		   NULL, "\"Aah, tha' chubby fella?", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700055", 128, 64);
@@ -3503,7 +3503,7 @@ void main()
 
 //「期待してた相方は来ないってよ！＠　ざまぁねぇぞ！＠　観念するのはてめぇの方だ！！＠
 	PlaySE(4, "s05/49/vt2_13hibari1071", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「期待してた相方は来ないってよ！！",
 		   NULL, "\"Your buddy isn't coming!!", Line_WaitForInput);
 	PlaySE(4, "s05/49/vt2_13hibari1072", 128, 64);
@@ -3524,7 +3524,7 @@ void main()
 
 //「二回しか言わんね＠頭抱えてそこにうつ伏せになるんよ。＠
 	PlaySE(4, "s05/14/104700057", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「二回しか言わんね。",
 		   NULL, "\"Won' be sayin' this twice.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700058", 128, 64);
@@ -3596,7 +3596,7 @@ void main()
 
 //「…お、…おじさん？＠　大丈夫？＠　大丈夫ッ？！＠
 	PlaySE(4, "s05/00/toshi00013", 128, 64);
-	if (AdvMode) { OutputLine("寿樹", NULL, "Toshiki", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…お、…おじさん？！",
 		   NULL, "\"...S-Sir!?", Line_WaitForInput);
 	PlaySE(4, "s05/00/toshi00014", 128, 64);
@@ -3641,7 +3641,7 @@ void main()
 
 //「警官が来る前に、お前ン額にもッパツくれちゃる方が早いんね＠無駄な殺生すなっちゅ、本家にゆわれとんかー加減しとんね＠あんまり舐めとんと、容赦せんとよ。￥
 	PlaySE(4, "s05/14/104700059", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「警官が来る前に、お前ン額にもッパツくれちゃる方が早いんね。",
 		   NULL, "\"It'll be quicker ta put on thru yer 'ead afore the cops get 'ere.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700060", 128, 64);
@@ -3812,7 +3812,7 @@ void main()
 
 //「あぁん、こっちだって死なせとぅないん！＠　わかればええん、わかれば！！＠
 	PlaySE(4, "s05/14/104700062", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぁん、こっちだって死なせとぅないん！！",
 		   NULL, "\"Aah, and I don' wanna kill ya!!", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700063", 128, 64);
@@ -3840,7 +3840,7 @@ void main()
 
 //「叫ばんとでも撃たんね！＠　大人しゅぅ頭抱えてうつ伏せになったら、撃たんだるね！！＠
 	PlaySE(4, "s05/14/104700064", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「叫ばんとでも撃たんね！！",
 		   NULL, "\"I won' shoot 'slong as ya don' yell or nuthin' !", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700065", 128, 64);
@@ -3868,7 +3868,7 @@ void main()
 
 //「守ったんね！＠　男と男の約束しゃあよッ！！￥
 	PlaySE(4, "s05/14/104700066", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「守ったんね！！",
 		   NULL, "\"I will!!", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700067", 128, 64);
@@ -3906,7 +3906,7 @@ void main()
 
 //「撃たんね撃たんね！＠　わぁった！＠　しまったる＠　銃はしまったる！＠　男と男の約束しゃあね！＠　…どんね！＠　これなら文句ないんてッ？！？！￥
 	PlaySE(4, "s05/14/104700068", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「撃たんね撃たんね！！",
 		   NULL, "\"I won', I won'!!", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700069", 128, 64);
@@ -3979,7 +3979,7 @@ void main()
 
 //「をがッ！＠　ががッ！！！＠
 	PlaySE(4, "s05/14/104700075", 128, 64);
-	if (AdvMode) { OutputLine("誘拐犯", NULL, "Kidnapper", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「をがッ！！",
 		   NULL, "\"Gah!", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700076", 128, 64);
@@ -4183,7 +4183,7 @@ void main()
 
 //「は、………はい…！＠
 	PlaySE(4, "s05/00/toshi00016", 128, 64);
-	if (AdvMode) { OutputLine("寿樹", NULL, "Toshiki", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「は、………はい…！」",
 		   NULL, "\"Y... Yes...!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

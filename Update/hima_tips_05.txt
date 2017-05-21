@@ -78,7 +78,7 @@ void main()
 
 //「……帰ってきたんね＠開けちょくれな、俺だ。＠
 	PlaySE(4, "s20/14/443400010", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……帰ってきたんね。",
 		   NULL, "\"...I'm back.", Line_WaitForInput);
 	OutputLine(NULL, "開けちょくれな、俺だ。」",
@@ -88,7 +88,7 @@ void main()
 
 //「あぁ、お疲れ＠今、開ける。￥
 	PlaySE(4, "s20/00/yamab44001", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぁ、お疲れ。",
 		   NULL, "\"Ahh, you must be tired.", Line_WaitForInput);
 	OutputLine(NULL, "今、開ける。」",
@@ -124,7 +124,7 @@ void main()
 
 //「カップラーメン買ってきちょん、お湯沸かせな＠…小僧はどうしてるん。＠
 	PlaySE(4, "s20/14/443400011", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「カップラーメン買ってきちょん、お湯沸かせな。",
 		   NULL, "\"I bough' some cup noodles, so go boil some water.", Line_WaitForInput);
 	OutputLine(NULL, "…小僧はどうしてるん。」",
@@ -134,7 +134,7 @@ void main()
 
 //「ん＠　ずっと寝てる＠手が掛からなくて助かるよ＠ウンコ垂れる時は騒ぐけどな。＠
 	PlaySE(4, "s20/00/yamab44002", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん？",
 		   NULL, "\"Hm?", Line_WaitForInput);
 	OutputLine(NULL, "　ずっと寝てる。",
@@ -150,7 +150,7 @@ void main()
 
 //「漏らさせんなぁ＠便臭は万一の時、ヤぁバいって。＠
 	PlaySE(4, "s20/14/443400012", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「漏らさせんなぁ。",
 		   NULL, "\"Don' let 'im crap 'is pants.", Line_WaitForInput);
 	OutputLine(NULL, "便臭は万一の時、ヤぁバいって。」",
@@ -160,14 +160,14 @@ void main()
 
 //「……わかってるよ。￥
 	PlaySE(4, "s20/00/yamab44005", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……わかってるよ。」",
 		   NULL, "\"...Yeah, I know.\"", Line_Normal);
 	ClearMessage();
 
 //「猿ぐつわは定期的にチェックんな＠外れてもまずいん、きつくも締め付けちゃあぁん＠窒息させたら意味がなん。＠
 	PlaySE(4, "s20/14/443400013", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「猿ぐつわは定期的にチェックんな。",
 		   NULL, "\"Check tha gag every now and then.", Line_WaitForInput);
 	OutputLine(NULL, "外れてもまずいん、きつくも締め付けちゃあぁん。",
@@ -180,7 +180,7 @@ void main()
 
 //「わかってるって…＠あれ、携帯コンロのガス缶頼まなかった＠　もうガスねえよ。＠
 	PlaySE(4, "s20/00/yamab44006", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わかってるって…。",
 		   NULL, "\"I said, I know...", Line_WaitForInput);
 	OutputLine(NULL, "あれ、携帯コンロのガス缶頼まなかった？",
@@ -193,7 +193,7 @@ void main()
 
 //「聞いてねん、だぁほ。＠
 	PlaySE(4, "s20/14/443400015", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「聞いてねん、だぁほ。」",
 		   NULL, "\"Ya never asked, ya ijit.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -201,7 +201,7 @@ void main()
 
 //「…かーー…、マジかよ、付いてくれよ…＠くそくそ！！￥
 	PlaySE(4, "s20/00/yamab44008", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…かーー…、マジかよ、付いてくれよ…。",
 		   NULL, "\"...Gaah... seriously? Come on, work....", Line_WaitForInput);
 	OutputLine(NULL, "くそくそ！！」",
@@ -241,7 +241,7 @@ void main()
 
 //「…………………小僧、!w1000……元気かいね？＠
 	PlaySE(4, "s20/14/443400016", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………小僧、",
 		   NULL, "\"....Boy,", Line_ContinueAfterTyping);
 
@@ -298,7 +298,7 @@ void main()
 
 //「今ん所、順調らし＠命の心配はないん＠…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…＠本家はこうと決めたら…鬼やんね＠…どんな残酷なこと命令するかも想像つかん＠……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。￥
 	PlaySE(4, "s20/14/443400017", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「今ん所、順調らし。",
 		   NULL, "\"Ya seem ta be doin' okay.", Line_WaitForInput);
 	OutputLine(NULL, "命の心配はないん。",
@@ -307,13 +307,13 @@ void main()
 	OutputLine(NULL, "…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…。",
 		   NULL, " ..If yer grampa wanted to play tough, we migh' have had ta lop off an ear.. it'd be great if we don' have ta... ", Line_ModeSpecific);
 	PlaySE(4, "s20/14/443400019", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本家はこうと決めたら…鬼やんね。",
 		   NULL, "If tha Main Family says we do, though... tough luck.", Line_WaitForInput);
 	OutputLine(NULL, "…どんな残酷なこと命令するかも想像つかん。",
 		   NULL, " ...I can' even imagine wha' kind of cruel things they'd have us do. ", Line_ModeSpecific);
 	PlaySE(4, "s20/14/443400020", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。」",
 		   NULL, "...Tha Family says not one scratch on 'im though, so it seems to be going well for tha time bein'...\"", Line_Normal);
 	ClearMessage();
@@ -322,7 +322,7 @@ void main()
 
 //「大臣はダム計画を撤回で水面下工作＠雛見沢ダム計画は無期凍結へ＠…小僧の解放はいつ頃になるんだろうな＠…早く一服したいもんだぜ。＠
 	PlaySE(4, "s20/00/yamab44009", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大臣はダム計画を撤回で水面下工作。",
 		   NULL, "\"The Minister is discretely withdrawing the dam project.", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢ダム計画は無期凍結へ。",
@@ -338,7 +338,7 @@ void main()
 
 //「本家が決着のタイミング、計ってるらし＠いつになるかわぁらんが、近い内やんなぁ…。＠
 	PlaySE(4, "s20/14/443400021", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「本家が決着のタイミング、計ってるらし。",
 		   NULL, "\"Tha Main Family seem ta be gaugin' tha timin'.", Line_WaitForInput);
 	OutputLine(NULL, "いつになるかわぁらんが、近い内やんなぁ…。」",
@@ -348,7 +348,7 @@ void main()
 
 //「良かったな小僧＠もうじき解放されるぞ、へへへ…。￥
 	PlaySE(4, "s20/00/yamab44012", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「良かったな小僧。",
 		   NULL, "\"Isn't that great, kid?", Line_WaitForInput);
 	OutputLine(NULL, "もうじき解放されるぞ、へへへ…。」",
@@ -372,7 +372,7 @@ void main()
 
 //「それよん、ガスをどうするんね＠　ラーメン食えんよぅ！＠　ガス切れたなら言ぅてえなぁもう！！￥
 	PlaySE(4, "s20/14/443400022", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それよん、ガスをどうするんね！",
 		   NULL, "\"More importan'ly, wha' are we gonna do about tha gas?", Line_WaitForInput);
 	OutputLine(NULL, "　ラーメン食えんよぅ！！",

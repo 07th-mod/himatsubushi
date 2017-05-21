@@ -28,7 +28,7 @@ void main()
 
 //「…えぇ、ハイ＠…それでお通夜が明日の午後６時からになりまして、告別式が明後日のお昼、１２時から１３時までになりまして＠会場は興宮セレモニホールになります…。￥
 	PlaySE(4, "s20/00/kanryoc44001", 128, 64);
-	if (AdvMode) { OutputLine("役人", NULL, "Government Official", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>役人</color>", NULL, "<color=#f5e6d3>Government Official</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…えぇ、ハイ。",
 		   NULL, "\"...Uh-huh, yes.", Line_WaitForInput);
 	OutputLine(NULL, "…それでお通夜が明日の午後６時からになりまして、告別式が明後日のお昼、１２時から１３時までになりまして。",
@@ -144,7 +144,7 @@ void main()
 
 //「…えぇと、!w1000……１１歳だそうで…。＠
 	PlaySE(4, "s20/00/kanryoc44003", 128, 64);
-	if (AdvMode) { OutputLine("役人", NULL, "Government Official", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>役人</color>", NULL, "<color=#f5e6d3>Government Official</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…えぇと、",
 		   NULL, "\"...Umm...", Line_ContinueAfterTyping);
 
@@ -227,7 +227,7 @@ void main()
 
 //「それでは本日は失礼いたします…＠では、明日の夕方５時にお迎えに参りますんで＠よろしくお願いいたします…＠では、ごめんくださいませ……。＠
 	PlaySE(4, "s20/00/kanryoc44004", 128, 64);
-	if (AdvMode) { OutputLine("役人", NULL, "Government Official", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>役人</color>", NULL, "<color=#f5e6d3>Government Official</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それでは本日は失礼いたします…。",
 		   NULL, "\"We'll take our leave for today, then...", Line_WaitForInput);
 	OutputLine(NULL, "では、明日の夕方５時にお迎えに参りますんで。",

@@ -1983,7 +1983,7 @@ void main()
 
 //「こんな時間までどちらへ＠　入江先生も心配してましたよー…。＠
 	PlaySE(4, "s05/00/manc00014", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「こんな時間までどちらへ？",
 		   NULL, "\"Where were you this late at night?", Line_WaitForInput);
 	PlaySE(4, "s05/00/manc00015", 128, 64);
@@ -2005,7 +2005,7 @@ void main()
 
 //「あ～…、そう言えば、今日は神社で町会の人たちが集まって飲むとか言ってたなぁ＠それはご愁傷様でした＠…傷は大丈夫ですか？＠
 	PlaySE(4, "s05/00/manc00016", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あ〜…、そう言えば、今日は神社で町会の人たちが集まって飲むとか言ってたなぁ。",
 		   NULL, "\"Oh, they did say something about everybody in the town council getting together for a drink.", Line_WaitForInput);
 	PlaySE(4, "s05/00/manc00017", 128, 64);
@@ -2030,7 +2030,7 @@ void main()
 
 //「そうだ＠お連れの刑事さんが連絡が欲しいと言ってましたよ。＠
 	PlaySE(4, "s05/00/manc00019", 128, 64);
-	if (AdvMode) { OutputLine("男", NULL, "Man", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうだ。",
 		   NULL, "\"Oh, that's right.", Line_WaitForInput);
 	PlaySE(4, "s05/00/manc00020", 128, 64);
