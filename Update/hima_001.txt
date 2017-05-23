@@ -2159,11 +2159,12 @@ void main()
 
 //「鬼ヶ淵死守同盟ですか＠えぇ、地元ではかなり賑わせているようです。＠
 	PlaySE(4, "s05/13/101300017", 128, 64);
-	OutputLine(NULL, "「鬼ヶ淵死守同盟ですか。",
-		   NULL, "\"The Onigafuchi Defense Alliance?", Line_WaitForInput);
+	OutputLine(NULL, "「鬼ヶ淵死守同盟ですか。」",
+		   NULL, "\"The Onigafuchi Defense Alliance?\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 	PlaySE(4, "s05/00/104300001", 128, 64);
-	OutputLine(NULL, "えぇ、地元ではかなり賑わせているようです。」",
-		   NULL, " Yeah, they've been quite active around here.\"", Line_WaitForInput);
+	OutputLine(NULL, "「えぇ、地元ではかなり賑わせているようです。」",
+		   NULL, "\"Yeah, they've been quite active around here.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2185,7 +2186,7 @@ void main()
 //　死守なんて古風な言い方が示す通り、相当の決意と覚悟を持った連中です＠そこら辺の温和な住民団体とは一線を画すと思って頂いた方がいいですね。＠
 	PlaySE(4, "s05/00/104300004", 128, 64);
 	OutputLine(NULL, "　死守なんて古風な言い方が示す通り、相当の決意と覚悟を持った連中です。",
-		   NULL, "Like the old saying \"fight to the last\", they're a determined and well-prepared lot.", Line_WaitForInput);
+		   NULL, "Like the old saying 'fight to the last', they're a determined and well-prepared lot.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300005", 128, 64);
 	OutputLine(NULL, "そこら辺の温和な住民団体とは一線を画すと思って頂いた方がいいですね。」",
 		   NULL, " It'd be nice if they drew the line at just being a moderate residential organization.\"", Line_WaitForInput);
@@ -3395,7 +3396,7 @@ void main()
 //「公安部の本田屋です＠よろしくよろしく＠県警暴対の山海部長から協力を惜しむなと脅されとりますので＠わははははは！￥
 	PlaySE(4, "s05/00/104000006", 128, 64);
 	OutputLine(NULL, "「公安部の本田屋です。",
-		   NULL, "\"Motodai from the Public Safety Division.", Line_WaitForInput);
+		   NULL, "\"Honda from the Public Safety Division.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104000007", 128, 64);
 	OutputLine(NULL, "よろしくよろしく。",
 		   NULL, " Nice to meetcha.", Line_WaitForInput);
@@ -3655,16 +3656,16 @@ void main()
 //「会長は現雛見沢村村長の公由（喜）氏＠副会長は町会神社部長の古手氏＠会計が園崎（魎）氏で、会計監査は牧野氏＠共闘部長が公由（義）氏、広報部長が園崎（禎）氏…、￥
 	PlaySE(4, "s05/13/101300064", 128, 64);
 	OutputLine(NULL, "「会長は現雛見沢村村長の公由（喜）氏。",
-		   NULL, "\"The president is the mayor of Hinamizawa, K. Kimiyoshi.", Line_WaitForInput);
+		   NULL, "\"The president is the mayor of Hinamizawa, Kiichirou Kimiyoshi.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300065", 128, 64);
 	OutputLine(NULL, "副会長は町会神社部長の古手氏。",
 		   NULL, " The vice-president is the priest of the local shrine, Furude.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300066", 128, 64);
 	OutputLine(NULL, "会計が園崎（魎）氏で、会計監査は牧野氏。",
-		   NULL, " The treasurer is O. Sonozaki, the auditor is Makino.", Line_WaitForInput);
+		   NULL, " The treasurer is Oryou Sonozaki, the auditor is Makino.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300067", 128, 64);
 	OutputLine(NULL, "共闘部長が公由（義）氏、広報部長が園崎（禎）氏…、」",
-		   NULL, " The liaison is Y. Kimiyoshi, the PR Head is Y. Sonozaki...\"", Line_Normal);
+		   NULL, " The liaison is Yoshiroshi Kimiyoshi, the PR Head is Sadao Sonozaki...\"", Line_Normal);
 	ClearMessage();
 
 
@@ -3686,10 +3687,10 @@ void main()
 		   NULL, " Nfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700020", 128, 64);
 	OutputLine(NULL, "　……で、ちなみに園崎禎夫は青年部長なんです。",
-		   NULL, " ...By the way, Yoshio Sonozaki is head of the Youth Department.", Line_WaitForInput);
+		   NULL, " ...By the way, Sadao Sonozaki is head of the Youth Department.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700021", 128, 64);
 	OutputLine(NULL, "惜しいですね、広報部長は園崎忠敬。んっふっふっふ！」",
-		   NULL, " So close! The Head of Public Relations is actually Tadayoshi Sonozaki. Euheh heh heh!\"", Line_Normal);
+		   NULL, " So close! The Head of Public Relations is actually Tadataka Sonozaki. Euheh heh heh!\"", Line_Normal);
 	ClearMessage();
 
 //　褒められている気がせず、少し不愉快な気分になった＠
