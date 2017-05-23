@@ -1491,18 +1491,9 @@ void main()
 	DisableWindow();
 	DrawBustshot( 1, "ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
-//「……牧野はこれからお仕事なのですか？＠
-	OutputLine(NULL, "「……牧野はこれからお仕事なのですか？」",
-		   NULL, "\"...Are you going to work, Makino?\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
-
-
-//「お仕事ってわけでもねぇですよ＠村長に、村を観光したい若者が来るから、いろいろ案内してやれって頼まれましてねぇ。＠
-	OutputLine(NULL, "「お仕事ってわけでもねぇですよ。",
-		   NULL, "\"It's not exactly work, per se.", Line_WaitForInput);
-	OutputLine(NULL, "村長に、村を観光したい若者が来るから、いろいろ案内してやれって頼まれましてねぇ。」",
-		   NULL, " I was asked by the mayor to show around a young'un who came to the village for some sightseeing.\"", Line_WaitForInput);
+	OutputLine(NULL, "…と、少女はふいに私に顔を向けて、可愛らしい仕草で小首をかしげる。それを見て老人は私のことに気がついて、雛見沢を訪れた観光客だと紹介してくれた。",
+		   NULL, "...So, the girl turns her face at me, tilting her head a little in a cutesy manner. After seeing that, the elder introduces me as a tourist who came to sightsee Hinamizawa.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
