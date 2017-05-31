@@ -234,7 +234,7 @@ void main()
 //　明日も多分、快晴でかなり暑い日になるだろう＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　明日も多分、快晴でかなり暑い日になるだろう。",
-		   NULL, "Tomorrow will probably a hot and clear day.", Line_ModeSpecific);
+		   NULL, "Tomorrow will probably be a hot and clear day.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

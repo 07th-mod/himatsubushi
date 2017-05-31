@@ -258,7 +258,7 @@ void main()
 		   NULL, "No matter how much I explained, a girl who was just boasting about being able to carry digits over when adding things probably wouldn't understand. ", Line_ModeSpecific);
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "………梨花ちゃんの前でする話ではなかったかもしれない。",
-		   NULL, "...It probably wasn't something to talk about in front of Rika-chan, anyway", Line_Normal);
+		   NULL, "...It probably wasn't something to talk about in front of Rika-chan, anyway.", Line_Normal);
 	ClearMessage();
 
 
@@ -860,7 +860,7 @@ void main()
 //　それに逆らわず、引っ張られていくと………＠…そこには雄大な景色が待っていた￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに逆らわず、引っ張られていくと………。",
-		   NULL, "Not resisting, I allowed myself to pulled over...", Line_WaitForInput);
+		   NULL, "Not resisting, I allowed myself to be pulled over...", Line_WaitForInput);
 	OutputLine(NULL, "…そこには雄大な景色が待っていた。",
 		   NULL, " ...and waiting for me was a magnificent view.", Line_Normal);
 	ClearMessage();
@@ -1817,7 +1817,7 @@ void main()
 //　けらけらと笑う少女は、…変な風に身をよじりながら笑うと、…バランスを崩し、コテンと転んだ。/
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　けらけらと笑う少女は、…変な風に身をよじりながら笑うと、…バランスを崩し、コテンと転んだ。",
-		   NULL, "That cackling girl, approaching me in a strange manner while still laughing... lost her balance, and fell flat on her face.", Line_ContinueAfterTyping);
+		   NULL, "That cackling girl, approaching me in a strange manner while still laughing... lost her balance, and fell flat on her face.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1826,7 +1826,6 @@ void main()
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "down", 7, FALSE, 0, 0, 200, TRUE );
 //	PlaySE( 3, "wa_003", 128, 64 );
-	OutputLineAll(NULL, "", Line_WaitForInput);
 
 
 	if (AdvMode == 0) { ClearMessage(); }
