@@ -25,6 +25,7 @@ void main()
 	DrawSceneWithMask( "bg_056", "m1", 0, 0, 300 );
 
 //　電話が突然鳴った￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　電話が突然鳴った。",
 		   NULL, "The phone suddenly rang.", Line_Normal);
