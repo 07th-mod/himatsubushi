@@ -716,7 +716,7 @@ void main()
 		   NULL, " How much did you give this guy?", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400003", 128, 64);
 	OutputLine(NULL, "　だいぶ途中でつまみ食いされてんぞぉ？」",
-		   NULL, " It looks like there quite was a bit skimmed off the top, you know.\"", Line_ModeSpecific);
+		   NULL, " It looks like there was quite a bit skimmed off the top, you know.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -724,7 +724,7 @@ void main()
 	PlaySE(4, "s05/13/101300278", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大石氏への仲介手数料も含めていますから、それも含んだ上です。」",
-		   NULL, "\"Ooishi's handling fee was included, as I took that into account.\"", Line_Normal);
+		   NULL, "\"Ooishi's handling fee was included, so I took that into account.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -897,7 +897,7 @@ void main()
 //　あれだけ賑やかな繁華街から、ほんの道を数本違えただけでこれだけ寂しい裏通りになるのだから、夜の街というのはわからない￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけ賑やかな繁華街から、ほんの道を数本違えただけでこれだけ寂しい裏通りになるのだから、夜の街というのはわからない。",
-		   NULL, "Even though the market was bustling, a couple of turns off the main street and you were in s desolate alleyway.", Line_Normal);
+		   NULL, "Even though the market was bustling, a couple of turns off the main street and you were in a desolate alleyway.", Line_Normal);
 	ClearMessage();
 
 
