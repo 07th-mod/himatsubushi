@@ -358,6 +358,7 @@ void main()
 	PlaySE(4, "s05/00/vv_kano_10049", 128, 64);
 	OutputLine(NULL, "こっちもみんな頑張ってるけど、なかなかはかどらないよ。",
 		   NULL, " Everybody's doing their best here, but we're not making much progress.", Line_WaitForInput);
+	PlaySE(4, "s05/00/vv_kano_10050", 128, 64);
 	OutputLine(NULL, "何しろ、調べる団体が星の数だからね。",
 		   NULL, " After all, the number of organizations we're investigating is vast. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/vv_kano_10051", 128, 64);
