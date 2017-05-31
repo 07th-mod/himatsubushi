@@ -1090,7 +1090,7 @@ void main()
 	PlaySE(4, "s05/11/100700256", 128, 64);
 	PlaySE(5, "s05/00/104400007", 128, 64);
 	PlaySE(6, "s05/00/104800003", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#b1aab6>Ooishi</color> & <color=#f5e6d3>Satou</color> & <color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「がっはっはっはっはっはっは！！」」」",
 		   NULL, "\"\"\"GA HA HA HA HA HA HA!!\"\"\"", Line_Normal);
 	ClearMessage();
@@ -1196,7 +1196,7 @@ void main()
 	PlaySE(4, "s05/11/100700261", 128, 64);
 	PlaySE(5, "s05/00/104400008", 128, 64);
 	PlaySE(6, "s05/00/104800006", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#b1aab6>Ooishi</color> & <color=#f5e6d3>Satou</color> & <color=#f5e6d3>Landlady</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「がっはっはっはっはっは！！！」」」",
 		   NULL, "\"\"\"GA HA HA HA HA HA HA!!\"\"\"", Line_Normal);
 	ClearMessage();
@@ -1226,18 +1226,16 @@ void main()
 
 
 //「あぁ、女の子が体操服にメイドさんな格好で出てくるってお店＠　おやっさんも好きだなぁ～！＠　私はもちろん花びら大回転なお店をハシゴしまくりですよ＠　べろべろべろ～～！！＠　むっはっはっはっは！＠　サトさんはどうします？￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「あぁ、女の子が体操服にメイドさんな格好で出てくるってお店？",
-		   NULL, "\"Oh, that place where the girls dress up in gym clothes and maid uniforms?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700265", 128, 64);
-	OutputLine(NULL, "　おやっさんも好きだなぁ〜！！",
-		   NULL, " This ol' lech here likes that place too~!!", Line_WaitForInput);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「おやっさんも好きだなぁ〜！！",
+		   NULL, "\"This ol' lech here likes that place too~!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700266", 128, 64);
 	OutputLine(NULL, "　私はもちろん花びら大回転なお店をハシゴしまくりですよ？",
-		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming! ", Line_ModeSpecific);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　べろべろべろ〜〜！！！",
-		   NULL, "Slurp slurp slurp~~!!!", Line_WaitForInput);
+		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming! ", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700267", 128, 64);
+	OutputLine(NULL, "　アケミちゃ～～ん！！！",
+		   NULL, " Akemi-chaaaan!!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700268", 128, 64);
 	OutputLine(NULL, "　むっはっはっはっは！！",
 		   NULL, " Mua ha ha ha !!", Line_WaitForInput);
@@ -1262,14 +1260,14 @@ void main()
 		   NULL, "\"Like a nice quiet place where you can play footsies with a bunny girl?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700271", 128, 64);
 	OutputLine(NULL, "　むははははははは！！",
-		   NULL, " Muahahahahahaha!!", Line_WaitForInput);
+		   NULL, " Muahahahahahaha!! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700272", 128, 64);
-	OutputLine(NULL, "　こないだ飲みに行った時、あんたバニーさんのシッポ引っこ抜いちゃったでしょ？",
-		   NULL, " The last time we went drinking, you pulled the tail right off that bunny girl, didn't you? ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700273", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "こないだ飲みに行った時、あんたバニーさんのシッポ引っこ抜いちゃったでしょ？",
+		   NULL, "The last time we went drinking, you pulled the tail right off that bunny girl, didn't you?", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700273", 128, 64);
 	OutputLine(NULL, "　あれ結局弁償だったの？」",
-		   NULL, "Didn't you end up having to pay for that?\"", Line_ModeSpecific);
+		   NULL, " Didn't you end up having to pay for that?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1284,7 +1282,7 @@ void main()
 //「「わっはっはっはっはっは！！」￥
 	PlaySE(4, "s05/11/100700274", 128, 64);
 	PlaySE(5, "s05/00/104400011", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>＆<color=#f5e6d3>佐藤</color>", NULL, "<color=#b1aab6>Ooishi</color> & <color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「わっはっはっはっはっは！！」」",
 		   NULL, "\"\"Wa ha ha ha ha ha!!\"\"", Line_Normal);
 	ClearMessage();
