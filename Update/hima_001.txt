@@ -307,7 +307,7 @@ void main()
 	PlaySE(5, "s05/00/boyall00001b", 128, 64);
 	PlaySE(6, "s05/00/boyall00001c", 128, 64);
 	PlaySE(7, "s05/00/boyall00001d", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「先生ぇ〜、さよ〜〜ならッ！！」」」",
 		   NULL, "\"\"\"Goodbye, teacher!!\"\"\"", Line_Normal);
 	ClearMessage();

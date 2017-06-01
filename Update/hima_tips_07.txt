@@ -561,7 +561,7 @@ void main()
 //「……………………………。＠
 	PlaySE(4, "s20/17/442300024", 128, 64);
 	PlaySE(5, "s20/26/440300112", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#75bfa2>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -570,7 +570,7 @@ void main()
 //「………………………。＠
 	PlaySE(4, "s20/17/442300025", 128, 64);
 	PlaySE(5, "s20/26/440300113", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#75bfa2>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
