@@ -307,7 +307,7 @@ void main()
 	PlaySE(5, "s05/00/boyall00001b", 128, 64);
 	PlaySE(6, "s05/00/boyall00001c", 128, 64);
 	PlaySE(7, "s05/00/boyall00001d", 128, 64);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「先生ぇ〜、さよ〜〜ならッ！！」」」",
 		   NULL, "\"\"\"Goodbye, teacher!!\"\"\"", Line_Normal);
 	ClearMessage();
@@ -4497,7 +4497,7 @@ void main()
 	PlaySE(4, "s05/13/101300074", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「つまり、……同盟も村も、本当の意味で支配している別の存在がいる…ということですね？",
-		   NULL, "\"In other words... there's something else in charge of both the Alliance and the village?", Line_WaitForInput);
+		   NULL, "\"In other words... there's someone else in charge of both the Alliance and the village?", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300075", 128, 64);
 	OutputLine(NULL, "　それが先ほど仰られていた御三家…という存在ですか？」",
 		   NULL, " Would that be the three families we just talked about?\"", Line_ModeSpecific);
@@ -6032,7 +6032,7 @@ void main()
 		   NULL, " What kind of information are you looking for?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700155", 128, 64);
 	OutputLine(NULL, "　内容によって多少、アプローチが変わることもありますので…。」",
-		   NULL, " Depending on what you what, how we approach this will probably change...\"", Line_Normal);
+		   NULL, " Depending on what you want, how we approach this will probably change...\"", Line_Normal);
 	ClearMessage();
 
 
@@ -6753,7 +6753,7 @@ void main()
 //　…それに気付くのには、……もう少しの時間が必要だった…￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに気付くのには、……もう少しの時間が必要だった…。",
-		   NULL, "...For me to realize that... would take a little more time..", Line_Normal);
+		   NULL, "...For me to realize that... would take a little more time...", Line_Normal);
 	ClearMessage();
 
 //■幕間
