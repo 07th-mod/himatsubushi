@@ -3590,8 +3590,10 @@ void main()
 
 //「今日の私の負け分を、ちょーっぴり返してくれればいいだけじゃないですか＠なっはっはっは！￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「今日の私の負け分を、ちょーっぴり返してくれればいいだけじゃないですか。",
-		   NULL, "\"You can just give back a little of what I lost tonight.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700338", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「んじゃ、今度の勝負で少し手加減してもらえたらチャラにしますよ。",
+		   NULL, "\"'kay. If you go easy on me the next time, we'll be even.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700009", 128, 64);
 	OutputLine(NULL, "なっはっはっは！」",
 		   NULL, " Na ha ha ha!\"", Line_Normal);
