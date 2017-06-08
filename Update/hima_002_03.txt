@@ -1983,7 +1983,7 @@ void main()
 //……親ですからね、ちょっぴり高いですよ。＠
 	PlaySE(4, "s05/13/101300313", 128, 64);
 	OutputLine(NULL, "……親ですからね、ちょっぴり高いですよ。」",
-		   NULL, "...I'm the dealer, so this'll cost you quite a bit.\"", Line_ModeSpecific);
+		   NULL, " ...I'm the dealer, so this'll cost you quite a bit.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2033,7 +2033,7 @@ void main()
 //　…何だか素敵に凄みが…＠なはははははは………＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何だか素敵に凄みが…。",
-		   NULL, "..This is somehow unreal...", Line_WaitForInput);
+		   NULL, "...This is somehow unreal...", Line_WaitForInput);
 	OutputLine(NULL, "なはははははは………。",
 		   NULL, " Nahahahaha...", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2069,7 +2069,7 @@ void main()
 //マンズの二五八が笑ってませんか？＠
 	PlaySE(4, "s05/13/101300317", 128, 64);
 	OutputLine(NULL, "マンズの二五八が笑ってませんか？」",
-		   NULL, " The 2,5, and 8 manzus are laughing at you.\"", Line_ModeSpecific);
+		   NULL, " The 2, 5, and 8 manzus are laughing at you.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2164,7 +2164,7 @@ void main()
 //ピンフ。￥
 	PlaySE(4, "s05/13/101300320", 128, 64);
 	OutputLine(NULL, "ピンフ。」",
-		   NULL, "Straight.\"", Line_Normal);
+		   NULL, " Straight.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
