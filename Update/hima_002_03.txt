@@ -1575,7 +1575,6 @@ void main()
 
 //「聴牌」/
 	PlaySE(4, "s05/11/100700279", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「聴牌」",
 		   NULL, "'Tenpai'.", Line_ContinueAfterTyping);
 
