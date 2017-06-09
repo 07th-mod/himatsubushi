@@ -194,9 +194,9 @@ void main()
 //　だから、選ばなかった方の箱の中身は知ることができない＠そういうルールがあることを、最後に付け加えておくね￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、選ばなかった方の箱の中身は知ることができない。",
-		   NULL, "So you'll never know the contents of box you don't open.", Line_WaitForInput);
+		   NULL, "So you'll never know the contents of the box you don't open.", Line_WaitForInput);
 	OutputLine(NULL, "そういうルールがあることを、最後に付け加えておくね？",
-		   NULL, " I'll just put that that rule at the end there for you.", Line_Normal);
+		   NULL, " I'll just put that rule at the end there for you.", Line_Normal);
 	ClearMessage();
 
 

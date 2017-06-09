@@ -2219,7 +2219,7 @@ void main()
 		   NULL, " If ya buy 'im some medicine for tha', mebbe tha'll calm 'im down.", Line_WaitForInput);
 	PlaySE(4, "s05/14/104700026", 128, 64);
 	OutputLine(NULL, "間違って飲んでも死なんしな。」",
-		   NULL, " It won' kill 'im if we're wrong, neither.\"", Line_Normal);
+		   NULL, " It won' kill 'im if we're wrong, either.\"", Line_Normal);
 	ClearMessage();
 
 
