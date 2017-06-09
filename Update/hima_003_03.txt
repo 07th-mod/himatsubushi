@@ -206,7 +206,7 @@ void main()
 //　でも、出来過ぎで、…何だか気持ち悪い＠そんな感情￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、出来過ぎで、…何だか気持ち悪い。",
-		   NULL, "But it was too perfect.. sickeningly so.", Line_WaitForInput);
+		   NULL, "But it was too perfect... sickeningly so.", Line_WaitForInput);
 	OutputLine(NULL, "そんな感情。",
 		   NULL, " That was my feeling.", Line_Normal);
 	ClearMessage();
@@ -248,13 +248,10 @@ void main()
 
 
 //「えぇ＠大臣の孫も、もう誘拐されてから何日にもなって可哀想だ＠そろそろ解放されるといいなぁ、と＠そうお魎の婆さんが、縁側でぼそりと呟いたってな話らしいんです＠で、そのぼそりが園崎家の裏の裏のあちこちに伝えられてるようです。￥
-	PlaySE(4, "s05/11/100700486", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「えぇ。",
-		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700487", 128, 64);
-	OutputLine(NULL, "大臣の孫も、もう誘拐されてから何日にもなって可哀想だ。",
-		   NULL, " 'It's been several days since the Minister's grandson has been kidnapped. Poor boy.", Line_WaitForInput);
+	OutputLine(NULL, "「大臣の孫も、もう誘拐されてから何日にもなって可哀想だ。",
+		   NULL, "\"'It's been several days since the Minister's grandson has been kidnapped. Poor boy.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700488", 128, 64);
 	OutputLine(NULL, "そろそろ解放されるといいなぁ、と。",
 		   NULL, " It'd be nice if they let him go soon.'", Line_WaitForInput);
@@ -492,7 +489,7 @@ void main()
 //　…始めから最後まで、全てを知っている少女が、……私にした一番最初の警告。東京へ帰れ￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…始めから最後まで、全てを知っている少女が、……私にした一番最初の警告。東京へ帰れ。",
-		   NULL, "..The girl, who knew everything from start to finish, had warned me in the beginning. Go back to Tokyo.", Line_Normal);
+		   NULL, "...The girl, who knew everything from start to finish, had warned me in the beginning. Go back to Tokyo.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawBustshot( 2, "ri_si_ny_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
