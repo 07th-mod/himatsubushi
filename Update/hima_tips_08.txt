@@ -189,75 +189,77 @@ void main()
 	OutputLine(NULL, "「まぁ、調べる団体はそこだけじゃないんですがね？",
 		   NULL, "\"Well, they're not the only group we should investigate, right?", Line_WaitForInput);
 	OutputLine(NULL, "　あははは！",
-		   NULL, " Ahahaha!", Line_WaitForInput);
+		   NULL, " Ahahaha!", Line_ModeSpecific);
 	PlaySE(4, "s20/00/442600011", 128, 64);
-	OutputLine(NULL, "　鬼ヶ淵と同じ程度のレベルで疑わしい団体になると、もう相当の数になりますよ。",
-		   NULL, " If we're just talking about groups that are as suspicious as Onigafuchi, there's quite a few of them.", Line_Normal);
-	ClearMessage();
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鬼ヶ淵と同じ程度のレベルで疑わしい団体になると、もう相当の数になりますよ。",
+		   NULL, "If we're just talking about groups that are as suspicious as Onigafuchi, there's quite a few of them.", Line_WaitForInput);
 
 
 //「赤坂くんからさ、もうちょっと詳しく聞いてみてよ＠…俺はちょっと要注意に感じるけどなぁ、その死守同盟。＠
 	PlaySE(4, "s20/00/442600012", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人手も時間も残業代も全然足りません。」",
-		   NULL, "We don't have the men, the time, or the money for it all.\"", Line_WaitForInput);
+		   NULL, " We don't have the men, the time, or the money for it all.\"", Line_Normal);
+	ClearMessage();
 	PlaySE(4, "s20/00/kataoka44013", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂くんからさ、もうちょっと詳しく聞いてみてよ。",
-		   NULL, " \"I'll try asking for more details from Akasaka-kun.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "\"I'll try asking for more details from Akasaka-kun.", Line_WaitForInput);
 
 
 //「彼、村人とうまく接触できたって連絡してきました＠現地の警察とも連携できてるみたいですね。￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺はちょっと要注意に感じるけどなぁ、その死守同盟。」",
-		   NULL, "...I feel like we should pay some extra attention to this Defense Alliance.\"", Line_WaitForInput);
+		   NULL, " ...I feel like we should pay some extra attention to this Defense Alliance.\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	PlaySE(4, "s20/00/442600013", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「彼、村人とうまく接触できたって連絡してきました。",
-		   NULL, " \"He's reported that he's established a rapport with the villagers.", Line_Normal);
-	ClearMessage();
+		   NULL, "\"He's reported that he's established a rapport with the villagers.", Line_WaitForInput);
 
 
 //「赤坂くんとの連絡、密にしてください＠それで、彼からの情報が引っ掛かるようであれば、増援を送ることもありということで。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "現地の警察とも連携できてるみたいですね。」",
-		   NULL, "It also seems that he's collaborating with the local police.\"", Line_WaitForInput);
-	PlaySE(4, "s20/00/kataoka44014", 128, 64);
-	OutputLine(NULL, "「赤坂くんとの連絡、密にしてください。",
-		   NULL, " \"Keep your contact with Akasaka-kun on the down-low.", Line_Normal);
+		   NULL, " It also seems that he's collaborating with the local police.\"", Line_Normal);
 	ClearMessage();
+	PlaySE(4, "s20/00/kataoka44014", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「赤坂くんとの連絡、密にしてください。",
+		   NULL, "\"Keep your contact with Akasaka-kun on the down-low.", Line_WaitForInput);
 
 //「わっかりました。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それで、彼からの情報が引っ掛かるようであれば、増援を送ることもありということで。」",
-		   NULL, "Also, if there's anything in his info that merits investigation, it's possible we can send reinforcements.\"", Line_Normal);
+		   NULL, " Also, if there's anything in his info that merits investigation, it's possible we can send reinforcements.\"", Line_Normal);
 	ClearMessage();
 
 //「………あ、すみません、片岡室長～＠　局長からお電話です＠こっちに回しますか？＠
 	PlaySE(4, "s20/00/442600014", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わっかりました。」",
-		   NULL, "\"Got it.\"", Line_WaitForInput);
-	PlaySE(4, "s20/00/442600015", 128, 64);
-	OutputLine(NULL, "「………あ、すみません、片岡室長〜！",
-		   NULL, " \"...Ah, sorry... Chief Kataoka~!", Line_WaitForInput);
-	OutputLine(NULL, "　局長からお電話です。",
-		   NULL, " There's a phone call from the Director.", Line_ModeSpecific);
+		   NULL, "\"Got it.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	PlaySE(4, "s20/00/442600015", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「………あ、すみません、片岡室長〜！",
+		   NULL, "\"...Ah, sorry... Chief Kataoka~!", Line_WaitForInput);
+	OutputLine(NULL, "　局長からお電話です。",
+		   NULL, " There's a phone call from the Director.", Line_WaitForInput);
 
 
 //「あ、いい、いい＠　そっち行きます＠…もしもし＠　片岡です…………。￥
 	PlaySE(4, "s20/00/442600016", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こっちに回しますか？」",
-		   NULL, "Should I transfer it over here?\"", Line_WaitForInput);
+		   NULL, " Should I transfer it over here?\"", Line_ModeSpecific);
 	PlaySE(4, "s20/00/kataoka44015", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あ、いい、いい！",
-		   NULL, " \"Ah, no, it's okay!", Line_WaitForInput);
+		   NULL, "\"Ah, no, it's okay!", Line_WaitForInput);
 	OutputLine(NULL, "　そっち行きます。",
 		   NULL, " I'll head over there.", Line_WaitForInput);
 	PlaySE(4, "s20/00/kataoka44016", 128, 64);
 	OutputLine(NULL, "…もしもし！",
-		   NULL, " ...Yes hello?", Line_Normal);
+		   NULL, " ...Yes hello?\"", Line_Normal);
 	ClearMessage();
 
 
