@@ -24,6 +24,7 @@ void main()
 
 //「………電話のコードを切って回ってたの、梨花ちゃんだろ＠　駄目だよ、もうしちゃ。＠
 	PlaySE(4, "s05/13/101300621", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………電話のコードを切って回ってたの、梨花ちゃんだろ？",
 		   NULL, "\"...The person who was running around cutting all the phone cords was you, wasn't it, Rika-chan?", Line_WaitForInput);

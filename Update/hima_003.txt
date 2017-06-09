@@ -21,6 +21,7 @@ void main()
 	DrawScene( "black", 400 );
 
 //　………寝つきの悪い夜だった￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………寝つきの悪い夜だった。",
 		   NULL, "...I had a restless night's sleep.", Line_Normal);

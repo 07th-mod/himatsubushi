@@ -29,6 +29,7 @@ void main()
 
 //「……うん＠昨日、銀座の料亭でお会いしてね＠そういう話が出たんだよ。￥
 	PlaySE(4, "s20/00/kataoka44001", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……うん。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);

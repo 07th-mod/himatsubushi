@@ -27,6 +27,7 @@ void main()
 //!sd
 
 //「お客様、お客様…＠本機は着陸態勢に入りました＠申し訳ございませんが、シートベルトをお締めになってください。￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お客様、お客様…。",
 		   NULL, "\"Sir, sir...", Line_WaitForInput);

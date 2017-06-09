@@ -21,6 +21,7 @@ void main()
 	DrawSceneWithMask( "bg_056", "m1", 0, 0, 300 );
 
 //　市内の安ホテルでの目覚めは、お世辞にも快適とは言えなかった￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　市内の安ホテルでの目覚めは、お世辞にも快適とは言えなかった。",
 		   NULL, "Waking up in a cheap hotel in the city was by no means pleasant.", Line_Normal);

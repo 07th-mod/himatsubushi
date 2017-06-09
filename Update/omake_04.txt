@@ -39,6 +39,7 @@ void main()
 
 //「この度は『ひぐらしのなく頃に～暇潰し編～』をプレイして下さり、誠にありがとうございます＠むっふっふっふ！＠
 	PlaySE(4, "s20/11/440700421", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「この度は『ひぐらしのなく頃に〜暇潰し編〜』をプレイして下さり、誠にありがとうございます。",
 		   NULL, "\"Thank you for very much for playing Higurashi When They Cry ~Himatsubushi~.", Line_WaitForInput);

@@ -23,6 +23,7 @@ void main()
 //■歯車と火事と蜜の味
 
 //　人と人のつながりで営まれている人の世の生活だけど＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人と人のつながりで営まれている人の世の生活だけど。",
 		   NULL, "The world is filled with people blessed with relationships.", Line_ModeSpecific);

@@ -21,6 +21,7 @@ void main()
 	DrawScene( "bg_200", 400 );
 
 //　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった。",
 		   NULL, "If you were to call Hinamizawa a rather lonely village, then Takatsudo was outright desolate.", Line_ModeSpecific);

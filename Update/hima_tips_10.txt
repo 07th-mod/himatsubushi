@@ -28,6 +28,7 @@ void main()
 
 //「…えぇ、ハイ＠…それでお通夜が明日の午後６時からになりまして、告別式が明後日のお昼、１２時から１３時までになりまして＠会場は興宮セレモニホールになります…。￥
 	PlaySE(4, "s20/00/kanryoc44001", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#f5e6d3>役人</color>", NULL, "<color=#f5e6d3>Government Official</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…えぇ、ハイ。",
 		   NULL, "\"...Uh-huh, yes.", Line_WaitForInput);

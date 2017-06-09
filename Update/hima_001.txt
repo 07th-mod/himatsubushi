@@ -47,6 +47,7 @@ void main()
 
 
 //　時間の読みを間違え、早く来すぎてしまった￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時間の読みを間違え、早く来すぎてしまった。",
 		   NULL, "I had misread the time, and ended up arriving too early.", Line_Normal);
