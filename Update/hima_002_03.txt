@@ -5335,11 +5335,10 @@ void main()
 		   NULL, "\"Or, there's the possibility that there was never a culprit in the first place.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400070", 128, 64);
 	OutputLine(NULL, "…お魎自身、その満座の一同の中に、誘拐犯がいるって確信を持ってるわけじゃない。",
-		   NULL, " ...Oryou herself, in that room full of people, didn't explicitly say that somebody pulled off the kidnapping. ", Line_ModeSpecific);
+		   NULL, " ...Oryou herself, in that room full of people, didn't explicitly say that somebody pulled off the kidnapping.", Line_WaitForInput);
 	PlaySE(4, "s05/00/104400071", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ただ、自分の「意見」を述べただけさ。」",
-		   NULL, "She was just giving her 'opinion'.\"", Line_Normal);
+		   NULL, " She was just giving her 'opinion'.\"", Line_Normal);
 	ClearMessage();
 
 
