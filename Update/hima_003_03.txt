@@ -860,7 +860,7 @@ void main()
 
 //「大石さんじゃありませんか＠こんにちは＠…はっはは、珍しいところでお会いしますね。＠
 	PlaySE(4, "s05/10/101000015", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大石さんじゃありませんか。",
 		   NULL, "\"Why, if it isn't Ooishi-san.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000016", 128, 64);
@@ -894,7 +894,7 @@ void main()
 
 //「いえね、ちょっとした往診です。￥
 	PlaySE(4, "s05/10/101000018", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いえね、ちょっとした往診です。」",
 		   NULL, "\"Oh nothing, just a little house call.\"", Line_Normal);
 	ClearMessage();
@@ -915,7 +915,7 @@ void main()
 
 //「いえ、…そんなに大したことではありませんでした＠良かったですよ。＠
 	PlaySE(4, "s05/10/101000019", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いえ、…そんなに大したことではありませんでした。",
 		   NULL, "\"No... nothing quite that serious.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000020", 128, 64);
@@ -938,7 +938,7 @@ void main()
 
 //「ではこれで＠…急いで戻らないとスタッフに怒られますんで。＠
 	PlaySE(4, "s05/10/101000021", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ではこれで。",
 		   NULL, "\"I'll take my leave here.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000022", 128, 64);

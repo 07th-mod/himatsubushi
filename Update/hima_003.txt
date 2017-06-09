@@ -2700,7 +2700,7 @@ void main()
 
 //「………………………彼は？＠
 	PlaySE(4, "s05/10/101000001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………彼は？」",
 		   NULL, "\"...Who's he?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2716,7 +2716,7 @@ void main()
 
 //「……………村の子じゃありませんね？＠
 	PlaySE(4, "s05/10/101000002", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………村の子じゃありませんね？」",
 		   NULL, "\"...He's not one of the kids from the village, is he?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2751,7 +2751,7 @@ void main()
 
 //「…………………。＠
 	PlaySE(4, "s05/10/101000003", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2776,7 +2776,7 @@ void main()
 
 //「……その古い手術跡というのが気になります＠何の手術でしたか？＠
 	PlaySE(4, "s05/10/101000004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……その古い手術跡というのが気になります。",
 		   NULL, "\"...I'm concerned about this old surgical scar.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000005", 128, 64);
@@ -2847,7 +2847,7 @@ void main()
 
 //「…………大丈夫ですか＠　私は医者です＠この手術跡はいつ頃のものですか？＠
 	PlaySE(4, "s05/10/101000007", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………大丈夫ですか？",
 		   NULL, "\"...Are you all right?", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000008", 128, 64);
@@ -2889,7 +2889,7 @@ void main()
 
 //「事故＠……そうですか……＠…参ったな……。＠
 	PlaySE(4, "s05/10/101000010", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「事故。",
 		   NULL, "\"An accident.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000011", 128, 64);
@@ -2920,7 +2920,7 @@ void main()
 
 //「患部を少し触りますよ＠　痛むところがあったら言って下さいね？￥
 	PlaySE(4, "s05/10/101000013", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「患部を少し触りますよ？",
 		   NULL, "\"I'm going to touch the affected area, okay?", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000014", 128, 64);

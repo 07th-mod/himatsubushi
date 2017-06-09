@@ -40,7 +40,7 @@ void main()
 
 //「………もしもし…＠　大丈夫ですか…？＠
 	PlaySE(4, "s05/10/101000023", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………もしもし…？",
 		   NULL, "\"...Hello?", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000024", 128, 64);
@@ -89,7 +89,7 @@ void main()
 
 //「起きないで横になっていて下さい＠頭をだいぶ殴られたようですからね…＠２４時間は特に安静にして容態を見守りたいところです。＠
 	PlaySE(4, "s05/10/101000025", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>若い医者</color>", NULL, "<color=#f5e6d3>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>若い医者</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「起きないで横になっていて下さい。",
 		   NULL, "\"Don't try to get up. Just stay lying down, please.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000026", 128, 64);
