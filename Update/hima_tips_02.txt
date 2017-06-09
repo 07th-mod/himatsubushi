@@ -25,6 +25,7 @@ void main()
 	PlaySE( 3, "wa_021", 128, 64 );
 
 //　××会長さん＠××会の皆さん＠この度は××会創立二十五周年、誠におめでとうございます￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　××会長さん、",
 		   NULL, "Chairman XX,", Line_WaitForInput);

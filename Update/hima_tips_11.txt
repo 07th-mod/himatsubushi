@@ -23,6 +23,7 @@ void main()
 //■とてもやさしい人なの
 
 //　入院患者に電話が取り次がれる時間は決まっている＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入院患者に電話が取り次がれる時間は決まっている。",
 		   NULL, "Patients admitted to the hospital can only accept calls at fixed times.", Line_ModeSpecific);

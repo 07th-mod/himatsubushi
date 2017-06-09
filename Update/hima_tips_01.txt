@@ -20,6 +20,7 @@ void main()
 
 //「…そうですか＠急な出張は大変ですね…＠どうぞお気をつけて＠出張はどちらへですか＠　もう出張先なんですか？＠
 	PlaySE(4, "s20/00/yukie44001", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…そうですか。",
 		   NULL, "\"...Oh really?", Line_WaitForInput);

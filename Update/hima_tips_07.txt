@@ -28,6 +28,7 @@ void main()
 
 //「だいぶ血圧もよくなってきましたよ＠そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです＠
 	PlaySE(4, "s20/10/441000048", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だいぶ血圧もよくなってきましたよ。",
 		   NULL, "\"Your blood pressure has improved.", Line_WaitForInput);

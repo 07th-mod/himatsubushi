@@ -28,6 +28,7 @@ void main()
 	DrawScene( "bg_093", 400 );
 
 //　ある晴れた学校の参観日＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ある晴れた学校の参観日。",
 		   NULL, "One sunny Parent-Teacher Day.", Line_ModeSpecific);

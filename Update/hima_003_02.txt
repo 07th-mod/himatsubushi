@@ -22,6 +22,7 @@ void main()
 
 //「えぇえぇ、皆さんもご苦労さんなことです＠お暑いでしょうが、せいぜい頑張って下さいよ＠不法投棄のダンプが現れたらすぐにご連絡下さい＠急行いたしますのでね。￥
 	PlaySE(4, "s05/11/100700391", 128, 64);
+	ClearMessage();
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇえぇ、皆さんもご苦労さんなことです。",
 		   NULL, "\"Ehhh, good work, everyone.", Line_WaitForInput);

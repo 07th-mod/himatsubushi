@@ -22,6 +22,7 @@ void main()
 	DrawScene( "Sunset/bg_074", 1000 );
 
 //　車は神社の駐車場に停まる＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　車は神社の駐車場に停まる。",
 		   NULL, "The van stopped in the shrine's parking lot.", Line_ModeSpecific);

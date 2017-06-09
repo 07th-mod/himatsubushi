@@ -23,6 +23,7 @@ void main()
 	DrawScene( "black", 1000 );
 
 //　私はあの子がどこか好かない＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はあの子がどこか好かない。",
 		   NULL, "There was something I didn't like about my child.", Line_ModeSpecific);

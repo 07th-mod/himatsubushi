@@ -28,6 +28,7 @@ void main()
 	DrawScene( "bg_069", 400 );
 
 //　あの子が親類会議の時に、またお魎さんの布団に潜り込もうとする￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの子が親類会議の時に、またお魎さんの布団に潜り込もうとする。",
 		   NULL, "During the family council, she buried herself under Oryou-san's futon again.", Line_Normal);

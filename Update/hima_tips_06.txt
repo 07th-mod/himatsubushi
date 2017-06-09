@@ -24,6 +24,7 @@ void main()
 	DrawScene( "bg_203", 400 );
 
 //　天気予報が、今週一週間、雨がまったく降らないことを予告した￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　天気予報が、今週一週間、雨がまったく降らないことを予告した。",
 		   NULL, "The weather forecast had predicted that it wouldn't rain at all this entire week.", Line_Normal);

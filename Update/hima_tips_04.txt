@@ -24,6 +24,7 @@ void main()
 //■トランクの雛
 
 //　車が止まった￥
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　車が止まった。",
 		   NULL, "The car had stopped.", Line_Normal);

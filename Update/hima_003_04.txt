@@ -19,6 +19,7 @@ void main()
 
 
 //　………意識を失うというのは、初めての経験だった＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………意識を失うというのは、初めての経験だった。",
 		   NULL, "...That was my first time losing consciousness.", Line_ModeSpecific);

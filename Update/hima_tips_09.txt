@@ -25,6 +25,7 @@ void main()
 //■箱選びゲーム
 
 //　人生に選択肢なんて、あると思う＠
+	ClearMessage();
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人生に選択肢なんて、あると思う？",
 		   NULL, "Do you believe that there are choices in life?", Line_ModeSpecific);
