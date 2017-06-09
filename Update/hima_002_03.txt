@@ -5751,15 +5751,16 @@ void main()
 //「…えぇ＠ほかほかのふっかふか。＠
 	PlaySE(4, "s05/00/mionf00005", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>魅音の父</color>", NULL, "<color=#f5e6d3>Mion's dad</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「…えぇ。",
-		   NULL, "\"...Yeah.", Line_WaitForInput);
+	OutputLine(NULL, "「…えぇ。」",
+		   NULL, "\"...Yeah.\"", Line_ModeSpecific);
 
 	DisableWindow();
 	DrawBustshot( 1, "ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	PlaySE(4, "s05/27/100500102", 128, 64);
-	OutputLine(NULL, "ほかほかのふっかふか。」",
-		   NULL, " Tender and tasty.\"", Line_ModeSpecific);
+	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ほかほかのふっかふか。」",
+		   NULL, "\"Tender and tasty.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
