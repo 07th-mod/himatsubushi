@@ -1835,18 +1835,18 @@ void main()
 	PlaySE(4, "s05/11/100700768", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「司法解剖の結果、性的暴行の痕跡は認められませんでした。",
-		   NULL, "\"According to the autopsy, there wasn't any indication of that.", Line_WaitForInput);
+		   NULL, "\"According to the autopsy, there wasn't any indication of that. ", Line_ModeSpecific);
 
 	PlaySE( 3, "wa_025", 128, 64 );
 
 //……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹＠意図的に臓器を引きずり出して、四方に散らして見せました。＠
 	PlaySE(4, "s05/11/100700769", 128, 64);
-	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
-		   NULL, " ...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700770", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
+		   NULL, "...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700770", 128, 64);
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
-		   NULL, "Her organs were deliberately removed and scattered about.\"", Line_ModeSpecific);
+		   NULL, " Her organs were deliberately removed and scattered about.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1953,7 +1953,7 @@ void main()
 //　自らの最期を知りながら、…その流れに飲まれたまま生涯を終えた少女の無念に、……胸が締め付けられた￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの最期を知りながら、…その流れに飲まれたまま生涯を終えた少女の無念に、……胸が締め付けられた。",
-		   NULL, "Knowing that her days were numbered...and unable to fight the tide of events heralding her end... my heart ached at her helplessness.", Line_Normal);
+		   NULL, "Knowing that her days were numbered... and unable to fight the tide of events heralding her end... my heart ached at her helplessness.", Line_Normal);
 	ClearMessage();
 
 
@@ -1984,7 +1984,7 @@ void main()
 	PlaySE(4, "s05/11/100700774", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
-		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drift',  seems to stem from the drifting of entrails. ", Line_ModeSpecific);
+		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting',  seems to stem from the drifting of entrails. ", Line_ModeSpecific);
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。」",
 		   NULL, "...It seems that it came from the man-eating demons ripping apart their victims and throwing their organs into the river.\"", Line_ModeSpecific);
@@ -2168,7 +2168,7 @@ void main()
 	PlaySE(4, "s05/13/101300733", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…村の信仰を巡って、狂信的な一派があったと仮定し、",
-		   NULL, "\"...In regards to the religious beliefs of the villagers... suppose there was a more fanatical following among them... ", Line_ModeSpecific);
+		   NULL, "\"...In regards to the religious beliefs of the villagers... suppose there was a more fanatical group among them... ", Line_ModeSpecific);
 	PlaySE(4, "s05/13/101300734", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…彼らが「オヤシロさまのお怒り」があるような状況を作り出し、大災害を実行して見せた…。」",
@@ -2212,7 +2212,7 @@ void main()
 	OutputLine(NULL, "　夜明けまでは数時間だ。",
 		   NULL, "Several hours before dawn.", Line_WaitForInput);
 	OutputLine(NULL, "その短い時間で、村人をガス中毒死に見えるような形で全員殺してまわるなんて、………確かに考えられない。",
-		   NULL, " In that short amount of time, going and around killing all the villagers in a way that made it look like poison gas... didn't seem feasible at all.", Line_Normal);
+		   NULL, " In that short amount of time, going around and killing all the villagers in a way that made it look like poison gas... didn't seem feasible at all.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2595,7 +2595,7 @@ void main()
 	PlaySE(4, "s05/13/101300762", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも、…彼女の死は災害ではなく、殺人者の手による残忍なものであることがわかりました。",
-		   NULL, "However... now I know that her death wasn't due to that,  but rather an atrocious one at the hands of a murderer.", Line_WaitForInput);
+		   NULL, "However... now I know that her death wasn't due to that, but rather an atrocious one at the hands of a murderer.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300763", 128, 64);
 	OutputLine(NULL, "…………彼女は、殺される、と言った。",
 		   NULL, " ...She said she would be killed. ", Line_ModeSpecific);
@@ -2612,7 +2612,7 @@ void main()
 	PlaySE(4, "s05/11/100700822", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……なら、古手梨花は、どうして逃げ出さなかったんですかねぇ。」",
-		   NULL, "\"...Then, why didn't Rika Furude not try and run away?\"", Line_ModeSpecific);
+		   NULL, "\"...Then, why didn't Rika Furude try and run away?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2953,7 +2953,7 @@ void main()
 //　大石氏はさっき、…自分の後輩が、自分が不在だったために事件に巻き込まれ消息を絶ったことを嘆いた。
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏はさっき、…自分の後輩が、自分が不在だったために事件に巻き込まれ消息を絶ったことを嘆いた。",
-		   NULL, "Ooishi, just before now.. had lamented that one of the younger officers gotten mixed up in a case, having been erased because he wasn't there.", Line_ModeSpecific);
+		   NULL, "Ooishi, just before now... had lamented that one of the younger officers gotten mixed up in a case, having been erased because he wasn't there.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3006,7 +3006,7 @@ void main()
 //　一対一での格闘に遅れなど取らないし、拳銃どころか機関銃を持つような外国マフィアの鉄火場にもいくつも飛び込んだ＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一対一での格闘に遅れなど取らないし、拳銃どころか機関銃を持つような外国マフィアの鉄火場にもいくつも飛び込んだ。",
-		   NULL, "I wouldn't have been slow to react in a one-on-one fight, and I'd by that point I'd jumped into foreign mafia-run gambling parlors where I'd learned to deal with automatic weapons, let alone handguns.", Line_ModeSpecific);
+		   NULL, "I wouldn't have been slow to react in a one-on-one fight, and by that point I'd jumped into foreign mafia-run gambling parlors where I'd learned to deal with automatic weapons, let alone handguns.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3541,7 +3541,7 @@ void main()
 	PlaySE(4, "s05/13/101300782", 128, 64);
 	if (AdvMode) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………真相……。」",
-		   NULL, "\"....The truth...\"", Line_Normal);
+		   NULL, "\"...The truth...\"", Line_Normal);
 	ClearMessage();
 
 
