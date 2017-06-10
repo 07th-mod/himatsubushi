@@ -299,7 +299,7 @@ void main()
 	PlaySE(4, "s20/02/440200292", 128, 64);
 	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そそ、そんなことないよ…。",
-		   NULL, "\"Th-Th-That's not true..", Line_WaitForInput);
+		   NULL, "\"Th-Th-That's not true...", Line_WaitForInput);
 	PlaySE(4, "s20/02/440200293", 128, 64);
 	OutputLine(NULL, "沙都子ちゃんの好きな人だって、大勢いるんだもん。",
 		   NULL, " There's lots of people who like Satoko-chan.", Line_WaitForInput);
@@ -1349,7 +1349,7 @@ void main()
 
 	PlaySE(4, "s20/10/441000102", 128, 64);
 	OutputLine(NULL, "　とお！！！」",
-		   NULL, "Hiyah!!!\"", Line_ContinueAfterTyping);
+		   NULL, " Hiyah!!!\"", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_009", 128, 64 );
 
@@ -1723,10 +1723,11 @@ void main()
 		   NULL, "\"You don't understand, Shii-chan.", Line_WaitForInput);
 	PlaySE(4, "s20/02/440200328", 128, 64);
 	OutputLine(NULL, "…例えお疲れ様会だけと言えども出演し、過去のシナリオにもあれだけ登場しておいてこの狼藉。",
-		   NULL, " ...Even if it's just the afterparty, you still have an appearance. You also appeared a lot in the previous scenarios.", Line_WaitForInput);
+		   NULL, " ...Even if it's just the afterparty, you still have an appearance. You also appeared a lot in the previous scenarios. ", Line_ModeSpecific);
 	PlaySE(4, "s20/02/440200329", 128, 64);
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……そんな詩ぃちゃんをね、",
-		   NULL, " There's somebody...", Line_ContinueAfterTyping);
+		   NULL, "There's somebody...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -2308,10 +2309,11 @@ void main()
 		   NULL, "\"Maebara-sama, you're the best~~!!!!!", Line_WaitForInput);
 	PlaySE(4, "s20/10/441000114", 128, 64);
 	OutputLine(NULL, "　その後はバニーさんにバドガールに、いえいえ、ランジェリー姿もいいですねぇ！！",
-		   NULL, " How about a bunny girl, or campaign girl costu-- no no, lingerie could be good too!!", Line_WaitForInput);
+		   NULL, " How about a bunny girl, or campaign girl costu-- no no, lingerie could be good too!! ", Line_ModeSpecific);
 	PlaySE(4, "s20/10/441000115", 128, 64);
+	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いやいや！！",
-		   NULL, " No, wait!!", Line_WaitForInput);
+		   NULL, "No, wait!!", Line_WaitForInput);
 
 //　いっそ、みんな全裸にしちゃうってのはどうでしょう～～！！＠　も、もちろん、靴下は残すのでありまっす！！！￥
 	PlaySE(4, "s20/10/441000116", 128, 64);
@@ -2323,7 +2325,7 @@ void main()
 
 	PlaySE(4, "s20/10/441000117", 128, 64);
 	OutputLine(NULL, "　も、もちろん、靴下は残すのでありまっす！！！」",
-		   NULL, "B-But of course, leave the socks on!!!\"", Line_Normal);
+		   NULL, " B-But of course, leave the socks on!!!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2524,7 +2526,7 @@ void main()
 //　この闇では…誰にも立ち向かえない！！/
 	PlaySE(4, "s20/00/narra44005", 128, 64);
 	OutputLine(NULL, "　この闇では…誰にも立ち向かえない！！",
-		   NULL, "In this darkness... nobody could stand against him!!", Line_ContinueAfterTyping);
+		   NULL, " In this darkness... nobody could stand against him!!", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
@@ -2537,7 +2539,7 @@ void main()
 //　屈する他ない！！！/
 	PlaySE(4, "s20/00/narra44006", 128, 64);
 	OutputLine(NULL, "　屈する他ない！！！",
-		   NULL, "All must bow!!!", Line_ContinueAfterTyping);
+		   NULL, " All must bow!!!", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 1000, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -2550,7 +2552,7 @@ void main()
 	PlaySE(4, "s20/00/narra44007", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁ、ヒロインたちはこの闇を抜け出せず、魔王たちの思うがままに、恥ずかしい衣装を次々と強要され、",
-		   NULL, "Ahh, will the heroines be unable to escape this darkness and be forced to submit to the will of the Demon Lord, forced to wear embarrassing outfit after embarrassing outfit,", Line_ContinueAfterTyping);
+		   NULL, "<size=-2>Ahh, will the heroines be unable to escape this darkness and be forced to submit to the will of the Demon Lord, forced to wear embarrassing outfit after embarrassing outfit,</size>", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -2562,7 +2564,7 @@ void main()
 //永遠に等身大着せ替え人形の扱いをされてしまうのかッ？！？！/
 	PlaySE(4, "s20/00/narra44008", 128, 64);
 	OutputLine(NULL, "永遠に等身大着せ替え人形の扱いをされてしまうのかッ？！？！",
-		   NULL, "being used as life-size dress-up dolls for all eternity!?!?", Line_ContinueAfterTyping);
+		   NULL, "<size=-2> being used as life-size dress-up dolls for all eternity!?!?</size>", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
