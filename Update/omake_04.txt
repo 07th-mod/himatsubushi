@@ -68,6 +68,7 @@ void main()
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いやいやぁ、何だかんだと言いましても、今回のシナリオは私の独壇場でしたからねぇ。",
 		   NULL, "\"My oh my, no matter what anybody else says, I was the star of the scenario this time.", Line_WaitForInput);
+	PlaySE(4, "s20/11/440700424", 128, 64);
 	OutputLine(NULL, "しかも渋いジャズ調なテーマ曲まで追加！",
 		   NULL, " On top of that they added some nice jazzy theme music!", Line_WaitForInput);
 	PlaySE(4, "s20/11/440700425", 128, 64);
