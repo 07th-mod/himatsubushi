@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -829,7 +829,7 @@
 //「お医者の世話にならずに済むなら、それに越したことはないです＠んっふっふっふ…！￥
 	PlaySE(4, "s05/11/100700533", 128, 64);
 	OutputLine(NULL, "「お医者の世話にならずに済むなら、それに越したことはないです。",
-		   NULL, "", Line_WaitForInput);
+		   NULL, "\"If the doctor didn't need to do anything, I'm sure it wasn't a big deal.", Line_WaitForInput);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfufufu...!\"", Line_Normal);
 	ClearMessage();
