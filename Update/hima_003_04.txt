@@ -111,7 +111,7 @@ void main()
 
 //「私の診療所です＠入江と申します、よろしく。＠
 	PlaySE(4, "s05/10/101000028", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「私の診療所です。",
 		   NULL, "\"This is my clinic.", Line_WaitForInput);
 	PlaySE(4, "s05/10/101000029", 128, 64);
@@ -373,7 +373,7 @@ void main()
 		   NULL, "\"They're taking care of him at the station.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700613", 128, 64);
 	OutputLine(NULL, "ただ、東京のあなたのご同僚から、一切の調書は取るなと釘を刺されたらしいですよ？",
-		   NULL, " But your colleagues from Tokyo are rather insistent that nothing be recorded.", Line_WaitForInput);
+		   NULL, " But your colleagues from Tokyo are rather insistent that nothing can be recorded.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700614", 128, 64);
 	OutputLine(NULL, "　シゲちゃんが憤慨してましたっけ。なっはっはっは…。」",
 		   NULL, " Shige-chan doesn't like that too much. Na ha ha ha...\"", Line_ModeSpecific);
@@ -464,14 +464,14 @@ void main()
 	PlaySE(4, "s05/11/100700618", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうすれば黒幕の園崎本家に少しは迫れるんですが。",
-		   NULL, "If that happened we would be able to have something to go at the Sonozaki family with, since they were behind it all.", Line_WaitForInput);
+		   NULL, "If that happened we would be able to have something to go at the Sonozaki family with, since they were behind it all. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700619", 128, 64);
-	OutputLine(NULL, "まぁ、適当に迫ったところで圧力がかかるんでしょうがね。",
-		   NULL, " Well, if we just start poking around we'll get all sorts of pressure put on us, though. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700620", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "まぁ、適当に迫ったところで圧力がかかるんでしょうがね。",
+		   NULL, "Well, if we just start poking around we'll get all sorts of pressure put on us, though.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700620", 128, 64);
 	OutputLine(NULL, "…やれやれです。」",
-		   NULL, "...What a mess.\"", Line_Normal);
+		   NULL, " ...What a mess.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -803,14 +803,14 @@ void main()
 		   NULL, "\"Nah, I just thought that you might not feel comfortable at a hospital in Hinamizawa.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700656", 128, 64);
 	OutputLine(NULL, "入江の先生は一晩泊まらせたいみたいなことを言ってますが。",
-		   NULL, " Dr. Irie said he wanted you to stay overnight.", Line_WaitForInput);
+		   NULL, " Dr. Irie said he wanted you to stay overnight. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700657", 128, 64);
-	OutputLine(NULL, "………犯人もまだ捕まってませんし。",
-		   NULL, " ...But we still haven't caught the perpetrators. ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700658", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "………犯人もまだ捕まってませんし。",
+		   NULL, "...But we still haven't caught the perpetrators.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700658", 128, 64);
 	OutputLine(NULL, "一応、ここはあなたにとっては敵地になりますからね。」",
-		   NULL, "For the time being, this is enemy territory for you, after all.\"", Line_ModeSpecific);
+		   NULL, " For the time being, this is enemy territory for you, after all.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2337,7 +2337,7 @@ void main()
 	PlaySE(4, "s05/27/100500124", 128, 64);
 	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………赤坂が私を、気味悪く思っているのがよくわかる。」",
-		   NULL, "\"...I know very well that you think I'm disgusting, Akasaka.\"", Line_ModeSpecific);
+		   NULL, "\"...I know very well that you think I'm creepy, Akasaka.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2716,7 +2716,7 @@ void main()
 //　…だがそれでも、私にとって、不思議な少女であることに変わりはなかった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だがそれでも、私にとって、不思議な少女であることに変わりはなかった。",
-		   NULL, "..But even then, she was still as mysterious to me as ever.", Line_Normal);
+		   NULL, "...But even then, she was still as mysterious to me as ever.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

@@ -303,7 +303,7 @@ void main()
 		   NULL, "\"Rika-chan.", Line_WaitForInput);
 	PlaySE(4, "s05/13/101300631", 128, 64);
 	OutputLine(NULL, "………最初っから、…私の正体は知ってたんだろ…？」",
-		   NULL, " ...Did you know what I was... right from the beginning?\"", Line_ModeSpecific);
+		   NULL, " ...You knew who I was... right from the beginning, didn't you?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1976,7 +1976,7 @@ void main()
 //　途方に暮れて、裏口がないかとうろうろしていたら、宿直の人に見つけてもらえて、何とか院内に戻ることができた￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　途方に暮れて、裏口がないかとうろうろしていたら、宿直の人に見つけてもらえて、何とか院内に戻ることができた。",
-		   NULL, "I wandered around bewilderedly searching for a back entrance until somebody on night duty found and let me inside.", Line_Normal);
+		   NULL, "I wandered around bewilderedly searching for a back entrance until somebody on night duty found out and let me inside.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
