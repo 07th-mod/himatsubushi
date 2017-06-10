@@ -327,7 +327,7 @@ void main()
 		   NULL, "\"...What happened after that... sure was tough, huh?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700688", 128, 64);
 	OutputLine(NULL, "…………今年で７年ですか？」",
-		   NULL, " ...This will be 7 years now?\"", Line_ModeSpecific);
+		   NULL, " ...It has been 7 years now?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -501,14 +501,14 @@ void main()
 	PlaySE(4, "s05/00/mand00001", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂雪絵さまが、",
-		   NULL, "\"Yukie Akasaka was...", Line_ContinueAfterTyping);
+		   NULL, "\"Yukie Akasaka...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1500 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…事故でお亡くなりになりました。」",
-		   NULL, " killed in an accident.\"", Line_Normal);
+		   NULL, " died in an accident.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1203,10 +1203,11 @@ void main()
 		   NULL, "If she knew that the gas eruption was going to happen, why did she remain silent?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700712", 128, 64);
 	OutputLine(NULL, "　ほんの数時間前でもいい。",
-		   NULL, " Even a few hours beforehand would have been enough.", Line_WaitForInput);
+		   NULL, " Even a few hours beforehand would have been enough. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700713", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もし村に知らされていたら、ほとんどの人は死なずに済んだかもしれないじゃないですか。」",
-		   NULL, " If the village knew, then most of the people would have escaped without dying.\"", Line_Normal);
+		   NULL, "If the village knew, then most of the people would have escaped without dying.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1517,17 +1518,17 @@ void main()
 	PlaySE(4, "s05/11/100700728", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………週刊誌なんかじゃ、５年目の祟りがあの大災害だ、みたいな言い方をしてますけどね。",
-		   NULL, "\"...The magazines made it seem like the curse of the fifth year was that disaster.", Line_WaitForInput);
+		   NULL, "\"...The magazines made it seem like the curse of the fifth year was that disaster. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700729", 128, 64);
+	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……本当の５年目の祟りは、ちゃんと綿流しの祭りの当日にあったんですよ。",
-		   NULL, " ...But the actual curse really happened on the day of the Watanagashi festival.", Line_WaitForInput);
+		   NULL, "...But the actual curse really happened on the day of the Watanagashi festival.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700730", 128, 64);
 	OutputLine(NULL, "……富竹ジロウって言う、旅行写真家がいましてね。",
-		   NULL, " A photographer by the name of Jirou Tomitake. ", Line_ModeSpecific);
+		   NULL, " A photographer by the name of Jirou Tomitake.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700731", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼が犠牲に。」",
-		   NULL, "He was the victim.\"", Line_ModeSpecific);
+		   NULL, " He was the victim.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1605,7 +1606,7 @@ void main()
 //…私と一緒だったなら無事だったかもしれないと思うと……今でも悔しいですよ＠あの日、どういうわけは私、お腹をひどく壊しましてね＠…外回りは遠慮しちゃってたんですよ。￥
 	PlaySE(4, "s05/11/100700740", 128, 64);
 	OutputLine(NULL, "…私と一緒だったなら無事だったかもしれないと思うと……今でも悔しいですよ。",
-		   NULL, "...If he was with me, he might have been safe... even now it still stings. ", Line_ModeSpecific);
+		   NULL, " ...If he was with me, he might have been safe... even now it still stings. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700741", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あの日、どういうわけは私、お腹をひどく壊しましてね。",
@@ -1757,7 +1758,7 @@ void main()
 	PlaySE(4, "s05/11/100700760", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「その当日です。",
-		   NULL, "\"It was the day of.", Line_WaitForInput);
+		   NULL, "\"It was that day.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700761", 128, 64);
 	OutputLine(NULL, "昼頃に、神社に訪れた村の老人たちが、",
 		   NULL, " Around noon, some of the old folks who were visiting the shrine", Line_WaitForInput);
@@ -1809,14 +1810,14 @@ void main()
 		   NULL, "\"The corpse was found on the shrine grounds, next to the donation box.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700765", 128, 64);
 	OutputLine(NULL, "……もっとも、シメたのは他の場所でしょうねぇ。",
-		   NULL, " ...Although she was probably killed somewhere else.", Line_WaitForInput);
+		   NULL, " ...Although she was probably killed somewhere else.", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700766", 128, 64);
-	OutputLine(NULL, "全裸で裸足。",
-		   NULL, " That's because while she was completely naked, ", Line_ModeSpecific);
-	PlaySE(4, "s05/11/100700767", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "全裸で裸足。",
+		   NULL, "That's because while she was completely naked,", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700767", 128, 64);
 	OutputLine(NULL, "足の裏は汚れてませんでしたから。」",
-		   NULL, "there wasn't any dirt on the soles of her feet.\"", Line_ModeSpecific);
+		   NULL, " there wasn't any dirt on the soles of her feet.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1842,6 +1843,7 @@ void main()
 	PlaySE(4, "s05/11/100700769", 128, 64);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
 		   NULL, " ...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open. ", Line_ModeSpecific);
+	PlaySE(4, "s05/11/100700770", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
 		   NULL, "Her organs were deliberately removed and scattered about.\"", Line_ModeSpecific);
