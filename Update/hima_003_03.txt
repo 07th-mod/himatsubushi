@@ -906,7 +906,7 @@ void main()
 	PlaySE(4, "s05/11/100700531", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ありゃ、そうですか。",
-		   NULL, "\"..Oh, really?", Line_WaitForInput);
+		   NULL, "\"...Oh, really?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700532", 128, 64);
 	OutputLine(NULL, "急患とかでしたか？」",
 		   NULL, " Was it an emergency?\"", Line_ModeSpecific);
@@ -929,6 +929,7 @@ void main()
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お医者の世話にならずに済むなら、それに越したことはないです。",
 		   NULL, "\"If the doctor didn't need to do anything, I'm sure it wasn't a big deal.", Line_WaitForInput);
+	PlaySE(4, "s05/11/100700534", 128, 64);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfufufu...!\"", Line_Normal);
 	ClearMessage();
@@ -1352,7 +1353,7 @@ void main()
 	PlaySE(4, "s05/11/100700563", 128, 64);
 	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「小屋に不審者。",
-		   NULL, "\"There's some suspicious people in the shed.", Line_WaitForInput);
+		   NULL, "\"There're some suspicious people in the shed.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700564", 128, 64);
 	OutputLine(NULL, "これより職質します。",
 		   NULL, " Proceeding to investigate. ", Line_ModeSpecific);
@@ -1729,7 +1730,7 @@ void main()
 //　男は、大石の眼光の鋭さから、多分言い逃れは難しい感じていた＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　男は、大石の眼光の鋭さから、多分言い逃れは難しい感じていた。",
-		   NULL, "The man, judging from the sharp look in Ooishi's eyes, realized that it would hard to talk his way out of this one.", Line_ModeSpecific);
+		   NULL, "The man, judging from the sharp look in Ooishi's eyes, realized that it would be hard to talk his way out of this one.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1966,7 +1967,7 @@ void main()
 //　…ぁあ、くそ＠　園崎家に人質解放の号令が出てるから穏便に済むだろうなんて、甘えたこと考えなきゃ良かった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ぁあ、くそ！",
-		   NULL, "..Ahh, dammit!", Line_WaitForInput);
+		   NULL, "...Ahh, dammit!", Line_WaitForInput);
 	OutputLine(NULL, "　園崎家に人質解放の号令が出てるから穏便に済むだろうなんて、甘えたこと考えなきゃ良かった！",
 		   NULL, " Thinking that this was going to be easy just because the order came from the Sonozaki family to release the hostage had been a big mistake!", Line_Normal);
 	ClearMessage();
@@ -2280,7 +2281,7 @@ void main()
 //　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった。",
-		   NULL, "He had seen Toshiki Inugai's picture plenty of times, but wasn't able to immediately ascertain if the boy in front of him was the real deal, what with his mouth covered in packing tape.", Line_ModeSpecific);
+		   NULL, "He had seen Toshiki Inugai's picture plenty of times, but wasn't able to immediately ascertain if the boy in front of him was the real deal, with his mouth covered in packing tape.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2455,7 +2456,7 @@ void main()
 //　条件は同じ＠むしろ不安定な体勢で走っている向こうの方が遥かに不利だ＠
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　条件は同じ。",
-		   NULL, "We were running in the same conditions.", Line_WaitForInput);
+		   NULL, "We are running in the same conditions.", Line_WaitForInput);
 	OutputLine(NULL, "むしろ不安定な体勢で走っている向こうの方が遥かに不利だ。",
 		   NULL, " In fact, the man running with an awkward stride was at far more of a disadvantage.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2529,7 +2530,7 @@ void main()
 //　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった。",
-		   NULL, "...But it seemed that Toshiki Inugai was important to the man as well, and didn't elect to just run away empty-handed.", Line_Normal);
+		   NULL, "...But it seemed that Toshiki Inugai was important to the man as well, and didn't choose to just run away empty-handed.", Line_Normal);
 	ClearMessage();
 
 
@@ -2909,13 +2910,12 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //これからの展望の話に花を咲かせるんだ…！￥
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これからの展望の話に花を咲かせるんだ…！！",
-		   NULL, "We were going to talk about our bright future!!", Line_Normal);
+		   NULL, " We were going to talk about our bright future!!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2940,7 +2940,7 @@ void main()
 
 	PlaySE( 3, "wa_004", 128, 64 );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
