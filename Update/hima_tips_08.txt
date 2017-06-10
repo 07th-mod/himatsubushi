@@ -251,6 +251,7 @@ void main()
 	if (AdvMode) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こっちに回しますか？」",
 		   NULL, " Should I transfer it over here?\"", Line_ModeSpecific);
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	PlaySE(4, "s20/00/kataoka44015", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あ、いい、いい！",
