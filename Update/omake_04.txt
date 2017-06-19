@@ -2714,12 +2714,14 @@ void main()
 	if (AdvMode) { OutputLine("<color=#75bfa2>詩音</color>", NULL, "<color=#75bfa2>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…甘いですね圭ちゃん。",
 		   NULL, "\"...You're so naive, Kei-chan.", Line_WaitForInput);
+	//PlaySE(4, "s20/06/440600182", 128, 64);
 	OutputLine(NULL, "…立ち絵があるキャラにだって、闇でこそ真の姿を晒せるキャラだっているってことです。",
 		   NULL, " ...Even characters who have art are able to reveal their true form in the darkness.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_012", 128, 64 );
 
 //………知恵先生！！！＠
+	//PlaySE(4, "s20/06/440600183", 128, 64);
 	OutputLine(NULL, "………知恵先生！！！」",
 		   NULL, " ...Chie-sensei!!!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2832,8 +2834,10 @@ void main()
 	OutputLine(NULL, "　えぇえ？！",
 		   NULL, " Huuuh!? ", Line_ModeSpecific);
 	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	//PlaySE(4, "s20/01/440100284", 128, 64);
 	OutputLine(NULL, "　ゲージ技って、出掛かり無敵かよッ？！",
 		   NULL, "Her arc drive has startup invincibility!?", Line_WaitForInput);
+	//PlaySE(4, "s20/01/440100285", 128, 64);
 	OutputLine(NULL, "　第七聖てッてッッて！！！",
 		   NULL, " The Seventh Hooo--", Line_WaitForInput);
 	PlaySE(4, "s20/01/440100286", 128, 64);
@@ -2934,12 +2938,15 @@ void main()
 
 
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
+	//PlaySE(4, "s20/02/440200343", 128, 64);
 	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません。",
 		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", Line_ModeSpecific);
+	//PlaySE(4, "s20/02/440200344", 128, 64);
 	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
 		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.", Line_ModeSpecific);
+	//PlaySE(4, "s20/02/440200345", 128, 64);
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。」",
 		   NULL, " When you challenge those... this work will become a proper game.\"", Line_Normal);
 	ClearMessage();
