@@ -2936,12 +2936,12 @@ void main()
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
 	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません。",
-		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true.", Line_WaitForInput);
-	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
-		   NULL, " ...That's why, as you know, there are a lot of mysteries referenced during the course of the experience. ", Line_ModeSpecific);
+		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", Line_ModeSpecific);
 	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
+		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.", Line_ModeSpecific);
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。」",
-		   NULL, "When you challenge those... this work will become a proper game.\"", Line_Normal);
+		   NULL, " When you challenge those... this work will become a proper game.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
