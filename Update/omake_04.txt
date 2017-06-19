@@ -3002,21 +3002,21 @@ void main()
 
 
 //『目明し編（仮称）』となります＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『目明し編（仮称）』となります。",
 		   NULL, "We've tentatively called it 'Meakashi'.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　……でも、解答というのは寂しいもので、明かすことによって、これまで許されていたあらゆる可能性への想像が、急激に狭められてしまうという悲しい力があります。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも、解答というのは寂しいもので、明かすことによって、これまで許されていたあらゆる可能性への想像が、急激に狭められてしまうという悲しい力があります。」",
 		   NULL, "...But, answers are a sad thing. Based on what is revealed, all the possibilities that you were allowed to imagine until now will suddenly become refined down to a few.\"", Line_Normal);
 	ClearMessage();
 
 
 //「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、『ひぐらしのなく頃に』という作品を、一番楽しむことができる場所におられると思います。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、『ひぐらしのなく頃に』という作品を、一番楽しむことができる場所におられると思います。」",
 		   NULL, "\"Based on that logic, we think that right here, before the answer arcs, is probably where people can enjoy this work we call Higurashi When They Cry the most.\"", Line_Normal);
 	ClearMessage();
@@ -3025,12 +3025,12 @@ void main()
 	DrawBustshot( 2, "re_se_de_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「もしも、ここをお読みの時点で、すでに『目明し編』のシナリオがお手元にあるならば＠どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです＠…その余地こそが、一番の醍醐味なのですから。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「もしも、ここをお読みの時点で、すでに『目明し編』のシナリオがお手元にあるならば。",
 		   NULL, "\"If by chance, while you are reading this, you already have the Meakashi chapter at hand,", Line_WaitForInput);
 	OutputLine(NULL, "どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです。",
 		   NULL, " please enjoy hypothesizing, theorizing and fantasizing to the fullest before you start. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…その余地こそが、一番の醍醐味なのですから。」",
 		   NULL, "...That's where the real charm of the series takes place.\"", Line_Normal);
 	ClearMessage();
@@ -3039,7 +3039,7 @@ void main()
 	DrawBustshot( 2, "re_se_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「………あはは＠厚かましいことを言ってしまい、申し訳ありませんでした＠『ひぐらしのなく頃に』をお楽しみいただけたなら、それに勝る喜びはありません。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………あはは。",
 		   NULL, "\"...Ahaha.", Line_WaitForInput);
 	OutputLine(NULL, "厚かましいことを言ってしまい、申し訳ありませんでした。",
