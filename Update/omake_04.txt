@@ -1896,7 +1896,7 @@ void main()
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	ClearMessage();
 //!sd
@@ -1954,7 +1954,7 @@ void main()
 	PlaySE( 3, "wa_007", 128, 64 );
 	DrawBustshot( 5, "furiker_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 5, TRUE );
 	ShakeScreen( 0, 50, 20, 3, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 
 	ClearMessage();
@@ -2036,17 +2036,17 @@ void main()
 
 
 	PlaySE( 3, "wa_007", 128, 64 );
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	if (AdvMode == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　今こそ教えてくれるぜえええぇえぇ！！！」/
 	PlaySE(4, "s20/01/440100245", 128, 64);
 	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今こそ教えてくれるぜえええぇえぇ！！！」",
-		   NULL, "I shall instill it all upon you!!!\"", Line_ContinueAfterTyping);
+		   NULL, " I shall instill it all upon you!!!\"", Line_ContinueAfterTyping);
 
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 
 	ClearMessage();
@@ -2161,7 +2161,7 @@ void main()
 
 
 	PlaySE( 3, "wa_029", 128, 64 );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 
 	ClearMessage();
@@ -2221,7 +2221,7 @@ void main()
 
 //!sd
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0, );
@@ -2230,7 +2230,7 @@ void main()
 	PlaySE(4, "s20/01/440100257", 128, 64);
 	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「看護婦の分際で本編で一度もナース服を着ないとは笑止千万！！",
-		   NULL, "\"Even though she's a nurse, she doesn't appear in the outfit once during the main scenario, you've got to be kidding me!!", Line_WaitForInput);
+		   NULL, "\"Even though she's a nurse, she doesn't appear in the outfit even once during the main scenario, you've got to be kidding me!!", Line_WaitForInput);
 	PlaySE(4, "s20/01/440100258", 128, 64);
 	OutputLine(NULL, "　さぁてっと。",
 		   NULL, " Well then.", Line_WaitForInput);
@@ -2359,7 +2359,7 @@ void main()
 
 //!sd@
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2379,14 +2379,14 @@ void main()
 //私のことはこれからはイリーと＠/
 	PlaySE(4, "s20/10/441000120", 128, 64);
 	OutputLine(NULL, "私のことはこれからはイリーと。",
-		   NULL, " Call me Ill from now on.", Line_WaitForInput);
+		   NULL, " Call me I from now on.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_007", 128, 64 );
 
 //Ｄｒイリーとお呼びを～～！！！￥
 	PlaySE(4, "s20/10/441000121", 128, 64);
 	OutputLine(NULL, "Ｄｒイリーとお呼びを〜〜！！！」",
-		   NULL, " Call me Doctor Ill!!!\"", Line_Normal);
+		   NULL, " Call me Doctor I!!!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2455,7 +2455,7 @@ void main()
 	ShakeScreen( 1, 50, 20, 4, 0, );
 	DrawScene( "black", 400 );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
@@ -2480,12 +2480,12 @@ void main()
 //…Ｋを筆頭に、悪の四天王が揃い踏む。/
 	PlaySE(4, "s20/00/narra44002", 128, 64);
 	OutputLine(NULL, "…Ｋを筆頭に、悪の四天王が揃い踏む。",
-		   NULL, "...With K at their head, the evil Elite Four made their grand entrance.", Line_ContinueAfterTyping);
+		   NULL, " ...With K at their head, the evil Elite Four made their grand entrance.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2502,7 +2502,7 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2542,7 +2542,7 @@ void main()
 		   NULL, " All must bow!!!", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 1000, TRUE );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	ClearMessage();
 
@@ -2568,7 +2568,7 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 
 
@@ -2608,7 +2608,7 @@ void main()
 		   NULL, "I won't forgive you if they're the competitive swimming style!!!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	ClearMessage();
 
@@ -2657,18 +2657,18 @@ void main()
 		   NULL, " You're rather impertinent, Shion Sonozaki!!", Line_WaitForInput);
 	PlaySE(4, "s20/01/440100273", 128, 64);
 	OutputLine(NULL, "　ちなみに校長先生を期待してるなら残念だな！！",
-		   NULL, " Also, if you were expecting help from the Principal, that's too bad!!", Line_WaitForInput);
+		   NULL, " Also, if you were expecting help from the Principal, that's too bad!! ", Line_ModeSpecific);
 	PlaySE(4, "s20/01/440100274", 128, 64);
+	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　『男子本懐ここに極まれり！",
-		   NULL, " 'This is the ultimate desire of young men! ", Line_ModeSpecific);
+		   NULL, "'This is the ultimate desire of young men!", Line_WaitForInput);
 
 	PlaySE( 3, "wa_011", 128, 64 );
 
 //　漢たるもの最善を尽くすべし！』とお墨付きがちゃんとあるのだ～～！！＠
 	PlaySE(4, "s20/01/440100275", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a17f7f>圭一</color>", NULL, "<color=#a17f7f>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　漢たるもの最善を尽くすべし！』とお墨付きがちゃんとあるのだ〜〜！！！",
-		   NULL, "If you call yourself a man, do your best!' is written on this nice little authorization slip here!!!", Line_ModeSpecific);
+		   NULL, " If you call yourself a man, do your best!' is written on this nice little authorization slip here!!!", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2934,12 +2934,12 @@ void main()
 
 
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません。",
 		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true.", Line_WaitForInput);
 	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
 		   NULL, " ...That's why, as you know, there are a lot of mysteries referenced during the course of the experience. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#ef8e2d>レナ</color>", NULL, "<color=#ef8e2d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。」",
 		   NULL, "When you challenge those... this work will become a proper game.\"", Line_Normal);
 	ClearMessage();
