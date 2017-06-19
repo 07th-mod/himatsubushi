@@ -1207,7 +1207,7 @@ void main()
 
 //「く……わあぁあぁぁぁぁぁ…………………。￥
 	PlaySE(4, "s05/27/100500001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「く……わあぁあぁぁぁぁぁ…………………。」",
 		   NULL, "\"Hngh... waaaa.....\"", Line_Normal);
 	ClearMessage();
@@ -1252,7 +1252,7 @@ void main()
 
 //「……みぃ。￥
 	PlaySE(4, "s05/27/100500002", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_Normal);
 	ClearMessage();
@@ -1301,7 +1301,7 @@ void main()
 
 //「……みぃ？＠
 	PlaySE(4, "s05/27/100500003", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みぃ？」",
 		   NULL, "\"...Meep?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1349,7 +1349,7 @@ void main()
 
 //「……みぃ。＠
 	PlaySE(4, "s05/27/100500004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1368,7 +1368,7 @@ void main()
 
 //「……………………。＠
 	PlaySE(4, "s05/27/100500005", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1433,7 +1433,7 @@ void main()
 
 //「……にぱ～～☆＠
 	PlaySE(4, "s05/27/100500006", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1449,7 +1449,7 @@ void main()
 
 //「にぱ～～～☆￥
 	PlaySE(4, "s05/27/100500007", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「にぱ〜〜〜☆」",
 		   NULL, "\"Nipah~~~☆.\"", Line_Normal);
 	ClearMessage();
@@ -1500,7 +1500,7 @@ void main()
 
 //「……にぱ～～☆＠
 	PlaySE(4, "s05/27/100500008", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~.☆\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1522,7 +1522,7 @@ void main()
 
 //「……にぱ～～☆＠
 	PlaySE(4, "s05/27/100500009", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1650,7 +1650,7 @@ void main()
 
 //「……みぃ。￥
 	PlaySE(4, "s05/27/100500010", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みぃ。」",
 		   NULL, "\"...Meep.\"", Line_Normal);
 	ClearMessage();
@@ -1685,7 +1685,7 @@ void main()
 
 //「……にぱ～～☆＠
 	PlaySE(4, "s05/27/100500011", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……にぱ〜〜☆」",
 		   NULL, "\"...Nipah~~☆.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1714,7 +1714,7 @@ void main()
 
 //「……村を観光したい若者なのです。＠
 	PlaySE(4, "s05/27/100500012", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>少女</color>", NULL, "<color=#6969ab>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……村を観光したい若者なのです。」",
 		   NULL, "\"...A young'un who came to the village for sightseeing.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1746,7 +1746,7 @@ void main()
 
 //「……富竹２号なのです。＠
 	PlaySE(4, "s05/27/100500013", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……富竹２号なのです。」",
 		   NULL, "\"...Tomitake Mk. II.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1770,7 +1770,7 @@ void main()
 
 //「……牧野＠ボクも一緒に行ってはいけませんですか？＠
 	PlaySE(4, "s05/27/100500014", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……牧野。",
 		   NULL, "\"...Makino.", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500015", 128, 64);
@@ -1795,7 +1795,7 @@ void main()
 
 //「…………みー。＠
 	PlaySE(4, "s05/27/100500016", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………みー。」",
 		   NULL, "\"...Meep.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1983,7 +1983,7 @@ void main()
 
 //「……ふかふかでバインバインで、にぱ～～～☆＠
 	PlaySE(4, "s05/27/100500017", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……ふかふかでバインバインで、にぱ〜〜〜☆」",
 		   NULL, "\"...It's soft and springy, nipah~~~☆.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2044,7 +2044,7 @@ void main()
 
 //「……雛見沢観光に出発なのですよ＠わ～いなのです。￥
 	PlaySE(4, "s05/27/100500018", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……雛見沢観光に出発なのですよ。",
 		   NULL, "\"....We're setting off on a tour of Hinamizawa.", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500019", 128, 64);
@@ -2064,7 +2064,7 @@ void main()
 
 //「……そうなのですよ＠古手梨花と言いますです＠……もう繰り上がりの足し算とかも出来ますですよ？＠
 	PlaySE(4, "s05/27/100500020", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……そうなのですよ。",
 		   NULL, "\"...Sure.", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500021", 128, 64);
@@ -2094,7 +2094,7 @@ void main()
 
 //「…お指とかは折ってませんですよ＠　ちゃんと暗算で出来ますですよ？＠
 	PlaySE(4, "s05/27/100500023", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…お指とかは折ってませんですよ？",
 		   NULL, "\"...I don't count on my fingers.", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500024", 128, 64);
@@ -2278,7 +2278,7 @@ void main()
 
 //「……こんなのが面白いのですか＠　赤坂は変な人なのです。＠
 	PlaySE(4, "s05/27/100500025", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……こんなのが面白いのですか？",
 		   NULL, "\"....Is something like this that interesting?", Line_WaitForInput);
 	PlaySE(4, "s05/27/100500026", 128, 64);
@@ -2305,7 +2305,7 @@ void main()
 
 //「……雛見沢は楽しいですか？＠
 	PlaySE(4, "s05/27/100500027", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……雛見沢は楽しいですか？」",
 		   NULL, "\"...Is Hinamizawa fun?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2333,7 +2333,7 @@ void main()
 
 //「……………………………………。￥
 	PlaySE(4, "s05/27/100500028", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -2486,7 +2486,7 @@ void main()
 
 //「……一番、景色のいいところですか？＠
 	PlaySE(4, "s05/27/100500029", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……一番、景色のいいところですか？」",
 		   NULL, "\"...The place with the best view?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2512,7 +2512,7 @@ void main()
 
 //「……では赤坂を、ボクのお家へご招待なのです。＠
 	PlaySE(4, "s05/27/100500030", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……では赤坂を、ボクのお家へご招待なのです。」",
 		   NULL, "\"...Well then, I'll introduce you to my home, Akasaka.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

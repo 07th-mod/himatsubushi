@@ -304,7 +304,7 @@ void main()
 
 //「古手さんのカレーは大変、見事です＠先生、花マルをあげちゃいます！＠
 	PlaySE(4, "s20/22/441400003", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75c8f4>知恵</color>", NULL, "<color=#75c8f4>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「古手さんのカレーは大変、見事です。",
 		   NULL, "\"Furude-san's curry is absolutely splendid.", Line_WaitForInput);
 	OutputLine(NULL, "先生、花マルをあげちゃいます！」",
@@ -318,7 +318,7 @@ void main()
 
 //「……にぱ～☆＠
 	PlaySE(4, "s20/05/440500035", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……にぱ〜☆」",
 		   NULL, "\"......Nipah~☆.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -326,7 +326,7 @@ void main()
 
 //「古手さんはお料理を誰に習いましたか＠　やっぱりお家で？＠
 	PlaySE(4, "s20/22/441400004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75c8f4>知恵</color>", NULL, "<color=#75c8f4>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「古手さんはお料理を誰に習いましたか？",
 		   NULL, "\"Where did you learn to cook, Furude-san?", Line_WaitForInput);
 	OutputLine(NULL, "　やっぱりお家で？」",
@@ -336,7 +336,7 @@ void main()
 
 //「……はい＠お家なのですよ。￥
 	PlaySE(4, "s20/05/440500036", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……はい。",
 		   NULL, "\"......Yes.", Line_WaitForInput);
 	OutputLine(NULL, "お家なのですよ。」",

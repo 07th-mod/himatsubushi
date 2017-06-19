@@ -308,7 +308,7 @@ void main()
 
 //「…………………。＠
 	PlaySE(4, "s20/05/440500030", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"......\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -342,7 +342,7 @@ void main()
 
 //「………てるてる坊主。＠
 	PlaySE(4, "s20/05/440500031", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………てるてる坊主。」",
 		   NULL, "\"......A weather charm.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -411,7 +411,7 @@ void main()
 
 //「………逆さになるように作ったのだから、それでいいの。＠
 	PlaySE(4, "s20/05/440500032", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………逆さになるように作ったのだから、それでいいの。」",
 		   NULL, "\"......That's because I made them to be upside-down. They're fine.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -429,7 +429,7 @@ void main()
 
 //「雨が降るようにおまじないをしているから、それでいいの。＠
 	PlaySE(4, "s20/05/440500033", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「雨が降るようにおまじないをしているから、それでいいの。」",
 		   NULL, "\"I was making a charm for it to rain, so they're fine.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -463,7 +463,7 @@ void main()
 
 //「晴れにね、…飽きたの。￥
 	PlaySE(4, "s20/05/440500034", 128, 64);
-	if (AdvMode) { OutputLine("<color=#6969ab>梨花</color>", NULL, "<color=#6969ab>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「晴れにね、…飽きたの。」",
 		   NULL, "\"I got bored... of the clear weather.\"", Line_Normal);
 	ClearMessage();
