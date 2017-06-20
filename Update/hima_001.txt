@@ -25,15 +25,12 @@ void main()
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
 	DisableWindow();
-	SetValidityOfInput( FALSE );
 	DrawScene( "black", 1000 );
 	DrawScene( "si_himatubusi", 1000 );
 	Wait( 15000 );
 	DisableWindow();
 	DrawScene( "s60", 1000 );
-	SetValidityOfInput( FALSE );
 	Wait( 4000 );
-	SetValidityOfInput( TRUE );
 
 //mov %TIP_START,5
 //mov %NEW_TIPS,0
