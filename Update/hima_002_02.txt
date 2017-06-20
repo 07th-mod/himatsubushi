@@ -720,7 +720,7 @@ void main()
 
 //「牧野さん、その人＠　電話をくれた観光の人は。＠
 	PlaySE(4, "s05/18/103300001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「牧野さん、その人？",
 		   NULL, "\"Makino-san, who's that?", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300002", 128, 64);
@@ -756,7 +756,7 @@ void main()
 
 //「ようこそ雛見沢へ＠いかがでしたか＠…静かでゆっくりしたところでしょ。＠
 	PlaySE(4, "s05/18/103300003", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ようこそ雛見沢へ。",
 		   NULL, "\"Welcome to Hinamizawa.", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300004", 128, 64);
@@ -784,7 +784,7 @@ void main()
 
 //「……へぇぇ…＠今時の若い方なのに、また…紳士な方だねぇ…＠うんうん。￥
 	PlaySE(4, "s05/18/103300006", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……へぇぇ…。",
 		   NULL, "\"...Hmmm...", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300007", 128, 64);
