@@ -1704,7 +1704,7 @@ void main()
 	OutputLine(NULL, "　チーだ！」",
 		   NULL, " Chi! \"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawSceneWithMask( "black", "up", 0, 0, 300 );
 
@@ -2423,7 +2423,7 @@ void main()
 	OutputLine(NULL, "「…………………………ん。」",
 		   NULL, "\".....Hm.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawScene( "cg_038a", 1000 );
 
@@ -2506,7 +2506,7 @@ void main()
 	OutputLine(NULL, "　ふふん…。」",
 		   NULL, " Heh heh...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
@@ -2533,7 +2533,7 @@ void main()
 	OutputLine(NULL, "サマで握らされたこと、看破した？！",
 		   NULL, " Did he figure out we were cheating!?", Line_Normal);
 	ClearMessage();
-	
+
 
 //（…やめましょうよおやっさん＠赤坂くんの方が二、三枚は上手です。＠
 	PlaySE(4, "s05/11/100700300_301", 128, 64);
@@ -3595,7 +3595,7 @@ void main()
 	OutputLine(NULL, "　そして、さらにその両脇には、他の御三家の公由家、古手家の重鎮たち数人が座する。",
 		   NULL, "And, also on either side of her, sat several other important members of the remaining Three Families: the Kimiyoshi family, and the Furude family.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawBustshot( 2, "ki_Def_0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
@@ -3618,7 +3618,7 @@ void main()
 	OutputLine(NULL, "　その反対側には、もう一つの御三家、古手家が座る。",
 		   NULL, "Opposite them sat the other of the Three Families, the Furude family.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
@@ -3754,7 +3754,7 @@ void main()
 	OutputLine(NULL, "　長い沈黙を破り、切り出したのは公由家頭首の公由喜一郎だった…。",
 		   NULL, "Breaking the long moment of silence was the head of the Kimiyoshi family, Kiichirou Kimiyoshi...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	FadeAllBustshots( 400, TRUE );
 
@@ -3885,7 +3885,7 @@ void main()
 	DisableWindow();
 	DrawSceneWithMask( "bg_070", "right", 0, 0, 300 );
 	DrawBustshot( 3, "ki_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
-	
+
 
 //「……どう思う、お魎さん。＠
 	PlaySE(4, "s05/18/103300010", 128, 64);
@@ -4069,7 +4069,7 @@ void main()
 	OutputLine(NULL, "　公由たちは一瞬、苦虫を潰したような顔をしたが、その表情は、まるで始めからなかったかのように掻き消える…。",
 		   NULL, "Kimiyoshi made a face like he had just bit into something unpleasant, but that expression quickly disappeared like it had never happened at all...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	ClearMessage();
 	DisableWindow();
 	DrawBustshot( 3, "ki_Komaru_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -4230,7 +4230,7 @@ void main()
 	OutputLine(NULL, "　魅音によって裁断が下される。",
 		   NULL, "Mion had rendered her judgement.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawScene( "black", 400 );
 
@@ -4526,7 +4526,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 	PlaySE( 3, "wa_026", 128, 64 );
-	
+
 	DisableWindow();
 	DrawBustshot( 1, "oryou_Def_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
@@ -5182,10 +5182,10 @@ void main()
 	PlaySE(4, "s05/00/mionf00005", 128, 64);
 	OutputLine(NULL, "「…えぇ。",
 		   NULL, "\"...Yeah.", Line_WaitForInput);
-		  
+
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );	  
-		   
+	DrawBustshot( 1, "ri_si_ni_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+
 	PlaySE(4, "s05/27/100500102", 128, 64);
 	OutputLine(NULL, "ほかほかのふっかふか。」",
 		   NULL, " Tender and tasty.\"", Line_WaitForInput);
@@ -5211,9 +5211,9 @@ void main()
 	OutputLine(NULL, "「……梨花ちゃまは、その男のことを何か知っているのかの。」",
 		   NULL, "\"...Does Rika-chama know something about this man?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
-	DrawBustshot( 1, "ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );	  
+	DrawBustshot( 1, "ri_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 //「………………………………＠…知んないのですよ。＠
@@ -5224,7 +5224,7 @@ void main()
 	OutputLine(NULL, "…知んないのですよ。」",
 		   NULL, "...I don't know.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	FadeAllBustshots( 400, TRUE );
 

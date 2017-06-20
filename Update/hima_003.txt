@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -1207,7 +1207,7 @@
 	OutputLine(NULL, "「ではさっそく出してもらえますか。」",
 		   NULL, "\"Well then, shall we hurry up and get going?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	FadeAllBustshots( 400, TRUE );
 

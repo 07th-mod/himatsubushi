@@ -694,7 +694,7 @@ void main()
 	PlaySE( 3, "wa_024", 128, 64 );
 	DisableWindow();
 	DrawScene( "cg_eye", 1000 );
-	
+
 
 //………窓際の乗客たちが、みんな私を見下ろしているのに気付き、唖然とする￥
 	OutputLine(NULL, "………窓際の乗客たちが、みんな私を見下ろしているのに気付き、唖然とする。",
@@ -1505,7 +1505,7 @@ void main()
 	OutputLine(NULL, "「……村を観光したい若者なのです。」",
 		   NULL, "\"...A young'un who came to the village for sightseeing.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawBustshot( 1, "rim_Warai_0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
@@ -1947,15 +1947,15 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "white", 400 );	
+	DrawScene( "white", 400 );
 	DrawSceneWithMask( "bg_146a", "right", 0, 0, 1300 );
-	
+
 	SetValidityOfUserEffectSpeed( TRUE );
 	SetValidityOfInput( TRUE );
 	SetValidityOfSkipping( TRUE );
 	SetValidityOfLoading( TRUE );
 	SetValidityOfSaving( TRUE, );
-	
+
 	SetValidityOfInput( FALSE );
 	Wait( 1500 );
 	SetValidityOfInput( TRUE );

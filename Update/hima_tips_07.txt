@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //*Sub_Tips_070
@@ -534,7 +534,7 @@
 	OutputLine(NULL, "「…………………………………。」",
 		   NULL, "\"......\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawScene( "black", 400 );
 

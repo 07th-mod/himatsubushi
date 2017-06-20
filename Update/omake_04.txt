@@ -2902,7 +2902,7 @@ void main()
 	DrawScene( "black", 1000 );
 
 	GetAchievement("HIGURASHI_STORY_EP04_OMAKE");
-	
+
 	Wait( 2000 );
 //
 //	SetValidityOfInput( FALSE );

@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -265,7 +265,7 @@
 	OutputLine(NULL, "先生、花マルをあげちゃいます！」",
 		   NULL, " I'll give it a gold star!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	ClearMessage();
 	DisableWindow();
 	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );

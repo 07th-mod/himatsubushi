@@ -336,7 +336,7 @@ void main()
 	DisableWindow();
 	DrawScene( "black", 400 );
 	DrawBustshot( 2, "ri_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
-	
+
 //＞＞＞＞＞この部分は職場で打った分を見ながら修正だ☆
 
 //「……赤坂。＠
@@ -357,7 +357,7 @@ void main()
 	OutputLine(NULL, "「…………何だい？」",
 		   NULL, "\"...What is it?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawBustshot( 2, "ri_si_fu_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
@@ -3541,7 +3541,7 @@ void main()
 	PlaySE( 3, "wa_006", 128, 64 );
 	ShakeScreen( 0, 50, 20, 4, 0, );
 	DrawScene( "white", 50 );
-	
+
 	DrawBustshot( 1, "oi_si_aw_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 	DrawScene( "Rain/bg_142", 200 );
 

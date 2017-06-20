@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 	EnableJumpingOfReturnIcon();
 	FadeOutBGM( 0, 1000, FALSE );
@@ -136,7 +136,7 @@
 	OutputLine(NULL, "……１１歳だそうで…。」",
 		   NULL, " 11 years old, apparently...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	DisableWindow();
 	DrawBustshot( 3, "oryou_Shinken_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
@@ -434,7 +434,7 @@
 	DisableWindow();
 	DrawSceneWithMask( "bg_195", "up", 0, 0, 300 );
 	DrawBustshot( 2, "me_si_ma_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
-	
+
 
 //「……………………あ、もしもし＠魅音だけど＠…うん＠…うちのお父さん、います？￥
 	PlaySE(4, "s20/26/440300127", 128, 64);

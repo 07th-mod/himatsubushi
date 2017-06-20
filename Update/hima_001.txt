@@ -4975,7 +4975,7 @@ void main()
 	OutputLine(NULL, "　…ここで私が口を開かないことで、何も不利益を被ることはない。",
 		   NULL, "...If I didn't open my mouth, I wouldn't have to lose anything.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-	
+
 	ClearMessage();
 	DisableWindow();
 	DrawScene( "bg_100", 400 );

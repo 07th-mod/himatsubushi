@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 	EnableJumpingOfReturnIcon();
 	FadeOutBGM( 0, 1000, FALSE );
