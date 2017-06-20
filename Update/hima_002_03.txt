@@ -4133,7 +4133,7 @@ void main()
 
 //「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。￥
 	PlaySE(4, "s05/18/103300009", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。」",
 		   NULL, "\"...Wasn't our monetary gift of appreciation to the media a little large?\"", Line_Normal);
 	ClearMessage();
@@ -4303,7 +4303,7 @@ void main()
 
 //「……どう思う、お魎さん。＠
 	PlaySE(4, "s05/18/103300010", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……どう思う、お魎さん。」",
 		   NULL, "\"...What do you think, Oryou-san?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4332,11 +4332,11 @@ void main()
 
 //「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない＠……一度だけってことで理解を得て、…また今年もって訳には行かないよ…＠…ねぇ、古手さん。＠
 	PlaySE(4, "s05/18/103300011", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない。",
 		   NULL, "\"Last year, we went through a lot of trouble getting people to wrap their heads around the price hike on the bulletins we were putting out. ", Line_ModeSpecific);
 	PlaySE(4, "s05/18/103300012", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……一度だけってことで理解を得て、…また今年もって訳には行かないよ…。",
 		   NULL, "...We convinced them it was just the one time... it just wouldn't do if we had another one this year...", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300013", 128, 64);
@@ -4519,7 +4519,7 @@ void main()
 
 //「だ、…だけど魅音ちゃん＠…君だってわかってると思うけど、機関紙の負担は決して軽いものじゃない＠雛見沢の全ての人間にかかる重みなんだ＠あまり負荷をかけ過ぎれば、内部から崩れることだって…、￥
 	PlaySE(4, "s05/18/103300014", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だ、…だけど魅音ちゃん。",
 		   NULL, "\"B-But, Mion-chan.", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300015", 128, 64);
@@ -4529,7 +4529,7 @@ void main()
 	OutputLine(NULL, "雛見沢の全ての人間にかかる重みなんだ。",
 		   NULL, " It's a burden carried by everybody in Hinamizawa. ", Line_ModeSpecific);
 	PlaySE(4, "s05/18/103300017", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あまり負荷をかけ過ぎれば、内部から崩れることだって…、」",
 		   NULL, "If we make people carry too much of that burden, it's possible we'll collapse from the inside...\"", Line_Normal);
 	ClearMessage();
@@ -4547,7 +4547,7 @@ void main()
 
 //「誰って、…別にそういう意味じゃ、＠
 	PlaySE(4, "s05/18/103300018", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「誰って、…別にそういう意味じゃ、」",
 		   NULL, "\"Who? ...I didn't mean it like that--\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4654,7 +4654,7 @@ void main()
 
 //「………………………ん、!w800…………んん…。＠
 	PlaySE(4, "s05/18/103300019", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………ん、",
 		   NULL, "\"....Hmm...", Line_ContinueAfterTyping);
 
@@ -4994,7 +4994,7 @@ void main()
 
 //「…どうしたんだいお魎さん。＠
 	PlaySE(4, "s05/18/103300020", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…どうしたんだいお魎さん。」",
 		   NULL, "\"...What is it, Oryou-san?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5146,7 +5146,7 @@ void main()
 
 //「犬飼建設大臣のお孫さんが、……さらわれた＠　…お魎さん、そりゃ本当かい？＠
 	PlaySE(4, "s05/18/103300021", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「犬飼建設大臣のお孫さんが、……さらわれた？",
 		   NULL, "\"The Minister of Construction's grandson... was kidnapped?", Line_WaitForInput);
 	PlaySE(4, "s05/18/103300022", 128, 64);
@@ -5623,7 +5623,7 @@ void main()
 
 //「…公安の捜査官？＠
 	PlaySE(4, "s05/18/103300023", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>喜一郎</color>", NULL, "<color=#f5e6d3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…公安の捜査官？」",
 		   NULL, "\"...An investigator from Public Safety?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
