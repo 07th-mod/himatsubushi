@@ -29,7 +29,7 @@ void main()
 //「だいぶ血圧もよくなってきましたよ＠そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです＠
 	PlaySE(4, "s20/10/441000048", 128, 64);
 	ClearMessage();
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だいぶ血圧もよくなってきましたよ。",
 		   NULL, "\"Your blood pressure has improved.", Line_WaitForInput);
 	OutputLine(NULL, "そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです。",
@@ -39,7 +39,7 @@ void main()
 
 //　お魎さんなら、百でも二百でも元気にお過ごしになれますね。￥
 	PlaySE(4, "s20/10/441000049", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お魎さんなら、百でも二百でも元気にお過ごしになれますね。」",
 		   NULL, "At this rate, you'll still be kicking after a couple hundred more years, Oryou-san.\"", Line_Normal);
 	ClearMessage();
@@ -115,7 +115,7 @@ void main()
 
 //「沁子さんは今日はもうあがっちゃったよ＠…何か用？＠
 	PlaySE(4, "s20/26/440300105", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「沁子さんは今日はもうあがっちゃったよ。",
 		   NULL, "\"Shimiko-san already left for the day.", Line_WaitForInput);
 	OutputLine(NULL, "…何か用？」",
@@ -133,7 +133,7 @@ void main()
 
 //「うん、了解＠婆っちゃも飲む＠　紅茶の方がいい＠　砂糖もミルクもたっぷり？＠
 	PlaySE(4, "s20/26/440300106", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うん、了解。",
 		   NULL, "\"Okay, got it.", Line_WaitForInput);
 	OutputLine(NULL, "婆っちゃも飲む？",
@@ -162,7 +162,7 @@ void main()
 
 //「はいはい。＠
 	PlaySE(4, "s20/26/440300109", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「はいはい。」",
 		   NULL, "\"Kay kay.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -193,7 +193,7 @@ void main()
 
 //「わーってるーって＠うっさいな～～～。＠
 	PlaySE(4, "s20/26/440300110", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わーってるーって。",
 		   NULL, "\"Yeah, yeah.", Line_WaitForInput);
 	OutputLine(NULL, "うっさいな〜〜〜。」",
@@ -233,7 +233,7 @@ void main()
 
 //「お魎さん、お魎さん、ままままま…、そこまでは言わなくても＠魅音ちゃんも若いなりに頑張ってますから。￥
 	PlaySE(4, "s20/10/441000050", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お魎さん、お魎さん、ままままま…、そこまでは言わなくても。",
 		   NULL, "\"Now now, Oryou-san... you don't have to say that.", Line_WaitForInput);
 	OutputLine(NULL, "魅音ちゃんも若いなりに頑張ってますから。」",
@@ -256,7 +256,7 @@ void main()
 
 //「あっはっはっはっは＠で、その母親の母親もまた、そっくりなんじゃあないですか？＠
 	PlaySE(4, "s20/10/441000051", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あっはっはっはっは。",
 		   NULL, "\"Aha ha ha ha.", Line_WaitForInput);
 	OutputLine(NULL, "で、その母親の母親もまた、そっくりなんじゃあないですか？」",
@@ -316,7 +316,7 @@ void main()
 
 //「日中はだいぶ暑くなったように思うんですが、…まだ、朝夕は涼しいですね＠昨夜は少し肌寒いくらいでした。＠
 	PlaySE(4, "s20/10/441000052", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「日中はだいぶ暑くなったように思うんですが、…まだ、朝夕は涼しいですね。",
 		   NULL, "\"It's gotten fairly hot during the day, but the evenings are still rather cool, aren't they.", Line_WaitForInput);
 	OutputLine(NULL, "昨夜は少し肌寒いくらいでした。」",
@@ -366,7 +366,7 @@ void main()
 
 //「………国が一度決めたことを撤回するのは、なかなか難しいでしょうねぇ…。＠
 	PlaySE(4, "s20/10/441000053", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………国が一度決めたことを撤回するのは、なかなか難しいでしょうねぇ…。」",
 		   NULL, "\"...To get the government to withdraw a decision they've already made is a fairly difficult thing to do...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -386,7 +386,7 @@ void main()
 
 //「…石臼、ですか？＠
 	PlaySE(4, "s20/10/441000054", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…石臼、ですか？」",
 		   NULL, "\"...A millstone?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -477,7 +477,7 @@ void main()
 
 //「摩擦係数の話でしょ＠確かに婆っちゃの話、理屈はあるね。＠
 	PlaySE(4, "s20/26/440300111", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「摩擦係数の話でしょ。",
 		   NULL, "\"You're talking about friction, right?", Line_WaitForInput);
 	OutputLine(NULL, "確かに婆っちゃの話、理屈はあるね。」",
@@ -497,7 +497,7 @@ void main()
 
 //「…………確かに、一度中断した計画をもう一度動かすのに必要なエネルギーは、かなりのものでしょうね。＠
 	PlaySE(4, "s20/10/441000055", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………確かに、一度中断した計画をもう一度動かすのに必要なエネルギーは、かなりのものでしょうね。」",
 		   NULL, "\"...Certainly, to get a project that's been suspended going again takes quite a lot of work.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -518,7 +518,7 @@ void main()
 
 //「石臼を止める、いい手があればいいんですがね…。＠
 	PlaySE(4, "s20/10/441000056", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「石臼を止める、いい手があればいいんですがね…。」",
 		   NULL, "\"It'd be nice if there was some way to get that millstone to stop, wouldn't it?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -562,7 +562,7 @@ void main()
 //「……………………………。＠
 	PlaySE(4, "s20/17/442300024", 128, 64);
 	PlaySE(5, "s20/26/440300112", 128, 64);
-	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#75bfa2>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#5ec69a>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -571,7 +571,7 @@ void main()
 //「………………………。＠
 	PlaySE(4, "s20/17/442300025", 128, 64);
 	PlaySE(5, "s20/26/440300113", 128, 64);
-	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#75bfa2>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#5ec69a>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -610,7 +610,7 @@ void main()
 
 //「……………………はは、ははははははは、＠
 	PlaySE(4, "s20/10/441000057", 128, 64);
-	if (AdvMode) { OutputLine("<color=#cda188>入江</color>", NULL, "<color=#cda188>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………はは、ははははははは、」",
 		   NULL, "\"...Haha, hahahahahahaha...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

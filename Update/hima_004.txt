@@ -79,7 +79,7 @@ void main()
 
 //「赤坂さあん！＠　なっはっはっは＠　何年ぶりでしょう～！＠　ご無沙汰しておりますねぇ～！！！＠
 	PlaySE(4, "s05/11/100700668", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂さあん！！",
 		   NULL, "\"Akasaka-saaaan!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700669", 128, 64);
@@ -116,7 +116,7 @@ void main()
 
 //「赤坂さんも、だいぶいい顔つきになりましたねぇ＠最前線の捜査官らしい、いい顔つきですよ。＠
 	PlaySE(4, "s05/11/100700672", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂さんも、だいぶいい顔つきになりましたねぇ。",
 		   NULL, "\"Akasaka-san, you're looking pretty good.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700673", 128, 64);
@@ -144,7 +144,7 @@ void main()
 
 //「むっふっふっふ＠　赤坂さんもね、若いうちからダンスはやっておいた方がいいですよぅ＠　そしたらきっとモテます＠モテモテ＠　んっふっふっふ！！￥
 	PlaySE(4, "s05/11/100700674", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「むっふっふっふ！",
 		   NULL, "\"Mfu fu fu!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700675", 128, 64);
@@ -246,7 +246,7 @@ void main()
 
 //「い～～ぇ＠結局、山狩りでも見つけられませんでした＠多分、村にかくまわれてから、海外か遠方でほとぼりを冷ましてるんじゃないかと思いますね。￥
 	PlaySE(4, "s05/11/100700679", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「い〜〜ぇ。",
 		   NULL, "\"Nooope.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700680", 128, 64);
@@ -274,7 +274,7 @@ void main()
 
 //「中国製の軍用拳銃でした＠関西系の暴力団組織が大量に密輸した内の一丁でしょうなぁ＠線状痕を調べましたが、他の事件とのつながりは何も出ませんでした＠…そっちでは？￥
 	PlaySE(4, "s05/11/100700682", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「中国製の軍用拳銃でした。",
 		   NULL, "\"It was a Chinese-made military pistol.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700683", 128, 64);
@@ -284,7 +284,7 @@ void main()
 	OutputLine(NULL, "線状痕を調べましたが、他の事件とのつながりは何も出ませんでした。",
 		   NULL, " We tried to get a match from the rifling, but it didn't show up in any other cases. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700685", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そっちでは？」",
 		   NULL, "...How about on your end?\"", Line_Normal);
 	ClearMessage();
@@ -305,7 +305,7 @@ void main()
 
 //「…なっはっはっはっはっは…。＠
 	PlaySE(4, "s05/11/100700686", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…なっはっはっはっはっは…。」",
 		   NULL, "\"...Na ha ha ha ha ha...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -322,7 +322,7 @@ void main()
 
 //「………あの後は、…大変でしたねぇ＠…………今年で７年ですか？＠
 	PlaySE(4, "s05/11/100700687", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………あの後は、…大変でしたねぇ。",
 		   NULL, "\"...What happened after that... sure was tough, huh?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700688", 128, 64);
@@ -351,7 +351,7 @@ void main()
 
 //「…なっはっはっは＠それはそれはお疲れ様でした…。￥
 	PlaySE(4, "s05/11/100700689", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…なっはっはっは。",
 		   NULL, "\"...Na ha ha ha.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700690", 128, 64);
@@ -822,7 +822,7 @@ void main()
 
 //「……………………そんな話は初めて聞きました。＠
 	PlaySE(4, "s05/11/100700691", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………そんな話は初めて聞きました。」",
 		   NULL, "\"....That's the first I've heard about that.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -844,7 +844,7 @@ void main()
 
 //「なっはははは……＠…偶然では＠　超能力じゃあるまいし。￥
 	PlaySE(4, "s05/11/100700692", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「なっはははは……。",
 		   NULL, "\"Nahahaha...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700693", 128, 64);
@@ -872,7 +872,7 @@ void main()
 
 //「えぇ、まぁ＠…村の年寄りどもは、古手梨花に神通力があると信じてるようでしたがね。＠
 	PlaySE(4, "s05/11/100700695", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇ、まぁ。",
 		   NULL, "\"Well, yeah.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700696", 128, 64);
@@ -901,7 +901,7 @@ void main()
 
 //「まぁ、嘘かホントか知りませんがね＠
 	PlaySE(4, "s05/11/100700697", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「まぁ、嘘かホントか知りませんがね。",
 		   NULL, "\"I don't know if it's the truth or not.", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -909,7 +909,7 @@ void main()
 
 //　未来のことを予言して見せたり、知らないはずのことを話して見せたり＠千里眼だの、天の啓示だの＠
 	PlaySE(4, "s05/11/100700698", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　未来のことを予言して見せたり、知らないはずのことを話して見せたり。",
 		   NULL, "They said she did things like prophesize the future, or talk about things she should have no way of knowing.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700699", 128, 64);
@@ -920,7 +920,7 @@ void main()
 
 //まぁいろいろです＠もちろん、具体的な実例は何一つありゃしないんですがね＠　なっはっはっは…。￥
 	PlaySE(4, "s05/11/100700700", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まぁいろいろです。",
 		   NULL, "Well, all sorts of things.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700701", 128, 64);
@@ -951,7 +951,7 @@ void main()
 
 //「現職の警視庁の敏腕捜査官が、神通力やら祟りやらを信じるわけで…？＠
 	PlaySE(4, "s05/11/100700703", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「現職の警視庁の敏腕捜査官が、神通力やら祟りやらを信じるわけで…？」",
 		   NULL, "\"Does that mean an active and capable investigator from the Metropolitan Police Department believes in divine powers and curses?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1018,7 +1018,7 @@ void main()
 
 //「……………奥さんの事故の検証に不備は？＠
 	PlaySE(4, "s05/11/100700704", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………奥さんの事故の検証に不備は？」",
 		   NULL, "\"...Not satisfied with the investigation into your wife's accident?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1078,7 +1078,7 @@ void main()
 
 //「……………………。＠
 	PlaySE(4, "s05/11/100700705", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1107,7 +1107,7 @@ void main()
 
 //「…………奥さんは、!w800……連中に、!w1200…殺された？＠
 	PlaySE(4, "s05/11/100700706", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………奥さんは、",
 		   NULL, "\"They...", Line_ContinueAfterTyping);
 
@@ -1168,7 +1168,7 @@ void main()
 
 //「………………………なっはっはっは。＠
 	PlaySE(4, "s05/11/100700707", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………………なっはっはっは。」",
 		   NULL, "\"....Na ha ha ha.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1183,7 +1183,7 @@ void main()
 
 //「…じゃあいいですよ＠　赤坂さんの言うとおり、古手梨花は未来がわかる預言者だとします＠/
 	PlaySE(4, "s05/11/100700708", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…じゃあいいですよ？",
 		   NULL, "\"...Then if I may?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700709", 128, 64);
@@ -1198,7 +1198,7 @@ void main()
 	OutputLine(NULL, "なら、…なぜあの大災害が予知できなかったんです？",
 		   NULL, "If so, why didn't she predict that disaster? ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700711", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あんな恐ろしいガス災害が起こると知ってて、どうして黙っていたんです？",
 		   NULL, "If she knew that the gas eruption was going to happen, why did she remain silent?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700712", 128, 64);
@@ -1277,14 +1277,14 @@ void main()
 
 //「…まぁでも＠…オヤシロさまの生まれ変わりである古手梨花が殺されたので、村がオヤシロさまの怒りに触れて、それで沼から瘴気が湧き出して村を死滅させたんじゃないかって＠…そーいう話が確かに、雛見沢系の生存した人間たちの間で、まことしやかに囁かれてたのは事実ですねぇ…。￥
 	PlaySE(4, "s05/11/100700714", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…まぁでも。",
 		   NULL, "\"Well...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700715", 128, 64);
 	OutputLine(NULL, "…オヤシロさまの生まれ変わりである古手梨花が殺されたので、村がオヤシロさまの怒りに触れて、それで沼から瘴気が湧き出して村を死滅させたんじゃないかって、",
 		   NULL, " If Rika Furude, the reincarnation of Oyashiro-sama, was killed, then the village might have incurred the god's wrath, making him call forth the miasma from the swamp to kill everyone. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700716", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そーいう話が確かに、雛見沢系の生存した人間たちの間で、まことしやかに囁かれてたのは事実ですねぇ…。」",
 		   NULL, "That explanation is what the survivors are whispering about...\"", Line_Normal);
 	ClearMessage();
@@ -1307,7 +1307,7 @@ void main()
 
 //「え＠　…………あ、……ん＠……まぁ、赤坂さんになら話しても問題ないか…。￥
 	PlaySE(4, "s05/11/100700717", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「え？",
 		   NULL, "\"Huh?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700718", 128, 64);
@@ -1412,7 +1412,7 @@ void main()
 
 //「ん～～～…、私、退職したとは言え、守秘義務がありますよぅ＠　んっふっふっふ！￥
 	PlaySE(4, "s05/11/100700720", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん〜〜〜…、私、退職したとは言え、守秘義務がありますよぅ？",
 		   NULL, "\"Hmmm... I may be retired, but I still have to keep things confidential, ya know?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700721", 128, 64);
@@ -1440,7 +1440,7 @@ void main()
 
 //「なっはっはっは！＠　いやいや…そういうつもりで言ったんじゃないんだけどなぁ…！＠
 	PlaySE(4, "s05/11/100700722", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「なっはっはっは！！",
 		   NULL, "\"Na ha ha ha!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700723", 128, 64);
@@ -1475,7 +1475,7 @@ void main()
 
 //「例の大災害のせいで雛見沢地区全域が封鎖されちゃいましたからねぇ＠
 	PlaySE(4, "s05/11/100700724", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「例の大災害のせいで雛見沢地区全域が封鎖されちゃいましたからねぇ。",
 		   NULL, "\"Because the entire area around Hinamizawa was sealed off, you see?", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1483,15 +1483,15 @@ void main()
 
 //　あの最後の年の「祟り」については、ほとんど捜査が出来てないんですよ＠何年か後に封鎖が解けたとしても、村人のほとんどが死んでますし、数少ない生存者も親戚の元なんかに散って、所在がほとんどわからないですからねぇ＠……完全に迷宮入りです。￥
 	PlaySE(4, "s05/11/100700725", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの最後の年の「祟り」については、ほとんど捜査が出来てないんですよ。",
 		   NULL, "There wasn't much of an investigation that could be done on the last year of the curse. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700726", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "何年か後に封鎖が解けたとしても、村人のほとんどが死んでますし、数少ない生存者も親戚の元なんかに散って、所在がほとんどわからないですからねぇ。",
 		   NULL, "Even if after several years the quarantine is lifted, the villagers are mostly dead, and what few survivors there were mostly went to stay with relatives, their whereabouts mostly unknown. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700727", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……完全に迷宮入りです。」",
 		   NULL, "...It's a complete dead end.\"", Line_Normal);
 	ClearMessage();
@@ -1515,7 +1515,7 @@ void main()
 
 //「…………週刊誌なんかじゃ、５年目の祟りがあの大災害だ、みたいな言い方をしてますけどね＠……本当の５年目の祟りは、ちゃんと綿流しの祭りの当日にあったんですよ＠……富竹ジロウって言う、旅行写真家がいましてね＠彼が犠牲に。＠
 	PlaySE(4, "s05/11/100700728", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………週刊誌なんかじゃ、５年目の祟りがあの大災害だ、みたいな言い方をしてますけどね。",
 		   NULL, "\"...The magazines made it seem like the curse of the fifth year was that disaster.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700729", 128, 64);
@@ -1525,7 +1525,7 @@ void main()
 	OutputLine(NULL, "……富竹ジロウって言う、旅行写真家がいましてね。",
 		   NULL, " A photographer by the name of Jirou Tomitake. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700731", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼が犠牲に。」",
 		   NULL, "He was the victim.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1542,7 +1542,7 @@ void main()
 
 //「で、その富竹氏の恋仲の女性が岐阜の山中で焼死体に＠岐阜県警さんがあんまり協力的じゃなかったもんで、こっちはあまりよく状況を知らないんですがね。＠
 	PlaySE(4, "s05/11/100700732", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「で、その富竹氏の恋仲の女性が岐阜の山中で焼死体に。",
 		   NULL, "\"And the burnt corpse of the woman Tomitake was in a relationship with was found in the mountains in Gifu.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700733", 128, 64);
@@ -1565,7 +1565,7 @@ void main()
 
 //「…ん～～、実はねぇ＠二人どころじゃ済まないんですよ＠…その翌日になんですがね＠……私の後輩の熊谷くんが、捜査中に車両ごと蒸発しましてね。＠
 	PlaySE(4, "s05/11/100700734", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…ん〜〜、実はねぇ。",
 		   NULL, "\"...Hmmm, actually, see.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700735", 128, 64);
@@ -1589,7 +1589,7 @@ void main()
 
 //「富竹氏の事件捜査のために、村に聞き込みなんかに回ってたんですよ＠……何かの事件に巻き込まれたのかもしれない＠/
 	PlaySE(4, "s05/11/100700738", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「富竹氏の事件捜査のために、村に聞き込みなんかに回ってたんですよ。",
 		   NULL, "\"He was going around the village to question people about the incident with Tomitake.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700739", 128, 64);
@@ -1607,7 +1607,7 @@ void main()
 	OutputLine(NULL, "…私と一緒だったなら無事だったかもしれないと思うと……今でも悔しいですよ。",
 		   NULL, "...If he was with me, he might have been safe... even now it still stings. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700741", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あの日、どういうわけは私、お腹をひどく壊しましてね。",
 		   NULL, "That day, for some reason, I did a real number on my stomach.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700742", 128, 64);
@@ -1628,7 +1628,7 @@ void main()
 
 //「………と、思っています＠熊ちゃんは前途有望な若者だったけど、まだ現場経験が不足してた……＠トラブル慣れしてなかったんです。＠
 	PlaySE(4, "s05/11/100700743", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………と、思っています。",
 		   NULL, "\"...That's what I think.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700744", 128, 64);
@@ -1651,7 +1651,7 @@ void main()
 
 //「で、さらに翌日ですね＠……あ、彼のことは赤坂さんもご存知ですよね＠/
 	PlaySE(4, "s05/11/100700746", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「で、さらに翌日ですね。",
 		   NULL, "\"And then, the next day, see.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700747", 128, 64);
@@ -1687,7 +1687,7 @@ void main()
 
 //「彼ですね、…どういうわけか、睡眠薬で自殺しまして＠……遺書の類はなし＠司法解剖の結果でも、睡眠薬によるものと断定されました＠動機以外に不審な点はなし。＠
 	PlaySE(4, "s05/11/100700750", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「彼ですね、…どういうわけか、睡眠薬で自殺しまして。",
 		   NULL, "\"For whatever reason, he committed suicide with sleeping pills.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700751", 128, 64);
@@ -1715,21 +1715,21 @@ void main()
 
 //「独身で、離婚歴もなし＠特定の女性と付き合っていたという話もなし＠少年野球チームの監督を務め、村人との親交もあり、誰からも好かれる人物＠……敵が見当たりませんね＠…まぁ、それを調べるにも、もうあの大災害で滅茶苦茶になっちゃいましたからね＠今となっては、彼の身辺を調べようもありませんが。￥
 	PlaySE(4, "s05/11/100700754", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「独身で、離婚歴もなし。",
 		   NULL, "\"He was single, no prior marriages.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700755", 128, 64);
 	OutputLine(NULL, "特定の女性と付き合っていたという話もなし。",
 		   NULL, " It didn't seem like he was going out with anybody in particular. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700756", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "少年野球チームの監督を務め、村人との親交もあり、誰からも好かれる人物。",
 		   NULL, "He was the coach of the local junior baseball team, and was on good terms with the villagers. He was liked by everybody.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700757", 128, 64);
 	OutputLine(NULL, "……敵が見当たりませんね。",
 		   NULL, " ...I couldn't find anybody who would want to do him harm. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700758", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…まぁ、それを調べるにも、もうあの大災害で滅茶苦茶になっちゃいましたからね。",
 		   NULL, "...Well, any chances to investigate were ruined by the disaster, though.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700759", 128, 64);
@@ -1755,7 +1755,7 @@ void main()
 
 //「その当日です＠昼頃に、神社に訪れた村の老人たちが＠古手梨花の死体を発見しました。＠
 	PlaySE(4, "s05/11/100700760", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「その当日です。",
 		   NULL, "\"It was the day of.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700761", 128, 64);
@@ -1777,7 +1777,7 @@ void main()
 
 //「…話す前に、そのイカソウメン、食べちゃっといた方がいいですよ。＠
 	PlaySE(4, "s05/11/100700763", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…話す前に、そのイカソウメン、食べちゃっといた方がいいですよ。」",
 		   NULL, "\"...Before we continue, you should probably stop eating that squid soumen.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1804,7 +1804,7 @@ void main()
 
 //「死体は神社の境内、賽銭箱の脇でした＠……もっとも、シメたのは他の場所でしょうねぇ＠全裸で裸足＠足の裏は汚れてませんでしたから。＠
 	PlaySE(4, "s05/11/100700764", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「死体は神社の境内、賽銭箱の脇でした。",
 		   NULL, "\"The corpse was found on the shrine grounds, next to the donation box.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700765", 128, 64);
@@ -1814,7 +1814,7 @@ void main()
 	OutputLine(NULL, "全裸で裸足。",
 		   NULL, " That's because while she was completely naked, ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700767", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "足の裏は汚れてませんでしたから。」",
 		   NULL, "there wasn't any dirt on the soles of her feet.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1832,7 +1832,7 @@ void main()
 
 //「司法解剖の結果、性的暴行の痕跡は認められませんでした＠/
 	PlaySE(4, "s05/11/100700768", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「司法解剖の結果、性的暴行の痕跡は認められませんでした。",
 		   NULL, "\"According to the autopsy, there wasn't any indication of that.", Line_WaitForInput);
 
@@ -1842,7 +1842,7 @@ void main()
 	PlaySE(4, "s05/11/100700769", 128, 64);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
 		   NULL, " ...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
 		   NULL, "Her organs were deliberately removed and scattered about.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1861,7 +1861,7 @@ void main()
 
 //「………………。￥
 	PlaySE(4, "s05/11/100700771", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -1961,7 +1961,7 @@ void main()
 
 //「……この死に方ですが、…どうも単なる猟奇趣味ってわけじゃないみたいなんです＠……と言いますのはですねぇ、…雛見沢村はかつて鬼が住んでたって話は、以前もしましたよね？＠
 	PlaySE(4, "s05/11/100700772", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……この死に方ですが、…どうも単なる猟奇趣味ってわけじゃないみたいなんです。",
 		   NULL, "\"...About the way she died... it seems like it wasn't just somebody's sick tastes.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700773", 128, 64);
@@ -1980,7 +1980,7 @@ void main()
 
 //「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです＠……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。＠
 	PlaySE(4, "s05/11/100700774", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
 		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drift',  seems to stem from the drifting of entrails. ", Line_ModeSpecific);
 	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1999,11 +1999,11 @@ void main()
 
 //「…………。で、……雛見沢村の昔話によるとですね＠…人食い鬼と人間が仲良くくらすための調停者として「オヤシロさま」という神さまが降臨している…ってことになってるらしい。＠
 	PlaySE(4, "s05/11/100700776", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………。で、……雛見沢村の昔話によるとですね。",
 		   NULL, "\".... Well... this is according to the old tales in Hinamizawa, you see. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700777", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…人食い鬼と人間が仲良くくらすための調停者として「オヤシロさま」という神さまが降臨している…ってことになってるらしい。」",
 		   NULL, "...To act as an arbitrator so that the humans and the man-eating demons could live together peacefully, a god known as 'Oyashiro-sama' descended from the heavens.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2019,7 +2019,7 @@ void main()
 
 //「えぇ＠ですから、…その現人神である古手梨花を、開腹して殺すのは、村の信仰に対するこれ以上ない冒涜行為と言えるわけです。￥
 	PlaySE(4, "s05/11/100700778", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700779", 128, 64);
@@ -2041,7 +2041,7 @@ void main()
 
 //「……後は、赤坂さんも知っての通りです＠「オヤシロさまの祟り」が起こるのはその晩のことです。￥
 	PlaySE(4, "s05/11/100700780", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……後は、赤坂さんも知っての通りです。",
 		   NULL, "\"...The rest you should know, Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700781", 128, 64);
@@ -2070,14 +2070,14 @@ void main()
 
 //「発生した沼は、鬼ヶ淵沼と言いまして＠雛見沢村の旧名、鬼ヶ淵村の名前の源となった沼です＠村の言い伝えでは、この沼の奥底は地獄に繋がってるそうで、かつて村にやってきた人食い鬼たちはこの沼から訪れたのだとか。＠
 	PlaySE(4, "s05/11/100700782", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「発生した沼は、鬼ヶ淵沼と言いまして。",
 		   NULL, "\"The swamp where it erupted was called Onigafuchi Swamp.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700783", 128, 64);
 	OutputLine(NULL, "雛見沢村の旧名、鬼ヶ淵村の名前の源となった沼です。",
 		   NULL, " It was the origin of Hinamizawa's old name, Onigafuchi Village. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700784", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "村の言い伝えでは、この沼の奥底は地獄に繋がってるそうで、かつて村にやってきた人食い鬼たちはこの沼から訪れたのだとか。」",
 		   NULL, "According to village lore, the depths of the swamp apparently lead to Hell, where the man-eating demons came from.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2093,7 +2093,7 @@ void main()
 
 //「いやいやいや。まだまだ出来過ぎてますよぅ＠　村には伝承がありまして、オヤシロさまがお怒りになられると、地獄の釜が開いて瘴気があふれ出す…なんて言うんですよ。＠
 	PlaySE(4, "s05/11/100700785", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いやいやいや。まだまだ出来過ぎてますよぅ？",
 		   NULL, "\"Oh no no no. That's just the tip of the iceberg.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700786", 128, 64);
@@ -2117,14 +2117,14 @@ void main()
 
 //「そう＠つまり、古手梨花ことオヤシロさまの生まれ変わりが、冒涜される殺され方をしたので、オヤシロさまがお怒りになって、祟りとしてあの大災害を起こしたと＠……そういう話がまかり通っちゃってるんですよ。＠
 	PlaySE(4, "s05/11/100700787", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そう。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700788", 128, 64);
 	OutputLine(NULL, "つまり、古手梨花ことオヤシロさまの生まれ変わりが、冒涜される殺され方をしたので、オヤシロさまがお怒りになって、祟りとしてあの大災害を起こしたと。",
 		   NULL, " Basically: due to the sacrilegious way that Rika Furude--the living incarnation of Oyashiro-sama--was killed, the village incurred the wrath of Oyashiro-sama, in the form of that disaster. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700789", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……そういう話がまかり通っちゃってるんですよ。」",
 		   NULL, "...That seems to be their explanation.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2140,7 +2140,7 @@ void main()
 
 //「ん～～～～…、確かに話が出来過ぎてますからねぇ＠オヤシロさまの祟りが実在せず、本当の偶発的事故でもないってんなら、…そう疑いたくもなりますよねぇ。＠
 	PlaySE(4, "s05/11/100700790", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん〜〜〜〜…、確かに話が出来過ぎてますからねぇ。",
 		   NULL, "\"Hmmm... Well everything does seem to fit together a little too well.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700791", 128, 64);
@@ -2176,7 +2176,7 @@ void main()
 
 //「………もちろん、私は笑いませんよ＠　私も、一度ならずともそう考えたことはあります＠
 	PlaySE(4, "s05/11/100700792", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………もちろん、私は笑いませんよ？",
 		   NULL, "\"...Of course, I won't laugh.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700793", 128, 64);
@@ -2187,7 +2187,7 @@ void main()
 
 //　ですが、…雛見沢村がいかに小さい村とは言え、人口は１０００人以上＠それを一夜にして抹殺するなんて、どう考えても現実的じゃないです。￥
 	PlaySE(4, "s05/11/100700794", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ですが、…雛見沢村がいかに小さい村とは言え、人口は１０００人以上。",
 		   NULL, "However... even though Hinamizawa is a small village, it still has a population of over 1000 people.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700795", 128, 64);
@@ -2231,14 +2231,14 @@ void main()
 
 //「自衛隊の発表では、沼が発生源だと言うことになってますよねぇ＠調査チームとかが詳しく調べた上での発表ですからね＠そんな仕掛けがあったら、見つけてると思いますけどねぇ…。￥
 	PlaySE(4, "s05/11/100700796", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「自衛隊の発表では、沼が発生源だと言うことになってますよねぇ。",
 		   NULL, "\"According to the JSDF press release, the swamp was declared the source of the eruption.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700797", 128, 64);
 	OutputLine(NULL, "調査チームとかが詳しく調べた上での発表ですからね。",
 		   NULL, " This was after everything was thoroughly looked over by their investigative team. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700798", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな仕掛けがあったら、見つけてると思いますけどねぇ…。」",
 		   NULL, "If anything like that was set up, I think they would have found it...\"", Line_Normal);
 	ClearMessage();
@@ -2263,7 +2263,7 @@ void main()
 
 //「何ですか、そりゃ。￥
 	PlaySE(4, "s05/11/100700799", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「何ですか、そりゃ。」",
 		   NULL, "\"What do you mean by that?\"", Line_Normal);
 	ClearMessage();
@@ -2285,14 +2285,14 @@ void main()
 
 //「…なっはっはっは＠…つまり、赤坂さんが言いたいのは、鬼ヶ淵沼と繋がった別の沼か泉があって＠それに何だかの仕掛けをすると、鬼ヶ淵沼の圧力とか水圧とか、そーゆうものがいろいろ変わって、毒ガスが噴出する仕掛けを、大昔の村人がこさえていたと＠…そういう話ですよね？￥
 	PlaySE(4, "s05/11/100700800", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…なっはっはっは。",
 		   NULL, "\"...Na ha ha ha.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700801", 128, 64);
 	OutputLine(NULL, "…つまり、赤坂さんが言いたいのは、鬼ヶ淵沼と繋がった別の沼か泉があって、",
 		   NULL, " So what you're saying, is that Onigafuchi Swamp is connected to another swamp or spring, ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700802", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに何だかの仕掛けをすると、鬼ヶ淵沼の圧力とか水圧とか、そーゆうものがいろいろ変わって、毒ガスが噴出する仕掛けを、大昔の村人がこさえていたと。",
 		   NULL, "and there's something the villagers rigged up there long ago, something that changes the pressure of Onigafuchi Swamp, causing it to erupt with poison gas?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700803", 128, 64);
@@ -2319,7 +2319,7 @@ void main()
 
 //「………面白い話です＠…それが立証できたら、………日本の犯罪史、始まって以来の空前規模の大量殺人ってことになりますよ。＠
 	PlaySE(4, "s05/11/100700804", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………面白い話です。",
 		   NULL, "\"...That's an interesting theory.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700805", 128, 64);
@@ -2344,7 +2344,7 @@ void main()
 
 //「そこそこには＠…柔道部の名誉顧問ですからね、今でも夏の合宿やなんかにはちょくちょく出掛けてます。￥
 	PlaySE(4, "s05/11/100700806", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そこそこには。",
 		   NULL, "\"Somewhat.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700807", 128, 64);
@@ -2366,7 +2366,7 @@ void main()
 
 //「…………………わかりました。￥
 	PlaySE(4, "s05/11/100700808", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………わかりました。」",
 		   NULL, "\"...Got it.\"", Line_Normal);
 	ClearMessage();
@@ -2382,7 +2382,7 @@ void main()
 
 //「……当時の署内は、村人の圧力でぎゅうぎゅうでしてね＠連続事件は存在しないというのが当時の公式見解でした＠事件は個々で、またそれぞれに解決している、と。￥
 	PlaySE(4, "s05/11/100700809", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……当時の署内は、村人の圧力でぎゅうぎゅうでしてね。",
 		   NULL, "\"...At the time, the villagers were putting a lot of pressure on the station.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700810", 128, 64);
@@ -2412,14 +2412,14 @@ void main()
 //「赤坂さん、そりゃあ、５年も続いて派手な最後があった今だから言えることですよ＠
 //　……あの当時は、偶然の事件が偶然にも綿流しの日に起こる＠今年は起きないといいな…なんて感じだったんです。￥
 	PlaySE(4, "s05/11/100700812", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂さん、そりゃあ、５年も続いて派手な最後があった今だから言えることですよ。",
 		   NULL, "\"Akasaka-san, we can only say that now because of the rather grandiose way things ended after five years.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700813", 128, 64);
 	OutputLine(NULL, "　……あの当時は、偶然の事件が偶然にも綿流しの日に起こる。",
 		   NULL, " ...At the time, those coincidental incidents just happened to coincidently occur on the day of Watanagashi. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700814", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今年は起きないといいな…なんて感じだったんです。」",
 		   NULL, "Just a 'it would be nice if nothing happened this year' kind of feel to it.\"", Line_Normal);
 	ClearMessage();
@@ -2440,7 +2440,7 @@ void main()
 
 //「………少女？＠
 	PlaySE(4, "s05/11/100700815", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………少女？」",
 		   NULL, "\"...Girl?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2465,7 +2465,7 @@ void main()
 
 //「…………………赤坂さん、!w1000……そりゃあ、本当ですか…！￥
 	PlaySE(4, "s05/11/100700816", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………赤坂さん、",
 		   NULL, "\"...Akasaka-san,", Line_ContinueAfterTyping);
 
@@ -2500,7 +2500,7 @@ void main()
 
 //「……赤坂さんがその話を聞いたのは、…昭和の何年の話ですか？！￥
 	PlaySE(4, "s05/11/100700817", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……赤坂さんがその話を聞いたのは、…昭和の何年の話ですか？！」",
 		   NULL, "\"...Akasaka-san, when she told you all of that, what year was it!?\"", Line_Normal);
 	ClearMessage();
@@ -2516,7 +2516,7 @@ void main()
 
 //「…………バラバラ殺人の、…前年に。＠
 	PlaySE(4, "s05/11/100700818", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………バラバラ殺人の、…前年に。」",
 		   NULL, "\"...The year before the dismemberment murder.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2533,7 +2533,7 @@ void main()
 
 //「…赤坂さん＠古手梨花が神通力で未来がわかった、…なんて話がナシだとするなら、………こりゃあとんでもない話ですよ…？＠
 	PlaySE(4, "s05/11/100700819", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700820", 128, 64);
@@ -2555,7 +2555,7 @@ void main()
 
 //「……………今さら、私を驚かせるための作り話だ、なんて言ったら、本気で怒りますよ…？＠
 	PlaySE(4, "s05/11/100700821", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………今さら、私を驚かせるための作り話だ、なんて言ったら、本気で怒りますよ…？」",
 		   NULL, "\"...If you're just trying to shock me, I'm going to be really angry, you know?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2608,7 +2608,7 @@ void main()
 
 //「……なら、古手梨花は、どうして逃げ出さなかったんですかねぇ。＠
 	PlaySE(4, "s05/11/100700822", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……なら、古手梨花は、どうして逃げ出さなかったんですかねぇ。」",
 		   NULL, "\"...Then, why didn't Rika Furude not try and run away?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2624,7 +2624,7 @@ void main()
 
 //「仮に、そういった死のシナリオがすでに出来上がっていたとして＠彼女はそれを知りかつ、数年という猶予期間があったわけですよね＠
 	PlaySE(4, "s05/11/100700823", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「仮に、そういった死のシナリオがすでに出来上がっていたとして。",
 		   NULL, "\"Even if her death was already spelled out for her...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700824", 128, 64);
@@ -2635,7 +2635,7 @@ void main()
 
 //　逃げ出すなり、警察に相談するなりの時間はあったはずです＠…なぜ、抗わずに、自らの死を受け入れたんです？＠
 	PlaySE(4, "s05/11/100700825", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　逃げ出すなり、警察に相談するなりの時間はあったはずです。",
 		   NULL, "She had plenty of time to try and run away or consult the police.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700826", 128, 64);
@@ -2654,15 +2654,15 @@ void main()
 
 //「………古手梨花は、村の年寄り連中に可愛がられてはいましたがね＠……両親を失った後は親類もゼロで身寄りはなく、親しい友人と肩を寄せ合うだけの孤独な生活でしたからね＠………戦う力も、頼れる人間も、身近にはいなかったのかもしれません。＠
 	PlaySE(4, "s05/11/100700827", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………古手梨花は、村の年寄り連中に可愛がられてはいましたがね。",
 		   NULL, "\"...Even though Rika Furude was doted upon by the older folks in the village, you see... ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700828", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……両親を失った後は親類もゼロで身寄りはなく、親しい友人と肩を寄せ合うだけの孤独な生活でしたからね。",
 		   NULL, "After she lost her parents, she had no living relatives, and lived a fairly solitary life other than hanging around with some close friends. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700829", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "………戦う力も、頼れる人間も、身近にはいなかったのかもしれません。」",
 		   NULL, "...It might have been she didn't have any power to fight or anybody to rely on.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2678,7 +2678,7 @@ void main()
 
 //「村と警察が穏便な関係じゃなかったのは、赤坂さんも知られるところだと思います＠……少なくとも私の耳には、古手梨花が自身の身柄の保護を求めてきたという情報はありません。＠
 	PlaySE(4, "s05/11/100700830", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「村と警察が穏便な関係じゃなかったのは、赤坂さんも知られるところだと思います。",
 		   NULL, "\"You know very well that the village and the police weren't very amicable with one another, Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700831", 128, 64);
@@ -2697,7 +2697,7 @@ void main()
 
 //「……あるいは、…自身が宗教的な生贄にされることに対し、…諦観というか達観というか＠…そういうものがあったのかもしれませんねぇ。＠
 	PlaySE(4, "s05/11/100700832", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あるいは、…自身が宗教的な生贄にされることに対し、…諦観というか達観というか、",
 		   NULL, "\"....Or... it could be that she simply resigned herself to being a religious sacrifice...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700833", 128, 64);
@@ -2767,7 +2767,7 @@ void main()
 
 //「……どうしました＠　赤坂さん？＠
 	PlaySE(4, "s05/11/100700834", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……どうしました？",
 		   NULL, "\"...What's the matter?", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700835", 128, 64);
@@ -3348,7 +3348,7 @@ void main()
 
 //「…………………赤坂さん＠…大丈夫ですか…………？＠
 	PlaySE(4, "s05/11/100700836", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700837", 128, 64);
@@ -3385,7 +3385,7 @@ void main()
 
 //「…………………赤坂さん＠……落ち着いて下さい。￥
 	PlaySE(4, "s05/11/100700838", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………赤坂さん。",
 		   NULL, "\"...Akasaka-san.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700839", 128, 64);
@@ -3420,14 +3420,14 @@ void main()
 
 //「…………村人と良好な関係を築かなかった私にも責任があるかもしれません＠…古手梨花が私にそれを打ち明けてくれたなら、…私だって救いの手を差し伸べられたかもしれない＠………彼女が打ち明けるに足る信頼を築けなかった＠…後悔しています。＠
 	PlaySE(4, "s05/11/100700840", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………村人と良好な関係を築かなかった私にも責任があるかもしれません。",
 		   NULL, "\"...I might also be at fault for not building up an amicable relationship with the village.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700841", 128, 64);
 	OutputLine(NULL, "…古手梨花が私にそれを打ち明けてくれたなら、…私だって救いの手を差し伸べられたかもしれない。",
 		   NULL, " ...If Rika Furude had told me about it, I might have been able to extend a helping hand. ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700842", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "………彼女が打ち明けるに足る信頼を築けなかった。",
 		   NULL, "...I wasn't able to build up enough trust for that.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700843", 128, 64);
@@ -3481,7 +3481,7 @@ void main()
 
 //「赤坂さん＠………悔しいですか？＠
 	PlaySE(4, "s05/11/100700844", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「赤坂さん。",
 		   NULL, "\"Akasaka-san..", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700845", 128, 64);
@@ -3500,7 +3500,7 @@ void main()
 
 //「ならば＠…古手梨花の仇を取るに値する方法がひとつだけあります。＠
 	PlaySE(4, "s05/11/100700846", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ならば。",
 		   NULL, "\"Then...", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700847", 128, 64);
@@ -3529,7 +3529,7 @@ void main()
 
 //「……古手梨花の死を悼むためにも、せめて私たちで真相を。＠
 	PlaySE(4, "s05/11/100700848", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……古手梨花の死を悼むためにも、せめて私たちで真相を。」",
 		   NULL, "\"...In order to properly mourn the death of Rika Furude, we have to at least find out the truth.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3545,7 +3545,7 @@ void main()
 
 //「そうです。古手梨花だけじゃない＠大勢が死にました＠彼らの無念は計り知れません＠
 	PlaySE(4, "s05/11/100700849", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうです。古手梨花だけじゃない。",
 		   NULL, "\"Yes. And not just Rika Furude.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700850", 128, 64);
@@ -3559,7 +3559,7 @@ void main()
 
 //　でも彼らの死は、あの大災害でうやむやにされ、今は捜査すらされることなく、忘却の彼方に葬られようとしています＠/
 	PlaySE(4, "s05/11/100700852", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも彼らの死は、あの大災害でうやむやにされ、今は捜査すらされることなく、忘却の彼方に葬られようとしています。",
 		   NULL, "But their deaths were left unsettled because of the disaster, and now we can't even investigate them, as their memory fades into oblivion.", Line_WaitForInput);
 
@@ -3572,7 +3572,7 @@ void main()
 	OutputLine(NULL, "大勢死んだ！！",
 		   NULL, " Many people died!! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700854", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おやっさんも殺された、熊ちゃんも消された、みんなみんな犠牲になった！！",
 		   NULL, "The ol' man was killed, Kuma-chan was erased. Everybody was a victim!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700855", 128, 64);
@@ -3601,14 +3601,14 @@ void main()
 
 //「えぇ！＠　明かせますよ＠　連続怪死事件の全ての現場を踏み、村の裏事情に精通する私と、連続怪死事件の前年に古手梨花から重要な真実を明かされたあなたとなら！！＠
 	PlaySE(4, "s05/11/100700859", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇ！！",
 		   NULL, "\"Yeah!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700860", 128, 64);
 	OutputLine(NULL, "　明かせますよ！",
 		   NULL, " We'll find it! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700861", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連続怪死事件の全ての現場を踏み、村の裏事情に精通する私と、連続怪死事件の前年に古手梨花から重要な真実を明かされたあなたとなら！！」",
 		   NULL, "I've been around every one of the string of mysterious deaths, and know all of the inner workings of the village. You were told an important truth the year before they happened by Rika Furude!! We can do it!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3624,7 +3624,7 @@ void main()
 
 //「そうです＠古手梨花は死にました＠あなたが青二才だったから救えなかった！！！￥
 	PlaySE(4, "s05/11/100700862", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうです。",
 		   NULL, "\"That's right.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700863", 128, 64);
@@ -3656,7 +3656,7 @@ void main()
 
 //「だから！！＠　その償いとして、真相を究明するんです、私たちで！！＠　あなたの話が事実なら、全ての事件は計画ということになる＠　そうならば調べ方は全然変わってくるんですからね！＠　……私は今夜をかけて、あなたと私の持つ全ての情報をノートにまとめ、明日の朝一番で元の部下たちと連絡を取るつもりです＠…あの事件を終わらせるものか！＠　絶対に暴いてやるんです！！￥
 	PlaySE(4, "s05/11/100700865", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だから！！！",
 		   NULL, "\"That's why!!!", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700866", 128, 64);
@@ -3669,14 +3669,14 @@ void main()
 	OutputLine(NULL, "　そうならば調べ方は全然変わってくるんですからね！！",
 		   NULL, " If that's the case, then how we investigate needs to change completely!! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700869", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……私は今夜をかけて、あなたと私の持つ全ての情報をノートにまとめ、明日の朝一番で元の部下たちと連絡を取るつもりです。",
 		   NULL, "...I intend to spend tonight summarizing all the information you and I have, and then get in contact with one of my former subordinates first thing in the morning.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700870", 128, 64);
 	OutputLine(NULL, "…あの事件を終わらせるものか！！",
 		   NULL, " ...We're not going to let the case go cold!! ", Line_ModeSpecific);
 	PlaySE(4, "s05/11/100700871", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　絶対に暴いてやるんです！！」",
 		   NULL, "We're definitely going to crack it wide open!!\"", Line_Normal);
 	ClearMessage();
@@ -3696,7 +3696,7 @@ void main()
 
 //「えぇ＠あれから数年が経過しましたが、時効ではない＠捜査は中断であっても終了ではない＠まだ続いてるんです＠続けさせるんです、私たちがです！！￥
 	PlaySE(4, "s05/11/100700872", 128, 64);
-	if (AdvMode) { OutputLine("<color=#b1aab6>大石</color>", NULL, "<color=#b1aab6>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"We will.", Line_WaitForInput);
 	PlaySE(4, "s05/11/100700873", 128, 64);

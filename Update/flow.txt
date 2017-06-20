@@ -113,7 +113,7 @@ void Game()
 	DrawScene("black", 1000);
 
 	CallSection("Day1");
-
+	
 }
 
 void Day1()
@@ -253,6 +253,6 @@ void ChapterPreview()
 	FadeOutBGM( 2, 1000, FALSE );
 
 	DrawScene("black", 1000);
-
+	
 	CallSection("Title");
 }

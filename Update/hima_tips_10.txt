@@ -60,7 +60,7 @@ void main()
 
 //「うん、了解＠喪服で行く＠　香典はいくらくらい？＠
 	PlaySE(4, "s20/26/440300114", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うん、了解。",
 		   NULL, "\"Okay, got it.", Line_WaitForInput);
 	OutputLine(NULL, "喪服で行く？",
@@ -186,7 +186,7 @@ void main()
 
 //「あははははは＠婆っちゃも他人にゃやさしいね＠私や詩音が死んだら、同じ様に悲しんでくれる？￥
 	PlaySE(4, "s20/26/440300116", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あははははは。",
 		   NULL, "\"Ahahaha.", Line_WaitForInput);
 	OutputLine(NULL, "婆っちゃも他人にゃやさしいね。",
@@ -262,7 +262,7 @@ void main()
 
 //「……帰ったよ＠…お役人も婆っちゃのご機嫌伺いに大変だねぇ＠訃報なんか電話でいいと思うのにねぇ＠くっくっく…。＠
 	PlaySE(4, "s20/26/440300118", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……帰ったよ。",
 		   NULL, "\"...They're gone.", Line_WaitForInput);
 	OutputLine(NULL, "…お役人も婆っちゃのご機嫌伺いに大変だねぇ。",
@@ -309,7 +309,7 @@ void main()
 
 //「どしたの＠　もうろくした＠　あははははは！＠
 	PlaySE(4, "s20/26/440300121", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どしたの？",
 		   NULL, "\"What's the matter?", Line_WaitForInput);
 	OutputLine(NULL, "　もうろくした？",
@@ -363,7 +363,7 @@ void main()
 
 //「ん＠……………４日、…かな？￥
 	PlaySE(4, "s20/26/440300123", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ん。",
 		   NULL, "\"Hmm.", Line_WaitForInput);
 	OutputLine(NULL, "……………４日、…かな？」",
@@ -388,7 +388,7 @@ void main()
 
 //「…………………………そう？＠
 	PlaySE(4, "s20/26/440300124", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………………そう？」",
 		   NULL, "\"....Really?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -412,7 +412,7 @@ void main()
 
 //「…………………………。＠
 	PlaySE(4, "s20/26/440300125", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -462,7 +462,7 @@ void main()
 
 //「沁子さん、いますか～～＠　婆っちゃに紅茶、入れてあげて下さい～～！＠
 	PlaySE(4, "s20/26/440300126", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「沁子さん、いますか〜〜？",
 		   NULL, "\"Shimiko-san, are you there?", Line_WaitForInput);
 	OutputLine(NULL, "　婆っちゃに紅茶、入れてあげて下さい〜〜！」",
@@ -491,7 +491,7 @@ void main()
 
 //「……………………あ、もしもし＠魅音だけど＠…うん＠…うちのお父さん、います？￥
 	PlaySE(4, "s20/26/440300127", 128, 64);
-	if (AdvMode) { OutputLine("<color=#75bfa2>魅音</color>", NULL, "<color=#75bfa2>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……………………あ、もしもし。",
 		   NULL, "\"....Ah, hello?", Line_WaitForInput);
 	OutputLine(NULL, "魅音だけど。",
