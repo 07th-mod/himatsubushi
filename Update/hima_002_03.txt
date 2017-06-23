@@ -5610,7 +5610,7 @@ void main()
 
 //「…そんれでな＠……大臣の孫、さらったーのを調べるために＠東京からはるばる、公安の捜査官が派遣されてくるっちゅう話だ。＠
 	PlaySE(4, "s05/00/olde00001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…そんれでな。",
 		   NULL, "\"...So you see...", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00002", 128, 64);
@@ -5632,7 +5632,7 @@ void main()
 
 //「……大臣の孫の誘拐な、…迂闊にゃ大事にできゃんってことで＠警視庁の公安部が独自で調べとるっちゅう話だ＠…大仰なこったのぉ＠…………………ん＠　どうした？￥
 	PlaySE(4, "s05/00/olde00004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……大臣の孫の誘拐な、…迂闊にゃ大事にできゃんってことで、",
 		   NULL, "\"...They can't be reckless and make a big deal over the kidnapping,", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00005", 128, 64);
@@ -5669,7 +5669,7 @@ void main()
 
 //「ぉぅぉぅ…梨花ちゃまは警視庁も知ってなさるんかい＠…偉いのぉ。￥
 	PlaySE(4, "s05/00/olde00009", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ぉぅぉぅ…梨花ちゃまは警視庁も知ってなさるんかい。",
 		   NULL, "\"Ohhh ...So Rika-chama knows about the Metropolitan Police Department?", Line_WaitForInput);
 	PlaySE(4, "s05/00/olde00010", 128, 64);
@@ -5688,7 +5688,7 @@ void main()
 
 //「……公安のどんなヤツが来よったんか、…誰ぞ、わかるやつはおらんかいな。＠
 	PlaySE(4, "s05/00/olde00011", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……公安のどんなヤツが来よったんか、…誰ぞ、わかるやつはおらんかいな。」",
 		   NULL, "\"...Is there anybody that knows what kind of guy from Public Safety came here?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5783,7 +5783,7 @@ void main()
 
 //「……梨花ちゃまは、その男のことを何か知っているのかの。＠
 	PlaySE(4, "s05/00/olde00012", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……梨花ちゃまは、その男のことを何か知っているのかの。」",
 		   NULL, "\"...Does Rika-chama know something about this man?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

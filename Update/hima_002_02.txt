@@ -682,7 +682,7 @@ void main()
 
 //「梨花ちゃまじゃないの＠もう子どもはお家に帰る時間だよー！＠
 	PlaySE(4, "s05/00/oldb00001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old guy</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「梨花ちゃまじゃないの。",
 		   NULL, "\"Well isn't it Rika-chama.", Line_WaitForInput);
 	PlaySE(4, "s05/00/oldb00002", 128, 64);
