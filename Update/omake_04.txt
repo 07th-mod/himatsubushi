@@ -2032,7 +2032,7 @@ void main()
 
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 
 	PlaySE( 3, "wa_007", 128, 64 );
@@ -2116,7 +2116,7 @@ void main()
 	PlaySE( 3, "wa_006", 128, 64 );
 	ShakeScreen( 1, 50, 20, 5, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2321,9 +2321,10 @@ void main()
 		   NULL, " How about just about making everybody naked!!!", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_012", 128, 64 );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, " ", Line_ModeSpecific);
 
 	PlaySE(4, "s20/10/441000117", 128, 64);
+	if (AdvMode) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　も、もちろん、靴下は残すのでありまっす！！！」",
 		   NULL, " B-But of course, leave the socks on!!!\"", Line_Normal);
 	ClearMessage();
@@ -2556,13 +2557,14 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, " ", Line_ModeSpecific);
 
 
 	PlayBGM( 2, "lsys24", 128, 0 );
 
 //永遠に等身大着せ替え人形の扱いをされてしまうのかッ？！？！/
 	PlaySE(4, "s20/00/narra44008", 128, 64);
+	if (AdvMode) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "永遠に等身大着せ替え人形の扱いをされてしまうのかッ？！？！",
 		   NULL, "<size=-2> being used as life-size dress-up dolls for all eternity!?!?</size>", Line_ContinueAfterTyping);
 
