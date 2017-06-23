@@ -2943,7 +2943,7 @@ void main()
 
 	PlaySE( 3, "wa_004", 128, 64 );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_ModeSpecific);
 
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
