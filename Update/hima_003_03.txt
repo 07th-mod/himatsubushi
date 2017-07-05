@@ -2698,7 +2698,7 @@ void main()
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 //!sd
@@ -3548,7 +3548,7 @@ void main()
 	DisableWindow();
 	ShakeScreen( 1, 50, 20, 4, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
