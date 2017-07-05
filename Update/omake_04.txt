@@ -1015,7 +1015,7 @@ void main()
 	PlaySE(4, "s20/06/440600140", 128, 64);
 	if (AdvMode) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなわけで、ちょっと沙都子を焚きつけさせてもらいました。」",
-		   NULL, "In any case, I just let Satoko start a little something-something.\"", Line_ModeSpecific);
+		   NULL, "In any case, I just let Satoko start a little something-something.\"", Line_Normal);
 	ClearMessage();
 
 //＜詩音
@@ -1355,7 +1355,7 @@ void main()
 	DisableWindow();
 	DrawBustshot( 2, "ir_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene( "bg_165", 400 );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 //＜入江
@@ -1894,7 +1894,7 @@ void main()
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 //!sd
@@ -2219,7 +2219,7 @@ void main()
 
 //!sd
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0, );
@@ -2453,7 +2453,7 @@ void main()
 	ShakeScreen( 1, 50, 20, 4, 0, );
 	DrawScene( "black", 400 );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
@@ -2540,7 +2540,7 @@ void main()
 		   NULL, "All must bow!!!", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 1000, TRUE );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
@@ -2607,7 +2607,7 @@ void main()
 		   NULL, "I won't forgive you if they're the competitive swimming style!!!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
@@ -2703,7 +2703,7 @@ void main()
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
 
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 
