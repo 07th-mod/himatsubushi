@@ -1245,8 +1245,8 @@ void main()
 	OutputLine(NULL, "　この辺なら通るだろ。",
 		   NULL, " In that case, this one oughta' go through.", Line_ContinueAfterTyping);
 
-
 	PlaySE( 3, "wa_005", 128, 64 );
+	OutputLineAll(NULL, "", Line_WaitForInput);
 
 //!s0それ！」/
 	SetSpeedOfMessage( TRUE, 128, );
@@ -1420,7 +1420,7 @@ void main()
 		   NULL, "'Tenpai'.", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_010", 128, 64 );
-	Wait( 800 );
+	OutputLineAll(NULL, "", Line_WaitForInput);
 
 //「聴牌」/
 	PlaySE(4, "s05/00/104800016", 128, 64);
@@ -1428,7 +1428,7 @@ void main()
 		   NULL, " 'Tenpai'.", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_009", 128, 64 );
-	Wait( 800 );
+	OutputLineAll(NULL, "", Line_WaitForInput);
 
 //「ノー聴」/
 	PlaySE(4, "s05/00/104400012", 128, 64);
@@ -1436,7 +1436,6 @@ void main()
 		   NULL, " 'Noten'.", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_029", 128, 64 );
-
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
