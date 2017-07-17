@@ -3136,7 +3136,6 @@ void main()
 	PlaySE(4, "s05/00/104300058", 128, 64);
 	OutputLine(NULL, "それを管理してるのは興宮市役所の人間。",
 		   NULL, " The person in charge of that is from the Okinomiya Municipal Office.", Line_WaitForInput);
-	PlaySE(4, "s05/00/104300059", 128, 64);
 	OutputLine(NULL, "…つまり地元の人間なんです。",
 		   NULL, " ...In other words, a local. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104300060", 128, 64);
