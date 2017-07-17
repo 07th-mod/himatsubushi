@@ -2798,7 +2798,7 @@ void main()
 	if (AdvMode) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…んん………。」",
 		   NULL, "\"...Hmmm...\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "", Line_ContinueAfterTyping); }
+	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	
 	PlaySE(4, "s05/10/101000006", 128, 64);
 	if (AdvMode) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
