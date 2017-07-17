@@ -1246,8 +1246,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene( "bg_046", 400 );
+	DrawBustshot( 2, "ri_si_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	PlayBGM( 1, "msysRi", 128, 0 );
 
 //「……みぃ。￥
