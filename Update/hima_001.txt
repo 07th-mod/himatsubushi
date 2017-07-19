@@ -3134,8 +3134,11 @@ void main()
 	OutputLine(NULL, "「……一応、非公開でプライバシーは守られてますがね。",
 		   NULL, "\"...Well, it is undisclosed, so their privacy is assured, but...", Line_WaitForInput);
 	PlaySE(4, "s05/00/104300058", 128, 64);
-	OutputLine(NULL, "それを管理してるのは地元の人間なんです。",
-		   NULL, " The person in charge is a local from the Okinomiya Municipal Office.", Line_ModeSpecific);
+	OutputLine(NULL, "それを管理してるのは興宮市役所の人間。",
+		   NULL, " The person in charge of that is from the Okinomiya Municipal Office.", Line_WaitForInput);
+	PlaySE(4, "s05/00/104300059", 128, 64);
+	OutputLine(NULL, "…つまり地元の人間なんです。",
+		   NULL, " ...In other words, a local. ", Line_ModeSpecific);
 	PlaySE(4, "s05/00/104300060", 128, 64);
 	if (AdvMode) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "守秘義務があるとは言え、…やはり人間のつながりはわかりませんからね。",
