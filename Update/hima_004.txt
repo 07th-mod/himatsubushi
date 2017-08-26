@@ -77,7 +77,7 @@ void main()
 
 //  美雪rvs05/34/321500023.「…パパ？　パパってば」
 	PlaySE(4, "s05/34/321500023", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…パパ？　パパってば」",
 		   NULL, "\"...Papa? Are you there, Papa?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -91,7 +91,7 @@ void main()
 
 //  美雪rvs05/34/321500024.「大丈夫？kvs05/34/321500025.　怖い夢でも見たの？」
 	PlaySE(4, "s05/34/321500024", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大丈夫？",
 		   NULL, "\"Are you all right?", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500025", 128, 64);
@@ -148,7 +148,7 @@ void main()
 
 //  美雪rvs05/34/321500026.「うんっ。kvs05/34/321500027.えへへっ～」
 	PlaySE(4, "s05/34/321500026", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うんっ。",
 		   NULL, "\"Of course.", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500027", 128, 64);
@@ -170,7 +170,7 @@ void main()
 
 //  美雪rvs05/34/321500028.「わぁ～、北海道だぁ。kvs05/34/321500029.でっかいどー、ほっかいど～♪」
 	PlaySE(4, "s05/34/321500028", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「わぁ～、北海道だぁ。",
 		   NULL, "\"Wow~, it's Hokkaido.", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500029", 128, 64);
@@ -354,7 +354,7 @@ void main()
 
 //  美雪rvs05/34/321500030.「…あ、あの、…えっと」
 	PlaySE(4, "s05/34/321500030", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…あ、あの、…えっと」",
 		   NULL, "\"...Oh, uh... Umm...\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -399,7 +399,7 @@ void main()
 
 //  美雪rvs05/34/321500031.「…えっと、赤坂美雪。kvs05/34/321500032.７歳、です。kvs05/34/321500033.こ、…こんにちは、です」
 	PlaySE(4, "s05/34/321500031", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…えっと、赤坂美雪。",
 		   NULL, "\"...Umm, I'm Miyuki Akasaka.", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500032", 128, 64);
@@ -4032,7 +4032,7 @@ void main()
 
 //  美雪rvs05/34/321500034.「…パパ？」
 	PlaySE(4, "s05/34/321500034", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…パパ？」",
 		   NULL, "\"...Papa?\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4047,7 +4047,7 @@ void main()
 
 //  美雪rvs05/34/321500035.「どうしたの、パパ？kvs05/34/321500036.　…パパ、泣いてるの？」
 	PlaySE(4, "s05/34/321500035", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうしたの、パパ？",
 		   NULL, "\"What's wrong, Papa?", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500036", 128, 64);
@@ -4077,7 +4077,7 @@ void main()
 
 //  美雪rvs05/34/321500037.「大丈夫？kvs05/34/321500038.　…また、怖い夢を見たの？kvs05/34/321500039.　泣かないで、パパ…」
 	PlaySE(4, "s05/34/321500037", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「大丈夫？",
 		   NULL, "\"Are you all right?", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500038", 128, 64);
@@ -4188,7 +4188,7 @@ void main()
 
 //  美雪rvs05/34/321500040.「天使？　ほんとに？！」
 	PlaySE(4, "s05/34/321500040", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「天使？　ほんとに？！」",
 		   NULL, "\"An angel? Really?!\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4219,7 +4219,7 @@ void main()
 
 //  美雪rvs05/34/321500041.「へぇ～！kvs05/34/321500042.　じゃあ美雪、その子とお友達になりたい！」
 	PlaySE(4, "s05/34/321500041", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「へぇ～！",
 		   NULL, "\"Hee~!", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500042", 128, 64);
@@ -4238,7 +4238,7 @@ void main()
 
 //  美雪rvs05/34/321500043.「えへへ…楽しみだなぁ！kvs05/34/321500044.　今度、美雪も連れて行ってね！kvs05/34/321500045.　雛見沢に…！」
 	PlaySE(4, "s05/34/321500043", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えへへ…楽しみだなぁ！",
 		   NULL, "\"Ehehe... I'm looking forward to it!", Line_WaitForInput);
 	PlaySE(4, "s05/34/321500044", 128, 64);
@@ -4275,7 +4275,7 @@ void main()
 
 //  美雪rvs05/34/321500046.「うんっ♪」
 	PlaySE(4, "s05/34/321500046", 128, 64);
-	if (AdvMode) { OutputLine("<color=#a59da9>美雪</color>", NULL, "<color=#a59da9>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
+	if (AdvMode) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うんっ♪」",
 		   NULL, "\"Yep♪.\"", Line_ModeSpecific);
 	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
