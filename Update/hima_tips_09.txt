@@ -1,13 +1,5 @@
 void main()
 {
-	int AdvMode;
-	AdvMode = 1;
-	int Line_ModeSpecific;
-	if (AdvMode) {
-		Line_ModeSpecific = Line_Normal;
-	} else {
-		Line_ModeSpecific = Line_WaitForInput;
-	}
 
 //*Sub_Tips_072
 //gosub *tip_s
@@ -26,35 +18,35 @@ void main()
 
 //　人生に選択肢なんて、あると思う＠
 	ClearMessage();
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人生に選択肢なんて、あると思う？",
-		   NULL, "Do you believe that there are choices in life?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Do you believe that there are choices in life?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　よく嘆く人がいる＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よく嘆く人がいる。",
-		   NULL, "There are many people who lament the following:", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "There are many people who lament the following:", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　人生の節々で、明確な選択肢が設けられていたならば、それを吟味し、よりよい未来へ自分を誘えるのに、と＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人生の節々で、明確な選択肢が設けられていたならば、それを吟味し、よりよい未来へ自分を誘えるのに、と。",
-		   NULL, "If there only existed points in life where there were clear choices to make, we would be able to scrutinize those carefully and make decisions that would lead us to a better future.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "If there only existed points in life where there were clear choices to make, we would be able to scrutinize those carefully and make decisions that would lead us to a better future.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…私はそういう嘆きを漏れ聞く度に、下らない悩みだな、と思うのだ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私はそういう嘆きを漏れ聞く度に、下らない悩みだな、と思うのだ。",
-		   NULL, "Every time I hear people lament as such, I cast it off as a rather trivial worry.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Every time I hear people lament as such, I cast it off as a rather trivial worry.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　選択肢を与えられたって、どうせ何の意味もないし、よりよい未来へ自分を誘えることなんて何もない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　選択肢を与えられたって、どうせ何の意味もないし、よりよい未来へ自分を誘えることなんて何もない。",
 		   NULL, "Even if you were given a clear choice, it wouldn't be meaningful at all, and there wouldn't be any such path to a better future.", Line_Normal);
 	ClearMessage();
@@ -62,137 +54,137 @@ void main()
 
 
 //　……話がわかりにくい？＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……話がわかりにくい？　",
-		   NULL, "...Is this hard to understand?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...Is this hard to understand?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	DisableWindow();
 	DrawScene( "aka1", 1000 );
 
 //　じゃあ仮に、あなたの目の前に２つの怪しげな箱を置いてあげよう＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　じゃあ仮に、あなたの目の前に２つの怪しげな箱を置いてあげよう。",
-		   NULL, "Then let's pretend that in front of you there are two strange boxes.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "Then let's pretend that in front of you there are two strange boxes.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そして、そこに２つだけの選択肢を与えてやるとする＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、そこに２つだけの選択肢を与えてやるとする。",
-		   NULL, "In other words, you have two clear choices.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "In other words, you have two clear choices.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　曰く、赤い箱を開けるか、青い箱を開けるか￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　曰く、赤い箱を開けるか、青い箱を開けるか。",
 		   NULL, "Do you open the red box, or the blue box?", Line_Normal);
 	ClearMessage();
 
 
 //　あなたはいろいろと迷うだろう＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたはいろいろと迷うだろう。",
-		   NULL, "A lot of things would be uncertain even with that choice, wouldn't they?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "A lot of things would be uncertain even with that choice, wouldn't they?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　開けなくてはならないなら、赤か青か、自分にとってよりよい方を開けたいと願うのは自然な欲求だ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　開けなくてはならないなら、赤か青か、自分にとってよりよい方を開けたいと願うのは自然な欲求だ。",
-		   NULL, "If you don't have the option of opening neither, then your choice boils down to the natural impulse of opening the box that holds the better result for you.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "If you don't have the option of opening neither, then your choice boils down to the natural impulse of opening the box that holds the better result for you.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そして、箱の形状や気配、諸々を勘案し、やがて苦慮の末、赤か青か、どちらかを選択するに違いない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、箱の形状や気配、諸々を勘案し、やがて苦慮の末、赤か青か、どちらかを選択するに違いない。",
-		   NULL, "Then, after examining the shape and features of each, and pondering a great many things, you have to pick either the red or the blue.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "Then, after examining the shape and features of each, and pondering a great many things, you have to pick either the red or the blue.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　………あなたなら、どっちの箱を選ぶ￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………あなたなら、どっちの箱を選ぶ？",
 		   NULL, "...If this was you, which box would you open?", Line_Normal);
 	ClearMessage();
 
 
 //　赤と青＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤と青。",
-		   NULL, "Red or blue?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Red or blue?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　…刷り込まれた信号機の法則に従うなら、赤は危険を意味する色＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…刷り込まれた信号機の法則に従うなら、赤は危険を意味する色。",
-		   NULL, "...If you were to go by their traditional meanings, then red would be a dangerous, threatening color.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...If you were to go by their traditional meanings, then red would be a dangerous, threatening color.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　でも、だからといって、青という色が安全を保証するものでもない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、だからといって、青という色が安全を保証するものでもない。",
-		   NULL, "However, that doesn't automatically mean that it would be calm and relaxing inside the blue box, either.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "However, that doesn't automatically mean that it would be calm and relaxing inside the blue box, either.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　むしろ、赤を警戒させて、青を開けさせようという罠かもしれない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろ、赤を警戒させて、青を開けさせようという罠かもしれない。",
 		   NULL, "In fact, it might even be that the colors are a trap, make you wary of the red box and have you open the blue.", Line_Normal);
 	ClearMessage();
 
 //　罠＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　罠？",
-		   NULL, "A trap?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "A trap?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　…この中身には得をするものでなく、損をさせるものが入っているかもしれない…＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この中身には得をするものでなく、損をさせるものが入っているかもしれない…？",
-		   NULL, "...Could it be the contents of the box aren't a reward, but rather a penalty?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "...Could it be the contents of the box aren't a reward, but rather a penalty?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　さぁさぁ…あなたは迷ってきた＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さぁさぁ…あなたは迷ってきた。",
-		   NULL, "See...? Now you're at a loss.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "See...? Now you're at a loss.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　赤か青かの選択に葛藤し、…箱を開けずにここから立ち去るという選択肢も欲しくなって来たに違いない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤か青かの選択に葛藤し、…箱を開けずにここから立ち去るという選択肢も欲しくなって来たに違いない。",
 		   NULL, "You're so conflicted over the choice between red and blue that you've started wishing there was an option to open neither and just leave.", Line_Normal);
 	ClearMessage();
 
 
 //　でもだめ＠赤か青のどちらかを開けなくてはならない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもだめ。",
 		   NULL, "But there isn't.", Line_WaitForInput);
 	OutputLine(NULL, "赤か青のどちらかを開けなくてはならない。",
-		   NULL, " You have to open either the red box or the blue box.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " You have to open either the red box or the blue box.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　あ、言い忘れたけれども、あなたが片方を選ぶと、もう片方の箱は消えてしまう＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あ、言い忘れたけれども、あなたが片方を選ぶと、もう片方の箱は消えてしまう。",
-		   NULL, "Oh, I forgot to say this, but if you choose one box, the other will disappear.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Oh, I forgot to say this, but if you choose one box, the other will disappear.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だから、選ばなかった方の箱の中身は知ることができない＠そういうルールがあることを、最後に付け加えておくね￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、選ばなかった方の箱の中身は知ることができない。",
 		   NULL, "So you'll never know the contents of the box you don't open.", Line_WaitForInput);
 	OutputLine(NULL, "そういうルールがあることを、最後に付け加えておくね？",
@@ -201,23 +193,23 @@ void main()
 
 
 //　さぁ＠選んでごらん＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さぁ。",
 		   NULL, "Now.", Line_WaitForInput);
 	OutputLine(NULL, "選んでごらん？",
-		   NULL, " Why don't you choose?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " Why don't you choose?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　赤い箱か、青い箱＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤い箱か、青い箱。",
-		   NULL, "The red box, or the blue box?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "The red box, or the blue box?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…大丈夫、どっちも損なものは入っていないから＠…ほら￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…大丈夫、どっちも損なものは入っていないから。",
 		   NULL, "...It's all right, you won't lose anything by picking either one.", Line_WaitForInput);
 	OutputLine(NULL, "…ほら。",
@@ -260,49 +252,49 @@ void hima_tips_09_a()
 	EnableJumpingOfReturnIcon();
 
 //　よく考えた＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よく考えた？",
-		   NULL, "Have you thought about it?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Have you thought about it?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　その結果、この色を選んだのね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その結果、この色を選んだのね？",
-		   NULL, "In the end, you chose this color, didn't you?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "In the end, you chose this color, didn't you?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…あなたが選んだ時点で、もう片方の色の箱はパッ消えてしまった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あなたが選んだ時点で、もう片方の色の箱はパッ消えてしまった。",
-		   NULL, "...As soon as you chose, the other box disappeared.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...As soon as you chose, the other box disappeared.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そっちの箱の中身はもう諦めてね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そっちの箱の中身はもう諦めてね？",
-		   NULL, "So you can give up on the contents of that one, okay?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "So you can give up on the contents of that one, okay?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そういうルールなんだから＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そういうルールなんだから。",
-		   NULL, "That's the rule.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "That's the rule.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　さ、あなたの選んだ箱を開けてみよう￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さ、あなたの選んだ箱を開けてみよう。",
 		   NULL, "Now, open up the box you chose.", Line_Normal);
 	ClearMessage();
 
 
 //　箱の中からは、!w1000……キャラメルが１つぶ￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　箱の中からは、",
 		   NULL, "Inside the box there was...", Line_ContinueAfterTyping);
 
@@ -334,49 +326,49 @@ void hima_tips_09_b()
 	EnableJumpingOfReturnIcon();
 
 //　よく考えた＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よく考えた？",
-		   NULL, "Have you thought about it?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Have you thought about it?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　その結果、この色を選んだのね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その結果、この色を選んだのね？",
-		   NULL, "In the end, you chose this color, didn't you?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "In the end, you chose this color, didn't you?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…あなたが選んだ時点で、もう片方の色の箱はパッ消えてしまった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あなたが選んだ時点で、もう片方の色の箱はパッ消えてしまった。",
-		   NULL, "...As soon as you chose, the other box disappeared.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...As soon as you chose, the other box disappeared.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そっちの箱の中身はもう諦めてね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そっちの箱の中身はもう諦めてね？",
-		   NULL, "So you can give up on the contents of that one, okay?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "So you can give up on the contents of that one, okay?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そういうルールなんだから＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そういうルールなんだから。",
-		   NULL, "That's the rule.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "That's the rule.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　さ、あなたの選んだ箱を開けてみよう￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さ、あなたの選んだ箱を開けてみよう。",
 		   NULL, "Now, open up the box you chose.", Line_Normal);
 	ClearMessage();
 
 
 //　箱の中からは、!w1000……チューイングガムが１枚￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　箱の中からは、",
 		   NULL, "Inside the box there was...", Line_ContinueAfterTyping);
 
@@ -405,120 +397,120 @@ void hima_tips_09_c()
 
 
 //　……あなたが少しがっかりしてるのが分かる＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あなたが少しがっかりしてるのが分かる。",
-		   NULL, "...I know you're a little disappointed.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "...I know you're a little disappointed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そりゃそうよね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そりゃそうよね。",
-		   NULL, "Well that's only natural.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Well that's only natural.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　どう見ても、ハズレっぽいものね￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どう見ても、ハズレっぽいものね。",
 		   NULL, "No matter how you look at it, it looks like you drew the dud.", Line_Normal);
 	ClearMessage();
 
 
 //　正解の箱には、ひょっとすると、板チョコが１枚くらいは入ってたかもしれないものね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　正解の箱には、ひょっとすると、板チョコが１枚くらいは入ってたかもしれないものね。",
-		   NULL, "The correct box might have had a bar of chocolate in it, for all you know.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "The correct box might have had a bar of chocolate in it, for all you know.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　いや、ひょっとすると、ハワイにペアでご招待なんていう、もっともっとすごいものが入っていたかもしれない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、ひょっとすると、ハワイにペアでご招待なんていう、もっともっとすごいものが入っていたかもしれない。",
 		   NULL, "No, in fact, something incredible like a pair of tickets to Hawaii might have been in there.", Line_Normal);
 	ClearMessage();
 
 
 //　でも、それを確かめたくても、もうひとつの箱はもう消えてしまっている＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それを確かめたくても、もうひとつの箱はもう消えてしまっている。",
-		   NULL, "But even if you wanted to verify that, the other box has already disappeared.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "But even if you wanted to verify that, the other box has already disappeared.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　それを確かめる術はない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを確かめる術はない。",
-		   NULL, "There's no way you can check now.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "There's no way you can check now.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だからあなたはプラス思考で考えてみることにするの＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからあなたはプラス思考で考えてみることにするの。",
-		   NULL, "But if you think about it from an optimistic point of view...", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "But if you think about it from an optimistic point of view...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　ひょっとすると…もう片方の箱は空っぽで、むしろこの箱はアタリだったのかもしれない、と＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ひょっとすると…もう片方の箱は空っぽで、むしろこの箱はアタリだったのかもしれない、と。",
-		   NULL, "Just maybe... the other box was empty, and this box was the winner.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "Just maybe... the other box was empty, and this box was the winner.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そしてその安っぽい賞品に満足して（あるいは不満でもいい）、それをポイ！と口に放り込んで、もぐもぐとやって満足してしまうのだ￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてその安っぽい賞品に満足して（あるいは不満でもいい）、それをポイ！と口に放り込んで、もぐもぐとやって満足してしまうのだ。",
 		   NULL, "And being satisfied (or perhaps not) with such a cheap prize, you pop it into your mouth and start chewing it happily.", Line_Normal);
 	ClearMessage();
 
 
 //　で、最後にあなたは思うのかしら＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　で、最後にあなたは思うのかしら？",
-		   NULL, "So, what do you think in the end?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "So, what do you think in the end?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　次に同じ選択肢が与えられたら、反対の箱を開けてみようって＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次に同じ選択肢が与えられたら、反対の箱を開けてみようって？",
-		   NULL, "If you were given a second chance, would you try to open the other box?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "If you were given a second chance, would you try to open the other box?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 
 //　……でも、お気の毒だけど、赤い箱と青い箱を選ぶなんてゲームは二度とあなたには訪れない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも、お気の毒だけど、赤い箱と青い箱を選ぶなんてゲームは二度とあなたには訪れない。",
-		   NULL, "...But unfortunately, the chance to choose between the red box or the blue box has come and gone, never to be seen again.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...But unfortunately, the chance to choose between the red box or the blue box has come and gone, never to be seen again.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だから、選択肢を選びなおす機会など、一生訪れない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、選択肢を選びなおす機会など、一生訪れない。",
 		   NULL, "The chance to change your selection will never come.", Line_Normal);
 	ClearMessage();
 
 
 //　人生の選択は一度しかないから、慎重にって、よく親に言われるでしょう＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人生の選択は一度しかないから、慎重にって、よく親に言われるでしょう？",
-		   NULL, "Don't your parents often say: Every choice you make in life only happens once, so choose carefully?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Don't your parents often say: Every choice you make in life only happens once, so choose carefully?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　くすくすくすくす……＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くすくすくすくす……。",
-		   NULL, "Hee hee hee...", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "Hee hee hee...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　ね＠　選択肢なんて、大したものじゃない＠…ちょっと幻滅した＠　あっはははははは……￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ね？",
 		   NULL, "See?", Line_WaitForInput);
 	OutputLine(NULL, "　選択肢なんて、大したものじゃない。",
@@ -550,42 +542,42 @@ void hima_tips_09_d()
 
 
 //　……あなたは今、なぁんだと思ってる￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あなたは今、なぁんだと思ってる。",
 		   NULL, "...Right now you're thinking: \"That's it?\"", Line_Normal);
 	ClearMessage();
 
 
 //　そう、赤と青の箱の中身は、キャラメル１つぶと、チューイングガム１枚＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう、赤と青の箱の中身は、キャラメル１つぶと、チューイングガム１枚。",
-		   NULL, "That's right, the contents of the red box and the blue box were a piece of caramel and a stick of chewing gum.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "That's right, the contents of the red box and the blue box were a piece of caramel and a stick of chewing gum.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　さっきはハズレだと思ってたかもしれないけど、こうして並べると、どっちがハズレとも言い難いのがわかるでしょ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さっきはハズレだと思ってたかもしれないけど、こうして並べると、どっちがハズレとも言い難いのがわかるでしょ。",
-		   NULL, "You might have thought you made the wrong choice before, but now seeing them together like this, you can't really say that either choice was the wrong one.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "You might have thought you made the wrong choice before, but now seeing them together like this, you can't really say that either choice was the wrong one.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　まぁ、でも、人の好みもあるもんね＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まぁ、でも、人の好みもあるもんね。",
-		   NULL, "Well, I guess everybody has their personal preferences.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Well, I guess everybody has their personal preferences.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　キャラメルの方が好きだとか、ガムの方が好きだとか＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　キャラメルの方が好きだとか、ガムの方が好きだとか。",
-		   NULL, "If you prefer caramel to gum, for example.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "If you prefer caramel to gum, for example.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　…あなたの好みによって、あなたはきっと開ける箱を選びなおそうと思うに違いない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あなたの好みによって、あなたはきっと開ける箱を選びなおそうと思うに違いない。",
 		   NULL, "...You're definitely thinking of choosing to open the box again based on that preference.", Line_Normal);
 	ClearMessage();
@@ -593,30 +585,30 @@ void hima_tips_09_d()
 
 
 //　…あなたが欲しがっている選択肢ってのは、つまりそういうもの＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あなたが欲しがっている選択肢ってのは、つまりそういうもの。",
-		   NULL, "...The clear choices you wanted were basically this.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "...The clear choices you wanted were basically this.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　両方の箱の中身を見比べて、良い方を選びたいっていうわがままのこと￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両方の箱の中身を見比べて、良い方を選びたいっていうわがままのこと。",
 		   NULL, "The selfish desire to open up both boxes and compare the contents, then pick the one most suited to you.", Line_Normal);
 	ClearMessage();
 
 
 //　でもね＠　現実の世の中は今のゲームと同じ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもね？",
 		   NULL, "But you see,", Line_WaitForInput);
 	OutputLine(NULL, "　現実の世の中は今のゲームと同じ。",
-		   NULL, " reality is the same as this game.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " reality is the same as this game.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　片方を選んだら、選ばなかった方は消えてしまう＠だから確かめられない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　片方を選んだら、選ばなかった方は消えてしまう。",
 		   NULL, "If you pick one, the one you didn't choose disappears.", Line_WaitForInput);
 	OutputLine(NULL, "だから確かめられない。",
@@ -625,7 +617,7 @@ void hima_tips_09_d()
 
 
 //　もしもあの時＠××をしていたら＠もしくはしていなかったら＠…きっと今よりも幸福に（もしくは不幸に）なっていたはずだ、なんて、わかりようもない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしもあの時、",
 		   NULL, "If at that time,", Line_WaitForInput);
 	OutputLine(NULL, "××をしていたら、",
@@ -634,41 +626,41 @@ void hima_tips_09_d()
 		   NULL, " or perhaps if you had done that...", Line_WaitForInput);
 	OutputLine(NULL, "…きっと今よりも幸福に（もしくは不幸に）なっていたはずだ、なんて、わかりようもない。",
 		   NULL, " then it wouldn't be hard to imagine that you could be happier (or perhaps less happy) than you are right now.", Line_Normal);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　結局、選んだ選択肢に納得し、あるいはがっかりし、一応の満足をする他ないのだ￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局、選んだ選択肢に納得し、あるいはがっかりし、一応の満足をする他ないのだ。",
 		   NULL, "In the end, you only have the pleasure of approving of or being disappointed by the choice that you did make.", Line_Normal);
 	ClearMessage();
 
 
 //　でもいいじゃない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもいいじゃない。",
-		   NULL, "But that's fine.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "But that's fine.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　選択肢というスリルは、一応、楽しめたでしょ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　選択肢というスリルは、一応、楽しめたでしょ？",
-		   NULL, "After all, didn't you enjoy the thrill of making the choice?", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "After all, didn't you enjoy the thrill of making the choice?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　こうして、２つの箱の中身を知ってしまったなら＠赤か青かの選択なんて、暇潰しにもなりゃしない＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こうして、２つの箱の中身を知ってしまったなら。",
 		   NULL, "If, like now, you knew the contents of both boxes,", Line_WaitForInput);
 	OutputLine(NULL, "赤か青かの選択なんて、暇潰しにもなりゃしない。",
-		   NULL, " then the choice between the red box or the blue box would just be a waste of time.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " then the choice between the red box or the blue box would just be a waste of time.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから￥
-	if (AdvMode) {
+	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから。",
 			   NULL, "<size=-2>Because instead of this boring game about boxes, you could be looking at the quickly-changing evening summer sky, listening for the distant sound of thunder, and pondering if it's going to rain or not... that would be much more fun.</size>", Line_Normal);

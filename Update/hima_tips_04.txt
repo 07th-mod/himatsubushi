@@ -1,13 +1,5 @@
 void main()
 {
-	int AdvMode;
-	AdvMode = 1;
-	int Line_ModeSpecific;
-	if (AdvMode) {
-		Line_ModeSpecific = Line_Normal;
-	} else {
-		Line_ModeSpecific = Line_WaitForInput;
-	}
 
 
 //*Sub_Tips_067
@@ -25,28 +17,28 @@ void main()
 
 //　車が止まった￥
 	ClearMessage();
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　車が止まった。",
 		   NULL, "The car had stopped.", Line_Normal);
 	ClearMessage();
 
 
 //　だがそれ以上のことはわからなかった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがそれ以上のことはわからなかった。",
-		   NULL, "But he didn't know any more than that.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "But he didn't know any more than that.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　なぜなら、彼は目隠しをされただけでなく、車のトランクに閉じ込められていたからだ＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なぜなら、彼は目隠しをされただけでなく、車のトランクに閉じ込められていたからだ。",
-		   NULL, "For not only was he blindfolded, but locked in the trunk of the car.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "For not only was he blindfolded, but locked in the trunk of the car.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　視覚を奪われた人間がこんなにも無力だとは＠…彼も実際に経験するまで知らなかったに違いなかった￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　視覚を奪われた人間がこんなにも無力だとは。",
 		   NULL, "How could people become this powerless just by being robbed of their sight?", Line_WaitForInput);
 	OutputLine(NULL, "…彼も実際に経験するまで知らなかったに違いなかった。",
@@ -55,16 +47,16 @@ void main()
 
 
 //　戒めを解こうとする努力が無駄であることはすぐにわかり、トランクの中の息苦しさにいつしかめまいを感じ＠…彼はこの緩慢な拷問に意識を朦朧とさせる他なかった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戒めを解こうとする努力が無駄であることはすぐにわかり、トランクの中の息苦しさにいつしかめまいを感じ、",
 		   NULL, "He soon realized it was pointless to try and undo his bonds, with the confines of the trunk quickly making him lightheaded.", Line_WaitForInput);
 	OutputLine(NULL, "…彼はこの緩慢な拷問に意識を朦朧とさせる他なかった。",
-		   NULL, " He had no choice but to let this mild torture dull his senses.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, " He had no choice but to let this mild torture dull his senses.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だから彼は、車が止まってエンジンが切られて不愉快な振動がなくなった時＠事態は何も解決していないにも関わらず、自分は解放されたのだ…と錯覚せずにはいられなかった￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから彼は、車が止まってエンジンが切られて不愉快な振動がなくなった時、",
 		   NULL, "That's why, when the car stopped and the unpleasant vibration ceased as the engine was killed,", Line_WaitForInput);
 	OutputLine(NULL, "事態は何も解決していないにも関わらず、自分は解放されたのだ…と錯覚せずにはいられなかった。",
@@ -73,35 +65,35 @@ void main()
 
 
 //　無論、その錯覚はすぐに覚める＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無論、その錯覚はすぐに覚める。",
-		   NULL, "Of course, he was soon removed from that delusion.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Of course, he was soon removed from that delusion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　自分をさらった男の一人と、初めて声を聞く年配の男の会話が聞こえ、身を硬くして耳を澄ませた…￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分をさらった男の一人と、初めて声を聞く年配の男の会話が聞こえ、身を硬くして耳を澄ませた…。",
 		   NULL, "He strained his ears when he heard one of the men who had abducted him and an older man he was hearing for the first time strike up a conversation...", Line_Normal);
 	ClearMessage();
 
 
 //「…………お疲れさんです＠雛はトランクに＠騒ぎすぎで多少衰弱してるようですが、ご命令通り傷一つ付けちゃいません。＠
-	PlaySE(4, "s20/00/yamaa44001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/00/yamaa44001", 128);
 	OutputLine(NULL, "「…………お疲れさんです。",
 		   NULL, "\"...Nice to see you.", Line_WaitForInput);
 	OutputLine(NULL, "雛はトランクに。",
 		   NULL, " The chick is in the trunk.", Line_WaitForInput);
-	PlaySE(4, "s20/00/yamaa44002", 128, 64);
+	PlayVoice(4, "s20/00/yamaa44002", 128);
 	OutputLine(NULL, "騒ぎすぎで多少衰弱してるようですが、ご命令通り傷一つ付けちゃいません。」",
-		   NULL, " He struggled so much that he's probably exhausted right now, but there's not a mark on him, just as ordered.\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " He struggled so much that he's probably exhausted right now, but there's not a mark on him, just as ordered.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「…おぅおぅ、手間ぁかけましたんの。￥
-	PlaySE(4, "s20/14/443400001", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/14/443400001", 128);
 	OutputLine(NULL, "「…おぅおぅ、手間ぁかけましたんの。」",
 		   NULL, "\"...Ohh, musta been a handful.\"", Line_Normal);
 	ClearMessage();
@@ -111,130 +103,130 @@ void main()
 	DrawScene( "black", 3000 );
 
 //　トランクが開かれ、ぶわっと涼しい冷気と新鮮な空気が自分を包む￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　トランクが開かれ、ぶわっと涼しい冷気と新鮮な空気が自分を包む。",
 		   NULL, "The trunk opened, letting in a blast of fresh, cool air.", Line_Normal);
 	ClearMessage();
 
 
 //　さっきまであれほど、この息苦しいトランクを出られたらと思っていたのに、いざこうしてトランクが開け放たれると、今度は急に自分の身が不安になった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さっきまであれほど、この息苦しいトランクを出られたらと思っていたのに、いざこうしてトランクが開け放たれると、今度は急に自分の身が不安になった。",
-		   NULL, "Even though up until just now he had been thinking about getting out of that stuffy trunk, when it was actually opened, he suddenly became uneasy.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Even though up until just now he had been thinking about getting out of that stuffy trunk, when it was actually opened, he suddenly became uneasy.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　…あんなに嫌だったトランクの蓋をもう一度閉じ、彼らから遮断してくれと願ってしまうくらいに￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あんなに嫌だったトランクの蓋をもう一度閉じ、彼らから遮断してくれと願ってしまうくらいに。",
 		   NULL, "...Enough so that he wished that the lid of the trunk would once again close, separating himself from them.", Line_Normal);
 	ClearMessage();
 
 
 //　突然、自分の頭を誰かが撫でた＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　突然、自分の頭を誰かが撫でた。",
-		   NULL, "Suddenly, somebody stroked his head.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, "Suddenly, somebody stroked his head.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　もちろん目隠しをされているから、頭を触れた手が、自分を撫でているのか、頭の皮を剥ぐ為に品定めをしているものなのか＠区別することができず、彼は最悪の可能性を想像して身を硬くするほかなかった…￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん目隠しをされているから、頭を触れた手が、自分を撫でているのか、頭の皮を剥ぐ為に品定めをしているものなのか、",
-		   NULL, "Of course, since he was blindfolded, he couldn't tell if the hand was petting him or simply evaluating how easy it would be to remove his scalp. ", Line_ModeSpecific);
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Of course, since he was blindfolded, he couldn't tell if the hand was petting him or simply evaluating how easy it would be to remove his scalp. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "区別することができず、彼は最悪の可能性を想像して身を硬くするほかなかった…。",
 		   NULL, "Unable to tell the difference, he could only freeze as he imagined the worst-case scenario...", Line_Normal);
 	ClearMessage();
 
 
 //「……すったらん、ぁあいそうにの…＠震えとんね…＠大人しくしばらく過すがよかろ…。＠
-	PlaySE(4, "s20/14/443400002", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/14/443400002", 128);
 	OutputLine(NULL, "「……すったらん、ぁあいそうにの…。",
 		   NULL, "\"...Poor li'l bugger...", Line_WaitForInput);
 	OutputLine(NULL, "震えとんね…。",
 		   NULL, " 'E's shakin'...", Line_WaitForInput);
-	PlaySE(4, "s20/14/443400003", 128, 64);
+	PlayVoice(4, "s20/14/443400003", 128);
 	OutputLine(NULL, "大人しくしばらく過すがよかろ…。」",
-		   NULL, " Jus' stay calm for a bit...\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " Jus' stay calm for a bit...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　年配の男はそうやさしく言いながら、彼の頭をやさしく撫でた￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　年配の男はそうやさしく言いながら、彼の頭をやさしく撫でた。",
 		   NULL, "The older man said that kindly as he gently stroked the boy's head.", Line_Normal);
 	ClearMessage();
 
 
 //「ほんに辛い思いしちゃろなぁ…＠だんがな、おんめのお祖父ちゃんは優しい人だんね＠すんぐに助けてくれるだろの…。＠
-	PlaySE(4, "s20/14/443400004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/14/443400004", 128);
 	OutputLine(NULL, "「ほんに辛い思いしちゃろなぁ…。",
 		   NULL, "\"This mus' be real tough for ya...", Line_WaitForInput);
 	OutputLine(NULL, "だんがな、おんめのお祖父ちゃんは優しい人だんね。",
 		   NULL, " But ya see, yer gramps is a nice man.", Line_WaitForInput);
-	PlaySE(4, "s20/14/443400005", 128, 64);
+	PlayVoice(4, "s20/14/443400005", 128);
 	OutputLine(NULL, "すんぐに助けてくれるだろの…。」",
-		   NULL, " 'E'll 'elp ya soon enough...\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " 'E'll 'elp ya soon enough...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　平均的な標準語でしか生活したことのない彼にとって、この年配の男の発する独特のイントネーションのなまりは非常に印象深かった＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　平均的な標準語でしか生活したことのない彼にとって、この年配の男の発する独特のイントネーションのなまりは非常に印象深かった。",
-		   NULL, "Having heard nothing but the average standard dialect his whole life, the older man's distinct intonation left a deep impression on the boy.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "Having heard nothing but the average standard dialect his whole life, the older man's distinct intonation left a deep impression on the boy.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だが、何を言っているのかはさっぱり理解できない￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、何を言っているのかはさっぱり理解できない。",
 		   NULL, "But he had no idea what he was saying.", Line_Normal);
 	ClearMessage();
 
 
 //　「おんめのお祖父ちゃん」というのが、自分のお祖父ちゃんのことを指しているのだと気付くには、その言葉を頭の中で何度も反復する必要があった…￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「おんめのお祖父ちゃん」というのが、自分のお祖父ちゃんのことを指しているのだと気付くには、その言葉を頭の中で何度も反復する必要があった…。",
 		   NULL, "For 'yer gramps' to register as meaning 'your grandfather' took a while to process...", Line_Normal);
 	ClearMessage();
 
 
 //　やがて、頭を撫でた手が、今度は彼の目隠しに触れた￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがて、頭を撫でた手が、今度は彼の目隠しに触れた。",
 		   NULL, "Eventually, the hand that was stroking his head loosened the blindfold.", Line_Normal);
 	ClearMessage();
 
 
 //「……目隠しはまずいっすよ…＠面が割れると後々まずいです。＠
-	PlaySE(4, "s20/00/yamaa44003", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/00/yamaa44003", 128);
 	OutputLine(NULL, "「……目隠しはまずいっすよ…。",
 		   NULL, "\"...Can't keep his eyes covered...", Line_WaitForInput);
 	OutputLine(NULL, "面が割れると後々まずいです。」",
-		   NULL, " if he splits his face open it'd be bad.\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " if he splits his face open it'd be bad.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「ん、…そうかの＠なんら、せめて猿ぐつわくらい外したらんな＠これぎゃあ、息もできんね…。＠
-	PlaySE(4, "s20/14/443400006", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/14/443400006", 128);
 	OutputLine(NULL, "「ん、…そうかの。",
 		   NULL, "\"Hm... An' with tha'...", Line_WaitForInput);
 	OutputLine(NULL, "なんら、せめて猿ぐつわくらい外したらんな。",
 		   NULL, " We migh' as well take out tha gag.", Line_WaitForInput);
-	PlaySE(4, "s20/14/443400007", 128, 64);
+	PlayVoice(4, "s20/14/443400007", 128);
 	OutputLine(NULL, "これぎゃあ、息もできんね…。」",
-		   NULL, " 'E kent breathe like tha'...\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " 'E kent breathe like tha'...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「……叫ばれたらまずいです…＠こいつのことは俺たちに任せて下さい…。￥
-	PlaySE(4, "s20/00/yamaa44004", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/00/yamaa44004", 128);
 	OutputLine(NULL, "「……叫ばれたらまずいです…。",
 		   NULL, "\"...It'll be trouble if he yells...", Line_WaitForInput);
 	OutputLine(NULL, "こいつのことは俺たちに任せて下さい…。」",
@@ -243,55 +235,55 @@ void main()
 
 
 //「ったく、気の効かんやっちゃらな！＠　…本家に惨い仕打ちはせんぎゃあちゅわっとる＠そこんとこ、肝に刻むんよ…。＠
-	PlaySE(4, "s20/14/443400008", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/14/443400008", 128);
 	OutputLine(NULL, "「ったく、気の効かんやっちゃらな！！",
 		   NULL, "\"...Geez, ya guys dunno how ta treat somebody!!", Line_WaitForInput);
 	OutputLine(NULL, "　…本家に惨い仕打ちはせんぎゃあちゅわっとる。",
 		   NULL, " ...Tha main family said no rough stuff.", Line_WaitForInput);
-	PlaySE(4, "s20/14/443400009", 128, 64);
+	PlayVoice(4, "s20/14/443400009", 128);
 	OutputLine(NULL, "そこんとこ、肝に刻むんよ…。」",
-		   NULL, " Ya better remember tha' well...\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " Ya better remember tha' well...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「わかってます＠手荒な真似はしませんよ＠…小僧が大人しくしててくれる分にはね。＠
-	PlaySE(4, "s20/00/yamaa44005", 128, 64);
-	if (AdvMode) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	PlayVoice(4, "s20/00/yamaa44005", 128);
 	OutputLine(NULL, "「わかってます。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
 	OutputLine(NULL, "手荒な真似はしませんよ。",
 		   NULL, " We won't do anything stupid.", Line_WaitForInput);
-	PlaySE(4, "s20/00/yamaa44006", 128, 64);
+	PlayVoice(4, "s20/00/yamaa44006", 128);
 	OutputLine(NULL, "…小僧が大人しくしててくれる分にはね。」",
-		   NULL, " ...As long as the kid cooperates, that is.\"", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+		   NULL, " ...As long as the kid cooperates, that is.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　男の手が彼の頭を何度か、小突くように叩いた￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　男の手が彼の頭を何度か、小突くように叩いた。",
 		   NULL, "The man's hand prodded roughly and repeatedly at the boy's head.", Line_Normal);
 	ClearMessage();
 
 
 //　自分の頭を撫でてくれた慈しみのある手とは違う、ごつごつした手＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の頭を撫でてくれた慈しみのある手とは違う、ごつごつした手。",
-		   NULL, "A rugged hand, unlike the affectionate one that had been stroking his head before.", Line_ModeSpecific);
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+		   NULL, "A rugged hand, unlike the affectionate one that had been stroking his head before.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　大人しくしていれば良し＠
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大人しくしていれば良し。",
-		   NULL, "Just stay cooperative.", Line_ModeSpecific);
+		   NULL, "Just stay cooperative.", GetGlobalFlag(GLinemodeSp));
 
 
-	if (AdvMode) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　騒ぎ立てたら、どうなるかは保証できないぞ＠…という在り来たりな脅迫が、その手からじわりじわりと、…叩かれる頭に染み込まされていくのだった￥
-	if (AdvMode) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　騒ぎ立てたら、どうなるかは保証できないぞ、",
 		   NULL, "If you struggle, there's no guarantee what will happen.", Line_WaitForInput);
 	OutputLine(NULL, "…という在り来たりな脅迫が、その手からじわりじわりと、…叩かれる頭に染み込まされていくのだった。",
