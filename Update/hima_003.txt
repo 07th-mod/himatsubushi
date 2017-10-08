@@ -2861,18 +2861,18 @@ void main()
 		   NULL, "\"....Unn..... guhhhh....", Line_WaitForInput);
 	PlayVoice(4, "s05/00/toshi00010", 128);
 	OutputLine(NULL, "………去年の、",
-		   NULL, " ...Last year...", Line_ContinueAfterTyping);
+		   NULL, " ...Last year...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……冬に、",
-		   NULL, " ...during the winter...", Line_ContinueAfterTyping);
+		   NULL, " ...during the winter...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……事故で……。」",
 		   NULL, " ...from an accident...\"", GetGlobalFlag(GLinemodeSp));

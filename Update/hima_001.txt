@@ -293,10 +293,10 @@ void main()
 //!sd
 
 //「「「先生ぇ～、さよ～～ならッ！！」」￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/boyall00001", 128);
 	PlayVoice(5, "s05/00/boyall00001b", 128);
 	PlayVoice(6, "s05/00/boyall00001c", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(7, "s05/00/boyall00001d", 128);
 	OutputLine(NULL, "「「「先生ぇ〜、さよ〜〜ならッ！！」」」",
 		   NULL, "\"\"\"Goodbye, teacher!!\"\"\"", Line_Normal);
@@ -535,11 +535,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Nightingale</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/ugu00002", 128);
 	OutputLine(NULL, "「………キミ、",
-		   NULL, "\"...You.", Line_ContinueAfterTyping);
+		   NULL, "\"...You.", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…犬飼寿樹くん？」",
 		   NULL, " ...Are you Toshiki Inugai-kun?\"", GetGlobalFlag(GLinemodeSp));
@@ -1022,21 +1022,21 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>犬飼</color>", NULL, "<color=#f5e6d3>Inugai</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/inuk00016", 128);
 	OutputLine(NULL, "「",
-		   NULL, "\"", Line_ContinueAfterTyping);
+		   NULL, "\"", Line_Continue);
 
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "…………………",
-		   NULL, "...", Line_ContinueAfterTyping);
+		   NULL, "...", Line_Continue);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "これは",
-		   NULL, "This is...", Line_ContinueAfterTyping);
+		   NULL, "This is...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………どういうことだ？！",
 		   NULL, " What is the meaning of this!?", Line_WaitForInput);
@@ -2848,11 +2848,11 @@ void main()
 		   NULL, "\"Hmmm.", Line_WaitForInput);
 	PlayVoice(4, "s05/00/104300031", 128);
 	OutputLine(NULL, "…例えばですね、",
-		   NULL, " ...Take for example,", Line_ContinueAfterTyping);
+		   NULL, " ...Take for example,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "あなたが雛見沢で歩いていて、",
 		   NULL, " you're walking around Hinamizawa,", Line_WaitForInput);
@@ -2913,7 +2913,7 @@ void main()
 		   NULL, "...Any prosecutor would hesitate to file charges. ", GetGlobalFlag(GLinemodeSp));
 	PlayVoice(4, "s05/00/104300040", 128);
 	if (GetGlobalFlag(GADVMode)) {
-		OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping);
+		OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_Continue);
 		OutputLine(NULL, "殺人ならいざ知れず、投石で額を切った、殴られてアザができた程度だと、仮に犯人を特定できたとしても、嫌疑不十分で送検されないことがほとんどです。」",
 			   NULL, "<size=-2>I'm not sure about murder, but if it's something like opening a gash on somebody's forehead with a thrown rock, or leaving a bruise after hitting someone, even if you could single out the suspect, there's enough reasonable doubt to not convict.\"</size>", Line_Normal);
 	} else {
@@ -3425,11 +3425,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300045", 128);
 	OutputLine(NULL, "「………例えば、政府要人の関係者を誘拐して脅迫、",
-		   NULL, "\"...Again, hypothetically, do you think...", Line_ContinueAfterTyping);
+		   NULL, "\"...Again, hypothetically, do you think...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……なんてことがありえると思いますか？」",
 		   NULL, " They could kidnap a relative of someone of political importance?\"", Line_Normal);
@@ -3746,11 +3746,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>事務員</color>", NULL, "<color=#f5e6d3>Office Worker</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/jimu00003", 128);
 	OutputLine(NULL, "「あ、",
-		   NULL, "\"Ah...", Line_ContinueAfterTyping);
+		   NULL, "\"Ah...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…しし、失礼しました、少々お待ち下さい…。」",
 		   NULL, " m-my apologies. Please wait a minute...\"", GetGlobalFlag(GLinemodeSp));

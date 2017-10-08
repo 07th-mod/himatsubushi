@@ -236,11 +236,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/14/443400016", 128);
 	OutputLine(NULL, "「…………………小僧、",
-		   NULL, "\"....Boy,", Line_ContinueAfterTyping);
+		   NULL, "\"....Boy,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……元気かいね？」",
 		   NULL, " ya doin' okay?\"", GetGlobalFlag(GLinemodeSp));

@@ -773,11 +773,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/mand00001", 128);
 	OutputLine(NULL, "「赤坂雪絵さまが、",
-		   NULL, "\"Yukie Akasaka...", Line_ContinueAfterTyping);
+		   NULL, "\"Yukie Akasaka...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1500 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…事故でお亡くなりになりました。」",
 		   NULL, " died in an accident.\"", Line_Normal);
@@ -1381,18 +1381,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/11/100700706", 128);
 	OutputLine(NULL, "「…………奥さんは、",
-		   NULL, "\"They...", Line_ContinueAfterTyping);
+		   NULL, "\"They...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……連中に、",
-		   NULL, " murdered...", Line_ContinueAfterTyping);
+		   NULL, " murdered...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1200 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…殺された？」",
 		   NULL, " your wife?\"", GetGlobalFlag(GLinemodeSp));
@@ -1460,7 +1460,7 @@ void main()
 		   NULL, "\"...Then if I may?", Line_WaitForInput);
 	PlayVoice(4, "s05/11/100700709", 128);
 	OutputLine(NULL, "　赤坂さんの言うとおり、古手梨花は未来がわかる預言者だとします。",
-		   NULL, " If what you say is true, then Rika Furude was a prophet who knew the future.", Line_ContinueAfterTyping);
+		   NULL, " If what you say is true, then Rika Furude was a prophet who knew the future.", Line_Continue);
 
 	FadeOutBGM( 1, 1000, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -1528,7 +1528,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300700", 128);
 	OutputLine(NULL, "「……………………それは、",
-		   NULL, "\"...That's...", Line_ContinueAfterTyping);
+		   NULL, "\"...That's...", Line_Continue);
 
 	Wait( 1500 );
 
@@ -1867,7 +1867,7 @@ void main()
 		   NULL, "\"He was going around the village to question people about the incident with Tomitake.", Line_WaitForInput);
 	PlayVoice(4, "s05/11/100700739", 128);
 	OutputLine(NULL, "……何かの事件に巻き込まれたのかもしれない。",
-		   NULL, " ...He might have gotten caught up in something.", Line_ContinueAfterTyping);
+		   NULL, " ...He might have gotten caught up in something.", Line_Continue);
 
 
 
@@ -2148,11 +2148,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300722", 128);
 	OutputLine(NULL, "「……なんて、",
-		   NULL, "\"...That's...", Line_ContinueAfterTyping);
+		   NULL, "\"...That's...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………惨い。」",
 		   NULL, " horrible.\"", GetGlobalFlag(GLinemodeSp));
@@ -2741,11 +2741,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/11/100700816", 128);
 	OutputLine(NULL, "「…………………赤坂さん、",
-		   NULL, "\"...Akasaka-san,", Line_ContinueAfterTyping);
+		   NULL, "\"...Akasaka-san,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……そりゃあ、本当ですか…！」",
 		   NULL, " is that true!?\"", Line_Normal);
@@ -4451,7 +4451,7 @@ void main()
 //　この惨劇が、どうして起こされたのか＠
 	PlayVoice(4, "s05/13/101300788", 128);
 	PlayVoice(5, "s05/11/100700877", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　この惨劇が、どうして起こされたのか。",
 		   NULL, "Why did this tragedy happen?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -4460,7 +4460,7 @@ void main()
 //　私たちだけでは真相に至ることがかないません＠
 	PlayVoice(4, "s05/13/101300789", 128);
 	PlayVoice(5, "s05/11/100700878", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　私たちだけでは真相に至ることがかないません。",
 		   NULL, "We can't reach the truth by ourselves.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -4469,7 +4469,7 @@ void main()
 //　どうかこれを読んだあなた＠
 	PlayVoice(4, "s05/13/101300790", 128);
 	PlayVoice(5, "s05/11/100700879", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　どうかこれを読んだあなた。",
 		   NULL, "If you're reading this.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4478,7 +4478,7 @@ void main()
 //　真相を解き明かしてください＠
 	PlayVoice(4, "s05/13/101300791", 128);
 	PlayVoice(5, "s05/11/100700880", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　真相を解き明かしてください。",
 		   NULL, "Please discover the truth.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4487,7 +4487,7 @@ void main()
 //　それだけが私たちの願いです＠
 	PlayVoice(4, "s05/13/101300792", 128);
 	PlayVoice(5, "s05/11/100700881", 128);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　それだけが私たちの願いです。",
 		   NULL, "That is our only wish.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

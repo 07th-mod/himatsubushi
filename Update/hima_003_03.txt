@@ -718,7 +718,7 @@ void main()
 		   NULL, "\"Divine punishment wrought by Oyashiro-sama.", Line_WaitForInput);
 	PlayVoice(4, "s05/13/101300500", 128);
 	OutputLine(NULL, "なら、…犯人はオヤシロさまの生まれ変わりである、",
-		   NULL, " Then, the culprit is the living incarnation of Oyashiro-sama...", Line_ContinueAfterTyping);
+		   NULL, " Then, the culprit is the living incarnation of Oyashiro-sama...", Line_Continue);
 
 	Wait( 1500 );
 
@@ -3022,11 +3022,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/49/vt2_13hibari1058", 128);
 	OutputLine(NULL, "「ぅが、",
-		   NULL, "\"...Ugh...", Line_ContinueAfterTyping);
+		   NULL, "\"...Ugh...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……が…ッ！！！」",
 		   NULL, " Gah!!!\"", GetGlobalFlag(GLinemodeSp));

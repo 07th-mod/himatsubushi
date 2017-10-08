@@ -123,11 +123,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300560", 128);
 	OutputLine(NULL, "「……誰か、",
-		   NULL, "\"...Is there,", Line_ContinueAfterTyping);
+		   NULL, "\"...Is there,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "いませんか。",
 		   NULL, " somebody here?", Line_WaitForInput);
@@ -2337,25 +2337,25 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300608", 128);
 	OutputLine(NULL, "「え、",
-		   NULL, "\"Huh...", Line_ContinueAfterTyping);
+		   NULL, "\"Huh...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……あ、",
-		   NULL, " ...ah...", Line_ContinueAfterTyping);
+		   NULL, " ...ah...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……いや、",
-		   NULL, " ...no...", Line_ContinueAfterTyping);
+		   NULL, " ...no...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……そんなことない……よ。」",
 		   NULL, " ...that's not... true.\"", GetGlobalFlag(GLinemodeSp));
@@ -2406,7 +2406,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/27/100500126", 128);
 	OutputLine(NULL, "「……赤坂の、",
-		   NULL, "\"...Akasaka,", Line_ContinueAfterTyping);
+		   NULL, "\"...Akasaka,", Line_Continue);
 
 	Wait( 900 );
 

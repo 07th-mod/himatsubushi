@@ -92,11 +92,11 @@ void main()
 		   NULL, "\"Huh?", Line_WaitForInput);
 	PlayVoice(4, "s20/11/440700427", 128);
 	OutputLine(NULL, "　そりゃどういう意味ですかね、",
-		   NULL, " What do you mean by that,", Line_ContinueAfterTyping);
+		   NULL, " What do you mean by that,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1500 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "梨花さ、」",
 		   NULL, " Rika-sa--\"", Line_Normal);
@@ -1235,11 +1235,11 @@ void main()
 		   NULL, " The number of appearances for the both of us is going to go up, you know?", Line_WaitForInput);
 	PlayVoice(4, "s20/09/440900149", 128);
 	OutputLine(NULL, "　……ジロウさんは私と一緒、",
-		   NULL, " ...Jirou-san...", Line_ContinueAfterTyping);
+		   NULL, " ...Jirou-san...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1500 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…いや？」",
 		   NULL, " ...Do you not like being by my side?\"", GetGlobalFlag(GLinemodeSp));
@@ -1326,7 +1326,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>？？？</color>", NULL, "<color=#f5e6d3>???</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/10/441000101", 128);
 	OutputLine(NULL, "「それは許しませんよ！！！！",
-		   NULL, "\"I won't allow that!!!", Line_ContinueAfterTyping);
+		   NULL, "\"I won't allow that!!!", Line_Continue);
 
 	DisableWindow();
 	PlaySE( 3, "wa_007", 128, 64 );
@@ -1341,7 +1341,7 @@ void main()
 
 	PlayVoice(4, "s20/10/441000102", 128);
 	OutputLine(NULL, "　とお！！！」",
-		   NULL, " Hiyah!!!\"", Line_ContinueAfterTyping);
+		   NULL, " Hiyah!!!\"", Line_Continue);
 
 	PlaySE( 3, "wa_009", 128, 64 );
 
@@ -1405,24 +1405,24 @@ void main()
 		   NULL, "\"Oh.", Line_WaitForInput);
 	PlayVoice(4, "s20/06/440600155", 128);
 	OutputLine(NULL, "この後に収録予定の、",
-		   NULL, " Then you're saying you want to withdraw from being the lead in", Line_ContinueAfterTyping);
+		   NULL, " Then you're saying you want to withdraw from being the lead in", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 //!s0
 
 	SetSpeedOfMessage( TRUE, 127, );
 
 	OutputLine(NULL, "『生本番！！　沙都子メイド調教、着せ替え編』",
-		   NULL, " 'Live Performance!! Satoko's Maid Training, Dress-up Chapter'", Line_ContinueAfterTyping);
+		   NULL, " 'Live Performance!! Satoko's Maid Training, Dress-up Chapter'", Line_Continue);
 
 
 	PlaySE( 3, "wa_029", 128, 64 );
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -1719,18 +1719,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/02/440200329", 128);
 	OutputLine(NULL, "……そんな詩ぃちゃんをね、",
-		   NULL, "There's somebody...", Line_ContinueAfterTyping);
+		   NULL, "There's somebody...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…許すことができない、地獄の怨嗟が…、",
-		   NULL, " who resents you from the depths of hell, who can't forgive you...", Line_ContinueAfterTyping);
+		   NULL, " who resents you from the depths of hell, who can't forgive you...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ほら、聞こえてこない…？」",
 		   NULL, " Listen... can't you hear it, Shii-chan?\"", Line_Normal);
@@ -1883,7 +1883,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/02/440200332", 128);
 	OutputLine(NULL, "「……助けてぇえぇえ！！　圭一くぅうううぅうん！！！！！」",
-		   NULL, "\"...Save meeeeeeee!! Keiichi-kuuuuuuuuun!!!!!\"", Line_ContinueAfterTyping);
+		   NULL, "\"...Save meeeeeeee!! Keiichi-kuuuuuuuuun!!!!!\"", Line_Continue);
 
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -1940,7 +1940,7 @@ void main()
 //漆黒の魔王、前原圭一、降ッ臨ッ！！！！」/
 	PlayVoice(4, "s20/01/440100238", 128);
 	OutputLine(NULL, "漆黒の魔王、前原圭一、降ッ臨ッ！！！！」",
-		   NULL, " The Demon Lord of the Darkest Black, Keiichi Maebara, shall appear!!!!\"", Line_ContinueAfterTyping);
+		   NULL, " The Demon Lord of the Darkest Black, Keiichi Maebara, shall appear!!!!\"", Line_Continue);
 
 	DisableWindow();
 	PlaySE( 3, "wa_007", 128, 64 );
@@ -1995,17 +1995,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/01/440100244", 128);
 	OutputLine(NULL, "　立ち絵がなく、慰労の一杯にすらありつけなかった俺の",
-		   NULL, "Without any character art, without any sort of appreciation. Witness my", Line_ContinueAfterTyping);
+		   NULL, "Without any character art, without any sort of appreciation. Witness my", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	PlaySE( 3, "wa_005", 128, 64 );
 
 //怒りを、/
 	OutputLine(NULL, "怒りを、",
-		   NULL, " anger,", Line_ContinueAfterTyping);
+		   NULL, " anger,", Line_Continue);
 
 
 	ShakeScreen( 1, 50, 20, 2, 0, );
@@ -2013,14 +2013,14 @@ void main()
 
 //恨みを、/
 	OutputLine(NULL, "恨みを、",
-		   NULL, " my grudge,", Line_ContinueAfterTyping);
+		   NULL, " my grudge,", Line_Continue);
 
 	ShakeScreen( 0, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_006", 128, 64 );
 
 //悲しみを！！！/
 	OutputLine(NULL, "悲しみを！！！",
-		   NULL, " and all of my sorrow!!", Line_ContinueAfterTyping);
+		   NULL, " and all of my sorrow!!", Line_Continue);
 
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -2034,7 +2034,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/01/440100245", 128);
 	OutputLine(NULL, "　今こそ教えてくれるぜえええぇえぇ！！！」",
-		   NULL, " I shall instill it all upon you!!!\"", Line_ContinueAfterTyping);
+		   NULL, " I shall instill it all upon you!!!\"", Line_Continue);
 
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
@@ -2102,7 +2102,7 @@ void main()
 //　ここからはポップでＨで萌え萌えなひぐらしが始まるのだぁあぁあぁあ！！！！」/
 	PlayVoice(4, "s20/01/440100252", 128);
 	OutputLine(NULL, "　ここからはポップでＨで萌え萌えなひぐらしが始まるのだぁあぁあぁあ！！！！」",
-		   NULL, " From here on out begins the dawn of a perverted and cutesy Higurashi!!!!\"", Line_ContinueAfterTyping);
+		   NULL, " From here on out begins the dawn of a perverted and cutesy Higurashi!!!!\"", Line_Continue);
 
 
 	PlaySE( 3, "wa_006", 128, 64 );
@@ -2149,7 +2149,7 @@ void main()
 		   NULL, " Then, as a first step, I'll show our doctor-cum-coach my power.", Line_WaitForInput);
 	PlayVoice(4, "s20/01/440100256", 128);
 	OutputLine(NULL, "ム〜〜ンッ…カアッ！！！」",
-		   NULL, " Hrnnnnnggaaaaaa!!!\"", Line_ContinueAfterTyping);
+		   NULL, " Hrnnnnnggaaaaaa!!!\"", Line_Continue);
 
 
 	PlaySE( 3, "wa_029", 128, 64 );
@@ -2193,21 +2193,21 @@ void main()
 //　しかもピンクとかのエロゲー的な色じゃない！/
 	PlayVoice(4, "s20/08/440800153", 128);
 	OutputLine(NULL, "　しかもピンクとかのエロゲー的な色じゃない！",
-		   NULL, " And it's not some pink one like you'd find in a porno!", Line_ContinueAfterTyping);
+		   NULL, " And it's not some pink one like you'd find in a porno!", Line_Continue);
 
 	ShakeScreen( 1, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_005", 128, 64 );
 
 //　わかってる！！/
 	OutputLine(NULL, "　わかってる！！",
-		   NULL, " He knows what he's doing!!", Line_ContinueAfterTyping);
+		   NULL, " He knows what he's doing!!", Line_Continue);
 
 	ShakeScreen( 1, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_006", 128, 64 );
 
 //　ちゃんと清楚な純白だああぁあ！！」/
 	OutputLine(NULL, "　ちゃんと清楚な純白だああぁあ！！」",
-		   NULL, " It's a proper pure and innocent whiiiite!!\"", Line_ContinueAfterTyping);
+		   NULL, " It's a proper pure and innocent whiiiite!!\"", Line_Continue);
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
 
@@ -2264,27 +2264,27 @@ void main()
 		   NULL, "\"Now then, who should I make wear what next~?", Line_WaitForInput);
 	PlayVoice(4, "s20/01/440100261", 128);
 	OutputLine(NULL, "　手堅く、",
-		   NULL, " Maybe a nice", Line_ContinueAfterTyping);
+		   NULL, " Maybe a nice", Line_Continue);
 
 	PlaySE( 3, "wa_011", 128, 64 );
 
 //制服、!w800/
 	OutputLine(NULL, "制服、",
-		   NULL, " school uniform", Line_ContinueAfterTyping);
+		   NULL, " school uniform", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	PlaySE( 3, "wa_010", 128, 64 );
 
 //体操服、!w800/
 	OutputLine(NULL, "体操服、",
-		   NULL, " gym clothes", Line_ContinueAfterTyping);
+		   NULL, " gym clothes", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	PlaySE( 3, "wa_006", 128, 64 );
 
@@ -2310,7 +2310,7 @@ void main()
 //　いっそ、みんな全裸にしちゃうってのはどうでしょう～～！！＠　も、もちろん、靴下は残すのでありまっす！！！￥
 	PlayVoice(4, "s20/10/441000116", 128);
 	OutputLine(NULL, "　いっそ、みんな全裸にしちゃうってのはどうでしょう〜〜！！！",
-		   NULL, " How about just about making everybody naked!!!", Line_ContinueAfterTyping);
+		   NULL, " How about just about making everybody naked!!!", Line_Continue);
 
 	PlaySE( 3, "wa_012", 128, 64 );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -2345,7 +2345,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 127, );
 	PlayVoice(4, "s20/01/440100266", 128);
 	OutputLine(NULL, "　俺、やっとあんたと打ち解けれた気がするぜ！！！」",
-		   NULL, " I feel like we're finally seeing eye-to-eye here!!!\"", Line_ContinueAfterTyping);
+		   NULL, " I feel like we're finally seeing eye-to-eye here!!!\"", Line_Continue);
 
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -2439,7 +2439,7 @@ void main()
 //四天王、ここに見参だあああぁあ！！！」/
 	PlayVoice(4, "s20/01/440100270", 128);
 	OutputLine(NULL, "四天王、ここに見参だあああぁあ！！！」",
-		   NULL, " The Elite Four have arrived!!!\"", Line_ContinueAfterTyping);
+		   NULL, " The Elite Four have arrived!!!\"", Line_Continue);
 
 	DisableWindow();
 	DrawScene( "white", 10 );
@@ -2461,7 +2461,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44001", 128);
 	OutputLine(NULL, "　ついに。",
-		   NULL, "Finally.", Line_ContinueAfterTyping);
+		   NULL, "Finally.", Line_Continue);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -2473,7 +2473,7 @@ void main()
 //…Ｋを筆頭に、悪の四天王が揃い踏む。/
 	PlayVoice(4, "s20/00/narra44002", 128);
 	OutputLine(NULL, "…Ｋを筆頭に、悪の四天王が揃い踏む。",
-		   NULL, " ...With K at their head, the evil Elite Four made their grand entrance.", Line_ContinueAfterTyping);
+		   NULL, " ...With K at their head, the evil Elite Four made their grand entrance.", Line_Continue);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
@@ -2490,7 +2490,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44003", 128);
 	OutputLine(NULL, "　暗黒を得て、ついに地上に降臨を果たした漆黒の魔王、前原圭一。",
-		   NULL, "With the complete darkness, the Demon Lord of the Darkest Black, Keiichi Maebara, was finally able to reach the surface world.", Line_ContinueAfterTyping);
+		   NULL, "With the complete darkness, the Demon Lord of the Darkest Black, Keiichi Maebara, was finally able to reach the surface world.", Line_Continue);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
@@ -2507,7 +2507,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44004", 128);
 	OutputLine(NULL, "　その魔力は絶大にして無比！！",
-		   NULL, "His magical power was without equal!!", Line_ContinueAfterTyping);
+		   NULL, "His magical power was without equal!!", Line_Continue);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -2519,7 +2519,7 @@ void main()
 //　この闇では…誰にも立ち向かえない！！/
 	PlayVoice(4, "s20/00/narra44005", 128);
 	OutputLine(NULL, "　この闇では…誰にも立ち向かえない！！",
-		   NULL, " In this darkness... nobody could stand against him!!", Line_ContinueAfterTyping);
+		   NULL, " In this darkness... nobody could stand against him!!", Line_Continue);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
@@ -2532,7 +2532,7 @@ void main()
 //　屈する他ない！！！/
 	PlayVoice(4, "s20/00/narra44006", 128);
 	OutputLine(NULL, "　屈する他ない！！！",
-		   NULL, " All must bow!!!", Line_ContinueAfterTyping);
+		   NULL, " All must bow!!!", Line_Continue);
 
 	FadeOutBGM( 2, 1000, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -2545,7 +2545,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44007", 128);
 	OutputLine(NULL, "　あぁ、ヒロインたちはこの闇を抜け出せず、魔王たちの思うがままに、恥ずかしい衣装を次々と強要され、",
-		   NULL, "<size=-2>Ahh, will the heroines be unable to escape this darkness and be forced to submit to the will of the Demon Lord, forced to wear embarrassing outfit after embarrassing outfit,</size>", Line_ContinueAfterTyping);
+		   NULL, "<size=-2>Ahh, will the heroines be unable to escape this darkness and be forced to submit to the will of the Demon Lord, forced to wear embarrassing outfit after embarrassing outfit,</size>", Line_Continue);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -2558,7 +2558,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44008", 128);
 	OutputLine(NULL, "永遠に等身大着せ替え人形の扱いをされてしまうのかッ？！？！",
-		   NULL, "<size=-2> being used as life-size dress-up dolls for all eternity!?!?</size>", Line_ContinueAfterTyping);
+		   NULL, "<size=-2> being used as life-size dress-up dolls for all eternity!?!?</size>", Line_Continue);
 
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -2599,7 +2599,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ナレーター</color>", NULL, "<color=#f5e6d3>Narrator</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/00/narra44011", 128);
 	OutputLine(NULL, "　競泳型だったら許さんぞおぉおおおぉお！！！",
-		   NULL, "I won't forgive you if they're the competitive swimming style!!!", Line_ContinueAfterTyping);
+		   NULL, "I won't forgive you if they're the competitive swimming style!!!", Line_Continue);
 
 	ShakeScreen( 0, 50, 20, 4, 0, );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -2693,7 +2693,7 @@ void main()
 //　八方塞がりってわけさぁ！！」/
 	PlayVoice(4, "s20/01/440100279", 128);
 	OutputLine(NULL, "　八方塞がりってわけさぁ！！」",
-		   NULL, " All the bases are covered!!\"", Line_ContinueAfterTyping);
+		   NULL, " All the bases are covered!!\"", Line_Continue);
 
 
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -2782,39 +2782,39 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s20/01/440100280", 128);
 	OutputLine(NULL, "「ちょちょ、",
-		   NULL, "\"Wa-Wa-", Line_ContinueAfterTyping);
+		   NULL, "\"Wa-Wa-", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ちょっと待てよ、",
-		   NULL, "Wait a minute,", Line_ContinueAfterTyping);
+		   NULL, "Wait a minute,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ここ、",
-		   NULL, " this here,", Line_ContinueAfterTyping);
+		   NULL, " this here,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "これはないだろ、",
-		   NULL, " there's no way, right,", Line_ContinueAfterTyping);
+		   NULL, " there's no way, right,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ズルだろ、",
-		   NULL, " that's cheating,", Line_ContinueAfterTyping);
+		   NULL, " that's cheating,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "反則だって！！！！",
 		   NULL, " it's against the rules!!!!", Line_WaitForInput);

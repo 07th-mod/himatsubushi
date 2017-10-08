@@ -1191,11 +1191,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300657", 128);
 	OutputLine(NULL, "「梨花ちゃん、",
-		   NULL, "\"Rika-chan,", Line_ContinueAfterTyping);
+		   NULL, "\"Rika-chan,", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………何の話だい。」",
 		   NULL, " what are you talking about?\"", GetGlobalFlag(GLinemodeSp));
@@ -1224,7 +1224,7 @@ void main()
 		   NULL, "\"You see...", Line_WaitForInput);
 	PlayVoice(4, "s05/27/100500174", 128);
 	OutputLine(NULL, "………………あと何年かすると、",
-		   NULL, " in a few years...", Line_ContinueAfterTyping);
+		   NULL, " in a few years...", Line_Continue);
 
 	Wait( 1000 );
 
@@ -1379,18 +1379,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/13/101300662", 128);
 	OutputLine(NULL, "「…こ、",
-		   NULL, "\"...B-", Line_ContinueAfterTyping);
+		   NULL, "\"...B-", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………殺されるって、",
-		   NULL, "Be killed...", Line_ContinueAfterTyping);
+		   NULL, "Be killed...", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………どうして……。」",
 		   NULL, " ...What makes you think...\"", GetGlobalFlag(GLinemodeSp));

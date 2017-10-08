@@ -739,7 +739,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/00/manall00001", 128);
 	OutputLine(NULL, "「「「雛見沢ダム建設、絶対反対ッ！！」」」",
-		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_ContinueAfterTyping);
+		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_Continue);
 
 	ShakeScreen( 1, 50, 20, 4, 0, );
 	SetSpeedOfMessage( FALSE, 0, );
@@ -1540,11 +1540,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	PlayVoice(4, "s05/27/100500105", 128);
 	OutputLine(NULL, "『……警告したのに。",
-		   NULL, "\"...Even though I warned you.", Line_ContinueAfterTyping);
+		   NULL, "\"...Even though I warned you.", Line_Continue);
 
-	SetValidityOfInput( FALSE );
+	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1500 );
-	SetValidityOfInput( TRUE );
+	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……ばかなヤツ。』",
 		   NULL, " ...What a fool.\"", GetGlobalFlag(GLinemodeSp));
