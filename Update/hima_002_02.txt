@@ -736,7 +736,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　朗らかに笑うが、…きっと怒ると怖いに違いない、そんな風貌の老人は……何と、鬼ヶ淵死守同盟の会長、…公由喜一郎氏本人だった…。",
-			   NULL, "<size=-2>He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Defense Alliance, none other than Kiichirou Kimiyoshi himself...</size>", Line_Normal);
+			   NULL, "<size=-2>He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Defense Alliance, none other than Kiichirou Kimiyoshi himself...", Line_Normal);
 	} else {
 		OutputLine(NULL, "　朗らかに笑うが、…きっと怒ると怖いに違いない、そんな風貌の老人は……何と、鬼ヶ淵死守同盟の会長、…公由喜一郎氏本人だった…。",
 			   NULL, "He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Defense Alliance, none other than Kiichirou Kimiyoshi himself...", Line_Normal);

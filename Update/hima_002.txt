@@ -91,7 +91,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　前者の闘争路線は、警察の横暴や非人道的扱い、機動隊の蛮行をアピールするなどで、警察の動きの牽制を狙ったもの。",
-			   NULL, "<size=-2>In regards to the former, as an attempt to keep law enforcement in check, they appealed to the public's sympathy by highlighting the oppressive and inhumane tactics of the police and the brutality of the riot squads.</size>", GetGlobalFlag(GLinemodeSp));
+			   NULL, "<size=-2>In regards to the former, as an attempt to keep law enforcement in check, they appealed to the public's sympathy by highlighting the oppressive and inhumane tactics of the police and the brutality of the riot squads.", GetGlobalFlag(GLinemodeSp));
 	} else {
 		OutputLine(NULL, "　前者の闘争路線は、警察の横暴や非人道的扱い、機動隊の蛮行をアピールするなどで、警察の動きの牽制を狙ったもの。",
 			   NULL, "In regards to the former, as an attempt to keep law enforcement in check, they appealed to the public's sympathy by highlighting the oppressive and inhumane tactics of the police and the brutality of the riot squads.", GetGlobalFlag(GLinemodeSp));
@@ -126,7 +126,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　…これに便乗できればよかったが、村役場に問い合わせた所、募集はすでに終わり、次回予定も未定という答えが返ってきた。",
-			   NULL, "<size=-2>...I would have liked to have taken advantage of the opportunity, but when I called the village administrative offices, they responded that it was too late to put in an application for the tour, and they were still undecided as to when they'd be doing another one.</size>", Line_Normal);
+			   NULL, "<size=-2>...I would have liked to have taken advantage of the opportunity, but when I called the village administrative offices, they responded that it was too late to put in an application for the tour, and they were still undecided as to when they'd be doing another one.", Line_Normal);
 	} else {
 		OutputLine(NULL, "　…これに便乗できればよかったが、村役場に問い合わせた所、募集はすでに終わり、次回予定も未定という答えが返ってきた。",
 			   NULL, "...I would have liked to have taken advantage of the opportunity, but when I called the village administrative offices, they responded that it was too late to put in an application for the tour, and they were still undecided as to when they'd be doing another one.", Line_Normal);

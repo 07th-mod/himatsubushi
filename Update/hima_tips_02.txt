@@ -179,7 +179,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです。",
-			   NULL, "<size=-2>Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.</size>", GetGlobalFlag(GLinemodeSp));
+			   NULL, "<size=-2>Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.", GetGlobalFlag(GLinemodeSp));
 	} else {
 		OutputLine(NULL, "お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです。",
 			   NULL, "Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.", GetGlobalFlag(GLinemodeSp));

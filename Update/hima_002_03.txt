@@ -4272,7 +4272,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　園崎家頭首…いや、雛見沢御三家の頂点に座すお魎が、自ら発案したものだからと、常に聖域的に、予算の削減を免れてきたのだ。",
-			   NULL, "<size=-2>The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families,  Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.</size>", GetGlobalFlag(GLinemodeSp));
+			   NULL, "<size=-2>The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families,  Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
 	} else {
 		OutputLine(NULL, "　園崎家頭首…いや、雛見沢御三家の頂点に座すお魎が、自ら発案したものだからと、常に聖域的に、予算の削減を免れてきたのだ。",
 			   NULL, "The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families,  Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
