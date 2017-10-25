@@ -323,6 +323,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	MoveBustshot( 4, NULL, -240, 0, 0, 0, 500, TRUE );
 	DrawBustshot( 4, "miyuki_Kanashimi_0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
 
 //　rそれに対して娘はびくっ、と驚いたように、私の背の後ろに隠れてしまった。
