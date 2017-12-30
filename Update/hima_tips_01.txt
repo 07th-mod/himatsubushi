@@ -13,18 +13,18 @@ void main()
 //「…そうですか＠急な出張は大変ですね…＠どうぞお気をつけて＠出張はどちらへですか＠　もう出張先なんですか？＠
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44001", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44001", 128, TRUE);
 	OutputLine(NULL, "「…そうですか。",
 		   NULL, "\"...Oh really?", Line_WaitForInput);
 	OutputLine(NULL, "急な出張は大変ですね…。",
 		   NULL, " It's tough when it's such a sudden assignment...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44002", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44002", 128, TRUE);
 	OutputLine(NULL, "どうぞお気をつけて。",
 		   NULL, " Please be careful.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44003", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44003", 128, TRUE);
 	OutputLine(NULL, "出張はどちらへですか？",
 		   NULL, " Where are you headed?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44004", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44004", 128, TRUE);
 	OutputLine(NULL, "　もう出張先なんですか？」",
 		   NULL, " You're already there?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -32,7 +32,7 @@ void main()
 
 //「………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300001", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300001", 128, TRUE);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
 
@@ -83,12 +83,12 @@ void main()
 
 //「…ごめんなさい＠言ってはいけない規則でしたね…＠どうかお気をつけて。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44005", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44005", 128, TRUE);
 	OutputLine(NULL, "「…ごめんなさい。",
 		   NULL, "\"...Sorry.", Line_WaitForInput);
 	OutputLine(NULL, "言ってはいけない規則でしたね…。",
 		   NULL, " It's something that you can't talk about, isn't it...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44006", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44006", 128, TRUE);
 	OutputLine(NULL, "どうかお気をつけて。」",
 		   NULL, " Please be careful.\"", Line_Normal);
 	ClearMessage();
@@ -96,7 +96,7 @@ void main()
 
 //「………すまん、雪絵。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300002", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300002", 128, TRUE);
 	OutputLine(NULL, "「………すまん、雪絵。」",
 		   NULL, "\"...Sorry, Yukie.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -106,12 +106,12 @@ void main()
 
 //「…あなたはいつの頃から、すぐに謝られるようになったんでしょう＠今のお仕事に就かれた最初は、あれだけ溌剌と充実しておられたのに＠…くすくす。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44007", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44007", 128, TRUE);
 	OutputLine(NULL, "「…あなたはいつの頃から、すぐに謝られるようになったんでしょう。",
 		   NULL, "\"...At some point, you started apologizing right away.", Line_WaitForInput);
 	OutputLine(NULL, "今のお仕事に就かれた最初は、あれだけ溌剌と充実しておられたのに。",
 		   NULL, " Even though when you first started your job you were all gung-ho about it.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44008", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44008", 128, TRUE);
 	OutputLine(NULL, "…くすくす。」",
 		   NULL, " ...Hee hee.\"", GetGlobalFlag(GLinemodeSp));
 
@@ -135,7 +135,7 @@ void main()
 
 //「…私が入院してもうずいぶんになりますものね＠あなたもそろそろ寂しくなってきましたか…？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44009", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44009", 128, TRUE);
 	OutputLine(NULL, "「…私が入院してもうずいぶんになりますものね。",
 		   NULL, "\"...It's already been quite a while since I was admitted to the hospital.", Line_WaitForInput);
 	OutputLine(NULL, "あなたもそろそろ寂しくなってきましたか…？」",
@@ -146,7 +146,7 @@ void main()
 
 //「か、からかうなよ＠寂しがるような歳じゃないさ…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300003", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300003", 128, TRUE);
 	OutputLine(NULL, "「か、からかうなよ。",
 		   NULL, "\"D-Don't tease me.", Line_WaitForInput);
 	OutputLine(NULL, "寂しがるような歳じゃないさ…。」",
@@ -156,15 +156,15 @@ void main()
 
 //「…くすくす、さてさていかがでしょう＠　あなたは本当に甘えん坊さんですからね…＠私と一緒でないと、だんだん弱気になってきてしまうのでしょう…＠　くすくすくす。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44010", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44010", 128, TRUE);
 	OutputLine(NULL, "「…くすくす、さてさていかがでしょう？",
 		   NULL, "\"...Hee hee. Oh really?", Line_WaitForInput);
 	OutputLine(NULL, "　あなたは本当に甘えん坊さんですからね…。",
 		   NULL, " You actually like to be doted on, don't you...?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44011", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44011", 128, TRUE);
 	OutputLine(NULL, "私と一緒でないと、だんだん弱気になってきてしまうのでしょう…？",
 		   NULL, " Don't you start getting a little faint of heart when I'm not around?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44012", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44012", 128, TRUE);
 	OutputLine(NULL, "　くすくすくす。」",
 		   NULL, " Hee hee hee.\"", GetGlobalFlag(GLinemodeSp));
 
@@ -173,12 +173,12 @@ void main()
 
 //「……あぁ、もぅ…＠今、雪絵の頭に小悪魔の角がにょっきりと生えているのが目に浮かぶよ…＠君は昔から、￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300004", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300004", 128, TRUE);
 	OutputLine(NULL, "「……あぁ、もぅ…。",
 		   NULL, "\"...Aww, geez...", Line_WaitForInput);
 	OutputLine(NULL, "今、雪絵の頭に小悪魔の角がにょっきりと生えているのが目に浮かぶよ…。",
 		   NULL, " I can see the little devil horns sprouting from your head right now...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s20/13/441300005", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300005", 128, TRUE);
 	OutputLine(NULL, "君は昔から、」",
 		   NULL, " You've always been like this.\"", Line_Normal);
 	ClearMessage();
@@ -186,15 +186,15 @@ void main()
 
 //「…はぐらかさない、はぐらかさない＠私にかまってもらえなくて、寂しい寂しい～って＠あなたがシッポを振っている音が、受話器を通しても聞こえてきますよ＠くすくすくす……。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44013", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44013", 128, TRUE);
 	OutputLine(NULL, "「…はぐらかさない、はぐらかさない。",
 		   NULL, "\"...You can't hide it, you can't hide it.", Line_WaitForInput);
 	OutputLine(NULL, "私にかまってもらえなくて、寂しい寂しい〜って。",
 		   NULL, " If I don't play with you, you get aaaallll lonely.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44014", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44014", 128, TRUE);
 	OutputLine(NULL, "あなたがシッポを振っている音が、受話器を通しても聞こえてきますよ。",
 		   NULL, " I can hear your tail wagging over the phone.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44015", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44015", 128, TRUE);
 	OutputLine(NULL, "くすくすくす……。」",
 		   NULL, " Hee hee hee...\"", Line_Normal);
 	ClearMessage();
@@ -227,7 +227,7 @@ void main()
 
 //「…くすくすくす＠あなたを困らせるのが、こんなに楽しいと気付いたのはいつからだったでしょうねぇ…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44016", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44016", 128, TRUE);
 	OutputLine(NULL, "「…くすくすくす。",
 		   NULL, "\"...Hee hee hee.", Line_WaitForInput);
 	OutputLine(NULL, "あなたを困らせるのが、こんなに楽しいと気付いたのはいつからだったでしょうねぇ…。」",
@@ -238,7 +238,7 @@ void main()
 
 //「そろそろ許してくれよ…＠…とにかく、君の元気な声が聞けてよかった。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300006", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300006", 128, TRUE);
 	OutputLine(NULL, "「そろそろ許してくれよ…。",
 		   NULL, "\"Give me a break...", Line_WaitForInput);
 	OutputLine(NULL, "…とにかく、君の元気な声が聞けてよかった。」",
@@ -248,7 +248,7 @@ void main()
 
 //「…そうでしょう＠　…元気になれましたか？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44017", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44017", 128, TRUE);
 	OutputLine(NULL, "「…そうでしょう？",
 		   NULL, "\"...I know, right?", Line_WaitForInput);
 	OutputLine(NULL, "　…元気になれましたか？」",
@@ -274,7 +274,7 @@ void main()
 
 //「……………うん。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s20/13/441300007", 128);
+	ModPlayVoiceLS(4, 13, "s20/13/441300007", 128, TRUE);
 	OutputLine(NULL, "「……………うん。」",
 		   NULL, "\"...Yeah.\"", Line_Normal);
 	ClearMessage();
@@ -282,16 +282,16 @@ void main()
 
 //「また、電話をしてくださいな…＠私がだめな時はお父さんが相手をしてくれるでしょう＠…もっとも、お父さんが相手では、あなたのことだから、電話先でも直立不動でしゃべっていそう＠くすくすくす…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44018", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44018", 128, TRUE);
 	OutputLine(NULL, "「また、電話をしてくださいな…。",
 		   NULL, "\"Please phone again...", Line_WaitForInput);
 	OutputLine(NULL, "私がだめな時はお父さんが相手をしてくれるでしょう。",
 		   NULL, " When I'm not feeling up to it, I'll get my father to talk with you. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44019", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44019", 128, TRUE);
 	OutputLine(NULL, "…もっとも、お父さんが相手では、あなたのことだから、電話先でも直立不動でしゃべっていそう。",
 		   NULL, "...Although, if you're talking with my father, I get the feeling that you'd be standing at attention on the other side of the line.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s20/00/yukie44020", 128);
+	ModPlayVoiceLS(4, 0, "s20/00/yukie44020", 128, TRUE);
 	OutputLine(NULL, "くすくすくす…。」",
 		   NULL, " Hee hee hee.\"", Line_Normal);
 	ClearMessage();

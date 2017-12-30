@@ -15,16 +15,16 @@ void main()
 //「えぇえぇ、皆さんもご苦労さんなことです＠お暑いでしょうが、せいぜい頑張って下さいよ＠不法投棄のダンプが現れたらすぐにご連絡下さい＠急行いたしますのでね。￥
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700391", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700391", 128, TRUE);
 	OutputLine(NULL, "「えぇえぇ、皆さんもご苦労さんなことです。",
 		   NULL, "\"Ehhh, good work, everyone.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700392", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700392", 128, TRUE);
 	OutputLine(NULL, "お暑いでしょうが、せいぜい頑張って下さいよ。",
 		   NULL, " I know it's hot, but please do your best.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700393", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700393", 128, TRUE);
 	OutputLine(NULL, "不法投棄のダンプが現れたらすぐにご連絡下さい。",
 		   NULL, " If you catch anybody illegally dumping, please contact someone immediately.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700394", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700394", 128, TRUE);
 	OutputLine(NULL, "急行いたしますのでね。」",
 		   NULL, " We'll act quickly.\"", Line_Normal);
 	ClearMessage();
@@ -32,10 +32,10 @@ void main()
 
 //「ご協力、感謝しますよ大石さん＠……どうぞ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s05/00/104600050", 128);
+	ModPlayVoiceLS(4, 0, "s05/00/104600050", 128, TRUE);
 	OutputLine(NULL, "「ご協力、感謝しますよ大石さん。",
 		   NULL, "\"Thank you for your cooperation, Ooishi-san.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "s05/00/104600051", 128);
+	ModPlayVoiceLS(4, 0, "s05/00/104600051", 128, TRUE);
 	OutputLine(NULL, "……どうぞ。」",
 		   NULL, " ...Please.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -98,10 +98,10 @@ void main()
 
 //「…ありゃ＠いいんですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700395", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700395", 128, TRUE);
 	OutputLine(NULL, "「…ありゃ。",
 		   NULL, "\"...Oh my.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700396", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700396", 128, TRUE);
 	OutputLine(NULL, "いいんですか？」",
 		   NULL, " Is that okay?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -109,10 +109,10 @@ void main()
 
 //「こんな小細工したところで＠どうせ割れているでしょうから。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300447", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300447", 128, TRUE);
 	OutputLine(NULL, "「こんな小細工したところで。",
 		   NULL, "\"With a cheap little disguise like this,", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300448", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300448", 128, TRUE);
 	OutputLine(NULL, "どうせ割れているでしょうから。」",
 		   NULL, " they probably figured it out anyways.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -120,10 +120,10 @@ void main()
 
 //「なっはっはっは＠そりゃあまぁそうでしょうなぁ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700397", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700397", 128, TRUE);
 	OutputLine(NULL, "「なっはっはっは。",
 		   NULL, "\"Na ha ha ha.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700398", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700398", 128, TRUE);
 	OutputLine(NULL, "そりゃあまぁそうでしょうなぁ。」",
 		   NULL, " That just might be the case.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -328,7 +328,7 @@ void main()
 
 //「………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300449", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300449", 128, TRUE);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -336,10 +336,10 @@ void main()
 
 //「赤坂さん、緊張してます＠　んっふっふっふ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700399", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700399", 128, TRUE);
 	OutputLine(NULL, "「赤坂さん、緊張してます？",
 		   NULL, "\"Akasaka-san, are you nervous?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700400", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700400", 128, TRUE);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -360,13 +360,13 @@ void main()
 
 //「……もちろんです＠敵の本拠地にたった二人で乗り込んでいるんですよ＠　この人数では万一の時が不安です。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300450", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300450", 128, TRUE);
 	OutputLine(NULL, "「……もちろんです。",
 		   NULL, "\"...Of course I am.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300451", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300451", 128, TRUE);
 	OutputLine(NULL, "敵の本拠地にたった二人で乗り込んでいるんですよ？",
 		   NULL, " We're headed into the heart of enemy territory alone, aren't we?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300452", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300452", 128, TRUE);
 	OutputLine(NULL, "　この人数では万一の時が不安です。」",
 		   NULL, " I'm worried about if something unlikely happens with just the two of us.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -374,13 +374,13 @@ void main()
 
 //「万一の時＠　なっはっはっはっはっは＠　大丈夫ですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700401", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700401", 128, TRUE);
 	OutputLine(NULL, "「万一の時？",
 		   NULL, "\"Something unlikely?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700402", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700402", 128, TRUE);
 	OutputLine(NULL, "　なっはっはっはっはっは！",
 		   NULL, " Na ha ha ha ha ha!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700403", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700403", 128, TRUE);
 	OutputLine(NULL, "　大丈夫ですよ。」",
 		   NULL, " It'll be all right.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -388,13 +388,13 @@ void main()
 
 //「この村の人間全てが敵ではありませんでしたか＠　全員が口裏を合わせれば、この村で白昼堂々殺人が起こっても証拠一つ残らない＠そういうところだと聞いていますよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300453", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300453", 128, TRUE);
 	OutputLine(NULL, "「この村の人間全てが敵ではありませんでしたか？",
 		   NULL, "\"Isn't everybody in this village our enemy?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300454", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300454", 128, TRUE);
 	OutputLine(NULL, "　全員が口裏を合わせれば、この村で白昼堂々殺人が起こっても証拠一つ残らない。",
 		   NULL, " If everybody gets their stories straight, they could murder someone in broad daylight and there wouldn't be a shred of evidence.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300455", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300455", 128, TRUE);
 	OutputLine(NULL, "そういうところだと聞いていますよ。」",
 		   NULL, " I'm asking about something like that.\"", Line_Normal);
 	ClearMessage();
@@ -430,17 +430,17 @@ void main()
 
 //「雛見沢地区へ向かうと同僚に言い残してますしね＠万一の時は無線機もありますし＠…赤坂さんが怖がってるほどね、そう簡単には完全犯罪はできませんよ＠……まぁ、もちろん油断をしないに越したことはありませんがねぇ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700404", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700404", 128, TRUE);
 	OutputLine(NULL, "「雛見沢地区へ向かうと同僚に言い残してますしね。",
 		   NULL, "\"I've left word that we're headed towards the Hinamizawa area.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700405", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700405", 128, TRUE);
 	OutputLine(NULL, "万一の時は無線機もありますし。",
 		   NULL, " And in the worst case, we've also got a radio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700406", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700406", 128, TRUE);
 	OutputLine(NULL, "…赤坂さんが怖がってるほどね、そう簡単には完全犯罪はできませんよ。",
 		   NULL, " I know you're scared, Akasaka-san, but it's not that easy to pull off the perfect crime. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700407", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700407", 128, TRUE);
 	OutputLine(NULL, "……まぁ、もちろん油断をしないに越したことはありませんがねぇ。」",
 		   NULL, "...Well, of course that doesn't mean we can let our guard down, either.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -448,7 +448,7 @@ void main()
 
 //「…………………。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300456", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300456", 128, TRUE);
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"...\"", Line_Normal);
 	ClearMessage();
@@ -458,13 +458,13 @@ void main()
 
 //「赤坂さん、緊張しすぎですよ＠前にご一緒してた時の方がリラックスしてらしたじゃないですか＠なっはっはっはっは…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700408", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700408", 128, TRUE);
 	OutputLine(NULL, "「赤坂さん、緊張しすぎですよ。",
 		   NULL, "\"Akasaka-san, you're too worked up over this.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700409", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700409", 128, TRUE);
 	OutputLine(NULL, "前にご一緒してた時の方がリラックスしてらしたじゃないですか。",
 		   NULL, " You were more relaxed the last time we came up here together, weren't you?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700410", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700410", 128, TRUE);
 	OutputLine(NULL, "なっはっはっはっは…。」",
 		   NULL, " Na ha ha ha ha...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -481,10 +481,10 @@ void main()
 //「まぁ、本当の本当にやばくなったら、なはははは＠　桜の代紋にはこいつがありますからねぇ。＠
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700411", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700411", 128, TRUE);
 	OutputLine(NULL, "「まぁ、本当の本当にやばくなったら、なはははは！",
 		   NULL, "\"Well, if it gets really iffy, nahahaha!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700412", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700412", 128, TRUE);
 	OutputLine(NULL, "　桜の代紋にはこいつがありますからねぇ。」",
 		   NULL, " This comes with having the badge.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -501,7 +501,7 @@ void main()
 
 //「…役に立ちますか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300457", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300457", 128, TRUE);
 	OutputLine(NULL, "「…役に立ちますか？」",
 		   NULL, "\"...Will it be of any use?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -509,7 +509,7 @@ void main()
 
 //「撃った後の後始末云々が怖くなければ、実に心強いですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700413", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700413", 128, TRUE);
 	OutputLine(NULL, "「撃った後の後始末云々が怖くなければ、実に心強いですよ。」",
 		   NULL, "\"If you're not afraid of dealing with the aftermath after you shoot, it's actually very reassuring.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -538,10 +538,10 @@ void main()
 
 //「赤坂さんは持ってるんですか＠　おハジキ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700414", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700414", 128, TRUE);
 	OutputLine(NULL, "「赤坂さんは持ってるんですか？",
 		   NULL, "\"Akasaka-san, are you carrying one?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700415", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700415", 128, TRUE);
 	OutputLine(NULL, "　おハジキ。」",
 		   NULL, " A piece.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -549,7 +549,7 @@ void main()
 
 //「…まぁ、一応。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300458", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300458", 128, TRUE);
 	OutputLine(NULL, "「…まぁ、一応。」",
 		   NULL, "\"...Well, yeah.\"", Line_Normal);
 	ClearMessage();
@@ -557,7 +557,7 @@ void main()
 
 //「撃ったことは？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700416", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700416", 128, TRUE);
 	OutputLine(NULL, "「撃ったことは？」",
 		   NULL, "\"You ever fired it?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -565,10 +565,10 @@ void main()
 
 //「ありますよ＠………訓練でですがね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300459", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300459", 128, TRUE);
 	OutputLine(NULL, "「ありますよ。",
 		   NULL, "\"I have.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "s05/13/101300460", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300460", 128, TRUE);
 	OutputLine(NULL, "………訓練でですがね。」",
 		   NULL, " ...For training, though.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -576,10 +576,10 @@ void main()
 
 //「そりゃあそうでしょうなぁ＠んっふっふっふ…！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700417", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700417", 128, TRUE);
 	OutputLine(NULL, "「そりゃあそうでしょうなぁ。",
 		   NULL, "\"Well I guess that'd be true.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700418", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700418", 128, TRUE);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", Line_Normal);
 	ClearMessage();
@@ -587,7 +587,7 @@ void main()
 
 //「なら大石さんにはあるんですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300461", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300461", 128, TRUE);
 	OutputLine(NULL, "「なら大石さんにはあるんですか？」",
 		   NULL, "\"Well then, have you, Ooishi-san?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -595,13 +595,13 @@ void main()
 
 //「私ですか＠　なっはははは＠　まぁさかぁ、あるわけないじゃないですか。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700419", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700419", 128, TRUE);
 	OutputLine(NULL, "「私ですか？",
 		   NULL, "\"Me?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700420", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700420", 128, TRUE);
 	OutputLine(NULL, "　なっはははは！",
 		   NULL, " Naahahahaha!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700421", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700421", 128, TRUE);
 	OutputLine(NULL, "　まぁさかぁ、あるわけないじゃないですか。」",
 		   NULL, " Nawww, there's no way.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -618,14 +618,14 @@ void main()
 
 //「銃口を向けたこともありませんがね＠銃口を向けられたことなら何度かありますよ＠……銃口を覗かされるだけで、寿命が３年は縮むなぁ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700422", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700422", 128, TRUE);
 	OutputLine(NULL, "「銃口を向けたこともありませんがね。",
 		   NULL, "\"I've also never pointed the barrel at anybody.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700423", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700423", 128, TRUE);
 	OutputLine(NULL, "銃口を向けられたことなら何度かありますよ。",
 		   NULL, " I've looked down the barrel of a gun a few times though. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700424", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700424", 128, TRUE);
 	OutputLine(NULL, "……銃口を覗かされるだけで、寿命が３年は縮むなぁ。」",
 		   NULL, "...Just being made to look down the barrel like that is enough to shorten your lifespan by about three years.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -656,14 +656,14 @@ void main()
 
 //「………そう言えば、日の高い内にこっちには来たくなかったなぁ＠でも車道はここ抜ける以外にないし＠……赤坂さん、念のため、もう一回マスクで顔を隠してください。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700425", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700425", 128, TRUE);
 	OutputLine(NULL, "「………そう言えば、日の高い内にこっちには来たくなかったなぁ。",
 		   NULL, "\"...Come to think of it, I didn't want to come this way in the middle of the day.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700426", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700426", 128, TRUE);
 	OutputLine(NULL, "でも車道はここ抜ける以外にないし。",
 		   NULL, " But there's no way for a car to get through other than here. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700427", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700427", 128, TRUE);
 	OutputLine(NULL, "……赤坂さん、念のため、もう一回マスクで顔を隠してください。」",
 		   NULL, "...Akasaka-san, just in case, put on the mask again to hide your face, please.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -671,7 +671,7 @@ void main()
 
 //「……どうしたんです？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300462", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300462", 128, TRUE);
 	OutputLine(NULL, "「……どうしたんです？」",
 		   NULL, "\"...What's the matter?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -679,13 +679,13 @@ void main()
 
 //「冷房がうるさいから聞こえないかな＠　切りますよ＠窓を開けてみて下さい。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700428", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700428", 128, TRUE);
 	OutputLine(NULL, "「冷房がうるさいから聞こえないかな？",
 		   NULL, "\"Can you not hear it because the air conditioning is too loud?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700429", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700429", 128, TRUE);
 	OutputLine(NULL, "　切りますよ。",
 		   NULL, " I'll turn it off.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700430", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700430", 128, TRUE);
 	OutputLine(NULL, "窓を開けてみて下さい。」",
 		   NULL, " Try opening the window.\"", Line_Normal);
 	ClearMessage();
@@ -737,7 +737,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 128, );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "s05/00/manall00001", 128);
+	ModPlayVoiceLS(4, 0, "s05/00/manall00001", 128, TRUE);
 	OutputLine(NULL, "「「「雛見沢ダム建設、絶対反対ッ！！」」」",
 		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_Continue);
 
@@ -802,10 +802,10 @@ void main()
 
 //「お、……今日は少ないですね＠ツイてます。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700431", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700431", 128, TRUE);
 	OutputLine(NULL, "「お、……今日は少ないですね。",
 		   NULL, "\"Oh... there's not too many of them today.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700432", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700432", 128, TRUE);
 	OutputLine(NULL, "ツイてます。」",
 		   NULL, " We're in luck.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -813,7 +813,7 @@ void main()
 
 //「……少ないんですか。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300463", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300463", 128, TRUE);
 	OutputLine(NULL, "「……少ないんですか。」",
 		   NULL, "\"...That's not too many?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -821,10 +821,10 @@ void main()
 
 //「えぇ、多い時だと、道路までいっぱいになりますよ＠おちおち車も通れません。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700433", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700433", 128, TRUE);
 	OutputLine(NULL, "「えぇ、多い時だと、道路までいっぱいになりますよ。",
 		   NULL, "\"Yeah, when there's a lot of them, the crowd reaches as far as the road.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700434", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700434", 128, TRUE);
 	OutputLine(NULL, "おちおち車も通れません。」",
 		   NULL, " You wouldn't even be able to inch forward in a car.\"", Line_Normal);
 	ClearMessage();
@@ -876,13 +876,13 @@ void main()
 
 //「あれをガンガンやられるとたまんないんですよねぇ＠機動の連中、全員、耳栓してて、それでも耳がおかしくなるそうです＠気の毒な話です。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700435", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700435", 128, TRUE);
 	OutputLine(NULL, "「あれをガンガンやられるとたまんないんですよねぇ。",
 		   NULL, "\"They can't do anything there but take it.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700436", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700436", 128, TRUE);
 	OutputLine(NULL, "機動の連中、全員、耳栓してて、それでも耳がおかしくなるそうです。",
 		   NULL, " Those riot squad guys, every one of them is wearing earplugs, but they're still having their hearing damaged.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700437", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700437", 128, TRUE);
 	OutputLine(NULL, "気の毒な話です。」",
 		   NULL, " Poor sobs.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -890,7 +890,7 @@ void main()
 
 //「騒音規制で何とかできないんですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300464", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300464", 128, TRUE);
 	OutputLine(NULL, "「騒音規制で何とかできないんですか？」",
 		   NULL, "\"Can't you do something about it with noise ordinance laws?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -898,19 +898,19 @@ void main()
 
 //「ん～～～～、うちの県には騒音規制に関する規定ね、ないんですよ＠それにほら、お経でしょ＠　宗教活動規制できないし＠連中も頭いいんです＠なっはっはっは…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700438", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700438", 128, TRUE);
 	OutputLine(NULL, "「ん〜〜〜〜、うちの県には騒音規制に関する規定ね、ないんですよ。",
 		   NULL, "\"Hmmm... our prefecture doesn't have any laws regarding noise ordinance.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700439", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700439", 128, TRUE);
 	OutputLine(NULL, "それにほら、お経でしょ？",
 		   NULL, " Also, those are sutras, right?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700440", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700440", 128, TRUE);
 	OutputLine(NULL, "　宗教活動規制できないし。",
 		   NULL, " We can't regulate religious activities.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700441", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700441", 128, TRUE);
 	OutputLine(NULL, "連中も頭いいんです。",
 		   NULL, " Those guys are pretty smart.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700442", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700442", 128, TRUE);
 	OutputLine(NULL, "なっはっはっは…。」",
 		   NULL, " Na ha ha ha...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1020,10 +1020,10 @@ void main()
 
 //「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ＠覚えてます？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700443", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700443", 128, TRUE);
 	OutputLine(NULL, "「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ。",
 		   NULL, "\"...Hey, the bald guy that was playing mahjong with us last night?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700444", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700444", 128, TRUE);
 	OutputLine(NULL, "覚えてます？」",
 		   NULL, " Remember him?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1045,7 +1045,7 @@ void main()
 
 //「いらっしゃいましたね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300465", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300465", 128, TRUE);
 	OutputLine(NULL, "「いらっしゃいましたね。」",
 		   NULL, "\"There was someone like that.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1053,13 +1053,13 @@ void main()
 
 //「彼ね、第１工区の現場監督さんなんですよ＠あそこのプレハブの中で、いらいらしながら仕事をなさってるんでしょうねぇ＠…お気の毒なことです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700445", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700445", 128, TRUE);
 	OutputLine(NULL, "「彼ね、第１工区の現場監督さんなんですよ。",
 		   NULL, "\"You see, he's the foreman of the main construction site.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700446", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700446", 128, TRUE);
 	OutputLine(NULL, "あそこのプレハブの中で、いらいらしながら仕事をなさってるんでしょうねぇ。",
 		   NULL, " He's probably holed up in that prefab building, trying to work while irritated out of his mind.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700447", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700447", 128, TRUE);
 	OutputLine(NULL, "…お気の毒なことです。」",
 		   NULL, " ...Poor fella.\"", Line_Normal);
 	ClearMessage();
@@ -1067,7 +1067,7 @@ void main()
 
 //「……あれが毎日では、たまったものではないでしょう。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300466", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300466", 128, TRUE);
 	OutputLine(NULL, "「……あれが毎日では、たまったものではないでしょう。」",
 		   NULL, "\"...You wouldn't be able to stand it if it's like that every day.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1075,16 +1075,16 @@ void main()
 
 //「えぇ＠耐えかねてやめちゃう人が後を絶ちません＠まぁその度にお給金がアップしてるんで、何とも言えませんが＠んっふっふっふ…！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700448", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700448", 128, TRUE);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700449", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700449", 128, TRUE);
 	OutputLine(NULL, "耐えかねてやめちゃう人が後を絶ちません。",
 		   NULL, " There's no end to the number of people who can't handle it and quit.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700450", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700450", 128, TRUE);
 	OutputLine(NULL, "まぁその度にお給金がアップしてるんで、何とも言えませんが。",
 		   NULL, " But every time that happens, their wages go up, so I won't say it's in vain.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700451", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700451", 128, TRUE);
 	OutputLine(NULL, "んっふっふっふ…！」",
 		   NULL, " Nfu fu fu...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1102,10 +1102,10 @@ void main()
 
 //「ちっくしょう、こいつら…＠聞こえてるのか聞こえてないのか…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700452", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700452", 128, TRUE);
 	OutputLine(NULL, "「ちっくしょう、こいつら…。",
 		   NULL, "\"Dammit, these guys...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700453", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700453", 128, TRUE);
 	OutputLine(NULL, "聞こえてるのか聞こえてないのか…。」",
 		   NULL, " Can they hear or can't they?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1148,10 +1148,10 @@ void main()
 
 //「………あ～～～、もぅ＠ちょいと待ってて下さい。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700454", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700454", 128, TRUE);
 	OutputLine(NULL, "「………あ〜〜〜、もぅ。",
 		   NULL, "\"....Ah~~~ geez.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700455", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700455", 128, TRUE);
 	OutputLine(NULL, "ちょいと待ってて下さい。」",
 		   NULL, " Wait just a minute.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1173,7 +1173,7 @@ void main()
 
 //「………！！！　…………！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700456", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700456", 128, TRUE);
 	OutputLine(NULL, "「………！！！　…………！」",
 		   NULL, "\"...!!! ...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1283,12 +1283,12 @@ void main()
 
 	PlayBGM( 2, "lsys18", 128, 0 );
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModDrawCharacter(2, 27, "character/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask( "bg_002", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300467", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300467", 128, TRUE);
 	OutputLine(NULL, "「……………………………ぇ。」",
 		   NULL, "\"...huh.\"", Line_Normal);
 	ClearMessage();
@@ -1380,13 +1380,13 @@ void main()
 
 //「お待たせしました＠行きましょうか＠……ん？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700457", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700457", 128, TRUE);
 	OutputLine(NULL, "「お待たせしました。",
 		   NULL, "\"Sorry to keep you waiting.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700458", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700458", 128, TRUE);
 	OutputLine(NULL, "行きましょうか。",
 		   NULL, " Shall we go?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700459", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700459", 128, TRUE);
 	OutputLine(NULL, "……ん？」",
 		   NULL, " ...Hm?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1422,13 +1422,13 @@ void main()
 
 //「さぁて、行きましょうかね＠飛ばしますよぅ＠　もちろん法定速度遵守で。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700460", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700460", 128, TRUE);
 	OutputLine(NULL, "「さぁて、行きましょうかね。",
 		   NULL, "\"Well then, let's go.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700461", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700461", 128, TRUE);
 	OutputLine(NULL, "飛ばしますよぅ？",
 		   NULL, " I'm going to gun it, okay?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700462", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700462", 128, TRUE);
 	OutputLine(NULL, "　もちろん法定速度遵守で。」",
 		   NULL, " But of course, still within the speed limit.\"", Line_Normal);
 	ClearMessage();
@@ -1456,16 +1456,16 @@ void main()
 
 //「この先を抜けると高津戸地区です＠銃撃戦の覚悟は大丈夫ですか＠　安全装置外すの、土壇場でトチらないでくださいよ＠　んっふっふっふ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700463", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700463", 128, TRUE);
 	OutputLine(NULL, "「この先を抜けると高津戸地区です。",
 		   NULL, "\"As soon as we're through here, we're in Takatsudo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700464", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700464", 128, TRUE);
 	OutputLine(NULL, "銃撃戦の覚悟は大丈夫ですか？",
 		   NULL, " Are you okay if we end up getting into a firefight?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700465", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700465", 128, TRUE);
 	OutputLine(NULL, "　安全装置外すの、土壇場でトチらないでくださいよ？",
 		   NULL, " Don't be fumbling with the safety at the last moment, you hear?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700466", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700466", 128, TRUE);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1495,7 +1495,7 @@ void main()
 
 //「…………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "s05/13/101300468", 128);
+	ModPlayVoiceLS(4, 13, "s05/13/101300468", 128, TRUE);
 	OutputLine(NULL, "「…………………………。」",
 		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1503,10 +1503,10 @@ void main()
 
 //「今から緊張したって仕方ないですよ＠むしろ、収穫がなくて勇み足って可能性だって充分にあるんですから。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "s05/11/100700467", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700467", 128, TRUE);
 	OutputLine(NULL, "「今から緊張したって仕方ないですよ。",
 		   NULL, "\"Suppose it's normal if you're nervous from here on out.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700468", 128);
+	ModPlayVoiceLS(4, 11, "s05/11/100700468", 128, TRUE);
 	OutputLine(NULL, "むしろ、収穫がなくて勇み足って可能性だって充分にあるんですから。」",
 		   NULL, " But if you don't deal with it, there's a chance you might do something rash.\"", Line_Normal);
 	ClearMessage();
@@ -1538,7 +1538,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 27, "s05/27/100500105", 128);
+	ModPlayVoiceLS(4, 27, "s05/27/100500105", 128, TRUE);
 	OutputLine(NULL, "『……警告したのに。",
 		   NULL, "\"...Even though I warned you.", Line_Continue);
 
