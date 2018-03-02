@@ -12,7 +12,7 @@ void main()
 
 	PlayBGM( 1, "msys13", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_250", 400 );
+	DrawScene("background/m_y2", 400 );
 
 //「………電話のコードを切って回ってたの、梨花ちゃんだろ＠　駄目だよ、もうしちゃ。＠
 	ClearMessage();
@@ -27,7 +27,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 27, "character_zoomed/night/rim_Komaru_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 27, "portrait/night/rim_komaru_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……ボクには何のことかよくわかりませんのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -53,7 +53,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「にぱ～～…☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -86,7 +86,7 @@ void main()
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「孫、…無事に見つかって良かったです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -149,7 +149,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「それは良かったです＠……これで東京に帰れますですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -171,7 +171,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……赤坂の怪我はひどいのですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -222,7 +222,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……みー＠ボクには何のことやらわからないのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -244,7 +244,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character_zoomed/night/rim_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/night/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //　二人してとぼけあってから、どちらともなく笑い出す￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -260,8 +260,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
-	DrawScene( "bg_122", 400 );
+	DrawSceneWithMask("black", "right", 0, 0, 300 );
+	DrawScene("background/moon", 400 );
 
 //「…………赤坂が、生きてこの村を出られる確率は、決して高くありませんでした。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -383,7 +383,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_152", 400 );
+	DrawScene("background/jok2", 400 );
 
 //　…ここは、前に来たことがある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -416,7 +416,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(2, 27, "character/night/rim_Def_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 27, "sprite/night/rim_def_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「……………まぁ、そんなものです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -440,7 +440,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/night/rim_Def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/night/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…今日はお祭りの日なのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -517,7 +517,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "down", 0, 0, 300 );
+	DrawSceneWithMask("black", "down", 0, 0, 300 );
 
 //　………この村は敵地で、大石氏と離れて小道をそれれば、どんな目に遭うかもわからない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -547,7 +547,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_245", "down", 0, 0, 300 );
+	DrawSceneWithMask("background/jy2", "down", 0, 0, 300 );
 	PlayBGM( 1, "msys06", 128, 0 );
 
 //　境内に上がると＠……天幕が３張りほど出ていて、会議机とパイプ椅子がいくつも出され＠村の老人たち（いや、死守同盟の幹部？）が大いに酔っ払いながら、飲み会を繰り広げていた＠
@@ -576,7 +576,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 27, "character/night/rim_Def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 27, "sprite/night/rim_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……ね＠　つまんないお祭りでしょう。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -598,7 +598,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/night/rim_Warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/night/rim_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……大昔からずっと続いてきたお祭りですが、…見ての通り、すっかり寂れてしまったのですよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -696,7 +696,7 @@ void main()
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
+	DrawSceneWithMask("black", "right", 0, 0, 300 );
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //　松の木の林を抜けると、ぶわっと涼しくも強い風に前髪が散らされる＠
@@ -713,7 +713,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_262", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/jyt1", "right", 0, 0, 300 );
 
 //　すっかり暗くなり、電灯などによる慎ましやかな夜景が、昼間とはまた違った風景を見せてくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -722,7 +722,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 27, "character/night/rim_majime_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 27, "sprite/night/rim_majime_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「………こうして眺めると、この村ものどかそうに見えますのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -775,7 +775,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //　少女はくるりと振り返り、私に目線を合わせる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -826,7 +826,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/night/rim_Def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/night/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……孫を助けたのは赤坂ですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -850,7 +850,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　…………財布が発見されたあの瞬間から、ずっと感じていた違和感＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -925,8 +925,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene( "bg_262", 400 );
+	ModDrawCharacter(1, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene("background/jyt1", 400 );
 
 //「…………ボクには難しいことはよくわかりません。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -951,7 +951,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/night/rim_Def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/night/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……………？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -975,7 +975,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　こんなことは警察官の言うことじゃない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1049,7 +1049,7 @@ void main()
 
 
 	DisableWindow();
-	DrawScene( "cg_011d", 1000 );
+	DrawScene("scene/011d", 1000 );
 
 //「……どうしてですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1167,7 +1167,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "cg_011e", 1000 );
+	DrawScene("scene/011e", 1000 );
 
 //　そして、…目を少しだけ細めて、くすり…と笑った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1214,7 +1214,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "cg_011d", 1000 );
+	DrawScene("scene/011d", 1000 );
 	PlayBGM( 1, "msys31", 128, 0 );
 
 //「私ね＠………………あと何年かすると、!d1000殺されるの。￥
@@ -1303,7 +1303,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "cg_011f", 1000 );
+	DrawScene("scene/011f", 1000 );
 
 
 //「…………ここは、人の命を何とも思わない連中でいっぱいです＠………これを伝えても、何も変わらないかも知れないけど＠でも、…死という月を映す水面を掻き消すためなら、小石を投じることもあるかもしれない。＠
@@ -1337,7 +1337,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "cg_011d", 1000 );
+	DrawScene("scene/011d", 1000 );
 
 
 //「………………来年の今日＠…そう、昭和５４年の６月の今日＠ダム現場の監督が殺されます。＠
@@ -1534,7 +1534,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "cg_011f", 1000 );
+	DrawScene("scene/011f", 1000 );
 
 //「……私が殺されます。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1560,18 +1560,18 @@ void main()
 
 	DisableWindow();
 
-	DrawScene( "black", 400 );
-	DrawScene( "toketu1a", 300 );
+	DrawScene("black", 400 );
+	DrawScene("toketu1a", 300 );
 	PlaySE( 1, "wa_035", 128, 64 );
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "toketu1b", 300 );
+	DrawScene("toketu1b", 300 );
 	PlaySE( 1, "wa_035", 128, 64 );
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "toketu1c", 300 );
+	DrawScene("toketu1c", 300 );
 	PlaySE( 1, "wa_035", 128, 64 );
 	SetValidityOfInput( FALSE );
 	Wait( 2000 );
@@ -1683,8 +1683,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_122", 400 );
-	ModDrawCharacter(2, 27, "character_zoomed/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DrawScene("background/moon", 400 );
+	ModDrawCharacter(2, 27, "portrait/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「………私は幸せに生きたい＠…望みはそれだけ＠
@@ -1736,13 +1736,13 @@ void main()
 
 
 	DisableWindow();
-	DrawScene( "black", 3000 );
+	DrawScene("black", 3000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	PlayBGM( 1, "msys13", 128, 0 );
-	DrawScene( "bg_263", 400 );
+	DrawScene("background/jyt2", 400 );
 
 
 //　…やがて、私たちの姿を、酔った人々が見つける＠
@@ -1759,9 +1759,9 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 	PlayBGM( 1, "msys05", 128, 0 );
-	DrawScene( "bg_245", 400 );
+	DrawScene("background/jy2", 400 );
 
 //　人々は完全に酔っていて、私の包帯だらけの頭を見ても、解放しようとしてはくれなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1902,7 +1902,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　解放されたのは深夜だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1946,7 +1946,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "Night/bg_104", 400 );
+	DrawScene("background/kuruma5", 400 );
 
 //　車中では睡魔に負け、病院の駐車場に付くまでぐっすりだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1955,8 +1955,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
-	DrawScene( "Night/bg_186a", 400 );
+	DrawSceneWithMask("black", "right", 0, 0, 300 );
+	DrawScene("background/sinryou_soto1_01", 400 );
 
 //　病院は、当然こんな時間だから正面玄関は閉まっていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1972,7 +1972,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "Night/bg_184", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/sinryou_matiai1_01", "right", 0, 0, 300 );
 
 //「こんな時間までどちらへ＠　入江先生も心配してましたよー…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
@@ -2043,7 +2043,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　時計を見る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2061,7 +2061,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_186b", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/sinryou_sinsatu2", "left", 0, 0, 300 );
 
 //　私は自分の病室に戻り、自分が抜け出した時のままに乱れているベッドに潜り込んだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2101,22 +2101,22 @@ void main()
 	DisableWindow();
 	SetValidityOfInput( FALSE );
 	Wait( 3000 );
-	DrawBustshotWithFiltering( 6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 3000, TRUE );
-	DrawBustshot( 7, "Title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
 	Wait( 2000 );
 //	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
 	Wait( 1000 );
 //	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
-	DrawScene( "black", 3000 );
+	DrawScene("black", 3000 );
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	DrawSceneWithMask( "hima003_05", "mask_1900", 7, 0, 300 );
+	DrawSceneWithMask("hima003_05", "mask_1900", 7, 0, 300 );
 	SetValidityOfInput( FALSE );
 	Wait( 5000 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "black", "mask_1900", 7, 0, 300 );
+	DrawSceneWithMask("black", "mask_1900", 7, 0, 300 );
 
 }

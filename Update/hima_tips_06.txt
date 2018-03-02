@@ -10,10 +10,10 @@ void main()
 	FadeOutBGM( 1, 1000, FALSE );
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys31", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_203", 400 );
+	DrawScene("background/sora5", 400 );
 
 //　天気予報が、今週一週間、雨がまったく降らないことを予告した￥
 	ClearMessage();
@@ -110,8 +110,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
-	DrawScene( "bg_210", 400 );
+	DrawScene("black", 400 );
+	DrawScene("background/ma_s1", 400 );
 
 //　例えば、今夜の晩御飯がカレーライスだと決まってるとする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -194,7 +194,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_203", 400 );
+	DrawScene("background/sora5", 400 );
 
 //　今日から一週間、ずっと晴れであることは決まっている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -238,7 +238,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　その１％の何かを期待して、晴れの軒先に逆さにしたてるてる坊主を吊るすのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -334,7 +334,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

@@ -9,7 +9,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //■来賓挨拶用原稿
@@ -257,7 +257,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 //gosub *tip_e
 //return
 

@@ -7,7 +7,7 @@ void main()
 	FadeOutBGM( 1, 1000, FALSE );
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //「…そうですか＠急な出張は大変ですね…＠どうぞお気をつけて＠出張はどちらへですか＠　もう出張先なんですか？＠
@@ -307,7 +307,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	FadeOutBGM( 1, 1000, TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 //gosub *tip_e
 //return
 

@@ -11,11 +11,11 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 
 	PlayBGM( 1, "msys12", 128, 0 );
 	DisableWindow();
-	DrawScene( "Sunset/bg_206", 400 );
+	DrawScene("background/so_d1_01", 400 );
 
 //　車の音が近付き、緩いブレーキと音と共にエンジン音を止める￥
 	ClearMessage();
@@ -216,7 +216,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "Sunset/bg_206", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/so_d1_01", "left", 0, 0, 300 );
 
 //　そして、その様子を尻目に、……部屋の隅へ歩み寄る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -380,7 +380,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

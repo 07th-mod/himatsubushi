@@ -6,7 +6,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 
 //*Sub_Tips_073
 //gosub *tip_s
@@ -16,7 +16,7 @@ void main()
 //gosub *Ch_Mi_Si
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_034", "m1", 0, 0, 300 );
+	DrawSceneWithMask("background/heya1", "m1", 0, 0, 300 );
 
 //「…えぇ、ハイ＠…それでお通夜が明日の午後６時からになりまして、告別式が明後日のお昼、１２時から１３時までになりまして＠会場は興宮セレモニホールになります…。￥
 	ClearMessage();
@@ -31,7 +31,7 @@ void main()
 		   NULL, " The venue will be Okinomiya Ceremony Hall...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 17, "character/normal/oryou_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 17, "sprite/normal/oryou_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //「…すっかぁ＠池澤助役のお孫さんの葬式じゃあ、何にも挨拶なしってわけにもいかんね＠魅音、代わりに出てぇな。＠
@@ -48,7 +48,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 26, "character/normal/chibimion_Def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 26, "sprite/normal/chibimion_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「うん、了解＠喪服で行く＠　香典はいくらくらい？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -87,7 +87,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 26, "character/normal/chibimion_Wink_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 26, "sprite/normal/chibimion_wink_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //　魅音は奮発した香典の額に、小さく口笛を吹いて感嘆する￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -150,7 +150,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	ModDrawCharacter(3, 17, "character/normal/oryou_Shinken_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 17, "sprite/normal/oryou_shinken_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //　お魎は目を伏せると、小さく首を横に振りながら、若い命が没したことを悔やむ￥
@@ -174,7 +174,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 26, "character/normal/chibimion_Warai_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 26, "sprite/normal/chibimion_warai_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「あははははは＠婆っちゃも他人にゃやさしいね＠私や詩音が死んだら、同じ様に悲しんでくれる？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -215,8 +215,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
-	DrawSceneWithMask( "bg_195", "up", 0, 0, 300 );
+	DrawScene("black", 400 );
+	DrawSceneWithMask("background/so_g1", "up", 0, 0, 300 );
 
 //「それでは本日は失礼いたします…＠では、明日の夕方５時にお迎えに参りますんで＠よろしくお願いいたします…＠では、ごめんくださいませ……。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>役人</color>", NULL, "<color=#f5e6d3>Government Official</color>", NULL, Line_ContinueAfterTyping); }
@@ -248,9 +248,9 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "white", 400 );
-	ModDrawCharacter(1, 26, "character/normal/chibimion_Wink_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawSceneWithMask( "bg_197", "left", 0, 0, 300 );
+	DrawScene("white", 400 );
+	ModDrawCharacter(1, 26, "sprite/normal/chibimion_wink_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask("background/rouka1", "left", 0, 0, 300 );
 
 //「……帰ったよ＠…お役人も婆っちゃのご機嫌伺いに大変だねぇ＠訃報なんか電話でいいと思うのにねぇ＠くっくっく…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -296,8 +296,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_203a", "up", 0, 0, 300 );
+	DrawScene("white", 400 );
+	DrawSceneWithMask("background/sora", "up", 0, 0, 300 );
 
 //「どしたの＠　もうろくした＠　あははははは！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -335,7 +335,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_197", 400 );
+	DrawScene("background/rouka1", 400 );
 
 //「魅音＠……ほれ、……例の大臣の孫＠さらわれてからどのくらいになるん？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
@@ -351,7 +351,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(2, 26, "character/normal/chibimion_Def_", "0", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 26, "sprite/normal/chibimion_def_", "0", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「ん＠……………４日、…かな？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -400,7 +400,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 26, "character/normal/chibimion_Shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 26, "sprite/normal/chibimion_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -469,7 +469,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
+	DrawSceneWithMask("black", "right", 0, 0, 300 );
 
 //　魅音は、自分の声が届いたことを確認すると、受話器を取りダイヤルする￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -477,8 +477,8 @@ void main()
 		   NULL, "Mion, after confirming she'd been heard, picked up the phone and began dialing.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawSceneWithMask( "bg_195", "up", 0, 0, 300 );
-	ModDrawCharacter(2, 26, "character/normal/chibimion_Shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DrawSceneWithMask("background/so_g1", "up", 0, 0, 300 );
+	ModDrawCharacter(2, 26, "sprite/normal/chibimion_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「……………………あ、もしもし＠魅音だけど＠…うん＠…うちのお父さん、います？￥
@@ -502,7 +502,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

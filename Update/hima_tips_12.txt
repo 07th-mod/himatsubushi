@@ -12,7 +12,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 
 //　私はあの子がどこか好かない＠
 	ClearMessage();
@@ -28,7 +28,7 @@ void main()
 		   NULL, "I first realized it when I started writing these things down.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "note", 1000 );
+	DrawScene("background/nort", 1000 );
 
 
 	PlayBGM( 1, "msys21", 128, 0 );
@@ -474,7 +474,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

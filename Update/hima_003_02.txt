@@ -10,7 +10,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "bg_102", 400 );
+	DrawScene("background/kuruma3_01", 400 );
 
 //「えぇえぇ、皆さんもご苦労さんなことです＠お暑いでしょうが、せいぜい頑張って下さいよ＠不法投棄のダンプが現れたらすぐにご連絡下さい＠急行いたしますのでね。￥
 	ClearMessage();
@@ -55,7 +55,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_101", 400 );
+	DrawScene("background/kuruma2", 400 );
 
 //　今回の自分の姿も不審者そのものだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -94,7 +94,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_100", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma1", "left", 0, 0, 300 );
 
 //「…ありゃ＠いいんですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -136,8 +136,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "right", 0, 0, 300 );
-	DrawSceneWithMask( "bg_105", "right", 0, 0, 300 );
+	DrawSceneWithMask("black", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma6", "right", 0, 0, 300 );
 
 //　雛見沢の、素朴で美しい村の風景がいっぱいに広がる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -181,7 +181,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　一番初め、県警本部で私は全てを伝えられた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -285,7 +285,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_105", 400 );
+	DrawScene("background/kuruma6", 400 );
 
 //　大石氏と一緒にいるからドライブをしていられるのであって＠………自分がこの車を下車して自動販売機でも探しに出掛けたなら、……帰ってこられない可能性だってあるのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -324,7 +324,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma2", "left", 0, 0, 300 );
 
 //「………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -454,7 +454,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_100", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma1", "right", 0, 0, 300 );
 
 //「赤坂さん、緊張しすぎですよ＠前にご一緒してた時の方がリラックスしてらしたじゃないですか＠なっはっはっはっは…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -652,7 +652,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma2", "left", 0, 0, 300 );
 
 //「………そう言えば、日の高い内にこっちには来たくなかったなぁ＠でも車道はここ抜ける以外にないし＠……赤坂さん、念のため、もう一回マスクで顔を隠してください。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -691,8 +691,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_203a", "c", 0, 0, 300 );
+	DrawScene("white", 400 );
+	DrawSceneWithMask("background/sora", "c", 0, 0, 300 );
 
 //　窓を開けると、ぶわっとした熱気の風が吹き込んでくる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -717,8 +717,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_002", "c", 0, 0, 1300 );
+	DrawScene("white", 400 );
+	DrawSceneWithMask("background/damu2", "c", 0, 0, 1300 );
 
 //　……そこは、雛見沢ダム建設現場＠…そう、雛見沢村の、最前線だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -923,7 +923,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_100", 400 );
+	DrawScene("background/kuruma1", 400 );
 
 //　実際のところ、どんなにびったり窓ガラスを締めても爆音のようなお経が車内を満たす＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -991,7 +991,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_002", "left", 0, 0, 1300 );
+	DrawSceneWithMask("background/damu2", "left", 0, 0, 1300 );
 
 //　道は、村人たち群衆の座り込みと街宣車の車列、そして機動隊の列とその車両で、通り抜けるのは本当に容易ではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1016,7 +1016,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_101", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma2", "right", 0, 0, 300 );
 
 //「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ＠覚えてます？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1097,8 +1097,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
-	DrawScene( "bg_100", 400 );
+	DrawScene("black", 400 );
+	DrawScene("background/kuruma1", 400 );
 
 //「ちっくしょう、こいつら…＠聞こえてるのか聞こえてないのか…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1205,7 +1205,7 @@ void main()
 
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "left", 0, 0, 300 );
+	DrawSceneWithMask("black", "left", 0, 0, 300 );
 
 
 //　私は大石氏が座り込んでいる人々のところへ言って、何やらやりとりをしているのを、呆然と見ていた￥
@@ -1283,8 +1283,8 @@ void main()
 
 	PlayBGM( 2, "lsys18", 128, 0 );
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask( "bg_002", "up", 0, 0, 300 );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawSceneWithMask("background/damu2", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -1354,7 +1354,7 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawSceneWithMask( "bg_100", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/kuruma1", "right", 0, 0, 300 );
 	PlayBGM( 1, "msys12", 128, 0 );
 
 //　その時、再びむわっとした熱気と轟音が車内を満たす＠
@@ -1437,7 +1437,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 	PlayBGM( 2, "lsys20", 128, 0 );
 
 //　まだ聞こえる怒号を吹っ切るように、大石氏がグンとアクセルを吹かす＠
@@ -1565,13 +1565,13 @@ void main()
 	DisableWindow();
 	SetValidityOfInput( FALSE );
 //	Wait( 1000 );
-	DrawBustshotWithFiltering( 6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
-	DrawBustshot( 7, "Title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
 	Wait( 2000 );
-	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
 	Wait( 1000 );
 	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	SetValidityOfInput( TRUE );
 
 

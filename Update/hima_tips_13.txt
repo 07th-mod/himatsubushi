@@ -13,11 +13,11 @@ void main()
 
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 
 	PlayBGM( 1, "msys13", 128, 0 );
 	DisableWindow();
-	DrawScene( "bg_069", 400 );
+	DrawScene("background/ima1", 400 );
 
 //　あの子が親類会議の時に、またお魎さんの布団に潜り込もうとする￥
 	ClearMessage();
@@ -50,7 +50,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_069", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/ima1", "left", 0, 0, 300 );
 
 //　私は母としての立場上、それを叱る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -96,9 +96,9 @@ void main()
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 	PlayBGM( 1, "msys11", 128, 0 );
-	DrawScene( "bg_050a", 400 );
+	DrawScene("background/ta2", 400 );
 
 //　ある日、私は驚いた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -177,7 +177,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　私がまだ小さかった頃＠祖母によく聞かされたものだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -271,7 +271,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

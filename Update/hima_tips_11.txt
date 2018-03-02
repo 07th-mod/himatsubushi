@@ -7,7 +7,7 @@ void main()
 //*Sub_Tips_074
 //gosub *tip_s
 	DisableWindow();
-	DrawScene( "bg_207a", 400 );
+	DrawScene("background/sinryou_sinsatu4", 400 );
 
 	PlayBGM( 1, "msys12", 128, 0 );
 
@@ -189,7 +189,7 @@ void main()
 		   NULL, "...At that moment, Yukie suddenly became concerned about something, and looked out the window.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "Sunset/bg_204", 400 );
+	DrawScene("background/sora2", 400 );
 
 
 //　刻限は夕方＠
@@ -234,7 +234,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e

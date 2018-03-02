@@ -10,7 +10,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys13", 128, 0 );
 
 //■トランクの雛
@@ -99,8 +99,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "white", 10 );
-	DrawScene( "black", 3000 );
+	DrawScene("white", 10 );
+	DrawScene("black", 3000 );
 
 //　トランクが開かれ、ぶわっと涼しい冷気と新鮮な空気が自分を包む￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -295,7 +295,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	FadeOutBGM( 1, 1000, TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 //gosub *tip_e
 //return
 

@@ -8,9 +8,9 @@ void main()
 	FadeOutBGM( 0, 1000, FALSE );
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "white", 400 );
+	DrawScene("white", 400 );
 	PlayBGM( 2, "lsys22", 128, 0 );
-	DrawSceneWithMask( "bg_056", "m1", 0, 0, 300 );
+	DrawSceneWithMask("background/hoteru", "m1", 0, 0, 300 );
 
 //　市内の安ホテルでの目覚めは、お世辞にも快適とは言えなかった￥
 	ClearMessage();
@@ -55,7 +55,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　大石氏が手配してくれた情報屋との接触は今夜ということになっている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -71,7 +71,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_182", "m1", 0, 0, 300 );
+	DrawSceneWithMask("background/simen3", "m1", 0, 0, 300 );
 
 //　鬼ヶ淵死守同盟は、反ダムの抵抗として様々な方面に活動を展開していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -106,7 +106,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_182", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/simen3", "left", 0, 0, 300 );
 
 //　…この後者の一環として、雛見沢村は、著名な動植物学者や環境保護団体を招き、雛見沢の自然を宣伝していた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -134,7 +134,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_056", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/hoteru", "left", 0, 0, 300 );
 
 //「……そうですか＠次回の募集はありませんか＠…残念です。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -262,7 +262,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　県警で借りた車を使おうかと思ったが、…車のナンバーを教えていいものか、迷った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -287,7 +287,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_056", 400 );
+	DrawScene("background/hoteru", 400 );
 
 //「いえ、…実は車ではないんです＠バスか何かがあればそれで行きたいのですが…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -463,7 +463,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　それから、のんびりと地元のテレビを見て気持ちを落ち着かせた後、私は興宮駅へ向かうためホテルを出た…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -478,7 +478,7 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "bg_105", 1000 );
+	DrawScene("background/kuruma6", 1000 );
 	PlayBGM( 2, "lsys20", 128, 0 );
 
 //　…廃線間近だと教えられたバスは、とてもそんな風には見えなかった￥
@@ -531,7 +531,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　なるほど、…資料によれば、建設省と地元との話し合いはだいぶ初期に決裂しているという＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -578,7 +578,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_105", 400 );
+	DrawScene("background/kuruma6", 400 );
 
 //『本路線は、×月×日をもって廃線となります＠これまでのご利用、誠にありがとうございました＠今後とも、在来線に変わらぬご愛顧をよろしくお願いいたします＠××交通＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -663,9 +663,9 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawScene( "white", 400 );
+	DrawScene("white", 400 );
 	PlayBGM( 1, "msys12", 128, 0 );
-	DrawSceneWithMask( "bg_203c", "m1", 0, 0, 300 );
+	DrawSceneWithMask("background/mo_b1", "m1", 0, 0, 300 );
 
 //　実際、停車した場所は非常に寂れていて、普段はほとんど使われていないのが見て取れた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -681,7 +681,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_046", 400 );
+	DrawScene("background/m_hi4", 400 );
 
 //　今、私の隣に大石氏や本田屋氏はいない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -721,7 +721,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_203c", "up", 0, 0, 300 );
+	DrawSceneWithMask("background/mo_b1", "up", 0, 0, 300 );
 
 //　…自分に不審な様子はないだろうか…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -780,7 +780,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_046", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/m_hi4", "left", 0, 0, 300 );
 
 //　そう思い、発進するバスを振り返った時＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -790,7 +790,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	PlaySE( 3, "wa_024", 128, 64 );
 	DisableWindow();
-	DrawScene( "cg_eye", 1000 );
+	DrawScene("scene/eye", 1000 );
 
 
 //………窓際の乗客たちが、みんな私を見下ろしているのに気付き、唖然とする￥
@@ -902,7 +902,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_203c", 400 );
+	DrawScene("background/mo_b1", 400 );
 
 //　……全身に、じっとりとした薄い汗が浮く＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1000,7 +1000,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "black", "left", 0, 0, 300 );
+	DrawSceneWithMask("black", "left", 0, 0, 300 );
 
 //　雨をしのぐ為の、小さな小屋があり、そこで待つことになっていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1043,7 +1043,7 @@ void main()
 		   NULL, "And... inside that uneasy space... was a girl.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "cg_201a", 1000 );
+	DrawScene("scene/201a", 1000 );
 
 
 	PlayBGM( 1, "msys26", 128, 0 );
@@ -1063,7 +1063,7 @@ void main()
 
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_046", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/m_hi4", "right", 0, 0, 300 );
 
 //　この中に踏み込めば、自分がどんな無粋な物音を立ててしまうかわからない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1194,7 +1194,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "cg_201c", 400 );
+	DrawScene("scene/201c", 400 );
 	FadeOutBGM( 1, 1000, TRUE );
 
 //「く……わあぁあぁぁぁぁぁ…………………。￥
@@ -1204,7 +1204,7 @@ void main()
 		   NULL, "\"Hngh... waaaa.....\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "cg_201b", 400 );
+	DrawScene("scene/201b", 400 );
 
 //　…そんな天使のような笑顔は、……大臼歯が覗きこめるくらいの大あくびをして、唐突に目を覚ます＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1238,8 +1238,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_046", 400 );
-	ModDrawCharacter(2, 27, "character/normal/rim_Warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene("background/m_hi4", 400 );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	PlayBGM( 1, "msysRi", 128, 0 );
 
 //「……みぃ。￥
@@ -1289,7 +1289,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/normal/rim_Def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……みぃ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1337,7 +1337,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/normal/rim_Warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……みぃ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1356,7 +1356,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/normal/rim_Def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1421,7 +1421,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 27, "character/normal/rim_Warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/normal/rim_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……にぱ～～☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1537,7 +1537,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　その笑顔だけで、人を幸せに出来るのが天使なら＠…この子はきっと天使に違いないと思った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1570,7 +1570,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_046", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/m_hi4", "right", 0, 0, 300 );
 	PlayBGM( 1, "msys01", 128, 0 );
 
 //「どぅもごんにちわ～＠　遅れて申し訳ないこってす＠　昨日、お電話を下さった観光の方ですかねぇ？＠
@@ -1638,7 +1638,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 27, "character/normal/rim_Def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 27, "sprite/normal/rim_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……みぃ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1673,7 +1673,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/normal/rim_Warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/normal/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……にぱ～～☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1692,7 +1692,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/normal/rim_Def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/normal/rim_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1702,7 +1702,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/normal/rim_Warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/normal/rim_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……村を観光したい若者なのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>少女</color>", NULL, "<color=#6972c1>Little Girl</color>", NULL, Line_ContinueAfterTyping); }
@@ -1712,7 +1712,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character_zoomed/normal/rim_Warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "portrait/normal/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 
 //　少女は、…梨花ちゃんは、そういって微笑みながら、私の腕を取った￥
@@ -1758,7 +1758,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character_zoomed/normal/rim_Def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "portrait/normal/rim_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……牧野＠ボクも一緒に行ってはいけませんですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1783,7 +1783,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character_zoomed/normal/rim_Komaru_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "portrait/normal/rim_komaru_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…………みー。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1816,7 +1816,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character_zoomed/normal/rim_Warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "portrait/normal/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //　私がそう助け舟を出すと、梨花ちゃんは、にぱ～～っというあの満面の笑顔を浮かべて、しがみ付いてきた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1971,7 +1971,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 27, "character/normal/rim_Warai_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 27, "sprite/normal/rim_warai_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……ふかふかでバインバインで、にぱ～～～☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2032,7 +2032,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character/normal/rim_Warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……雛見沢観光に出発なのですよ＠わ～いなのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2082,7 +2082,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character/normal/rim_Komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「…お指とかは折ってませんですよ＠　ちゃんと暗算で出来ますですよ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2146,53 +2146,53 @@ void main()
 	SetValidityOfSaving( FALSE );
 	SetValidityOfUserEffectSpeed( FALSE );
 	DisableWindow();
-	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_053", "mask1020", 0, 0, 1800 );
+	DrawScene("white", 400 );
+	DrawSceneWithMask("background/m_hi6", "mask1020", 0, 0, 1800 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "bg_051", 1000 );
+	DrawScene("background/hi5", 1000 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "white", "mask1013", 0, 0, 1800 );
-	DrawScene( "bg_039", 1000 );
+	DrawSceneWithMask("white", "mask1013", 0, 0, 1800 );
+	DrawScene("background/m_hi3", 1000 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "bg_054", 1000 );
+	DrawScene("background/so2", 1000 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "white", "m1", 0, 0, 3000 );
-	DrawSceneWithMask( "bg_055", "m1", 0, 0, 3000 );
+	DrawSceneWithMask("white", "m1", 0, 0, 3000 );
+	DrawSceneWithMask("background/hi4", "m1", 0, 0, 3000 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "bg_049", "c", 0, 0, 1300 );
+	DrawSceneWithMask("background/hi3", "c", 0, 0, 1300 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "bg_066", "right", 0, 0, 1300 );
+	DrawSceneWithMask("background/ie1", "right", 0, 0, 1300 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawSceneWithMask( "white", "mask1014", 0, 0, 1800 );
-	DrawSceneWithMask( "bg_203", "mask1014", 0, 0, 1800 );
+	DrawSceneWithMask("white", "mask1014", 0, 0, 1800 );
+	DrawSceneWithMask("background/sora5", "mask1014", 0, 0, 1800 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	ModDrawCharacter(3, 27, "character/normal/rim_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 	SetValidityOfInput( FALSE );
 	Wait( 3000 );
 	SetValidityOfInput( TRUE );
-	ModDrawCharacter(3, 27, "character/normal/rim_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_107", "c", 0, 0, 1300 );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask("background/susuki", "c", 0, 0, 1300 );
 	SetValidityOfInput( FALSE );
 	Wait( 3500 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "white", 400 );
-	DrawSceneWithMask( "bg_146a", "right", 0, 0, 1300 );
+	DrawScene("white", 400 );
+	DrawSceneWithMask("background/hi_scroll", "right", 0, 0, 1300 );
 
 	SetValidityOfUserEffectSpeed( TRUE );
 	SetValidityOfInput( TRUE );
@@ -2205,12 +2205,12 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	DisableWindow();
-	DrawScene( "bg_088", 5000 );
+	DrawScene("background/hi9", 5000 );
 	SetValidityOfInput( FALSE );
 	Wait( 3000 );
 	SetValidityOfInput( TRUE );
-	DrawScene( "black", 3000 );
-	DrawSceneWithMask( "bg_039", "right", 0, 0, 300 );
+	DrawScene("black", 3000 );
+	DrawSceneWithMask("background/m_hi3", "right", 0, 0, 300 );
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 //!sd
@@ -2235,8 +2235,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "white", "left", 0, 0, 300 );
-	DrawSceneWithMask( "bg_051", "left", 0, 0, 300 );
+	DrawSceneWithMask("white", "left", 0, 0, 300 );
+	DrawSceneWithMask("background/hi5", "left", 0, 0, 300 );
 
 //　初めは、観光客を装うつもりでシャッターを切っていたが、途中から純粋な興味で写真を撮るようになっていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2263,9 +2263,9 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "white", "right", 0, 0, 300 );
-	ModDrawCharacter(3, 27, "character/normal/rim_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
-	DrawSceneWithMask( "bg_050a", "right", 0, 0, 300 );
+	DrawSceneWithMask("white", "right", 0, 0, 300 );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask("background/ta2", "right", 0, 0, 300 );
 
 
 //「……こんなのが面白いのですか＠　赤坂は変な人なのです。＠
@@ -2293,7 +2293,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character/normal/rim_Warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……雛見沢は楽しいですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2321,7 +2321,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "character/normal/rim_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/normal/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……………………………………。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2439,7 +2439,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
@@ -2448,7 +2448,7 @@ void main()
 	Wait( 2000 );
 	SetValidityOfInput( TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
-	DrawSceneWithMask( "bg_203a", "up", 0, 0, 300 );
+	DrawSceneWithMask("background/sora", "up", 0, 0, 300 );
 
 
 //「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！＠
@@ -2473,8 +2473,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_050a", "right", 0, 0, 300 );
-	ModDrawCharacterWithFiltering(1, 27, "character/normal/rim_Def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DrawSceneWithMask("background/ta2", "right", 0, 0, 300 );
+	ModDrawCharacterWithFiltering(1, 27, "sprite/normal/rim_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……一番、景色のいいところですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2500,7 +2500,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "character/normal/rim_Warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "sprite/normal/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……では赤坂を、ボクのお家へご招待なのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2651,7 +2651,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "bg_203", 400 );
+	DrawScene("background/sora5", 400 );
 
 //　いつの間にか空は曇天＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2680,13 +2680,13 @@ void main()
 	DisableWindow();
 	SetValidityOfInput( FALSE );
 //	Wait( 1000 );
-	DrawBustshotWithFiltering( 6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
-	DrawBustshot( 7, "Title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
 	Wait( 2000 );
-	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
 	Wait( 1000 );
 	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	SetValidityOfInput( TRUE );
 
 

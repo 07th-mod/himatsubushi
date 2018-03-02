@@ -13,10 +13,10 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
-	DrawScene( "Sunset/bg_034", 400 );
+	DrawScene("black", 1000 );
+	DrawScene("background/heya1_05", 400 );
 	PlayBGM( 1, "msys06", 128, 0 );
-	ModDrawCharacter(3, 10, "character/sunset/iri2_Def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	ModDrawCharacter(3, 10, "sprite/sunset/iri2_def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「だいぶ血圧もよくなってきましたよ＠そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです＠
 	ClearMessage();
@@ -44,7 +44,7 @@ void main()
 		   NULL, "The young doctor in his medical coat said that as he undid the blood pressure cuff from the arm of the old woman tucked away in her futon.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 17, "character/sunset/oryou_Def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	ModDrawCharacter(3, 17, "sprite/sunset/oryou_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 
 //「入江の先生はほんにお上手でぇ…＠ワシんたいな死に損ないは早ぅ死なんと、若者の邪魔んなっていけんね…＠…ほっほっほっほ…。＠
@@ -103,7 +103,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 26, "character/sunset/chibimion_Def_", "2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 26, "sprite/sunset/chibimion_def_", "2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「沁子さんは今日はもうあがっちゃったよ＠…何か用？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -150,7 +150,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 26, "character/sunset/chibimion_Wink_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 26, "sprite/sunset/chibimion_wink_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「はいはい。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -221,7 +221,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 10, "character/sunset/iri2_Def2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 10, "sprite/sunset/iri2_def2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「お魎さん、お魎さん、ままままま…、そこまでは言わなくても＠魅音ちゃんも若いなりに頑張ってますから。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -244,7 +244,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 10, "character/sunset/iri2_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 10, "sprite/sunset/iri2_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あっはっはっはっは＠で、その母親の母親もまた、そっくりなんじゃあないですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -294,7 +294,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "Sunset/bg_034a", "right", 0, 0, 300 );
+	DrawSceneWithMask("background/heya1_04", "right", 0, 0, 300 );
 	PlayBGM( 2, "lsys11", 128, 0 );
 
 //　…清々した風が、室内のしけった空気を追い出していく￥
@@ -304,7 +304,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 10, "character/sunset/iri2_Def2_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 10, "sprite/sunset/iri2_def2_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「日中はだいぶ暑くなったように思うんですが、…まだ、朝夕は涼しいですね＠昨夜は少し肌寒いくらいでした。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -354,7 +354,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 10, "character/sunset/iri2_Def1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 10, "sprite/sunset/iri2_def1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「………国が一度決めたことを撤回するのは、なかなか難しいでしょうねぇ…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -374,7 +374,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 10, "character/sunset/iri2_Majime2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 10, "sprite/sunset/iri2_majime2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…石臼、ですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -395,7 +395,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(1, 10, "character/sunset/iri2_Def2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 10, "sprite/sunset/iri2_def2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //　いえいえいえ、もちろん知ってますよと入江は取繕った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -435,7 +435,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 26, "character/sunset/chibimion_Def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	ModDrawCharacterWithFiltering(3, 26, "sprite/sunset/chibimion_def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //　やがて魅音がお茶を乗せたお盆を持って帰ってきた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -465,7 +465,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 26, "character/sunset/chibimion_Warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 26, "sprite/sunset/chibimion_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「摩擦係数の話でしょ＠確かに婆っちゃの話、理屈はあるね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -537,7 +537,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 //　……なぜなら、老婆と魅音の表情に浮かんでいたのは、冷笑だったから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -545,9 +545,9 @@ void main()
 		   NULL, "...For what crept across the Mion and the old lady's faces were contemptuous smiles.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawSceneWithMask( "Sunset/bg_034a", "right", 0, 0, 300 );
-	ModDrawCharacter(1, 26, "character_zoomed/sunset/chibimion_Warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
-	ModDrawCharacter(3, 17, "character_zoomed/sunset/oryou_Warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawSceneWithMask("background/heya1_04", "right", 0, 0, 300 );
+	ModDrawCharacter(1, 26, "portrait/sunset/chibimion_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(3, 17, "portrait/sunset/oryou_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 
@@ -597,7 +597,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	DrawScene( "black", 400 );
+	DrawScene("black", 400 );
 
 
 //「……………………はは、ははははははは、＠
@@ -645,7 +645,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e
