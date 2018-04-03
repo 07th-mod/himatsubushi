@@ -9,7 +9,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene("s60", 1000 );
+	DrawScene("text/s60", 1000 );
 	SetValidityOfInput( FALSE );
 	Wait( 4000 );
 	SetValidityOfInput( TRUE );
@@ -2117,7 +2117,7 @@ void main()
 	ModPlayVoiceLS(4, 11, "s05/11/100700769", 128, TRUE);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
 		   NULL, "...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "s05/11/100700770", 128, TRUE);
+	ModPlayVoiceLS(4, 11, "s05/11/100700770", 240, TRUE);
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
 		   NULL, " Her organs were deliberately removed and scattered about.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

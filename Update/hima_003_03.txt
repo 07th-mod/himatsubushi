@@ -1828,7 +1828,7 @@ void main()
 
 
 	PlaySE( 3, "wa_015", 128, 64 );
-	ChangeScene( "Rain/bg_143", 8, 200, );
+	ChangeScene("background/mo3_02", 8, 200, );
 	PlaySE( 3, "wa_004", 128, 64 );
 	ShakeScreen( 1, 50, 20, 5, 0, );
 	PlayBGM( 2, "lsys23", 128, 0 );
@@ -2612,7 +2612,7 @@ void main()
 	ClearMessage();
 
 
-	ChangeScene( "black", 8, 200, );
+	ChangeScene("black", 8, 200, );
 	PlaySE( 3, "wa_002", 128, 64 );
 	Wait( 150 );
 	PlaySE( 3, "wa_003", 128, 64 );
@@ -4399,7 +4399,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	DrawSceneWithMask("hima003_03", "mask_1900", 7, 0, 300 );
+	DrawSceneWithMask("tips/hima003_03", "mask_1900", 7, 0, 300 );
 	SetValidityOfInput( FALSE );
 	Wait( 5000 );
 	SetValidityOfInput( TRUE );
