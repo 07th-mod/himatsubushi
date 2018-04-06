@@ -3125,7 +3125,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300057", 128, TRUE);
 	OutputLine(NULL, "「……一応、非公開でプライバシーは守られてますがね。",
 		   NULL, "\"...Well, it is undisclosed, so their privacy is assured, but...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300058", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps2/00/104300058", 128, TRUE);
 	OutputLine(NULL, "それを管理してるのは興宮市役所の人間。",
 		   NULL, " The person in charge of that is from the Okinomiya Municipal Office.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300059", 128, TRUE);

@@ -4116,10 +4116,10 @@ void main()
 
 //  梨花rvs05/27/rikaDS22001.「…赤坂。kvs05/27/rikaDS22002.泣かないでくださいなのです」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 27, "ps3/s05/27/rikaDS22001", 128, TRUE);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/rikads22001", 128, TRUE);
 	OutputLine(NULL, "「…赤坂。",
 		   NULL, "\"...Akasaka.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 27, "ps3/s05/27/rikaDS22002", 128, TRUE);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/rikads22002", 128, TRUE);
 	OutputLine(NULL, "泣かないでくださいなのです」",
 		   NULL, " Please don't cry.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
