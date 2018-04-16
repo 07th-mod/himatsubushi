@@ -2085,7 +2085,7 @@ void main()
 	OutputLine(NULL, "……もっとも、シメたのは他の場所でしょうねぇ。",
 		   NULL, " ...Although she was probably killed somewhere else.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/10/100700766", 128, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700766", 128, TRUE);
 	OutputLine(NULL, "全裸で裸足。",
 		   NULL, "That's because while she was completely naked,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700767", 128, TRUE);
@@ -2117,7 +2117,7 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700769", 128, TRUE);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹。",
 		   NULL, "...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/10/100700770", 240, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700770", 240, TRUE);
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
 		   NULL, " Her organs were deliberately removed and scattered about.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
