@@ -250,7 +250,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44017", 128, TRUE);
 	OutputLine(NULL, "「…そうでしょう？",
-		   NULL, "\"...I know, right?", Line_WaitForInput);
+		   NULL, "\"...I know, right?", Line_Continue);
+	Wait( 1000 );
 	OutputLine(NULL, "　…元気になれましたか？」",
 		   NULL, " ...Did I cheer you up?\"", Line_Normal);
 	ClearMessage();
