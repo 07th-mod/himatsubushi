@@ -60,7 +60,7 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700423", 128, TRUE);
 	OutputLine(NULL, "「いやいやぁ、何だかんだと言いましても、今回のシナリオは私の独壇場でしたからねぇ。",
 		   NULL, "\"My oh my, no matter what anybody else says, I was the star of the scenario this time.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/10/440700424", 128, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/440700424", 128, TRUE);
 	OutputLine(NULL, "しかも渋いジャズ調なテーマ曲まで追加！",
 		   NULL, " On top of that they added some nice jazzy theme music!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700425", 128, TRUE);
@@ -2740,7 +2740,7 @@ void main()
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400270", 128, TRUE);
 	OutputLine(NULL, "…なんですの？",
 		   NULL, " ...What are those?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 4, "ps2/05/440400271", 128, TRUE);
+	ModPlayVoiceLS(4, 4, "ps2/04/440400271", 128, TRUE);
 	OutputLine(NULL, "　あの両手にいっぱいの剣は。",
 		   NULL, " All those swords in her hands.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400272", 128, TRUE);
