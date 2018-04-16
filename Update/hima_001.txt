@@ -2019,13 +2019,10 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200016", 128, TRUE);
 	OutputLine(NULL, "動きがある度に逐一報告せよ。",
 		   NULL, " Report anything that happens. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200017", 128, TRUE);
-	OutputLine(NULL, "残る各職員は担当団体ごとに本件との関連を調査。",
-		   NULL, "The remaining members, investigate whatever is related to the case as assigned to your units.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200018", 128, TRUE);
-	OutputLine(NULL, "日共、赤軍、連合のラインは集中的にやれ！",
-		   NULL, " Focus your line of investigation on the Commies, Reds, and Confeds. ", GetGlobalFlag(GLinemodeSp));
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog000");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog000");}
+	//VoiceMatchingEnd
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200019", 128, TRUE);
 	OutputLine(NULL, "　それから外国勢力も水を漏らすな！」",
@@ -2058,11 +2055,10 @@ void main()
 	DisableWindow();
 	DrawScene("bg_089_mo", 200 );
 
-//「……に行ってくれ＠で、赤坂くんは、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10001", 128, TRUE);
-	OutputLine(NULL, "「……に行ってくれ。",
-		   NULL, "\"--and cover that.", Line_WaitForInput);
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog001");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog001");}
+	//VoiceMatchingEnd
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10002", 128, TRUE);
 	OutputLine(NULL, "で、赤坂くんは、」",
 		   NULL, " As for Akasaka-kun,\"", GetGlobalFlag(GLinemodeSp));
@@ -2571,10 +2567,10 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300009", 128, TRUE);
 	OutputLine(NULL, "「ご存知の通り、先週あった犬飼建設大臣への直訴事件では逮捕者も出ています。",
 		   NULL, "\"As you know, there were arrests after last week's confrontation with Minister Inugai.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300010", 128, TRUE);
-	OutputLine(NULL, "違法行為を以て主張を通そうとする危険性は、十分にありますね。」",
-		   NULL, " There's enough reason to believe they could use illegal means to assert their demands.\"", Line_Normal);
-	ClearMessage();
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog002");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog002");}
+	//VoiceMatchingEnd
 
 	PlaySE( 3, "wa_021", 128, 64 );
 
@@ -2593,12 +2589,10 @@ void main()
 		   NULL, "...The contents were all violent, not giving me the barest hint of a feeling that these people were trying to uphold the law.", Line_Normal);
 	ClearMessage();
 
-//「具体的に、鬼ヶ淵死守同盟が行った違法行為を教えていただけますか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300019", 128, TRUE);
-	OutputLine(NULL, "「具体的に、鬼ヶ淵死守同盟が行った違法行為を教えていただけますか？」",
-		   NULL, "\"Could you give me a basic rundown of the types of illegal activities the Onigafuchi Defense Alliance are engaging in?\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog003");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog003");}
+	//VoiceMatchingEnd
 
 
 //　室長は黄土色のフォルダを開くと、不ぞろいな資料を何枚か漁り、机の上に広げてくれた￥
@@ -3029,10 +3023,10 @@ void main()
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300033", 128, TRUE);
 	OutputLine(NULL, "「……特殊？",
 		   NULL, "\"...Special?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300034", 128, TRUE);
-	OutputLine(NULL, "　被差別部落のことですか？」",
-		   NULL, " Is it an outcaste community?\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog004");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog004");}
+	//VoiceMatchingEnd
 
 
 //「いえ…そういうのとは少し違うというか……＠……まぁその、…怖がられていると思ってください＠この辺りは口では少し説明しにくいんです＠………あぁ、そうだ。わかりやすいのがありました。＠
@@ -3519,10 +3513,10 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200034", 128, TRUE);
 	OutputLine(NULL, "ご苦労さん。",
 		   NULL, " Good work.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200035", 128, TRUE);
-	OutputLine(NULL, "××県警での情報収集はどうですか。」",
-		   NULL, " How's the information gathering at the XX Prefectural Office?\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("hima_001_vm0x_n01","dialog005");}
+	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("hima_001_vm00_n01","dialog005");}
+	//VoiceMatchingEnd
 
 
 //「順調です＠これから現地警察の公安と接触できることになりましたので、現地へ向かう予定です＠東京の調査の方はどうですか？￥
@@ -5040,12 +5034,10 @@ void main()
 	ClearMessage();
 
 
-//「…まるで、中東辺りの内戦の国に迷い込んだような錯覚です。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300085", 128, TRUE);
-	OutputLine(NULL, "「…まるで、中東辺りの内戦の国に迷い込んだような錯覚です。」",
-		   NULL, "\"...It almost feels like we've wandered into a civil war in the Middle East.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog006");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog006");}
+	//VoiceMatchingEnd
 
 
 //「なっはっはっはっはっは＠　あんた、そりゃあーうまい言い方です＠今、言われたのはまさにその通り。＠
@@ -6073,9 +6065,10 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700161", 128, TRUE);
 	OutputLine(NULL, "ここで聞くことは他言無用です。",
 		   NULL, " Nothing here gets said anywhere else.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700162", 128, TRUE);
-	OutputLine(NULL, "それに、あなたのお陰で雀荘のツケを全部返せるんですからねぇ。",
-		   NULL, " On top of that, thanks to you, I can pay back what I owe from my mahjong debts.", Line_WaitForInput);
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog007");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog007");}
+	//VoiceMatchingEnd
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700163", 128, TRUE);
 	OutputLine(NULL, "私は少なくとも金の絡んだ約束は絶対に違えませんよ？",
 		   NULL, " In any case, I won't break a promise that involves money.", Line_WaitForInput);
@@ -6235,11 +6228,10 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700174", 128, TRUE);
 	OutputLine(NULL, "「…………政府の列島改造は、まぁいろいろ方々との衝突も多いらしいですからねぇ。",
 		   NULL, "\"...Well, with the government having development projects all over the country, they've butted heads with quite a few people. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700175", 128, TRUE);
-	OutputLine(NULL, "どんなささやかなケチでもひとつ付けば、…左派政党がどっと票を伸ばす可能性もある、と。」",
-		   NULL, "It wouldn't take much wrongdoing for the left wing parties to suddenly garner more support.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog008");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog008");}
+	//VoiceMatchingEnd
 
 
 //「大臣がどのような要求を受けているのかは現在調査中です＠ですが脅迫の方法だけはほぼわかっています。￥
@@ -6653,13 +6645,10 @@ void main()
 	OutputLine(NULL, "だから鬼ヶ淵村には近付くな。",
 		   NULL, " So don't go near Onigafuchi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700207", 128, TRUE);
-	OutputLine(NULL, "…………今時の若者はこんな迷信、信じませんがね。",
-		   NULL, "...Kids these days wouldn't have these superstitions, would they?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700208", 128, TRUE);
-	OutputLine(NULL, "興宮の明治生まれの年寄り連中には、今でも盲進してるのが多いですよ。」",
-		   NULL, " Even amongst the older folk in Okinomiya born in the Meiji Era, there's quite a few who wouldn't heed these warnings.\"", Line_Normal);
-	ClearMessage();
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog009");}
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog009");}
+	//VoiceMatchingEnd
 
 //　周囲の人たちに恐れられている、雛見沢村＠……県警公安で聞いた情報のひとつを思い出す￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
