@@ -10,7 +10,7 @@ void main()
 
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 
 	PlayBGM( 1, "msys31", 128, 0 );
 
@@ -61,7 +61,7 @@ void main()
 
 
 	DisableWindow();
-	DrawScene( "aka1", 1000 );
+	DrawScene("background/aka1", 1000 );
 
 //　じゃあ仮に、あなたの目の前に２つの怪しげな箱を置いてあげよう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -526,7 +526,7 @@ void hima_tips_09_c()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 //gosub *tip_e
@@ -675,7 +675,7 @@ void hima_tips_09_d()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 

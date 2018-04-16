@@ -9,7 +9,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 	DisableWindow();
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys31", 128, 0 );
 
 //■歯車と火事と蜜の味
@@ -367,7 +367,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	FadeOutBGM( 1, 1000, TRUE );
-	DrawScene( "black", 1000 );
+	DrawScene("black", 1000 );
 //gosub *tip_e
 //return
 
