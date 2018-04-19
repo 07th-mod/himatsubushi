@@ -610,7 +610,7 @@ void main()
 
 //　大して長い時間、沈黙に縛られたいたわけでもない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　大して長い時間、沈黙に縛られたいたわけでもない。",
+	OutputLine(NULL, "　大して長い時間、沈黙に縛られていたわけでもない。",
 		   NULL, "It hadn't been that long at all since he was enveloped by silence.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 

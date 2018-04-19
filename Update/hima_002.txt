@@ -359,10 +359,10 @@ void main()
 	OutputLine(NULL, "「わはははは！",
 		   NULL, "\"Wahahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100021", 128, TRUE);
-	OutputLine(NULL, "　気にしないで下さい。",
+	OutputLine(NULL, "　気にせんで下さい。",
 		   NULL, " Don't worry about it.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100022", 128, TRUE);
-	OutputLine(NULL, "これも、村の自然を守るためのＰＲなんですから〜。」",
+	OutputLine(NULL, "これも、村の自然さ守るためのＰＲなんですから〜。」",
 		   NULL, " That's just a bit of PR we do, to protect nature around the village~.\"", Line_Normal);
 	ClearMessage();
 
@@ -1598,13 +1598,13 @@ void main()
 //「お待たせして申し訳ないぃ＠野良でちょいと遅れましてねぇ＠　すったらんと、お乗り下さいな＠天気もまんた崩れそうだから、ちゃきちゃきご案内しますよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100026", 128, TRUE);
-	OutputLine(NULL, "「お待たせして申し訳ないぃ。",
+	OutputLine(NULL, "「お待たせして申し訳ねえ。",
 		   NULL, "\"Sorry to keep you waiting.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100027", 128, TRUE);
-	OutputLine(NULL, "野良でちょいと遅れましてねぇ！",
+	OutputLine(NULL, "いんや、野良でちょいと遅れましてねぇ！",
 		   NULL, " I'm running a little behind because of the farm!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100028", 128, TRUE);
-	OutputLine(NULL, "　すったらんと、お乗り下さいな。",
+	OutputLine(NULL, "　すったらんと、お乗り下せぇな。",
 		   NULL, " Hop right on in.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100029", 128, TRUE);
 	OutputLine(NULL, "天気もまんた崩れそうだから、ちゃきちゃきご案内しますよ。」",

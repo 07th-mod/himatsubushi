@@ -2421,7 +2421,7 @@ void main()
 	OutputLine(NULL, "…ではまた明日もぜひいらっしゃい！",
 		   NULL, " ...Well then, please come again tomorrow!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100084", 128, TRUE);
-	OutputLine(NULL, "　お電話をくれればすぐに迎えを出しますのでね。」",
+	OutputLine(NULL, "　お電話さくれればすぐに迎えを出しますのでね。」",
 		   NULL, " If you phone, we'll send somebody to pick you up right away.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2440,7 +2440,7 @@ void main()
 //「えぇえぇ、そうしてあげてくださいなぁ＠　あんた、梨花ちゃまに大層、気に入られたみたいだしぃねぇ！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100085", 128, TRUE);
-	OutputLine(NULL, "「えぇえぇ、そうしてあげてくださいなぁ！",
+	OutputLine(NULL, "「えぇえぇ、そうしてあげてくだせぇなぁ！",
 		   NULL, "\"Yes, please do!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100086", 128, TRUE);
 	OutputLine(NULL, "　あんた、梨花ちゃまに大層、気に入られたみたいだしぃねぇ！」",
@@ -2531,7 +2531,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ホテルに帰り、……痛いくらい冷えたビールで無理やり胸中を清めるまで。",
 		   NULL, "...Getting back to the hotel, I forced down an almost painfully cold beer until I could clear my mind.", Line_WaitForInput);
-	OutputLine(NULL, "……理解できないあの奇怪な出来事のショックに、苛まされる続けるのだった………。",
+	OutputLine(NULL, "……理解できないあの奇怪な出来事のショックに、苛まされ続けるのだった………。",
 		   NULL, " The shock from that incomprehensibly strange incident continued to torment me...", Line_Normal);
 	ClearMessage();
 

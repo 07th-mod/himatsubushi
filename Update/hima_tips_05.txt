@@ -20,7 +20,7 @@ void main()
 //　車の音が近付き、緩いブレーキと音と共にエンジン音を止める￥
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　車の音が近付き、緩いブレーキと音と共にエンジン音を止める。",
+	OutputLine(NULL, "　車の音が近付き、緩いブレーキ音と共にエンジン音を止める。",
 		   NULL, "The sound of the car grew closer, followed by the sound of it braking as the engine cut out.", Line_Normal);
 	ClearMessage();
 
