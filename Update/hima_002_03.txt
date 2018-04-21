@@ -263,7 +263,7 @@ void main()
 		   NULL, " I think you understand, but after tonight, it'll have been a full four days since the kidnapping happened. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10028", 128, TRUE);
-	OutputLine(NULL, "……いつが時間切れという明白な区切りはないけれど、時間の経過は確実に我々の状況を不利にしていく。",
+	OutputLine(NULL, "……いつが時間切れという明白な区切りはないけど、時間の経過は確実に我々の状況を不利にしていく。",
 		   NULL, "...They didn't set a time limit, but it's obvious that time is not on our side.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10029", 128, TRUE);
 	OutputLine(NULL, "…それはわかってるよね。」",
@@ -364,7 +364,7 @@ void main()
 		   NULL, "...The Chief is saying to dig up what you can on Onigafuchi, but I don't think a residential anti-dam protest group has any relation to the incident at hand. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10053", 128, TRUE);
-	OutputLine(NULL, "…職員ひとりを、ひと団体調べさせるためだけに出張させるのは、すごく痛いよホント。」",
+	OutputLine(NULL, "…職員ひとりを、一団体調べさせるためだけに出張させるのは、すごく痛いよホント。」",
 		   NULL, "Sending somebody out just to investigate a single group makes me cringe, really.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1915,7 +1915,7 @@ void main()
 //「………坊主、お前、慣れしとるなぁ…！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Old Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800026", 128, TRUE);
-	OutputLine(NULL, "「………坊主、お前、慣れしとるなぁ…！」",
+	OutputLine(NULL, "「………坊主、お前、場慣れしとるなぁ…！」",
 		   NULL, "\"...Boy, you're getting pretty used to this...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -6291,9 +6291,3 @@ void main()
 
 
 }
-
-
-
-
-
-
