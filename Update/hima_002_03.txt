@@ -2480,7 +2480,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Old Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800033", 128, TRUE);
 	OutputLine(NULL, "（…蔵人。",
-		   NULL, "(...Kuraudo.", Line_ContinueAfterTyping);
+		   NULL, "(...Kuraudo.", Line_Continue);
 	Wait( 1300 );
 	OutputLine(NULL, "…やれ。叩き潰せ。）",
 		   NULL, " ...Do it. Crush him.)", GetGlobalFlag(GLinemodeSp));
@@ -2499,7 +2499,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Old Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800034", 128, TRUE);
 	OutputLine(NULL, "（あほぅ！",
-		   NULL, "(Idiot!", Line_ContinueAfterTyping);
+		   NULL, "(Idiot!", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　ここまで舐められて今さら引けるか！）",
 		   NULL, " After being disrespected like this we can't pull back now!)", GetGlobalFlag(GLinemodeSp));
@@ -2741,7 +2741,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700300_301", 128, TRUE);
 	OutputLine(NULL, "（…やめましょうよおやっさん。",
-		   NULL, "(...Let's stop this.", Line_ContinueAfterTyping);
+		   NULL, "(...Let's stop this.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "赤坂くんの方が二、三枚は上手です。）",
 		   NULL, " Akasaka-kun is a step or two ahead of us.)", GetGlobalFlag(GLinemodeSp));
@@ -2752,13 +2752,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>おやっさん</color>", NULL, "<color=#f5e6d3>Old Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800045_1", 128, TRUE);
 	OutputLine(NULL, "（ばーろい！！",
-		   NULL, "(Fool!", Line_ContinueAfterTyping);
+		   NULL, "(Fool!", Line_Continue);
 	Wait( 400 );
 	OutputLine(NULL, "　ここまで来てやめられるかよ！",
-		   NULL, " You think we can stop after we've come this far?", Line_ContinueAfterTyping);
+		   NULL, " You think we can stop after we've come this far?", Line_Continue);
 	Wait( 600 );
 	OutputLine(NULL, "　次行け！",
-		   NULL, " Next!", Line_ContinueAfterTyping);
+		   NULL, " Next!", Line_Continue);
 	Wait( 500 );
 	OutputLine(NULL, "　掴ませちまえ！！）",
 		   NULL, " Make him draw it!!)", Line_Normal);

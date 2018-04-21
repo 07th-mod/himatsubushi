@@ -23,7 +23,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000048", 128, TRUE);
 	OutputLine(NULL, "「だいぶ血圧もよくなってきましたよ。",
-		   NULL, "\"Your blood pressure has improved.", Line_ContinueAfterTyping);
+		   NULL, "\"Your blood pressure has improved.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです。",
 		   NULL, " For you to recover this quickly at your age, I'm rather impressed.", GetGlobalFlag(GLinemodeSp));
@@ -52,7 +52,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300001", 128, TRUE);
 	OutputLine(NULL, "「入江の先生はほんにお上手でぇ…。",
-		   NULL, "\"You're a very good physician, Dr. Irie...", Line_ContinueAfterTyping);
+		   NULL, "\"You're a very good physician, Dr. Irie...", Line_Continue);
 	Wait( 4000 );
 	OutputLine(NULL, "ワシんたいな死に損ないは早ぅ死なんと、若者の邪魔んなっていけんね…。",
 		   NULL, " If a persistent ol' fart like me doesn't hurry up and die, I'll just be in the way of you young folk...", Line_WaitForInput);
@@ -81,7 +81,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300003", 128, TRUE);
 	OutputLine(NULL, "「沁子さんか妙子さんはおらんね？",
-		   NULL, "\"Is Shimiko-san or Taeko-san there?", Line_ContinueAfterTyping);
+		   NULL, "\"Is Shimiko-san or Taeko-san there?", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "　入江先生に麦茶でも入れてやりゃあなぁ！」",
 		   NULL, " Bring some tea for Dr. Irie!\"", Line_Normal);
@@ -112,7 +112,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 26, "ps3/s20/26/440300105", 128, TRUE);
 	OutputLine(NULL, "「沁子さんは今日はもうあがっちゃったよ。",
-		   NULL, "\"Shimiko-san already left for the day.", Line_ContinueAfterTyping);
+		   NULL, "\"Shimiko-san already left for the day.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "…何か用？」",
 		   NULL, " ...Do you need something?\"", GetGlobalFlag(GLinemodeSp));
@@ -131,7 +131,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 26, "ps3/s20/26/440300106", 128, TRUE);
 	OutputLine(NULL, "「うん、了解。",
-		   NULL, "\"Okay, got it.", Line_ContinueAfterTyping);
+		   NULL, "\"Okay, got it.", Line_Continue);
 	Wait( 1200 );
 	OutputLine(NULL, "婆っちゃも飲む？",
 		   NULL, " Did you want some too, Granny?", Line_WaitForInput);
@@ -148,7 +148,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300005", 128, TRUE);
 	OutputLine(NULL, "「ワシが加減するから、入れんでえんね。",
-		   NULL, "\"I'll measure it out myself, so you don't have to put any in.", Line_ContinueAfterTyping);
+		   NULL, "\"I'll measure it out myself, so you don't have to put any in.", Line_Continue);
 	Wait( 3000 );
 	OutputLine(NULL, "砂糖壷とミルクも一緒に持って来てんな。」",
 		   NULL, " Just bring the sugar jar and some milk when you bring the tea.\"", GetGlobalFlag(GLinemodeSp));
@@ -180,7 +180,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300006", 128, TRUE);
 	OutputLine(NULL, "「先生の麦茶は来客用のガラス茶碗に入れるんよー！！",
-		   NULL, "\"Pour the doctor's tea in the cups for the guests!!", Line_ContinueAfterTyping);
+		   NULL, "\"Pour the doctor's tea in the cups for the guests!!", Line_Continue);
 	Wait( 4200 );
 	OutputLine(NULL, "　ちゃんとお座布団も付けてぇなぁ！",
 		   NULL, " And make sure you bring a coaster too!", Line_WaitForInput);
@@ -194,7 +194,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 26, "ps3/s20/26/440300110", 128, TRUE);
 	OutputLine(NULL, "「わーってるーって。",
-		   NULL, "\"Yeah, yeah.", Line_ContinueAfterTyping);
+		   NULL, "\"Yeah, yeah.", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "うっさいな〜〜〜。」",
 		   NULL, " You're such a fussypants.\"", GetGlobalFlag(GLinemodeSp));
@@ -222,7 +222,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300008", 128, TRUE);
 	OutputLine(NULL, "「かー、しょんがないやっちゃなぁ。",
-		   NULL, "\"Geez, that girl just won't learn.", Line_ContinueAfterTyping);
+		   NULL, "\"Geez, that girl just won't learn.", Line_Continue);
 	Wait( 4500 );
 	OutputLine(NULL, "叱られる内が花んね、なったく。」",
 		   NULL, " Nothing I ever scold her about sticks.\"", GetGlobalFlag(GLinemodeSp));
@@ -236,7 +236,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000050", 128, TRUE);
 	OutputLine(NULL, "「お魎さん、お魎さん、ままままま…、そこまでは言わなくても。",
-		   NULL, "\"Now now, Oryou-san... you don't have to say that.", Line_ContinueAfterTyping);
+		   NULL, "\"Now now, Oryou-san... you don't have to say that.", Line_Continue);
 	Wait( 3500 );
 	OutputLine(NULL, "魅音ちゃんも若いなりに頑張ってますから。」",
 		   NULL, " Mion-chan is doing her best in her own way, even though she's so young.\"", Line_Normal);
@@ -247,7 +247,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300009", 128, TRUE);
 	OutputLine(NULL, "「あれの母親もな、…しょんがないやっちゃったんね。",
-		   NULL, "\"Her mother was the same way... couldn't teach her anything.", Line_ContinueAfterTyping);
+		   NULL, "\"Her mother was the same way... couldn't teach her anything.", Line_Continue);
 	Wait( 3500 );
 	OutputLine(NULL, "よう似とる！」",
 		   NULL, " The apple doesn't fall far from the tree!\"", GetGlobalFlag(GLinemodeSp));
@@ -261,7 +261,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000051", 128, TRUE);
 	OutputLine(NULL, "「あっはっはっはっは。",
-		   NULL, "\"Aha ha ha ha.", Line_ContinueAfterTyping);
+		   NULL, "\"Aha ha ha ha.", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "で、その母親の母親もまた、そっくりなんじゃあないですか？」",
 		   NULL, " So her mother's mother must be exactly the same, no?\"", GetGlobalFlag(GLinemodeSp));
@@ -281,7 +281,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300010", 128, TRUE);
 	OutputLine(NULL, "「入江先生。",
-		   NULL, "\"Dr. Irie.", Line_ContinueAfterTyping);
+		   NULL, "\"Dr. Irie.", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "申し訳ない、障子を開っけてもらえんけんね。",
 		   NULL, " I'm sorry, but could you open the doors for me?", Line_WaitForInput);
@@ -323,7 +323,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000052", 128, TRUE);
 	OutputLine(NULL, "「日中はだいぶ暑くなったように思うんですが、…まだ、朝夕は涼しいですね。",
-		   NULL, "\"It's gotten fairly hot during the day, but the evenings are still rather cool, aren't they.", Line_ContinueAfterTyping);
+		   NULL, "\"It's gotten fairly hot during the day, but the evenings are still rather cool, aren't they.", Line_Continue);
 	Wait( 5000 );
 	OutputLine(NULL, "昨夜は少し肌寒いくらいでした。」",
 		   NULL, " It was almost downright chilly last night.\"", GetGlobalFlag(GLinemodeSp));
@@ -334,7 +334,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300012", 128, TRUE);
 	OutputLine(NULL, "「ん。",
-		   NULL, "\"Yeah.", Line_ContinueAfterTyping);
+		   NULL, "\"Yeah.", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "……そんな朝夕もまた、雛見沢のいいところんな。」",
 		   NULL, " ...Those types of mornings and evenings are another one of Hinamizawa's fine points.\"", GetGlobalFlag(GLinemodeSp));
@@ -361,7 +361,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300013", 128, TRUE);
 	OutputLine(NULL, "「ワシゃあ、百まで生きんにせぇ、もうしばらくは死ねんよ。",
-		   NULL, "\"I'm going to try and live to a hundred.", Line_ContinueAfterTyping);
+		   NULL, "\"I'm going to try and live to a hundred.", Line_Continue);
 	Wait( 6500 );
 	OutputLine(NULL, "……ダムの件、きっちりケリ付けるまでゃあ、棺の蓋かて収まらんわ。」",
 		   NULL, " ...Until the business with dam is proper finished, I ain't kicking the bucket just yet.\"", GetGlobalFlag(GLinemodeSp));
@@ -384,7 +384,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300014", 128, TRUE);
 	OutputLine(NULL, "「国のやることはな、いつの世も石臼回すみたいなもんね。",
-		   NULL, "\"The way this country does things is like turning a millstone.", Line_ContinueAfterTyping);
+		   NULL, "\"The way this country does things is like turning a millstone.", Line_Continue);
 	Wait( 6500 );
 	OutputLine(NULL, "そんれもだいぶ重いやっちゃ。」",
 		   NULL, " A heavy one at that.\"", Line_Normal);
@@ -405,7 +405,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300015", 128, TRUE);
 	OutputLine(NULL, "「知らんねか？",
-		   NULL, "\"Don'tcha know??", Line_ContinueAfterTyping);
+		   NULL, "\"Don'tcha know??", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　石臼。」",
 		   NULL, " A millstone.\"", GetGlobalFlag(GLinemodeSp));
@@ -433,7 +433,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300016", 128, TRUE);
 	OutputLine(NULL, "「国の石臼はな、…なぁんでもゴリゴリ挽いちまうん。",
-		   NULL, "\"This millstone, see, can grind anything to a pulp.", Line_ContinueAfterTyping);
+		   NULL, "\"This millstone, see, can grind anything to a pulp.", Line_Continue);
 	Wait( 4800 );
 	OutputLine(NULL, "大したもんよ。",
 		   NULL, " It's rather impressive.", Line_WaitForInput);
@@ -474,7 +474,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300019", 128, TRUE);
 	OutputLine(NULL, "「だから一度回り始めたら、簡単には止められんね。",
-		   NULL, "\"That's why, when it gets going, it's not that easy to stop.", Line_ContinueAfterTyping);
+		   NULL, "\"That's why, when it gets going, it's not that easy to stop.", Line_Continue);
 	Wait( 6500 );
 	OutputLine(NULL, "……回し始める一番初めが一番重い。",
 		   NULL, " ...It takes the most effort to move it right before it starts turning.", Line_WaitForInput);
@@ -491,7 +491,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 26, "ps3/s20/26/440300111", 128, TRUE);
 	OutputLine(NULL, "「摩擦係数の話でしょ。",
-		   NULL, "\"You're talking about friction, right?", Line_ContinueAfterTyping);
+		   NULL, "\"You're talking about friction, right?", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "確かに婆っちゃの話、理屈はあるね。」",
 		   NULL, " I get what you're saying.\"", GetGlobalFlag(GLinemodeSp));
@@ -502,7 +502,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300021", 128, TRUE);
 	OutputLine(NULL, "「ちゅーことはだ。",
-		   NULL, "\"So in other words.", Line_ContinueAfterTyping);
+		   NULL, "\"So in other words.", Line_Continue);
 	Wait( 2200 );
 	OutputLine(NULL, "何かの間違いで、突然石臼が止まっちまったら、…まぁた回すにはどえらい力が掛かる、っちゅうこったな。」",
 		   NULL, " If there's some sort of mistake, and the millstone suddenly stops turning... to get it turning again takes a great deal of power, more'r less.\"", Line_Normal);
@@ -521,7 +521,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300022", 128, TRUE);
 	OutputLine(NULL, "「簡単には止められん石臼だけんどな。",
-		   NULL, "\"It's a millstone that isn't easily stopped.", Line_ContinueAfterTyping);
+		   NULL, "\"It's a millstone that isn't easily stopped.", Line_Continue);
 	Wait( 4500 );
 	OutputLine(NULL, "……一度止めれば二度とは回らん。",
 		   NULL, " ...But once it's stopped, it'll never turn again.", Line_WaitForInput);

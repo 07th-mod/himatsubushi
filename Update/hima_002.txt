@@ -634,9 +634,9 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>バスアナウンス</color>", NULL, "<color=#f5e6d3>Bus Announcer</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/bus1000001", 128, TRUE);
 	OutputLine(NULL, "『宇喜田水道前〜。",
-		   NULL, "\"Now arriving at Ukita Waterworks~.", Line_ContinueAfterTyping);
+		   NULL, "\"Now arriving at Ukita Waterworks~.", Line_Continue);
 	OutputLine(NULL, "宇喜田水道前〜、",
-		   NULL, " Now arriving at Ukita Waterworks~.", Line_ContinueAfterTyping);
+		   NULL, " Now arriving at Ukita Waterworks~.", Line_Continue);
 
 	SetValidityOfInput( FALSE );
 	Wait( 2500 );
