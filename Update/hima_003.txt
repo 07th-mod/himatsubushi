@@ -862,16 +862,16 @@ void main()
 	OutputLine(NULL, "「………ハイお待たせしました。",
 		   NULL, "\"...Hello, sorry to keep you waiting.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/nur00002", 128, TRUE);
-	OutputLine(NULL, "××歯科です。」",
-		   NULL, " This is XX Dental Office.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "中川歯科です。」",
+		   NULL, " This is Nakagawa Dental Office.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「どうも。こちらは×××警察です＠実はお財布の落し物がありまして、所有者の連絡先を探しております＠ご協力をいただいてもよろしいでしょうか＠　お財布の中に、そちらさまの診察カードが入っておりまして＠……えぇ＠氏名は犬飼寿樹くんです＠カードの番号を申し上げますので、電話番号をお調べいただいてもよろしいでしょうか＠……えぇ、ありがとうございます＠お願いできますか。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300426", 128, TRUE);
-	OutputLine(NULL, "「どうも。こちらは×××警察です。",
-		   NULL, "\"Hello. This is the XX Police.", Line_WaitForInput);
+	OutputLine(NULL, "「どうも。こちらは興宮署です。",
+		   NULL, "\"Hello. This is the Okinomiya Police department.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300427", 128, TRUE);
 	OutputLine(NULL, "実はお財布の落し物がありまして、所有者の連絡先を探しております。",
 		   NULL, " I have a misplaced wallet here, and am trying to get in contact with the owner.", Line_WaitForInput);
