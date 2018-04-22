@@ -1,0 +1,27 @@
+
+void main()
+{
+
+}
+
+void dialog000()
+{
+//「赤坂さんは持ってるんですか＠　おハジキ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700414", 128, TRUE);
+	OutputLine(NULL, "「赤坂さんは持ってるんですか？",
+		   NULL, "\"Akasaka-san, are you carrying one?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700415", 128, TRUE);
+	OutputLine(NULL, "　おハジキ。」",
+		   NULL, " A piece.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog001()
+{
+//「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ＠覚えてます？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700443", 128, TRUE);
+	OutputLine(NULL, "「……ほら、昨日、一緒に麻雀やったメンツに、ハゲ親父がいたでしょ。",
+		   NULL, "\"...Hey, the bald guy that was playing mahjong with us last night?", Line_WaitForInput);
+}
