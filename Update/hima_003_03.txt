@@ -1314,7 +1314,7 @@ void main()
 //「ハイ、興宮ＳＰ～＠大石さん、感度良好です、どぞ～。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0001", 128, TRUE);
-	OutputLine(NULL, "「ハイ、興宮ＳＰ〜。",
+	OutputLine(NULL, "「ハイ、興宮ＰＳ〜。",
 		   NULL, "\"Yes, this is the Okinomiya SP.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0002", 128, TRUE);
 	OutputLine(NULL, "大石さん、感度良好です、どぞ〜。」",
@@ -1442,7 +1442,7 @@ void main()
 //「…いや、……サツやんな。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700041", 128, TRUE);
-	OutputLine(NULL, "「…いや、……サツやんな。」",
+	OutputLine(NULL, "「…いや、……警察やんな。」",
 		   NULL, "\"...Nah... looks like a cop ta me.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
