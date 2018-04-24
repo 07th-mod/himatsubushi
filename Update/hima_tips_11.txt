@@ -225,7 +225,7 @@ void main()
 
 //　……なのになぜか、…その時の行雪絵は、ひぐらしの声が聞きたい…と思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　……なのになぜか、…その時の行雪絵は、ひぐらしの声が聞きたい…と思った。",
+	OutputLine(NULL, "　……なのになぜか、…その時の雪絵は、ひぐらしの声が聞きたい…と思った。",
 		   NULL, "...But for some reason... at that moment Yukie felt that she wanted to hear that song.", Line_Normal);
 	ClearMessage();
 
