@@ -1226,7 +1226,7 @@ void main()
 	OutputLine(NULL, "………………あと何年かすると、",
 		   NULL, " in a few years...", Line_Continue);
 
-	Wait( 1000 );
+	Wait( 2000 );
 
 	OutputLine(NULL, "殺されるの。」",
 		   NULL, " I'll be killed.\"", Line_Normal);
@@ -1382,14 +1382,14 @@ void main()
 		   NULL, "\"...B-", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 800 );
+	Wait( 1500 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………殺されるって、",
 		   NULL, "Be killed...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 2000 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………どうして……。」",
