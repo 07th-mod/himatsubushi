@@ -379,7 +379,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44003", 128, TRUE);
 	OutputLine(NULL, "「あははは…。",
-		   NULL, "\"Ahahaha...", Line_WaitForInput);
+		   NULL, "\"Ahahaha...", Line_Continue);
+	Wait( 1000 );
 	OutputLine(NULL, "駄目よ梨花。",
 		   NULL, " It's no good, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44004", 128, TRUE);
@@ -413,7 +414,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44007", 128, TRUE);
 	OutputLine(NULL, "「……………でも梨花。",
-		   NULL, "\"...But, Rika.", Line_WaitForInput);
+		   NULL, "\"...But, Rika.", Line_Continue);
+	Wait( 1200 );
 	OutputLine(NULL, "てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？」",
 		   NULL, " If they're upside-down, they won't be a charm that calls for a sunny day, you know?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -438,7 +440,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44008", 128, TRUE);
 	OutputLine(NULL, "「…あ、……そっか。",
-		   NULL, "\"Oh... I see...", Line_WaitForInput);
+		   NULL, "\"Oh... I see...", Line_Continue);
+	Wait( 3000 );
 	OutputLine(NULL, "お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？」",
 		   NULL, " The morning glories in the garden were starting to get a little wilted from all the sun, so you wanted some rain, right?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

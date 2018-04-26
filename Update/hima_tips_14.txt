@@ -298,7 +298,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400003", 128, TRUE);
 	OutputLine(NULL, "「古手さんのカレーは大変、見事です。",
-		   NULL, "\"Furude-san's curry is absolutely splendid.", Line_WaitForInput);
+		   NULL, "\"Furude-san's curry is absolutely splendid.", Line_Continue);
+	Wait( 3000 );
 	OutputLine(NULL, "先生、花マルをあげちゃいます！」",
 		   NULL, " I'll give it a gold star!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -320,7 +321,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400004", 128, TRUE);
 	OutputLine(NULL, "「古手さんはお料理を誰に習いましたか？",
-		   NULL, "\"Where did you learn to cook, Furude-san?", Line_WaitForInput);
+		   NULL, "\"Where did you learn to cook, Furude-san?", Line_Continue);
+	Wait( 2500 );
 	OutputLine(NULL, "　やっぱりお家で？」",
 		   NULL, " At home?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -330,7 +332,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500036", 128, TRUE);
 	OutputLine(NULL, "「……はい。",
-		   NULL, "\"......Yes.", Line_WaitForInput);
+		   NULL, "\"......Yes.", Line_Continue);
+	Wait( 600 );
 	OutputLine(NULL, "お家なのですよ。」",
 		   NULL, " At home.\"", Line_Normal);
 	ClearMessage();
