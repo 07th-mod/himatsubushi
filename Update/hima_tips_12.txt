@@ -94,7 +94,7 @@ void main()
 
 //　運動会で使うお遊戯の道具を壊してしまった時も、他の子たちは懸命に誤っていたのに、あの子だけは退屈そうな顔をして、ひとり輪の外にいた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　運動会で使うお遊戯の道具を壊してしまった時も、他の子たちは懸命に誤っていたのに、あの子だけは退屈そうな顔をして、ひとり輪の外にいた。",
+	OutputLine(NULL, "　運動会で使うお遊戯の道具を壊してしまった時も、他の子たちは懸命に謝っていたのに、あの子だけは退屈そうな顔をして、ひとり輪の外にいた。",
 		   NULL, "When the other kids broke the equipment for the athletics festival and were apologizing fervently, she only wore a bored look on her face, aloof and distant.", Line_Normal);
 	ClearMessage();
 
