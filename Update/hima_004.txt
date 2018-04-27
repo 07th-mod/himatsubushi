@@ -2255,9 +2255,10 @@ void main()
 
 //「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです＠……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700774", 128, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 240, TRUE);
 	OutputLine(NULL, "「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
 		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting',  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
+	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 240, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。」",
 		   NULL, "...It seems that it came from the man-eating demons ripping apart their victims and throwing their organs into the river.\"", GetGlobalFlag(GLinemodeSp));
@@ -2266,7 +2267,7 @@ void main()
 
 //「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300724", 128, TRUE);
+	ModPlayVoiceLS(4, 13, "ps2/13/101300724", 240, TRUE);
 	OutputLine(NULL, "「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？」",
 		   NULL, "\"...In other words... in Hinamizawa, pulling out entrails had some sort of religious meaning?\"", Line_Normal);
 	ClearMessage();
