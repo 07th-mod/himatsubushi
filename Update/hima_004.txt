@@ -2240,7 +2240,7 @@ void main()
 	OutputLine(NULL, "「……この死に方ですが、…どうも単なる猟奇趣味ってわけじゃないみたいなんです。",
 		   NULL, "\"...About the way she died... it seems like it wasn't just somebody's sick tastes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700773", 128, TRUE);
-	OutputLine(NULL, "……と言いますのはですねぇ、…雛見沢村はかつて鬼が住んでたって話は、以前もしましたよね？」",
+	OutputLine(NULL, "……と言いますのはですねぇ、…雛見沢はかつて鬼が住んでたって話は、以前もしましたよね？」",
 		   NULL, " ...What I'm saying is... I've told you before about how Hinamizawa used to be home to demons, didn't I?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2987,7 +2987,7 @@ void main()
 //「そんなはずない。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300769", 128, TRUE);
-	OutputLine(NULL, "「そんなはずない。」",
+	OutputLine(NULL, "「そんなはずはない。」",
 		   NULL, "\"There's no way that was the case.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -4032,7 +4032,7 @@ void main()
 
 //　r背後の襖が開き、…私の大声で起きてしまったのか美雪が眠そうに目をこすりながら、姿を見せる。そして、とてとてと覚束ない足取りで私の元に歩み寄ってきた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "背後の襖が開き、…私の大声で起きてしまったのか美雪が眠そうに目をこすりながら、姿を見せる。そして、とてとてと覚束ない足取りで私の元に歩み寄ってきた。",
+	OutputLine(NULL, "背後のふすまが開き、…私の大声で起きてしまったのか美雪が眠そうに目をこすりながら、姿を見せる。そして、とてとてと覚束ない足取りで私の元に歩み寄ってきた。",
 		   NULL, "The sliding door behind me opened... and Miyuki revealed herself while sleepily rubbing her eyes. My shouting must have awoken her. Then she rushed over to me.", Line_Normal);
 	ClearMessage();
 
@@ -4084,7 +4084,7 @@ void main()
 //  赤坂rvs05/13/321000043.「――」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/321000043", 128, TRUE);
-	OutputLine(NULL, "「――」",
+	OutputLine(NULL, "「ー」",
 		   NULL, "\"......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -4291,7 +4291,7 @@ void main()
 		   NULL, "That summer,", Line_WaitForInput);
 	OutputLine(NULL, "　ひぐらしのなく",
 		   NULL, " the higurashi cried", Line_WaitForInput);
-	OutputLine(NULL, "　雛見沢で――。",
+	OutputLine(NULL, "　雛見沢でー。",
 		   NULL, " in Hinamizawa...", Line_Normal);
 	ClearMessage();
 
