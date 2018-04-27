@@ -176,7 +176,7 @@ void main()
 //「今回は外伝的なシナリオだからとは聞いてたけど、ここまでメイン勢が蔑ろにされるとは思わなかったよー！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300399", 128, TRUE);
-	OutputLine(NULL, "「今回は外伝的なシナリオだからとは聞いてたけど、ここまでメイン勢が蔑ろにされるとは思わなかったよー！」",
+	OutputLine(NULL, "「今回は箸休め的なシナリオだからとは聞いてたけど、ここまでメイン勢が蔑ろにされるとは思わなかったよー！」",
 		   NULL, "\"I heard that this time the scenario was a bit of a side story, but I didn't think that they would leave out the main cast this much!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -208,8 +208,8 @@ void main()
 
 //「……レナはジャケットとかによく登場してますですから、まだマシなのですよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500149", 128, TRUE);
-	OutputLine(NULL, "「……レナはジャケットとかによく登場してますですから、まだマシなのですよ。」",
+	ModPlayVoiceLS(4, 5, "ps2/05/440500149", 240, TRUE);
+	OutputLine(NULL, "「……レナはジャケットにも登場してますですから、まだマシなのですよ。」",
 		   NULL, "\"......Rena still shows up on the covers a lot, so she's still okay.\"", Line_Normal);
 	ClearMessage();
 
@@ -293,7 +293,7 @@ void main()
 	OutputLine(NULL, "「そそ、そんなことないよ…。",
 		   NULL, "\"Th-Th-That's not true...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200293", 128, TRUE);
-	OutputLine(NULL, "沙都子ちゃんの好きな人だって、大勢いるんだもん。",
+	OutputLine(NULL, "沙都子ちゃんのことが好きな人だって、大勢いるんだもん。",
 		   NULL, " There's lots of people who like Satoko-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200294", 128, TRUE);
 	OutputLine(NULL, "そんなひどい扱いになんかならないよ？　ね？」",
@@ -439,7 +439,7 @@ void main()
 //「私は祟り派なんで、…雛見沢を見守るオヤシロさまの生まれ変わりである梨花ちゃんに、そういう神通力も、ひょっとするとあったんじゃないかなって思うな。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200301", 128, TRUE);
-	OutputLine(NULL, "「私は祟り派なんで、…雛見沢を見守るオヤシロさまの生まれ変わりである梨花ちゃんに、そういう神通力も、ひょっとするとあったんじゃないかなって思うな。」",
+	OutputLine(NULL, "「レナは祟り派なんで、…雛見沢を見守るオヤシロさまの生まれ変わりである梨花ちゃんに、そういう神通力も、ひょっとするとあったんじゃないかなって思うな。」",
 		   NULL, "\"I believe in the curse... so that Rika-chan--who's the living incarnation of the deity that protects Hinamizawa, Oyashiro-sama--could have that divine power is a possibility, I think.\"", Line_Normal);
 	ClearMessage();
 
@@ -459,7 +459,7 @@ void main()
 	OutputLine(NULL, "　事件は全て人間の仕業！",
 		   NULL, " All the incidents were caused by people!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300412", 128, TRUE);
-	OutputLine(NULL, "　祟りも魔法もＢＯＴもチートも一切なし！」",
+	OutputLine(NULL, "　祟りも魔法もイカサマもずるも一切なし！」",
 		   NULL, " There's no curse or magic or aimbots or cheatcodes!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -538,7 +538,7 @@ void main()
 	OutputLine(NULL, "　つまり、雛見沢村には、「不思議な力」が存在するんだってことの証拠になると思ってる。",
 		   NULL, "In other words, it's proof that there's some mysterious power at work in Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200306", 128, TRUE);
-	OutputLine(NULL, "人間だけに起こせる事件じゃないことの証明になると思ってるよ。」",
+	OutputLine(NULL, "人間だけに起こせる事件じゃないことの証明になるんじゃないかな。」",
 		   NULL, " I think it's proof that the incidents weren't the work of humans alone.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -592,7 +592,7 @@ void main()
 //「うん、私も驚いたな…＠可愛らしい梨花ちゃんが、あんな笑い方をするとは思わなかったよ…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200307", 128, TRUE);
-	OutputLine(NULL, "「うん、私も驚いたな…。",
+	OutputLine(NULL, "「うん、レナも驚いたな…。",
 		   NULL, "\"Yeah, I was surprised, too...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200308", 128, TRUE);
 	OutputLine(NULL, "可愛らしい梨花ちゃんが、あんな笑い方をするとは思わなかったよ…。」",
@@ -631,7 +631,7 @@ void main()
 //「わ、私も劇中以外ではしてほしくないな…＠はぅ…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200309", 128, TRUE);
-	OutputLine(NULL, "「わ、私も劇中以外ではしてほしくないな…。",
+	OutputLine(NULL, "「レ、レナも劇中以外ではしてほしくないな…。",
 		   NULL, "\"I-I don't want her to do that outside of the story...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200310", 128, TRUE);
 	OutputLine(NULL, "はぅ…。」",
@@ -1506,8 +1506,8 @@ void main()
 	OutputLine(NULL, "「……詩音さま！",
 		   NULL, "\"...Shion-sama!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000108", 128, TRUE);
-	OutputLine(NULL, "　レナさんがいません！",
-		   NULL, " Rena-san isn't here!", Line_WaitForInput);
+	OutputLine(NULL, "　竜宮さんがいません！",
+		   NULL, " Ryuugu-san isn't here!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000109", 128, TRUE);
 	OutputLine(NULL, "　いつの間に抜け出したのか…！」",
 		   NULL, " She escaped at some point!\"", GetGlobalFlag(GLinemodeSp));
@@ -2183,7 +2183,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800152", 128, TRUE);
-	OutputLine(NULL, "「たた、…鷹野さんが……ミニスカな看護婦…ナース服にぃいいぃ！！",
+	OutputLine(NULL, "「たた、…鷹野さんが……ミニスカなナースさん…ナース服にぃいいぃ！！",
 		   NULL, "\"Ta-Ta-Takano-san is in a mini-skirt nurse outfiiiiit!!", Line_WaitForInput);
 
 
@@ -2221,7 +2221,7 @@ void main()
 //「看護婦の分際で本編で一度もナース服を着ないとは笑止千万！＠　さぁてっと＠…次の標的は、っと…☆￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100257", 128, TRUE);
-	OutputLine(NULL, "「看護婦の分際で本編で一度もナース服を着ないとは笑止千万！！",
+	OutputLine(NULL, "「ナースさんの分際で本編で一度もナース服を着ないとは笑止千万！！",
 		   NULL, "\"Even though she's a nurse, she doesn't appear in the outfit even once during the main scenario, you've got to be kidding me!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100258", 128, TRUE);
 	OutputLine(NULL, "　さぁてっと。",
@@ -2252,7 +2252,7 @@ void main()
 	OutputLine(NULL, "「はぅ〜！！",
 		   NULL, "\"Hau~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200336", 128, TRUE);
-	OutputLine(NULL, "　こんな真っ暗じゃ、私にもどうしようもないよ〜〜！」",
+	OutputLine(NULL, "　こんな真っ暗じゃ、レナにもどうしようもないよ〜〜！」",
 		   NULL, " I can't do anything in this darkness~~!\"", Line_Normal);
 	ClearMessage();
 
@@ -2715,8 +2715,8 @@ void main()
 	PlaySE( 3, "wa_012", 128, 64 );
 
 //………知恵先生！！！＠
-	//PlaySE(4, "s20/06/440600183", 128, 64);
-	OutputLine(NULL, "………知恵先生！！！」",
+	//PlaySE(4, "ps3/s20/06/440600183", 128, 64);
+	OutputLine(NULL, "……というわけで、知恵先生！！！」",
 		   NULL, " ...Chie-sensei!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
