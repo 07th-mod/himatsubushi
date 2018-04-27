@@ -2708,7 +2708,7 @@ void main()
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600181", 128, TRUE);
 	OutputLine(NULL, "「…甘いですね圭ちゃん。",
 		   NULL, "\"...You're so naive, Kei-chan.", Line_WaitForInput);
-	//PlaySE(4, "s20/06/440600182", 128, 64);
+	//PlaySE(4, "ps3/s20/06/440600182", 128, 64);
 	OutputLine(NULL, "…立ち絵があるキャラにだって、闇でこそ真の姿を晒せるキャラだっているってことです。",
 		   NULL, " ...Even characters who have art are able to reveal their true form in the darkness.", Line_WaitForInput);
 
@@ -2828,10 +2828,10 @@ void main()
 	OutputLine(NULL, "　えぇえ？！",
 		   NULL, " Huuuh!? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	//PlaySE(4, "s20/01/440100284", 128, 64);
+	//PlaySE(4, "ps3/s20/01/440100284", 128, 64);
 	OutputLine(NULL, "　ゲージ技って、出掛かり無敵かよッ？！",
 		   NULL, "Her arc drive has startup invincibility!?", Line_WaitForInput);
-	//PlaySE(4, "s20/01/440100285", 128, 64);
+	//PlaySE(4, "ps3/s20/01/440100285", 128, 64);
 	OutputLine(NULL, "　第七聖てッてッッて！！！",
 		   NULL, " The Seventh Hooo--", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100286", 128, TRUE);
