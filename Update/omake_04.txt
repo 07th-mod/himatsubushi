@@ -1354,7 +1354,7 @@ void main()
 //＜入江
 
 	DisableWindow();
-	ModDrawCharacter(3, 2, "sprite/normal/re1b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 3, "sprite/normal/me1a_odoroki_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/res5", "left", 0, 0, 300 );
 
 
@@ -1722,14 +1722,14 @@ void main()
 		   NULL, "There's somebody...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 1500 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…許すことができない、地獄の怨嗟が…、",
 		   NULL, " who resents you from the depths of hell, who can't forgive you...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 2500 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ほら、聞こえてこない…？」",
@@ -2265,6 +2265,7 @@ void main()
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100261", 128, TRUE);
 	OutputLine(NULL, "　手堅く、",
 		   NULL, " Maybe a nice", Line_Continue);
+	Wait( 1000 );
 
 	PlaySE( 3, "wa_011", 128, 64 );
 
