@@ -1,0 +1,58 @@
+
+void main()
+{
+
+}
+
+void dialog000()
+{
+//「中国製の軍用拳銃でした＠関西系の暴力団組織が大量に密輸した内の一丁でしょうなぁ＠線状痕を調べましたが、他の事件とのつながりは何も出ませんでした＠…そっちでは？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700682", 128, TRUE);
+	OutputLine(NULL, "「海外の軍用拳銃でした。",
+		   NULL, "\"It was a foreign military pistol.", Line_WaitForInput);
+}
+
+void dialog001()
+{
+//「で、その富竹氏の恋仲の女性が岐阜の山中で焼死体に＠岐阜県警さんがあんまり協力的じゃなかったもんで、こっちはあまりよく状況を知らないんですがね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700732", 128, TRUE);
+	OutputLine(NULL, "「で、その富竹氏の恋仲の女性が山中で焼死体に。",
+		   NULL, "\"And the burnt corpse of the woman Tomitake was in a relationship with was found in the mountains.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700733", 128, TRUE);
+	OutputLine(NULL, "お隣の県警さんがあんまり協力的じゃなかったもんで、こっちはあまりよく状況を知らないんですがね。」",
+		   NULL, " The neighboring Prefectural Police weren't very cooperative, so I don't know much about it, though.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+//「……………性的な変質者の犯行？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300719", 128, TRUE);
+	OutputLine(NULL, "「………愉快犯の犯行？」",
+		   NULL, "\"...Any sign it was a crime of gratification?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/aka2", 400 );
+
+//「司法解剖の結果、性的暴行の痕跡は認められませんでした＠/
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700768", 128, TRUE);
+	OutputLine(NULL, "「司法解剖の結果、そういった痕跡は認められませんでした。",
+		   NULL, "\"According to the autopsy, there wasn't any indication of that. ", GetGlobalFlag(GLinemodeSp));
+
+	PlaySE( 3, "wa_025", 128, 64 );
+
+//……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、腹部を切開、開腹＠意図的に臓器を引きずり出して、四方に散らして見せました。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700769", 128, TRUE);
+	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、…腹部を切開。",
+		   NULL, "...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700770", 240, TRUE);
+	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
+		   NULL, " Her organs were deliberately removed and scattered about.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
