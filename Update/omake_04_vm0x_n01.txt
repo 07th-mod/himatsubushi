@@ -160,7 +160,7 @@ void dialog009()
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500163", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「受験勉強で抑圧されていた人が、大学生になった途端堕落するパターンと同じなのですよ。」",
-		   NULL, "\"It's the same as when a student who suppressed their urges studying for college entrance exams drops out the moment they get in.\"", Line_Normal);
+		   NULL, "\"It's just like when a student who felt repressed studying for college entrance exams becomes a degenerate the moment they get in.\"", Line_Normal);
 	ClearMessage();
 }
 
