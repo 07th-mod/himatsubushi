@@ -1385,14 +1385,14 @@ void main()
 		   NULL, "\"They...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 800 );
+	Wait( 1200 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……連中に、",
 		   NULL, " murdered...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1200 );
+	Wait( 2000 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…殺された？」",
@@ -2152,7 +2152,7 @@ void main()
 		   NULL, "\"...That's...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 6500 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………惨い。」",
