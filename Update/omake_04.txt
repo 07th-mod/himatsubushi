@@ -1799,25 +1799,10 @@ void main()
 	ClearMessage();
 
 
-//「そ、その声は……圭ちゃん？！？！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300447", 128, TRUE);
-	OutputLine(NULL, "「そ、その声は……圭ちゃん？！？！」",
-		   NULL, "\"Th-That voice is... Kei-chan!?!?\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-
-	PlayBGM( 1, "msys04", 128, 0 );
-
-//「レナ、感謝するぜぃ！＠　月にすら見放され真の闇が地上を覆いし時＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100236", 128, TRUE);
-	OutputLine(NULL, "「レナ、感謝するぜぃ！！",
-		   NULL, "\"Rena, you have my thanks!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100237", 128, TRUE);
-	OutputLine(NULL, "　月にすら見放され真の闇が地上を覆いし時、",
-		   NULL, " When even the moon abandons the land and shrouds it in true darkness,", Line_WaitForInput);
+	//VoiceMatching
+	if(GetGlobalFlag(GCensor) >= 1){ModCallScriptSection("omake_04_vm0x_n01","dialog005");}
+	if(GetGlobalFlag(GCensor) <= 0){ModCallScriptSection("omake_04_vm00_n01","dialog005");}
+	//VoiceMatchingEnd
 
 
 	PlaySE( 3, "wa_015", 128, 64 );
@@ -1874,20 +1859,6 @@ void main()
 	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("omake_04_vm0x_n01","dialog015");}
 	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("omake_04_vm00_n01","dialog015");}
 	//VoiceMatchingEnd
-
-
-	ShakeScreen( 1, 50, 20, 3, 0, );
-	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
-
-
-	PlaySE( 3, "wa_007", 128, 64 );
-	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-//　今こそ教えてくれるぜえええぇえぇ！！！」/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100245", 128, TRUE);
-	OutputLine(NULL, "　今こそ教えてくれるぜえええぇえぇ！！！」",
-		   NULL, " I shall instill it all upon you!!!\"", Line_Continue);
 
 
 	ShakeScreen( 0, 50, 20, 4, 0, );

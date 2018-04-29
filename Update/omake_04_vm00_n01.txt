@@ -99,6 +99,29 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
+void dialog005()
+{
+//「そ、その声は……圭ちゃん？！？！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300447", 128, TRUE);
+	OutputLine(NULL, "「そ、その声は……圭ちゃん？！？！」",
+		   NULL, "\"Th-That voice is... Kei-chan!?!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlayBGM( 1, "msys04", 128, 0 );
+
+//「レナ、感謝するぜぃ！＠　月にすら見放され真の闇が地上を覆いし時＠/
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100236", 128, TRUE);
+	OutputLine(NULL, "「レナ、感謝するぜぃ！！",
+		   NULL, "\"Rena, you have my thanks!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100237", 128, TRUE);
+	OutputLine(NULL, "　月にすら見放され真の闇が地上を覆いし時、",
+		   NULL, " When even the moon abandons the land and shrouds it in true darkness,", Line_WaitForInput);
+}
+
 void dialog006()
 {
 //「なるほど＠で＠　その立ち絵のない圭ちゃんがどうやってここへ現れると＠　……まさか、圭ちゃんに立ち絵が実装されたわけでもあるまいに＠くっくっく…！！＠
@@ -305,6 +328,19 @@ void dialog015()
 //悲しみを！！！/
 	OutputLine(NULL, "悲しみを！！！",
 		   NULL, " and all of my sorrow!!", Line_Continue);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+
+
+	PlaySE( 3, "wa_007", 128, 64 );
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//　今こそ教えてくれるぜえええぇえぇ！！！」/
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100245", 128, TRUE);
+	OutputLine(NULL, "　今こそ教えてくれるぜえええぇえぇ！！！」",
+		   NULL, " I shall instill it all upon you!!!\"", Line_Continue);
 }
 
 
