@@ -64,7 +64,7 @@ void main()
 	OutputLine(NULL, "しかも渋いジャズ調なテーマ曲まで追加！",
 		   NULL, " On top of that they added some nice jazzy theme music!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700425", 128, TRUE);
-	OutputLine(NULL, "　これで笑えなきゃどこで笑えってんですかね、なっはっはっはっは！！」",
+	OutputLine(NULL, "　これで笑えなきゃどこで笑えってゆーんですかね、なっはっはっはっは！！」",
 		   NULL, " If you can't laugh here, where can you laugh? Na ha ha ha ha!!\"", Line_Normal);
 	ClearMessage();
 
@@ -147,7 +147,7 @@ void main()
 //「あれだけ出番があって、ここでまで出張ろうとは、身の程をわきまえないにも程がございましてよーー！！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400233", 128, TRUE);
-	OutputLine(NULL, "「あれだけ出番があって、ここでまで出張ろうとは、身の程をわきまえないにも程がございましてよーー！！！」",
+	OutputLine(NULL, "「あれだけ出番があって、ここまで出張ろうとは、身の程をわきまえないにも程がございましてよーー！！！」",
 		   NULL, "\"It's rather impudent of you to try and hog the spotlight here, even though you already had all that screentime!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -459,7 +459,7 @@ void main()
 	OutputLine(NULL, "　事件は全て人間の仕業！",
 		   NULL, " All the incidents were caused by people!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300412", 128, TRUE);
-	OutputLine(NULL, "　祟りも魔法もイカサマもずるも一切なし！」",
+	OutputLine(NULL, "　祟りも魔法もイカサマもズルも一切なし！」",
 		   NULL, " There's no curse or magic or aimbots or cheatcodes!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -524,7 +524,7 @@ void main()
 //「私は…、この予言こそつまり梨花ちゃんが神通力が使える証拠＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200304", 128, TRUE);
-	OutputLine(NULL, "「私は…、この予言こそつまり梨花ちゃんが神通力が使える証拠。",
+	OutputLine(NULL, "「レナは…、この予言こそつまり梨花ちゃんが神通力が使える証拠。",
 		   NULL, "\"I think... that the prophecy is proof in itself that Rika-chan has some divine power.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -547,10 +547,9 @@ void main()
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 5, "sprite/normal/ri1_komaru_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-//「……ボクは頭がこんがらかってわかんないです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500156", 128, TRUE);
-	OutputLine(NULL, "「……ボクは頭がこんがらかってわかんないです。」",
+	OutputLine(NULL, "「……ボクは頭がこんがらがってわかんないです。」",
 		   NULL, "\"......The inside of my head is so muddled I don't know what's going on.\"", Line_Normal);
 	ClearMessage();
 
@@ -698,7 +697,7 @@ void main()
 //「ほーっほっほっほっほ！＠　出番なし軍団、これよりお疲れ様会を占領させていただきましてよ＠　をーっほっほっほ！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400248", 128, TRUE);
-	OutputLine(NULL, "「ほーっほっほっほっほ！！",
+	OutputLine(NULL, "「をーっほっほっほっほ！！",
 		   NULL, "\"Hooo ho ho ho ho!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400249", 128, TRUE);
 	OutputLine(NULL, "　出番なし軍団、これよりお疲れ様会を占領させていただきましてよ？",
@@ -719,10 +718,10 @@ void main()
 	OutputLine(NULL, "「くすくすくす…。",
 		   NULL, "\"Hee hee hee...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900144", 128, TRUE);
-	OutputLine(NULL, "何だか素敵な登場をありがとう",
+	OutputLine(NULL, "何だか素敵な登場をありがとう。",
 		   NULL, " Thanks for that wonderful introduction.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900145", 128, TRUE);
-	OutputLine(NULL, "。改めまして皆さん、こんにちは。」",
+	OutputLine(NULL, "改めまして皆さん、こんにちは。」",
 		   NULL, " Hello again, everybody.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1511,7 +1510,7 @@ void main()
 //「私……悪いけど、こんなやり方おかしいと思います！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200322", 128, TRUE);
-	OutputLine(NULL, "「私……悪いけど、こんなやり方おかしいと思います！」",
+	OutputLine(NULL, "「レナ……悪いけど、こんなやり方おかしいと思います！」",
 		   NULL, "\"I-- sorry, but all this is really bizarre!\"", Line_Normal);
 	ClearMessage();
 
@@ -1946,7 +1945,7 @@ void main()
 
 //　ここからはポップでＨで萌え萌えなひぐらしが始まるのだぁあぁあぁあ！！！！」/
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100252", 128, TRUE);
-	OutputLine(NULL, "　ここからはポップでＨで萌え萌えなひぐらしが始まるのだぁあぁあぁあ！！！！」",
+	OutputLine(NULL, "　ここからはポップでキュートで萌え萌えなひぐらしが始まるのだぁあぁあぁあ！！！！」",
 		   NULL, " From here on out begins the dawn of a perverted and cutesy Higurashi!!!!\"", Line_Continue);
 
 
@@ -2037,8 +2036,8 @@ void main()
 
 //　しかもピンクとかのエロゲー的な色じゃない！/
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800153", 128, TRUE);
-	OutputLine(NULL, "　しかもピンクとかのエロゲー的な色じゃない！",
-		   NULL, " And it's not some pink one like you'd find in a porno!", Line_Continue);
+	OutputLine(NULL, "　しかもピンクとかのギャルゲー的な色じゃない！",
+		   NULL, " And it's not some pink one like you'd find in a galge!", Line_Continue);
 
 	ShakeScreen( 1, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_005", 128, 64 );
@@ -2168,7 +2167,7 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 127, );
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100266", 128, TRUE);
-	OutputLine(NULL, "　俺、やっとあんたと打ち解けれた気がするぜ！！！」",
+	OutputLine(NULL, "　俺、やっとあんたと打ち解けられた気がするぜ！！！」",
 		   NULL, " I feel like we're finally seeing eye-to-eye here!!!\"", Line_Continue);
 
 
