@@ -28,6 +28,12 @@ void dialog002()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300010", 128, TRUE);
 	OutputLine(NULL, "危険性は、十分にありますね。」",
 		   NULL, " They're certainly dangerous enough.\"", Line_Normal);
+
+//…主張を通すために、手段を選ばないこともありうるというわけか。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…主張を通すために、手段を選ばないこともありうるというわけか。",
+		   NULL, "...So they could be expected to use any means necessary to force their demands.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 	ClearMessage();
 }
 

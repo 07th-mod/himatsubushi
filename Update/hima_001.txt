@@ -555,7 +555,7 @@ void main()
 
 //　…『いぬがいとしき』、!w1000名札には平仮名でそう書かれていた…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…『いぬがいとしき』、",
+	OutputLine(NULL, "　…『いぬかいとしき』、",
 		   NULL, "...\"Toshiki Inugai\"...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
@@ -663,7 +663,7 @@ void main()
 
 //　たまに交換機の不調で、通話がうまくつながらない時があることを彼を知っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　たまに交換機の不調で、通話がうまくつながらない時があることを彼を知っていた。",
+	OutputLine(NULL, "　たまに交換機の不調で、通話がうまくつながらない時があることを彼は知っていた。",
 		   NULL, "He knew that sometimes due to a malfunction at the switchboard, calls didn't connect well.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1115,7 +1115,7 @@ void main()
 
 //『いぬがいとしき＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『いぬがいとしき』",
+	OutputLine(NULL, "『いぬかいとしき』",
 		   NULL, "\"Toshiki Inugai\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -2745,7 +2745,7 @@ void main()
 	OutputLine(NULL, "「放火はさすがにですね。",
 		   NULL, "\"The arson was a bit much.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300022", 128, TRUE);
-	OutputLine(NULL, "それで地元警察が２４時間体制の人員を大幅に増員しまして。",
+	OutputLine(NULL, "それで地元警察が２４時間態勢の人員を大幅に増員しまして。",
 		   NULL, " After that, the local police drastically increased the number of personnel they had stationed there around the clock.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300023", 128, TRUE);
 	OutputLine(NULL, "それで建設現場への襲撃は一段落したようです。」",
@@ -3160,7 +3160,7 @@ void main()
 	OutputLine(NULL, "「……それにほら、…雛見沢と地縁の深い暴力団組織がありましてね。",
 		   NULL, "\"...You see, there's a yakuza organization here with strong ties to Hinamizawa and the surrounding area.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300063", 128, TRUE);
-	OutputLine(NULL, "これが今回の騒動に全面バックアップしてるらしいんです。",
+	OutputLine(NULL, "これが今回の騒動を全面バックアップしてるらしいんです。",
 		   NULL, " It would seem that they're providing full support in these recent incidents. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300064", 128, TRUE);
@@ -4123,7 +4123,7 @@ void main()
 		   NULL, " The treasurer is Oryou Sonozaki, the auditor is Makino. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300067", 128, TRUE);
-	OutputLine(NULL, "共闘部長が公由義郎氏、広報部長が園崎（禎）氏…、」",
+	OutputLine(NULL, "共闘部長が公由義郎氏、広報部長が園崎禎夫氏…、」",
 		   NULL, "The liaison is Yoshiroshi Kimiyoshi, the PR Head is Sadao Sonozaki...\"", Line_Normal);
 	ClearMessage();
 
@@ -4320,9 +4320,9 @@ void main()
 
 //　暑苦しくて嫌だが、大石氏の忠告は多分、的を得ている＠……そう思い、ありがたく身に付けることにする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　暑苦しくて嫌だが、大石氏の忠告は多分、的を得ている。",
+	OutputLine(NULL, "　暑苦しくて嫌だが、大石氏の忠告は多分、的を射ている。",
 		   NULL, "I didn't want to get all hot and stuffy, but Ooishi's warning was probably right on the money.", Line_WaitForInput);
-	OutputLine(NULL, "……そう思い、ありがたく身に付けることにする。",
+	OutputLine(NULL, "……そう思い、ありがたく身に着けることにする。",
 		   NULL, " ...Considering that, I put them on with appreciation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -4408,7 +4408,7 @@ void main()
 
 //　大石の問いかけに応えることは守秘義務違反になる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　大石の問いかけに応えることは守秘義務違反になる。",
+	OutputLine(NULL, "　大石の問いかけに答えることは守秘義務違反になる。",
 		   NULL, "If I responded to Ooishi's question it'd be a breach of security.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -4533,7 +4533,7 @@ void main()
 
 //『恥を知れ傀儡県知事！　打倒＊＊！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『恥を知れ傀儡県知事！　打倒＊＊！』",
+	OutputLine(NULL, "『恥を知れ傀儡県知事！　打倒中央集権体制！』",
 		   NULL, "\"Overthrow the Shameless Puppet of a Governor!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -4575,8 +4575,8 @@ void main()
 
 //『＊＊所長は談判に臨め！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『＊＊所長は談判に臨め！』",
-		   NULL, "\"The Office Manager XX Must Negotiate With Us!\"", Line_Normal);
+	OutputLine(NULL, "『工事責任者所長は談判に臨め！』",
+		   NULL, "\"The Construction Office Manager Must Negotiate With Us!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -5390,6 +5390,8 @@ void main()
 		   NULL, " Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
 
+// …話によれば園崎お魎という御仁は、この地方では園崎明王などと呼ばれるくらいにその発言には影響力があるそうだ。
+// Rumor has it that Sonozaki Oryou's word has such influence in the region she's given names like Wisdom Queen Sonozaki.
 
 //「つまり、…その人物が、鬼ヶ淵死守同盟の事実上のトップということですね？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -5849,7 +5851,9 @@ void main()
 //　……だが、この老獪な男に限って、とても口上通りの善意で協力を申し出ているとは思い難い￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、この老獪な男に限って、とても口上通りの善意で協力を申し出ているとは思い難い。",
-		   NULL, "...However, I had trouble believing that this crafty old man would simply help me just like he claimed.", Line_Normal);
+		   NULL, "...However, I had trouble believing that this crafty old man would simply help me just like he claimed.", Line_WaitForInput);
+	OutputLine(NULL, "　さて、どうしたものか…。",
+		   NULL, " Now, how should I go about this....", Line_Normal);
 	ClearMessage();
 
 
