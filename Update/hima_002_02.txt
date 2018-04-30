@@ -431,7 +431,7 @@ void main()
 	OutputLine(NULL, "　お客人たちのような、他所に住んでいる方々には関係ねぇこってす。",
 		   NULL, " It's nothing that concerns guests that make their home somewhere else.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100073", 128, TRUE);
-	OutputLine(NULL, "雛見沢を気に入ってくださったんなら、…お客人のお友達みんなにも、雛見沢が素晴らしいところだって宣伝して下さい。",
+	OutputLine(NULL, "雛見沢さ気に入ってくださったんなら、…お客人のお友達みんなにも、雛見沢さ素晴らしいところだって宣伝して下さい。",
 		   NULL, " If you enjoy it here... please tell all your friends that Hinamizawa is a wonderful place, please. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100074", 128, TRUE);
@@ -516,7 +516,7 @@ void main()
 	OutputLine(NULL, "「いんえぇ…。",
 		   NULL, "\"No...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100076", 128, TRUE);
-	OutputLine(NULL, "…そんなにお気にされないで下さい…。」",
+	OutputLine(NULL, "…そんなにお気にされないで下せぇ…。」",
 		   NULL, " Don't worry that much about it...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -559,7 +559,7 @@ void main()
 	OutputLine(NULL, "　そんな話はこれくらいにしましょう。",
 		   NULL, " Let's leave the talk at that for now.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100079", 128, TRUE);
-	OutputLine(NULL, "本当にとても景色のいいところがあるんです！」",
+	OutputLine(NULL, "本当にとても景色さいいところがあるんです！」",
 		   NULL, " There's a place around here with a really great view!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1190,7 +1190,7 @@ void main()
 
 //　少女は、……答えようとしたが、………まるでうまい言葉が見つからないかのように、口に出しかけた言葉を飲み込んでしまう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　少女は、……答えようとしたが、………まるでうまい言葉が見つからないかのように、口に出しかけた言葉を飲み込んでしまう。",
+	OutputLine(NULL, "　少女は、……答えようとしたが、………まるでうまい言葉が見つからないかのように、口に出しかけた言葉を呑み込んでしまう。",
 		   NULL, "She seemed to want to answer, but as though unable to find the right words, she swallowed back what she was about to say.", Line_Normal);
 	ClearMessage();
 
