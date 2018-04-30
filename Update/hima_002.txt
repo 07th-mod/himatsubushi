@@ -2487,7 +2487,7 @@ void main()
 //「そんりゃ梨花ちゃま、境内からの景色を置いて、他にゃありませんやね～！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100060", 128, TRUE);
-	OutputLine(NULL, "「そんりゃ梨花ちゃま、境内からの景色を置いて、他にゃありませんやね〜！」",
+	OutputLine(NULL, "「そんりゃ梨花ちゃま、境内からの景色さ措いて、他にゃありませんやね〜！」",
 		   NULL, "\"Well Rika-chama, where else could it be but the view from around the shrine?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
