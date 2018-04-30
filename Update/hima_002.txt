@@ -309,7 +309,7 @@ void main()
 	OutputLine(NULL, "もうすぐ廃線になっちまうそうですがね。",
 		   NULL, " The route is going to be discontinued soon, though.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100014", 128, TRUE);
-	OutputLine(NULL, "それでいらっしゃい。",
+	OutputLine(NULL, "そんでいらっしゃい。",
 		   NULL, " You can take that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100015", 128, TRUE);
 	OutputLine(NULL, "興宮の駅から出ますよ。」",
@@ -334,7 +334,7 @@ void main()
 	OutputLine(NULL, "「あんた、いつ来ます？",
 		   NULL, "\"When will you be coming?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100017", 128, TRUE);
-	OutputLine(NULL, "　雛見沢は初めて？",
+	OutputLine(NULL, "　雛見沢さ初めて？",
 		   NULL, " Is it your first time in Hinamizawa?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100018", 128, TRUE);
 	OutputLine(NULL, "　初めての土地じゃあ、いろいろとご不安でしょ。",
@@ -362,7 +362,7 @@ void main()
 	OutputLine(NULL, "　気にせんで下さい。",
 		   NULL, " Don't worry about it.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100022", 128, TRUE);
-	OutputLine(NULL, "これも、村の自然さ守るためのＰＲなんですから〜。」",
+	OutputLine(NULL, "こんれも、村の自然さ守るためのＰＲなんですから〜。」",
 		   NULL, " That's just a bit of PR we do, to protect nature around the village~.\"", Line_Normal);
 	ClearMessage();
 
@@ -582,14 +582,14 @@ void main()
 
 //『本路線は、×月×日をもって廃線となります＠これまでのご利用、誠にありがとうございました＠今後とも、在来線に変わらぬご愛顧をよろしくお願いいたします＠××交通＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『本路線は、×月×日をもって廃線となります。",
-		   NULL, "\"This route will be discontinued on the XXth of XX.", Line_WaitForInput);
+	OutputLine(NULL, "『本路線は、本年度をもって廃線となります。",
+		   NULL, "\"This route will be discontinued at the end of this financial year.", Line_WaitForInput);
 	OutputLine(NULL, "これまでのご利用、誠にありがとうございました。",
 		   NULL, " Thank you for your patronage up to this point.", Line_WaitForInput);
 	OutputLine(NULL, "今後とも、在来線に変わらぬご愛顧をよろしくお願いいたします。",
 		   NULL, " We look forward to your continued patronage on our other lines.", Line_WaitForInput);
-	OutputLine(NULL, "××交通』",
-		   NULL, " XX Transportation.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "興宮交通』",
+		   NULL, " Okinomiya Transportation.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -739,7 +739,7 @@ void main()
 
 //　都会者が田舎を保養地を見下し、のこのことやって来たような服装そのものだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　都会者が田舎を保養地を見下し、のこのことやって来たような服装そのものだ。",
+	OutputLine(NULL, "　都会者が田舎を保養地と見下し、のこのことやって来たような服装そのものだ。",
 		   NULL, "It was exactly the type of clothing that a city slicker that viewed the countryside as a wholesome getaway would wear.", Line_Normal);
 	ClearMessage();
 
@@ -1576,7 +1576,7 @@ void main()
 //「どぅもごんにちわ～＠　遅れて申し訳ないこってす＠　昨日、お電話を下さった観光の方ですかねぇ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100023", 128, TRUE);
-	OutputLine(NULL, "「どぅもごんにちわ〜！",
+	OutputLine(NULL, "「どぅもこんにちわ〜！",
 		   NULL, "\"Hi there, good afternoon~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100024", 128, TRUE);
 	OutputLine(NULL, "　遅れて申し訳ないこってす！",
@@ -1626,10 +1626,10 @@ void main()
 	OutputLine(NULL, "「ここいらは崩れると早いんよ〜。",
 		   NULL, "\"It changes fast around here~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100031", 128, TRUE);
-	OutputLine(NULL, "今日も夕立になるんかもなぁ。",
+	OutputLine(NULL, "今日も夕立になるかもなぁ。",
 		   NULL, " There'll probably be evening showers again today.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100032", 128, TRUE);
-	OutputLine(NULL, "そうなったら、あんた写真撮るとこじゃなくなるでしょ。",
+	OutputLine(NULL, "そうなったら、あんた写真さ撮るところじゃなくなるでしょ。",
 		   NULL, " If that happens, you won't be able to take any pictures.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100033", 128, TRUE);
 	OutputLine(NULL, "ほら、乗って乗って。」",
@@ -1893,10 +1893,10 @@ void main()
 	OutputLine(NULL, "「すっかたなかんとー…。",
 		   NULL, "\"Nothing I can do, I guess.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100041", 128, TRUE);
-	OutputLine(NULL, "梨花ちゃまは、駄目だ言っても聞かんしなぁ。",
+	OutputLine(NULL, "梨花ちゃまは、駄目だ言うても聞かんしなぁ。",
 		   NULL, " Rika-chama never listens even if you say no.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100042", 128, TRUE);
-	OutputLine(NULL, "……すったらんと、お乗り下さい。",
+	OutputLine(NULL, "……すったらんと、お乗り下せぇ。",
 		   NULL, " ...Come on, hop on in.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100043", 128, TRUE);
 	OutputLine(NULL, "ささ、梨花ちゃまも。」",
@@ -1933,7 +1933,7 @@ void main()
 	OutputLine(NULL, "「こんれ、梨花ちゃま！",
 		   NULL, "\"Come on now, Rika-chama!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100045", 128, TRUE);
-	OutputLine(NULL, "　それじゃあ、お客人が座れねぇですよ！！",
+	OutputLine(NULL, "　そんじゃあ、お客人が座れねぇですよ！！",
 		   NULL, " If you're like that our guest can't sit down!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100046", 128, TRUE);
 	OutputLine(NULL, "　こら、梨花ちゃま…！！」",
@@ -2001,7 +2001,7 @@ void main()
 //「そんれではお客さん、風景の綺麗そうなところに適当にご案内しますよ＠お昼は食べましたかぃね？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100047", 128, TRUE);
-	OutputLine(NULL, "「そんれではお客さん、風景の綺麗そうなところに適当にご案内しますよ。",
+	OutputLine(NULL, "「そんではお客さん、風景の綺麗そうなところに適当にご案内しますよ。",
 		   NULL, "\"Well then sir, I'll show you around some places that I think look nice.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100048", 128, TRUE);
 	OutputLine(NULL, "お昼は食べましたかぃね？」",
@@ -2376,7 +2376,7 @@ void main()
 
 //　………まったくにもって牧野氏の言うとおりだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　………まったくにもって牧野氏の言うとおりだった。",
+	OutputLine(NULL, "　………まったくもって牧野氏の言うとおりだった。",
 		   NULL, "...It was exactly how Makino said.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -2454,7 +2454,7 @@ void main()
 //「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>牧野</color>", NULL, "<color=#f5e6d3>Makino</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100059", 128, TRUE);
-	OutputLine(NULL, "「んじゃあ、最後に一番、景色のいいとこ案内しましょかねぇ！」",
+	OutputLine(NULL, "「んじゃあ、最後に一番、景色のいいとこさ案内しましょかねぇ！」",
 		   NULL, "\"Well then, for our last stop, I'll take you to the place with the best view!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2533,7 +2533,7 @@ void main()
 	OutputLine(NULL, "…高台にありましてねぇ。",
 		   NULL, " There's an observation platform.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104100064", 128, TRUE);
-	OutputLine(NULL, "いい〜景色が見れるんですよ！」",
+	OutputLine(NULL, "いい〜景色さ見れるんですよ！」",
 		   NULL, " You can see some real pretty scenery!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
