@@ -302,7 +302,7 @@ void main()
 
 //『対岸の火事』って言葉くらい、あなただって聞いたことがあるでしょう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『対岸の火事』って言葉くらい、あなただって聞いたことがあるでしょう。",
+	OutputLine(NULL, "「対岸の火事」って言葉くらい、あなただって聞いたことがあるでしょう。",
 		   NULL, "You've probably heard the phrase \"a fire on the opposite shore\" sometime in your life, no?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 

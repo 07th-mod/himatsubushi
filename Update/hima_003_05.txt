@@ -464,7 +464,7 @@ void main()
 	OutputLine(NULL, "「……雛見沢村の唯一で一番のお祭り。",
 		   NULL, "\"...The best and only festival in Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500154", 128, TRUE);
-	OutputLine(NULL, "…『綿流し』のお祭りです。」",
+	OutputLine(NULL, "…「綿流し」のお祭りです。」",
 		   NULL, " ...the Watanagashi festival.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 

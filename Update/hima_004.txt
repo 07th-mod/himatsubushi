@@ -144,7 +144,7 @@ void main()
 	OutputLine(NULL, "「うんっ。",
 		   NULL, "\"Of course.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 34, "ps3/s05/34/321500027", 128, TRUE);
-	OutputLine(NULL, "えへへっ～」",
+	OutputLine(NULL, "えへへっ〜」",
 		   NULL, " Ehehe~\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -163,10 +163,10 @@ void main()
 //  美雪rvs05/34/321500028.「わぁ～、北海道だぁ。kvs05/34/321500029.でっかいどー、ほっかいど～♪」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 34, "ps3/s05/34/321500028", 128, TRUE);
-	OutputLine(NULL, "「わぁ～、北海道だぁ。",
+	OutputLine(NULL, "「わぁ〜、北海道だぁ。",
 		   NULL, "\"Wow~, it's Hokkaido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 34, "ps3/s05/34/321500029", 128, TRUE);
-	OutputLine(NULL, "でっかいどー、ほっかいど～♪」",
+	OutputLine(NULL, "でっかいどー、ほっかいど〜♪」",
 		   NULL, " Hokkaido is so big~♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -433,13 +433,13 @@ void main()
 
 //　r…後で聞いた話だと、美雪は『知らないおじさんには注意しなさい』と私が以前にいった言葉をそのまま、実行していたらしい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "…後で聞いた話だと、美雪は『知らないおじさんには注意しなさい』と私が以前にいった言葉をそのまま、実行していたらしい。",
+	OutputLine(NULL, "…後で聞いた話だと、美雪は「知らないおじさんには注意しなさい」と私が以前にいった言葉をそのまま、実行していたらしい。",
 		   NULL, "...Shortly afterwards, Miyuki told me that she was just doing what I had told her to do, \"Be careful around strangers.\"", Line_Normal);
 	ClearMessage();
 
 //　rそれを聞いた大石氏は非常にウケたらしく、『わっはっはっはっ！！』と道中身体を揺らしながら大笑いしていた…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "それを聞いた大石氏は非常にウケたらしく、『わっはっはっはっ！！』と道中身体を揺らしながら大笑いしていた…。",
+	OutputLine(NULL, "それを聞いた大石氏は非常にウケたらしく、「わっはっはっはっ！！」と道中身体を揺らしながら大笑いしていた…。",
 		   NULL, "Ooishi overheard that and let out a hearty \"Wa ha ha ha!!\" shaking his body while laughing and walking...", Line_Normal);
 	ClearMessage();
 
@@ -904,7 +904,7 @@ void main()
 
 //　義父や看護婦から聞かされていただけだ＠…なぜなら、私が見舞いに訪れている時は、一緒に過していて屋上に行かないから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　義父や看護婦から聞かされていただけだ。",
+	OutputLine(NULL, "　義父や看護師から聞かされていただけだ。",
 		   NULL, "I only heard that from her father and the nurses.", Line_WaitForInput);
 	OutputLine(NULL, "…なぜなら、私が見舞いに訪れている時は、一緒に過していて屋上に行かないから。",
 		   NULL, " ...That was because whenever I visited her, she would spend that time with me instead.", Line_Normal);
@@ -913,7 +913,7 @@ void main()
 
 //　雪絵が屋上へ上がる理由を、…親しくなった看護婦が聞いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　雪絵が屋上へ上がる理由を、…親しくなった看護婦が聞いた。",
+	OutputLine(NULL, "　雪絵が屋上へ上がる理由を、…親しくなった看護師が聞いた。",
 		   NULL, "I heard the reason why Yukie went up to the roof from a nurse she had become friendly with.", Line_Normal);
 	ClearMessage();
 
@@ -2227,7 +2227,7 @@ void main()
 //「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです＠……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 240, TRUE);
-	OutputLine(NULL, "「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
+	OutputLine(NULL, "「雛見沢村のお祭りの「綿流し」ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
 		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting',  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
 	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 240, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4116,7 +4116,7 @@ void main()
 
 //　r私には、『彼女』の声が確かに、…確かに聞こえたような気がした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "私には、『彼女』の声が確かに、…確かに聞こえたような気がした。",
+	OutputLine(NULL, "私には、「彼女」の声が確かに、…確かに聞こえたような気がした。",
 		   NULL, "That was her voice... I'm certain I heard it.", Line_Normal);
 	ClearMessage();
 
@@ -4185,7 +4185,7 @@ void main()
 //  美雪rvs05/34/321500041.「へぇ～！kvs05/34/321500042.　じゃあ美雪、その子とお友達になりたい！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#aa886c>美雪</color>", NULL, "<color=#aa886c>Miyuki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 34, "ps3/s05/34/321500041", 128, TRUE);
-	OutputLine(NULL, "「へぇ～！",
+	OutputLine(NULL, "「へぇ〜！",
 		   NULL, "\"Hee~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 34, "ps3/s05/34/321500042", 128, TRUE);
 	OutputLine(NULL, "　じゃあ美雪、その子とお友達になりたい！」",
@@ -4388,7 +4388,7 @@ void main()
 
 //　『ひぐらしのなく頃に￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　『ひぐらしのなく頃に』",
+	OutputLine(NULL, "　「ひぐらしのなく頃に」",
 		   NULL, "\"Higurashi - When They Cry\"", Line_Normal);
 	ClearMessage();
 

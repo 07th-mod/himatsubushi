@@ -1180,7 +1180,7 @@ void main()
 	if(GetGlobalFlag(GCensor) <= 3){ModCallScriptSection("hima_002_03_vm00_n01","dialog009");}
 	//VoiceMatchingEnd
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700267", 128, TRUE);
-	OutputLine(NULL, "　アケミちゃ～～ん！！！",
+	OutputLine(NULL, "　アケミちゃ〜〜ん！！！",
 		   NULL, " Akemi-chaaaan!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700268", 128, TRUE);
 	OutputLine(NULL, "　むっはっはっはっは！！",

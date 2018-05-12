@@ -582,13 +582,13 @@ void main()
 
 //『本路線は、×月×日をもって廃線となります＠これまでのご利用、誠にありがとうございました＠今後とも、在来線に変わらぬご愛顧をよろしくお願いいたします＠××交通＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『本路線は、本年度をもって廃線となります。",
+	OutputLine(NULL, "「本路線は、本年度をもって廃線となります。",
 		   NULL, "\"This route will be discontinued at the end of this financial year.", Line_WaitForInput);
 	OutputLine(NULL, "これまでのご利用、誠にありがとうございました。",
 		   NULL, " Thank you for your patronage up to this point.", Line_WaitForInput);
 	OutputLine(NULL, "今後とも、在来線に変わらぬご愛顧をよろしくお願いいたします。",
 		   NULL, " We look forward to your continued patronage on our other lines.", Line_WaitForInput);
-	OutputLine(NULL, "興宮交通』",
+	OutputLine(NULL, "興宮交通」",
 		   NULL, " Okinomiya Transportation.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -633,7 +633,7 @@ void main()
 //『宇喜田水道前～＠宇喜田水道前～、!w1000お降りの方はいらっしゃいませんか～。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>バスアナウンス</color>", NULL, "<color=#f5e6d3>Bus Announcer</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/bus1000001", 128, TRUE);
-	OutputLine(NULL, "『宇喜田水道前〜。",
+	OutputLine(NULL, "「宇喜田水道前〜。",
 		   NULL, "\"Now arriving at Ukita Waterworks~.", Line_Continue);
 	OutputLine(NULL, "宇喜田水道前〜、",
 		   NULL, " Now arriving at Ukita Waterworks~.", Line_Continue);
@@ -642,7 +642,7 @@ void main()
 	Wait( 2500 );
 	SetValidityOfInput( TRUE );
 
-	OutputLine(NULL, "お降りの方はいらっしゃいませんか〜。』",
+	OutputLine(NULL, "お降りの方はいらっしゃいませんか〜。」",
 		   NULL, " Are there any passengers disembarking?\"", Line_Normal);
 	ClearMessage();
 

@@ -12,7 +12,7 @@ void dialog000()
 	OutputLine(NULL, "「赤坂さんは持ってるんですか？",
 		   NULL, "\"Akasaka-san, are you carrying one?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700415", 128, TRUE);
-	OutputLine(NULL, "　『コレ』。」",
+	OutputLine(NULL, "　「コレ」。」",
 		   NULL, " One of these.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

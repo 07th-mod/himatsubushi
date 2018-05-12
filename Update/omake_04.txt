@@ -33,7 +33,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700421", 128, TRUE);
-	OutputLine(NULL, "「この度は『ひぐらしのなく頃に〜暇潰し編〜』をプレイして下さり、誠にありがとうございます。",
+	OutputLine(NULL, "「この度は「ひぐらしのなく頃に〜暇潰し編〜」をプレイして下さり、誠にありがとうございます。",
 		   NULL, "\"Thank you for very much for playing Higurashi When They Cry ~Himatsubushi~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700422", 128, TRUE);
 	OutputLine(NULL, "むっふっふっふ！」",
@@ -1271,7 +1271,7 @@ void main()
 	OutputLine(NULL, "「ご…ごめんね、竜宮さん。",
 		   NULL, "\"I-I'm sorry, Ryuugu-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400041", 128, TRUE);
-	OutputLine(NULL, "……詩音さんが、次回のシナリオからは、『教えて！　知恵先生』のコーナーを作ってくれるっていうから…つい…。」",
+	OutputLine(NULL, "……詩音さんが、次回のシナリオからは、「教えて！　知恵先生」のコーナーを作ってくれるっていうから…つい…。」",
 		   NULL, " ...Shion-san said she would make me a new segment called 'Teach me! Chie-sensei' starting from the next scenario... so I just...\"", Line_Normal);
 	ClearMessage();
 
@@ -2448,14 +2448,14 @@ void main()
 		   NULL, " Also, if you were expecting help from the Principal, that's too bad!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100274", 128, TRUE);
-	OutputLine(NULL, "　『男子本懐ここに極まれり！",
+	OutputLine(NULL, "　「男子本懐ここに極まれり！",
 		   NULL, "'This is the ultimate desire of young men!", Line_WaitForInput);
 
 	PlaySE( 3, "wa_011", 128, 64 );
 
 //　漢たるもの最善を尽くすべし！』とお墨付きがちゃんとあるのだ～～！！＠
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100275", 128, TRUE);
-	OutputLine(NULL, "　漢たるもの最善を尽くすべし！』とお墨付きがちゃんとあるのだ〜〜！！！",
+	OutputLine(NULL, "　漢たるもの最善を尽くすべし！」とお墨付きがちゃんとあるのだ〜〜！！！",
 		   NULL, " If you call yourself a man, do your best!' is written on this nice little authorization slip here!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2642,7 +2642,7 @@ void main()
 	OutputLine(NULL, "改めましてこんにちは。",
 		   NULL, " Hello again.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200339", 128, TRUE);
-	OutputLine(NULL, "この度は『ひぐらしのなく頃に〜暇潰し編〜』をお楽しみ下さり、誠にありがとうございました。」",
+	OutputLine(NULL, "この度は「ひぐらしのなく頃に〜暇潰し編〜」をお楽しみ下さり、誠にありがとうございました。」",
 		   NULL, " Thank you very much for playing Higurashi When They Cry ~Himatsubushi~.\"", Line_Normal);
 	ClearMessage();
 
@@ -2652,7 +2652,7 @@ void main()
 //「もうすでにご存知と思いますが、『ひぐらしのなく頃に』は選択肢のないタイプのサウンドノベルです＠ですので、選択肢を選ぶＡＤＶ的なサウンドノベルに比べると、小説や映画に近いセンスだったと思います＠…その意味において、ゲームと呼ぶべきではないのではないか、というご意見を頂戴することもあります。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200340", 128, TRUE);
-	OutputLine(NULL, "「もうすでにご存知と思いますが、『ひぐらしのなく頃に』は選択肢のないタイプのサウンドノベルです。",
+	OutputLine(NULL, "「もうすでにご存知と思いますが、「ひぐらしのなく頃に」は選択肢のないタイプのサウンドノベルです。",
 		   NULL, "\"I think you already know this, but Higurashi When They Cry is a type of visual novel without any choices. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200341", 128, TRUE);
@@ -2668,7 +2668,7 @@ void main()
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
 	//PlaySE(4, "s20/02/440200343", 128, 64);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません。",
+	OutputLine(NULL, "「小説や映画のように、観劇するだけならば「ひぐらしのなく頃に」は、ゲームとはなりません。",
 		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", GetGlobalFlag(GLinemodeSp));
 	//PlaySE(4, "s20/02/440200344", 128, 64);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -2731,7 +2731,7 @@ void main()
 
 //『目明し編（仮称）』となります＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "『目明し編（仮称）』となります。",
+	OutputLine(NULL, "「目明し編（仮称）」となります。",
 		   NULL, "We've tentatively called it 'Meakashi'.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2745,7 +2745,7 @@ void main()
 
 //「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、『ひぐらしのなく頃に』という作品を、一番楽しむことができる場所におられると思います。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、『ひぐらしのなく頃に』という作品を、一番楽しむことができる場所におられると思います。」",
+	OutputLine(NULL, "「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、「ひぐらしのなく頃に」という作品を、一番楽しむことができる場所におられると思います。」",
 		   NULL, "\"Based on that logic, we think that right here, before the answer arcs, is probably where people can enjoy this work we call Higurashi When They Cry the most.\"", Line_Normal);
 	ClearMessage();
 
@@ -2754,7 +2754,7 @@ void main()
 
 //「もしも、ここをお読みの時点で、すでに『目明し編』のシナリオがお手元にあるならば＠どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです＠…その余地こそが、一番の醍醐味なのですから。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「もしも、ここをお読みの時点で、すでに『目明し編』のシナリオがお手元にあるならば。",
+	OutputLine(NULL, "「もしも、ここをお読みの時点で、すでに「目明し編」のシナリオがお手元にあるならば。",
 		   NULL, "\"If by chance, while you are reading this, you already have the Meakashi chapter at hand,", Line_WaitForInput);
 	OutputLine(NULL, "どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです。",
 		   NULL, " please enjoy hypothesizing, theorizing and fantasizing to the fullest before you start. ", GetGlobalFlag(GLinemodeSp));
@@ -2772,7 +2772,7 @@ void main()
 		   NULL, "\"...Ahaha.", Line_WaitForInput);
 	OutputLine(NULL, "厚かましいことを言ってしまい、申し訳ありませんでした。",
 		   NULL, " Sorry for saying something so impudent.", Line_WaitForInput);
-	OutputLine(NULL, "『ひぐらしのなく頃に』をお楽しみいただけたなら、それに勝る喜びはありません。」",
+	OutputLine(NULL, "「ひぐらしのなく頃に」をお楽しみいただけたなら、それに勝る喜びはありません。」",
 		   NULL, " There's nothing better we'd like than for you to enjoy Higurashi When They Cry.\"", Line_Normal);
 	ClearMessage();
 

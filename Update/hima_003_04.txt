@@ -1569,7 +1569,7 @@ void main()
 
 //　この電話が壊れてるから見て下さいと言ったところで、どうにもならないことに気付き、その言葉を飲み込んだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　この電話が壊れてるから見て下さいと言ったところで、どうにもならないことに気付き、その言葉を飲み込んだ。",
+	OutputLine(NULL, "　この電話が壊れてるから見て下さいと言ったところで、どうにもならないことに気付き、その言葉を呑み込んだ。",
 		   NULL, "Realizing that saying the phone was broken and asking them to take a look at it was going to get me nowhere, I swallowed back my words.", Line_Normal);
 	ClearMessage();
 

@@ -274,7 +274,7 @@ void dialog014()
 
 	SetSpeedOfMessage( TRUE, 127, );
 
-	OutputLine(NULL, "『生本番！！　沙都子メイド調教、着せ替え編』の主役は",
+	OutputLine(NULL, "「生本番！！　沙都子メイド調教、着せ替え編」の主役は",
 		   NULL, " 'Live Performance!! Satoko's Maid Training, Dress-up Chapter'", Line_Continue);
 
 

@@ -612,7 +612,7 @@ void main()
 
 //　彼らのしているタスキに、『ダム計画断固粉砕！』等の過激な文句が入ってなかったら、ただののんびりした、ご近所の老人たちの雑談にしか見えない＠…そんなのどかな風景だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　彼らのしているタスキに、『ダム計画断固粉砕！』等の過激な文句が入ってなかったら、ただののんびりした、ご近所の老人たちの雑談にしか見えない。",
+	OutputLine(NULL, "　彼らのしているタスキに、「ダム計画断固粉砕！」等の過激な文句が入ってなかったら、ただののんびりした、ご近所の老人たちの雑談にしか見えない。",
 		   NULL, "They weren't saying anything incendiary, like \"The Dam Project Must Be Destroyed!\"--it was just some relaxed idle chit-chat between local geezers.", Line_WaitForInput);
 	OutputLine(NULL, "…そんなのどかな風景だった。",
 		   NULL, " ...The normal sort of calming scenery.", Line_Normal);
@@ -624,7 +624,7 @@ void main()
 
 //　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、『鬼ヶ淵死守同盟本部』と、大層立派な筆文字が描かれていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、『鬼ヶ淵死守同盟本部』と、大層立派な筆文字が描かれていた。",
+	OutputLine(NULL, "　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、「鬼ヶ淵死守同盟本部」と、大層立派な筆文字が描かれていた。",
 		   NULL, "...At the entrance of a shed that looked like a meeting place, there was a large sign erected, with 'Onigafuchi Defense Alliance Headquarters' written in bold brush strokes.", Line_Normal);
 	ClearMessage();
 

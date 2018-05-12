@@ -685,7 +685,7 @@ void main()
 	OutputLine(NULL, "「村に仇なす大臣の孫が、オヤシロさまの怒りに触れ、…えっと、何て言いましたっけ。",
 		   NULL, "\"The grandson of the Minister who trifled with the village, as a result of Oyashiro-sama's anger, was... hmm... what did they call it again?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300496", 128, TRUE);
-	OutputLine(NULL, "そう、『鬼隠し』。",
+	OutputLine(NULL, "そう、「鬼隠し」。",
 		   NULL, " Oh, right. 'Onikakushi'.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300497", 128, TRUE);
 	OutputLine(NULL, "大臣の孫を鬼隠しにしたと。",

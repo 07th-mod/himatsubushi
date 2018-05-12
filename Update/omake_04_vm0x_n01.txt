@@ -12,7 +12,7 @@ void dialog000()
 	OutputLine(NULL, "「全員動くなでございましてよーッ！！",
 		   NULL, "\"Nobody move!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400247", 128, TRUE);
-	OutputLine(NULL, "　ヘンな動きをしますと、バルカン一斉射撃から誘導ミサイル連射、そしてとどめにレーザーサーベルめった斬りをお見舞いしましてよ～！！」",
+	OutputLine(NULL, "　ヘンな動きをしますと、バルカン一斉射撃から誘導ミサイル連射、そしてとどめにレーザーサーベルめった斬りをお見舞いしましてよ〜！！」",
 		   NULL, " Any weird movements, and you'll come face-to-face with synchronized Gatling guns, multiple homing missiles, and be cut up by laser sabers for the finisher!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
@@ -121,7 +121,7 @@ void dialog005()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100224", 128, TRUE);
-	OutputLine(NULL, "「収録居残りのたびに、『残りワード数で誰かを抜けば、お疲れさま会に参加してもいいよ』と言われ続けて。」",
+	OutputLine(NULL, "「収録居残りのたびに、「残りワード数で誰かを抜けば、お疲れさま会に参加してもいいよ」と言われ続けて。」",
 		   NULL, "\"Every time I get left at the studio, I get told 'you can join the afterparty if you beat someone on the remaining word count'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -176,7 +176,7 @@ void dialog005()
 	OutputLine(NULL, "「うっ、……嘘ぉっ？！",
 		   NULL, "\"N- No way?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600177", 128, TRUE);
-	OutputLine(NULL, "　私、次の『目明し』でこんなに喋るんですかぁぁあっ？！」",
+	OutputLine(NULL, "　私、次の「目明し」でこんなに喋るんですかぁぁあっ？！」",
 		   NULL, " I have to speak this much for Meakashi?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -254,7 +254,7 @@ void dialog007()
 	OutputLine(NULL, "　いけない！！",
 		   NULL, " No!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900156", 128, TRUE);
-	OutputLine(NULL, "　あれは『赤坂編』の収録ワード数表！！！",
+	OutputLine(NULL, "　あれは「赤坂編」の収録ワード数表！！！",
 		   NULL, " That's the voiced word count from Akasaka's part!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900157", 128, TRUE);
 	OutputLine(NULL, "　知恵先生、レナちゃんを取り押さえて！！」",
@@ -320,7 +320,7 @@ void dialog011()
 
 //　いっそ、みんな全裸にしちゃうってのはどうでしょう～～！！＠　も、もちろん、靴下は残すのでありまっす！！！￥
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000116", 128, TRUE);
-	OutputLine(NULL, "　いっそ、みんなお色気全かぁ～い☆にしちゃうってのはどうでしょう～～！！！",
+	OutputLine(NULL, "　いっそ、みんなお色気全かぁ〜い☆にしちゃうってのはどうでしょう〜〜！！！",
 		   NULL, " How about just about making everybody hyper sexy!!!", Line_Continue);
 
 	PlaySE( 3, "wa_012", 128, 64 );
@@ -341,7 +341,7 @@ void dialog012()
 	OutputLine(NULL, "「…甘いですね圭ちゃん。",
 		   NULL, "\"...You're so naive, Kei-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600182", 128, TRUE);
-	OutputLine(NULL, "安易に闇の世界を生み出して、『妄想全開スチャラカ万歳！』ってやってしまうと、とある誰かも真の姿を現すことが可能になるのです。",
+	OutputLine(NULL, "安易に闇の世界を生み出して、「妄想全開スチャラカ万歳！」ってやってしまうと、とある誰かも真の姿を現すことが可能になるのです。",
 		   NULL, " If you carelessly bring about the dark world and fully welcome silly fantasies, a certain somebody will be able to reveal their true form.", Line_WaitForInput);
 }
 
@@ -372,7 +372,7 @@ void dialog014()
 
 	SetSpeedOfMessage( TRUE, 127, );
 
-	OutputLine(NULL, "『実録！！　沙都子メイド教育、着せ替え編』の主役は",
+	OutputLine(NULL, "「実録！！　沙都子メイド教育、着せ替え編」の主役は",
 		   NULL, " 'Documentary!! Satoko's Maid Training, Dress-up Chapter'", Line_Continue);
 
 

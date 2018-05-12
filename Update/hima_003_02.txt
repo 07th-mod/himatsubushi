@@ -1533,14 +1533,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500105", 128, TRUE);
-	OutputLine(NULL, "『……警告したのに。",
+	OutputLine(NULL, "「……警告したのに。",
 		   NULL, "\"...Even though I warned you.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1500 );
 	// (backup) SetValidityOfInput( TRUE );
 
-	OutputLine(NULL, "……ばかなヤツ。』",
+	OutputLine(NULL, "……ばかなヤツ。」",
 		   NULL, " ...What a fool.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 

@@ -58,13 +58,13 @@ void dialog005()
 //「まぁ～そりゃあ、ちょびっとね＠なぁに、お遊び程度の額ですよ＠誰が払ったにせよ、そのお金でこの後はい～いお店に遊びに行くのに使いますよ～～＠　むっふっふっふっふ～～！！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700257", 128, TRUE);
-	OutputLine(NULL, "「まぁ～それは言いっこ無しで。",
+	OutputLine(NULL, "「まぁ〜それは言いっこ無しで。",
 		   NULL, "\"Well~, let's not talk about that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700258", 128, TRUE);
 	OutputLine(NULL, "なぁに、実際には賭けるわけじゃありませんよ。",
 		   NULL, " Loosten up a bit, we won't actually gamble anything.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700259", 128, TRUE);
-	OutputLine(NULL, "この後い～いお店に遊びに行く時に、誰が全員分を払うのか決めるだけですって～～！",
+	OutputLine(NULL, "この後い〜いお店に遊びに行く時に、誰が全員分を払うのか決めるだけですって〜〜！",
 		   NULL, " We're just deciding whose going to pay for everyone at a very ni~ce place afterword~~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700260", 128, TRUE);
 	OutputLine(NULL, "　むっふっふっふっふ〜〜！！！」",
@@ -152,7 +152,7 @@ void dialog013()
 	OutputLine(NULL, "「面子にもよりましたが、歌舞伎町辺りで打つときはほぼ負けなしでした。",
 		   NULL, "\"It depends on who I was playing with, but I had an almost perfect record playing in Kabukicho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300360", 128, TRUE);
-	OutputLine(NULL, "特に、相手が『アレ』系の人のときは命かかってましたからね。」",
+	OutputLine(NULL, "特に、相手が「アレ」系の人のときは命かかってましたからね。」",
 		   NULL, " Especially since when I played against a certain crowd, my life was on the line.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
