@@ -555,7 +555,7 @@ void main()
 
 //　…『いぬがいとしき』、!w1000名札には平仮名でそう書かれていた…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…「いぬかいとしき」、",
+	OutputLine(NULL, "　…『いぬかいとしき』、",
 		   NULL, "...\"Toshiki Inugai\"...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
@@ -1115,7 +1115,7 @@ void main()
 
 //『いぬがいとしき＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「いぬかいとしき」",
+	OutputLine(NULL, "『いぬかいとしき』",
 		   NULL, "\"Toshiki Inugai\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -1147,9 +1147,13 @@ void main()
 
 
 
+
 	SetValidityOfInput( FALSE );
 	Wait( 4000 );
+	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 2, 1000, TRUE );
 	SetValidityOfInput( TRUE );
+	ModPlayMovie("mk2");
 
 //csp -1
 
@@ -4526,56 +4530,56 @@ void main()
 
 //『雛見沢ダム計画断固撤回＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「雛見沢ダム計画断固撤回」",
+	OutputLine(NULL, "『雛見沢ダム計画断固撤回』",
 		   NULL, "\"The Hinamizawa Dam Project Must Be Withdrawn\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『恥を知れ傀儡県知事！　打倒＊＊！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「恥を知れ傀儡県知事！　打倒中央集権体制！」",
+	OutputLine(NULL, "『恥を知れ傀儡県知事！　打倒中央集権体制！』",
 		   NULL, "\"Overthrow the Shameless Puppet of a Governor!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『ダムに沈めるな雛見沢の自然！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「ダムに沈めるな雛見沢の自然！」",
+	OutputLine(NULL, "『ダムに沈めるな雛見沢の自然！』",
 		   NULL, "\"The Dam Will Submerge the Natural Beauty of Hinamizawa!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『悪辣なるダムから村を守れ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「悪辣なるダムから村を守れ！」",
+	OutputLine(NULL, "『悪辣なるダムから村を守れ！』",
 		   NULL, "\"Protect the Village from the Unethical Dam!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『怨念！　オヤシロさまの祟り！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「怨念！　オヤシロさまの祟り！」",
+	OutputLine(NULL, "『怨念！　オヤシロさまの祟り！』",
 		   NULL, "\"Fear the Wrath of Oyashiro-sama's Curse!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『ダム粉砕！　役人は帰れ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「ダム粉砕！　役人は帰れ！」",
+	OutputLine(NULL, "『ダム粉砕！　役人は帰れ！』",
 		   NULL, "\"Demolish the Dam! Those Involved Must Go Away!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『建設事務所は話し合いに応じよ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「建設事務所は話し合いに応じよ！」",
+	OutputLine(NULL, "『建設事務所は話し合いに応じよ！』",
 		   NULL, "\"The Construction Office Must Respond!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『＊＊所長は談判に臨め！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「工事責任者所長は談判に臨め！」",
+	OutputLine(NULL, "『工事責任者所長は談判に臨め！』",
 		   NULL, "\"The Construction Office Manager Must Negotiate With Us!\"", Line_Normal);
 	ClearMessage();
 
@@ -5256,23 +5260,23 @@ void main()
 
 //『この先、私有地、関係者以外の立入を禁ず＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「この先、私有地、関係者以外の立入を禁ず」",
+	OutputLine(NULL, "『この先、私有地、関係者以外の立入を禁ず』",
 		   NULL, "\"Private Property Beyond. No Trespassing.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『毒ヘビ注意＠　危険、引き返せ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「毒ヘビ注意！",
+	OutputLine(NULL, "『毒ヘビ注意！",
 		   NULL, "\"Beware of Poisonous Snakes!", Line_WaitForInput);
-	OutputLine(NULL, "　危険、引き返せ！」",
+	OutputLine(NULL, "　危険、引き返せ！』",
 		   NULL, " Danger! Turn Back!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『侵入者には、入山料として金百万円の証文に捺印していただきます￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「侵入者には、入山料として金百万円の証文に捺印していただきます」",
+	OutputLine(NULL, "『侵入者には、入山料として金百万円の証文に捺印していただきます』",
 		   NULL, "\"Intruders Will Be Charged An Entry Fee of 1,000,000 yen.\"", Line_Normal);
 	ClearMessage();
 
@@ -6482,7 +6486,7 @@ void main()
 	OutputLine(NULL, "……やっぱり人食いですから、定期的に麓の村に下りてきては、獲物をさらっていったんだそうです。",
 		   NULL, "...But they ate people, after all, so apparently they'd go to villages in the foothills regularly and abduct their prey.", Line_Normal);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700194", 128, TRUE);
-	OutputLine(NULL, "……それをですね、「鬼隠し」と言いまして。」",
+	OutputLine(NULL, "……それをですね、『鬼隠し』と言いまして。」",
 		   NULL, " ...They used to call that being 'demoned away', or 'Onikakushi'.\"", Line_Normal);
 	ClearMessage();
 
@@ -6515,13 +6519,13 @@ void main()
 //「……ほら、よく世間一般に『神隠し』っていうのがあるじゃないですか＠人が、ある日突然、失踪してしまうとそう言うでしょう＠……この辺りでは同じことがあると『鬼隠し』って呼ぶんです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700195", 128, TRUE);
-	OutputLine(NULL, "「……ほら、よく世間一般に「神隠し」っていうのがあるじゃないですか。",
+	OutputLine(NULL, "「……ほら、よく世間一般に『神隠し』っていうのがあるじゃないですか。",
 		   NULL, "\"...Look, you know how there's the common phrase 'spirited away'?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700196", 128, TRUE);
 	OutputLine(NULL, "人が、ある日突然、失踪してしまうとそう言うでしょう。",
 		   NULL, " When people suddenly go missing one day, they call it that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700197", 128, TRUE);
-	OutputLine(NULL, "……この辺りでは同じことがあると「鬼隠し」って呼ぶんです。」",
+	OutputLine(NULL, "……この辺りでは同じことがあると『鬼隠し』って呼ぶんです。」",
 		   NULL, " ...When the same thing happens around here, they call it being 'demoned away'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -6586,7 +6590,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700201", 128, TRUE);
-	OutputLine(NULL, "「…この土地に「鬼隠し」という名の、失踪・誘拐を暗示するキーワードがある、ということだけは、お話しておこうと思いまして。",
+	OutputLine(NULL, "「…この土地に『鬼隠し』という名の、失踪・誘拐を暗示するキーワードがある、ということだけは、お話しておこうと思いまして。",
 		   NULL, "\"...That around here, the phrase 'demoned away' is somewhat of a code for disappearances and kidnappings. I just thought I'd mention that. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700202", 128, TRUE);
@@ -6611,14 +6615,14 @@ void main()
 
 //　人食い鬼たちが、…獲物をさらいに麓に下りてくる行為、『鬼隠し＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　人食い鬼たちが、…獲物をさらいに麓に下りてくる行為、「鬼隠し」",
+	OutputLine(NULL, "　人食い鬼たちが、…獲物をさらいに麓に下りてくる行為、『鬼隠し』",
 		   NULL, "\"Onikakushi\"... human-eating demons coming down to the foothills and abducting their prey.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　では……自分たちの住まう村を水没させようとするダム計画を撤回させるため、…その制裁として大臣の孫をさらって…『鬼隠し』にした＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　では……自分たちの住まう村を水没させようとするダム計画を撤回させるため、…その制裁として大臣の孫をさらって…「鬼隠し」にした？",
+	OutputLine(NULL, "　では……自分たちの住まう村を水没させようとするダム計画を撤回させるため、…その制裁として大臣の孫をさらって…『鬼隠し』にした？",
 		   NULL, "Then... in order to cancel the dam project that threatened to submerge the village they lived in, did they 'demon away' the minister's grandson?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
