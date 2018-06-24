@@ -1153,7 +1153,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 	SetValidityOfInput( TRUE );
-	ModPlayMovie("mk2");
+	ModPlayMovie("mv08");
 
 //csp -1
 
