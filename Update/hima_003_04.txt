@@ -2732,7 +2732,7 @@ void main()
 //　確か、…この曲がり角で間違いない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確か、…この曲がり角で間違いない。",
-		   NULL, "There's not mistake... it had to be this corner.", Line_Normal);
+		   NULL, "There's no mistake... it had to be this corner.", Line_Normal);
 	ClearMessage();
 
 
