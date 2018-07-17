@@ -354,7 +354,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300564", 128, TRUE);
 	OutputLine(NULL, "「大臣の孫は？」",
-		   NULL, "\"What about the minister's grandson?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"What about the Minister's grandson?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -416,7 +416,7 @@ void main()
 		   NULL, "\"...Sorry for the trouble.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300566", 128, TRUE);
 	OutputLine(NULL, "……公安ってヤツはいやらしいところだ、って思ってるでしょう？」",
-		   NULL, " ...You must think that Public Safety is rather unseemly place, don't you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...You must think that Public Safety is a rather unseemly place, don't you?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -488,7 +488,7 @@ void main()
 		   NULL, " There's all sorts of dark rumors swirling around them, but it's not like I have a personal grudge.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700623", 128, TRUE);
 	OutputLine(NULL, "君子、危うきに近寄らない方がいいんですよ。",
-		   NULL, " It'd be wise not step on any toes here.", Line_WaitForInput);
+		   NULL, " It'd be wise not to step on any toes here.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700624", 128, TRUE);
 	OutputLine(NULL, "なっはっはっは。」",
 		   NULL, " Na ha ha ha.\"", GetGlobalFlag(GLinemodeSp));
@@ -609,7 +609,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700637", 128, TRUE);
 	OutputLine(NULL, "「もしも、あなたの傷が軽いようなら、東京へ帰る前にぜひ声をかけて下さいよ。",
-		   NULL, "\"If your injuries turn out to be not too serious, call me before you head back to Tokyo, will you?", Line_WaitForInput);
+		   NULL, "\"If your injuries turn out to not be too serious, call me before you head back to Tokyo, will you?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700638", 128, TRUE);
 	OutputLine(NULL, "おやっさんもサトさんも、ぜひあなたともう一度、卓を囲みたいと言ってましたからね。」",
 		   NULL, " The ol' man and Sato-san said they'd like to sit at a table with you again.\"", GetGlobalFlag(GLinemodeSp));
@@ -663,7 +663,7 @@ void main()
 //　大石氏の、東京に帰るという言葉を聞き、改めて自分が任務から解放されたことを知る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏の、東京に帰るという言葉を聞き、改めて自分が任務から解放されたことを知る。",
-		   NULL, "When I heard the words 'going back to Tokyo' from Ooishi, I was reminded once again that I was relieved from my duties.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "When I heard the words \"going back to Tokyo\" from Ooishi, I was reminded once again that I was relieved from my duties.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -831,7 +831,7 @@ void main()
 //　…一段落に少し弛んでいたが、確かに大石氏の言うとおりだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…一段落に少し弛んでいたが、確かに大石氏の言うとおりだった。",
-		   NULL, "...I had a relaxed a bit now that things had progressed this far, but it was exactly as Ooishi had said.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...I had relaxed a bit now that things had progressed this far, but it was exactly as Ooishi had said.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -845,7 +845,7 @@ void main()
 //　去るのみの自分に何か危害が加えられる可能性は、常識的に考えてとても低い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　去るのみの自分に何か危害が加えられる可能性は、常識的に考えてとても低い。",
-		   NULL, "With the only thing left for me to do was leave, the chance that I would come to harm was logically fairly low.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "With the only thing left for me to do was leaving, the chance that I would come to harm was logically fairly low.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2651,7 +2651,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300616", 128, TRUE);
 	OutputLine(NULL, "「こんな時間にひとりで表を歩いてると…ご両親に怒られたりしないかい？」",
-		   NULL, "\"Won't you parents be mad that you're walking around alone at this hour?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Won't your parents be mad that you're walking around alone at this hour?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2732,7 +2732,7 @@ void main()
 //　確か、…この曲がり角で間違いない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確か、…この曲がり角で間違いない。",
-		   NULL, "There's not mistake... it had to be this corner.", Line_Normal);
+		   NULL, "There's no mistake... it had to be this corner.", Line_Normal);
 	ClearMessage();
 
 

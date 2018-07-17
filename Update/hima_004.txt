@@ -460,7 +460,7 @@ void main()
 	OutputLine(NULL, "　私は大石氏の自宅に厄介になるつもりでいたのだが、",
 		   NULL, "I had originally intended to crash at Ooishi's place,", Line_WaitForInput);
 	OutputLine(NULL, "大石氏が、とてももてなせるような家ではないと頑なに拒んだので、こうなったのだ。",
-		   NULL, " but Ooishi was quite obstinate that his home wasn't a suitable for that, so it came to this.", Line_Normal);
+		   NULL, " but Ooishi was quite obstinate that his home wasn't suitable for that, so it came to this.", Line_Normal);
 	ClearMessage();
 
 
@@ -1620,7 +1620,7 @@ void main()
 //　そして、………その後、ゴシップ週刊誌で、大災害に至るまでの５年間、雛見沢村には「オヤシロさまの祟り」と呼ばれる、連続怪死事件が起こっていたことを知った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、………その後、ゴシップ週刊誌で、大災害に至るまでの５年間、雛見沢村には「オヤシロさまの祟り」と呼ばれる、連続怪死事件が起こっていたことを知った。",
-		   NULL, "It was after that I learned from the tabloids of the series of mysterious deaths in Hinamizawa during the five years leading up to the disaster that became known as the \"curse of Oyashiro-sama\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It was after that I learned from the tabloids of the series of mysterious deaths in Hinamizawa during the five years leading up to the disaster that became known as the \"curse of Oyashiro-sama.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2228,9 +2228,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 240, TRUE);
 	OutputLine(NULL, "「雛見沢村のお祭りの「綿流し」ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
-		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting',  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting,'  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
+	
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 240, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。」",
 		   NULL, "...It seems that it came from the man-eating demons ripping apart their victims and throwing their organs into the river.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2417,7 +2418,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300734", 128, TRUE);
 	OutputLine(NULL, "…彼らが「オヤシロさまのお怒り」があるような状況を作り出し、大災害を実行して見せた…。」",
-		   NULL, "...and that group created a situation that would incur 'Oyashiro-sama's wrath', and enacted the Disaster to make it seem like the truth...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...and that group created a situation that would incur 'Oyashiro-sama's wrath,' and enacted the Disaster to make it seem like the truth...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2811,8 +2812,8 @@ void main()
 //「私は、……真実を話しています。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300758", 128, TRUE);
-	OutputLine(NULL, "「私は、……真実を話しています。」",
-		   NULL, "\"I'm... speaking the truth.\"", Line_Normal);
+	OutputLine(NULL, "「私は、……真実を話しています。",
+		   NULL, "\"I'm... speaking the truth.", Line_Normal);
 	ClearMessage();
 
 
@@ -2824,16 +2825,16 @@ void main()
 //「……………………………連続怪死事件は、…発生の前年にはもう全てシナリオが用意されていた。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300759", 128, TRUE);
-	OutputLine(NULL, "「……………………………連続怪死事件は、…発生の前年にはもう全てシナリオが用意されていた。」",
-		   NULL, "\"...Then the script behind the chain of mysterious deaths was written a year before it even started.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "……………………………連続怪死事件は、…発生の前年にはもう全てシナリオが用意されていた。",
+		   NULL, "...Then the script behind the chain of mysterious deaths was written a year before it even started.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「…そして、その予告の通り、古手梨花は殺されました＠…私は始め、大災害による死を指したものと思っていた＠でも、…彼女の死は災害ではなく、殺人者の手による残忍なものであることがわかりました＠…………彼女は、殺される、と言った＠…彼女は、自分の死を、……具体的にあの時点で、知っていたんです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300760", 128, TRUE);
-	OutputLine(NULL, "「…そして、その予告の通り、古手梨花は殺されました。",
-		   NULL, "\"...And, just as predicted, Rika Furude was killed.", Line_WaitForInput);
+	OutputLine(NULL, "…そして、その予告の通り、古手梨花は殺されました。",
+		   NULL, "...And, just as predicted, Rika Furude was killed.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300761", 128, TRUE);
 	OutputLine(NULL, "…私は始め、大災害による死を指したものと思っていた。",
 		   NULL, " ...At first, I thought she meant that she would be killed in the disaster. ", GetGlobalFlag(GLinemodeSp));
@@ -3686,7 +3687,7 @@ void main()
 //　大石氏の信頼という言葉が、さらに私を苛んだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏の信頼という言葉が、さらに私を苛んだ。",
-		   NULL, "When Ooishi said the word 'trust', it weighed on me even more.", Line_Normal);
+		   NULL, "When Ooishi said the word \"trust,\" it weighed on me even more.", Line_Normal);
 	ClearMessage();
 
 
@@ -4081,7 +4082,7 @@ void main()
 //　r彼女が私の娘の身体を借りて、私に慰めの言葉をかけてくる…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女が私の娘の身体を借りて、私に慰めの言葉をかけてくる…。",
-		   NULL, "She borrowed my daughters body to offer me words of comfort...", Line_Normal);
+		   NULL, "She borrowed my daughter's body to offer me words of comfort...", Line_Normal);
 	ClearMessage();
 
 	DrawBustshot(4, "scene/203b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 1000, TRUE );

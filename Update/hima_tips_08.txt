@@ -136,7 +136,7 @@ void main()
 		   NULL, "\"....Hmmm...", Line_Continue);
 	Wait( 400 );
 	OutputLine(NULL, "目立つって言うか、…本当に微細な程度の違和感ですね。",
-		   NULL, " Well you say 'showing up', but it's really more of a very slight feeling that something's strange. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Well you say 'showing up,' but it's really more of a very slight feeling that something's strange. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442600007", 128, TRUE);
 	OutputLine(NULL, "たまたま××県の県議連でのスピーチだったから、時事ネタを話しただけかもしれないし。」",
@@ -238,13 +238,13 @@ void main()
 //「………あ、すみません、片岡室長～＠　局長からお電話です＠こっちに回しますか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442600014", 128, TRUE);
-	OutputLine(NULL, "「わっかりました。」",
-		   NULL, "\"Got it.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "「わっかりました。",
+		   NULL, "\"Got it.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442600015", 128, TRUE);
-	OutputLine(NULL, "「………あ、すみません、片岡室長〜！",
-		   NULL, "\"...Ah, sorry... Chief Kataoka~!", Line_Continue);
+	OutputLine(NULL, " ………あ、すみません、片岡室長〜！",
+		   NULL, " ...Ah, sorry... Chief Kataoka~!", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "　局長からお電話です。",
 		   NULL, " There's a phone call from the Director.", Line_WaitForInput);

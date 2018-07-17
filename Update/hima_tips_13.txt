@@ -117,7 +117,7 @@ void main()
 //　あの子は、おもむろにお菓子を一掴みすると、そのまま包装を剥いて口にし始めたのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの子は、おもむろにお菓子を一掴みすると、そのまま包装を剥いて口にし始めたのだ。",
-		   NULL, "My own child suddenly grabbed a snack, opened the package right there and then and started eating it.", Line_Normal);
+		   NULL, "My own child suddenly grabbed a snack, opened the package right there and then started eating it.", Line_Normal);
 	ClearMessage();
 
 
@@ -228,7 +228,7 @@ void main()
 //　あの子の教育に良くないから、変なことを吹き込まないでくださいと回りに言っているのだが、……年寄り連中に根付いた迷信は払拭しようがない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの子の教育に良くないから、変なことを吹き込まないでくださいと回りに言っているのだが、……年寄り連中に根付いた迷信は払拭しようがない。",
-		   NULL, "I went around and told everybody that it wasn't good for her upbringing, so to stop tell her all these strange things... but there was no uprooting the elderly people's deep-seated superstitions.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I went around and told everybody that it wasn't good for her upbringing, so to stop telling her all these strange things... but there was no uprooting the elderly people's deep-seated superstitions.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

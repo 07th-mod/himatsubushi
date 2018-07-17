@@ -471,7 +471,7 @@ void main()
 //　犬飼建設大臣という名に、少年はぴくりと耳を動かした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼建設大臣という名に、少年はぴくりと耳を動かした。",
-		   NULL, "The boy's ears perked up at the mention of the name 'Inugai'.", Line_Normal);
+		   NULL, "The boy's ears perked up at the mention of the name "Inugai."", Line_Normal);
 	ClearMessage();
 
 
@@ -964,7 +964,7 @@ void main()
 //　……だが、後悔することになるという言葉が気にかかり、引き出しを開けてみることにする￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、後悔することになるという言葉が気にかかり、引き出しを開けてみることにする。",
-		   NULL, "...However, he was concerned about what the man said about \"regretting it\", so he decided to open the drawer.", Line_Normal);
+		   NULL, "...However, he was concerned about what the man said about \"regretting it,\" so he decided to open the drawer.", Line_Normal);
 	ClearMessage();
 
 
@@ -1158,7 +1158,7 @@ void main()
 //csp -1
 
 	DisableWindow();
-	DrawScene("black", 5000 );
+	DrawScene("black", 2000 );
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 
@@ -1295,7 +1295,7 @@ void main()
 //　男の子だったら、あなたの名前の一字「衛」を名前に加える＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　男の子だったら、あなたの名前の一字「衛」を名前に加える。",
-		   NULL, "If it's a boy, we'll name it after you: \"Mamoru\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If it's a boy, we'll name it after you: \"Mamoru.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1914,7 +1914,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/manh00002", 128, TRUE);
 	OutputLine(NULL, "「警察へ通報してもすぐにわかるぞ、って？」",
-		   NULL, "\"'We'll find out right away if you call the cops', more or less?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"'We'll find out right away if you call the cops,' more or less?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2469,7 +2469,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300004", 128, TRUE);
 	OutputLine(NULL, "　死守なんて古風な言い方が示す通り、相当の決意と覚悟を持った連中です。",
-		   NULL, "Like the old saying 'fight to the last', they're a determined and well-prepared lot.", Line_WaitForInput);
+		   NULL, "Like the old saying 'fight to the last,' they're a determined and well-prepared lot.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300005", 128, TRUE);
 	OutputLine(NULL, "そこら辺の温和な住民団体とは一線を画すと思って頂いた方がいいですね。」",
 		   NULL, " It'd be nice if they drew the line at just being a moderate residential organization.\"", GetGlobalFlag(GLinemodeSp));
@@ -2669,7 +2669,7 @@ void main()
 //　……ダム現場を内包する、雛見沢村地区が丸ごと敵地なのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ダム現場を内包する、雛見沢村地区が丸ごと敵地なのだ。",
-		   NULL, "You might as well label the entire map of Hinamizawa Village around the dam construction site 'enemy territory'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "You might as well label the entire map of Hinamizawa Village around the dam construction site 'enemy territory.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2760,7 +2760,7 @@ void main()
 //　室長は一段落という言葉を使ったが、…犯歴リストはそれでやっと真ん中辺りだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　室長は一段落という言葉を使ったが、…犯歴リストはそれでやっと真ん中辺りだった。",
-		   NULL, "He used the words 'quieted down'... but that was still smack dab in the middle of the list of crimes.", Line_Normal);
+		   NULL, "He used the words \"quieted down\"... but that was still smack dab in the middle of the list of crimes.", Line_Normal);
 	ClearMessage();
 
 //「で、連中ですね＠現場への直接攻撃が難しくなったと知ったら今度は個人攻撃に切り替えました＠…最初に狙われたのが、工事事務所の現場作業者でした。￥
@@ -4512,7 +4512,7 @@ void main()
 
 //…と揺れた￥
 	OutputLine(NULL, "…と揺れた。",
-		   NULL, " with a 'thunk', the car suddenly lurched.", Line_Normal);
+		   NULL, " with a 'thunk,' the car suddenly lurched.", Line_Normal);
 	ClearMessage();
 
 
@@ -5377,7 +5377,7 @@ void main()
 		   NULL, "\"The current head of the Sonozaki family is an old lady named Oryou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps2/11/100700110", 128, TRUE);
 	OutputLine(NULL, "……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです。",
-		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki'. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki.' ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700111", 128, TRUE);
 	OutputLine(NULL, "気をつけて下さいよ、大物です。",
@@ -6480,14 +6480,15 @@ void main()
 		   NULL, "\"You see,  these human-devouring demons...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700192", 128, TRUE);
 	OutputLine(NULL, "普段は仙人と崇められて、ひっそりと暮らしているんですがね。",
-		   NULL, " Normally they were revered as Taoist 'transcendants', and lived tucked away from the rest of the world. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Normally they were revered as Taoist 'transcendants,' and lived tucked away from the rest of the world. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700193", 128, TRUE);
 	OutputLine(NULL, "……やっぱり人食いですから、定期的に麓の村に下りてきては、獲物をさらっていったんだそうです。",
-		   NULL, "...But they ate people, after all, so apparently they'd go to villages in the foothills regularly and abduct their prey.", Line_Normal);
+		   NULL, "...But they ate people, after all, so apparently they'd go to villages in the foothills regularly and abduct their prey.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700194", 128, TRUE);
 	OutputLine(NULL, "……それをですね、『鬼隠し』と言いまして。」",
-		   NULL, " ...They used to call that being 'demoned away', or 'Onikakushi'.\"", Line_Normal);
+		   NULL, " ...They used to call that being 'demoned away,' or 'Onikakushi.'\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -6526,7 +6527,7 @@ void main()
 		   NULL, " When people suddenly go missing one day, they call it that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700197", 128, TRUE);
 	OutputLine(NULL, "……この辺りでは同じことがあると『鬼隠し』って呼ぶんです。」",
-		   NULL, " ...When the same thing happens around here, they call it being 'demoned away'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...When the same thing happens around here, they call it being 'demoned away.'\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

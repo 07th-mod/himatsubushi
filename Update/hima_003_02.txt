@@ -60,7 +60,7 @@ void main()
 //　今回の自分の姿も不審者そのものだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今回の自分の姿も不審者そのものだった。",
-		   NULL, "This time, my appearance was the very embodiment of the word 'suspicious'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "This time, my appearance was the very embodiment of the word 'suspicious.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1033,7 +1033,7 @@ void main()
 //　大石氏が、おやっさんと呼んでいた人物だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏が、おやっさんと呼んでいた人物だ。",
-		   NULL, "The guy that Ooishi called \"ol' man\".", Line_Normal);
+		   NULL, "The guy that Ooishi called \"ol' man.\"", Line_Normal);
 	ClearMessage();
 
 

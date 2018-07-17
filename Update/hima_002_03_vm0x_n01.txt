@@ -65,7 +65,7 @@ void dialog005()
 		   NULL, " Loosten up a bit, we won't actually gamble anything.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700259", 128, TRUE);
 	OutputLine(NULL, "この後い〜いお店に遊びに行く時に、誰が全員分を払うのか決めるだけですって〜〜！",
-		   NULL, " We're just deciding whose going to pay for everyone at a very ni~ce place afterword~~!", Line_WaitForInput);
+		   NULL, " We're just deciding whose going to pay for everyone at a very ni~ce place afterward~~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700260", 128, TRUE);
 	OutputLine(NULL, "　むっふっふっふっふ〜〜！！！」",
 		   NULL, " Mfu fu fu fu fu~~!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -110,7 +110,7 @@ void dialog009()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700266", 128, TRUE);
 	OutputLine(NULL, "　私はもちろん馴染みの店をハシゴしまくりですよ？",
-		   NULL, " Of course, we're going to hop between all the my favorite places! ", Line_WaitForInput);
+		   NULL, " Of course, we're going to hop between all the favorite places! ", Line_WaitForInput);
 }
 
 void dialog010()
@@ -128,7 +128,7 @@ void dialog011()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400010", 128, TRUE);
 	OutputLine(NULL, "「マスターに縫製代とか言われて、一本ドンペリ空けられたなぁ。」",
-		   NULL, "\"The owner started a bottle of Dom Perignon on my tab and called it a 'tailoring fee'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"The owner started a bottle of Dom Perignon on my tab and called it a 'tailoring fee.'\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

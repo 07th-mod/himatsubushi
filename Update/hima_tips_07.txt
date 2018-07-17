@@ -364,7 +364,7 @@ void main()
 		   NULL, "\"I'm going to try and live to a hundred.", Line_Continue);
 	Wait( 6500 );
 	OutputLine(NULL, "……ダムの件、きっちりケリ付けるまでゃあ、棺の蓋かて収まらんわ。」",
-		   NULL, " ...Until the business with dam is proper finished, I ain't kicking the bucket just yet.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Until the business with the dam is proper finished, I ain't kicking the bucket just yet.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -565,7 +565,7 @@ void main()
 //　……なぜなら、老婆と魅音の表情に浮かんでいたのは、冷笑だったから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なぜなら、老婆と魅音の表情に浮かんでいたのは、冷笑だったから。",
-		   NULL, "...For what crept across the Mion and the old lady's faces were contemptuous smiles.", Line_Normal);
+		   NULL, "...For what crept across Mion and the old lady's faces were contemptuous smiles.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/heya1_04", "right", 0, 0, 300 );

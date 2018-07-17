@@ -129,7 +129,7 @@ void dialog011()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400010", 128, TRUE);
 	OutputLine(NULL, "「マスターに縫製代とか言われて、一本持ってかれたなぁ。」",
-		   NULL, "\"The owner ended up charging what he called a 'tailoring fee'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"The owner ended up charging what he called a 'tailoring fee.'\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

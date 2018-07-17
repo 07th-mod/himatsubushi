@@ -368,7 +368,7 @@ void main()
 //　大臣の孫「犬飼寿樹」のイニシャル、Ｔ．Ｉなんてのが＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大臣の孫「犬飼寿樹」のイニシャル、Ｔ．Ｉなんてのが。",
-		   NULL, "Like the initials of Toshiki Inugai, the Minister's grandson. 'T.I.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Like the initials of Toshiki Inugai, the Minister's grandson. \"T.I.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -410,7 +410,7 @@ void main()
 //　だが、想像していたものよりはもう少し詳しく、「Ｔｏｓｈｉｋｉ・Ｉ」と記されていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、想像していたものよりはもう少し詳しく、「Ｔｏｓｈｉｋｉ・Ｉ」と記されていた。",
-		   NULL, "But, it was slightly more detailed than what I had thought, with 'Toshiki I.' marked on it.", Line_Normal);
+		   NULL, "But, it was slightly more detailed than what I had thought, with \"Toshiki I.\" marked on it.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -420,7 +420,7 @@ void main()
 //　ね？　と大石氏がにやっと笑う＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ね？　と大石氏がにやっと笑う。",
-		   NULL, "Ooishi grinned at me with a look on his face that said 'see?'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi grinned at me with a look on his face that said \"see?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -549,7 +549,7 @@ void main()
 //　「犬飼寿樹」という個人名と年齢＠…一致＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「犬飼寿樹」という個人名と年齢。",
-		   NULL, "The name 'Toshiki Inugai', and the age.", Line_WaitForInput);
+		   NULL, "The name \"Toshiki Inugai,\" and the age.", Line_WaitForInput);
 	OutputLine(NULL, "…一致。",
 		   NULL, " ...A perfect match.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -983,7 +983,7 @@ void main()
 //　私の連絡で、本庁はかなり衝撃を受けたようだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の連絡で、本庁はかなり衝撃を受けたようだった。",
-		   NULL, "It seemed that HQ was in a quite an uproar thanks to my report.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It seemed that HQ was in quite an uproar thanks to my report.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1214,7 +1214,7 @@ void main()
 //　…まさに袋小路的な忘れ去られた廃村と言えるだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…まさに袋小路的な忘れ去られた廃村と言えるだろう。",
-		   NULL, "...It was exactly what you would call a long-forgotten ghost town at the end of the  road.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...It was exactly what you would call a long-forgotten ghost town at the end of the road.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

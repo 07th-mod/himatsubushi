@@ -197,7 +197,7 @@ void dialog010()
 		   NULL, "\"This isn't some sort of transformation. I'll have you know I've always been a Demon Lord!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100247", 128, TRUE);
 	OutputLine(NULL, "　そして今、真の闇に包まれたこの世界はまさに俺の手の平に等しい！！",
-		   NULL, " And as of right now, this world which is enveloped within true darkness shall dance upon the palm of my hand!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " And as of right now, this world which is enveloped within true darkness shall dance upon the palm of my hand!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100248", 128, TRUE);
 	OutputLine(NULL, "　この闇の世界では俺に逆らうことは何人にもかなわぬのだー！！！！」",
@@ -214,7 +214,7 @@ void dialog011()
 		   NULL, "\"Maebara-sama, you're the best~~!!!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000114", 128, TRUE);
 	OutputLine(NULL, "　その後はバニーさんにバドガールに、いえいえ、ランジェリー姿もいいですねぇ！！",
-		   NULL, " How about a bunny girl, or campaign girl costu-- no no, lingerie could be good too!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " How about a bunny girl, or campaign girl costu-- no no, lingerie could be good too!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000115", 128, TRUE);
 	OutputLine(NULL, "　いやいや！！",
@@ -297,7 +297,7 @@ void dialog015()
 //　お疲れ様会の度に＠　立ち絵がなく、慰労の一杯にすらありつけなかった俺の!w800/
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100243", 128, TRUE);
 	OutputLine(NULL, "　お疲れ様会の度に！",
-		   NULL, " Every. Afterparty. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Every. Afterparty.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100244", 128, TRUE);
 	OutputLine(NULL, "　立ち絵がなく、慰労の一杯にすらありつけなかった俺の",
@@ -394,7 +394,7 @@ void dialog016()
 		   NULL, " Wa-wait, you can't use that big one!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100283", 128, TRUE);
 	OutputLine(NULL, "　えぇえ？！",
-		   NULL, " Huuuh!? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Huuuh!?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100284", 128, TRUE);
 	OutputLine(NULL, "　ゲージ技って、出掛かり無敵かよッ？！",

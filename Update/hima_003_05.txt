@@ -177,7 +177,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500143", 128, TRUE);
 	OutputLine(NULL, "「……赤坂の怪我はひどいのですか？」",
-		   NULL, "\"'...Are your injuries bad, Akasaka?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Are your injuries bad, Akasaka?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -611,7 +611,7 @@ void main()
 //　少女は老人たちのハメの外しように、呆れた表情を向けながらそう言った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少女は老人たちのハメの外しように、呆れた表情を向けながらそう言った。",
-		   NULL, "As if the to chide the old folk, she said that while looking at them with an exasperated expression.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As if to chide the old folk, she said that while looking at them with an exasperated expression.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -674,7 +674,7 @@ void main()
 //　あの、少女が豹変した時のような言い方だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの、少女が豹変した時のような言い方だった。",
-		   NULL, "It was the same way she talked when she 'changed'.", Line_Normal);
+		   NULL, "It was the same way she talked when she 'changed.'", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1526,8 +1526,8 @@ void main()
 	OutputLine(NULL, "　そしてさらに翌年の昭和５８年の６月の今日。",
 		   NULL, "And then the year after that, this day in the June of 1983...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500194", 128, TRUE);
-	OutputLine(NULL, "……………あるいはその数日後か。」",
-		   NULL, " ...Or possibly a few days afterwards.\"", Line_Normal);
+	OutputLine(NULL, "……………あるいはその数日後か。",
+		   NULL, " ...Or possibly a few days afterwards.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1539,16 +1539,16 @@ void main()
 //「……私が殺されます。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500195", 128, TRUE);
-	OutputLine(NULL, "「……私が殺されます。」",
-		   NULL, "\"...I will be killed.\"", Line_Normal);
+	OutputLine(NULL, "……私が殺されます。",
+		   NULL, "...I will be killed.", Line_Normal);
 	ClearMessage();
 
 
 //「全ての死が予定調和なら＠………最後の死もまた予定の内なのでしょうか＠……でも、ならばこれは一体、誰の予定なの…？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500196", 128, TRUE);
-	OutputLine(NULL, "「全ての死が予定調和なら。",
-		   NULL, "\"If all the deaths are pre-ordained...", Line_WaitForInput);
+	OutputLine(NULL, "全ての死が予定調和なら。",
+		   NULL, "If all the deaths are pre-ordained...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500197", 128, TRUE);
 	OutputLine(NULL, "………最後の死もまた予定の内なのでしょうか。",
 		   NULL, " ...Then the last one would also be all according to plan.", Line_WaitForInput);
