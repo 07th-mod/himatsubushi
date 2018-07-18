@@ -82,7 +82,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamaa44001", 128, TRUE);
 	OutputLine(NULL, "「…………お疲れさんです。",
-		   NULL, "\"...Nice to see you.", Line_WaitForInput);
+		   NULL, "\"...Nice to see you.", Line_Continue);
 	OutputLine(NULL, "雛はトランクに。",
 		   NULL, " The chick is in the trunk.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamaa44002", 128, TRUE);

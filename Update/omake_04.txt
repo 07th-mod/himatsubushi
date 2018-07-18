@@ -770,7 +770,6 @@ void main()
 	ShakeScreen( 1, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_006", 128, 64 );
 	DrawScene("white", 10 );
-	OutputLineAll(NULL, "", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 50, 20, 3, 0, );
 	PlaySE( 3, "wa_033", 128, 64 );
@@ -922,7 +921,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200316", 128, TRUE);
 	OutputLine(NULL, "「わ、詩ぃちゃんだ、こんにちは〜！",
-		   NULL, "\"Oh, it's Shion-chan! Hello~!", Line_WaitForInput);
+		   NULL, "\"Oh, it's Shii-chan! Hello~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200317", 128, TRUE);
 	OutputLine(NULL, "　………ふぎゃ？！」",
 		   NULL, " ....Gyah!?\"", Line_Normal);
@@ -940,7 +939,6 @@ void main()
 	ShakeScreen( 1, 50, 20, 2, 0, );
 	PlaySE( 3, "wa_006", 128, 64 );
 	DrawScene("white", 10 );
-	OutputLineAll(NULL, "", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 50, 20, 3, 0, );
 	PlaySE( 3, "wa_033", 128, 64 );
@@ -961,7 +959,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500160", 128, TRUE);
 	OutputLine(NULL, "「……同じワナに二度もかかってかわいそかわいそです。」",
-		   NULL, "\"......I feel sorry for her for falling for the same trap twice.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......I feel sorry for her falling for the same trap twice.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1150,7 +1148,6 @@ void main()
 	PlaySE( 3, "wa_034", 128, 64 );
 	DrawScene("white", 1000 );
 	PlaySE( 3, "wa_033", 128, 64 );
-	OutputLineAll(NULL, "", Line_ContinueAfterTyping);
 
 	ShakeScreen( 1, 50, 20, 5, 0, );
 	DrawScene("black", 400 );
@@ -2660,23 +2657,24 @@ void main()
 		   NULL, "Therefore, compared to adventure-type visual novels with branching routes to take, it's much closer to the experience of a book or a movie. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200342", 128, TRUE);
-	OutputLine(NULL, "…その意味において、ゲームと呼ぶべきではないのではないか、というご意見を頂戴することもあります。」",
-		   NULL, "...Because of that, there is the opinion out there that this should not be called a game, per se.\"", Line_Normal);
+	OutputLine(NULL, "…その意味において、ゲームと呼ぶべきではないのではないか、というご意見を頂戴することもあります。",
+		   NULL, "...Because of that, there is the opinion out there that this should not be called a game, per se.", Line_Normal);
 	ClearMessage();
 
 
 //「小説や映画のように、観劇するだけならば『ひぐらしのなく頃に』は、ゲームとはなりません＠……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています＠それらに挑もうとした時、…この作品は初めてゲームとなるのです。￥
 	//PlaySE(4, "s20/02/440200343", 128, 64);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「小説や映画のように、観劇するだけならば「ひぐらしのなく頃に」は、ゲームとはなりません。",
-		   NULL, "\"If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "小説や映画のように、観劇するだけならば「ひぐらしのなく頃に」は、ゲームとはなりません。",
+		   NULL, "If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. ", GetGlobalFlag(GLinemodeSp));
 	//PlaySE(4, "s20/02/440200344", 128, 64);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
 		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	//PlaySE(4, "s20/02/440200345", 128, 64);
-	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。」",
-		   NULL, " When you challenge those... this work will become a proper game.\"", Line_Normal);
+	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。",
+		   NULL, " When you challenge those... this work will become a proper game.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2685,12 +2683,12 @@ void main()
 //「プレイヤーの皆さんには、この謎に満ちた物語を様々な角度から捉え、吟味する権利があります＠…例えば、劇中に散りばめられた謎について、推理をし、それを発表して反響を得たりすることもまた、楽しいかと思います。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200346", 128, TRUE);
-	OutputLine(NULL, "「プレイヤーの皆さんには、この謎に満ちた物語を様々な角度から捉え、吟味する権利があります。",
-		   NULL, "\"All the players have the privilege of scrutinizing this mystery-packed story from all sorts of angles. ", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "プレイヤーの皆さんには、この謎に満ちた物語を様々な角度から捉え、吟味する権利があります。",
+		   NULL, "All the players have the privilege of scrutinizing this mystery-packed story from all sorts of angles. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200347", 128, TRUE);
-	OutputLine(NULL, "…例えば、劇中に散りばめられた謎について、推理をし、それを発表して反響を得たりすることもまた、楽しいかと思います。」",
-		   NULL, "...For example, forming a theory about the mysteries during the course of the story, sharing them with your friends, and receiving their theories in return could be fun.\"", Line_Normal);
+	OutputLine(NULL, "…例えば、劇中に散りばめられた謎について、推理をし、それを発表して反響を得たりすることもまた、楽しいかと思います。",
+		   NULL, "...For example, forming a theory about the mysteries during the course of the story, sharing them with your friends, and receiving their theories in return could be fun.", Line_Normal);
 	ClearMessage();
 
 //	DisableWindow();
@@ -2724,29 +2722,29 @@ void main()
 //「いよいよ…、次回のシナリオから解答編＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200348", 128, TRUE);
-	OutputLine(NULL, "「いよいよ…、次回のシナリオから解答編。",
-		   NULL, "\"In any case... the next chapter starts the Answer Arcs.", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "いよいよ…、次回のシナリオから解答編。",
+		   NULL, "In any case... the next chapter starts the Answer Arcs.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //『目明し編（仮称）』となります＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「目明し編（仮称）」となります。",
-		   NULL, "We've tentatively called it 'Meakashi'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "We've tentatively called it 'Meakashi.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　……でも、解答というのは寂しいもので、明かすことによって、これまで許されていたあらゆる可能性への想像が、急激に狭められてしまうという悲しい力があります。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　……でも、解答というのは寂しいもので、明かすことによって、これまで許されていたあらゆる可能性への想像が、急激に狭められてしまうという悲しい力があります。」",
-		   NULL, "...But, answers are a sad thing. Based on what is revealed, all the possibilities that you were allowed to imagine until now will suddenly become refined down to a few.\"", Line_Normal);
+	OutputLine(NULL, "　……でも、解答というのは寂しいもので、明かすことによって、これまで許されていたあらゆる可能性への想像が、急激に狭められてしまうという悲しい力があります。",
+		   NULL, "...But, answers are a sad thing. Based on what is revealed, all the possibilities that you were allowed to imagine until now will suddenly become refined down to a few.", Line_Normal);
 	ClearMessage();
 
 
 //「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、『ひぐらしのなく頃に』という作品を、一番楽しむことができる場所におられると思います。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「その意味において、解答編直前の、今ここにおられる皆さんは、…多分、「ひぐらしのなく頃に」という作品を、一番楽しむことができる場所におられると思います。」",
-		   NULL, "\"Based on that logic, we think that right here, before the answer arcs, is probably where people can enjoy this work we call Higurashi When They Cry the most.\"", Line_Normal);
+	OutputLine(NULL, "その意味において、解答編直前の、今ここにおられる皆さんは、…多分、「ひぐらしのなく頃に」という作品を、一番楽しむことができる場所におられると思います。",
+		   NULL, "Based on that logic, we think that right here, before the answer arcs, is probably where people can enjoy this work we call Higurashi When They Cry the most.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2754,13 +2752,13 @@ void main()
 
 //「もしも、ここをお読みの時点で、すでに『目明し編』のシナリオがお手元にあるならば＠どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです＠…その余地こそが、一番の醍醐味なのですから。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「もしも、ここをお読みの時点で、すでに「目明し編」のシナリオがお手元にあるならば。",
-		   NULL, "\"If by chance, while you are reading this, you already have the Meakashi chapter at hand,", Line_WaitForInput);
+	OutputLine(NULL, "もしも、ここをお読みの時点で、すでに「目明し編」のシナリオがお手元にあるならば。",
+		   NULL, "If by chance, while you are reading this, you already have the Meakashi chapter at hand,", Line_WaitForInput);
 	OutputLine(NULL, "どうかそのシナリオに入られる前に、存分に推理や仮説、空想をお楽しみいただきたいのです。",
 		   NULL, " please enjoy hypothesizing, theorizing and fantasizing to the fullest before you start. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "…その余地こそが、一番の醍醐味なのですから。」",
-		   NULL, "...That's where the real charm of the series takes place.\"", Line_Normal);
+	OutputLine(NULL, "…その余地こそが、一番の醍醐味なのですから。",
+		   NULL, "...That's where the real charm of the series takes place.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2768,12 +2766,12 @@ void main()
 
 //「………あはは＠厚かましいことを言ってしまい、申し訳ありませんでした＠『ひぐらしのなく頃に』をお楽しみいただけたなら、それに勝る喜びはありません。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「………あはは。",
-		   NULL, "\"...Ahaha.", Line_WaitForInput);
+	OutputLine(NULL, "………あはは。",
+		   NULL, "...Ahaha.", Line_WaitForInput);
 	OutputLine(NULL, "厚かましいことを言ってしまい、申し訳ありませんでした。",
 		   NULL, " Sorry for saying something so impudent.", Line_WaitForInput);
-	OutputLine(NULL, "「ひぐらしのなく頃に」をお楽しみいただけたなら、それに勝る喜びはありません。」",
-		   NULL, " There's nothing better we'd like than for you to enjoy Higurashi When They Cry.\"", Line_Normal);
+	OutputLine(NULL, "「ひぐらしのなく頃に」をお楽しみいただけたなら、それに勝る喜びはありません。",
+		   NULL, " There's nothing better we'd like than for you to enjoy Higurashi When They Cry.", Line_Normal);
 	ClearMessage();
 
 
@@ -2792,8 +2790,8 @@ void main()
 //「それでは、素敵な夜長を…＠　雛見沢村で、皆さんをお待ちしていますね…＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200353", 128, TRUE);
-	OutputLine(NULL, "「それでは、素敵な夜長を…！",
-		   NULL, "\"Well then, have a long and pleasant night!", Line_WaitForInput);
+	OutputLine(NULL, "それでは、素敵な夜長を…！",
+		   NULL, "Well then, have a long and pleasant night!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200354", 128, TRUE);
 	OutputLine(NULL, "　雛見沢村で、皆さんをお待ちしていますね…！",
 		   NULL, " We're waiting for you all in Hinamizawa!", GetGlobalFlag(GLinemodeSp));

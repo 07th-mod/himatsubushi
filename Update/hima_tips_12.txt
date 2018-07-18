@@ -326,7 +326,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44002", 128, TRUE);
 	OutputLine(NULL, "「何を作ってるの？",
-		   NULL, "\"What are you making?", Line_WaitForInput);
+		   NULL, "\"What are you making?", Line_Continue);
+	Wait( 500 );
 	OutputLine(NULL, "　お人形さん？」",
 		   NULL, " Is it a doll?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

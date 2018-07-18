@@ -30,11 +30,11 @@ void main()
 //　どの車にも、ダム計画断固粉砕＠郷土徹底死守！＠オヤシロさまの怒りを知れ！＠などの筆文字が書かれ、スピーカーを使わずとも、見る者を威圧する雰囲気を漂わせていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どの車にも、ダム計画断固粉砕、",
-		   NULL, "On the side of each vehicle was scrawled: 'The Dam Project Must Be Demolished',", Line_WaitForInput);
+		   NULL, "On the side of each vehicle was scrawled: \"The Dam Project Must Be Demolished,\"", Line_WaitForInput);
 	OutputLine(NULL, "郷土徹底死守！、",
-		   NULL, " 'Defend our Homeland to the Last!',", Line_WaitForInput);
+		   NULL, " \"Defend our Homeland to the Last!,\"", Line_WaitForInput);
 	OutputLine(NULL, "オヤシロさまの怒りを知れ！、",
-		   NULL, " 'Know Oyashiro-sama's Anger!', ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " \"Know Oyashiro-sama's Anger!,\" ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "などの筆文字が書かれ、スピーカーを使わずとも、見る者を威圧する雰囲気を漂わせていた。",
 		   NULL, "or a slogan of a similar kind. They gave the feeling that even without using the loudspeakers, there was enough to overwhelm any onlookers.", Line_Normal);
@@ -625,7 +625,7 @@ void main()
 //　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、『鬼ヶ淵死守同盟本部』と、大層立派な筆文字が描かれていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、「鬼ヶ淵死守同盟本部」と、大層立派な筆文字が描かれていた。",
-		   NULL, "...At the entrance of a shed that looked like a meeting place, there was a large sign erected, with 'Onigafuchi Defense Alliance Headquarters' written in bold brush strokes.", Line_Normal);
+		   NULL, "...At the entrance of a shed that looked like a meeting place, there was a large sign erected, with \"Onigafuchi Defense Alliance Headquarters\" written in bold brush strokes.", Line_Normal);
 	ClearMessage();
 
 

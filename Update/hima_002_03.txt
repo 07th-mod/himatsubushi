@@ -1089,7 +1089,7 @@ void main()
 //　………少なくとも、お遊び程度の掛け金で遊びに行けるとは思えない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………少なくとも、お遊び程度の掛け金で遊びに行けるとは思えない。",
-		   NULL, "...At the very least, they were the type of places that you couldn't go to with money that was just 'for funsies'.", Line_Normal);
+		   NULL, "...At the very least, they were the type of places that you couldn't go to with money that was just 'for funsies.'", Line_Normal);
 	ClearMessage();
 
 
@@ -1195,7 +1195,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400009", 128, TRUE);
 	OutputLine(NULL, "「…私は静か〜に飲めるお店でいいですよ。」",
-		   NULL, "\"I'd prefer a place where we can drink *quietly*.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"I'd prefer a place where we can drink 'quietly.'\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1519,7 +1519,7 @@ void main()
 //「聴牌」/
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700279", 128, TRUE);
 	OutputLine(NULL, "「聴牌」",
-		   NULL, "'Tenpai'.", Line_Continue);
+		   NULL, "\"Tenpai.\"", Line_Continue);
 
 	PlaySE( 3, "wa_010", 128, 64 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -1527,7 +1527,7 @@ void main()
 //「聴牌」/
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800016", 128, TRUE);
 	OutputLine(NULL, "「聴牌」",
-		   NULL, " 'Tenpai'.", Line_Continue);
+		   NULL, " \"Tenpai.\"", Line_Continue);
 
 	PlaySE( 3, "wa_009", 128, 64 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -1535,7 +1535,7 @@ void main()
 //「ノー聴」/
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400012", 128, TRUE);
 	OutputLine(NULL, "「ノー聴」",
-		   NULL, " 'Noten'.", Line_Continue);
+		   NULL, " \"Noten.\"", Line_Continue);
 
 	PlaySE( 3, "wa_029", 128, 64 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1719,7 +1719,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700280", 128, TRUE);
 	OutputLine(NULL, "「赤坂さん、あんた、麻雀始めてどのくらい？」",
-		   NULL, "\"Akasaka-san, when you did you first start playing mahjong?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Akasaka-san, when did you first start playing mahjong?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1830,7 +1830,7 @@ void main()
 //　チーだ！＠
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400019", 128, TRUE);
 	OutputLine(NULL, "　チーだ！」",
-		   NULL, " Chi! \"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Chi!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1884,13 +1884,16 @@ void main()
 		   NULL, " ...That's game.", Line_Continue);
 
 	SetSpeedOfMessage( TRUE, 128, );
-	PlaySE( 3, "wa_006", 128, 64 );
-	ShakeScreen( 1, 50, 20, 3, 0, );
 
 //ロン。/
 	OutputLine(NULL, "ロン。",
-		   NULL, " Ron.", Line_WaitForInput);
-
+		   NULL, " Ron.", Line_Continue);
+		   
+	Wait( 500 );
+	PlaySE( 3, "wa_006", 128, 64 );
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	
+	OutputLineAll(NULL, "", Line_WaitForInput);
 	SetSpeedOfMessage( FALSE, 0, );
 	PlaySE( 3, "wa_005", 128, 64 );
 
@@ -2140,7 +2143,7 @@ void main()
 		   NULL, " ...It's so interesting.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300325", 128, TRUE);
 	OutputLine(NULL, "あんたら連中は決まって、小僧だ坊主だって言うよ。",
-		   NULL, " The way you guys call people things like 'brat' and 'boy'.", Line_WaitForInput);
+		   NULL, " The way you guys call people things like 'brat' and 'boy.'", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300326", 128, TRUE);
 	OutputLine(NULL, "くっくっく…！」",
 		   NULL, " Heh heh heh...!\"", GetGlobalFlag(GLinemodeSp));
@@ -3524,7 +3527,6 @@ void main()
 	ModDrawCharacter(1, 11, "sprite/night/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「今日の私の負け分を、ちょーっぴり返してくれればいいだけじゃないですか＠なっはっはっは！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700338", 128, TRUE);
 	OutputLine(NULL, "「んじゃ、今度の勝負で少し手加減してもらえたらチャラにしますよ。",
@@ -3688,7 +3690,7 @@ void main()
 //　外灯以外に何も見えない、真っ暗な田舎の道路＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　外灯以外に何も見えない、真っ暗な田舎の道路。",
-		   NULL, "We were on a pitch-black country road, unable to see anything besides the lights outside..", GetGlobalFlag(GLinemodeSp));
+		   NULL, "We were on a pitch-black country road, unable to see anything besides the lights outside...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3821,7 +3823,7 @@ void main()
 //　…園崎天皇とまで呼ばれ、恐れ敬われている最高の長＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…園崎天皇とまで呼ばれ、恐れ敬われている最高の長。",
-		   NULL, "...More or less called 'Empress Sonozaki', as the ultimate decision-maker of the clan she was to be feared and respected.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...More or less called 'Empress Sonozaki,' as the ultimate decision-maker of the clan she was to be feared and respected.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3889,7 +3891,7 @@ void main()
 //　お魎と同じ鷹の目を有し、…眼光だけで見るものの心臓を凍らせることができるという、…将来を期待された…頭首の孫娘￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お魎と同じ鷹の目を有し、…眼光だけで見るものの心臓を凍らせることができるという、…将来を期待された…頭首の孫娘。",
-		   NULL, "She had the same hawkish eyes, enough to give pause to anybody who so much at looked at them... Much was expected of her in the future... this granddaughter of the Sonozaki's leader.", Line_Normal);
+		   NULL, "She had the same hawkish eyes, enough to give pause to anybody who so much as looked at them... Much was expected of her in the future... this granddaughter of the Sonozaki's leader.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3924,7 +3926,7 @@ void main()
 //　その反対側には、もう一つの御三家、古手家が座る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その反対側には、もう一つの御三家、古手家が座る。",
-		   NULL, "Opposite them sat the other of the Three Families, the Furude family.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Opposite to them sat the other of the Three Families, the Furude family.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4215,10 +4217,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "　園崎家頭首…いや、雛見沢御三家の頂点に座すお魎が、自ら発案したものだからと、常に聖域的に、予算の削減を免れてきたのだ。",
-			   NULL, "<size=-2>The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families,  Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
+			   NULL, "<size=-2>The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families, Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
 	} else {
 		OutputLine(NULL, "　園崎家頭首…いや、雛見沢御三家の頂点に座すお魎が、自ら発案したものだからと、常に聖域的に、予算の削減を免れてきたのだ。",
-			   NULL, "The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families,  Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
+			   NULL, "The head of the Sonozaki family-- no, the one who sat at the pinnacle of the Hinamizawa's Three Families, Oryou, had suggested the idea herself, so it was already untouchable, and continued to be allowed to drain from the budget.", GetGlobalFlag(GLinemodeSp));
 	}
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -4351,7 +4353,7 @@ void main()
 //　本来、購読は自由意志によるものだが、雛見沢においては暗黙の内に購読は義務化している＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本来、購読は自由意志によるものだが、雛見沢においては暗黙の内に購読は義務化している。",
-		   NULL, "Originally, purchase was supposed to be voluntary, but it in Hinamizawa it had silently become the opposite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Originally, purchase was supposed to be voluntary, but in Hinamizawa it had silently become the opposite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4437,7 +4439,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 26, "ps3/s05/26/100300001", 128, TRUE);
 	OutputLine(NULL, "「…機関紙の値上げも止むを得ません。」",
-		   NULL, "\"...There will no freeze on the price increase for the bulletin.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...There will be no freeze on the price increase for the bulletin.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5018,7 +5020,7 @@ void main()
 //　…………………のどかなのに、どこか薄気味悪さを感じずにはいられない、雛見沢村＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………………のどかなのに、どこか薄気味悪さを感じずにはいられない、雛見沢村。",
-		   NULL, "...It was tranquil place, but I couldn't help but have an uneasy feeling about Hinamizawa Village.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...It was a tranquil place, but I couldn't help but have an uneasy feeling about Hinamizawa Village.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5227,7 +5229,7 @@ void main()
 	OutputLine(NULL, "　その問題に対して、お魎が「憂慮」すると、",
 		   NULL, "If Oryou shows 'concern' over that particular problem,", Line_WaitForInput);
 	OutputLine(NULL, "………それを聞いた、親族会議に出席していた誰かが「気を利かせる」。",
-		   NULL, " hearing that, somebody who attended the family council would 'be helpful'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " hearing that, somebody who attended the family council would 'be helpful.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5273,7 +5275,7 @@ void main()
 		   NULL, " ...Oryou herself, in that room full of people, didn't explicitly say that somebody pulled off the kidnapping.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400071", 128, TRUE);
 	OutputLine(NULL, "ただ、自分の「意見」を述べただけさ。」",
-		   NULL, " She was just giving her 'opinion'.\"", Line_Normal);
+		   NULL, " She was just giving her 'opinion.'\"", Line_Normal);
 	ClearMessage();
 
 
@@ -5551,7 +5553,7 @@ void main()
 		   NULL, " ...That in order to investigate the kidnapping of the Minister's grandson,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/olde00003", 128, TRUE);
 	OutputLine(NULL, "東京からはるばる、公安の捜査官が派遣されてくるっちゅう話だ。」",
-		   NULL, " There's word that there will be an investigator from Public Safety dispatched all the way from Tokyo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " there's word that there will be an investigator from Public Safety dispatched all the way from Tokyo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

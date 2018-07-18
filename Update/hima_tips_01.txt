@@ -137,7 +137,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44009", 128, TRUE);
 	OutputLine(NULL, "「…私が入院してもうずいぶんになりますものね。",
-		   NULL, "\"...It's already been quite a while since I was admitted to the hospital.", Line_WaitForInput);
+		   NULL, "\"...It's already been quite a while since I was admitted to the hospital.", Line_Continue);
 	OutputLine(NULL, "あなたもそろそろ寂しくなってきましたか…？」",
 		   NULL, " Are you finally getting lonely?\"", GetGlobalFlag(GLinemodeSp));
 
@@ -188,7 +188,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44013", 128, TRUE);
 	OutputLine(NULL, "「…はぐらかさない、はぐらかさない。",
-		   NULL, "\"...You can't hide it, you can't hide it.", Line_WaitForInput);
+		   NULL, "\"...You can't hide it, you can't hide it.", Line_Continue);
 	OutputLine(NULL, "私にかまってもらえなくて、寂しい寂しい〜って。",
 		   NULL, " If I don't play with you, you get aaaallll lonely.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44014", 128, TRUE);
@@ -229,7 +229,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44016", 128, TRUE);
 	OutputLine(NULL, "「…くすくすくす。",
-		   NULL, "\"...Hee hee hee.", Line_WaitForInput);
+		   NULL, "\"...Hee hee hee.", Line_Continue);
 	OutputLine(NULL, "あなたを困らせるのが、こんなに楽しいと気付いたのはいつからだったでしょうねぇ…。」",
 		   NULL, " I wonder when I figured out that giving you grief was this much fun...\"", GetGlobalFlag(GLinemodeSp));
 
@@ -240,7 +240,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300006", 128, TRUE);
 	OutputLine(NULL, "「そろそろ許してくれよ…。",
-		   NULL, "\"Give me a break...", Line_WaitForInput);
+		   NULL, "\"Give me a break...", Line_Continue);
+	Wait( 1500 );
 	OutputLine(NULL, "…とにかく、君の元気な声が聞けてよかった。」",
 		   NULL, " ...In any case, it's good to hear you so lively.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -285,7 +286,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44018", 128, TRUE);
 	OutputLine(NULL, "「また、電話をしてくださいな…。",
-		   NULL, "\"Please phone again...", Line_WaitForInput);
+		   NULL, "\"Please phone again...", Line_Continue);
+	Wait( 1000 );
 	OutputLine(NULL, "私がだめな時はお父さんが相手をしてくれるでしょう。",
 		   NULL, " When I'm not feeling up to it, I'll get my father to talk with you. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
