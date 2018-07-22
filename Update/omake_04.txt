@@ -2648,15 +2648,15 @@ void main()
 
 //「もうすでにご存知と思いますが、『ひぐらしのなく頃に』は選択肢のないタイプのサウンドノベルです＠ですので、選択肢を選ぶＡＤＶ的なサウンドノベルに比べると、小説や映画に近いセンスだったと思います＠…その意味において、ゲームと呼ぶべきではないのではないか、というご意見を頂戴することもあります。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200340", 128, TRUE);
+//	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200340", 128, TRUE);
 	OutputLine(NULL, "「もうすでにご存知と思いますが、「ひぐらしのなく頃に」は選択肢のないタイプのサウンドノベルです。",
 		   NULL, "\"I think you already know this, but Higurashi When They Cry is a type of visual novel without any choices. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200341", 128, TRUE);
+//	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200341", 128, TRUE);
 	OutputLine(NULL, "ですので、選択肢を選ぶＡＤＶ的なサウンドノベルに比べると、小説や映画に近いセンスだったと思います。",
 		   NULL, "Therefore, compared to adventure-type visual novels with branching routes to take, it's much closer to the experience of a book or a movie. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200342", 128, TRUE);
+//	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200342", 128, TRUE);
 	OutputLine(NULL, "…その意味において、ゲームと呼ぶべきではないのではないか、というご意見を頂戴することもあります。",
 		   NULL, "...Because of that, there is the opinion out there that this should not be called a game, per se.", Line_Normal);
 	ClearMessage();
@@ -2721,7 +2721,7 @@ void main()
 
 //「いよいよ…、次回のシナリオから解答編＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200348", 128, TRUE);
+//	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200348", 128, TRUE);
 	OutputLine(NULL, "いよいよ…、次回のシナリオから解答編。",
 		   NULL, "In any case... the next chapter starts the Answer Arcs.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
