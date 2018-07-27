@@ -84,7 +84,7 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	DisableWindow();
 	ModDrawCharacter(3, 27, "portrait/night/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
@@ -415,9 +415,6 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	DisableWindow();
-	ModDrawCharacterWithFiltering(2, 27, "sprite/night/rim_def_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
-
 //「……………まぁ、そんなものです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500151", 128, TRUE);
@@ -439,8 +436,6 @@ void main()
 		   NULL, "What was going on?", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	ModDrawCharacter(2, 27, "sprite/night/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…今日はお祭りの日なのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -636,6 +631,8 @@ void main()
 		   NULL, "\"Haha... I feel sorry for the deity being celebrated here...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	DisableWindow();
+	ModDrawCharacter(1, 27, "sprite/night/rim_majime_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……こんなみっともないお祭りも、５～６年もすると村中が総出でやってきて＠…ちゃんと儀式も真面目にやる、立派なお祭りになるのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -694,7 +691,7 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	DisableWindow();
 	DrawSceneWithMask("black", "right", 0, 0, 300 );
 	PlayBGM( 1, "msys13", 128, 0 );
@@ -722,7 +719,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 27, "sprite/night/rim_majime_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 27, "sprite/night/rim_majime_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「………こうして眺めると、この村ものどかそうに見えますのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -775,7 +772,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //　少女はくるりと振り返り、私に目線を合わせる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -925,7 +922,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModDrawCharacter(2, 27, "sprite/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/jyt1", 400 );
 
 //「…………ボクには難しいことはよくわかりません。＠
@@ -1161,8 +1158,6 @@ void main()
 		   NULL, "But her face remained indifferent, expressionless.", Line_Normal);
 	ClearMessage();
 
-
-	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
@@ -1683,8 +1678,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModDrawCharacter(2, 27, "portrait/night/rim_majime_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/moon", 400 );
-	ModDrawCharacter(2, 27, "portrait/night/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「………私は幸せに生きたい＠…望みはそれだけ＠
@@ -1742,7 +1737,6 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	PlayBGM( 1, "msys13", 128, 0 );
-	DrawScene("background/jyt2", 400 );
 
 
 //　…やがて、私たちの姿を、酔った人々が見つける＠
@@ -1759,7 +1753,6 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene("black", 400 );
 	PlayBGM( 1, "msys05", 128, 0 );
 	DrawScene("background/jy2", 400 );
 

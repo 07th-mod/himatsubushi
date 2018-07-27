@@ -309,6 +309,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
+	DisableWindow();
 	FadeOutBGM( 1, 1000, TRUE );
 	DrawScene("black", 1000 );
 //gosub *tip_e

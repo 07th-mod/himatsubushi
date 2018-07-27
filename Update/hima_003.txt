@@ -51,7 +51,7 @@ void main()
 	DisableWindow();
 	DrawScene("white", 10 );
 	PlayBGM( 1, "lsys22", 128, 0 );
-	DrawSceneWithMask("background/hoteru", "c", 0, 0, 300 );
+	DrawSceneWithMask("background/hoteru", "m1", 0, 0, 300 );
 
 //　時間は午前１０時のもうすぐ半＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -67,7 +67,8 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 2, 10, TRUE );
+	FadeOutBGM( 2, 10, FALSE );
+	FadeOutBGM( 1, 100, TRUE );
 
 //「赤坂さんですか＠　おはようございます、大石です＠んっふっふっふ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -143,8 +144,6 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
-
 //「あなたの眠気をもうひとつ覚ましてあげられるかもしれない話があります＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700347", 128, TRUE);
@@ -168,7 +167,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	PlayBGM( 1, "msys25", 128, 0 );
+	PlayBGM( 1, "msys07", 128, 0 );
 
 //「詳しい話はこちらにいらっしゃってからにしましょう＠お昼前に来れますか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -238,7 +237,7 @@ void main()
 
 	DisableWindow();
 	ModDrawCharacter(1, 11, "sprite/normal/oisi1_1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawScene("background/ke_s2", 400 );
+	DrawSceneWithMask("background/ke_s2", "m1", 0, 0, 400 );
 
 //「お、来た来た＠天才雀士さまの到着だ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -406,7 +405,7 @@ void main()
 		   NULL, "...As I had imagined, there were initials engraved there.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-
+	PlaySE( 4, "wa_022", 128, 64 );
 //　だが、想像していたものよりはもう少し詳しく、「Ｔｏｓｈｉｋｉ・Ｉ」と記されていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、想像していたものよりはもう少し詳しく、「Ｔｏｓｈｉｋｉ・Ｉ」と記されていた。",
@@ -414,7 +413,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 11, "sprite/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, FALSE );
+	ModDrawCharacter(1, 11, "sprite/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawScene("background/ke_s2", 400 );
 
 //　ね？　と大石氏がにやっと笑う＠
@@ -543,7 +542,8 @@ void main()
 		   NULL, "It was a card from a dental examination.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
-
+	DisableWindow();
+	ShakeScreen( 1, 20, 20, 3, 0, );
 	PlaySE( 3, "wa_027", 128, 64 );
 
 //　「犬飼寿樹」という個人名と年齢＠…一致＠
@@ -633,7 +633,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/normal/oisi1_4_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	ModDrawCharacter(3, 11, "sprite/normal/oisi1_4_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「……ね？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -682,7 +682,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/normal/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「そりゃ赤坂さんの仕事でしょ＠私ゃまだそこまでは。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -704,7 +704,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/normal/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/normal/oisi1_1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「拾ったのは村人です＠昨日のことだそうで。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -726,7 +726,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/normal/oisi1_4_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/normal/oisi1_4_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「ここいらに雨があったのはちょうど先週、７日前＠中身が水にやられた様子はないから、最長で６日前からでしょうねぇ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -777,7 +777,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/normal/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「どうぞどうぞ＠外線は０発信から。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -814,8 +814,9 @@ void main()
 		   NULL, "...Ahh, could there possibly be something so absurd!?", Line_Normal);
 	ClearMessage();
 
-
-	PlayBGM( 0, "lsys17", 128, 0 );
+	DisableWindow();
+	DrawScene("black", 1400 );
+	PlayBGM( 2, "lsys17", 128, 0 );
 //dwaveplayloop 1
 
 //　財布の中のレシートやカード類に記された住所等は、孫の生活圏と一致する＠
@@ -854,7 +855,7 @@ void main()
 		   NULL, "...Rather than all this circumstantial proof, the contents of the phone call I was about to make would have a much greater meaning...", Line_Normal);
 	ClearMessage();
 
-	StopBGM( 0 );
+	StopBGM( 2 );
 
 //「………ハイお待たせしました＠××歯科です。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中川歯科</color>", NULL, "<color=#f5e6d3>Nakagawa Dentistry</color>", NULL, Line_ContinueAfterTyping); }
@@ -866,6 +867,8 @@ void main()
 		   NULL, " This is Nakagawa Dental Office.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	DisableWindow();
+	DrawScene("background/denwa", 400 );
 
 //「どうも。こちらは×××警察です＠実はお財布の落し物がありまして、所有者の連絡先を探しております＠ご協力をいただいてもよろしいでしょうか＠　お財布の中に、そちらさまの診察カードが入っておりまして＠……えぇ＠氏名は犬飼寿樹くんです＠カードの番号を申し上げますので、電話番号をお調べいただいてもよろしいでしょうか＠……えぇ、ありがとうございます＠お願いできますか。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -906,7 +909,7 @@ void main()
 		   NULL, "Still holding the receiver, I pulled out a notebook from my breast pocket with my free hand.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-
+	PlaySE( 4, "wa_021", 128, 64 );
 //　……孫の自宅の住所、電話番号を記したページを開いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……孫の自宅の住所、電話番号を記したページを開いた。",
@@ -979,6 +982,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 400 );
 	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 2, "lsys22", 128, 0 );
 
 //　私の連絡で、本庁はかなり衝撃を受けたようだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1025,7 +1029,7 @@ void main()
 		   NULL, "After asking the same questions about the wallet that the lead investigator did, the chief quietly spoke his next words.", Line_Normal);
 	ClearMessage();
 
-
+	FadeOutBGM( 2, 0, TRUE );
 	PlayBGM( 1, "msys30", 128, 0 );
 	DisableWindow();
 	DrawSceneWithMask("background/denwa", "down", 0, 0, 300 );
@@ -1069,7 +1073,7 @@ void main()
 
 	DisableWindow();
 	ModDrawCharacter(1, 11, "sprite/normal/oisi1_1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawScene("background/ke_s2", 400 );
+	DrawScene("background/ke_s2", 500 );
 
 //「どうでした？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1285,7 +1289,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 11, "sprite/normal/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	ModDrawCharacter(2, 11, "sprite/normal/oisi1_1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawScene("background/ke_s2", 400 );
 
 
@@ -1304,7 +1308,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 11, "sprite/normal/oisi1_2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 11, "sprite/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「なっはっはっは＠そりゃ正直を言えば、雛見沢なんか好きこのんで行きたかないですからね＠運賃でも弾んでもらいたい気分ですが＠でも、一緒に卓を囲んだ友人の頼みとあれば、断るわけには行きませんしねぇ＠んっふっふっふ…！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1326,7 +1330,8 @@ void main()
 		   NULL, " Nfu fu fu...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 11, "portrait/normal/oisi1_2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacter(2, 11, "portrait/normal/oisi1_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //　大石氏がにやっと笑って、私の背中をドンと叩く＠
@@ -1395,7 +1400,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 11, "sprite/normal/oisi1_5_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 11, "sprite/normal/oisi1_5_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //「まぁ、用心ですよ＠火中の栗を拾うなら、相応の用意が必要と思いましてねぇ＠あなたも着ます？＠
@@ -1426,6 +1431,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 1000 );
 	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 2, "lsys22", 128, 0 );
 	SetValidityOfInput( FALSE );
 	Wait( 5000 );
 	SetValidityOfInput( TRUE );
@@ -2495,8 +2501,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene("white", 10 );
-	DrawSceneWithMask("background/so_d1", "c", 0, 0, 300 );
+	DrawScene("white", 150 );
+	DrawSceneWithMask("background/so_d1", "c", 0, 0, 500 );
 
 //　その時、自分の目と耳を覆っていたガムテープがベリベリと剥がされた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2673,6 +2679,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 10, "sprite/normal/iri2_def1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 2, "lsys22", 128, 0 );
 
 //　若い白衣を着た男だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2688,7 +2695,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「………………………彼は？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -2739,7 +2746,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime3_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「…………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -2764,7 +2771,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……その古い手術跡というのが気になります＠何の手術でしたか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -2795,7 +2802,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000006", 128, TRUE);
 	OutputLine(NULL, "「本当は診療所に連れ帰るべきなんですがね。」",
-		   NULL, "\" I should really bring him back to the clinic.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"I should really bring him back to the clinic.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2807,7 +2814,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	FadeBustshotWithFiltering( 3, "right", 1, FALSE, 0, 0, 300, TRUE );
+	FadeBustshotWithFiltering( 3, "right", 1, FALSE, 0, 0, 500, TRUE );
 
 //　医者は少年を診療所に連れ帰りたいと言うが、犯人たちは無言で首を横に振るのみだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2822,6 +2829,8 @@ void main()
 		   NULL, "...it was a fleeting hope, but it was only natural that the captors would refuse.", Line_Normal);
 	ClearMessage();
 
+	DisableWindow();
+	ModDrawCharacter(3, 10, "sprite/normal/iri2_majime_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //　その時、医者と目が会う＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2838,7 +2847,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(2, 10, "portrait/normal/iri2_def1_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 10, "portrait/normal/iri2_def1_", "0", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「…………大丈夫ですか＠　私は医者です＠この手術跡はいつ頃のものですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -2927,16 +2937,16 @@ void main()
 //「………あつつつつつつつつつ…ッ！！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/toshi00011", 128, TRUE);
-	OutputLine(NULL, "「………あつつつつつつつつつ…ッ！！！」",
-		   NULL, "\"...AHHHHHHHHH!!!\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "「………あつつつつつつつつつ…ッ！！！",
+		   NULL, "\"...AHHHHHHHHH!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「…ん、………んん……。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/toshi00012", 128, TRUE);
-	OutputLine(NULL, "「…ん、………んん……。」",
-		   NULL, "\"...Hmm ....hmmm....\"", Line_Normal);
+	OutputLine(NULL, "…ん、………んん……。」",
+		   NULL, "...Hmm ....hmmm....\"", Line_Normal);
 	ClearMessage();
 
 

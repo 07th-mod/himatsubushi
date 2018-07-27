@@ -14,9 +14,9 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 1000 );
-	DrawScene("background/heya1_05", 400 );
 	PlayBGM( 1, "msys06", 128, 0 );
-	ModDrawCharacter(3, 10, "sprite/sunset/iri2_def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	ModDrawCharacter(3, 10, "sprite/sunset/iri2_def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawScene("background/heya1_05", 400 );
 
 //「だいぶ血圧もよくなってきましたよ＠そのお年でこれだけの回復力があるのは…いやいや、感服するばかりです＠
 	ClearMessage();
@@ -58,7 +58,7 @@ void main()
 		   NULL, " If a persistent ol' fart like me doesn't hurry up and die, I'll just be in the way of you young folk...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300002", 128, TRUE);
 	OutputLine(NULL, "…ほっほっほっほ…。」",
-		   NULL, " ..Ho ho ho ho...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Ho ho ho ho...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -307,6 +307,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	PlaySE( 4, "wa_020", 128, 64 );
 	DrawSceneWithMask("background/heya1_04", "right", 0, 0, 300 );
 	PlayBGM( 2, "lsys11", 128, 0 );
 
@@ -355,7 +356,7 @@ void main()
 
 	Wait( 2000 );
 	ClearMessage();
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 
 //「ワシゃあ、百まで生きんにせぇ、もうしばらくは死ねんよ＠……ダムの件、きっちりケリ付けるまでゃあ、棺の蓋かて収まらんわ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
@@ -391,7 +392,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(1, 10, "sprite/sunset/iri2_majime2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 10, "sprite/sunset/iri2_majime_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「…石臼、ですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -568,9 +569,9 @@ void main()
 		   NULL, "...For what crept across Mion and the old lady's faces were contemptuous smiles.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
+	ModDrawCharacter(1, 26, "portrait/sunset/chibimion_warai_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	ModDrawCharacter(3, 17, "portrait/sunset/oryou_warai_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/heya1_04", "right", 0, 0, 300 );
-	ModDrawCharacter(1, 26, "portrait/sunset/chibimion_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
-	ModDrawCharacter(3, 17, "portrait/sunset/oryou_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 
@@ -578,8 +579,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#5ec69a>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300024", 128, TRUE);
 	ModPlayVoiceLS(5, 26, "ps3/s20/26/440300112", 128, TRUE);
-	OutputLine(NULL, "「……………………………。」",
-		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "「……………………………。",
+		   NULL, "\"...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -587,8 +588,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>＆<color=#5ec69a>魅音</color>", NULL, "<color=#d7e6de>Oryou</color> & <color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300025", 128, TRUE);
 	ModPlayVoiceLS(5, 26, "ps3/s20/26/440300113", 128, TRUE);
-	OutputLine(NULL, "「………………………。」",
-		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, " ………………………。」",
+		   NULL, " ...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -608,15 +609,15 @@ void main()
 
 //「……………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「……………………。」",
-		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "「……………………。",
+		   NULL, "\"...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「…………………………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "「…………………………………。」",
-		   NULL, "\"......\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, " …………………………………。」",
+		   NULL, " ......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

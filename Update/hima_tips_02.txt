@@ -257,6 +257,7 @@ void main()
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
+	DisableWindow();
 	DrawScene("black", 1000 );
 //gosub *tip_e
 //return

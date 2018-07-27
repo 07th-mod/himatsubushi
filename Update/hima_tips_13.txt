@@ -49,8 +49,6 @@ void main()
 		   NULL, " ...Oryou dotes on her exactly like you would with a kitten.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask("background/ima1", "left", 0, 0, 300 );
 
 //　私は母としての立場上、それを叱る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
