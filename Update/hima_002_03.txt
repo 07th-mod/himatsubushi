@@ -195,7 +195,7 @@ void main()
 //「……比較するほど経験がないので、上首尾かはわかりませんは＠…とりあえず今日のところは順調だと思います。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300258", 128, TRUE);
-	OutputLine(NULL, "「……比較するほど経験がないので、上首尾かはわかりませんは。",
+	OutputLine(NULL, "「……比較するほど経験がないので、上首尾かはわかりませんが。",
 		   NULL, "\"...I don't have the experience to make a comparison, so I don't know if it's that good or not.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300259", 128, TRUE);
 	OutputLine(NULL, "…とりあえず今日のところは順調だと思います。」",
@@ -1671,7 +1671,7 @@ void main()
 	OutputLine(NULL, "「…………ほぅ。",
 		   NULL, "\"...Oh?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800021", 128, TRUE);
-	OutputLine(NULL, "…蔵人の聴牌など鼻から論外、というわけか。」",
+	OutputLine(NULL, "…蔵人の聴牌など端から論外、というわけか。」",
 		   NULL, " ...So Kuraudo's tenpai was no good from the start, in other words.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1732,7 +1732,7 @@ void main()
 	OutputLine(NULL, "さ、続けましょう。",
 		   NULL, " Now, let's continue.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300303", 128, TRUE);
-	OutputLine(NULL, "サトさんは聴牌しなかったらか流れて、次は私ですね？",
+	OutputLine(NULL, "サトさんは聴牌しなかったから流れて、次は私ですね？",
 		   NULL, " Since Sato-san wasn't in tenpai and the round ended without a winner, then I'm next, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300304", 128, TRUE);
 	OutputLine(NULL, "　……親。」",
