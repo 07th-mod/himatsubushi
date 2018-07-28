@@ -1661,7 +1661,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300295", 128, TRUE);
 	OutputLine(NULL, "筋でさばけば無難なのに、わざわざ抑えた方がいる。」",
-		   NULL, "It would have safer to read the discards, but there was a player who went out of their way to keep the tiles out of play.\"", Line_Normal);
+		   NULL, "It would have been safer to read the discards, but there was a player who went out of their way to keep the tiles out of play.\"", Line_Normal);
 	ClearMessage();
 
 
