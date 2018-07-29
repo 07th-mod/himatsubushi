@@ -192,7 +192,7 @@ void main()
 //「……比較するほど経験がないので、上首尾かはわかりませんは＠…とりあえず今日のところは順調だと思います。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300258", 128, TRUE);
-	OutputLine(NULL, "「……比較するほど経験がないので、上首尾かはわかりませんは。",
+	OutputLine(NULL, "「……比較するほど経験がないので、上首尾かはわかりませんが。",
 		   NULL, "\"...I don't have the experience to make a comparison, so I don't know if it's that good or not.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300259", 128, TRUE);
 	OutputLine(NULL, "…とりあえず今日のところは順調だと思います。」",
@@ -1645,14 +1645,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300293", 128, TRUE);
 	OutputLine(NULL, "「……………マンズの高い辺りが急に高騰しましたので抑えました。",
-		   NULL, "\"...The higher manzu tiles suddenly got more valuable, so he suppressed them.", Line_WaitForInput);
+		   NULL, "\"...The higher manzu tiles suddenly got more valuable, so I held them back.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300294", 128, TRUE);
 	OutputLine(NULL, "大石さんのリーチに対して安全性が高まったのにです。",
-		   NULL, " Even though with Ooishi-san's riichi, the chance they were safe tiles had increased. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Even though the chance they were safe tiles had increased with respect to Ooishi-san's riichi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300295", 128, TRUE);
 	OutputLine(NULL, "筋でさばけば無難なのに、わざわざ抑えた方がいる。」",
-		   NULL, "It would have been no trouble if he read the discards, but he went out of his way to keep them out of play.\"", Line_Normal);
+		   NULL, "It would have been safer to read the discards, but there was a player who went out of their way to keep the tiles out of play.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1662,7 +1662,7 @@ void main()
 	OutputLine(NULL, "「…………ほぅ。",
 		   NULL, "\"...Oh?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800021", 128, TRUE);
-	OutputLine(NULL, "…蔵人の聴牌など鼻から論外、というわけか。」",
+	OutputLine(NULL, "…蔵人の聴牌など端から論外、というわけか。」",
 		   NULL, " ...So Kuraudo's tenpai was no good from the start, in other words.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -1723,7 +1723,7 @@ void main()
 	OutputLine(NULL, "さ、続けましょう。",
 		   NULL, " Now, let's continue.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300303", 128, TRUE);
-	OutputLine(NULL, "サトさんは聴牌しなかったらか流れて、次は私ですね？",
+	OutputLine(NULL, "サトさんは聴牌しなかったから流れて、次は私ですね？",
 		   NULL, " Since Sato-san wasn't in tenpai and the round ended without a winner, then I'm next, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300304", 128, TRUE);
 	OutputLine(NULL, "　……親。」",
@@ -2864,7 +2864,7 @@ void main()
 		   NULL, " I'm the dealer, so four thousand to everybody?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300353", 128, TRUE);
 	OutputLine(NULL, "　それとも罰符は積み棒に？」",
-		   NULL, " Or is the penalty my point sticks?\"", Line_Normal);
+		   NULL, " Or should I pay a deposit?\"", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys32", 128, 0 );
