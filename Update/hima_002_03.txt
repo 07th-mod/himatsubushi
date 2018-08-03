@@ -1328,7 +1328,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800010", 128, TRUE);
 	OutputLine(NULL, "それ！」",
 		   NULL, " There!\"", Line_Continue);
-	
+
 	PlaySE( 3, "wa_005", 128, 64 );
 	ShakeScreen( 0, 50, 20, 2, 0, );
 
@@ -1652,11 +1652,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300295", 128, TRUE);
 	OutputLine(NULL, "筋でさばけば無難なのに、わざわざ抑えた方がいる。」",
-<<<<<<< HEAD
 		   NULL, "It would have been safer to read the discards, but there was a player who went out of their way to keep the tiles out of play.\"", Line_Normal);
-=======
-		   NULL, "It would have been no trouble if he read the discards, but he went out of his way to keep them out of play.\"", Line_Normal);
->>>>>>> 69ffcb5... Rework
 	ClearMessage();
 
 
@@ -1883,11 +1879,11 @@ void main()
 //ロン。/
 	OutputLine(NULL, "ロン。",
 		   NULL, " Ron.", Line_Continue);
-		   
+
 	Wait( 500 );
 	PlaySE( 3, "wa_006", 128, 64 );
 	ShakeScreen( 1, 50, 20, 3, 0, );
-	
+
 	OutputLineAll(NULL, "", Line_WaitForInput);
 	SetSpeedOfMessage( FALSE, 0, );
 	PlaySE( 3, "wa_005", 128, 64 );
@@ -2802,7 +2798,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 1400 );
-	
+
 //　自分のツモの時に……こっそりと赤坂さんの次のツモ牌を……￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分のツモの時に……こっそりと赤坂さんの次のツモ牌を……。",
@@ -2825,7 +2821,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	
+
 	PlaySE( 3, "wa_002", 128, 64 );
 //　がっしゃ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
