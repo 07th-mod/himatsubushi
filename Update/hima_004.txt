@@ -4388,6 +4388,7 @@ void main()
 		   NULL, "I decided on the title.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
+	PlayBGM( 2, "msys11", 128, 0 );
 
 //　『ひぐらしのなく頃に￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4423,72 +4424,42 @@ void main()
 		   NULL, "I wrote this in the afterword:", Line_Normal);
 	ClearMessage();
 
+	DisableWindow();
+	SetValidityOfInput( FALSE );
+	DrawScene("text/hima_aka1", 1000 );
 
 //　この惨劇が、どうして起こされたのか＠
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300788", 128, TRUE);
 	ModPlayVoiceLS(5, 11, "ps3/s05/11/100700877", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
-	OutputLine(NULL, "　この惨劇が、どうして起こされたのか。",
-		   NULL, "Why did this tragedy happen?", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
-
+	Wait( 4000 );
 
 //　私たちだけでは真相に至ることがかないません＠
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300789", 128, TRUE);
 	ModPlayVoiceLS(5, 11, "ps3/s05/11/100700878", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
-	OutputLine(NULL, "　私たちだけでは真相に至ることがかないません。",
-		   NULL, "We can't reach the truth by ourselves.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+	Wait( 6000 );
 
+	DrawScene("black", 400 );
+	DrawScene("text/hima_aka2", 1000 );
 
 //　どうかこれを読んだあなた＠
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300790", 128, TRUE);
 	ModPlayVoiceLS(5, 11, "ps3/s05/11/100700879", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
-	OutputLine(NULL, "　どうかこれを読んだあなた。",
-		   NULL, "If you're reading this.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	Wait( 2800 );
 
 
 //　真相を解き明かしてください＠
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300791", 128, TRUE);
 	ModPlayVoiceLS(5, 11, "ps3/s05/11/100700880", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
-	OutputLine(NULL, "　真相を解き明かしてください。",
-		   NULL, "Please discover the truth.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	Wait( 2800 );
 
 
 //　それだけが私たちの願いです＠
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300792", 128, TRUE);
 	ModPlayVoiceLS(5, 11, "ps3/s05/11/100700881", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
-	OutputLine(NULL, "　それだけが私たちの願いです。",
-		   NULL, "That is our only wish.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
-
-
-//!s0　　　　　　　　　　　　　大石蔵人・赤坂衛!sd
-
-	SetSpeedOfMessage( TRUE, 128, );
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　　　　　　　　　　　　　大石蔵人・赤坂衛",
-		   NULL, "Kuraudo Ooishi, Mamoru Akasaka.", Line_Normal);
-
-	ClearMessage();
-	SetSpeedOfMessage( FALSE, 0, );
-
-
-	SetValidityOfInput( FALSE );
-	Wait( 2000 );
+	Wait( 7700 );
+	DrawScene("white", 2000 );
 	SetValidityOfInput( TRUE );
-
-//locate 0,7
-
-	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 7 ); }
+	DrawScene("black", 1000 );
 
 //雛見沢地区の封鎖は、今年もまだ解けていない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
