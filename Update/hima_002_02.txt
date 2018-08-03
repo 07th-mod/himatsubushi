@@ -7,10 +7,11 @@ void main()
 //gosub *Ch_Ri_Si
 
 	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
 	FadeOutBGM( 2, 1000, TRUE );
 
-	PlayBGM( 1, "msys11", 128, 0 );
 	DisableWindow();
+	PlayBGM( 1, "msys11", 128, 0 );
 	DrawScene("background/ji1_01", 1000 );
 
 //　車は神社の駐車場に停まる＠
@@ -32,9 +33,9 @@ void main()
 	OutputLine(NULL, "　どの車にも、ダム計画断固粉砕、",
 		   NULL, "On the side of each vehicle was scrawled: \"The Dam Project Must Be Demolished,\"", Line_WaitForInput);
 	OutputLine(NULL, "郷土徹底死守！、",
-		   NULL, " \"Defend our Homeland to the Last!,\"", Line_WaitForInput);
+		   NULL, " \"Defend our Homeland to the Last!\"", Line_WaitForInput);
 	OutputLine(NULL, "オヤシロさまの怒りを知れ！、",
-		   NULL, " \"Know Oyashiro-sama's Anger!,\" ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " \"Know Oyashiro-sama's Anger!\" ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "などの筆文字が書かれ、スピーカーを使わずとも、見る者を威圧する雰囲気を漂わせていた。",
 		   NULL, "or a slogan of a similar kind. They gave the feeling that even without using the loudspeakers, there was enough to overwhelm any onlookers.", Line_Normal);
@@ -255,7 +256,7 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	DisableWindow();
 	ModDrawCharacter(3, 27, "portrait/sunset/rim_majime_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
@@ -443,7 +444,7 @@ void main()
 //　そして、気にしないで下さいね、…と景気付けるように笑い飛ばしてくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、気にしないで下さいね、…と景気付けるように笑い飛ばしてくれた。",
-		   NULL, "He followed that with a smile that said: 'please don't think much of it.'", Line_Normal);
+		   NULL, "He followed that with a smile that said: \"please don't think much of it.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -565,7 +566,8 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "sprite/sunset/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	FadeBustshotWithFiltering( 3, "left", 0, FALSE, 0, 0, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/sunset/rim_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「……行きましょうですよ、赤坂。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -829,9 +831,9 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	DisableWindow();
-	ModDrawCharacter(1, 27, "portrait/sunset/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	ModDrawCharacter(1, 27, "portrait/sunset/rim_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……赤坂、こっちなのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -861,7 +863,17 @@ void main()
 	DisableWindow();
 	DrawScene("white", 400 );
 	PlayBGM( 1, "msys11", 128, 0 );
-	DrawScene("background/jt1_01", 3000 );
+	//draw and move big background
+	SetValidityOfInterface(FALSE);
+	SetValidityOfSaving(FALSE);
+	DrawBustshot(4, "overview/hina2_1", 0, 200, -140, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, FALSE );
+	DrawBustshot(3, "overview/hina2_2", 0, 230, -140, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, FALSE );
+	DrawBustshot(2, "overview/hina2_3", 0, 280, -140, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, FALSE );
+	DrawBustshot(1, "overview/hina2_4", 0, 290, -140, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
+	MoveBustshot( 4, NULL, 0, -230, -140, 4, 15000, FALSE );
+	MoveBustshot( 3, NULL, 0, -230, -140, 3, 15000, FALSE );
+	MoveBustshot( 2, NULL, 0, -230, -140, 2, 15000, FALSE );
+	MoveBustshot( 1, NULL, 0, -230, -140, 1, 15000, FALSE );
 
 //「…………………これは、…………………すごい……。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -919,6 +931,25 @@ void main()
 		   NULL, "For a while, I was left awestruck.. I could only stand there in wonder.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	DisableWindow();
+	DrawScene("black", 1000 );
+	DrawBustshot(1, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(2, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(3, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(4, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(5, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(6, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot(7, "alphaimage", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 1, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 2, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 3, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 4, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 5, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 6, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	DrawBustshot( 7, "", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, TRUE );
+	SetValidityOfInterface(TRUE);
+	SetValidityOfSaving(TRUE);
+	DrawScene("black", 0 );
 
 //　涼やかな風が、火照った体を冷ましてくれる＠…その心地よさにも、心を奪われていた…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -936,7 +967,8 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 27, "portrait/sunset/rim_warai_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 27, "portrait/sunset/rim_warai_", "2", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawScene("background/jt1_01", 300 );
 
 //「……ボクの一番のお気に入りの場所なのですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1003,8 +1035,6 @@ void main()
 		   NULL, "...In fact, she replied with a smile.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	ModDrawCharacter(3, 27, "portrait/sunset/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……沈みませんよ＠ダム計画なんて、必ずなくなっちゃいますのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1032,7 +1062,7 @@ void main()
 		   NULL, " It was just her wish.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 27, "portrait/sunset/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "portrait/sunset/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
 //「……………赤坂は、……この村が沈んでしまうと、…思っていますか？＠
@@ -1373,7 +1403,7 @@ void main()
 		   NULL, " ...The kidnapping of the minister's grandson...", Line_Normal);
 	ClearMessage();
 
-
+	PlayBGM( 1, "msys16", 128, 0 );
 //　鬼ヶ淵死守同盟は……大臣の孫を誘拐し、……すでに大臣との交渉に水面下で成功して…………、…ダム計画の中止の…確約を得ている……＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟は……大臣の孫を誘拐し、……すでに大臣との交渉に水面下で成功して…………、…ダム計画の中止の…確約を得ている……？",
@@ -1397,8 +1427,10 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 400 );
+	FadeOutBGM( 1, 400, FALSE );
 	ModDrawCharacter(2, 27, "portrait/sunset/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawScene("background/jt2_01", 400 );
+	DrawScene("background/jt2_01", 300 );
+	PlayBGM( 1, "msys11", 128, 0 );
 
 
 //「……赤坂。＠
@@ -1425,18 +1457,19 @@ void main()
 
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	DisableWindow();
 	ModDrawCharacter(2, 27, "portrait/sunset/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
-	PlayBGM( 1, "msys15", 128, 0 );
 
 //「……………………東京へ帰れ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500060", 128, TRUE);
 	OutputLine(NULL, "「……………………東京へ帰れ。」",
-		   NULL, "\"...Go back to Tokyo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Go back to Tokyo.\"", Line_ContinueAfterTyping);
+	PlaySE( 4, "wa_025", 128, 64 );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
+	PlayBGM( 1, "msys08", 128, 0 );
 
 //　え、…………＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1576,10 +1609,11 @@ void main()
 
 
 
-	FadeOutBGM( 1, 1000, TRUE );
-	FadeOutBGM( 2, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, FALSE );
 
 	DisableWindow();
+	DrawScene("black", 300 );
 	DrawScene("scene/202", 1000 );
 
 //「……………いちいちうるさいな。￥
@@ -1662,8 +1696,8 @@ void main()
 		   NULL, "...She definitely wouldn't speak with such pointed words.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene("background/jt2_01", 400 );
-	ModDrawCharacter(2, 27, "portrait/sunset/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 27, "portrait/sunset/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawScene("background/jt2_01", 500 );
 
 
 //「…………………警告はした＠…勘違いしないでほしいのは、…私があなたを嫌いだからこういうことを言ってるわけじゃないってこと＠………死んでもいい人に、危険なんかを教える必要はないのだし。＠
@@ -1713,7 +1747,7 @@ void main()
 
 	DisableWindow();
 	ModDrawCharacter(2, 27, "portrait/normal/rim_niyari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask("black", "down", 0, 0, 300 );
+	DrawScene("black", 300 );
 
 //　……その笑い方がすでに、…歳相応でない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1778,8 +1812,8 @@ void main()
 		   NULL, "He didn't notice that there was something terrifying happening to her.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
+	ModDrawCharacter(2, 27, "portrait/sunset/rim_niyari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, FALSE );
 	DrawScene("background/jt2_01", 400 );
-	ModDrawCharacter(2, 27, "portrait/sunset/rim_niyari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 
 //「………赤坂の怖がり＠……くすくすくすくすくす！＠
@@ -1814,11 +1848,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	FadeOutBGM( 1, 1000, TRUE );
-	FadeOutBGM( 2, 1000, TRUE );
+	FadeOutBGM( 1, 500, FALSE );
+	FadeOutBGM( 2, 500, FALSE );
 	DisableWindow();
-	FadeBustshotWithFiltering( 2, "down", 7, FALSE, 0, 0, 200, TRUE );
-//	PlaySE( 3, "wa_003", 128, 64 );
+	FadeBustshotWithFiltering( 2, "down", 7, FALSE, 0, 0, 100, TRUE );
+	PlaySE( 3, "wa_003", 128, 64 );
 
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
@@ -1845,7 +1879,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "sprite/sunset/rim_komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 27, "sprite/sunset/rim_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/jt2_01", "up", 0, 0, 300 );
 
 //「……みぃ。＠
@@ -1957,7 +1991,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 27, "sprite/sunset/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 27, "sprite/sunset/rim_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「……わ～～～～～～い、なのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2009,8 +2043,6 @@ void main()
 
 	DisableWindow();
 	FadeBustshotWithFiltering( 3, "left", 1, FALSE, 0, 0, 300, TRUE );
-
-	StopSE( 3 );
 
 //　み～～～！！＠
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500081", 128, TRUE);
@@ -2227,9 +2259,6 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	DisableWindow();
-	ModDrawCharacter(1, 27, "sprite/sunset/rim_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
-
 //「………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500092", 128, TRUE);
@@ -2395,6 +2424,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 400 );
+	FadeOutBGM( 1, 1000, TRUE );
 
 //　やがて暗くなり、村長たちは夕食を用意しようと言ってくれたが、明日も来るといって辞退することにした＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2410,6 +2440,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	PlayBGM( 1, "msys13", 128, 0 );
 	DrawScene("background/jys1", 400 );
 
 //「そうですか＠…ではまた明日もぜひいらっしゃい＠　お電話をくれればすぐに迎えを出しますのでね。＠

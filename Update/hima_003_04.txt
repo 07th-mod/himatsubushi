@@ -26,9 +26,9 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene("background/sinryou_sinsatu1_02", 1000 );
-	ModDrawCharacter(1, 10, "sprite/sunset/iri2_def1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 	PlayBGM( 1, "msys06", 128, 0 );
+	ModDrawCharacter(1, 10, "sprite/sunset/iri2_def1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawScene("background/sinryou_sinsatu1_02", 1000 );
 
 //「………もしもし…＠　大丈夫ですか…？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -159,6 +159,7 @@ void main()
 		   NULL, "Dr. Irie left the room to go call Ooishi.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
+	PlayBGM( 2, "msys11", 128, 0 );
 	DrawScene("background/sora2", 400 );
 
 
@@ -213,8 +214,6 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_020", 128, 64 );
-
 //　勢いよく病室の扉が開かれ、入江医師と大石氏がやって来た￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　勢いよく病室の扉が開かれ、入江医師と大石氏がやって来た。",
@@ -222,8 +221,9 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModDrawCharacterWithFiltering(3, 11, "sprite/sunset/oisi1_1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacterWithFiltering(1, 10, "sprite/sunset/iri2_majime_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawScene("background/sinryou_sinsatu1_02", 400 );
-	ModDrawCharacterWithFiltering(3, 11, "sprite/sunset/oisi1_1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「じゃあ命に別状はないんでしょ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -232,8 +232,6 @@ void main()
 		   NULL, "\"So there's no serious damage, is there?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 10, "sprite/sunset/iri2_majime2_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「…ないとお約束はできません。@頭に受けた傷は初見だけでは判断が危険なのです。」@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -270,22 +268,15 @@ void main()
 		   NULL, "\"...Yeah, go ahead. Call me if anything happens.\"", Line_Normal);
 	ClearMessage();
 
-
-	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 300, TRUE );
-//	FadeAllBustshots( 0, TRUE );
-
 	DisableWindow();
+	FadeAllBustshots( 400, TRUE );
 	ModDrawCharacterWithFiltering(3, 11, "sprite/sunset/oisi1_1_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
-	PlaySE( 3, "wa_020", 128, 64 );
 
 //　大石氏は半ば強引に入江医師を追い出すと扉を閉めた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏は半ば強引に入江医師を追い出すと扉を閉めた。",
 		   NULL, "Ooishi, after basically forcing Dr. Irie outside, shut the door.", Line_Normal);
 	ClearMessage();
-
-
-
 
 
 //「いかがですか、お具合は。＠
@@ -739,6 +730,8 @@ void main()
 		   NULL, " You have to hurry back home.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
+	DisableWindow();
+	DrawScene("black", 400 );
 
 //　その後しばらく、大石氏に妻のことを根掘り葉掘り聞かれ、茶化されたり、おちょくられたりして時間を過ごした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -747,11 +740,10 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawScene("black", 400 );
 	SetValidityOfInput( FALSE );
-	Wait( 3000 );
+	Wait( 2000 );
 	SetValidityOfInput( TRUE );
-	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_4_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/sinryou_sinsatu1_02", 1000 );
 
 //「…さて＠具合はどうです＠　起きれそうですか？＠
@@ -786,7 +778,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「いえいえ、雛見沢の病院では落ち着かないでしょうと思いまして＠入江の先生は一晩泊まらせたいみたいなことを言ってますが＠………犯人もまだ捕まってませんし＠一応、ここはあなたにとっては敵地になりますからね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -918,7 +910,7 @@ void main()
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 11, "sprite/sunset/oisi1_2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「なっはっはっは＠　新婚さんはそういうのマメだなぁ＠確か会計の脇にあったと思います＠ここで待ってますから、行ってらっしゃい行ってらっしゃい。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -952,7 +944,7 @@ void main()
 
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 300 );
-	PlayBGM( 1, "msys11", 128, 0 );
+	FadeOutBGM( 1, 1000, FALSE );
 	DrawSceneWithMask("background/sinryou_matiai1", "left", 0, 0, 300 );
 
 //　ロビーは病室を出て廊下をちょっと行くとすぐにあった￥
@@ -1214,7 +1206,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 2, 1000, TRUE );
 	PlaySE( 3, "wa_022", 128, 64 );
 
 //　…それは見事にぶっつりと切れてしまっていた￥
@@ -1470,7 +1462,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
 	PlaySE( 3, "wa_023", 128, 64 );
 
 //　…すると、それはするすると手繰れてしまい、……ぶっつりと途切れた断面を見せ付けてくれた￥
@@ -1690,7 +1682,7 @@ void main()
 	DrawScene("black", 400 );
 	FadeOutBGM( 1, 1000, TRUE );
 	DrawSceneWithMask("background/moon", "left", 0, 0, 300 );
-	PlayBGM( 1, "msys13", 128, 0 );
+	PlayBGM( 1, "msys11", 128, 0 );
 
 //　老婆が言うには、電話ボックスの場所は遠くとも、道はわかりやすいものらしかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2593,7 +2585,7 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
+	FadeOutBGM( 1, 400, FALSE );
 	DisableWindow();
 	DrawScene("black", 400 );
 	PlayBGM( 1, "msys13", 128, 0 );

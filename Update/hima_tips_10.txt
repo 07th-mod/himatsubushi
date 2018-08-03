@@ -494,8 +494,8 @@ void main()
 		   NULL, "Mion, after confirming she'd been heard, picked up the phone and began dialing.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
+	ModDrawCharacter(2, 26, "sprite/normal/chibimion_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/so_g1", "up", 0, 0, 300 );
-	ModDrawCharacter(2, 26, "sprite/normal/chibimion_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
 //「……………………あ、もしもし＠魅音だけど＠…うん＠…うちのお父さん、います？￥

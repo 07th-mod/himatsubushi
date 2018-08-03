@@ -222,8 +222,6 @@ void main()
 		   NULL, "...Seeing that, the man who went to buy supplies let out a deep sigh.", Line_Normal);
 	ClearMessage();
 
-	DisableWindow();
-	DrawSceneWithMask("background/so_d1_01", "left", 0, 0, 300 );
 
 //　そして、その様子を尻目に、……部屋の隅へ歩み寄る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -55,6 +55,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	PlayBGM( 2, "lsys20", 128, 0 );
 	DrawScene("background/kuruma2", 400 );
 
 //　今回の自分の姿も不審者そのものだった＠
@@ -181,6 +182,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	FadeOutBGM( 2, 400, FALSE );
 	DrawScene("black", 400 );
 
 //　一番初め、県警本部で私は全てを伝えられた＠
@@ -285,6 +287,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	PlayBGM( 2, "lsys20", 128, 0 );
 	DrawScene("background/kuruma6", 400 );
 
 //　大石氏と一緒にいるからドライブをしていられるのであって＠………自分がこの車を下車して自動販売機でも探しに出掛けたなら、……帰ってこられない可能性だってあるのだ￥
@@ -713,7 +716,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("white", 400 );
-	DrawSceneWithMask("background/damu2", "c", 0, 0, 1300 );
+	DrawSceneWithMask("background/damu2", "c", 0, 0, 500 );
 
 //　……そこは、雛見沢ダム建設現場＠…そう、雛見沢村の、最前線だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -723,22 +726,17 @@ void main()
 		   NULL, " ...The very front line for Hinamizawa Village.", Line_Normal);
 	ClearMessage();
 
-
+	DisableWindow();
 	PlaySE( 3, "wa_006", 128, 64 );
+	ShakeScreen( 1, 50, 20, 4, 0, );
 
 //!s0「「「雛見沢ダム建設、絶対反対ッ！！」」」/
 //!s0
 
-	SetSpeedOfMessage( TRUE, 128, );
-
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/manall00001", 128, TRUE);
 	OutputLine(NULL, "「「「雛見沢ダム建設、絶対反対ッ！！」」」",
-		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_Continue);
-
-	ShakeScreen( 1, 50, 20, 4, 0, );
-	SetSpeedOfMessage( FALSE, 0, );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+		   NULL, "\"\"\"We're absolutely opposed to the construction of the Hinamizawa Dam!!\"\"\"", Line_WaitForInput);
 
 //!sd
 	ClearMessage();
@@ -986,7 +984,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask("background/damu2", "left", 0, 0, 1300 );
+	DrawSceneWithMask("background/damu2", "left", 0, 0, 400 );
 
 //　道は、村人たち群衆の座り込みと街宣車の車列、そして機動隊の列とその車両で、通り抜けるのは本当に容易ではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1237,8 +1235,8 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
-	FadeOutBGM( 2, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, FALSE );
 
 //　その時、ふっと影になった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1278,7 +1276,7 @@ void main()
 	PlayBGM( 2, "lsys18", 128, 0 );
 	DisableWindow();
 	ModDrawCharacter(2, 27, "sprite/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawSceneWithMask("background/damu2", "up", 0, 0, 300 );
+	DrawSceneWithMask("background/damu4", "up", 0, 0, 300 );
 
 //「……………………………ぇ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -1348,8 +1346,9 @@ void main()
 
 	FadeOutBGM( 2, 1000, TRUE );
 	DisableWindow();
-	DrawSceneWithMask("background/kuruma1", "right", 0, 0, 300 );
 	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 2, "lsys22", 128, 0 );
+	DrawSceneWithMask("background/kuruma1", "right", 0, 0, 300 );
 
 //　その時、再びむわっとした熱気と轟音が車内を満たす＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1428,8 +1427,8 @@ void main()
 	ClearMessage();
 
 
-	FadeOutBGM( 1, 1000, TRUE );
-	FadeOutBGM( 2, 1000, TRUE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, FALSE );
 	DisableWindow();
 	DrawScene("black", 400 );
 	PlayBGM( 2, "lsys20", 128, 0 );
@@ -1526,7 +1525,8 @@ void main()
 		   NULL, "Was saying to me who was here now, ignoring that warning...", Line_Normal);
 	ClearMessage();
 
-
+	DisableWindow();
+	ModDrawCharacter(1, 27, "sprite/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
 //!s250『……警告したのに。!w1500……ばかなヤツ。』!sd@
 //!s250
 	SetSpeedOfMessage( TRUE, 0, );
