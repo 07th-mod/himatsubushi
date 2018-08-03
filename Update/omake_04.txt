@@ -1289,7 +1289,7 @@ void main()
 //＜詩音
 
 	DisableWindow();
-	FadeOutBGM( 1, 1000, TRUE );
+	//FadeOutBGM( 1, 1000, TRUE );
 	PlaySE( 3, "wa_015", 128, 64 );
 	Wait( 300 );
 	PlaySE( 3, "wa_015", 128, 64 );
@@ -1304,7 +1304,7 @@ void main()
 
 	DisableWindow();
 	PlaySE( 3, "wa_007", 128, 64 );
-	PlayBGM( 0, "msys33", 128, 0 );
+	//PlayBGM( 0, "msys33", 128, 0 );
 	DrawBustshot(5, "background/furiker_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 5, TRUE );
 	ShakeScreen( 1, 50, 20, 4, 0, );
 	DrawScene("black", 400 );
