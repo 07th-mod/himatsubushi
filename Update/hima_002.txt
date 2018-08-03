@@ -2163,9 +2163,10 @@ void main()
 	PlaySE( 4, "wa_013", 128, 64 );
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 500, TRUE );
 	Wait( 500 );
-	ModDrawCharacter(1, 27, "sprite/normal/rim_def_", "0", -300, 240, -800, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	ModDrawCharacter(1, 27, "sprite/normal/rim_def_", "0", -300, 249, -800, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	MoveSprite( 1, -300, 249, -800, -20, 0, 0, 0, 0, FALSE );
 	DrawSceneWithMask("background/mo1", "c", 0, 0, 1800 );
-	MoveBustshot( 1, NULL, -300, 150, -800, 1, 1000, TRUE );
+	MoveSprite( 1, -300, 167, -800, -20, 0, 0, 0, 1000, TRUE );
 	DrawBustshot(5, "white", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 100, TRUE );
 	PlaySE( 4, "wa_013", 128, 64 );
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 500, TRUE );
