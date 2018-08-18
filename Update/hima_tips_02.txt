@@ -176,14 +176,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば、県内で近年、いろいろと問題になっている雛見沢村電源基本計画についても、",
 		   NULL, "For example, there have recently been numerous problems with the Hinamizawa Power Plant Project. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです。",
-			   NULL, "<size=-2>Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.", GetGlobalFlag(GLinemodeSp));
-	} else {
-		OutputLine(NULL, "お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです。",
-			   NULL, "Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.", GetGlobalFlag(GLinemodeSp));
-	}
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです。",
+		   NULL, "Rather than forcing through the project solely because it was decided upon by the government, it is necessary to reflect on and adjust to the ever-changing needs of the residents, the region, and the next generation.", GetGlobalFlag(GLinemodeSp));
 
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

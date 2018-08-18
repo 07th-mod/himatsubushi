@@ -2621,14 +2621,10 @@ void main()
 	DrawScene("black", 400 );
 
 //　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…￥
-	if (GetGlobalFlag(GADVMode)) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…。",
-			   NULL, "<size=-2>However, then the demonstrators and police clashed, which started a riot, leading to numerous injuries and arrests. It was from then on that the Onigafuchi Defense Alliance, like their name implies, began to take a more demonic form of resistance...", Line_Normal);
-	} else {
-		OutputLine(NULL, "　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…。",
-			   NULL, "However, then the demonstrators and police clashed, which started a riot, leading to numerous injuries and arrests. It was from then on that the Onigafuchi Defense Alliance, like their name implies, began to take a more demonic form of resistance...", Line_Normal);
-	}
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "　だが、デモ隊と機動隊が激突して乱闘となり、多数の逮捕者と流血者を出したある事件をきっかけに、鬼ヶ淵死守同盟は文字通り、抵抗運動を鬼の形相に変えていく…。",
+		   NULL, "However, then the demonstrators and police clashed, which started a riot, leading to numerous injuries and arrests. It was from then on that the Onigafuchi Defense Alliance, like their name implies, began to take a more demonic form of resistance...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2899,15 +2895,11 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300039", 128, TRUE);
 	OutputLine(NULL, "…検察も書類送検には二の足を踏むわけです。",
 		   NULL, "...Any prosecutor would hesitate to file charges. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300040", 128, TRUE);
-	if (GetGlobalFlag(GADVMode)) {
-		OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_Continue);
-		OutputLine(NULL, "殺人ならいざ知れず、投石で額を切った、殴られてアザができた程度だと、仮に犯人を特定できたとしても、嫌疑不十分で送検されないことがほとんどです。」",
-			   NULL, "<size=-2>I'm not sure about murder, but if it's something like opening a gash on somebody's forehead with a thrown rock, or leaving a bruise after hitting someone, even if you could single out the suspect, there's enough reasonable doubt to not convict.\"", Line_Normal);
-	} else {
-		OutputLine(NULL, "殺人ならいざ知れず、投石で額を切った、殴られてアザができた程度だと、仮に犯人を特定できたとしても、嫌疑不十分で送検されないことがほとんどです。」",
-			   NULL, "I'm not sure about murder, but if it's something like opening a gash on somebody's forehead with a thrown rock, or leaving a bruise after hitting someone, even if you could single out the suspect, there's enough reasonable doubt to not convict.\"", Line_Normal);
-	}
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "殺人ならいざ知れず、投石で額を切った、殴られてアザができた程度だと、仮に犯人を特定できたとしても、嫌疑不十分で送検されないことがほとんどです。」",
+		   NULL, "I'm not sure about murder, but if it's something like opening a gash on somebody's forehead with a thrown rock, or leaving a bruise after hitting someone, even if you could single out the suspect, there's enough reasonable doubt to not convict.\"", Line_Normal);
 	ClearMessage();
 
 //　どの犯行も、雛見沢の誰かの仕業であることは間違いないが…それを特定できない＠

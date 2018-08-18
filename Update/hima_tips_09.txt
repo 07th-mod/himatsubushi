@@ -660,14 +660,10 @@ void hima_tips_09_d()
 
 
 //　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから￥
-	if (GetGlobalFlag(GADVMode)) {
-		OutputLineAll("", NULL, Line_ContinueAfterTyping);
-		OutputLine(NULL, "　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから。",
-			   NULL, "<size=-2>Because instead of this boring game about boxes, you could be looking at the quickly-changing evening summer sky, listening for the distant sound of thunder, and pondering if it's going to rain or not... that would be much more fun.", Line_Normal);
-	} else {
-		OutputLine(NULL, "　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから。",
-			   NULL, "Because instead of this boring game about boxes, you could be looking at the quickly-changing evening summer sky, listening for the distant sound of thunder, and pondering if it's going to rain or not... that would be much more fun.", Line_Normal);
-	}
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "　こんなつまらない箱遊びよりも、変わりやすい夏の夕暮れの空を見上げて、遠雷に耳を澄ませながら、夕立が降るか降らないかを迷う方が、ずっと楽しいんだから。",
+		   NULL, "Because instead of this boring game about boxes, you could be looking at the quickly-changing evening summer sky, listening for the distant sound of thunder, and pondering if it's going to rain or not... that would be much more fun.", Line_Normal);
 	ClearMessage();
 
 
