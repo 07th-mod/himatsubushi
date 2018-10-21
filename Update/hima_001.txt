@@ -3719,7 +3719,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300050", 128, TRUE);
 	OutputLine(NULL, "「いえ、公安部の本田屋さんにアポイントがあります。",
-		   NULL, "\"No, I have an appointment with Motodai-san from the Public Safety Division.", Line_WaitForInput);
+		   NULL, "\"No, I have an appointment with Hondaya-san from the Public Safety Division.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300051", 128, TRUE);
 	OutputLine(NULL, "赤坂とお伝え下さい。」",
 		   NULL, " Please tell him it's Akasaka.\"", GetGlobalFlag(GLinemodeSp));
@@ -3788,7 +3788,7 @@ void main()
 //　下品にげらげら笑う、この本田屋という地元公安の幹部は、およそ知的な人物に感じられなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　下品にげらげら笑う、この本田屋という地元公安の幹部は、およそ知的な人物に感じられなかった。",
-		   NULL, "Listening to his crude chortles, I didn't get much of a feeling that Motodai, who was head of the local Public Safety Division, was much of an intellectual.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Listening to his crude chortles, I didn't get much of a feeling that Hondaya, who was head of the local Public Safety Division, was much of an intellectual.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3885,7 +3885,7 @@ void main()
 //　本田屋氏が豪快に笑い転げる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本田屋氏が豪快に笑い転げる。",
-		   NULL, "Motodai was just about rolling with laughter.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hondaya was just about rolling with laughter.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3906,7 +3906,7 @@ void main()
 //　…そんな内のひとりが、本田屋氏の大笑いに気付き、こちらに歩み寄ってきた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そんな内のひとりが、本田屋氏の大笑いに気付き、こちらに歩み寄ってきた。",
-		   NULL, "...One of those individuals, noticing Motodai's guffaws, came up to us.", Line_Normal);
+		   NULL, "...One of those individuals, noticing Hondaya's guffaws, came up to us.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3979,7 +3979,7 @@ void main()
 //　この新しく現れた男も、本田屋氏同様、勘と経験に強い自信を持つ叩き上げタイプであることが見て取れた＠……この手の人間は、…本当は好きではない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この新しく現れた男も、本田屋氏同様、勘と経験に強い自信を持つ叩き上げタイプであることが見て取れた。",
-		   NULL, "I could tell that this new person was like Motodai, the type who had confidence in their instincts and experience.", Line_WaitForInput);
+		   NULL, "I could tell that this new person was like Hondaya, the type who had confidence in their instincts and experience.", Line_WaitForInput);
 	OutputLine(NULL, "……この手の人間は、…本当は好きではない。",
 		   NULL, " ...I really didn't like those types of people.", Line_Normal);
 	ClearMessage();
@@ -4271,7 +4271,7 @@ void main()
 //　県警本部や、本田屋氏の情報を鵜呑みにするなら、…自分の立場がバレれば、身の危険もあるかもしれない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　県警本部や、本田屋氏の情報を鵜呑みにするなら、…自分の立場がバレれば、身の危険もあるかもしれない。",
-		   NULL, "If I took the information I learned at the prefectural office and from Motodai to heart... if my position was exposed, my personal safety was at risk.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If I took the information I learned at the prefectural office and from Hondaya to heart... if my position was exposed, my personal safety was at risk.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4363,7 +4363,7 @@ void main()
 //　つまり、同盟の幹部はそのまま村の幹部という図式になるということは、さっきの本田屋氏からも聞いた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、同盟の幹部はそのまま村の幹部という図式になるということは、さっきの本田屋氏からも聞いた。",
-		   NULL, "Meaning, there was a direct correlation between being an executive in the Alliance and being a leader in the village, as Motodai had told me a short time ago.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meaning, there was a direct correlation between being an executive in the Alliance and being a leader in the village, as Hondaya had told me a short time ago.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -679,7 +679,7 @@ void main()
 //　今、私の隣に大石氏や本田屋氏はいない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今、私の隣に大石氏や本田屋氏はいない。",
-		   NULL, "Right now, Ooishi or Motodai weren't beside me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Right now, Ooishi or Hondaya weren't beside me.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
