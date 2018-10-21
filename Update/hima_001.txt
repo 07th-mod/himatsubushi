@@ -3751,7 +3751,7 @@ void main()
 	DrawScene("background/torishirabeshitu", 400 );
 
 //「どうもどうも＠　赤坂さんでいらっしゃいますか、遠路遥々お疲れさまでした＠　こんな部屋で申し訳ありませんね、応接室をおさえてあったんですがね＠議員さんが突然お越しになっちゃったんで追い出されちゃいまして＠　わははははは！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000001", 128, TRUE);
 	OutputLine(NULL, "「どうもどうも！",
 		   NULL, "\"Welcome, welcome!", Line_WaitForInput);
@@ -3761,7 +3761,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000003", 128, TRUE);
 	OutputLine(NULL, "　こんな部屋で申し訳ありませんね、応接室をおさえてあったんですがね。",
 		   NULL, " Sorry we have to do this here. I tried to reserve a reception room, you see, ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000004", 128, TRUE);
 	OutputLine(NULL, "議員さんが突然お越しになっちゃったんで追い出されちゃいまして！",
 		   NULL, "but the councillor suddenly woke up and chased me out!", Line_WaitForInput);
@@ -3814,10 +3814,10 @@ void main()
 
 
 //「公安部の本田屋です＠よろしくよろしく＠県警暴対の山海部長から協力を惜しむなと脅されとりますので＠わははははは！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000006", 128, TRUE);
 	OutputLine(NULL, "「公安部の本田屋です。",
-		   NULL, "\"Honda from the Public Safety Division.", Line_WaitForInput);
+		   NULL, "\"Hondaya from the Public Safety Division.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000007", 128, TRUE);
 	OutputLine(NULL, "よろしくよろしく。",
 		   NULL, " Nice to meetcha.", Line_WaitForInput);
@@ -3842,7 +3842,7 @@ void main()
 
 
 //「うちじゃあ、鬼ヶ淵死守の連中は暴力団の延長に位置づけてますんでね＠あれを善意の住民運動だなんてあんた、トーシロもいいとこですわ、わははははは！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000010", 128, TRUE);
 	OutputLine(NULL, "「うちじゃあ、鬼ヶ淵死守の連中は暴力団の延長に位置づけてますんでね。",
 		   NULL, "\"You see, we're treating the Onigafuchi Defense Alliance as an extension of the local yakuza.", Line_WaitForInput);
@@ -3866,7 +3866,7 @@ void main()
 	ClearMessage();
 
 //「そりゃ逆＠全然逆ですよ、暴力団の活動があって、それに住民団体が大義名分みたいにくっついてると、そういう風に考えて下さい＠逆、逆＠わははははは！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000012", 128, TRUE);
 	OutputLine(NULL, "「そりゃ逆。",
 		   NULL, "\"It's the other way around.", Line_WaitForInput);
@@ -3926,7 +3926,7 @@ void main()
 
 
 //「おー、蔵ちゃん＠　ちょうどよかった、蔵ちゃんも入ってよ＠こちら、はるばる東京の警視庁からお見えになった赤坂警部。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000016", 128, TRUE);
 	OutputLine(NULL, "「おー、蔵ちゃん！",
 		   NULL, "\"Oh, Kura-chan!", Line_WaitForInput);
@@ -3985,7 +3985,7 @@ void main()
 	ClearMessage();
 
 //「赤坂さんにもご紹介します＠こちらは刑事部の大石くん＠赤坂さんがお問い合わせのＳ号の件なら、彼が詳しいです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Honda</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本田屋</color>", NULL, "<color=#f5e6d3>Hondaya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000019", 128, TRUE);
 	OutputLine(NULL, "「赤坂さんにもご紹介します。",
 		   NULL, "\"Let me introduce you, Akasaka-san.", Line_WaitForInput);
