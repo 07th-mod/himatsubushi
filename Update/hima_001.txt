@@ -1150,7 +1150,8 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
 	SetValidityOfInput( TRUE );
-	ModPlayMovie("mv08");
+
+	ModCallScriptSection("&opening", "OpeningStory");
 
 //csp -1
 
