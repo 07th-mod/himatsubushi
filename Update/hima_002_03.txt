@@ -852,7 +852,7 @@ void main()
 //　大石氏と情報屋（…どうせ仮名だろうが、彼は佐藤氏と名乗った）に先導され、繁華街の裏道へ、裏道へと進んでいく￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石氏と情報屋（…どうせ仮名だろうが、彼は佐藤氏と名乗った）に先導され、繁華街の裏道へ、裏道へと進んでいく。",
-		   NULL, "Ooishi and the informant (it was no doubt a fake name, but he introduced himself as Satou) led the way deeper and deeper into the back streets of the market district.", Line_Normal);
+		   NULL, "Ooishi and the informant (it was no doubt a fake name, but he introduced himself as Sato) led the way deeper and deeper into the back streets of the market district.", Line_Normal);
 	ClearMessage();
 
 
@@ -1015,7 +1015,7 @@ void main()
 //　佐藤氏と老人は、カッカッカと笑い合う＠……人をカモにしようという魂胆が見え見えだ…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　佐藤氏と老人は、カッカッカと笑い合う。",
-		   NULL, "Satou and the old man cackled in unison.", Line_WaitForInput);
+		   NULL, "Sato and the old man cackled in unison.", Line_WaitForInput);
 	OutputLine(NULL, "……人をカモにしようという魂胆が見え見えだ…。",
 		   NULL, " ...Their plot to sucker me out of my money was painfully obvious...", Line_Normal);
 	ClearMessage();
