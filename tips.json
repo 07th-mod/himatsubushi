@@ -88,15 +88,15 @@
             "Id": 76,
             "Script": "hima_tips_13",
             "UnlockChapter": 5,
-            "Title": "Mother's Diary",
-            "TitleJp": "母の日記"
+            "Title": "Mother's Diary II",
+            "TitleJp": "母の日記 II"
         },
         {
             "Id": 77,
             "Script": "hima_tips_14",
             "UnlockChapter": 5,
-            "Title": "Mother's Diary",
-            "TitleJp": "母の日記"
+            "Title": "Mother's Diary III",
+            "TitleJp": "母の日記 III"
         }
     ]
 }
