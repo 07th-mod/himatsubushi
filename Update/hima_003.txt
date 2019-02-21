@@ -2261,7 +2261,7 @@ void main()
 		   NULL, " Does it hurt?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1026", 128, TRUE);
 	OutputLine(NULL, "　おいおい、痛むんならあんまり押さえ込んじゃかえって悪いぞ…。」",
-		   NULL, " Hey hey, if it hurts you should shouldn't clutch at so tightly, it'll only make it worse...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hey hey, if it hurts you shouldn't clutch at so tightly, it'll only make it worse...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
