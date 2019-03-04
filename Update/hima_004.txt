@@ -3554,7 +3554,7 @@ void main()
 //　関係者のほとんどは死に絶え、わずかに残った関係者も全国へ散り、その行方は掴みきれない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　関係者のほとんどは死に絶え、わずかに残った関係者も全国へ散り、その行方は掴みきれない。",
-		   NULL, "Most  of the people involved were already dead, with the few that did remain spread around the country, unable to be traced.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Most of the people involved were already dead, with the few that did remain spread around the country, unable to be traced.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
