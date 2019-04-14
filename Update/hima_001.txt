@@ -465,7 +465,7 @@ void main()
 //　犬飼建設大臣という名に、少年はぴくりと耳を動かした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼建設大臣という名に、少年はぴくりと耳を動かした。",
-		   NULL, "The boy's ears perked up at the mention of the name "Inugai."", Line_Normal);
+		   NULL, "The boy's ears perked up at the mention of the name "Inugai\".", Line_Normal);
 	ClearMessage();
 
 
