@@ -9,11 +9,32 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 
 	DisableWindow();
+	DrawScene("text/monologue_hima1", 1000 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima001", 256, TRUE);
+	Wait( 7000 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima002", 256, TRUE);
+	Wait( 14900 );
+	DrawScene("text/monologue_hima2", 1000 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima003", 256, TRUE);
+	Wait( 2700 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima004", 256, TRUE);
+	Wait( 2900 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima005", 256, TRUE);
+	Wait( 10100 );
+	DrawScene("text/title_hima", 1000 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima007", 256, TRUE);
+	Wait( 2900 );
+	DrawScene("text/monologue_hima3", 1000 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima008", 256, TRUE);
+	Wait( 3500 );
+	ModPlayVoiceLS(3, 0, "ps2/12/hima009", 256, TRUE);
+	Wait( 6100 );
+	DrawScene("black", 1000 );
 	DrawScene("text/s60", 1000 );
 	SetValidityOfInput( FALSE );
-	Wait( 4000 );
+	Wait( 3200 );
 	SetValidityOfInput( TRUE );
-	DrawScene("black", 400 );
+	DrawScene("black", 800 );
 	//PlayBGM( 2, "lsys20", 128, 0 );
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 //!sd
