@@ -10,7 +10,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 1000 );
-	PlayBGM( 1, "msys31", 128, 0 );
+	PlayBGM( 1, "msys31", 56, 0 );
 
 //■歯車と火事と蜜の味
 

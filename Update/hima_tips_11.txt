@@ -9,7 +9,7 @@ void main()
 	DisableWindow();
 	DrawScene("background/sinryou_sinsatu4", 400 );
 
-	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 1, "msys12", 56, 0 );
 
 
 //■とてもやさしい人なの
@@ -119,7 +119,7 @@ void main()
 
 //「でも、そんなことを不安に思って出産を嫌う母なんて、いないですものねぇ…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44021", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44021", 256, TRUE);
 	OutputLine(NULL, "「でも、そんなことを不安に思って出産を嫌う母なんて、いないですものねぇ…。」",
 		   NULL, "\"There isn't a mother out there who would hate to give birth because of that worry, though...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -168,7 +168,7 @@ void main()
 
 //「あなたのお父さんはね、…とっても頑張り屋さんなのよ＠　こちょこちょこちょこちょ……☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44022", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44022", 256, TRUE);
 	OutputLine(NULL, "「あなたのお父さんはね、…とっても頑張り屋さんなのよ？",
 		   NULL, "\"Your father, you see... is a very hard worker, you know?", Line_Continue);
 	Wait( 3000 );

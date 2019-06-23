@@ -31,7 +31,7 @@ void main()
 	DrawScene("background/nort", 1000 );
 
 
-	PlayBGM( 1, "msys21", 128, 0 );
+	PlayBGM( 1, "msys21", 56, 0 );
 
 //　育児書に諭されるまでもなく、子どもは親の人形ではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -288,11 +288,11 @@ void main()
 	ClearMessage();
 
 
-	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 1, "msys12", 56, 0 );
 
 //「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44001", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44001", 256, TRUE);
 	OutputLine(NULL, "「ここ数日、気持ちのいい晴れの日が続いて、気分がいいわね。」",
 		   NULL, "\"These past few days have been nice and sunny. The air feels nice, doesn't it?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -300,7 +300,7 @@ void main()
 
 //「…………………。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500030", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500030", 256, TRUE);
 	OutputLine(NULL, "「…………………。」",
 		   NULL, "\"......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -324,7 +324,7 @@ void main()
 
 //「何を作ってるの＠　お人形さん？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44002", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44002", 256, TRUE);
 	OutputLine(NULL, "「何を作ってるの？",
 		   NULL, "\"What are you making?", Line_Continue);
 	Wait( 500 );
@@ -335,7 +335,7 @@ void main()
 
 //「………てるてる坊主。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500031", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500031", 256, TRUE);
 	OutputLine(NULL, "「………てるてる坊主。」",
 		   NULL, "\"......A weather charm.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -378,19 +378,19 @@ void main()
 
 //「あははは…＠駄目よ梨花＠頭が重すぎるから、ほら＠逆さてるてる坊主になっちゃったわ＠これじゃあ晴れじゃなくて雨になっちゃうわよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44003", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44003", 256, TRUE);
 	OutputLine(NULL, "「あははは…。",
 		   NULL, "\"Ahahaha...", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "駄目よ梨花。",
 		   NULL, " It's no good, Rika.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44004", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44004", 256, TRUE);
 	OutputLine(NULL, "頭が重すぎるから、ほら。",
 		   NULL, " The heads are too heavy, see?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44005", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44005", 256, TRUE);
 	OutputLine(NULL, "逆さてるてる坊主になっちゃったわ。",
 		   NULL, " They've become reverse weather charms now.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44006", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44006", 256, TRUE);
 	OutputLine(NULL, "これじゃあ晴れじゃなくて雨になっちゃうわよ。」",
 		   NULL, " If they're like this, they'll call the rain instead of the sun.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -405,7 +405,7 @@ void main()
 
 //「………逆さになるように作ったのだから、それでいいの。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500032", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500032", 256, TRUE);
 	OutputLine(NULL, "「………逆さになるように作ったのだから、それでいいの。」",
 		   NULL, "\"......That's because I made them to be upside-down. They're fine.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -413,7 +413,7 @@ void main()
 
 //「……………でも梨花＠てるてる坊主が逆さじゃ、晴れのおまじないにならないわよ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44007", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44007", 256, TRUE);
 	OutputLine(NULL, "「……………でも梨花。",
 		   NULL, "\"...But, Rika.", Line_Continue);
 	Wait( 1200 );
@@ -424,7 +424,7 @@ void main()
 
 //「雨が降るようにおまじないをしているから、それでいいの。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500033", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500033", 256, TRUE);
 	OutputLine(NULL, "「雨が降るようにおまじないをしているから、それでいいの。」",
 		   NULL, "\"I was making a charm for it to rain, so they're fine.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -439,7 +439,7 @@ void main()
 
 //「…あ、……そっか＠お庭の朝顔が晴れ続きで元気がなくなっちゃったから、雨が欲しいのね？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44008", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/hurum44008", 256, TRUE);
 	OutputLine(NULL, "「…あ、……そっか。",
 		   NULL, "\"Oh... I see...", Line_Continue);
 	Wait( 3000 );
@@ -459,7 +459,7 @@ void main()
 
 //「晴れにね、…飽きたの。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500034", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500034", 256, TRUE);
 	OutputLine(NULL, "「晴れにね、…飽きたの。」",
 		   NULL, "\"I got bored... of the clear weather.\"", Line_Normal);
 	ClearMessage();

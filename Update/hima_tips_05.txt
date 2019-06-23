@@ -13,7 +13,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 1000 );
 
-	PlayBGM( 1, "msys12", 128, 0 );
+	PlayBGM( 1, "msys12", 56, 0 );
 	DisableWindow();
 	DrawScene("background/so_d1_01", 400 );
 
@@ -71,7 +71,7 @@ void main()
 
 //「……帰ってきたんね＠開けちょくれな、俺だ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400010", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400010", 256, TRUE);
 	OutputLine(NULL, "「……帰ってきたんね。",
 		   NULL, "\"...I'm back.", Line_WaitForInput);
 	OutputLine(NULL, "開けちょくれな、俺だ。」",
@@ -81,7 +81,7 @@ void main()
 
 //「あぁ、お疲れ＠今、開ける。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44001", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44001", 256, TRUE);
 	OutputLine(NULL, "「あぁ、お疲れ。",
 		   NULL, "\"Ahh, you must be tired.", Line_Continue);
 	Wait( 1700 );
@@ -89,7 +89,7 @@ void main()
 		   NULL, " I'm opening it now.\"", Line_Normal);
 	ClearMessage();
 
-	PlaySE( 3, "wa_020", 128, 64 );
+	PlaySE( 3, "wa_020", 56, 64 );
 
 //　鍵を外し、扉を開けると、大きく膨らんだスーパーのビニール袋を両手いっぱいに持った男が姿を現す＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -105,9 +105,9 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_002", 128, 64 );
+	PlaySE( 3, "wa_002", 56, 64 );
 	Wait( 200 );
-	PlaySE( 3, "wa_003", 128, 64 );
+	PlaySE( 3, "wa_003", 56, 64 );
 
 //　それらの袋の中身を、床に敷かれた毛布の上に広げた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -118,7 +118,7 @@ void main()
 
 //「カップラーメン買ってきちょん、お湯沸かせな＠…小僧はどうしてるん。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400011", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400011", 256, TRUE);
 	OutputLine(NULL, "「カップラーメン買ってきちょん、お湯沸かせな。",
 		   NULL, "\"I bough' some cup noodles, so go boil some water.", Line_Continue);
 	Wait( 2500 );
@@ -129,16 +129,16 @@ void main()
 
 //「ん＠　ずっと寝てる＠手が掛からなくて助かるよ＠ウンコ垂れる時は騒ぐけどな。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44002", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44002", 256, TRUE);
 	OutputLine(NULL, "「ん？",
 		   NULL, "\"Hm?", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　ずっと寝てる。",
 		   NULL, " He's been sleeping the entire time.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44003", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44003", 256, TRUE);
 	OutputLine(NULL, "手が掛からなくて助かるよ。",
 		   NULL, " Thank god he's not causing any trouble.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44004", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44004", 256, TRUE);
 	OutputLine(NULL, "ウンコ垂れる時は騒ぐけどな。」",
 		   NULL, " He did struggle a bit when he was about to shit himself.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -146,7 +146,7 @@ void main()
 
 //「漏らさせんなぁ＠便臭は万一の時、ヤぁバいって。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400012", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400012", 256, TRUE);
 	OutputLine(NULL, "「漏らさせんなぁ。",
 		   NULL, "\"Don' let 'im crap 'is pants.", Line_Continue);
 	Wait( 1500 );
@@ -157,20 +157,20 @@ void main()
 
 //「……わかってるよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44005", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44005", 256, TRUE);
 	OutputLine(NULL, "「……わかってるよ。」",
 		   NULL, "\"...Yeah, I know.\"", Line_Normal);
 	ClearMessage();
 
 //「猿ぐつわは定期的にチェックんな＠外れてもまずいん、きつくも締め付けちゃあぁん＠窒息させたら意味がなん。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400013", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400013", 256, TRUE);
 	OutputLine(NULL, "「猿ぐつわは定期的にチェックんな。",
 		   NULL, "\"Check tha gag every now and then.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "外れてもまずいん、きつくも締め付けちゃあぁん。",
 		   NULL, " We don' wan' it ta get loose, so keep it tigh'...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400014", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400014", 256, TRUE);
 	OutputLine(NULL, "窒息させたら意味がなん。」",
 		   NULL, " but not so tigh' that 'e stops breathin'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -178,13 +178,13 @@ void main()
 
 //「わかってるって…＠あれ、携帯コンロのガス缶頼まなかった＠　もうガスねえよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44006", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44006", 256, TRUE);
 	OutputLine(NULL, "「わかってるって…。",
 		   NULL, "\"I said, I know...", Line_Continue);
 	Wait( 1800 );
 	OutputLine(NULL, "あれ、携帯コンロのガス缶頼まなかった？",
 		   NULL, " Huh? Didn't I ask you to pick up another can of gas for the portable stove?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44007", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44007", 256, TRUE);
 	OutputLine(NULL, "　もうガスねえよ。」",
 		   NULL, " We're out.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -192,7 +192,7 @@ void main()
 
 //「聞いてねん、だぁほ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400015", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400015", 256, TRUE);
 	OutputLine(NULL, "「聞いてねん、だぁほ。」",
 		   NULL, "\"Ya never asked, ya ijit.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -200,7 +200,7 @@ void main()
 
 //「…かーー…、マジかよ、付いてくれよ…＠くそくそ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44008", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44008", 256, TRUE);
 	OutputLine(NULL, "「…かーー…、マジかよ、付いてくれよ…。",
 		   NULL, "\"...Gaah... seriously? Come on, work....", Line_Continue);
 	Wait( 4800 );
@@ -239,7 +239,7 @@ void main()
 
 //「…………………小僧、!w1000……元気かいね？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400016", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400016", 256, TRUE);
 	OutputLine(NULL, "「…………………小僧、",
 		   NULL, "\"....Boy,", Line_Continue);
 
@@ -296,24 +296,24 @@ void main()
 
 //「今ん所、順調らし＠命の心配はないん＠…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…＠本家はこうと決めたら…鬼やんね＠…どんな残酷なこと命令するかも想像つかん＠……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400017", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400017", 256, TRUE);
 	OutputLine(NULL, "「今ん所、順調らし。",
 		   NULL, "\"Ya seem ta be doin' okay.", Line_Continue);
 	Wait( 2500 );
 	OutputLine(NULL, "命の心配はないん。",
 		   NULL, " At leas',  yer not gonna die.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400018", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400018", 256, TRUE);
 	OutputLine(NULL, "…お前の祖父さんが渋りよったん、耳たぶのひとつも切り落とさなきゃならんかったんけー、…やらんくて済んで助かりよんよ…。",
 		   NULL, " ..If yer grampa wanted to play tough, we migh' have had ta lop off an ear.. it'd be great if we don' have ta... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400019", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400019", 256, TRUE);
 	OutputLine(NULL, "本家はこうと決めたら…鬼やんね。",
 		   NULL, "If tha Main Family says we do, though... tough luck.", Line_Continue);
 	Wait( 3200 );
 	OutputLine(NULL, "…どんな残酷なこと命令するかも想像つかん。",
 		   NULL, " ...I can' even imagine wha' kind of cruel things they'd have us do. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400020", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400020", 256, TRUE);
 	OutputLine(NULL, "……その本家が、小僧に傷一つ付けるな言うてんから、とにかく順調なんだろんな…。」",
 		   NULL, "...Tha Family says not one scratch on 'im though, so it seems to be going well for tha time bein'...\"", Line_Normal);
 	ClearMessage();
@@ -322,16 +322,16 @@ void main()
 
 //「大臣はダム計画を撤回で水面下工作＠雛見沢ダム計画は無期凍結へ＠…小僧の解放はいつ頃になるんだろうな＠…早く一服したいもんだぜ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44009", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44009", 256, TRUE);
 	OutputLine(NULL, "「大臣はダム計画を撤回で水面下工作。",
 		   NULL, "\"The Minister is discretely withdrawing the dam project.", Line_Continue);
 	Wait( 3500 );
 	OutputLine(NULL, "雛見沢ダム計画は無期凍結へ。",
 		   NULL, " The Hinamizawa Dam is indefinitely postponed.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44010", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44010", 256, TRUE);
 	OutputLine(NULL, "…小僧の解放はいつ頃になるんだろうな。",
 		   NULL, " ...I wonder when we're letting the boy go.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44011", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44011", 256, TRUE);
 	OutputLine(NULL, "…早く一服したいもんだぜ。」",
 		   NULL, " ...I just want to be done with this already.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -339,7 +339,7 @@ void main()
 
 //「本家が決着のタイミング、計ってるらし＠いつになるかわぁらんが、近い内やんなぁ…。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400021", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400021", 256, TRUE);
 	OutputLine(NULL, "「本家が決着のタイミング、計ってるらし。",
 		   NULL, "\"Tha Main Family seem ta be gaugin' tha timin'.", Line_Continue);
 	Wait( 4000 );
@@ -350,7 +350,7 @@ void main()
 
 //「良かったな小僧＠もうじき解放されるぞ、へへへ…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44012", 128, TRUE);
+	ModPlayVoiceLS(4, 0, "ps3/s20/00/yamab44012", 256, TRUE);
 	OutputLine(NULL, "「良かったな小僧。",
 		   NULL, "\"Isn't that great, kid?", Line_Continue);
 	Wait( 1000 );
@@ -375,13 +375,13 @@ void main()
 
 //「それよん、ガスをどうするんね＠　ラーメン食えんよぅ！＠　ガス切れたなら言ぅてえなぁもう！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400022", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400022", 256, TRUE);
 	OutputLine(NULL, "「それよん、ガスをどうするんね！",
 		   NULL, "\"More importan'ly, wha' are we gonna do about tha gas?", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "　ラーメン食えんよぅ！！",
 		   NULL, " We can' eat the cup noodles raw!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400023", 128, TRUE);
+	ModPlayVoiceLS(4, 14, "ps3/s20/14/443400023", 256, TRUE);
 	OutputLine(NULL, "　ガス切れたなら言ぅてえなぁもう！！」",
 		   NULL, " If we're out of gas say something, geez!!\"", Line_Normal);
 	ClearMessage();

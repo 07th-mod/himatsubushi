@@ -15,7 +15,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 1000 );
 
-	PlayBGM( 1, "msys13", 128, 0 );
+	PlayBGM( 1, "msys13", 56, 0 );
 	DisableWindow();
 	DrawScene("background/ima1", 400 );
 
@@ -95,7 +95,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
 	DrawScene("black", 400 );
-	PlayBGM( 1, "msys11", 128, 0 );
+	PlayBGM( 1, "msys11", 56, 0 );
 	DrawScene("background/ta2", 400 );
 
 //　ある日、私は驚いた＠

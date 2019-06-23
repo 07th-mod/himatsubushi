@@ -12,7 +12,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 1000 );
 
-	PlayBGM( 1, "msys31", 128, 0 );
+	PlayBGM( 1, "msys31", 56, 0 );
 
 //■箱選びゲーム
 
@@ -216,7 +216,7 @@ void main()
 		   NULL, " ...Come on now.", Line_Normal);
 	ClearMessage();
 
-	PlaySE( 3, "wa_044", 128, 64 );
+	PlaySE( 3, "wa_044", 56, 64 );
 
 
 	char Item[2];

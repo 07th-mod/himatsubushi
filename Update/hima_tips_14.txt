@@ -15,7 +15,7 @@ void main()
 	DisableWindow();
 	DrawScene("black", 1000 );
 
-	PlayBGM( 1, "msys06", 128, 0 );
+	PlayBGM( 1, "msys06", 56, 0 );
 	DisableWindow();
 	DrawScene("background/g1", 400 );
 
@@ -72,7 +72,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 400 );
-	PlayBGM( 1, "msys31", 128, 0 );
+	PlayBGM( 1, "msys31", 56, 0 );
 
 //　普通の親なら、思わぬ我が子の活躍に手を打って喜ぶのかもしれない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -296,7 +296,7 @@ void main()
 
 //「古手さんのカレーは大変、見事です＠先生、花マルをあげちゃいます！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400003", 128, TRUE);
+	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400003", 256, TRUE);
 	OutputLine(NULL, "「古手さんのカレーは大変、見事です。",
 		   NULL, "\"Furude-san's curry is absolutely splendid.", Line_Continue);
 	Wait( 3000 );
@@ -311,7 +311,7 @@ void main()
 
 //「……にぱ～☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500035", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500035", 256, TRUE);
 	OutputLine(NULL, "「……にぱ〜☆」",
 		   NULL, "\"......Nipah~☆.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -319,7 +319,7 @@ void main()
 
 //「古手さんはお料理を誰に習いましたか＠　やっぱりお家で？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400004", 128, TRUE);
+	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400004", 256, TRUE);
 	OutputLine(NULL, "「古手さんはお料理を誰に習いましたか？",
 		   NULL, "\"Where did you learn to cook, Furude-san?", Line_Continue);
 	Wait( 2500 );
@@ -330,7 +330,7 @@ void main()
 
 //「……はい＠お家なのですよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500036", 128, TRUE);
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500036", 256, TRUE);
 	OutputLine(NULL, "「……はい。",
 		   NULL, "\"......Yes.", Line_Continue);
 	Wait( 600 );

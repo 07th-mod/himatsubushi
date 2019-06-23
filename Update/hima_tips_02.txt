@@ -10,11 +10,11 @@ void main()
 
 	DisableWindow();
 	DrawScene("black", 1000 );
-	PlayBGM( 1, "msys13", 128, 0 );
+	PlayBGM( 1, "msys13", 56, 0 );
 
 //■来賓挨拶用原稿
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　××会長さん＠××会の皆さん＠この度は××会創立二十五周年、誠におめでとうございます￥
 	ClearMessage();
@@ -28,7 +28,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　この二十五年は、そのまま××県発展の歴史そのものでありました＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -50,7 +50,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　新しい良いものを次々と取り入れて発展する経済と産業＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -77,7 +77,7 @@ void main()
 		   NULL, "Of course, the development of XX Prefecture couldn't have happened without the growth of the XX Party.", Line_Normal);
 	ClearMessage();
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　私共には、一度決めて掲げた公約、施策はどこまでも貫き掲げとおす＠文字通り矢のような鋭い実行力が求められています＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -96,7 +96,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　ですが皆さんはただの矢ではありません＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -122,7 +122,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　しかし皆さんは、ただの矢ではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -144,7 +144,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　時代は常に進歩しています＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -170,7 +170,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　例えば、県内で近年、いろいろと問題になっている雛見沢村電源基本計画についても＠お上が決めたからこうと貫くのではなく、次代と郷土と県民の変わり続ける要望と常に照らし合わせて見直す柔軟さが必要なのです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -202,7 +202,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　私も日本国民の、そして××県民の皆さんの恒久的幸せのために、これと決めた施策は徹底的に＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -219,7 +219,7 @@ void main()
 	ClearMessage();
 
 
-	PlaySE( 3, "wa_021", 128, 64 );
+	PlaySE( 3, "wa_021", 56, 64 );
 
 //　長くなりましたが＠以上を持ちまして××会二十五周年のお祝いの言葉とかえさせていただきます＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
