@@ -3106,7 +3106,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300057", 256, TRUE);
 	OutputLine(NULL, "「……一応、非公開でプライバシーは守られてますがね。",
 		   NULL, "\"...Well, it is undisclosed, so their privacy is assured, but...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/104300058", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "ps2/00/104300058", 540, TRUE);
 	OutputLine(NULL, "それを管理してるのは興宮市役所の人間。",
 		   NULL, " The person in charge of that is from the Okinomiya Municipal Office.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300059", 256, TRUE);
@@ -5359,7 +5359,7 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700109", 256, TRUE);
 	OutputLine(NULL, "「園崎家の頂点は、現頭首の園崎お魎っていう婆さんです。",
 		   NULL, "\"The current head of the Sonozaki family is an old lady named Oryou.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/100700110", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700110", 540, TRUE);
 	OutputLine(NULL, "……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです。",
 		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki.' ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }

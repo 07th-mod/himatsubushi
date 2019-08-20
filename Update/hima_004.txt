@@ -10,24 +10,24 @@ void main()
 
 	DisableWindow();
 	DrawScene("text/monologue_hima1", 1000 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima001", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima001", 540, TRUE);
 	Wait( 7000 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima002", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima002", 540, TRUE);
 	Wait( 14900 );
 	DrawScene("text/monologue_hima2", 1000 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima003", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima003", 540, TRUE);
 	Wait( 2700 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima004", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima004", 540, TRUE);
 	Wait( 2900 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima005", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima005", 540, TRUE);
 	Wait( 10100 );
 	DrawScene("text/title_hima", 1000 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima007", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima007", 540, TRUE);
 	Wait( 2900 );
 	DrawScene("text/monologue_hima3", 1000 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima008", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima008", 540, TRUE);
 	Wait( 3500 );
-	ModPlayVoiceLS(3, 0, "ps2/12/hima009", 256, TRUE);
+	ModPlayVoiceLS(3, 0, "ps2/12/hima009", 540, TRUE);
 	Wait( 6100 );
 	DrawScene("black", 1000 );
 	DrawScene("text/s60", 1000 );
@@ -2094,7 +2094,7 @@ void main()
 	OutputLine(NULL, "……もっとも、シメたのは他の場所でしょうねぇ。",
 		   NULL, " ...Although she was probably killed somewhere else.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/100700766", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700766", 540, TRUE);
 	OutputLine(NULL, "全裸で裸足。",
 		   NULL, "That's because while she was completely naked,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700767", 256, TRUE);
@@ -2240,12 +2240,12 @@ void main()
 
 //「雛見沢村のお祭りの『綿流し』ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです＠……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 540, TRUE);
 	OutputLine(NULL, "「雛見沢村のお祭りの「綿流し」ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
 		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting,'  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 540, TRUE);
 	OutputLine(NULL, "……何でも、人食い鬼たちが、犠牲者をバラして、内蔵を川に捨てた…というところから転じたらしいんですよ。」",
 		   NULL, "...It seems that it came from the man-eating demons ripping apart their victims and throwing their organs into the river.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2253,7 +2253,7 @@ void main()
 
 //「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 13, "ps2/13/101300724", 256, TRUE);
+	ModPlayVoiceLS(4, 13, "ps2/13/101300724", 540, TRUE);
 	OutputLine(NULL, "「………つまり、……雛見沢村においては、内臓を引き摺り出すことに、宗教的な意味があったと？」",
 		   NULL, "\"...In other words... in Hinamizawa, pulling out entrails had some sort of religious meaning?\"", Line_Normal);
 	ClearMessage();

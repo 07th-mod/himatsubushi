@@ -60,7 +60,7 @@ void main()
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700423", 256, TRUE);
 	OutputLine(NULL, "「いやいやぁ、何だかんだと言いましても、今回のシナリオは私の独壇場でしたからねぇ。",
 		   NULL, "\"My oh my, no matter what anybody else says, I was the star of the scenario this time.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/440700424", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/440700424", 540, TRUE);
 	OutputLine(NULL, "しかも渋いジャズ調なテーマ曲まで追加！",
 		   NULL, " On top of that they added some nice jazzy theme music!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700425", 256, TRUE);
@@ -209,7 +209,7 @@ void main()
 
 //「……レナはジャケットとかによく登場してますですから、まだマシなのですよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps2/05/440500149", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "ps2/05/440500149", 540, TRUE);
 	OutputLine(NULL, "「……レナはジャケットにも登場してますですから、まだマシなのですよ。」",
 		   NULL, "\"......Rena still shows up on the covers a lot, so she's still okay.\"", Line_Normal);
 	ClearMessage();
@@ -2522,7 +2522,7 @@ void main()
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400270", 256, TRUE);
 	OutputLine(NULL, "…なんですの？",
 		   NULL, " ...What are those?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 4, "ps2/04/440400271", 256, TRUE);
+	ModPlayVoiceLS(4, 4, "ps2/04/440400271", 540, TRUE);
 	OutputLine(NULL, "　あの両手にいっぱいの剣は。",
 		   NULL, " All those swords in her hands.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400272", 256, TRUE);

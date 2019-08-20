@@ -51,7 +51,7 @@ void dialog002()
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700769", 256, TRUE);
 	OutputLine(NULL, "……わかったのは、薬物で昏睡させられてから、あの場所へ運ばれ、…腹部を切開。",
 		   NULL, "...What we know is that she was rendered unconscious by some sort of drug, carried to that place, then had her abdomen sliced wide open.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/100700770", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "ps2/11/100700770", 540, TRUE);
 	OutputLine(NULL, "意図的に臓器を引きずり出して、四方に散らして見せました。」",
 		   NULL, " Her organs were deliberately removed and scattered about.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
