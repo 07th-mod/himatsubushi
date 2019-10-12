@@ -1234,6 +1234,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 27, "sprite/normal/rim_komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/m_hi4", 400 );
 	PlayBGM( 1, "msysRi", 56, 0 );
@@ -1632,6 +1633,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacterWithFiltering(1, 27, "sprite/normal/rim_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「……みぃ。￥
@@ -2252,6 +2254,7 @@ void main()
 	DrawBustshot(5, "white", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 100, TRUE );
 	PlaySE( 4, "wa_013", 56, 64 );
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 500, TRUE );
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacter(3, 27, "sprite/normal/rim_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 

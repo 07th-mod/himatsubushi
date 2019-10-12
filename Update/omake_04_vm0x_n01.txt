@@ -59,6 +59,7 @@ void dialog003()
 
 
 	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacter(1, 9, "sprite/normal/ta1_akuwarai_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 

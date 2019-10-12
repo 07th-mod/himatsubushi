@@ -211,6 +211,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacterWithFiltering(3, 11, "sprite/normal/oisi1_2_", "0", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「赤坂さあん！＠　なっはっはっは＠　何年ぶりでしょう～！＠　ご無沙汰しておりますねぇ～！！！＠
@@ -334,6 +335,7 @@ void main()
 	DisableWindow();
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 300, TRUE );
 	ModDrawCharacter(3, 11, "sprite/normal/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, FALSE );
+	ModSetLayerFilter(4, 256, "none");
 	ModDrawCharacter(4, 34, "sprite/normal/miyuki_hatena_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
 
 //　r大石氏はふと、私の隣でぼんやりと立っている美雪に目を向けると、膝をついて顔をのぞきこむ。
@@ -535,6 +537,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 11, "sprite/normal/oisi2_9_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「い～～ぇ＠結局、山狩りでも見つけられませんでした＠多分、村にかくまわれてから、海外か遠方でほとぼりを冷ましてるんじゃないかと思いますね。￥
@@ -593,6 +596,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 11, "sprite/normal/oisi2_7_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「…なっはっはっはっはっは…。＠
@@ -1947,6 +1951,7 @@ void main()
 //gosub *Ch_Iri_Ha
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 10, "sprite/normal/iri2_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 
@@ -2216,6 +2221,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 11, "sprite/normal/oisi2_6_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/ryoutei2_01", "up", 0, 0, 300 );
 
@@ -3020,6 +3026,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacter(1, 11, "sprite/normal/oisi2_6_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawSceneWithMask("background/ryoutei2_01", "up", 0, 0, 300 );
 
@@ -4007,6 +4014,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacter(3, 34, "sprite/normal/miyuki_neboke_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //  美雪rvs05/34/321500034.「…パパ？」

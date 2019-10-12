@@ -32,6 +32,7 @@ void main()
 		   NULL, " The venue will be Okinomiya Ceremony Hall...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacter(3, 17, "sprite/normal/oryou_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 
@@ -50,6 +51,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacterWithFiltering(1, 26, "sprite/normal/chibimion_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「うん、了解＠喪服で行く＠　香典はいくらくらい？＠
@@ -364,6 +366,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacterWithFiltering(2, 26, "sprite/normal/chibimion_def_", "0", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「ん＠……………４日、…かな？￥

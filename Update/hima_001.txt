@@ -3912,6 +3912,7 @@ void main()
 	DisableWindow();
 	FadeOutBGM( 2, 400, TRUE );
 	PlayBGM( 1, "msys32", 56, 0 );
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacterWithFiltering(3, 11, "sprite/normal/oisi1_1_", "0", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「何の話をしてるかと思えば＠んっふっふっふっふ！＠

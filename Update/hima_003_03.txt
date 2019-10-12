@@ -374,6 +374,7 @@ void main()
 
 
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 27, "sprite/normal/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //＞＞＞＞＞この部分は職場で打った分を見ながら修正だ☆
@@ -3918,6 +3919,7 @@ void main()
 
 	DisableWindow();
 	DrawSceneWithMask("black", "right", 0, 0, 200 );
+	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacterWithFiltering(3, 11, "sprite/normal/oisi1_5_", "1", "left", 7, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/mo2_02", "right", 0, 0, 200 );
 
@@ -3957,6 +3959,7 @@ void main()
 	ShakeScreen( 0, 50, 20, 4, 0, );
 	DrawScene("white", 50 );
 
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacter(1, 11, "sprite/normal/oisi1_5_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawScene("background/mo2_02", 200 );
 

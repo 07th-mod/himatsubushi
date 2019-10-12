@@ -1275,6 +1275,7 @@ void main()
 
 	PlayBGM( 2, "lsys18", 56, 0 );
 	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 27, "sprite/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/damu4", "up", 0, 0, 300 );
 
@@ -1526,6 +1527,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacter(1, 27, "sprite/normal/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
 //!s250『……警告したのに。!w1500……ばかなヤツ。』!sd@
 //!s250
