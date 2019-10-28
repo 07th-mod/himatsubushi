@@ -218,7 +218,7 @@ void main()
 
 	PlaySE( 3, "wa_044", 56, 64 );
 
-
+	DrawBustshot(5, "2choices", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, FALSE );
 	char Item[2];
 
 	if(GetGlobalFlag(GLanguage) == 1)
@@ -234,6 +234,7 @@ void main()
 
 //	InitializeSelectedItem();
 	Select( 2, Item );
+	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 300, TRUE );
 	if(LoadValueFromLocalWork( SelectResult ) == 0)
 	{
 		SetGlobalFlag(redbox , TRUE);
