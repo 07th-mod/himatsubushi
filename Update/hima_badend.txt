@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -9,53 +9,63 @@
 //BADEND (救出作戦失敗)
 
 //rくそ…、くそくそくそ…！
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "くそ…、くそくそくそ…！",
-			NULL, "Shit...Shit, shit, shit...!", Line_Normal); 
+			NULL, "Shit...Shit, shit, shit...!", Line_Normal);
 	ClearMessage();
 
 //rこんなところで死ぬわけにはいかない！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こんなところで死ぬわけにはいかない！！",
-			NULL, "I can't afford to die in a place like this!!", Line_Normal); 
+			NULL, "I can't afford to die in a place like this!!", Line_Normal);
 	ClearMessage();
 
 //r私は生きて、雪絵のもとへ帰るんだ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は生きて、雪絵のもとへ帰るんだ！！",
-			NULL, "I need to survive and return to Yukie's side!!", Line_Normal); 
+			NULL, "I need to survive and return to Yukie's side!!", Line_Normal);
 	ClearMessage();
 
 //赤坂r「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「………」",
-			NULL, "\".........\"", Line_Normal); 
+			NULL, "\".........\"", Line_Normal);
 	ClearMessage();
 
 //rわずかに、拳銃を構える男の目に躊躇いが見える。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "わずかに、拳銃を構える男の目に躊躇いが見える。",
-			NULL, "For a moment, I catch a glimmer of hesitation in the eyes of the man holding the gun.", Line_Normal); 
+			NULL, "For a moment, I catch a glimmer of hesitation in the eyes of the man holding the gun.", Line_Normal);
 	ClearMessage();
 
 //rこいつは、撃つことをまだ迷っている…？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こいつは、撃つことをまだ迷っている…？！",
-			NULL, "This guy's... unsure about shooting at me...?!", Line_Normal); 
+			NULL, "This guy's... unsure about shooting at me...?!", Line_Normal);
 	ClearMessage();
 
 //rそれなら今飛び込めば、…もしかしたら！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それなら今飛び込めば、…もしかしたら！！",
-			NULL, "If so, maybe if I jump at him now, ...I could—!!", Line_Normal); 
+			NULL, "If so, maybe if I jump at him now, ...I could—!!", Line_Normal);
 	ClearMessage();
 
 //赤坂rvS05/13/VT2_akasaka1001.「うおぉぉおぉっっ！！！」
-	PlaySE(4, "ps3/s05/13/vt2_akasaka1001", 256, 64);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/vt2_akasaka1001", 256, TRUE);
 	OutputLine(NULL, "「うおぉぉおぉっっ！！！」",
-			NULL, "\"Uwoaaaaahhhhhh——!!!\"", Line_Normal); 
+			NULL, "\"Uwoaaaaahhhhhh——!!!\"", Line_Normal);
 	ClearMessage();
 
 //誘拐犯rvS05/14/VT2_okonogi1001.「なっ？！kvS05/14/VT2_okonogi1002.　っち、こんダラズがぁぁッ！！」
-	PlaySE(4, "ps3/s05/14/vt2_okonogi1001", 256, 64);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/vt2_okonogi1001", 256, TRUE);
 	OutputLine(NULL, "「なっ？！",
-			NULL, "\"Wha—?!", Line_WaitForInput); 
-	PlaySE(4, "ps3/s05/14/vt2_okonogi1002", 256, 64);
+			NULL, "\"Wha—?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/vt2_okonogi1002", 256, TRUE);
 	OutputLine(NULL, "　っち、こんダラズがぁぁッ！！」",
-			NULL, " tch, ya damn bastaaaaaaaarrrrd——!!", Line_Normal); 
+			NULL, " tch, ya damn bastaaaaaaaarrrrd——!!", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -65,24 +75,28 @@
 	DrawScene("black", 250 );
 
 //赤坂rvS05/13/VT2_akasaka1002.「………」
-	PlaySE(4, "ps3/s05/13/vt2_akasaka1002", 256, 64);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/vt2_akasaka1002", 256, TRUE);
 	OutputLine(NULL, "「………」",
-			NULL, "\".........\"", Line_Normal); 
+			NULL, "\".........\"", Line_Normal);
 	ClearMessage();
 
 //r突然。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "突然。",
-			NULL, "In a flash.", Line_Normal); 
+			NULL, "In a flash.", Line_Normal);
 	ClearMessage();
 
 //r目の前が真っ暗になって、…意識が遠のく。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "目の前が真っ暗になって、…意識が遠のく。",
-			NULL, "Everything before me grows dark, ...as my consciousness leaves me behind.", Line_Normal); 
+			NULL, "Everything before me grows dark, ...as my consciousness leaves me behind.", Line_Normal);
 	ClearMessage();
 
 //r自分が撃たれたとわかったのは、急速に冷えていく体温と、胸のあたりに感じる焼けるような熱さが痺れに変わった直後だった…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分が撃たれたとわかったのは、急速に冷えていく体温と、胸のあたりに感じる焼けるような熱さが痺れに変わった直後だった…。",
-			NULL, "It was only after my body temperature rapidly came down and a burning sensation in my chest turned numb, that I realised I had been shot....", Line_Normal); 
+			NULL, "It was only after my body temperature rapidly came down and a burning sensation in my chest turned numb, that I realised I had been shot....", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
