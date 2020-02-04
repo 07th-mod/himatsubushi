@@ -563,7 +563,7 @@ void main()
 //　土砂降りの泥の中に身を浸しても、何の不快感も感じなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　土砂降りの泥の中に身を浸しても、何の不快感も感じなかった。",
-		   NULL, "It didn't feel unpleasant even as I was covered in the rainsoaked mud.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It didn't feel unpleasant even as I was covered in the rain-soaked mud.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

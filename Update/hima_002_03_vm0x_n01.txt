@@ -62,7 +62,7 @@ void dialog005()
 		   NULL, "\"Well~, let's not talk about that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700258", 256, TRUE);
 	OutputLine(NULL, "なぁに、実際には賭けるわけじゃありませんよ。",
-		   NULL, " Loosten up a bit, we won't actually gamble anything.", Line_WaitForInput);
+		   NULL, " Loosen up a bit, we won't actually gamble anything.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700259", 256, TRUE);
 	OutputLine(NULL, "この後い〜いお店に遊びに行く時に、誰が全員分を払うのか決めるだけですって〜〜！",
 		   NULL, " We're just deciding whose going to pay for everyone at a very ni~ce place afterward~~!", Line_WaitForInput);

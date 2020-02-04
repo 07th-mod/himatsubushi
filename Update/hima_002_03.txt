@@ -2857,7 +2857,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300350", 256, TRUE);
 	OutputLine(NULL, "「すみません、ついくしゃみをした拍子にヤマを崩しちゃって。",
-		   NULL, "\"Sorry, I accidently knocked over the wall when I sneezed.", Line_WaitForInput);
+		   NULL, "\"Sorry, I accidentally knocked over the wall when I sneezed.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300351", 256, TRUE);
 	OutputLine(NULL, "…罰符払いですね。",
 		   NULL, " ...There's a penalty for that, right?", Line_WaitForInput);

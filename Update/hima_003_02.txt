@@ -269,7 +269,7 @@ void main()
 //　定義的には民兵、ゲリラと変わらない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　定義的には民兵、ゲリラと変わらない。",
-		   NULL, "Although by definition they were no different than guerillas or a militia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Although by definition they were no different than guerrillas or a militia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -166,7 +166,7 @@ void main()
 	OutputLine(NULL, "（以下は原稿にない部分。",
 		   NULL, "(The following part was not in the script.", Line_WaitForInput);
 	OutputLine(NULL, "大臣のアドリブと思われる）",
-		   NULL, " It is thought to have been adlibbed by the Minister.)", Line_Normal);
+		   NULL, " It is thought to have been ad-libbed by the Minister.)", Line_Normal);
 	ClearMessage();
 
 
