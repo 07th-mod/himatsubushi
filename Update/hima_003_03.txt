@@ -2374,7 +2374,7 @@ void main()
 //　こんな森を駆け抜けたことのない赤坂にとって、緊急時であってもそれはとても不快なことだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんな森を駆け抜けたことのない赤坂にとって、緊急時であってもそれはとても不快なことだった。",
-		   NULL, "For Akasaka, traveling through this unexplored forest was, even though this was an emergency situation, extremely unpleasant.", Line_Normal);
+		   NULL, "For Akasaka, travelling through this unexplored forest was, even though this was an emergency situation, extremely unpleasant.", Line_Normal);
 	ClearMessage();
 
 

@@ -1672,7 +1672,7 @@ void main()
 //　いつもなら心を晴れ晴れとさせる青いいちょう並木も、今日は精彩を欠いて見えた…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつもなら心を晴れ晴れとさせる青いいちょう並木も、今日は精彩を欠いて見えた…。",
-		   NULL, "Even the verdant gingko trees lining the street that always brightened my mood seemed to lack some of their usual luster...", Line_Normal);
+		   NULL, "Even the verdant gingko trees lining the street that always brightened my mood seemed to lack some of their usual lustre...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2254,7 +2254,7 @@ void main()
 //　空路なら、香港辺りまで行けるような時間＠…××県は決して近くない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　空路なら、香港辺りまで行けるような時間。",
-		   NULL, "If I was traveling by air, in that amount of time I could probably get as far as Hong Kong.", Line_WaitForInput);
+		   NULL, "If I was travelling by air, in that amount of time I could probably get as far as Hong Kong.", Line_WaitForInput);
 	OutputLine(NULL, "…××県は決して近くない。",
 		   NULL, " ...XX Prefecture was by no means close.", Line_Normal);
 	ClearMessage();
@@ -3757,7 +3757,7 @@ void main()
 		   NULL, "\"Welcome, welcome!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000002", 256, TRUE);
 	OutputLine(NULL, "　赤坂さんでいらっしゃいますか、遠路遥々お疲れさまでした！",
-		   NULL, " Akasaka-san, was it? It must have been tiring traveling out all this way!", Line_WaitForInput);
+		   NULL, " Akasaka-san, was it? It must have been tiring travelling out all this way!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104000003", 256, TRUE);
 	OutputLine(NULL, "　こんな部屋で申し訳ありませんね、応接室をおさえてあったんですがね。",
 		   NULL, " Sorry we have to do this here. I tried to reserve a reception room, you see, ", GetGlobalFlag(GLinemodeSp));
