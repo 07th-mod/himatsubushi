@@ -2776,7 +2776,7 @@ void main()
 //　まるで…密林で繰り広げられているゲリラ戦を見るかのようだった…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まるで…密林で繰り広げられているゲリラ戦を見るかのようだった…。",
-		   NULL, "What was being described to me was a guerrilla war fought in the jungle...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "What was being described to me was a guerilla war fought in the jungle...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
