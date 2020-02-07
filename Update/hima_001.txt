@@ -4824,7 +4824,7 @@ void main()
 //　……独特の、火薬のような緊張感の臭いは終始、鼻を離れなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……独特の、火薬のような緊張感の臭いは終始、鼻を離れなかった。",
-		   NULL, "...However, from the beginning to the end, I couldn't get over the feeling I was sitting on a powderkeg.", Line_Normal);
+		   NULL, "...However, from the beginning to the end, I couldn't get over the feeling I was sitting on a powder keg.", Line_Normal);
 	ClearMessage();
 
 
@@ -6424,7 +6424,7 @@ void main()
 		   NULL, "\"You see,  these human-devouring demons...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700192", 256, TRUE);
 	OutputLine(NULL, "普段は仙人と崇められて、ひっそりと暮らしているんですがね。",
-		   NULL, " Normally they were revered as Taoist 'transcendants,' and lived tucked away from the rest of the world. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Normally they were revered as Taoist 'transcendents,' and lived tucked away from the rest of the world. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700193", 256, TRUE);
 	OutputLine(NULL, "……やっぱり人食いですから、定期的に麓の村に下りてきては、獲物をさらっていったんだそうです。",
