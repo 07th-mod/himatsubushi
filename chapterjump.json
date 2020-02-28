@@ -1,0 +1,64 @@
+{
+	"0": [
+		{
+			"English": "Himatsubushi Day 1",
+			"Japanese": "暇潰し編　１日目",
+			"ChapterNumber": 1,
+			"BlockName": "Day1"
+		},
+		{
+			"English": "Himatsubushi Day 2",
+			"Japanese": "暇潰し編　２日目",
+			"ChapterNumber": 2,
+			"BlockName": "Day2"
+		},
+		{
+			"English": "Himatsubushi Day 2-2",
+			"Japanese": "暇潰し編　２日目２",
+			"ChapterNumber": 3,
+			"BlockName": "Day2_2"
+		},
+		{
+			"English": "Himatsubushi Day 2-3",
+			"Japanese": "暇潰し編　２日目３",
+			"ChapterNumber": 4,
+			"BlockName": "Day2_3"
+		},
+		{
+			"English": "Himatsubushi Day 3",
+			"Japanese": "暇潰し編　３日目",
+			"ChapterNumber": 5,
+			"BlockName": "Day3"
+		},
+		{
+			"English": "Himatsubushi Day 3-2",
+			"Japanese": "暇潰し編　３日目２",
+			"ChapterNumber": 6,
+			"BlockName": "Day3_2"
+		},
+		{
+			"English": "Himatsubushi Day 3-3",
+			"Japanese": "暇潰し編　３日目３",
+			"ChapterNumber": 7,
+			"BlockName": "Day3_3"
+		},
+		{
+			"English": "Himatsubushi Day 3-4",
+			"Japanese": "暇潰し編　３日目４",
+			"ChapterNumber": 8,
+			"BlockName": "Day3_4"
+		},
+		{
+			"English": "Himatsubushi Day 3-5",
+			"Japanese": "暇潰し編　３日目５",
+			"ChapterNumber": 9,
+			"BlockName": "Day3_5"
+		},
+		{
+			"English": "Himatsubushi Day 4",
+			"Japanese": "暇潰し編　４日目",
+			"ChapterNumber": 10,
+			"BlockName": "Day4"
+		}
+	]
+}
