@@ -31,70 +31,70 @@
         {
             "Id": 68,
             "Script": "hima_tips_05",
-            "UnlockChapter": 2,
+            "UnlockChapter": 3,
             "Title": "Going Smoothly",
             "TitleJp": "順調"
         },
         {
             "Id": 69,
             "Script": "hima_tips_06",
-            "UnlockChapter": 2,
+            "UnlockChapter": 3,
             "Title": "Why I Like Rainy Days",
             "TitleJp": "雨雲に恋して"
         },
         {
             "Id": 70,
             "Script": "hima_tips_07",
-            "UnlockChapter": 2,
+            "UnlockChapter": 3,
             "Title": "Barley Tea and Black Tea and a Millstone",
             "TitleJp": "麦茶と紅茶と石臼と"
         },
         {
             "Id": 71,
             "Script": "hima_tips_08",
-            "UnlockChapter": 3,
+            "UnlockChapter": 4,
             "Title": "The Investigation Runs Aground",
             "TitleJp": "調査は暗礁"
         },
         {
             "Id": 72,
             "Script": "hima_tips_09",
-            "UnlockChapter": 3,
+            "UnlockChapter": 4,
             "Title": "What's in the Box?",
             "TitleJp": "箱選びゲ\u30fcム"
         },
         {
             "Id": 73,
             "Script": "hima_tips_10",
-            "UnlockChapter": 3,
+            "UnlockChapter": 4,
             "Title": "The Glint in the Demon's Eye",
             "TitleJp": "鬼の目にも何とか"
         },
         {
             "Id": 74,
             "Script": "hima_tips_11",
-            "UnlockChapter": 4,
+            "UnlockChapter": 7,
             "Title": "A Very Kind Person",
             "TitleJp": "とてもやさしい人なの"
         },
         {
             "Id": 75,
             "Script": "hima_tips_12",
-            "UnlockChapter": 5,
+            "UnlockChapter": 9,
             "Title": "Mother's Diary",
             "TitleJp": "母の日記"
         },
         {
             "Id": 76,
             "Script": "hima_tips_13",
-            "UnlockChapter": 5,
+            "UnlockChapter": 9,
             "Title": "Mother's Diary II",
             "TitleJp": "母の日記 II"
         },
         {
             "Id": 77,
             "Script": "hima_tips_14",
-            "UnlockChapter": 5,
+            "UnlockChapter": 9,
             "Title": "Mother's Diary III",
             "TitleJp": "母の日記 III"
         }
