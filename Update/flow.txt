@@ -193,9 +193,11 @@ void Day3_3()
 {
 	CallScript( "hima_003_03" );
 
-	if (LoadValueFromLocalWork( SelectResult ) == 1) {
-		CallScript( "hima_badend" );
-		JumpSection("Title");
+	if (GetGlobalFlag(GChoiceMode) > 0) {
+		if (LoadValueFromLocalWork( SelectResult ) == 1) {
+			CallScript( "hima_badend" );
+			JumpSection("Title");
+		}
 	}
 	CallScript( "hima_003_03a" );
 

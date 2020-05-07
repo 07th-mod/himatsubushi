@@ -1,0 +1,28 @@
+void main()
+{
+	DrawScene("black", 1000 );
+	OutputLine(NULL, "この編には、会話の変更をもたらし、悪い結末を招く可能性のある選択が含まれます。このコンソール版に追加した選択を見たいですか？",
+		   NULL, "This arc includes choices that were added in the console version. These choices result in dialog changes and can lead to bad ends. Do you want to see these choices?", Line_Normal);
+
+	DrawBustshotWithFiltering( 6, "3choices", "left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 250, TRUE );
+
+	char ChoiceMode[3];
+
+	if (GetGlobalFlag(GLanguage) == 1) {
+		ChoiceMode[0] = "Skip additional choices. Show only content from PC version";
+		ChoiceMode[1] = "Prompt additional choices from console version";
+		ChoiceMode[2] = "Prompt choices and highlight correct answers";
+	} else {
+		ChoiceMode[0] = "追加した選択を見せません。ＰＣ版内容だけ見せます";
+		ChoiceMode[1] = "コンソール版に追加した選択を見せます";
+		ChoiceMode[2] = "選択を見せながら正解に記号をつける";
+	}
+
+	Select( 3, ChoiceMode );
+
+	SetGlobalFlag(GChoiceMode, LoadValueFromLocalWork(SelectResult));
+
+	DisableWindow();
+	DrawScene("black", 250 );
+
+}

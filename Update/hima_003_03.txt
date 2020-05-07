@@ -3781,18 +3781,23 @@ void main()
 		   NULL, "It wasn't something that somebody far away could hear!!", Line_Normal);
 	ClearMessage();
 
-	DrawBustshot(5, "2choices", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 15, 300, TRUE );
-	char Choice1[2];
+	if (GetGlobalFlag(GChoiceMode) > 0) {
+		if (GetGlobalFlag(GChoiceMode) == 2) {
+			DrawBustshot(5, "2choices_1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 15, 300, TRUE );
+		} else {
+			DrawBustshot(5, "2choices", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 15, 300, TRUE );
+		}
+		char Choice1[2];
 
-	if (GetGlobalFlag(GLanguage) == 1) {
-		Choice1[0] = "Plead for my life";
-		Choice1[1] = "Watch for an opportunity";
-	} else {
-		Choice1[0] = "命乞いをする";
-		Choice1[1] = "隙を窺う";
+		if (GetGlobalFlag(GLanguage) == 1) {
+			Choice1[0] = "Plead for my life";
+			Choice1[1] = "Watch for an opportunity";
+		} else {
+			Choice1[0] = "命乞いをする";
+			Choice1[1] = "隙を窺う";
+		}
+
+		Select( 2, Choice1 );
+		FadeBustshot( 5, FALSE, 0, 0, 0, 0, 300, TRUE );
 	}
-
-	Select( 2, Choice1 );
-	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 300, TRUE );
-
 }
