@@ -12,6 +12,7 @@ void main()
 	FadeOutBGM( 2, 1000, FALSE  );
 	FadeOutBGM( 3, 1000, TRUE );
 
+	CallScript( "&choicesdialog" );
 
 //if %RenaPan_Lv3_read=1 gosub *Dark_mode_start
 
