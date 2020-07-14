@@ -2247,7 +2247,7 @@ void main()
 //四天王、ここに見参だあああぁあ！！！」/
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100270", 256, TRUE);
 	OutputLine(NULL, "四天王、ここに見参だあああぁあ！！！」",
-		   NULL, " The Four Heavenly Kings have arrived!!!\"", Line_Continue);
+		   NULL, " The Elite Four have arrived!!!\"", Line_Continue);
 
 	DisableWindow();
 	DrawScene("white", 10 );
@@ -2281,7 +2281,7 @@ void main()
 //…Ｋを筆頭に、悪の四天王が揃い踏む。/
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/narra44002", 256, TRUE);
 	OutputLine(NULL, "…Ｋを筆頭に、悪の四天王が揃い踏む。",
-		   NULL, " ...With K at their head, the evil Four Heavenly Kings made their grand entrance.", Line_Continue);
+		   NULL, " ...With K at their head, the evil Elite Four made their grand entrance.", Line_Continue);
 
 
 	FadeOutBGM( 2, 1000, TRUE );
