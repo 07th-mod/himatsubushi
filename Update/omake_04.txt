@@ -2180,14 +2180,14 @@ void main()
 //私のことはこれからはイリーと＠/
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000120", 256, TRUE);
 	OutputLine(NULL, "私のことはこれからはイリーと。",
-		   NULL, " Call me I from now on.", Line_WaitForInput);
+		   NULL, " Call me Ily from now on.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_007", 56, 64 );
 
 //Ｄｒイリーとお呼びを～～！！！￥
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000121", 256, TRUE);
 	OutputLine(NULL, "Ｄｒイリーとお呼びを〜〜！！！」",
-		   NULL, " Call me Doctor I!!!\"", Line_Normal);
+		   NULL, " Call me Doctor Ily!!!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2216,7 +2216,7 @@ void main()
 		   NULL, "\"Mfu fu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700429", 256, TRUE);
 	OutputLine(NULL, "　トミーとクラウドも、常にＫの側にありますよぅ！！",
-		   NULL, " Tommy and Kuraudo are already on your side, K!!", Line_WaitForInput);
+		   NULL, " Tommy and Cloud are already on your side, K!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700430", 256, TRUE);
 	OutputLine(NULL, "　んっふっふっふ！！」",
 		   NULL, " Nfu fu fu!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2230,7 +2230,7 @@ void main()
 		   NULL, "\"Tommy!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100268", 256, TRUE);
 	OutputLine(NULL, "　クラウド！！",
-		   NULL, " Kuraudo!!", Line_WaitForInput);
+		   NULL, " Cloud!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100269", 256, TRUE);
 	OutputLine(NULL, "　…ついに揃ったぜ…。",
 		   NULL, " ...We're all finally here...", Line_WaitForInput);
