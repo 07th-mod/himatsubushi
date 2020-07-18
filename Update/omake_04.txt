@@ -2180,14 +2180,14 @@ void main()
 //私のことはこれからはイリーと＠/
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000120", 256, TRUE);
 	OutputLine(NULL, "私のことはこれからはイリーと。",
-		   NULL, " Call me Ily from now on.", Line_WaitForInput);
+		   NULL, " Call me Iri from now on.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_007", 56, 64 );
 
 //Ｄｒイリーとお呼びを～～！！！￥
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000121", 256, TRUE);
 	OutputLine(NULL, "Ｄｒイリーとお呼びを〜〜！！！」",
-		   NULL, " Call me Doctor Ily!!!\"", Line_Normal);
+		   NULL, " Call me Doctor Iri!!!\"", Line_Normal);
 	ClearMessage();
 
 
