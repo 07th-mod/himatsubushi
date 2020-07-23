@@ -1805,7 +1805,7 @@ void main()
 //　今から推定４８時間前、建設大臣の孫である、建設省幹部の子息が誘拐されたらしい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今から推定４８時間前、建設大臣の孫である、建設省幹部の子息が誘拐されたらしい。",
-		   NULL, "It seemed that approximately 48 hours earlier, the Minister of Construction's grandson and those of his senior staff members were kidnapped.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It seemed that approximately 48 hours earlier, the Minister of Construction's grandson, who was also the son of one of his senior staff members, was kidnapped.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1995,7 +1995,7 @@ void main()
 		   NULL, "...I'll spare you the explanation of how the rest of the dominoes would fall, but in the end, support in the Diet would decline,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解散総選挙、",
-		   NULL, "followed by a no-confidence vote and a snap election, ", Line_WaitForInput);
+		   NULL, " followed by a no-confidence vote and a snap election,", Line_WaitForInput);
 	OutputLine(NULL, "共産勢力の拡大を許す結果となりかねない。",
 		   NULL, " and it might even expand communist influences.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
