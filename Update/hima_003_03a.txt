@@ -386,7 +386,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700595", 256, TRUE);
 	OutputLine(NULL, "「君が、犬飼寿樹くん？",
-		   NULL, "\"Are you Toshiki Inukai?", Line_WaitForInput);
+		   NULL, "\"Are you Toshiki Inukai-kun?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700596", 256, TRUE);
 	OutputLine(NULL, "　犬飼建設大臣のお孫さん？」",
 		   NULL, " The grandson of the Minister of Construction, Inukai?\"", GetGlobalFlag(GLinemodeSp));
