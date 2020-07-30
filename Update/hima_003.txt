@@ -368,7 +368,7 @@ void main()
 //　大臣の孫「犬飼寿樹」のイニシャル、Ｔ．Ｉなんてのが＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大臣の孫「犬飼寿樹」のイニシャル、Ｔ．Ｉなんてのが。",
-		   NULL, "Like the initials of Toshiki Inugai, the Minister's grandson. \"T.I.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Like the initials of Toshiki Inukai, the Minister's grandson. \"T.I.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -550,7 +550,7 @@ void main()
 //　「犬飼寿樹」という個人名と年齢＠…一致＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「犬飼寿樹」という個人名と年齢。",
-		   NULL, "The name \"Toshiki Inugai,\" and the age.", Line_WaitForInput);
+		   NULL, "The name \"Toshiki Inukai,\" and the age.", Line_WaitForInput);
 	OutputLine(NULL, "…一致。",
 		   NULL, " ...A perfect match.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -614,7 +614,7 @@ void main()
 //　自分の脳が、この財布が犬飼寿樹のものでない可能性を必死に模索する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の脳が、この財布が犬飼寿樹のものでない可能性を必死に模索する。",
-		   NULL, "In my mind, I desperately struggled to find a possible excuse as to why this wallet didn't belong to Toshiki Inugai.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In my mind, I desperately struggled to find a possible excuse as to why this wallet didn't belong to Toshiki Inukai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -892,7 +892,7 @@ void main()
 		   NULL, "...Yes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300431", 256, TRUE);
 	OutputLine(NULL, "氏名は犬飼寿樹くんです。",
-		   NULL, " The name is Toshiki Inugai.", Line_WaitForInput);
+		   NULL, " The name is Toshiki Inukai.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300432", 256, TRUE);
 	OutputLine(NULL, "カードの番号を申し上げますので、電話番号をお調べいただいてもよろしいでしょうか。",
 		   NULL, " If I give you the number on the card, would you be able to look up the phone number?", Line_WaitForInput);
@@ -1442,14 +1442,14 @@ void main()
 //　彼の名は、犬飼寿樹￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼の名は、犬飼寿樹。",
-		   NULL, "His name was Toshiki Inugai.", Line_Normal);
+		   NULL, "His name was Toshiki Inukai.", Line_Normal);
 	ClearMessage();
 
 
 //　犬飼建設大臣の孫＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼建設大臣の孫。",
-		   NULL, "The grandson of the Minister of Construction, Inugai.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The grandson of the Minister of Construction, Inukai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1544,7 +1544,7 @@ void main()
 //　彼らは自分を犬飼寿樹という個人ではなく、犬飼建設大臣の孫として扱っているだけなのだと理解できた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らは自分を犬飼寿樹という個人ではなく、犬飼建設大臣の孫として扱っているだけなのだと理解できた。",
-		   NULL, "He understood that he wasn't being treated as Toshiki Inugai, the person, but rather as Toshiki Inugai, the grandson of the Minister of Construction.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "He understood that he wasn't being treated as Toshiki Inukai, the person, but rather as Toshiki Inukai, the grandson of the Minister of Construction.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1855,7 +1855,7 @@ void main()
 //　今や彼、犬飼寿樹は、脱走を決意していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今や彼、犬飼寿樹は、脱走を決意していた。",
-		   NULL, "Right now, at this moment, Toshiki Inugai had decided to escape.", Line_Normal);
+		   NULL, "Right now, at this moment, Toshiki Inukai had decided to escape.", Line_Normal);
 	ClearMessage();
 
 
@@ -2391,7 +2391,7 @@ void main()
 //　犬飼寿樹は、…この一言に、展開が自分の予想通りのものになっていることを知り、心の中でほくそえみながら、なお一層仮病に努めた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹は、…この一言に、展開が自分の予想通りのものになっていることを知り、心の中でほくそえみながら、なお一層仮病に努めた。",
-		   NULL, "Toshiki Inugai, with those few words, knew that the situation was progressing exactly as he had envisioned it, and snickering to himself on the inside, pressed his act even further.", Line_Normal);
+		   NULL, "Toshiki Inukai, with those few words, knew that the situation was progressing exactly as he had envisioned it, and snickering to himself on the inside, pressed his act even further.", Line_Normal);
 	ClearMessage();
 
 
@@ -2589,7 +2589,7 @@ void main()
 //　犬飼寿樹は、苦しみながらも頷き、従順な様子を示して見せた……￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹は、苦しみながらも頷き、従順な様子を示して見せた……。",
-		   NULL, "Toshiki Inugai nodded while feigning pain and obedience...", Line_Normal);
+		   NULL, "Toshiki Inukai nodded while feigning pain and obedience...", Line_Normal);
 	ClearMessage();
 
 
@@ -2971,7 +2971,7 @@ void main()
 //　犬飼寿樹にとって、一世一代の仮病劇だった…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹にとって、一世一代の仮病劇だった…。",
-		   NULL, "To Toshiki Inugai, faking this illness was the performance of a lifetime.", Line_Normal);
+		   NULL, "To Toshiki Inukai, faking this illness was the performance of a lifetime.", Line_Normal);
 	ClearMessage();
 
 
