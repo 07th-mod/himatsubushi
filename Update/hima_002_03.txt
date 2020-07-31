@@ -1065,7 +1065,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300285", 256, TRUE);
 	OutputLine(NULL, "「…遊びに行く？",
-		   NULL, "\"...Go and play?", Line_WaitForInput);
+		   NULL, "\"...Go play?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300286", 256, TRUE);
 	OutputLine(NULL, "　どんな店に遊びに行くんですか。」",
 		   NULL, " At what kind of place would you be doing that?\"", GetGlobalFlag(GLinemodeSp));

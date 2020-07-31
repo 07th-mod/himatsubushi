@@ -187,7 +187,7 @@ void dialog005()
 		   NULL, "\"Let's see... Kei-chan has about 500,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300450", 256, TRUE);
 	OutputLine(NULL, "詩音は…………２７００越えぇぇっ？！",
-		   NULL, "\" and Shion has... over 2700?!", Line_WaitForInput);
+		   NULL, " and Shion has... over 2700?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300451", 256, TRUE);
 	OutputLine(NULL, "　これ、普通のアドベンチャーゲームなら全キャラの総合計数だよっ！！」",
 		 NULL, " That's like the total for all the characters together in a normal adventure game!!\"", Line_Normal);
@@ -296,7 +296,7 @@ void dialog010()
 		   NULL, "\"This isn't some sort of transformation. I'll have you know I've always been a Demon Lord!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100247", 256, TRUE);
 	OutputLine(NULL, "　そして、俺が抑圧された悪夢の中で手に入れた闇の力は、まさに無限大で無量大数！！",
-		   NULL, " And the dark power I obtained during my suppressed nightmare truly knows no bounds!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " And the dark power I obtained during my suppressed nightmare truly knows no bounds!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100248", 256, TRUE);
 	OutputLine(NULL, "　俺の俺による俺のために作り出したこの闇の世界では、俺に逆らうことは何人にもかなわぬのだー！！！！」",
@@ -313,7 +313,7 @@ void dialog011()
 		   NULL, "\"Maebara-sama, you're the best~~!!!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000114", 256, TRUE);
 	OutputLine(NULL, "　その後はバニーさんにコンパニオンに、いえいえ、レオタード姿もいいですねぇ！！",
-		   NULL, " How about a bunny girl, or booth babe costu-- no no, a leotard could be good too!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " How about a bunny girl, or booth babe costu-- no no, a leotard could be good too!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000115", 256, TRUE);
 	OutputLine(NULL, "　いやいや！！",
@@ -330,7 +330,7 @@ void dialog011()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000117", 256, TRUE);
 	OutputLine(NULL, "　も、もちろん、靴下は残すのでありまっす！！！」",
-		   NULL, " B-But of course, leave the socks on!!!\"", Line_Normal);
+		   NULL, "B-But of course, leave the socks on!!!\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -396,7 +396,7 @@ void dialog015()
 //　お疲れ様会の度に＠　立ち絵がなく、慰労の一杯にすらありつけなかった俺の!w800/
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100243", 256, TRUE);
 	OutputLine(NULL, "　お疲れ様会の度に！",
-		   NULL, " Every. Afterparty.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Every. Afterparty. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100244", 256, TRUE);
 	OutputLine(NULL, "　常に居残りになって、慰労の一杯にすらありつけなかった俺の",
@@ -439,7 +439,7 @@ void dialog015()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100245", 256, TRUE);
 	OutputLine(NULL, "　今こそ教えてくれるぜえええぇえぇ！！！」",
-		   NULL, " I shall instill it all upon you!!!\"", Line_Continue);
+		   NULL, "I shall instill it all upon you!!!\"", Line_Continue);
 }
 
 
@@ -493,7 +493,7 @@ void dialog016()
 		   NULL, " Wa-wait, you can't use that big one!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100283", 256, TRUE);
 	OutputLine(NULL, "　えぇえ？！",
-		   NULL, " Huuuh!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Huuuh!? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100284", 256, TRUE);
 	OutputLine(NULL, "　は、早すぎるッ？！",
