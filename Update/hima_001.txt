@@ -1485,7 +1485,7 @@ void main()
 
 
 //「邪魔する気はなかったからな＠廊下で待たせてもらったよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Stepfather</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Father-in-law</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/lfar00001", 256, TRUE);
 	OutputLine(NULL, "「邪魔する気はなかったからな。",
 		   NULL, "\"I didn't want to intrude.", Line_WaitForInput);
@@ -1504,7 +1504,7 @@ void main()
 
 
 //「聞き耳を立てるつもりはなかったが、聞こえてしまった＠……行き給え＠雪絵はああいう娘だ＠……何があっても、自分が君の枷になることを望むまい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Stepfather</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Father-in-law</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/lfar00003", 256, TRUE);
 	OutputLine(NULL, "「聞き耳を立てるつもりはなかったが、聞こえてしまった。",
 		   NULL, "\"I didn't mean to eavesdrop, but I heard.", Line_WaitForInput);
@@ -1532,7 +1532,7 @@ void main()
 
 
 //「…君が本当にそう思うなら、…仕事が終わったら、雪絵のために時間を割きなさい＠……君が仕事を投げ出して付き添ってくれるよりも、そうした方がきっと雪絵も喜ぶだろう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Stepfather</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Father-in-law</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/lfar00007", 256, TRUE);
 	OutputLine(NULL, "「…君が本当にそう思うなら、…仕事が終わったら、雪絵のために時間を割きなさい。",
 		   NULL, "\"...If you really feel that way, ...When you're done with your work, make some time for Yukie.", Line_WaitForInput);
@@ -1551,7 +1551,7 @@ void main()
 
 
 //「君が、とても大切な仕事をしていることは私もよく知っている＠自分の仕事を誇りに思いなさい＠雪絵は、君が見事難題を解決して凱旋するのを楽しみにしている…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Stepfather</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>義父</color>", NULL, "<color=#f5e6d3>Father-in-law</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/lfar00009", 256, TRUE);
 	OutputLine(NULL, "「君が、とても大切な仕事をしていることは私もよく知っている。",
 		   NULL, "\"I know full well you do important work.", Line_WaitForInput);
