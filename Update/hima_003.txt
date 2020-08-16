@@ -1323,7 +1323,7 @@ void main()
 		   NULL, " Well, if we're being honest, Hinamizawa isn't exactly a place I like to go to.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700385", 256, TRUE);
 	OutputLine(NULL, "運賃でも弾んでもらいたい気分ですが。",
-		   NULL, " I'd at least appreciate it if you paid for cab fare. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " I'd at least appreciate it if you paid for the cab fare. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700386", 256, TRUE);
 	OutputLine(NULL, "でも、一緒に卓を囲んだ友人の頼みとあれば、断るわけには行きませんしねぇ。",
