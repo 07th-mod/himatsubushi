@@ -3631,7 +3631,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700059", 256, TRUE);
 	OutputLine(NULL, "「警官が来る前に、お前ン額にもッパツくれちゃる方が早いんね。",
-		   NULL, "\"It'll be quicker ta put on thru yer 'ead afore the cops get 'ere.", Line_WaitForInput);
+		   NULL, "\"It'll be quicker ta put one thru yer 'ead afore the cops get 'ere.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700060", 256, TRUE);
 	OutputLine(NULL, "無駄な殺生すなっちゅ、本家にゆわれとんかー加減しとんね。",
 		   NULL, " But tha family said no needless killin', so I'm taking it easy on ya.", Line_WaitForInput);
