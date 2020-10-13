@@ -386,10 +386,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700595", 256, TRUE);
 	OutputLine(NULL, "「君が、犬飼寿樹くん？",
-		   NULL, "\"Are you Toshiki Inugai?", Line_WaitForInput);
+		   NULL, "\"Are you Toshiki Inukai-kun?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700596", 256, TRUE);
 	OutputLine(NULL, "　犬飼建設大臣のお孫さん？」",
-		   NULL, " The grandson of the Minister of Construction, Inugai?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " The grandson of the Minister of Construction, Inukai?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -478,7 +478,7 @@ void main()
 		   NULL, " since it seems that one of them still has a gun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700602", 256, TRUE);
 	OutputLine(NULL, "それから犬飼くんを保護して、赤坂さんはすぐに病院に行かないと。」",
-		   NULL, " After that, let's get Inugai-kun to safety and get you to the hospital.\"", Line_Normal);
+		   NULL, " After that, let's get Inukai-kun to safety and get you to the hospital.\"", Line_Normal);
 	ClearMessage();
 
 

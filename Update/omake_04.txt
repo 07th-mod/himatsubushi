@@ -2173,7 +2173,7 @@ void main()
 		   NULL, "\"Wait, Maebara-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000119", 256, TRUE);
 	OutputLine(NULL, "…いえ、Ｋ。",
-		   NULL, " ...no, K.", Line_WaitForInput);
+		   NULL, " ...No, K.", Line_WaitForInput);
 
 	PlaySE( 3, "wa_010", 56, 64 );
 

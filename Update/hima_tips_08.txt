@@ -54,7 +54,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kataoka44003", 256, TRUE);
 	OutputLine(NULL, "「犬飼大臣は公安の動きに不快感を顕わにしているらしい。",
-		   NULL, "\"It seems that Minister Inugai is openly uncomfortable about the way Public Safety is doing things.", Line_Continue);
+		   NULL, "\"It seems that Minister Inukai is openly uncomfortable about the way Public Safety is doing things.", Line_Continue);
 	Wait( 4000 );
 	OutputLine(NULL, "多分、月曜の庁議で次官からその旨の話が出るんじゃないかと思う。",
 		   NULL, " The Vice-Minister is probably going to say something to that effect during Monday's debate session. ", GetGlobalFlag(GLinemodeSp));
