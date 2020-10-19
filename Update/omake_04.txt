@@ -2693,7 +2693,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	//PlaySE( 4, "s20/02/440200345", 56, 64 );
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。",
-		   NULL, " When you challenge those... this work will become a proper game.", Line_Normal);
+		   NULL, "When you challenge those... this work will become a proper game.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
