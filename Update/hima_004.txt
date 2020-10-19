@@ -2248,7 +2248,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps2/11/100700774", 540, TRUE);
 	OutputLine(NULL, "「雛見沢村のお祭りの「綿流し」ってのはそもそも、……ワタ流し、つまり、臓物流しから転じたものらしいんです。",
-		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting,'  seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"The festival in Hinamizawa village--Watanagashi... the 'Cotton Drifting,' seems to stem from the drifting of entrails. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps2/11/100700775", 540, TRUE);
