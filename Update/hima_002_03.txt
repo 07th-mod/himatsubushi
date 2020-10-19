@@ -5441,7 +5441,7 @@ void main()
 //…ひょっとして、警視庁の公安部の人ってことはある？」/
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400081", 256, TRUE);
 	OutputLine(NULL, "…ひょっとして、警視庁の公安部の人ってことはある？」",
-		   NULL, "...Could you possibly be somebody from the Metropolitan Public Safety Division?\"", Line_Continue);
+		   NULL, " ...Could you possibly be somebody from the Metropolitan Public Safety Division?\"", Line_Continue);
 
 
 	PlaySE( 3, "wa_024", 56, 64 );
