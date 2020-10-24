@@ -881,7 +881,7 @@ void main()
 //　雪絵の死を誰かのせいにしたかった私は、死守同盟が報復として、妻を事故に見せかけて殺したのではないかと思い込もうとした＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雪絵の死を誰かのせいにしたかった私は、死守同盟が報復として、妻を事故に見せかけて殺したのではないかと思い込もうとした。",
-		   NULL, "Wanting to blame Yukie's death on somebody, I began to think that it was an act of revenge by the Defense Alliance, that they killed my wife and made it look like an accident.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Wanting to blame Yukie's death on somebody, I began to think that it was an act of revenge by the Guardians, that they killed my wife and made it look like an accident.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

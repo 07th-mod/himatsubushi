@@ -76,7 +76,7 @@ void main()
 //　鬼ヶ淵死守同盟は、反ダムの抵抗として様々な方面に活動を展開していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟は、反ダムの抵抗として様々な方面に活動を展開していた。",
-		   NULL, "The Onigafuchi Defense Alliance was protesting the dam's construction in various ways.", Line_Normal);
+		   NULL, "The Onigafuchi Guardians was protesting the dam's construction in various ways.", Line_Normal);
 	ClearMessage();
 
 
@@ -266,7 +266,7 @@ void main()
 //　……もしも、鬼ヶ淵死守同盟が、今回の事件を起こせるような団体なら＠…ナンバーから私の身元を割らないという保証もない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もしも、鬼ヶ淵死守同盟が、今回の事件を起こせるような団体なら。",
-		   NULL, "...If the Onigafuchi Defense Alliance was behind this incident...", Line_WaitForInput);
+		   NULL, "...If the Onigafuchi Guardians was behind this incident...", Line_WaitForInput);
 	OutputLine(NULL, "…ナンバーから私の身元を割らないという保証もない。",
 		   NULL, " There was no guarantee that they wouldn't be able to find out who I was.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -552,7 +552,7 @@ void main()
 //　鬼ヶ淵死守同盟が、あれだけ過激に抵抗するということは、……それに相対する国側も、それだけの嫌らしいことをしてきたということだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟が、あれだけ過激に抵抗するということは、……それに相対する国側も、それだけの嫌らしいことをしてきたということだ。",
-		   NULL, "The reason why the Onigafuchi Defense Alliance resisted so violently... was because the government was doing unseemly things like that.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The reason why the Onigafuchi Guardians resisted so violently... was because the government was doing unseemly things like that.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2204,7 +2204,7 @@ void main()
 	OutputLine(NULL, "　…老人（牧野氏というらしい。",
 		   NULL, "...The old man (who was apparently named Makino...", Line_WaitForInput);
 	OutputLine(NULL, "…鬼ヶ淵死守同盟の会計監査の牧野氏と同一人物？）",
-		   NULL, " ...was he the same Makino that was listed as the auditor of the Onigafuchi Defense Alliance?) ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...was he the same Makino that was listed as the auditor of the Onigafuchi Guardians?) ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "が案内してくれる場所はどこも絶景で、観光の目的で訪れているわけではない私でも、うなるような景色が溢れていた。",
 		   NULL, "showed me around places that were all breathtaking.  Even though I wasn't really here for sightseeing, I couldn't help but be impressed.", Line_Normal);
@@ -2580,7 +2580,7 @@ void main()
 //　……古手神社の敷地内に、鬼ヶ淵死守同盟の事務所があると＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……古手神社の敷地内に、鬼ヶ淵死守同盟の事務所があると。",
-		   NULL, "...Within the grounds of the Furude Shrine, there were the offices of the Onigafuchi Defense Alliance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Within the grounds of the Furude Shrine, there were the offices of the Onigafuchi Guardians.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2596,7 +2596,7 @@ void main()
 	OutputLine(NULL, "　大石氏ですら、容易には踏み込めない…古手神社。",
 		   NULL, "Furude Shrine... where even Ooishi couldn't simply set foot into.", Line_WaitForInput);
 	OutputLine(NULL, "鬼ヶ淵死守同盟の本拠地。",
-		   NULL, " The main base of operations for the Onigafuchi Defense Alliance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " The main base of operations for the Onigafuchi Guardians.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

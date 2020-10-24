@@ -396,7 +396,7 @@ void main()
 //　そこは死守同盟の事務所がある、古手神社の境内へ至る石段前だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこは死守同盟の事務所がある、古手神社の境内へ至る石段前だった。",
-		   NULL, "The Defense Alliance's office was there: it was the stone steps leading up to the Furude Shrine.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The Guardians's office was there: it was the stone steps leading up to the Furude Shrine.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -539,7 +539,7 @@ void main()
 //　だから、自分の正体が割れていると知っていても、鬼ヶ淵死守同盟の本拠地に再び踏み込むことに、なぜか恐怖心がなかった……￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、自分の正体が割れていると知っていても、鬼ヶ淵死守同盟の本拠地に再び踏み込むことに、なぜか恐怖心がなかった……。",
-		   NULL, "That's why, even though I knew my cover was blown, I strangely had no qualms about setting foot into the heart of the Onigafuchi Defense Alliance's territory...", Line_Normal);
+		   NULL, "That's why, even though I knew my cover was blown, I strangely had no qualms about setting foot into the heart of the Onigafuchi Guardians's territory...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -554,7 +554,7 @@ void main()
 		   NULL, " I could see there were about 3 pavilions set up, with meeting tables and folding chairs. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "村の老人たち（いや、死守同盟の幹部？）が大いに酔っ払いながら、飲み会を繰り広げていた。",
-		   NULL, "The old folks from the village (no, the executives of the Defense Alliance?) were already quite drunkenly sharing another round of drinks.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The old folks from the village (no, the executives of the Guardians?) were already quite drunkenly sharing another round of drinks.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

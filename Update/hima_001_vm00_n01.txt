@@ -35,7 +35,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300019", 256, TRUE);
 	OutputLine(NULL, "「具体的に、鬼ヶ淵死守同盟が行った違法行為を教えていただけますか？」",
-		   NULL, "\"Could you give me a basic rundown of the types of illegal activities the Onigafuchi Defense Alliance are engaging in?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Could you give me a basic rundown of the types of illegal activities the Onigafuchi Guardians are engaging in?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

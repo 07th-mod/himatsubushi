@@ -450,7 +450,7 @@ void main()
 //　……そうさ、そもそも鬼ヶ淵死守同盟は本件とは無関係なんだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そうさ、そもそも鬼ヶ淵死守同盟は本件とは無関係なんだ。",
-		   NULL, "...After all, the Onigafuchi Defense Alliance wasn't related to the case in the first place.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...After all, the Onigafuchi Guardians wasn't related to the case in the first place.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1063,7 +1063,7 @@ void main()
 //　嘉納主任が送られてくるということは、室長は、鬼ヶ淵死守同盟クロもありうると判断したということだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　嘉納主任が送られてくるということは、室長は、鬼ヶ淵死守同盟クロもありうると判断したということだ。",
-		   NULL, "The fact that he was sending Kanou, the lead investigator, here meant that the chief had decided there was a possibility that the Onigafuchi Defense Alliance were somehow implicit in the kidnapping.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The fact that he was sending Kanou, the lead investigator, here meant that the chief had decided there was a possibility that the Onigafuchi Guardians were somehow implicit in the kidnapping.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1255,7 +1255,7 @@ void main()
 //　……鬼ヶ淵死守同盟、もしくはそれに依頼された何者かの犯行であることは疑いようもない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……鬼ヶ淵死守同盟、もしくはそれに依頼された何者かの犯行であることは疑いようもない。",
-		   NULL, "...There was no longer any doubt that Onigafuchi Defense Alliance, or somebody hired by them, were involved in the kidnapping.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...There was no longer any doubt that Onigafuchi Guardians, or somebody hired by them, were involved in the kidnapping.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

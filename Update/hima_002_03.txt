@@ -164,7 +164,7 @@ void main()
 		   NULL, "\"Today I went to the village proper.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300256", 256, TRUE);
 	OutputLine(NULL, "観光客を装うことで、村長以下の何人かの死守同盟の要人との接触に成功。",
-		   NULL, " Under the guise of a tourist, I managed to establish contact with the mayor and several other core members of the Defense Alliance. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Under the guise of a tourist, I managed to establish contact with the mayor and several other core members of the Guardians. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300257", 256, TRUE);
 	OutputLine(NULL, "何も聞き出すには至りませんでしたが、好印象を得て、明日以降への繋ぎを作ることができました。」",
@@ -207,7 +207,7 @@ void main()
 		   NULL, "\"Did you find out anything from the prefectural or local offices?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10024", 256, TRUE);
 	OutputLine(NULL, "　鬼ヶ淵死守同盟はシロっぽい？」",
-		   NULL, " Does it look as though the Onigafuchi Defense Alliance is unrelated to this incident?\"", Line_Normal);
+		   NULL, " Does it look as though the Onigafuchi Guardians is unrelated to this incident?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -535,7 +535,7 @@ void main()
 //　鬼ヶ淵死守同盟の幹部には、周辺の地域に強い影響力を持つ人間が多い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟の幹部には、周辺の地域に強い影響力を持つ人間が多い。",
-		   NULL, "Many of the executives in the Onigafuchi Defense Alliance had a lot of sway in the neighboring regions.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Many of the executives in the Onigafuchi Guardians had a lot of sway in the neighboring regions.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3718,7 +3718,7 @@ void main()
 		   NULL, "\"Then, if you would.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300383", 256, TRUE);
 	OutputLine(NULL, "………犬飼大臣の孫の誘拐に、鬼ヶ淵死守同盟が関与しているか、否かを。」",
-		   NULL, " ...Can you confirm or deny if the Onigafuchi Defense Alliance is involved with the kidnapping of Minister Inukai's grandson?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Can you confirm or deny if the Onigafuchi Guardians is involved with the kidnapping of Minister Inukai's grandson?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4076,7 +4076,7 @@ void main()
 //　鬼ヶ淵死守同盟は会社ではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟は会社ではない。",
-		   NULL, "The Onigafuchi Defense Alliance wasn't a business.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The Onigafuchi Guardians wasn't a business.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4305,7 +4305,7 @@ void main()
 //　機関紙とは、その名が示すとおり、鬼ヶ淵死守同盟が発行する機関紙である＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　機関紙とは、その名が示すとおり、鬼ヶ淵死守同盟が発行する機関紙である。",
-		   NULL, "The bulletin was, as its name implied, a bulletin published by the Onigafuchi Defense Alliance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The bulletin was, as its name implied, a bulletin published by the Onigafuchi Guardians.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4329,7 +4329,7 @@ void main()
 //　もちろん、これが鬼ヶ淵死守同盟の大きな資金源となっているのは言うまでもない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん、これが鬼ヶ淵死守同盟の大きな資金源となっているのは言うまでもない。",
-		   NULL, "Of course, it didn't have to be said that this was one of the main sources of income for the Onigafuchi Defense Alliance.", Line_Normal);
+		   NULL, "Of course, it didn't have to be said that this was one of the main sources of income for the Onigafuchi Guardians.", Line_Normal);
 	ClearMessage();
 
 
@@ -4816,7 +4816,7 @@ void main()
 //　…この男が持つ暴力団の力は、鬼ヶ淵死守同盟の暗部を司る力に他ならない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この男が持つ暴力団の力は、鬼ヶ淵死守同盟の暗部を司る力に他ならない。",
-		   NULL, "The power of that man's gang was the driving force that controlled the dark underbelly of the Onigafuchi Defense Alliance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The power of that man's gang was the driving force that controlled the dark underbelly of the Onigafuchi Guardians.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5022,7 +5022,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300389", 256, TRUE);
 	OutputLine(NULL, "「………どうして、…鬼ヶ淵死守同盟が知っているんだ…。」",
-		   NULL, "\"...How... did the Onigafuchi Defense Alliance know about that...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...How... did the Onigafuchi Guardians know about that...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5145,7 +5145,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300392", 256, TRUE);
 	OutputLine(NULL, "「それはつまり……、鬼ヶ淵死守同盟が、誘拐事件に関与している、ということ？！」",
-		   NULL, "\"That means that.... the Onigafuchi Defense Alliance were involved in the kidnapping!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"That means that.... the Onigafuchi Guardians were involved in the kidnapping!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6054,7 +6054,7 @@ void main()
 //　鬼ヶ淵死守同盟に、…自分の身元が割られているという、現実的な不安より、…正体不明の少女が、警告する非現実的な不安の方が、なぜか勝って感じられた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟に、…自分の身元が割られているという、現実的な不安より、…正体不明の少女が、警告する非現実的な不安の方が、なぜか勝って感じられた。",
-		   NULL, "Instead of the realistic worry that the Onigafuchi Defense Alliance had discovered my identity, the absurd worry brought on by the unknown girl stuck with me more.", Line_Normal);
+		   NULL, "Instead of the realistic worry that the Onigafuchi Guardians had discovered my identity, the absurd worry brought on by the unknown girl stuck with me more.", Line_Normal);
 	ClearMessage();
 
 
@@ -6095,7 +6095,7 @@ void main()
 //　鬼ヶ淵死守同盟が、今回の事件に関与している可能性が出てきたのは間違いない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟が、今回の事件に関与している可能性が出てきたのは間違いない。",
-		   NULL, "There was no mistaking that the possibility the Onigafuchi Defense Alliance were related to this case was there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "There was no mistaking that the possibility the Onigafuchi Guardians were related to this case was there.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

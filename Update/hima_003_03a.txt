@@ -427,7 +427,7 @@ void main()
 //　黒幕に鬼ヶ淵死守同盟（もしくはさらにその黒幕の園崎家）がいることは明白だが、わかってはいても、至ることは容易ではないだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　黒幕に鬼ヶ淵死守同盟（もしくはさらにその黒幕の園崎家）がいることは明白だが、わかってはいても、至ることは容易ではないだろう。",
-		   NULL, "The fact that the Onigafuchi Defense Alliance (or rather, the Sonozaki family behind them) was pulling the strings was apparent, but proving it wouldn't be easy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The fact that the Onigafuchi Guardians (or rather, the Sonozaki family behind them) was pulling the strings was apparent, but proving it wouldn't be easy.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -151,7 +151,7 @@ void main()
 		   NULL, "\"If I remember correctly, a local organization there was protesting quite violently, no?", Line_Continue);
 	Wait( 3200 );
 	OutputLine(NULL, "　鬼ヶ淵死守同盟。",
-		   NULL, " The Onigafuchi Defense Alliance.", Line_WaitForInput);
+		   NULL, " The Onigafuchi Guardians.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kataoka44011", 256, TRUE);
 	OutputLine(NULL, "確か、赤坂くんに調べてもらってたよね。」",
 		   NULL, " I think Akasaka-kun was investigating that.\"", GetGlobalFlag(GLinemodeSp));
@@ -213,7 +213,7 @@ void main()
 //「彼、村人とうまく接触できたって連絡してきました＠現地の警察とも連携できてるみたいですね。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺はちょっと要注意に感じるけどなぁ、その死守同盟。」",
-		   NULL, " ...I feel like we should pay some extra attention to this Defense Alliance.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...I feel like we should pay some extra attention to this Guardians.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442600013", 256, TRUE);

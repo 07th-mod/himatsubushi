@@ -67,7 +67,7 @@ void main()
 //　………紛れもなく、ここが鬼ヶ淵死守同盟の、本拠地であることを物語っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………紛れもなく、ここが鬼ヶ淵死守同盟の、本拠地であることを物語っていた。",
-		   NULL, "...They proclaimed that without a doubt, this was the headquarters of the Onigafuchi Defense Alliance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...They proclaimed that without a doubt, this was the headquarters of the Onigafuchi Guardians.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -333,7 +333,7 @@ void main()
 //　雛見沢ダム計画は、鬼ヶ淵死守同盟の様々なマスコミ展開により、工事の正当性を揺さぶられている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢ダム計画は、鬼ヶ淵死守同盟の様々なマスコミ展開により、工事の正当性を揺さぶられている。",
-		   NULL, "The legality of the Hinamizawa Dam Project, through the efforts of the various propaganda campaigns enacted by the Onigafuchi Defense Alliance, was being called into question.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The legality of the Hinamizawa Dam Project, through the efforts of the various propaganda campaigns enacted by the Onigafuchi Guardians, was being called into question.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -628,7 +628,7 @@ void main()
 //　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、『鬼ヶ淵死守同盟本部』と、大層立派な筆文字が描かれていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……集会所のような小屋の入口脇には、でっかい看板が立てかけてあり、「鬼ヶ淵死守同盟本部」と、大層立派な筆文字が描かれていた。",
-		   NULL, "...At the entrance of a shed that looked like a meeting place, there was a large sign erected, with \"Onigafuchi Defense Alliance Headquarters\" written in bold brush strokes.", Line_Normal);
+		   NULL, "...At the entrance of a shed that looked like a meeting place, there was a large sign erected, with \"Onigafuchi Guardians Headquarters\" written in bold brush strokes.", Line_Normal);
 	ClearMessage();
 
 
@@ -740,7 +740,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　朗らかに笑うが、…きっと怒ると怖いに違いない、そんな風貌の老人は……何と、鬼ヶ淵死守同盟の会長、…公由喜一郎氏本人だった…。",
-		   NULL, "He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Defense Alliance, none other than Kiichirou Kimiyoshi himself...", Line_Normal);
+		   NULL, "He smiled brightly... but there was no mistaking he would be scary if he got angry. By the looks of things, this old man was the president of the Onigafuchi Guardians, none other than Kiichirou Kimiyoshi himself...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 18, "sprite/ki_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1250,7 +1250,7 @@ void main()
 //　ダム計画の中止が決まっていたら、鬼ヶ淵死守同盟は活動を休止している＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム計画の中止が決まっていたら、鬼ヶ淵死守同盟は活動を休止している。",
-		   NULL, "If something like that had already been decided, then the Onigafuchi Defense Alliance would have no reason to continue existing.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If something like that had already been decided, then the Onigafuchi Guardians would have no reason to continue existing.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1406,7 +1406,7 @@ void main()
 //　鬼ヶ淵死守同盟は……大臣の孫を誘拐し、……すでに大臣との交渉に水面下で成功して…………、…ダム計画の中止の…確約を得ている……＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟は……大臣の孫を誘拐し、……すでに大臣との交渉に水面下で成功して…………、…ダム計画の中止の…確約を得ている……？",
-		   NULL, "Had the Onigafuchi Defense Alliance kidnapped the minister's grandson and already succeeded in negotiating the cancellation of the dam project?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Had the Onigafuchi Guardians kidnapped the minister's grandson and already succeeded in negotiating the cancellation of the dam project?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2385,7 +2385,7 @@ void main()
 //　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　事務所の中でお茶と塩大福をご馳走になりながら、…死守同盟が撮影した抵抗運動のプロパガンダビデオを延々と見せられた。",
-		   NULL, "While partaking of tea and snacks, I was shown a propaganda film shot by the Defense Alliance that highlighted their resistance efforts.", Line_Normal);
+		   NULL, "While partaking of tea and snacks, I was shown a propaganda film shot by the Guardians that highlighted their resistance efforts.", Line_Normal);
 	ClearMessage();
 
 
@@ -2547,7 +2547,7 @@ void main()
 //　鬼ヶ淵死守同盟の懐にうまく入り込み、…村長を始め、鬼ヶ淵村の要人たちに好意的に歓迎してもらえた＠……………大戦果のはずだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵死守同盟の懐にうまく入り込み、…村長を始め、鬼ヶ淵村の要人たちに好意的に歓迎してもらえた。",
-		   NULL, "I had successfully dove into the belly of the Onigafuchi Defense Alliance, and had the mayor as well as other important members of the Alliance welcome me with open arms.", Line_WaitForInput);
+		   NULL, "I had successfully dove into the belly of the Onigafuchi Guardians, and had the mayor as well as other important members of the Alliance welcome me with open arms.", Line_WaitForInput);
 	OutputLine(NULL, "……………大戦果のはずだ。",
 		   NULL, " ...This was a great turn of events.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
