@@ -6343,7 +6343,7 @@ void main()
 //……なははは、うちの婆さまの受け売りですがね。＠
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700184", 256, TRUE);
 	OutputLine(NULL, "……なははは、うちの婆さまの受け売りですがね。」",
-		   NULL, " ...Nahahaha, this is just what I heard from my grandmother.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Nahahaha, this is just what I heard from my mother.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
