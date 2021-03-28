@@ -12,7 +12,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "くそ…、くそくそくそ…！",
-			NULL, "Shit...Shit, shit, shit...!", Line_Normal);
+			NULL, "Shit... Shit, shit, shit...!", Line_Normal);
 	ClearMessage();
 
 //rこんなところで死ぬわけにはいかない！！

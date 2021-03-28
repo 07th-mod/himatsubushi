@@ -1178,7 +1178,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500171", 256, TRUE);
 	OutputLine(NULL, "「……これから毎年、血生臭いことが起きるのに？",
-		   NULL, "\"...Even though every year from now on,  something bloody will occur?", Line_WaitForInput);
+		   NULL, "\"...Even though every year from now on, something bloody will occur?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500172", 256, TRUE);
 	OutputLine(NULL, "　…くすくすくすくす。」",
 		   NULL, " ...Tee hee hee hee.\"", GetGlobalFlag(GLinemodeSp));
