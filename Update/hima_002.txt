@@ -122,7 +122,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　…これに便乗できればよかったが、村役場に問い合わせた所、募集はすでに終わり、次回予定も未定という答えが返ってきた。",
-		   NULL, "...I would have liked to have taken advantage of the opportunity, but when I called the village administrative offices, they responded that it was too late to put in an application for the tour, and they were still undecided as to when they'd be doing another one.", Line_Normal);
+		   NULL, "...I would have liked to have taken advantage of the opportunity, but when I called the village administrative offices, they said it was too late to apply for the tour, and they were still undecided as to when they'd be doing another one.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
