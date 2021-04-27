@@ -91,7 +91,7 @@ void main()
 //　そういう諦めを言い訳に、暑くて我慢がならなかったフード付きの薄いジャンパーを脱ぎ、マスクや帽子を脱いで後の座席に放った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そういう諦めを言い訳に、暑くて我慢がならなかったフード付きの薄いジャンパーを脱ぎ、マスクや帽子を脱いで後の座席に放った。",
-		   NULL, "Using that as an excuse, I doffed the unbearably hot hoodie and　windbreaker, ripped off the mask and hat and threw them in the seat behind me.", Line_Normal);
+		   NULL, "Using that as an excuse, I doffed the unbearably hot hoodie and windbreaker, ripped off the mask and hat and threw them in the seat behind me.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
