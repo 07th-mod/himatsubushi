@@ -1322,7 +1322,7 @@ void main()
 		   NULL, "\"At any rate, Kuraudo's hand is probably holding something like that, huh?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800009", 256, TRUE);
 	OutputLine(NULL, "　この辺なら通るだろ。",
-		   NULL, " In that case, this one oughta' go through.", Line_WaitForInput);
+		   NULL, " In that case, this one oughta go through.", Line_WaitForInput);
 
 //!s0それ！」/
 	SetSpeedOfMessage( TRUE, 128, );
@@ -3515,7 +3515,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700338", 256, TRUE);
 	OutputLine(NULL, "「んじゃ、今度の勝負で少し手加減してもらえたらチャラにしますよ。",
-		   NULL, "\"'kay. If you go easy on me the next time, we'll be even.", Line_WaitForInput);
+		   NULL, "\"'Kay. If you go easy on me the next time, we'll be even.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700009", 256, TRUE);
 	OutputLine(NULL, "なっはっはっは！」",
 		   NULL, " Na ha ha ha!\"", Line_Normal);
@@ -4953,7 +4953,7 @@ void main()
 		   NULL, " That makes us even.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s05/17/102300006", 256, TRUE);
 	OutputLine(NULL, "…くっくっくっく！」",
-		   NULL, " ...keh keh keh keh!\"", Line_Normal);
+		   NULL, " ...Keh keh keh keh!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
