@@ -839,7 +839,7 @@ void main()
 //　去るのみの自分に何か危害が加えられる可能性は、常識的に考えてとても低い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　去るのみの自分に何か危害が加えられる可能性は、常識的に考えてとても低い。",
-		   NULL, "With the only thing left for me to do being to leave, the chance that I would come to harm was logically fairly low.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "With leaving being the only thing left for me to do, the chance that I would come to harm was logically fairly low.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
