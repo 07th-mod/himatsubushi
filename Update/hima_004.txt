@@ -3395,7 +3395,7 @@ void main()
 //　……少女の死は、就寝中にガスで死んだなどいう事故でなく＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……少女の死は、就寝中にガスで死んだなどいう事故でなく。",
-		   NULL, "...She hadn't died in her sleep due to an natural disaster.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...She hadn't died in her sleep due to a natural disaster.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
