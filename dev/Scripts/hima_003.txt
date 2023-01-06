@@ -872,7 +872,7 @@
 
 //　嘉納主任が送られてくるということは、室長は、鬼ヶ淵死守同盟クロもありうると判断したということだ＠
 	OutputLine(NULL, "　嘉納主任が送られてくるということは、室長は、鬼ヶ淵死守同盟クロもありうると判断したということだ。",
-		   NULL, "The fact that he was sending Kanou, the lead investigator, here meant that the chief had decided there was a possibility that the Onigafuchi Defense Alliance were somehow implicit in the kidnapping.", Line_WaitForInput);
+		   NULL, "The fact that he was sending Kanou, the lead investigator, here meant that the chief had decided there was a possibility that the Onigafuchi Defense Alliance were somehow complicit in the kidnapping.", Line_WaitForInput);
 	OutputLineAll(NULL, " \n", Line_ContinueAfterTyping);
 
 
