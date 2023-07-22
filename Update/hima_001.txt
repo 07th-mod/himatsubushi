@@ -3282,7 +3282,7 @@ void main()
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300043", 256, TRUE);
 	OutputLine(NULL, "…ダム計画を頓挫させるため、",
 		   NULL, " In order to halt the dam project...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300044", 256, TRUE);
+	ModPlayVoiceLS(4, 13, "org/s05/13/101300044_org", 256, TRUE);
 	OutputLine(NULL, "…………例えば、要人を脅迫するようなことは考えられますか？」",
 		   NULL, " ...Do you think they could, say, threaten somebody important to accomplish that?\"", Line_Normal);
 	ClearMessage();
@@ -5358,17 +5358,17 @@ void main()
 
 //「園崎家の頂点は、現頭首の園崎お魎っていう婆さんです＠……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです＠気をつけて下さいよ、大物です＠市長だって最敬礼でお迎えするようなＶＩＰですからね＠……まぁ雛見沢と周辺の町に住む村の親族の数千の票田を固めてるわけですから、政治家は頭、上がらないんでしょうが＠んっふっふっふ！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700109", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi3000", 256, TRUE);
 	OutputLine(NULL, "「園崎家の頂点は、現頭首の園崎お魎っていう婆さんです。",
 		   NULL, "\"The current head of the Sonozaki family is an old lady named Oryou.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/100700110", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi3001", 256, TRUE);
 	OutputLine(NULL, "……園崎天皇なんて呼ばれるくらいにその発言には影響力があるそうです。",
 		   NULL, " ...She has enough clout that you could call her 'Empress Sonozaki.' ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700111", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi3002", 256, TRUE);
 	OutputLine(NULL, "気をつけて下さいよ、大物です。",
 		   NULL, "Be careful, she's no small fry.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700112", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi3003", 256, TRUE);
 	OutputLine(NULL, "市長だって最敬礼でお迎えするようなＶＩＰですからね。",
 		   NULL, " She's enough of a VIP that even the mayor of the city has to bow before her. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }

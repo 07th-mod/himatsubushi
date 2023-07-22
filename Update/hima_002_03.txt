@@ -3635,7 +3635,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400053", 256, TRUE);
 	OutputLine(NULL, "麻雀やってからすっかり雰囲気が大人びちまったな！",
 		   NULL, " Ever since we played mahjong, you seem a lot more mature!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400054", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/s05/00/104400054_org", 256, TRUE);
 	OutputLine(NULL, "　会った時のあのオドオドしたあんたはどこ行っちゃったんだよ。」",
 		   NULL, " I wonder where that hesitant person went, from when we first met.\"", Line_Normal);
 	ClearMessage();
