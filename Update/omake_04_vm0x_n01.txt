@@ -201,7 +201,7 @@ void dialog005()
 		   NULL, " makes a total of-\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音＆詩音</color>", NULL, "<color=#5ec69a>Mion & Shion</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>＆<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Mion</color> & <color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600178", 256, TRUE);
 	ModPlayVoiceLS(5, 6, "ps3/s20/03/440300452", 256, TRUE);
 	OutputLine(NULL, "「うわぁぁあぁんん、聞きたくない、聞きたくないぃぃっっ！！」",
