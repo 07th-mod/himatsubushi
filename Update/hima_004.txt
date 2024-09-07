@@ -4139,6 +4139,8 @@ void main()
 
 	DisableWindow();
 	DrawBustshot(4, "scene/203b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 1000, TRUE );
+	if (GetGlobalFlag(GHideCG)) {ModSetLayerFilter(1, 179, "none");}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 27, "sprite/rim_warai", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );}
 
 //  梨花rvs05/27/rikaDS22001.「…赤坂。kvs05/27/rikaDS22002.泣かないでくださいなのです」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

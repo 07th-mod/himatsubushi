@@ -1758,6 +1758,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("scene/038c", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/jansou", 1000 );}
 
 
 //「……大石さん、ソーズがコスいですね＠回しますか？＠
@@ -1992,6 +1993,7 @@ void main()
 	Wait( 200 );
 	PlaySE( 3, "wa_006", 56, 64 );
 	DrawScene("scene/038b", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/jansou", 1000 );}
 
 //「…ヌルいですね＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -2278,6 +2280,7 @@ void main()
 	Wait( 200 );
 	PlaySE( 3, "wa_015", 56, 64 );
 	DrawScene("scene/038b", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/jansou", 1000 );}
 
 //「ポン＠…………ポン＠……気前がいいですね、もう一回ポンです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }

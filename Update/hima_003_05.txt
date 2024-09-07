@@ -1039,6 +1039,9 @@ void main()
 		   NULL, "But, deliberately building a dam on land that was loved by its residents wasn't something I could get behind.", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 27, "sprite/rim_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask("background/jyt1", "up", 0, 0, 300 );}
 
 //「でも、…よかったじゃないか。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -1050,6 +1053,7 @@ void main()
 
 	DisableWindow();
 	DrawScene("scene/011d", 1000 );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 27, "sprite/rim_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
 
 //「……どうしてですか？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1166,6 +1170,7 @@ void main()
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	DrawScene("scene/011e", 1000 );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 27, "sprite/rim_niyari_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
 
 //　そして、…目を少しだけ細めて、くすり…と笑った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1213,6 +1218,7 @@ void main()
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	DrawScene("scene/011d", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/moon", 1000 );}
 	PlayBGM( 1, "msys31", 56, 0 );
 
 //「私ね＠………………あと何年かすると、!d1000殺されるの。￥
@@ -1533,6 +1539,7 @@ void main()
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	DrawScene("scene/011f", 1000 );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 27, "sprite/rim_niyari_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
 
 //「……私が殺されます。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
