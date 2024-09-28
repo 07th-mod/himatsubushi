@@ -2689,7 +2689,7 @@ void main()
 	//PlaySE( 4, "s20/02/440200344", 56, 64 );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……ですが、ご存知の通り、劇中にはたくさんの謎が提示されています。",
-		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...That's why, as you know, there are a lot of mysteries referenced during the course of the experience. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	//PlaySE( 4, "s20/02/440200345", 56, 64 );
 	OutputLine(NULL, "それらに挑もうとした時、…この作品は初めてゲームとなるのです。",
