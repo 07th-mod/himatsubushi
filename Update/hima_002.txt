@@ -2304,7 +2304,7 @@ void main()
 		   NULL, " Once she's discharged from the hospital, I'd like to bring my wife here at least once.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300189", 256, TRUE);
 	OutputLine(NULL, "……その時には生まれている、子どもも一緒にね。」",
-		   NULL, " ...With the child that would born by that time.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...With the child that would be born by that time.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
