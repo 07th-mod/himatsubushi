@@ -6422,7 +6422,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700191", 256, TRUE);
 	OutputLine(NULL, "「人食い鬼たちはですね。",
-		   NULL, "\"You see,  these human-devouring demons...", Line_WaitForInput);
+		   NULL, "\"You see, these human-devouring demons...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700192", 256, TRUE);
 	OutputLine(NULL, "普段は仙人と崇められて、ひっそりと暮らしているんですがね。",
 		   NULL, " Normally they were revered as Taoist 'transcendents,' and lived tucked away from the rest of the world. ", GetGlobalFlag(GLinemodeSp));

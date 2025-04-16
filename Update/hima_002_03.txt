@@ -1177,7 +1177,7 @@ void main()
 		   NULL, " Akemi-chaaaan!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700268", 256, TRUE);
 	OutputLine(NULL, "　むっはっはっはっは！！",
-		   NULL, " Mua ha ha ha !!", Line_WaitForInput);
+		   NULL, " Mua ha ha ha!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700269", 256, TRUE);
 	OutputLine(NULL, "　サトさんはどうします？」",
 		   NULL, " What about you, Sato-san?\"", Line_Normal);
@@ -5680,6 +5680,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/mionf00005", 256, TRUE);
 	OutputLine(NULL, "「…えぇ。」",
 		   NULL, "\"...Yeah.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
 	ModDrawCharacter(1, 27, "sprite/rim_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );

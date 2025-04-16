@@ -192,7 +192,7 @@ void main()
 		   NULL, "\"Well, they're not the only group we should investigate, right?", Line_Continue);
 	Wait( 2800 );
 	OutputLine(NULL, "　あははは！",
-		   NULL, " Ahahaha!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ahahaha! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442600011", 256, TRUE);
 	OutputLine(NULL, "鬼ヶ淵と同じ程度のレベルで疑わしい団体になると、もう相当の数になりますよ。",

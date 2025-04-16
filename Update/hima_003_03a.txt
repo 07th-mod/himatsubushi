@@ -53,7 +53,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700064", 256, TRUE);
 	OutputLine(NULL, "「叫ばんとでも撃たんね！！",
-		   NULL, "\"I won' shoot 'slong as ya don' yell or nuthin' !", Line_WaitForInput);
+		   NULL, "\"I won' shoot 'slong as ya don' yell or nuthin'!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700065", 256, TRUE);
 	OutputLine(NULL, "　大人しゅぅ頭抱えてうつ伏せになったら、撃たんだるね！！」",
 		   NULL, " Jes quietly put yer 'ands on yer 'ead and lie down!!\"", GetGlobalFlag(GLinemodeSp));
