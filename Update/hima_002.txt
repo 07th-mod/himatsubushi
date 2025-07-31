@@ -542,7 +542,7 @@ void main()
 //　…ほら、旅人からマントを奪おうとする北風とお日様のおとぎ話があるじゃないか＠……こんな意地悪をしたって、何の意味もないのに￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ほら、旅人からマントを奪おうとする北風とお日様のおとぎ話があるじゃないか。",
-		   NULL, "...It was like the fairy tale with the North Wind and the Sun trying to get the traveler remove his cloak.", Line_WaitForInput);
+		   NULL, "...It was like the fairy tale with the North Wind and the Sun trying to get the traveler to remove his cloak.", Line_WaitForInput);
 	OutputLine(NULL, "……こんな意地悪をしたって、何の意味もないのに。",
 		   NULL, " ...Even their bullying had meaning to it.", Line_Normal);
 	ClearMessage();
