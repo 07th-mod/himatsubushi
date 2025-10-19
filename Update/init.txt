@@ -337,5 +337,7 @@ void main()
 		1  // GAltSEFlow
 	);
 
+	ModGenericCall("ShowChoiceModeOption", "1");
+
 	CallScript( "flow" );
 }
