@@ -1499,10 +1499,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700467", 256, TRUE);
 	OutputLine(NULL, "「今から緊張したって仕方ないですよ。",
-		   NULL, "\"Suppose it's normal if you're nervous from here on out.", Line_WaitForInput);
+		   NULL, "\"There's no point getting tense now.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700468", 256, TRUE);
 	OutputLine(NULL, "むしろ、収穫がなくて勇み足って可能性だって充分にあるんですから。」",
-		   NULL, " But if you don't deal with it, there's a chance you might do something rash.\"", Line_Normal);
+		   NULL, " If anything, it's more likely that we'll come up empty-handed and this will all just be a wild goose chase.\"", Line_Normal);
 	ClearMessage();
 
 
