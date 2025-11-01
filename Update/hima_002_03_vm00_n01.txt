@@ -116,7 +116,7 @@ void dialog009()
 		   NULL, "\"This ol' lech here likes that place too~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700266", 256, TRUE);
 	OutputLine(NULL, "　私はもちろん花びら大回転なお店をハシゴしまくりですよ？",
-		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming! ", Line_WaitForInput);
+		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming!", Line_WaitForInput);
 	OutputLine(NULL, "　べろべろべろ〜〜！！！",
 		   NULL, " Slurp slurp slurp~~!!!", Line_WaitForInput);
 }
