@@ -1165,16 +1165,12 @@ void main()
 
 //「あぁ、女の子が体操服にメイドさんな格好で出てくるってお店＠　おやっさんも好きだなぁ～！＠　私はもちろん花びら大回転なお店をハシゴしまくりですよ＠　べろべろべろ～～！！＠　むっはっはっはっは！＠　サトさんはどうします？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700265", 256, TRUE);
-	OutputLine(NULL, "「おやっさんも好きだなぁ〜！！",
-		   NULL, "\"This ol' lech here likes that place too~!!", Line_WaitForInput);
+	
 	//VoiceMatching
 	if(GetGlobalFlag(GCensor) >= 4){ModCallScriptSection("hima_002_03_vm0x_n01","dialog009");}
 	if(GetGlobalFlag(GCensor) <= 3){ModCallScriptSection("hima_002_03_vm00_n01","dialog009");}
 	//VoiceMatchingEnd
-	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700267", 256, TRUE);
-	OutputLine(NULL, "　アケミちゃ〜〜ん！！！",
-		   NULL, " Akemi-chaaaan!!!", Line_WaitForInput);
+
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700268", 256, TRUE);
 	OutputLine(NULL, "　むっはっはっはっは！！",
 		   NULL, " Mua ha ha ha!!", Line_WaitForInput);
