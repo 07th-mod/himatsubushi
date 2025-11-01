@@ -108,9 +108,15 @@ void dialog008()
 
 void dialog009()
 {
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700265", 256, TRUE);
+	OutputLine(NULL, "「おやっさんも好きだなぁ〜！！",
+		   NULL, "\"This ol' lech here likes that place too~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700266", 256, TRUE);
 	OutputLine(NULL, "　私はもちろん馴染みの店をハシゴしまくりですよ？",
-		   NULL, " Of course, we're going to hop between all the favorite places! ", Line_WaitForInput);
+		   NULL, " Of course, we're going to hop between all the favorite places!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700267", 256, TRUE);
+	OutputLine(NULL, "　アケミちゃ〜〜ん！！！",
+		   NULL, " Akemi-chaaaan!!!", Line_WaitForInput);
 }
 
 void dialog010()
