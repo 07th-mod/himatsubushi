@@ -110,10 +110,11 @@ void dialog008()
 void dialog009()
 {
 	OutputLine(NULL, "「あぁ、女の子が体操服にメイドさんな格好で出てくるってお店？",
-		   NULL, "\"Oh, that place where the girls dress up in gym clothes and maid uniforms?", Line_WaitForInput);
+		   NULL, "\"Oh, that place where the girls dress up in gym clothes and maid uniforms? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700265", 256, TRUE);
 	OutputLine(NULL, "「おやっさんも好きだなぁ〜！！",
-		   NULL, "\"This ol' lech here likes that place too~!!", Line_WaitForInput);
+		   NULL, "This ol' lech here likes that place too~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700266", 256, TRUE);
 	OutputLine(NULL, "　私はもちろん花びら大回転なお店をハシゴしまくりですよ？",
 		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming!", Line_WaitForInput);
