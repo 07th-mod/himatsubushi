@@ -238,10 +238,10 @@ void main()
 
 	PlaySE( 3, "wa_015", 56, 64 );
 
-//　大石氏は背後から銃を持った腕を掴み上げ、瞬時に間接を極めてしまう＠
+//　大石氏は背後から銃を持った腕を掴み上げ、瞬時に関節を極めてしまう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　大石氏は背後から銃を持った腕を掴み上げ、瞬時に間接を極めてしまう。",
-		   NULL, "Ooishi forcefully lifted the arm that was holding the gun.", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "　大石氏は背後から銃を持った腕を掴み上げ、瞬時に関節を極めてしまう。",
+		   NULL, "Ooishi grabbed the arm holding the gun from behind and instantly pulled the joint to its limit.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

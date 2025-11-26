@@ -2388,7 +2388,7 @@ void main()
 //　…そう思えば思うほど、妻の出産を控えたこの時期に東京を離れるのが残念でならない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そう思えば思うほど、妻の出産を控えたこの時期に東京を離れるのが残念でならない。",
-		   NULL, "...Even if that was true, I couldn't regret being away from Tokyo while my wife was ready to give birth.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The more I think on it, the more I regret being away from Tokyo while my wife is ready to give birth.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5734,7 +5734,7 @@ void main()
 //　だが、…我々は常に、一般警察などザルだと教えられている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、…我々は常に、一般警察などザルだと教えられている。",
-		   NULL, "We were always taught, however, that the rank-and-file police were no better than monkeys.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "We were always taught, however, that the rank-and-file police had loose lips.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5800,7 +5800,7 @@ void main()
 //　…その意味では、大石氏は少なくともザルではなさそうだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その意味では、大石氏は少なくともザルではなさそうだった。",
-		   NULL, "...In that regard, it seemed that Ooishi wasn't one of those monkeys.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...In that regard, it seemed that Ooishi wasn't one to slip up and leak intel.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

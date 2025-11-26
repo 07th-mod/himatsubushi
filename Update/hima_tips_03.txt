@@ -337,7 +337,7 @@ void main()
 //　火事になっても、自分の家に燃え移る家と、燃え移らない全然関係のない家があるってこと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　火事になっても、自分の家に燃え移る家と、燃え移らない全然関係のない家があるってこと。",
-		   NULL, "Even if it turned into a huge conflagration, there's no relation between the houses that will spread fire to yours and those that won't.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Even if it turns into a huge conflagration, there are houses that can spread fire to yours, and those that can’t.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -351,7 +351,7 @@ void main()
 //　……そういったことが、何も川を隔てなくても世の中にはたくさんあるってこと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そういったことが、何も川を隔てなくても世の中にはたくさんあるってこと。",
-		   NULL, "...Having said that, there's still a lot to think about, even without a river to divide it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Many such things exist in the world, even without a river to divide them.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

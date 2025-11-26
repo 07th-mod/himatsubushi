@@ -4473,7 +4473,7 @@ void main()
 //　そして何より。あの事件への関心が再び呼び起こされ、…風化されないことを何より強く願う￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして何より。あの事件への関心が再び呼び起こされ、…風化されないことを何より強く願う。",
-		   NULL, "And more importantly: that nothing like this ever happens again.", Line_Normal);
+		   NULL, "And more importantly: that interest in the case can be awakened again and won’t fade away.", Line_Normal);
 	ClearMessage();
 
 
